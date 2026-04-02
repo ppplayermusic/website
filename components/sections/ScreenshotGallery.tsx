@@ -5,32 +5,32 @@ import { motion } from 'framer-motion'
 const screens = [
   {
     label: 'Home',
-    gradient: 'from-purple-900/80 via-[#0d0d1a] to-[#0a0a18]',
-    accent: 'from-purple-600 to-pink-500',
+    gradient: 'from-red-900/80 via-[#0a0608] to-[#0a0608]',
+    accent: 'from-red-600 to-rose-500',
     items: 4,
   },
   {
     label: 'Artist',
-    gradient: 'from-pink-900/70 via-[#0d0d1a] to-[#0a0a18]',
-    accent: 'from-pink-600 to-rose-500',
+    gradient: 'from-rose-900/70 via-[#0a0608] to-[#0a0608]',
+    accent: 'from-rose-600 to-red-500',
     items: 3,
   },
   {
     label: 'Player',
-    gradient: 'from-blue-900/70 via-[#0d0d1a] to-[#0a0a18]',
-    accent: 'from-blue-600 to-violet-500',
+    gradient: 'from-red-950/70 via-[#0a0608] to-[#0a0608]',
+    accent: 'from-red-700 to-orange-600',
     items: 2,
   },
   {
     label: 'Genres',
-    gradient: 'from-violet-900/70 via-[#0d0d1a] to-[#0a0a18]',
-    accent: 'from-violet-600 to-purple-500',
+    gradient: 'from-orange-950/70 via-[#0a0608] to-[#0a0608]',
+    accent: 'from-orange-600 to-red-600',
     items: 5,
   },
   {
     label: 'Playlists',
-    gradient: 'from-emerald-900/60 via-[#0d0d1a] to-[#0a0a18]',
-    accent: 'from-emerald-500 to-teal-500',
+    gradient: 'from-rose-950/60 via-[#0a0608] to-[#0a0608]',
+    accent: 'from-rose-500 to-red-400',
     items: 3,
   },
 ]
@@ -78,7 +78,7 @@ function PhoneMockup({
               <div
                 className="w-6 h-6 rounded-lg flex-shrink-0"
                 style={{
-                  background: `linear-gradient(135deg, hsl(${260 + i * 25}, 55%, 48%), hsl(${300 + i * 20}, 55%, 43%))`,
+                  background: `linear-gradient(135deg, hsl(${350 + i * 5}, 85%, 55%), hsl(${10 + i * 10}, 85%, 45%))`,
                   opacity: 0.8 - i * 0.1,
                 }}
               />
@@ -110,7 +110,7 @@ export default function ScreenshotGallery() {
           transition={{ duration: 0.6 }}
           className="text-center mb-14"
         >
-          <p className="text-purple-400 font-semibold text-sm uppercase tracking-widest mb-3">App Preview</p>
+          <p className="text-red-500 font-semibold text-sm uppercase tracking-widest mb-3">App Preview</p>
           <h2 className="text-4xl sm:text-5xl font-black tracking-tight mb-4">
             See it{' '}
             <span className="gradient-text">in action</span>

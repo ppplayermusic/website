@@ -64,7 +64,7 @@ export default function FeaturesGrid() {
               'from-red-500 to-rose-600',
               'from-rose-500 to-red-600',
               'from-red-600 to-orange-500',
-              'from-rose-600 to-pink-500',
+              'from-rose-600 to-red-500',
               'from-red-500 to-slate-500',
               'from-orange-600 to-red-500',
             ]
