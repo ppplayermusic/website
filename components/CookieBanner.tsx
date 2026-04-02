@@ -6,7 +6,7 @@ import { Cookie } from "lucide-react"
 
 declare global {
   interface Window {
-    gtag: (...args: any[]) => void;
+    gtag: (...args: unknown[]) => void;
   }
 }
 
