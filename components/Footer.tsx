@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { Download } from 'lucide-react'
 import { DOWNLOAD_LINKS, SITE_TAGLINE } from '@/lib/constants'
@@ -27,9 +28,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-3">
-              <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-purple-600 to-pink-500 flex items-center justify-center shadow-lg shadow-purple-500/30">
-                <span className="text-white font-black text-sm">P</span>
-              </div>
+              <Image
+                src="/logo.png"
+                alt="PPPlayer Logo"
+                width={32}
+                height={32}
+                className="rounded-xl shadow-lg shadow-red-700/30"
+              />
               <span className="text-white font-black text-xl tracking-tight">
                 PP<span className="gradient-text">Player</span>
               </span>
