@@ -1,7 +1,8 @@
 'use client'
 
+import React from 'react'
 import { motion, type Variants } from 'framer-motion'
-import { Star } from 'lucide-react'
+import { Star, Check, Radio, ShieldOff, Gift } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
 
@@ -71,16 +72,19 @@ export default function HeroSection() {
 
             {/* Trust chips */}
             <motion.div variants={item} className="flex flex-wrap gap-2">
-              {['✓ 100% Free', '✓ No Account Required', '✓ iOS · Android · Windows'].map(
-                (chip) => (
-                  <span
-                    key={chip}
-                    className="px-4 py-1.5 rounded-full text-sm text-slate-300 border border-white/10 bg-white/5 backdrop-blur-sm"
-                  >
-                    {chip}
-                  </span>
-                )
-              )}
+              {([
+                { label: '100% Free', icon: <Check size={13} strokeWidth={2.5} /> },
+                { label: 'No Account Required', icon: <Check size={13} strokeWidth={2.5} /> },
+                { label: 'iOS · Android · Windows', icon: <Check size={13} strokeWidth={2.5} /> },
+              ] as { label: string; icon: React.ReactNode }[]).map((chip) => (
+                <span
+                  key={chip.label}
+                  className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-sm text-slate-300 border border-white/10 bg-white/5 backdrop-blur-sm"
+                >
+                  <span className="text-red-400">{chip.icon}</span>
+                  {chip.label}
+                </span>
+              ))}
             </motion.div>
 
             {/* Download buttons */}
@@ -171,23 +175,26 @@ export default function HeroSection() {
               <motion.div
                 animate={{ y: [0, -6, 0] }}
                 transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
-                className="absolute -left-8 top-1/4 px-3 py-1.5 rounded-xl glass border border-white/10 text-xs font-semibold text-purple-300 shadow-xl"
+                className="absolute -left-8 top-1/4 px-3 py-1.5 rounded-xl glass border border-white/10 text-xs font-semibold text-red-300 shadow-xl flex items-center gap-1.5"
               >
-                🆓 Free
+                <Gift size={12} strokeWidth={2} />
+                Free
               </motion.div>
               <motion.div
                 animate={{ y: [0, 6, 0] }}
                 transition={{ duration: 3.5, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
-                className="absolute -right-8 top-1/3 px-3 py-1.5 rounded-xl glass border border-white/10 text-xs font-semibold text-pink-300 shadow-xl"
+                className="absolute -right-8 top-1/3 px-3 py-1.5 rounded-xl glass border border-white/10 text-xs font-semibold text-red-300 shadow-xl flex items-center gap-1.5"
               >
-                🎵 Artist Radio
+                <Radio size={12} strokeWidth={2} />
+                Artist Radio
               </motion.div>
               <motion.div
                 animate={{ y: [0, -4, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
-                className="absolute -left-6 bottom-1/4 px-3 py-1.5 rounded-xl glass border border-white/10 text-xs font-semibold text-blue-300 shadow-xl"
+                className="absolute -left-6 bottom-1/4 px-3 py-1.5 rounded-xl glass border border-white/10 text-xs font-semibold text-red-300 shadow-xl flex items-center gap-1.5"
               >
-                🚫 No Login
+                <ShieldOff size={12} strokeWidth={2} />
+                No Login
               </motion.div>
             </div>
           </motion.div>
