@@ -31,7 +31,7 @@ export function Button({
 
   const variants = {
     gradient:
-      'bg-gradient-to-r from-purple-600 via-pink-500 to-blue-500 text-white shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40 hover:scale-[1.02] active:scale-[0.98]',
+      'bg-gradient-to-r from-red-600 via-rose-500 to-red-700 text-white shadow-lg shadow-red-600/30 hover:shadow-red-600/50 hover:scale-[1.02] active:scale-[0.98]',
     ghost:
       'bg-transparent text-slate-300 hover:text-white hover:bg-white/5',
     outline:

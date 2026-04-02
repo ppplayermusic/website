@@ -72,7 +72,7 @@ export default function PrivacyPage() {
               <h2 className="text-white text-xl font-bold mb-3">9. Contact</h2>
               <p>
                 Questions about this policy? Contact us at{' '}
-                <a href="mailto:contact@ppplayer.com" className="text-purple-400 hover:text-purple-300">
+                <a href="mailto:contact@ppplayer.com" className="text-red-400 hover:text-red-300">
                   contact@ppplayer.com
                 </a>
               </p>
@@ -80,7 +80,7 @@ export default function PrivacyPage() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-white/8">
-            <Link href="/" className="text-purple-400 hover:text-purple-300 text-sm font-medium">
+            <Link href="/" className="text-red-400 hover:text-red-300 text-sm font-medium">
               ← Back to PPPlayer
             </Link>
           </div>

@@ -19,7 +19,7 @@ export default function DownloadPage() {
         {/* Hero */}
         <section className="relative py-24 text-center overflow-hidden">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[400px] bg-purple-600/10 rounded-full blur-[100px]" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[400px] bg-red-700/10 rounded-full blur-[100px]" />
           </div>
           <div className="relative max-w-3xl mx-auto px-4">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold text-green-300 border border-green-500/30 bg-green-500/10 mb-6">

@@ -20,9 +20,9 @@ export default function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Animated gradient blobs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-600/15 rounded-full blur-[120px] animate-blob" />
-        <div className="absolute top-1/3 right-1/4 w-80 h-80 bg-pink-500/12 rounded-full blur-[100px] animate-blob animation-delay-2000" />
-        <div className="absolute bottom-1/4 left-1/3 w-72 h-72 bg-blue-600/12 rounded-full blur-[100px] animate-blob animation-delay-4000" />
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-red-700/18 rounded-full blur-[120px] animate-blob" />
+        <div className="absolute top-1/3 right-1/4 w-80 h-80 bg-red-500/12 rounded-full blur-[100px] animate-blob animation-delay-2000" />
+        <div className="absolute bottom-1/4 left-1/3 w-72 h-72 bg-rose-700/10 rounded-full blur-[100px] animate-blob animation-delay-4000" />
         {/* Subtle grid */}
         <div
           className="absolute inset-0 opacity-[0.02]"
@@ -44,7 +44,7 @@ export default function HeroSection() {
           >
             {/* Badge */}
             <motion.div variants={item}>
-              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold text-purple-300 border border-purple-500/30 bg-purple-500/10">
+              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold text-red-300 border border-red-500/30 bg-red-500/10">
                 <Star size={12} fill="currentColor" />
                 Free Music App — No Account Required
               </span>

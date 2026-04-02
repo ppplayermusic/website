@@ -14,13 +14,13 @@ const detailedFeatures = [
   {
     title: 'Artist Discovery',
     desc: 'Find artists you\'ve never heard of. Browse rich profiles with bios, stats, and full discographies. PPPlayer makes it easy to go from one name to an entire world of new music.',
-    color: 'from-purple-600 to-pink-500',
+    color: 'from-red-600 to-rose-500',
     tag: 'Explore',
   },
   {
     title: 'Related Artists',
     desc: 'Tap into artist connections. When you love an artist, PPPlayer shows you who else you\'ll likely love. Follow the thread as far as you want.',
-    color: 'from-pink-600 to-rose-500',
+    color: 'from-red-500 to-rose-600',
     tag: 'Discover',
   },
   {
@@ -32,7 +32,7 @@ const detailedFeatures = [
   {
     title: 'Artist Playlists',
     desc: 'Browse curated playlists built around your favorite artists — featuring their songs, collaborations, and thematic collections.',
-    color: 'from-violet-600 to-purple-500',
+    color: 'from-red-700 to-red-500',
     tag: 'Playlists',
   },
   {
@@ -44,7 +44,7 @@ const detailedFeatures = [
   {
     title: 'Beautiful Player',
     desc: 'A full-screen immersive player with high-quality artwork, track details, and smooth controls. Music should feel as good as it sounds.',
-    color: 'from-orange-500 to-pink-500',
+    color: 'from-orange-500 to-red-500',
     tag: 'Play',
   },
 ]
@@ -57,10 +57,10 @@ export default function FeaturesPage() {
         {/* Hero */}
         <section className="relative py-24 text-center overflow-hidden">
           <div className="absolute inset-0 pointer-events-none overflow-hidden">
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-purple-600/8 rounded-full blur-[100px]" />
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-red-700/8 rounded-full blur-[100px]" />
           </div>
           <div className="relative max-w-3xl mx-auto px-4">
-            <p className="text-purple-400 font-semibold text-sm uppercase tracking-widest mb-4">Features</p>
+            <p className="text-red-400 font-semibold text-sm uppercase tracking-widest mb-4">Features</p>
             <h1 className="text-5xl sm:text-6xl font-black tracking-tight mb-5">
               Everything you need.{' '}
               <span className="gradient-text">Nothing you don&apos;t.</span>

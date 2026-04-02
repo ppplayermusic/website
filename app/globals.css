@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg-base: #0a0a0f;
-  --color-bg-surface: #111118;
-  --color-bg-elevated: #1a1a24;
-  --color-accent-purple: #a855f7;
-  --color-accent-pink: #ec4899;
-  --color-accent-blue: #3b82f6;
+  --color-bg-base: #0a0608;
+  --color-bg-surface: #130810;
+  --color-bg-elevated: #1e0f18;
+  --color-accent-red: #e61515;
+  --color-accent-crimson: #c21010;
+  --color-accent-rose: #ff3333;
 
   --font-sans: 'Inter', system-ui, sans-serif;
 }
@@ -16,16 +16,16 @@ html {
 }
 
 body {
-  background-color: #0a0a0f;
+  background-color: #0a0608;
   color: #f1f5f9;
   font-family: 'Inter', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Gradient text utility */
+/* Gradient text utility — red brand */
 .gradient-text {
-  background: linear-gradient(135deg, #a855f7, #ec4899, #3b82f6);
+  background: linear-gradient(135deg, #ff4444, #e61515, #c21010);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -63,10 +63,10 @@ body {
   animation-delay: 4s;
 }
 
-/* Gradient border */
+/* Gradient border — red */
 .gradient-border {
   position: relative;
-  background: #111118;
+  background: #130810;
 }
 
 .gradient-border::before {
@@ -75,7 +75,7 @@ body {
   inset: 0;
   border-radius: inherit;
   padding: 1px;
-  background: linear-gradient(135deg, rgba(168, 85, 247, 0.5), rgba(236, 72, 153, 0.4), rgba(59, 130, 246, 0.4));
+  background: linear-gradient(135deg, rgba(230, 21, 21, 0.5), rgba(194, 16, 16, 0.4), rgba(255, 51, 51, 0.3));
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
@@ -88,21 +88,21 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0a0f;
+  background: #0a0608;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2d2d3d;
+  background: #3d1010;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a855f7;
+  background: #e61515;
 }
 
 /* Selection color */
 ::selection {
-  background: rgba(168, 85, 247, 0.3);
+  background: rgba(230, 21, 21, 0.3);
   color: #f1f5f9;
 }
 

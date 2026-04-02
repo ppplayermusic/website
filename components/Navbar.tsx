@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Download } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Button } from '@/components/ui/Button'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
 
@@ -34,9 +35,13 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-purple-600 to-pink-500 flex items-center justify-center shadow-lg shadow-purple-500/30">
-              <span className="text-white font-black text-sm">P</span>
-            </div>
+            <Image
+              src="/logo.png"
+              alt="PPPlayer Logo"
+              width={36}
+              height={36}
+              className="rounded-xl shadow-lg shadow-red-700/30 group-hover:scale-110 transition-transform"
+            />
             <span className="text-white font-black text-xl tracking-tight">
               PP<span className="gradient-text">Player</span>
             </span>
