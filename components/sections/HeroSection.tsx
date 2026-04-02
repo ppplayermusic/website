@@ -47,7 +47,7 @@ export default function HeroSection() {
             <motion.div variants={item}>
               <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold text-red-300 border border-red-500/30 bg-red-500/10">
                 <Star size={12} fill="currentColor" />
-                Free Music App — No Account Required
+                Free Music App: No Account Required
               </span>
             </motion.div>
 
@@ -67,7 +67,7 @@ export default function HeroSection() {
               variants={item}
               className="text-slate-400 text-lg sm:text-xl leading-relaxed max-w-lg"
             >
-              PPPlayer is a free music app for iPhone, Android, and Windows. Discover artists, explore genres, and start listening — no signup required.
+              PPPlayer is a free music app for iPhone, Android, and Windows. Discover artists, explore genres, and start listening instantly. No account, no signup, no cost.
             </motion.p>
 
             {/* Trust chips */}
@@ -119,7 +119,7 @@ export default function HeroSection() {
           >
             {/* Glow behind phone */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-72 h-72 bg-purple-600/20 rounded-full blur-[80px]" />
+              <div className="w-72 h-72 bg-red-600/20 rounded-full blur-[80px]" />
             </div>
 
             {/* Phone frame */}
@@ -133,12 +133,12 @@ export default function HeroSection() {
                   {/* Status-like row */}
                   <div className="flex justify-between items-center mb-2">
                     <span className="text-[8px] text-white font-semibold">PPPlayer</span>
-                    <div className="w-10 h-1 bg-purple-400/50 rounded-full" />
+                    <div className="w-10 h-1 bg-red-400/50 rounded-full" />
                   </div>
 
                   {/* Now playing card */}
-                  <div className="rounded-2xl bg-gradient-to-br from-purple-900/60 to-pink-900/40 p-3 border border-white/8">
-                    <div className="w-full aspect-square rounded-xl bg-gradient-to-br from-purple-600 to-pink-500 mb-2 flex items-center justify-center shadow-lg">
+                  <div className="rounded-2xl bg-gradient-to-br from-red-900/60 to-rose-900/40 p-3 border border-white/8 text-center flex flex-col items-center">
+                    <div className="w-full aspect-square rounded-xl bg-gradient-to-br from-red-600 to-rose-500 mb-2 flex items-center justify-center shadow-lg">
                       <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
                         <div className="w-0 h-0 border-t-[5px] border-t-transparent border-l-[8px] border-l-white border-b-[5px] border-b-transparent ml-0.5" />
                       </div>
@@ -148,7 +148,7 @@ export default function HeroSection() {
                       <div className="h-1.5 bg-white/30 rounded-full w-1/2" />
                     </div>
                     <div className="mt-2 h-1 bg-white/10 rounded-full">
-                      <div className="h-full bg-gradient-to-r from-purple-400 to-pink-400 rounded-full w-2/5" />
+                        <div className="h-full bg-gradient-to-r from-red-400 to-rose-400 rounded-full w-2/5" />
                     </div>
                   </div>
 
@@ -158,7 +158,7 @@ export default function HeroSection() {
                       <div
                         className="w-7 h-7 rounded-lg flex-shrink-0"
                         style={{
-                          background: `linear-gradient(135deg, hsl(${260 + i * 40}, 60%, 50%), hsl(${300 + i * 30}, 60%, 45%))`,
+                          background: `linear-gradient(135deg, hsl(${350 + i * 10}, 70%, 50%), hsl(${10 + i * 10}, 70%, 45%))`,
                           opacity,
                         }}
                       />

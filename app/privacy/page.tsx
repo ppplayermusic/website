@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Privacy Policy for PPPlayer — free music app for iOS, Android, and Windows.',
+  description: 'Privacy Policy for PPPlayer: free music app for iOS, Android, and Windows.',
 }
 
 export default function PrivacyPage() {

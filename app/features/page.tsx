@@ -26,19 +26,19 @@ const detailedFeatures = [
   {
     title: 'Artist Radio',
     desc: 'Start infinite radio from any artist. Sit back, relax, and let PPPlayer curate a seamless stream of music built around your starting point.',
-    color: 'from-blue-600 to-violet-500',
+    color: 'from-red-600 to-rose-500',
     tag: 'Listen',
   },
   {
     title: 'Artist Playlists',
-    desc: 'Browse curated playlists built around your favorite artists — featuring their songs, collaborations, and thematic collections.',
+    desc: 'Browse curated playlists built around your favorite artists: featuring their songs, collaborations, and thematic collections.',
     color: 'from-red-700 to-red-500',
     tag: 'Playlists',
   },
   {
     title: 'Genre Exploration',
-    desc: 'Browse music by genre. From ambient to hip-hop to jazz — navigate the full musical landscape and surface what\'s trending in any category.',
-    color: 'from-emerald-600 to-teal-500',
+    desc: 'Browse music by genre. From ambient to hip-hop to jazz: navigate the full musical landscape and surface what\'s trending in any category.',
+    color: 'from-red-500 to-orange-400',
     tag: 'Browse',
   },
   {

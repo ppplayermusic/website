@@ -3,7 +3,7 @@ export const SITE_URL = 'https://ppplayer.com'
 export const SITE_NAME = 'PPPlayer'
 export const SITE_TAGLINE = 'Free music. No account. Just play.'
 
-// Download links — update when store listings are live
+// Download links: update when store listings are live
 export const DOWNLOAD_LINKS = {
   ios: 'https://apps.apple.com/app/ppplayer',
   android: 'https://play.google.com/store/apps/details?id=com.ppplayer',
@@ -85,7 +85,7 @@ export const FEATURES = [
 export const FAQ_ITEMS = [
   {
     q: 'Is PPPlayer free?',
-    a: 'Yes. PPPlayer is 100% free. No subscriptions, no in-app purchases, no hidden costs — ever.',
+    a: 'Yes. PPPlayer is 100% free. No subscriptions, no in-app purchases, and no hidden costs.',
   },
   {
     q: 'Do I need to create an account?',
@@ -101,11 +101,11 @@ export const FAQ_ITEMS = [
   },
   {
     q: 'Can I use PPPlayer on Windows?',
-    a: 'Yes. PPPlayer is available for Windows 10 and later as a direct download — no store required.',
+    a: 'Yes. PPPlayer is available for Windows 10 and later as a direct download. No store required.',
   },
   {
     q: 'What music features does PPPlayer offer?',
-    a: 'PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player — all free, no account required.',
+    a: 'PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required.',
   },
   {
     q: 'How do I download PPPlayer?',

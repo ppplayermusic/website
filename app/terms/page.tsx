@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'Terms of Service for PPPlayer — free music app for iOS, Android, and Windows.',
+  description: 'Terms of Service for PPPlayer: free music app for iOS, Android, and Windows.',
 }
 
 export default function TermsPage() {

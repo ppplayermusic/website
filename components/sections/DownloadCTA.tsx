@@ -50,9 +50,9 @@ export default function DownloadCTA() {
           className="relative rounded-3xl overflow-hidden text-center"
         >
           {/* BG */}
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-950/80 via-[#0a0a18] to-blue-950/60" />
+          <div className="absolute inset-0 bg-gradient-to-br from-red-950/80 via-[#0a0505] to-slate-950/60" />
           <div className="absolute inset-0 border border-white/8 rounded-3xl" />
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-48 bg-gradient-to-b from-purple-600/15 to-transparent pointer-events-none" />
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-48 bg-gradient-to-b from-red-600/15 to-transparent pointer-events-none" />
 
           <div className="relative z-10 py-16 px-6 sm:px-14">
             {/* Badge */}
@@ -68,7 +68,7 @@ export default function DownloadCTA() {
             </motion.div>
 
             <h2 className="text-4xl sm:text-6xl font-black tracking-tight mb-4">
-              Get PPPlayer —{' '}
+              Get PPPlayer{' '}
               <span className="gradient-text">Free</span>
             </h2>
             <p className="text-slate-400 text-lg sm:text-xl max-w-xl mx-auto mb-10">

@@ -28,7 +28,7 @@ export default function FeaturesGrid() {
     <section className="py-24 relative">
       {/* Background glow */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-purple-900/10 rounded-full blur-[120px]" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-red-900/10 rounded-full blur-[120px]" />
       </div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
@@ -40,7 +40,7 @@ export default function FeaturesGrid() {
           transition={{ duration: 0.6 }}
           className="text-center mb-14"
         >
-          <p className="text-purple-400 font-semibold text-sm uppercase tracking-widest mb-3">Features</p>
+          <p className="text-red-500 font-semibold text-sm uppercase tracking-widest mb-3">Features</p>
           <h2 className="text-4xl sm:text-5xl font-black tracking-tight mb-4">
             Built for{' '}
             <span className="gradient-text">music lovers</span>
@@ -61,12 +61,12 @@ export default function FeaturesGrid() {
           {FEATURES.map((feature, idx) => {
             const Icon = iconMap[feature.icon]
             const gradients = [
-              'from-purple-500 to-pink-500',
-              'from-pink-500 to-rose-500',
-              'from-blue-500 to-purple-500',
-              'from-violet-500 to-purple-600',
-              'from-emerald-500 to-teal-500',
-              'from-orange-500 to-pink-500',
+              'from-red-500 to-rose-600',
+              'from-rose-500 to-red-600',
+              'from-red-600 to-orange-500',
+              'from-rose-600 to-pink-500',
+              'from-red-500 to-slate-500',
+              'from-orange-600 to-red-500',
             ]
             return (
               <motion.div
@@ -96,8 +96,8 @@ export default function FeaturesGrid() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-center mt-12"
         >
-          <p className="text-lg font-semibold">
-            All of this —{' '}
+          <p className="text-lg font-semibold text-slate-300">
+            All of this is{' '}
             <span className="gradient-text">completely free. No account required.</span>
           </p>
         </motion.div>

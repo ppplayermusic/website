@@ -45,7 +45,7 @@ export default function PlatformsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-14"
         >
-          <p className="text-purple-400 font-semibold text-sm uppercase tracking-widest mb-3">Available Now</p>
+          <p className="text-red-500 font-semibold text-sm uppercase tracking-widest mb-3">Available Now</p>
           <h2 className="text-4xl sm:text-5xl font-black tracking-tight mb-4">
             Your platform.{' '}
             <span className="gradient-text">Your choice.</span>
@@ -69,7 +69,7 @@ export default function PlatformsSection() {
               variants={item}
               whileHover={{ y: -8, scale: 1.02 }}
               transition={{ type: 'spring', stiffness: 280, damping: 18 }}
-              className="group gradient-border rounded-3xl p-7 flex flex-col gap-5 cursor-pointer hover:shadow-[0_20px_60px_rgba(168,85,247,0.15)] transition-shadow duration-300"
+              className="group gradient-border rounded-3xl p-7 flex flex-col gap-5 cursor-pointer hover:shadow-[0_20px_60px_rgba(239,68,68,0.15)] transition-shadow duration-300"
             >
               {/* Icon + badge */}
               <div className="flex items-start justify-between">

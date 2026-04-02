@@ -23,7 +23,7 @@ export function FAQItem({ question, answer }: FAQItemProps) {
         <motion.div
           animate={{ rotate: isOpen ? 180 : 0 }}
           transition={{ duration: 0.2 }}
-          className="shrink-0 text-purple-400"
+          className="shrink-0 text-red-500"
         >
           <ChevronDown size={18} />
         </motion.div>
