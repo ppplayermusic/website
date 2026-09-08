@@ -46,10 +46,11 @@ export function SpotlightLogo({ src, alt, width, height, className, imageClassNa
           className={cn("relative z-10", imageClassName)}
         />
       ) : (
-        <img
+        <Image
           src={src}
           alt={alt}
-          className={cn("relative z-10", imageClassName)}
+          fill
+          className={cn("relative z-10 object-contain", imageClassName)}
         />
       )}
       

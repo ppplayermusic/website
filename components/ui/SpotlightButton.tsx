@@ -26,6 +26,7 @@ export const SpotlightButton = ({ href, children, variant = 'dark', ...props }: 
     <a
       ref={ref}
       href={href}
+      {...props}
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}

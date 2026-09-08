@@ -5,7 +5,6 @@ import Image from 'next/image';
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Button } from '@/components/ui/Button'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { SpotlightButton } from '@/components/ui/SpotlightButton'
