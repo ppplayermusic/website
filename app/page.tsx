@@ -7,6 +7,7 @@ import PressPlaySection from '@/components/sections/PressPlaySection'
 import ArtistRadioSection from '@/components/sections/ArtistRadioSection'
 import NoAccountSection from '@/components/sections/NoAccountSection'
 import PlatformsSection from '@/components/sections/PlatformsSection'
+import FeatureGallerySection from '@/components/sections/FeatureGallerySection'
 import DownloadCTA from '@/components/sections/DownloadCTA'
 
 export default function HomePage() {
@@ -19,6 +20,7 @@ export default function HomePage() {
         <GoDeeperSection />
         <PressPlaySection />
         <ArtistRadioSection />
+        <FeatureGallerySection />
         <NoAccountSection />
         <PlatformsSection />
         <DownloadCTA />
