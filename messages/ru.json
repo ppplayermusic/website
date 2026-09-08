@@ -191,5 +191,31 @@
       }
     },
     "back": "← Назад к PPPlayer"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone и iPad",
+      "desc": "Доступно в App Store для iPhone и iPad.",
+      "badge": "App Store"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Доступно в Google Play для телефонов и планшетов Android.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Прямая загрузка для Windows 10 и новее. Магазин не требуется.",
+      "badge": "Прямая загрузка"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "Прямая загрузка для macOS. Поддержка Apple Silicon и Intel.",
+      "badge": "Прямая загрузка"
+    }
   }
 }

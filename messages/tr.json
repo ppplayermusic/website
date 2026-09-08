@@ -191,5 +191,31 @@
       }
     },
     "back": "← PPPlayer'a Dön"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone ve iPad",
+      "desc": "iPhone ve iPad için App Store'da mevcut.",
+      "badge": "App Store"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Android telefonlar ve tabletler için Google Play'de mevcut.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Windows 10 ve sonrası için doğrudan indirme. Mağaza gerekmez.",
+      "badge": "Doğrudan İndirme"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "macOS için doğrudan indirme. Apple Silicon ve Intel desteklenir.",
+      "badge": "Doğrudan İndirme"
+    }
   }
 }

@@ -191,5 +191,31 @@
       }
     },
     "back": "← Zurück zu PPPlayer"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone & iPad",
+      "desc": "Erhältlich im App Store für iPhone und iPad.",
+      "badge": "App Store"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Erhältlich bei Google Play für Android-Smartphones und -Tablets.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Direkter Download für Windows 10 und neuer. Kein Store erforderlich.",
+      "badge": "Direkter Download"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "Direkter Download für macOS. Unterstützt Apple Silicon & Intel.",
+      "badge": "Direkter Download"
+    }
   }
 }

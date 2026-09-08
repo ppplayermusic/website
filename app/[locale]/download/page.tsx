@@ -2,6 +2,7 @@
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import PlatformsSection from '@/components/sections/PlatformsSection'
+import PlatformCardsSection from '@/components/sections/PlatformCardsSection'
 import DownloadCTA from '@/components/sections/DownloadCTA'
 import FAQSection from '@/components/sections/FAQSection'
 
@@ -53,6 +54,9 @@ export default async function DownloadPage({ params }: { params: Promise<{ local
         </section>
 
         {/* Platform cards */}
+        <PlatformCardsSection />
+
+        {/* Visual composition */}
         <PlatformsSection />
 
         {/* System requirements note */}
