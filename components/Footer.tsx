@@ -38,9 +38,9 @@ export default function Footer() {
             
             <div className="flex flex-col gap-3">
               <span className="text-white text-xs font-semibold uppercase tracking-widest mb-4">{t("platforms")}</span>
-              <a href={DOWNLOAD_LINKS.ios} className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("ios")}</a>
-              <a href={DOWNLOAD_LINKS.android} className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("android")}</a>
-              <a href={DOWNLOAD_LINKS.windows} className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("windows")}</a>
+              <Link href="/download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("ios")}</Link>
+              <Link href="/download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("android")}</Link>
+              <Link href="/download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("windows")}</Link>
             </div>
 
             <div className="flex flex-col gap-3">
