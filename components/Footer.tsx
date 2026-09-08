@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { SpotlightLogo } from '@/components/ui/SpotlightLogo'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
+import { Instagram } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -42,6 +43,11 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-col gap-3">
+              <span className="text-white text-xs font-semibold uppercase tracking-widest mb-1">Social</span>
+              <a href="https://www.instagram.com/ppplayermusic/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-sm transition-colors">Instagram</a>
+            </div>
+
+            <div className="flex flex-col gap-3">
               <span className="text-white text-xs font-semibold uppercase tracking-widest mb-1">Legal</span>
               <Link href="/privacy" className="text-slate-400 hover:text-white text-sm transition-colors">Privacy</Link>
               <Link href="/terms" className="text-slate-400 hover:text-white text-sm transition-colors">Terms</Link>
@@ -54,9 +60,19 @@ export default function Footer() {
           <p className="text-slate-500 text-sm">
             © {new Date().getFullYear()} PPPlayer. All rights reserved.
           </p>
+          <div className="flex gap-4">
+            <a
+              href="https://www.instagram.com/ppplayermusic/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="PPPlayer on Instagram"
+              className="text-slate-500 hover:text-white transition-colors"
+            >
+              <Instagram size={18} />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
   )
 }
-
