@@ -13,7 +13,7 @@ import { LanguageSelector } from '@/components/ui/LanguageSelector'
 
 const navLinks = [
   { label: 'features', href: '/#features' },
-  { label: 'download', href: '/#download' }
+  { label: 'download', href: '/download' }
 ]
 
 export default function Navbar() {
