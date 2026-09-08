@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { SpotlightLogo } from '@/components/ui/SpotlightLogo'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
-import { Instagram } from 'lucide-react'
+
 
 export default function Footer() {
   return (
@@ -45,6 +45,8 @@ export default function Footer() {
             <div className="flex flex-col gap-3">
               <span className="text-white text-xs font-semibold uppercase tracking-widest mb-1">Social</span>
               <a href="https://www.instagram.com/ppplayermusic/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-sm transition-colors">Instagram</a>
+              <a href="https://www.linkedin.com/company/ppplayer/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-sm transition-colors">LinkedIn</a>
+              <a href="https://www.facebook.com/ppplayermusic" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-sm transition-colors">Facebook</a>
             </div>
 
             <div className="flex flex-col gap-3">
@@ -68,7 +70,38 @@ export default function Footer() {
               aria-label="PPPlayer on Instagram"
               className="text-slate-500 hover:text-white transition-colors"
             >
-              <Instagram size={18} />
+              {/* Instagram */}
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="0.75" fill="currentColor" stroke="none"/>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/company/ppplayer/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="PPPlayer on LinkedIn"
+              className="text-slate-500 hover:text-white transition-colors"
+            >
+              {/* LinkedIn */}
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </a>
+            <a
+              href="https://www.facebook.com/ppplayermusic"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="PPPlayer on Facebook"
+              className="text-slate-500 hover:text-white transition-colors"
+            >
+              {/* Facebook */}
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
             </a>
           </div>
         </div>
