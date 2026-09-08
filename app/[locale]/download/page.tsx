@@ -43,7 +43,7 @@ export default async function DownloadPage({ params }: { params: Promise<{ local
             
             <h1 className="text-6xl sm:text-7xl md:text-8xl font-black tracking-tighter mb-6 leading-[0.95] cursor-default">
               {t.rich("title", {
-                gradient: (chunks) => <SpotlightText className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60">{chunks}</SpotlightText>
+                gradient: (chunks) => <SpotlightText className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60 pb-[0.2em]">{chunks}</SpotlightText>
               })}
             </h1>
             

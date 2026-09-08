@@ -43,14 +43,16 @@ export function Button({
   const classes = cn(base, sizes[size], variants[variant], className)
 
   if (href) {
+    const isExternal = href.startsWith('http');
     return (
       <motion.a
         href={href}
-        target="_blank"
-        rel="noopener noreferrer"
+        target={isExternal ? "_blank" : undefined}
+        rel={isExternal ? "noopener noreferrer" : undefined}
         className={classes}
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
+        {...(props as any)}
       >
         {children}
       </motion.a>
