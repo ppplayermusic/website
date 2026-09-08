@@ -59,7 +59,7 @@ export default function PlatformsSection() {
             className="absolute left-[5%] md:left-[15%] bottom-0 w-[30%] md:w-[22%] aspect-[9/19] bg-[#0a0a0a] rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.8),0_0_0_1px_rgba(255,255,255,0.1)] z-10 flex items-center justify-center"
           >
             <Image
-              src="/images/screenshot-mobile.png"
+              src="/images/mobile-screenshot-discover.png"
               alt="PPPlayer Android"
               fill
               sizes="(max-width: 768px) 30vw, 22vw"
@@ -73,15 +73,26 @@ export default function PlatformsSection() {
             whileInView={{ opacity: 1, x: 0, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="absolute right-[5%] md:right-[15%] bottom-0 w-[30%] md:w-[22%] aspect-[9/19] bg-[#0a0a0a] rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.8),0_0_0_1px_rgba(255,255,255,0.1)] z-10 flex items-center justify-center translate-y-8"
+            className="absolute right-[5%] md:right-[15%] bottom-0 w-[30%] md:w-[22%] aspect-[9/19] z-10 translate-y-8"
           >
-            <Image
-              src="/images/screenshot-mobile.png"
-              alt="PPPlayer iOS"
-              fill
-              sizes="(max-width: 768px) 30vw, 22vw"
-              className="object-cover object-top"
-            />
+            {/* iPhone Frame Casing */}
+            <div className="relative w-full h-full bg-[#0a0a0a] rounded-[2.5rem] md:rounded-[3.5rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.8),0_0_0_1px_rgba(255,255,255,0.1)] border-[6px] md:border-[10px] border-[#1a1a1c] ring-1 ring-[#333] ring-inset">
+              
+              {/* Side Buttons (Action/Volume) */}
+              <div className="absolute -left-[6px] md:-left-[10px] top-[15%] w-[3px] md:w-[4px] h-[8%] bg-[#222] rounded-l-md" />
+              <div className="absolute -left-[6px] md:-left-[10px] top-[26%] w-[3px] md:w-[4px] h-[12%] bg-[#222] rounded-l-md" />
+              <div className="absolute -left-[6px] md:-left-[10px] top-[40%] w-[3px] md:w-[4px] h-[12%] bg-[#222] rounded-l-md" />
+              {/* Side Button (Power) */}
+              <div className="absolute -right-[6px] md:-right-[10px] top-[30%] w-[3px] md:w-[4px] h-[16%] bg-[#222] rounded-r-md" />
+
+              <Image
+                src="/images/mobile-screenshot-queue.png"
+                alt="PPPlayer iOS"
+                fill
+                sizes="(max-width: 768px) 30vw, 22vw"
+                className="object-cover object-top rounded-[2rem] md:rounded-[3rem]"
+              />
+            </div>
           </motion.div>
 
         </div>
