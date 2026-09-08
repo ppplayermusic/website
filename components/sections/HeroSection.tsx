@@ -56,7 +56,7 @@ export default function HeroSection() {
         >
           <MacOSWindowFrame title="PPPlayer">
             <Image
-              src="/images/screenshot-home.png"
+              src="/images/screenshot-artist.png"
               alt="PPPlayer App Interface"
               width={1920}
               height={1080}

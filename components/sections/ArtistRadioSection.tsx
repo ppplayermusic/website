@@ -35,7 +35,7 @@ export default function ArtistRadioSection() {
           >
             <MacOSWindowFrame title="PPPlayer">
               <Image
-                src="/images/screenshot-radio.png"
+                src="/images/screenshot-search-artists.png"
                 alt="PPPlayer Radio"
                 width={1024}
                 height={576}

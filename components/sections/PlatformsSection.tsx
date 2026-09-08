@@ -41,7 +41,7 @@ export default function PlatformsSection() {
           >
             <MacOSWindowFrame title="PPPlayer" className="w-full">
               <Image
-                src="/images/screenshot-home.png"
+                src="/images/screenshot-artist.png"
                 alt="PPPlayer Desktop"
                 width={1920}
                 height={1080}
