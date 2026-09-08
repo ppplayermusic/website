@@ -1,5 +1,5 @@
-import type { Metadata } from 'next'
-import Link from 'next/link'
+
+import {Link} from '@/i18n/routing'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -11,7 +11,27 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
   const t = await getTranslations({locale, namespace: 'metadata'});
   return {
     title: t('termsTitle'),
-    description: t('termsDesc')
+    description: t('termsDesc'),
+    openGraph: {
+      title: t('termsTitle'),
+      description: t('termsDesc')
+    },
+    twitter: {
+      title: t('termsTitle'),
+      description: t('termsDesc')
+    },
+    alternates: {
+      canonical: locale === 'en' ? '/terms' : `/${locale}/terms`,
+      languages: {
+        'en': '/terms',
+        'pt-BR': '/pt-BR/terms',
+        'es': '/es/terms',
+        'ru': '/ru/terms',
+        'tr': '/tr/terms',
+        'fr': '/fr/terms',
+        'de': '/de/terms'
+      }
+    }
   };
 }
 

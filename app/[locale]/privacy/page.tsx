@@ -1,5 +1,5 @@
-import type { Metadata } from 'next'
-import Link from 'next/link'
+
+import {Link} from '@/i18n/routing'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -11,7 +11,27 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
   const t = await getTranslations({locale, namespace: 'metadata'});
   return {
     title: t('privacyTitle'),
-    description: t('privacyDesc')
+    description: t('privacyDesc'),
+    openGraph: {
+      title: t('privacyTitle'),
+      description: t('privacyDesc')
+    },
+    twitter: {
+      title: t('privacyTitle'),
+      description: t('privacyDesc')
+    },
+    alternates: {
+      canonical: locale === 'en' ? '/privacy' : `/${locale}/privacy`,
+      languages: {
+        'en': '/privacy',
+        'pt-BR': '/pt-BR/privacy',
+        'es': '/es/privacy',
+        'ru': '/ru/privacy',
+        'tr': '/tr/privacy',
+        'fr': '/fr/privacy',
+        'de': '/de/privacy'
+      }
+    }
   };
 }
 

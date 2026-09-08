@@ -18,7 +18,27 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
   const t = await getTranslations({locale, namespace: 'metadata'});
   return {
     title: t('homeTitle'),
-    description: t('homeDesc')
+    description: t('homeDesc'),
+    openGraph: {
+      title: t('homeTitle'),
+      description: t('homeDesc'),
+    },
+    twitter: {
+      title: t('homeTitle'),
+      description: t('homeDesc'),
+    },
+    alternates: {
+      canonical: locale === 'en' ? '/' : `/${locale}`,
+      languages: {
+        'en': '/',
+        'pt-BR': '/pt-BR',
+        'es': '/es',
+        'ru': '/ru',
+        'tr': '/tr',
+        'fr': '/fr',
+        'de': '/de'
+      }
+    }
   };
 }
 
