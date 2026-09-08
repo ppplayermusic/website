@@ -30,24 +30,32 @@ export default async function DownloadPage({ params }: { params: Promise<{ local
       <Navbar />
       <main className="pt-16">
         {/* Hero */}
-        <section className="relative py-24 text-center overflow-hidden">
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[400px] bg-red-700/10 rounded-full blur-[100px]" />
+        <section className="relative pt-32 pb-16 text-center overflow-hidden">
+          {/* Subtle background glow */}
+          <div className="absolute inset-0 pointer-events-none flex items-start justify-center">
+            <div className="absolute top-[-10%] w-[800px] h-[500px] bg-red-600/10 rounded-[100%] blur-[120px] mix-blend-screen" />
+            <div className="absolute top-[20%] w-[600px] h-[400px] bg-blue-600/10 rounded-[100%] blur-[120px] mix-blend-screen opacity-50" />
           </div>
-          <div className="relative max-w-3xl mx-auto px-4">
-            <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold text-green-300 border border-green-500/30 bg-green-500/10 mb-6">
-              <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-              {t("badge")}
-            </span>
-            <h1 className="text-5xl sm:text-6xl font-black tracking-tight mb-5">
+          
+          <div className="relative max-w-4xl mx-auto px-4 z-10">
+            <div className="flex justify-center mb-8">
+              <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold text-white/80 border border-white/10 bg-white/5 backdrop-blur-md shadow-2xl">
+                <span className="w-1.5 h-1.5 rounded-full bg-green-500 shadow-[0_0_10px_rgba(34,197,94,0.6)] animate-pulse" />
+                {t("badge")}
+              </div>
+            </div>
+            
+            <h1 className="text-6xl sm:text-7xl md:text-8xl font-black tracking-tighter mb-6 leading-[0.95]">
               {t.rich("title", {
-                gradient: (chunks) => <span className="gradient-text">{chunks}</span>
+                gradient: (chunks) => <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/40">{chunks}</span>
               })}
             </h1>
-            <p className="text-slate-400 text-xl leading-relaxed mb-4">
+            
+            <p className="text-white/60 text-xl md:text-2xl font-medium tracking-tight mb-4 max-w-2xl mx-auto leading-relaxed">
               {t("subtitle")}
             </p>
-            <p className="text-slate-500 text-base">
+            
+            <p className="text-white/40 text-sm md:text-base max-w-xl mx-auto">
               {t("desc")}
             </p>
           </div>
