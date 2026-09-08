@@ -31,12 +31,15 @@ export default function HeroSection() {
             No account. No subscription. Just play.
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto">
             <SpotlightButton href={DOWNLOAD_LINKS.ios} variant="light">
               Get for iOS
             </SpotlightButton>
             <SpotlightButton href={DOWNLOAD_LINKS.android} variant="dark">
               Get for Android
+            </SpotlightButton>
+            <SpotlightButton href={DOWNLOAD_LINKS.macos} variant="dark" download>
+              Get for Mac
             </SpotlightButton>
             <SpotlightButton href={DOWNLOAD_LINKS.windows} variant="dark">
               Get for Windows
