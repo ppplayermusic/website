@@ -39,12 +39,7 @@ export default async function DownloadPage({ params }: { params: Promise<{ local
           </div>
           
           <div className="relative max-w-4xl mx-auto px-4 z-10">
-            <div className="flex justify-center mb-8">
-              <a href="#download" className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium text-white border border-white/10 bg-white/5 backdrop-blur-md shadow-2xl hover:bg-white/10 transition-colors group">
-                <span className="opacity-90">{t("badge")}</span>
-                <span className="text-white/40 group-hover:text-white transition-colors group-hover:translate-x-0.5 duration-300">→</span>
-              </a>
-            </div>
+
             
             <h1 className="text-6xl sm:text-7xl md:text-8xl font-black tracking-tighter mb-6 leading-[0.95] cursor-default">
               {t.rich("title", {
