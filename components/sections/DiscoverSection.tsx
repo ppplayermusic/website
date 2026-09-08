@@ -40,7 +40,8 @@ export default function DiscoverSection() {
                 alt="Discover UI Screenshot"
                 width={1024}
                 height={576}
-                style={{ width: '100%', height: 'auto', display: 'block' }}
+                className="w-full h-auto"
+                sizes="(max-width: 768px) 100vw, 800px"
               />
             </MacOSWindowFrame>
           </motion.div>
