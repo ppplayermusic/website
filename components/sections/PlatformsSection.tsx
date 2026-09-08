@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { StripeHoverText } from '@/components/ui/StripeHoverText'
+import { SpotlightText } from '@/components/ui/SpotlightText'
 
 export default function PlatformsSection() {
   return (
@@ -20,7 +20,7 @@ export default function PlatformsSection() {
           className="text-center mb-16 md:mb-24"
         >
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 cursor-default">
-            <StripeHoverText>Your music. Your devices.</StripeHoverText>
+            <SpotlightText>Your music. Your devices.</SpotlightText>
           </h2>
           <p className="text-slate-400 text-lg">
             Beautifully native on Windows, Android, and iOS.

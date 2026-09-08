@@ -3,12 +3,12 @@
 import React from 'react'
 import { cn } from '@/lib/utils'
 
-interface StripeHoverTextProps {
+interface SpotlightTextProps {
   children: React.ReactNode
   className?: string
 }
 
-export const StripeHoverText = ({ children, className }: StripeHoverTextProps) => {
+export const SpotlightText = ({ children, className }: SpotlightTextProps) => {
   const [mousePosition, setMousePosition] = React.useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = React.useState(false);
   const ref = React.useRef<HTMLSpanElement>(null);

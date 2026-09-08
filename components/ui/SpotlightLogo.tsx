@@ -4,7 +4,7 @@ import React, { useState, useRef } from 'react';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
 
-interface StripeHoverLogoProps {
+interface SpotlightLogoProps {
   src: string;
   alt: string;
   width?: number;
@@ -13,7 +13,7 @@ interface StripeHoverLogoProps {
   imageClassName?: string;
 }
 
-export function StripeHoverLogo({ src, alt, width, height, className, imageClassName }: StripeHoverLogoProps) {
+export function SpotlightLogo({ src, alt, width, height, className, imageClassName }: SpotlightLogoProps) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = useState(false);
   const ref = useRef<HTMLDivElement>(null);

@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { FAQItem } from '@/components/ui/FAQItem'
 import { FAQ_ITEMS } from '@/lib/constants'
-import { StripeHoverText } from '@/components/ui/StripeHoverText'
+import { SpotlightText } from '@/components/ui/SpotlightText'
 
 export default function FAQSection() {
   return (
@@ -18,10 +18,10 @@ export default function FAQSection() {
         >
           <p className="text-red-500 font-semibold text-sm uppercase tracking-widest mb-3">FAQ</p>
           <h2 className="text-4xl sm:text-5xl font-black tracking-tight mb-4 cursor-default">
-            <StripeHoverText>
+            <SpotlightText>
               Common{' '}
               <span className="gradient-text">questions</span>
-            </StripeHoverText>
+            </SpotlightText>
           </h2>
           <p className="text-slate-400 text-lg">
             Everything you need to know about PPPlayer.

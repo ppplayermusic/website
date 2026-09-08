@@ -7,8 +7,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/Button'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
-import { StripeHoverText } from '@/components/ui/StripeHoverText'
-import { StripeHoverButton } from '@/components/ui/StripeHoverButton'
+import { SpotlightText } from '@/components/ui/SpotlightText'
+import { SpotlightButton } from '@/components/ui/SpotlightButton'
 
 export default function HeroSection() {
   return (
@@ -22,9 +22,9 @@ export default function HeroSection() {
           className="max-w-4xl mx-auto"
         >
           <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-6 leading-[0.9] cursor-default">
-            <StripeHoverText className="text-white">Music.</StripeHoverText><br />
+            <SpotlightText className="text-white">Music.</SpotlightText><br />
             <span className="text-slate-400">
-              <StripeHoverText>Without the friction.</StripeHoverText>
+              <SpotlightText>Without the friction.</SpotlightText>
             </span>
           </h1>
           <p className="text-slate-300 text-xl md:text-2xl font-medium mb-10 max-w-2xl mx-auto">
@@ -32,15 +32,15 @@ export default function HeroSection() {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <StripeHoverButton href={DOWNLOAD_LINKS.ios} variant="light">
+            <SpotlightButton href={DOWNLOAD_LINKS.ios} variant="light">
               Get for iOS
-            </StripeHoverButton>
-            <StripeHoverButton href={DOWNLOAD_LINKS.android} variant="dark">
+            </SpotlightButton>
+            <SpotlightButton href={DOWNLOAD_LINKS.android} variant="dark">
               Get for Android
-            </StripeHoverButton>
-            <StripeHoverButton href={DOWNLOAD_LINKS.windows} variant="dark">
+            </SpotlightButton>
+            <SpotlightButton href={DOWNLOAD_LINKS.windows} variant="dark">
               Get for Windows
-            </StripeHoverButton>
+            </SpotlightButton>
           </div>
         </motion.div>
       </div>

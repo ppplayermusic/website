@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { StripeHoverText } from '@/components/ui/StripeHoverText'
+import { SpotlightText } from '@/components/ui/SpotlightText'
 
 export default function GoDeeperSection() {
   return (
@@ -34,7 +34,7 @@ export default function GoDeeperSection() {
             className="mb-16 text-center"
           >
             <h2 className="text-5xl md:text-7xl font-bold tracking-tight cursor-default">
-              <StripeHoverText>Follow the music.</StripeHoverText>
+              <SpotlightText>Follow the music.</SpotlightText>
             </h2>
           </motion.div>
 

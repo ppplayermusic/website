@@ -2,9 +2,9 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { StripeHoverButton } from '@/components/ui/StripeHoverButton'
-import { StripeHoverText } from '@/components/ui/StripeHoverText'
-import { StripeHoverLogo } from '@/components/ui/StripeHoverLogo'
+import { SpotlightButton } from '@/components/ui/SpotlightButton'
+import { SpotlightText } from '@/components/ui/SpotlightText'
+import { SpotlightLogo } from '@/components/ui/SpotlightLogo'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
 
 export default function DownloadCTA() {
@@ -19,19 +19,19 @@ export default function DownloadCTA() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
           <h2 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-16 cursor-default">
-            <StripeHoverText>Just play.</StripeHoverText>
+            <SpotlightText>Just play.</SpotlightText>
           </h2>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <StripeHoverButton href={DOWNLOAD_LINKS.ios} variant="dark">
+            <SpotlightButton href={DOWNLOAD_LINKS.ios} variant="dark">
               Get for iOS
-            </StripeHoverButton>
-            <StripeHoverButton href={DOWNLOAD_LINKS.android} variant="light">
+            </SpotlightButton>
+            <SpotlightButton href={DOWNLOAD_LINKS.android} variant="light">
               Get for Android
-            </StripeHoverButton>
-            <StripeHoverButton href={DOWNLOAD_LINKS.windows} variant="light">
+            </SpotlightButton>
+            <SpotlightButton href={DOWNLOAD_LINKS.windows} variant="light">
               Get for Windows
-            </StripeHoverButton>
+            </SpotlightButton>
           </div>
         </motion.div>
 
@@ -43,7 +43,7 @@ export default function DownloadCTA() {
           transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
           className="mt-24 md:mt-32 opacity-20 pointer-events-none"
         >
-          <StripeHoverLogo 
+          <SpotlightLogo 
             src="/logo.png" 
             alt="PPPlayer Logo Mark" 
             className="w-48 h-48 md:w-64 md:h-64 pointer-events-auto"

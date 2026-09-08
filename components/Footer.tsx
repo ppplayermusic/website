@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { StripeHoverLogo } from '@/components/ui/StripeHoverLogo'
+import { SpotlightLogo } from '@/components/ui/SpotlightLogo'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
 
 export default function Footer() {
@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
-              <StripeHoverLogo
+              <SpotlightLogo
                 src="/logo.png"
                 alt="PPPlayer Logo"
                 width={32}

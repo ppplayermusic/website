@@ -2,13 +2,12 @@
 
 import React from 'react'
 
-interface StripeHoverButtonProps {
-  href: string
+interface SpotlightButtonProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
   children: React.ReactNode
   variant?: 'dark' | 'light'
 }
 
-export const StripeHoverButton = ({ href, children, variant = 'dark' }: StripeHoverButtonProps) => {
+export const SpotlightButton = ({ href, children, variant = 'dark', ...props }: SpotlightButtonProps) => {
   const [mousePosition, setMousePosition] = React.useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = React.useState(false);
   const ref = React.useRef<HTMLAnchorElement>(null);

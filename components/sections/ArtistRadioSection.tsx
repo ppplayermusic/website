@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { StripeHoverText } from '@/components/ui/StripeHoverText'
+import { SpotlightText } from '@/components/ui/SpotlightText'
 
 export default function ArtistRadioSection() {
   return (
@@ -21,7 +21,7 @@ export default function ArtistRadioSection() {
             className="mb-16 md:mb-24"
           >
             <h2 className="text-5xl md:text-7xl font-bold tracking-tight cursor-default">
-              <StripeHoverText>Endless listening.</StripeHoverText>
+              <SpotlightText>Endless listening.</SpotlightText>
             </h2>
           </motion.div>
           
