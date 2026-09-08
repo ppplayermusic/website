@@ -10,7 +10,6 @@ import { DOWNLOAD_LINKS } from '@/lib/constants'
 
 const navLinks = [
   { label: 'Features', href: '#features' },
-  { label: 'Download', href: '#download' },
 ]
 
 export default function Navbar() {
