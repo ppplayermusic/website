@@ -8,6 +8,7 @@ import { motion } from 'framer-motion'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { SpotlightButton } from '@/components/ui/SpotlightButton'
+import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
 export default function HeroSection() {
   return (
@@ -45,21 +46,24 @@ export default function HeroSection() {
       </div>
 
       {/* Enormous desktop interface, partially extending beyond the viewport */}
-      <div className="w-full flex justify-center" style={{ perspective: '2000px' }}>
+      <div className="w-full flex justify-center px-4 md:px-0" style={{ perspective: '2000px' }}>
         <motion.div
           initial={{ opacity: 0, y: 150, rotateX: 15, scale: 0.9, filter: 'blur(10px)' }}
           animate={{ opacity: 1, y: 0, rotateX: 0, scale: 1, filter: 'blur(0px)' }}
           transition={{ duration: 1.4, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           style={{ transformOrigin: "top center" }}
-          className="w-[120%] md:w-[110%] max-w-[1600px] mt-16 md:mt-24 aspect-[16/10] md:aspect-[16/9] bg-black rounded-t-[2rem] md:rounded-t-[3rem] overflow-hidden shadow-2xl border-t border-x border-white/10 flex items-center justify-center relative translate-y-12 md:translate-y-24"
+          className="w-full max-w-5xl mt-16 md:mt-24 translate-y-12 md:translate-y-24"
         >
-          <Image
-            src="/images/screenshot-home.png"
-            alt="PPPlayer Desktop Home"
-            fill
-            className="object-cover object-top"
-            priority
-          />
+          <MacOSWindowFrame title="PPPlayer">
+            <Image
+              src="/images/screenshot-home.png"
+              alt="PPPlayer App Interface"
+              width={1920}
+              height={1080}
+              style={{ width: '100%', height: 'auto', display: 'block' }}
+              priority
+            />
+          </MacOSWindowFrame>
         </motion.div>
       </div>
     </section>

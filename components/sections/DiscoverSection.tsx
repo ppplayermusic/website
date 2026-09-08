@@ -3,6 +3,7 @@ import Image from 'next/image';
 import React from 'react'
 import { motion } from 'framer-motion'
 import { SpotlightText } from '@/components/ui/SpotlightText'
+import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
 export default function DiscoverSection() {
   return (
@@ -29,14 +30,17 @@ export default function DiscoverSection() {
             whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-            className="md:col-span-7 w-full aspect-[4/5] bg-slate-50 rounded-2xl md:rounded-[2rem] overflow-hidden shadow-2xl shadow-black/5 border border-black/5 flex items-center justify-center relative -translate-y-8 md:translate-y-16"
+            className="md:col-span-7 w-full flex items-center justify-center relative -translate-y-8 md:translate-y-16"
           >
-            <Image
-              src="/images/screenshot-home.png"
-              alt="Discover UI Screenshot"
-              fill
-              className="object-cover object-top"
-            />
+            <MacOSWindowFrame title="PPPlayer">
+              <Image
+                src="/images/screenshot-discover.png"
+                alt="Discover UI Screenshot"
+                width={1024}
+                height={576}
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+              />
+            </MacOSWindowFrame>
           </motion.div>
 
         </div>

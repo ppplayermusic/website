@@ -6,6 +6,7 @@ import Image from 'next/image';
 import React from 'react'
 import { motion } from 'framer-motion'
 import { SpotlightText } from '@/components/ui/SpotlightText'
+import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
 export default function ArtistRadioSection() {
   return (
@@ -30,14 +31,17 @@ export default function ArtistRadioSection() {
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-            className="w-full max-w-2xl aspect-[3/4] md:aspect-square bg-white rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.08),0_0_0_1px_rgba(0,0,0,0.05)] flex items-center justify-center relative"
+            className="w-full max-w-4xl flex items-center justify-center relative"
           >
-            <Image
-              src="/images/screenshot-radio.png"
-              alt="PPPlayer Artist Radio"
-              fill
-              className="object-cover object-center"
-            />
+            <MacOSWindowFrame title="PPPlayer">
+              <Image
+                src="/images/screenshot-radio.png"
+                alt="PPPlayer Radio"
+                width={1024}
+                height={576}
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+              />
+            </MacOSWindowFrame>
           </motion.div>
           
         </div>

@@ -6,6 +6,7 @@ import Image from 'next/image';
 import React from 'react'
 import { motion } from 'framer-motion'
 import { SpotlightText } from '@/components/ui/SpotlightText'
+import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
 export default function PressPlaySection() {
   return (
@@ -24,21 +25,26 @@ export default function PressPlaySection() {
           </h2>
         </motion.div>
 
-        {/* Cinematic edge-to-edge Player UI */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.98 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-          className="w-full max-w-[1920px] mx-auto aspect-[4/5] sm:aspect-[16/9] md:aspect-[21/9] bg-black overflow-hidden shadow-2xl border-y border-white/5 flex items-center justify-center relative"
-        >
-          <Image
-            src="/images/screenshot-player.png"
-            alt="PPPlayer Full Player"
-            fill
-            className="object-cover object-center"
-          />
-        </motion.div>
+        {/* Cinematic Player UI in a large window */}
+        <div className="w-full max-w-7xl px-4 md:px-8 mx-auto">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.98 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+            className="w-full flex items-center justify-center relative"
+          >
+            <MacOSWindowFrame title="PPPlayer">
+              <Image
+                src="/images/screenshot-video.png"
+                alt="PPPlayer immersive player mode"
+                width={1024}
+                height={576}
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+              />
+            </MacOSWindowFrame>
+          </motion.div>
+        </div>
         
       </div>
     </section>

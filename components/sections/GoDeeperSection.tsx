@@ -6,6 +6,7 @@ import Image from 'next/image';
 import React from 'react'
 import { motion } from 'framer-motion'
 import { SpotlightText } from '@/components/ui/SpotlightText'
+import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
 export default function GoDeeperSection() {
   return (
@@ -43,14 +44,17 @@ export default function GoDeeperSection() {
             whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
-            className="w-full max-w-5xl aspect-[16/11] bg-white rounded-2xl md:rounded-[2rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.05),0_0_0_1px_rgba(0,0,0,0.05)] flex items-center justify-center relative"
+            className="w-full max-w-5xl flex items-center justify-center relative"
           >
-            <Image
-              src="/images/screenshot-artist.png"
-              alt="PPPlayer Artist Page"
-              fill
-              className="object-cover object-top"
-            />
+            <MacOSWindowFrame title="PPPlayer">
+              <Image
+                src="/images/screenshot-library-artists.png"
+                alt="PPPlayer Artist Page"
+                width={1024}
+                height={576}
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+              />
+            </MacOSWindowFrame>
           </motion.div>
         </div>
 

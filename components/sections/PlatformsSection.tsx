@@ -6,6 +6,7 @@ import Image from 'next/image';
 import React from 'react'
 import { motion } from 'framer-motion'
 import { SpotlightText } from '@/components/ui/SpotlightText'
+import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
 export default function PlatformsSection() {
   return (
@@ -36,14 +37,17 @@ export default function PlatformsSection() {
             whileInView={{ opacity: 1, y: 0, scale: 1, filter: 'blur(0px)' }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-            className="absolute top-0 w-[80%] md:w-[70%] aspect-[16/10] bg-[#111] rounded-2xl overflow-hidden shadow-product border border-white/10 flex items-center justify-center -translate-y-8"
+            className="absolute top-0 w-[80%] md:w-[70%] flex items-center justify-center -translate-y-8"
           >
-            <Image
-              src="/images/screenshot-home.png"
-              alt="PPPlayer Desktop"
-              fill
-              className="object-cover object-top"
-            />
+            <MacOSWindowFrame title="PPPlayer" className="w-full">
+              <Image
+                src="/images/screenshot-home.png"
+                alt="PPPlayer Desktop"
+                width={1920}
+                height={1080}
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+              />
+            </MacOSWindowFrame>
           </motion.div>
 
           {/* Android Left */}
