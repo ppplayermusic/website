@@ -32,8 +32,8 @@ export default function Footer() {
           <div className="flex flex-wrap gap-12 md:gap-16">
             <div className="flex flex-col gap-3">
               <span className="text-white text-xs font-semibold uppercase tracking-widest mb-4">{t("product")}</span>
-              <Link href="#features" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("features")}</Link>
-              <Link href="#download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("download")}</Link>
+              <Link href="/#features" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("features")}</Link>
+              <Link href="/#download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("download")}</Link>
             </div>
             
             <div className="flex flex-col gap-3">

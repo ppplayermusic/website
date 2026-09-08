@@ -12,8 +12,8 @@ import { DOWNLOAD_LINKS } from '@/lib/constants'
 import { LanguageSelector } from '@/components/ui/LanguageSelector'
 
 const navLinks = [
-  { label: 'features', href: '#features' },
-  { label: 'download', href: '#download' }
+  { label: 'features', href: '/#features' },
+  { label: 'download', href: '/#download' }
 ]
 
 export default function Navbar() {

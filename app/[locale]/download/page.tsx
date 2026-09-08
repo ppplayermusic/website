@@ -39,8 +39,9 @@ export default async function DownloadPage({ params }: { params: Promise<{ local
               {t("badge")}
             </span>
             <h1 className="text-5xl sm:text-6xl font-black tracking-tight mb-5">
-              Download{' '}
-              <span className="gradient-text">PPPlayer Free</span>
+              {t.rich("title", {
+                gradient: (chunks) => <span className="gradient-text">{chunks}</span>
+              })}
             </h1>
             <p className="text-slate-400 text-xl leading-relaxed mb-4">
               {t("subtitle")}
