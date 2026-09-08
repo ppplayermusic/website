@@ -85,7 +85,8 @@
     "getIos": "Obtener para iOS",
     "getAndroid": "Obtener para Android",
     "getMac": "Obtener para Mac",
-    "getWindows": "Obtener para Windows"
+    "getWindows": "Obtener para Windows",
+    "notAvailable": "Aún no disponible. Actualmente, solo la versión para macOS está disponible para descargar."
   },
   "downloadPage": {
     "badge": "100% Gratis · Sin Cuenta",

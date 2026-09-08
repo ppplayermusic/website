@@ -10,6 +10,12 @@ import { DOWNLOAD_LINKS } from '@/lib/constants'
 
 export default function DownloadCTA() {
   const t = useTranslations('downloadCTA');
+
+  const handleNotAvailable = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    alert(t("notAvailable"));
+  };
+
   return (
     <section id="download" className="py-32 md:py-48 bg-white text-black overflow-hidden flex flex-col items-center justify-center text-center">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 w-full">
@@ -25,16 +31,16 @@ export default function DownloadCTA() {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
-            <SpotlightButton href={DOWNLOAD_LINKS.ios} variant="dark">
+            <SpotlightButton href="#" variant="dark" onClick={handleNotAvailable}>
               {t("getIos")}
             </SpotlightButton>
-            <SpotlightButton href={DOWNLOAD_LINKS.android} variant="light">
+            <SpotlightButton href="#" variant="light" onClick={handleNotAvailable}>
               {t("getAndroid")}
             </SpotlightButton>
             <SpotlightButton href={DOWNLOAD_LINKS.macos} variant="light" download>
               {t("getMac")}
             </SpotlightButton>
-            <SpotlightButton href={DOWNLOAD_LINKS.windows} variant="light">
+            <SpotlightButton href="#" variant="light" onClick={handleNotAvailable}>
               {t("getWindows")}
             </SpotlightButton>
           </div>
