@@ -6,6 +6,7 @@ import { Menu, X } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from '@/components/ui/Button'
+import { StripeHoverLogo } from '@/components/ui/StripeHoverLogo'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
 
 const navLinks = [
@@ -35,12 +36,13 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-14 md:h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 group">
-            <Image
+            <StripeHoverLogo
               src="/logo.png"
               alt="PPPlayer Logo"
               width={28}
               height={28}
               className="rounded-lg group-hover:scale-105 transition-transform duration-300"
+              imageClassName="rounded-lg"
             />
             <span className="text-white font-semibold text-lg tracking-tight">
               PPPlayer

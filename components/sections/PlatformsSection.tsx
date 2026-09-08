@@ -13,8 +13,8 @@ export default function PlatformsSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 20, filter: 'blur(10px)' }}
+          whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="text-center mb-16 md:mb-24"
@@ -32,8 +32,8 @@ export default function PlatformsSection() {
           
           {/* Desktop Behind */}
           <motion.div
-            initial={{ opacity: 0, y: 40, scale: 0.95 }}
-            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            initial={{ opacity: 0, y: 40, scale: 0.95, filter: 'blur(10px)' }}
+            whileInView={{ opacity: 1, y: 0, scale: 1, filter: 'blur(0px)' }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
             className="absolute top-0 w-[80%] md:w-[70%] aspect-[16/10] bg-[#111] rounded-2xl overflow-hidden shadow-product border border-white/10 flex items-center justify-center -translate-y-8"
@@ -48,8 +48,8 @@ export default function PlatformsSection() {
 
           {/* Android Left */}
           <motion.div
-            initial={{ opacity: 0, x: -40, y: 20 }}
-            whileInView={{ opacity: 1, x: 0, y: 0 }}
+            initial={{ opacity: 0, x: -40, y: 20, filter: 'blur(10px)' }}
+            whileInView={{ opacity: 1, x: 0, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             className="absolute left-[5%] md:left-[15%] bottom-0 w-[30%] md:w-[22%] aspect-[9/19] bg-[#0a0a0a] rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.8),0_0_0_1px_rgba(255,255,255,0.1)] z-10 flex items-center justify-center"
@@ -64,8 +64,8 @@ export default function PlatformsSection() {
 
           {/* iOS Right */}
           <motion.div
-            initial={{ opacity: 0, x: 40, y: 20 }}
-            whileInView={{ opacity: 1, x: 0, y: 0 }}
+            initial={{ opacity: 0, x: 40, y: 20, filter: 'blur(10px)' }}
+            whileInView={{ opacity: 1, x: 0, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
             className="absolute right-[5%] md:right-[15%] bottom-0 w-[30%] md:w-[22%] aspect-[9/19] bg-[#0a0a0a] rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.8),0_0_0_1px_rgba(255,255,255,0.1)] z-10 flex items-center justify-center translate-y-8"

@@ -46,20 +46,23 @@ export default function HeroSection() {
       </div>
 
       {/* Enormous desktop interface, partially extending beyond the viewport */}
-      <motion.div
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-        className="w-[120%] md:w-[110%] max-w-[1600px] mt-16 md:mt-24 aspect-[16/10] md:aspect-[16/9] bg-black rounded-t-[2rem] md:rounded-t-[3rem] overflow-hidden shadow-2xl border-t border-x border-white/10 flex items-center justify-center relative translate-y-12 md:translate-y-24"
-      >
-        <Image
-          src="/images/screenshot-home.png"
-          alt="PPPlayer Desktop Home"
-          fill
-          className="object-cover object-top"
-          priority
-        />
-      </motion.div>
+      <div className="w-full flex justify-center" style={{ perspective: '2000px' }}>
+        <motion.div
+          initial={{ opacity: 0, y: 150, rotateX: 15, scale: 0.9, filter: 'blur(10px)' }}
+          animate={{ opacity: 1, y: 0, rotateX: 0, scale: 1, filter: 'blur(0px)' }}
+          transition={{ duration: 1.4, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+          style={{ transformOrigin: "top center" }}
+          className="w-[120%] md:w-[110%] max-w-[1600px] mt-16 md:mt-24 aspect-[16/10] md:aspect-[16/9] bg-black rounded-t-[2rem] md:rounded-t-[3rem] overflow-hidden shadow-2xl border-t border-x border-white/10 flex items-center justify-center relative translate-y-12 md:translate-y-24"
+        >
+          <Image
+            src="/images/screenshot-home.png"
+            alt="PPPlayer Desktop Home"
+            fill
+            className="object-cover object-top"
+            priority
+          />
+        </motion.div>
+      </div>
     </section>
   )
 }

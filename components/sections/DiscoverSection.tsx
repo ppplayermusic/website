@@ -13,8 +13,8 @@ export default function DiscoverSection() {
         <div className="grid md:grid-cols-12 gap-8 md:gap-16 items-center">
           
           <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -20, filter: 'blur(10px)' }}
+            whileInView={{ opacity: 1, x: 0, filter: 'blur(0px)' }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="md:col-span-5 md:col-start-1"
@@ -25,8 +25,8 @@ export default function DiscoverSection() {
           </motion.div>
           
           <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 40, filter: 'blur(10px)' }}
+            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
             className="md:col-span-7 w-full aspect-[4/5] bg-slate-50 rounded-2xl md:rounded-[2rem] overflow-hidden shadow-2xl shadow-black/5 border border-black/5 flex items-center justify-center relative -translate-y-8 md:translate-y-16"

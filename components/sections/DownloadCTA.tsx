@@ -4,6 +4,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { StripeHoverButton } from '@/components/ui/StripeHoverButton'
 import { StripeHoverText } from '@/components/ui/StripeHoverText'
+import { StripeHoverLogo } from '@/components/ui/StripeHoverLogo'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
 
 export default function DownloadCTA() {
@@ -40,9 +41,14 @@ export default function DownloadCTA() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
-          className="mt-32 md:mt-48 flex justify-center opacity-10 pointer-events-none"
+          className="mt-24 md:mt-32 opacity-20 pointer-events-none"
         >
-          <img src="/logo.png" alt="PPPlayer Logo Mark" className="w-48 h-48 md:w-64 md:h-64 rounded-[3rem] filter grayscale" />
+          <StripeHoverLogo 
+            src="/logo.png" 
+            alt="PPPlayer Logo Mark" 
+            className="w-48 h-48 md:w-64 md:h-64 pointer-events-auto"
+            imageClassName="rounded-[3rem] filter grayscale"
+          />
         </motion.div>
 
       </div>
