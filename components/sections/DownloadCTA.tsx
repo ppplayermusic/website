@@ -22,12 +22,15 @@ export default function DownloadCTA() {
             <SpotlightText>Just play.</SpotlightText>
           </h2>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 flex-wrap">
             <SpotlightButton href={DOWNLOAD_LINKS.ios} variant="dark">
               Get for iOS
             </SpotlightButton>
             <SpotlightButton href={DOWNLOAD_LINKS.android} variant="light">
               Get for Android
+            </SpotlightButton>
+            <SpotlightButton href={DOWNLOAD_LINKS.macos} variant="light">
+              Get for Mac
             </SpotlightButton>
             <SpotlightButton href={DOWNLOAD_LINKS.windows} variant="light">
               Get for Windows

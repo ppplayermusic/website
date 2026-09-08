@@ -8,6 +8,7 @@ export const DOWNLOAD_LINKS = {
   ios: 'https://apps.apple.com/app/ppplayer',
   android: 'https://play.google.com/store/apps/details?id=com.ppplayer',
   windows: 'https://ppplayer.com/download/windows',
+  macos: '/downloads/PPPlayer-1.0.0-macOS.dmg',
 }
 
 // Platform data
@@ -38,6 +39,15 @@ export const PLATFORMS = [
     badge: 'Direct Download',
     href: DOWNLOAD_LINKS.windows,
     color: 'from-blue-400 to-cyan-300',
+  },
+  {
+    id: 'macos',
+    name: 'macOS',
+    label: 'Mac',
+    description: 'Direct download for macOS. Apple Silicon & Intel supported.',
+    badge: 'Direct Download',
+    href: DOWNLOAD_LINKS.macos,
+    color: 'from-gray-400 to-gray-200',
   },
 ]
 
