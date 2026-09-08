@@ -1,27 +1,27 @@
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import HeroSection from '@/components/sections/HeroSection'
-import ValueStrip from '@/components/sections/ValueStrip'
+import DiscoverSection from '@/components/sections/DiscoverSection'
+import GoDeeperSection from '@/components/sections/GoDeeperSection'
+import PressPlaySection from '@/components/sections/PressPlaySection'
+import ArtistRadioSection from '@/components/sections/ArtistRadioSection'
+import NoAccountSection from '@/components/sections/NoAccountSection'
 import PlatformsSection from '@/components/sections/PlatformsSection'
-import FeaturesGrid from '@/components/sections/FeaturesGrid'
-import ScreenshotGallery from '@/components/sections/ScreenshotGallery'
-import FrictionlessSection from '@/components/sections/FrictionlessSection'
 import DownloadCTA from '@/components/sections/DownloadCTA'
-import FAQSection from '@/components/sections/FAQSection'
 
 export default function HomePage() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="bg-[var(--color-bg-base)]">
         <HeroSection />
-        <ValueStrip />
+        <DiscoverSection />
+        <GoDeeperSection />
+        <PressPlaySection />
+        <ArtistRadioSection />
+        <NoAccountSection />
         <PlatformsSection />
-        <FeaturesGrid />
-        <ScreenshotGallery />
-        <FrictionlessSection />
         <DownloadCTA />
-        <FAQSection />
       </main>
       <Footer />
     </>

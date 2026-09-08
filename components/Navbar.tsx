@@ -2,15 +2,15 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, Download } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from '@/components/ui/Button'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
 
 const navLinks = [
-  { label: 'Features', href: '/features' },
-  { label: 'Download', href: '/download' },
+  { label: 'Features', href: '#features' },
+  { label: 'Download', href: '#download' },
 ]
 
 export default function Navbar() {
@@ -25,30 +25,30 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? 'backdrop-blur-xl bg-black/60 border-b border-white/6 shadow-xl shadow-black/20'
+          ? 'backdrop-blur-2xl bg-[var(--color-bg-base)]/70 border-b border-white/5'
           : 'bg-transparent'
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-14 md:h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
+          <Link href="/" className="flex items-center gap-2.5 group">
             <Image
               src="/logo.png"
               alt="PPPlayer Logo"
-              width={36}
-              height={36}
-              className="rounded-xl shadow-lg shadow-red-700/30 group-hover:scale-110 transition-transform"
+              width={28}
+              height={28}
+              className="rounded-lg group-hover:scale-105 transition-transform duration-300"
             />
-            <span className="text-white font-black text-xl tracking-tight">
-              PP<span className="gradient-text">Player</span>
+            <span className="text-white font-semibold text-lg tracking-tight">
+              PPPlayer
             </span>
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -62,9 +62,8 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex">
-            <Button href={DOWNLOAD_LINKS.ios} size="sm">
-              <Download size={15} />
-              Download Free
+            <Button href={DOWNLOAD_LINKS.ios} size="sm" className="h-8 text-xs px-4 rounded-full bg-white text-black hover:bg-slate-200">
+              Download
             </Button>
           </div>
 
@@ -74,7 +73,7 @@ export default function Navbar() {
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
-            {isOpen ? <X size={22} /> : <Menu size={22} />}
+            {isOpen ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>
       </div>
@@ -86,22 +85,23 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden overflow-hidden backdrop-blur-xl bg-black/80 border-b border-white/8"
+            className="md:hidden overflow-hidden backdrop-blur-2xl bg-[var(--color-bg-base)]/95 border-b border-white/5"
           >
-            <div className="px-4 py-6 flex flex-col gap-4">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="text-slate-300 hover:text-white text-lg font-medium transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {link.label}
-                </Link>
-              ))}
-              <div className="pt-2">
-                <Button href={DOWNLOAD_LINKS.ios} size="md" className="w-full">
-                  <Download size={16} />
+            <div className="px-4 py-6 flex flex-col gap-6">
+              <nav className="flex flex-col gap-4">
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="text-slate-300 hover:text-white text-lg font-medium transition-colors"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </nav>
+              <div className="pt-4 border-t border-white/5">
+                <Button href={DOWNLOAD_LINKS.ios} size="md" className="w-full bg-white text-black rounded-full">
                   Download Free
                 </Button>
               </div>
@@ -112,3 +112,4 @@ export default function Navbar() {
     </header>
   )
 }
+
