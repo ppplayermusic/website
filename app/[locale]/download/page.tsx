@@ -5,6 +5,7 @@ import PlatformsSection from '@/components/sections/PlatformsSection'
 import PlatformCardsSection from '@/components/sections/PlatformCardsSection'
 import DownloadCTA from '@/components/sections/DownloadCTA'
 import FAQSection from '@/components/sections/FAQSection'
+import { SpotlightText } from '@/components/ui/SpotlightText'
 
 import {getTranslations} from 'next-intl/server';
 import {setRequestLocale} from 'next-intl/server';
@@ -45,9 +46,9 @@ export default async function DownloadPage({ params }: { params: Promise<{ local
               </a>
             </div>
             
-            <h1 className="text-6xl sm:text-7xl md:text-8xl font-black tracking-tighter mb-6 leading-[0.95]">
+            <h1 className="text-6xl sm:text-7xl md:text-8xl font-black tracking-tighter mb-6 leading-[0.95] cursor-default">
               {t.rich("title", {
-                gradient: (chunks) => <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/40">{chunks}</span>
+                gradient: (chunks) => <SpotlightText className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60">{chunks}</SpotlightText>
               })}
             </h1>
             
