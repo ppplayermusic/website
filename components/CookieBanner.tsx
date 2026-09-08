@@ -1,5 +1,6 @@
 "use client"
 
+import {useTranslations} from 'next-intl'
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Cookie } from "lucide-react"
@@ -11,6 +12,7 @@ declare global {
 }
 
 export default function CookieBanner() {
+  const t = useTranslations('cookie');
   const [show, setShow] = useState(false)
 
   useEffect(() => {
@@ -58,9 +60,9 @@ export default function CookieBanner() {
                   <Cookie className="h-6 w-6 text-white/70" />
                 </div>
                 <div className="flex flex-col gap-1">
-                  <h3 className="text-lg font-semibold text-white">We value your privacy</h3>
+                  <h3 className="text-lg font-semibold text-white">{t("title")}</h3>
                   <p className="text-sm text-white/60">
-                    We use cookies to analyze site traffic and enhance your experience. By clicking &quot;Accept&quot;, you consent to our use of cookies.
+                    {t("desc")}
                   </p>
                 </div>
               </div>
@@ -70,13 +72,13 @@ export default function CookieBanner() {
                   onClick={() => handleConsent(false)}
                   className="rounded-full border border-white/10 bg-white/5 px-6 py-2.5 text-sm font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white"
                 >
-                  Decline All
+                  {t("decline")}
                 </button>
                 <button
                   onClick={() => handleConsent(true)}
                   className="rounded-full bg-white px-6 py-2.5 text-sm font-medium text-black transition-transform hover:scale-105 active:scale-95"
                 >
-                  Accept All
+                  {t("accept")}
                 </button>
               </div>
 

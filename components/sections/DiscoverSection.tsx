@@ -1,11 +1,13 @@
 'use client'
 import Image from 'next/image';
 import React from 'react'
+import {useTranslations} from 'next-intl'
 import { motion } from 'framer-motion'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
 export default function DiscoverSection() {
+  const t = useTranslations('discover');
   return (
     <section id="discover" className="py-32 md:py-48 bg-white text-black overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -21,7 +23,7 @@ export default function DiscoverSection() {
             className="md:col-span-5 md:col-start-1"
           >
             <h2 className="text-5xl md:text-7xl font-bold tracking-tight leading-[0.9] cursor-default">
-              <SpotlightText>Find<br />something<br />worth playing.</SpotlightText>
+              <SpotlightText>{t.rich("title", { br: () => <br /> })}</SpotlightText>
             </h2>
           </motion.div>
           

@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer: iOS, Android & Windows İçin Ücretsiz Müzik | Hesap Gerekmez",
+    "homeDesc": "PPPlayer, iPhone, Android ve Windows için ücretsiz bir müzik uygulamasıdır. Sanatçıları ve türleri keşfedin: hesap yok, kayıt yok, ücretsiz.",
+    "downloadTitle": "PPPlayer'ı Ücretsiz İndir",
+    "downloadDesc": "PPPlayer'ı iOS, Android veya Windows için indirin. Hesap gerekmez. Dakikalar içinde dinlemeye başlayın.",
+    "privacyTitle": "Gizlilik Politikası",
+    "privacyDesc": "PPPlayer için Gizlilik Politikası: iOS, Android ve Windows için ücretsiz müzik uygulaması.",
+    "termsTitle": "Hizmet Şartları",
+    "termsDesc": "PPPlayer için Hizmet Şartları: iOS, Android ve Windows için ücretsiz müzik uygulaması."
+  },
+  "nav": {
+    "features": "Özellikler",
+    "download": "Ücretsiz İndir"
+  },
+  "footer": {
+    "desc": "Zorluklar olmadan müzik. iOS, Android ve Windows için ücretsiz.",
+    "product": "Ürün",
+    "features": "Özellikler",
+    "download": "İndir",
+    "platforms": "Platformlar",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Sosyal Medya",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Yasal",
+    "privacy": "Gizlilik",
+    "terms": "Şartlar",
+    "copyright": "© {year} PPPlayer. Tüm hakları saklıdır."
+  },
+  "cookie": {
+    "title": "Gizliliğinize değer veriyoruz",
+    "desc": "Site trafiğini analiz etmek ve deneyiminizi geliştirmek için çerezler kullanıyoruz. \"Kabul Et\" seçeneğine tıklayarak çerez kullanımımızı kabul edersiniz.",
+    "decline": "Tümünü Reddet",
+    "accept": "Tümünü Kabul Et"
+  },
+  "hero": {
+    "title1": "Müzik.",
+    "title2": "Zorluklar olmadan.",
+    "desc": "Hesap yok. Abonelik yok. Sadece dinle.",
+    "getIos": "iOS İçin İndir",
+    "getAndroid": "Android İçin İndir",
+    "getMac": "Mac İçin İndir",
+    "getWindows": "Windows İçin İndir"
+  },
+  "discover": {
+    "title": "Dinlemeye<br></br>değer<br></br>bir şeyler bul."
+  },
+  "artistRadio": {
+    "title": "Sonsuz dinleme."
+  },
+  "goDeeper": {
+    "bgText": "TAKİP ET",
+    "title": "Müziği takip et."
+  },
+  "pressPlay": {
+    "title": "Sonra, sadece dinle."
+  },
+  "featureGallery": {
+    "title": "İhtiyacın olan her şey.",
+    "subtitle": "Performans için oluşturulmuş, güzel, yerel bir deneyim.",
+    "searchTitle": "Tam olarak istediğini bul.",
+    "searchDesc": "Şarkılar, sanatçılar ve albümler arasında anında global arama yap.",
+    "queueTitle": "Kusursuz sıra.",
+    "queueDesc": "Sıradaki parçaları güzel ve düzenlenebilir bir sırayla yönet.",
+    "favTitle": "Senin müziğin, senin kuralların.",
+    "favDesc": "Kişisel kitaplığını tek tıklamayla oluştur. Her zaman orada.",
+    "contextTitle": "Tasarımla yerel.",
+    "contextDesc": "Herhangi bir yere sağ tıkla. Güzel, bağlama duyarlı yerel menüler."
+  },
+  "noAccount": {
+    "title": "Hesap yok.",
+    "subtitle": "Müzik izin istememeli."
+  },
+  "platforms": {
+    "title": "Senin müziğin. Cihazların.",
+    "subtitle": "Windows, Android ve iOS'te muhteşem yerel görünüm."
+  },
+  "downloadCTA": {
+    "title": "Sadece dinle.",
+    "getIos": "iOS İçin İndir",
+    "getAndroid": "Android İçin İndir",
+    "getMac": "Mac İçin İndir",
+    "getWindows": "Windows İçin İndir"
+  },
+  "downloadPage": {
+    "badge": "%100 Ücretsiz · Hesap Gerekmez",
+    "title": "<gradient>PPPlayer'ı Ücretsiz</gradient> İndir",
+    "subtitle": "Platformunu seç. Dakikalar içinde dinlemeye başla.",
+    "desc": "Hesap gerekmez. E-posta yok. Kayıt yok. Sadece müzik.",
+    "windowsReqLabel": "Windows sistem gereksinimleri:",
+    "windowsReqDesc": "Windows 10 veya üzeri (64-bit). ~50 MB. Microsoft Store gerekmez."
+  },
+  "faq": {
+    "badge": "SSS",
+    "title": "Sıkça sorulan <gradient>sorular</gradient>",
+    "subtitle": "PPPlayer hakkında bilmen gereken her şey."
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son Güncelleme: Nisan 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Genel Bakış",
+        "p": "PPPlayer (\"biz\", \"bizim\", \"uygulama\") gizliliğinizi korumaya kararlıdır. Bu politika, PPPlayer'ı kullanırken hangi verileri topladığımızı ve nasıl kullanıldığını açıklar."
+      },
+      "s2": {
+        "title": "2. Hesap Gerekmez",
+        "p": "PPPlayer hesap oluşturmanızı gerektirmez. İsminizi, e-posta adresinizi veya tanımlanabilir hiçbir bilgiyi toplamıyoruz."
+      },
+      "s3": {
+        "title": "3. Topladığımız Veriler",
+        "p1": "Aşağıdaki anonim ve kimliği belirsiz verileri toplayabiliriz:",
+        "li1": "Çökme raporları ve hata kayıtları (uygulama kararlılığını artırmak için)",
+        "li2": "Anonim kullanım analizleri (özellik kullanımı, oturum süresi)",
+        "li3": "Cihaz türü ve işletim sistemi sürümü",
+        "p2": "Toplamadıklarımız: İsimler, e-postalar, ödeme bilgileri veya konum verileri."
+      },
+      "s4": {
+        "title": "4. Üçüncü Taraf Hizmetleri",
+        "p": "PPPlayer, müzik meta verileri ve analizleri için üçüncü taraf hizmetleri kullanabilir. Bu hizmetlerin kendi gizlilik politikaları vardır."
+      },
+      "s5": {
+        "title": "5. Veri Saklama",
+        "p": "Anonim analiz verileri en fazla 12 ay saklanır. Çökme raporları 90 gün sonra silinir."
+      },
+      "s6": {
+        "title": "6. Haklarınız",
+        "p": "Kişisel veri toplamadığımız için erişilecek, dışa aktarılacak veya silinecek kişisel bir bilgi yoktur. Sorularınız varsa bize ulaşın."
+      },
+      "s7": {
+        "title": "7. Çocuklar",
+        "p": "PPPlayer 13 yaşından küçük çocuklara yönelik değildir. Bilerek çocuklardan veri toplamıyoruz."
+      },
+      "s8": {
+        "title": "8. Değişiklikler",
+        "p": "Bu politikayı zaman zaman güncelleyebiliriz. Son güncelleme tarihi bu sayfanın üst kısmında belirtilir."
+      },
+      "s9": {
+        "title": "9. İletişim",
+        "p": "Bu politika hakkında sorularınız mı var? Bize ulaşın: "
+      }
+    },
+    "back": "← PPPlayer'a Dön"
+  },
+  "terms": {
+    "title": "Hizmet Şartları",
+    "lastUpdated": "Son Güncelleme: Nisan 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Şartların Kabulü",
+        "p": "PPPlayer'ı indirerek veya kullanarak bu Hizmet Şartlarını kabul edersiniz. Kabul etmiyorsanız lütfen uygulamayı kullanmayın."
+      },
+      "s2": {
+        "title": "2. Uygulamanın Kullanımı",
+        "p": "PPPlayer kişisel kullanım için ücretsiz sağlanmaktadır. Şunları yapmamayı kabul edersiniz:",
+        "li1": "Uygulamada tersine mühendislik yapmamak veya değiştirmemek",
+        "li2": "Uygulamayı zararlı içerik dağıtmak için kullanmamak",
+        "li3": "Yürürlükteki yasalara aykırı davranmamak"
+      },
+      "s3": {
+        "title": "3. Hesap Gerekmez",
+        "p": "PPPlayer hesap oluşturmayı gerektirmez. Tüm özellikleri hemen kullanabilirsiniz."
+      },
+      "s4": {
+        "title": "4. Fikri Mülkiyet",
+        "p": "PPPlayer'ın içeriği PPPlayer'a aittir. Uygulama içinde gösterilen müzik içeriği üçüncü taraf sağlayıcılardan alınmıştır ve lisanslarına tabidir."
+      },
+      "s5": {
+        "title": "5. Garanti Reddi",
+        "p": "PPPlayer \"olduğu gibi\" sağlanmaktadır. Uygulamanın kesintisiz çalışacağını veya hatasız olacağını garanti etmiyoruz."
+      },
+      "s6": {
+        "title": "6. Sorumluluğun Sınırlandırılması",
+        "p": "Yasaların izin verdiği ölçüde, PPPlayer uygulamanın kullanımından kaynaklanan dolaylı veya arızi hasarlardan sorumlu tutulamaz."
+      },
+      "s7": {
+        "title": "7. Şartlardaki Değişiklikler",
+        "p": "Bu şartları dilediğimiz zaman güncelleme hakkını saklı tutuyoruz. Değişikliklerden sonra kullanmaya devam etmeniz şartları kabul ettiğiniz anlamına gelir."
+      },
+      "s8": {
+        "title": "8. İletişim",
+        "p": "Bu şartlar hakkında sorularınız mı var? Bize ulaşın: "
+      }
+    },
+    "back": "← PPPlayer'a Dön"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer: Free Music App for iOS, Android & Windows | No Account Required",
+    "homeDesc": "PPPlayer is a free music app for iPhone, Android, and Windows. Discover artists, explore genres, and start listening instantly: no account, no signup, no cost.",
+    "downloadTitle": "Download PPPlayer Free",
+    "downloadDesc": "Download PPPlayer for iOS, Android, or Windows. Free music app: no account required. Start listening in minutes.",
+    "privacyTitle": "Privacy Policy",
+    "privacyDesc": "Privacy Policy for PPPlayer: free music app for iOS, Android, and Windows.",
+    "termsTitle": "Terms of Service",
+    "termsDesc": "Terms of Service for PPPlayer: free music app for iOS, Android, and Windows."
+  },
+  "nav": {
+    "features": "Features",
+    "download": "Download Free"
+  },
+  "footer": {
+    "desc": "Music, without the friction. Free for iOS, Android, and Windows.",
+    "product": "Product",
+    "features": "Features",
+    "download": "Download",
+    "platforms": "Platforms",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Social",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "copyright": "© {year} PPPlayer. All rights reserved."
+  },
+  "cookie": {
+    "title": "We value your privacy",
+    "desc": "We use cookies to analyze site traffic and enhance your experience. By clicking \"Accept\", you consent to our use of cookies.",
+    "decline": "Decline All",
+    "accept": "Accept All"
+  },
+  "hero": {
+    "title1": "Music.",
+    "title2": "Without the friction.",
+    "desc": "No account. No subscription. Just play.",
+    "getIos": "Get for iOS",
+    "getAndroid": "Get for Android",
+    "getMac": "Get for Mac",
+    "getWindows": "Get for Windows"
+  },
+  "discover": {
+    "title": "Find<br></br>something<br></br>worth playing."
+  },
+  "artistRadio": {
+    "title": "Endless listening."
+  },
+  "goDeeper": {
+    "bgText": "FOLLOW",
+    "title": "Follow the music."
+  },
+  "pressPlay": {
+    "title": "Then, just listen."
+  },
+  "featureGallery": {
+    "title": "Everything you need.",
+    "subtitle": "A beautiful, native experience built for performance.",
+    "searchTitle": "Find exactly what you want.",
+    "searchDesc": "Search globally across tracks, artists, and albums instantly.",
+    "queueTitle": "Perfectly queued.",
+    "queueDesc": "Manage what plays next with a beautiful, reorderable queue.",
+    "favTitle": "Your music, your rules.",
+    "favDesc": "Build your personal library with a single click. Always there.",
+    "contextTitle": "Native by design.",
+    "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus."
+  },
+  "noAccount": {
+    "title": "No account.",
+    "subtitle": "Music shouldn't require permission."
+  },
+  "platforms": {
+    "title": "Your music. Your devices.",
+    "subtitle": "Beautifully native on Windows, Android, and iOS."
+  },
+  "downloadCTA": {
+    "title": "Just play.",
+    "getIos": "Get for iOS",
+    "getAndroid": "Get for Android",
+    "getMac": "Get for Mac",
+    "getWindows": "Get for Windows"
+  },
+  "downloadPage": {
+    "badge": "100% Free · No Account Required",
+    "title": "Download <gradient>PPPlayer Free</gradient>",
+    "subtitle": "Pick your platform. Start listening in minutes.",
+    "desc": "No account required. No email. No signup. Just music.",
+    "windowsReqLabel": "Windows system requirements:",
+    "windowsReqDesc": "Windows 10 or later (64-bit). ~50 MB download. No Microsoft Store required."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Common <gradient>questions</gradient>",
+    "subtitle": "Everything you need to know about PPPlayer."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Overview",
+        "p": "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explains what data we collect, why, and how it is used when you use PPPlayer on iOS, Android, or Windows."
+      },
+      "s2": {
+        "title": "2. No Account Required",
+        "p": "PPPlayer does not require you to create an account. We do not collect your name, email address, or any personally identifiable information to use the app."
+      },
+      "s3": {
+        "title": "3. Data We Collect",
+        "p1": "We may collect the following anonymous, non-identifiable data:",
+        "li1": "Crash reports and error logs (to improve app stability)",
+        "li2": "Anonymous usage analytics (feature usage, session duration)",
+        "li3": "Device type and operating system version",
+        "p2": "We do not collect: names, emails, payment info, or precise location data."
+      },
+      "s4": {
+        "title": "4. Third-Party Services",
+        "p": "PPPlayer may use third-party services for music metadata and analytics. These services have their own privacy policies. We encourage you to review them."
+      },
+      "s5": {
+        "title": "5. Data Retention",
+        "p": "Anonymous analytics data is retained for a maximum of 12 months. Crash logs are deleted after 90 days."
+      },
+      "s6": {
+        "title": "6. Your Rights",
+        "p": "Since we do not collect personal data, there is no personal information to access, export, or delete. If you have questions, contact us at the address below."
+      },
+      "s7": {
+        "title": "7. Children",
+        "p": "PPPlayer is not directed at children under 13. We do not knowingly collect data from children."
+      },
+      "s8": {
+        "title": "8. Changes",
+        "p": "We may update this policy from time to time. We will note the date of the last update at the top of this page."
+      },
+      "s9": {
+        "title": "9. Contact",
+        "p": "Questions about this policy? Contact us at "
+      }
+    },
+    "back": "← Back to PPPlayer"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: April 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Acceptance of Terms",
+        "p": "By downloading or using PPPlayer, you agree to these Terms of Service. If you do not agree, please do not use the app."
+      },
+      "s2": {
+        "title": "2. Use of the App",
+        "p": "PPPlayer is provided free of charge for personal, non-commercial use. You agree not to:",
+        "li1": "Reverse engineer, decompile, or modify the app",
+        "li2": "Use the app to distribute malware or harmful content",
+        "li3": "Violate any applicable laws or regulations while using the app"
+      },
+      "s3": {
+        "title": "3. No Account Required",
+        "p": "PPPlayer does not require account creation. You can use all features immediately after download."
+      },
+      "s4": {
+        "title": "4. Intellectual Property",
+        "p": "PPPlayer and its content, features, and functionality are owned by PPPlayer and protected by applicable intellectual property laws. Music content displayed within the app is sourced from third-party providers and subject to their respective rights and licenses."
+      },
+      "s5": {
+        "title": "5. Disclaimer of Warranties",
+        "p": "PPPlayer is provided \"as is\" without warranty of any kind, express or implied. We do not guarantee uninterrupted service or that the app will be error-free."
+      },
+      "s6": {
+        "title": "6. Limitation of Liability",
+        "p": "To the maximum extent permitted by law, PPPlayer shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use or inability to use the app."
+      },
+      "s7": {
+        "title": "7. Changes to Terms",
+        "p": "We reserve the right to update these terms at any time. Continued use of the app after changes constitutes acceptance of the new terms."
+      },
+      "s8": {
+        "title": "8. Contact",
+        "p": "Questions about these terms? Reach us at "
+      }
+    },
+    "back": "← Back to PPPlayer"
+  }
+}

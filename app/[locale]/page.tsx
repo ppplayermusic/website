@@ -10,7 +10,21 @@ import PlatformsSection from '@/components/sections/PlatformsSection'
 import FeatureGallerySection from '@/components/sections/FeatureGallerySection'
 import DownloadCTA from '@/components/sections/DownloadCTA'
 
-export default function HomePage() {
+import {setRequestLocale} from 'next-intl/server';
+import {getTranslations} from 'next-intl/server';
+
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'metadata'});
+  return {
+    title: t('homeTitle'),
+    description: t('homeDesc')
+  };
+}
+
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <>
       <Navbar />

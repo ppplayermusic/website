@@ -4,11 +4,13 @@ import Image from 'next/image';
 
 
 import React from 'react'
+import {useTranslations} from 'next-intl'
 import { motion } from 'framer-motion'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
 export default function PressPlaySection() {
+  const t = useTranslations('pressPlay');
   return (
     <section className="py-24 md:py-32 bg-[var(--color-bg-base)] text-white overflow-hidden">
       <div className="flex flex-col items-center">
@@ -21,7 +23,7 @@ export default function PressPlaySection() {
           className="text-center mb-16 md:mb-24 px-4"
         >
           <h2 className="text-5xl md:text-7xl font-bold tracking-tight cursor-default">
-            <SpotlightText>Then, just listen.</SpotlightText>
+            <SpotlightText>{t("title")}</SpotlightText>
           </h2>
         </motion.div>
 

@@ -1,18 +1,23 @@
 'use client'
 
+import {useTranslations} from 'next-intl';
+import {Link} from '@/i18n/routing';
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
-import Link from 'next/link'
+// Import handled
 import { Button } from '@/components/ui/Button'
 import { SpotlightLogo } from '@/components/ui/SpotlightLogo'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
+import { LanguageSelector } from '@/components/ui/LanguageSelector'
 
 const navLinks = [
-  { label: 'Features', href: '#features' },
+  { label: 'features', href: '#features' },
+  { label: 'download', href: '#download' }
 ]
 
 export default function Navbar() {
+  const t = useTranslations('nav');
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
 
@@ -59,9 +64,10 @@ export default function Navbar() {
                 href={link.href}
                 className="text-slate-400 hover:text-white transition-colors text-sm font-medium"
               >
-                {link.label}
+                {t(link.label)}
               </Link>
             ))}
+            <LanguageSelector />
           </nav>
 
           {/* Desktop CTA & Socials */}
@@ -81,7 +87,7 @@ export default function Navbar() {
               </a>
             </div>
             <Button href={DOWNLOAD_LINKS.ios} size="sm" className="h-8 text-xs px-4 rounded-full bg-white text-black hover:bg-slate-200">
-              Download
+              {t("download")}
             </Button>
           </div>
 
@@ -114,7 +120,7 @@ export default function Navbar() {
                     className="text-slate-300 hover:text-white text-lg font-medium transition-colors"
                     onClick={() => setIsOpen(false)}
                   >
-                    {link.label}
+                    {t(link.label)}
                   </Link>
                 ))}
               </nav>
@@ -134,7 +140,7 @@ export default function Navbar() {
                   </a>
                 </div>
                 <Button href={DOWNLOAD_LINKS.ios} size="md" className="w-full bg-white text-black rounded-full">
-                  Download Free
+                  {t("download")}
                 </Button>
               </div>
             </div>

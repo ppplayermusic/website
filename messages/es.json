@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer: App de Música Gratis para iOS, Android y Windows | Sin Cuenta",
+    "homeDesc": "PPPlayer es una app de música gratuita para iPhone, Android y Windows. Descubre artistas y géneros sin crear cuenta, sin registro y sin costo.",
+    "downloadTitle": "Descarga PPPlayer Gratis",
+    "downloadDesc": "Descarga PPPlayer para iOS, Android o Windows. App de música gratis sin necesidad de cuenta. Empieza a escuchar en minutos.",
+    "privacyTitle": "Política de Privacidad",
+    "privacyDesc": "Política de Privacidad de PPPlayer: app de música gratis para iOS, Android y Windows.",
+    "termsTitle": "Términos de Servicio",
+    "termsDesc": "Términos de Servicio de PPPlayer: app de música gratis para iOS, Android y Windows."
+  },
+  "nav": {
+    "features": "Funciones",
+    "download": "Descargar Gratis"
+  },
+  "footer": {
+    "desc": "Música, sin fricción. Gratis para iOS, Android y Windows.",
+    "product": "Producto",
+    "features": "Funciones",
+    "download": "Descargar",
+    "platforms": "Plataformas",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Social",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Legal",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "copyright": "© {year} PPPlayer. Todos los derechos reservados."
+  },
+  "cookie": {
+    "title": "Valoramos tu privacidad",
+    "desc": "Usamos cookies para analizar el tráfico y mejorar tu experiencia. Al hacer clic en \"Aceptar\", consientes nuestro uso de cookies.",
+    "decline": "Rechazar Todo",
+    "accept": "Aceptar Todo"
+  },
+  "hero": {
+    "title1": "Música.",
+    "title2": "Sin complicaciones.",
+    "desc": "Sin cuenta. Sin suscripción. Solo dale play.",
+    "getIos": "Obtener para iOS",
+    "getAndroid": "Obtener para Android",
+    "getMac": "Obtener para Mac",
+    "getWindows": "Obtener para Windows"
+  },
+  "discover": {
+    "title": "Encuentra<br></br>algo que<br></br>valga la pena."
+  },
+  "artistRadio": {
+    "title": "Música sin fin."
+  },
+  "goDeeper": {
+    "bgText": "SEGUIR",
+    "title": "Sigue la música."
+  },
+  "pressPlay": {
+    "title": "Luego, solo escucha."
+  },
+  "featureGallery": {
+    "title": "Todo lo que necesitas.",
+    "subtitle": "Una hermosa experiencia nativa construida para el rendimiento.",
+    "searchTitle": "Encuentra exactamente lo que quieres.",
+    "searchDesc": "Busca globalmente canciones, artistas y álbumes al instante.",
+    "queueTitle": "Cola perfecta.",
+    "queueDesc": "Controla lo que suena a continuación con una hermosa cola reordenable.",
+    "favTitle": "Tu música, tus reglas.",
+    "favDesc": "Crea tu biblioteca personal con un solo clic. Siempre contigo.",
+    "contextTitle": "Nativo por diseño.",
+    "contextDesc": "Haz clic derecho. Menús contextuales nativos y hermosos."
+  },
+  "noAccount": {
+    "title": "Sin cuenta.",
+    "subtitle": "La música no debería pedir permiso."
+  },
+  "platforms": {
+    "title": "Tu música. Tus dispositivos.",
+    "subtitle": "Bellamente nativo en Windows, Android e iOS."
+  },
+  "downloadCTA": {
+    "title": "Solo escucha.",
+    "getIos": "Obtener para iOS",
+    "getAndroid": "Obtener para Android",
+    "getMac": "Obtener para Mac",
+    "getWindows": "Obtener para Windows"
+  },
+  "downloadPage": {
+    "badge": "100% Gratis · Sin Cuenta",
+    "title": "Descarga <gradient>PPPlayer Gratis</gradient>",
+    "subtitle": "Elige tu plataforma. Escucha en minutos.",
+    "desc": "Sin cuenta. Sin correo. Sin registro. Solo música.",
+    "windowsReqLabel": "Requisitos de Windows:",
+    "windowsReqDesc": "Windows 10 o superior (64-bit). Descarga de ~50 MB. No requiere Microsoft Store."
+  },
+  "faq": {
+    "badge": "PREGUNTAS",
+    "title": "Preguntas <gradient>frecuentes</gradient>",
+    "subtitle": "Todo lo que necesitas saber sobre PPPlayer."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: Abril de 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Descripción General",
+        "p": "PPPlayer (\"nosotros\", \"nuestro\", \"la app\") se compromete a proteger tu privacidad. Esta política explica qué datos recopilamos y cómo se usan al utilizar PPPlayer en iOS, Android o Windows."
+      },
+      "s2": {
+        "title": "2. Sin Cuenta Necesaria",
+        "p": "PPPlayer no requiere cuenta. No recopilamos tu nombre, correo ni información personal identificable."
+      },
+      "s3": {
+        "title": "3. Datos que Recopilamos",
+        "p1": "Podemos recopilar los siguientes datos anónimos:",
+        "li1": "Reportes de fallos (para mejorar la app)",
+        "li2": "Analíticas de uso (uso de funciones, duración de sesión)",
+        "li3": "Tipo de dispositivo y versión del SO",
+        "p2": "No recopilamos: nombres, correos, datos de pago ni ubicación."
+      },
+      "s4": {
+        "title": "4. Servicios de Terceros",
+        "p": "PPPlayer puede usar servicios de terceros para metadatos y analíticas. Tienen sus propias políticas."
+      },
+      "s5": {
+        "title": "5. Retención de Datos",
+        "p": "Los datos analíticos anónimos se retienen un máximo de 12 meses. Los logs de errores se eliminan a los 90 días."
+      },
+      "s6": {
+        "title": "6. Tus Derechos",
+        "p": "Al no recopilar datos personales, no hay qué acceder, exportar o borrar. Si tienes dudas, contáctanos."
+      },
+      "s7": {
+        "title": "7. Niños",
+        "p": "PPPlayer no está dirigido a menores de 13 años. No recopilamos datos de niños."
+      },
+      "s8": {
+        "title": "8. Cambios",
+        "p": "Podemos actualizar esta política. La fecha de actualización estará al principio de la página."
+      },
+      "s9": {
+        "title": "9. Contacto",
+        "p": "¿Dudas sobre la política? Contáctanos en "
+      }
+    },
+    "back": "← Volver a PPPlayer"
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: Abril de 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Aceptación de Términos",
+        "p": "Al usar PPPlayer, aceptas estos Términos de Servicio. Si no estás de acuerdo, no uses la app."
+      },
+      "s2": {
+        "title": "2. Uso de la App",
+        "p": "PPPlayer es gratuita para uso personal. Aceptas no:",
+        "li1": "Hacer ingeniería inversa o modificar la app",
+        "li2": "Usar la app para distribuir malware",
+        "li3": "Violar leyes aplicables usando la app"
+      },
+      "s3": {
+        "title": "3. Sin Cuenta Necesaria",
+        "p": "PPPlayer no requiere cuenta. Puedes usar todo de inmediato."
+      },
+      "s4": {
+        "title": "4. Propiedad Intelectual",
+        "p": "PPPlayer es dueña de la app. El contenido musical proviene de terceros y está sujeto a sus licencias."
+      },
+      "s5": {
+        "title": "5. Renuncia de Garantías",
+        "p": "PPPlayer se proporciona \"tal cual\", sin garantía alguna. No garantizamos un servicio ininterrumpido."
+      },
+      "s6": {
+        "title": "6. Limitación de Responsabilidad",
+        "p": "PPPlayer no será responsable por daños indirectos o incidentales por usar la app."
+      },
+      "s7": {
+        "title": "7. Cambios en los Términos",
+        "p": "Podemos actualizar estos términos en cualquier momento. Tu uso continuo constituye aceptación."
+      },
+      "s8": {
+        "title": "8. Contacto",
+        "p": "¿Dudas sobre los términos? Contáctanos en "
+      }
+    },
+    "back": "← Volver a PPPlayer"
+  }
+}

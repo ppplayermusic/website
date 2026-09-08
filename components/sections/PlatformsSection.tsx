@@ -4,11 +4,13 @@ import Image from 'next/image';
 
 
 import React from 'react'
+import {useTranslations} from 'next-intl'
 import { motion } from 'framer-motion'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
 export default function PlatformsSection() {
+  const t = useTranslations('platforms');
   return (
     <section className="py-24 md:py-32 bg-[var(--color-bg-base)] text-white overflow-hidden border-t border-white/5">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -21,10 +23,10 @@ export default function PlatformsSection() {
           className="text-center mb-16 md:mb-24"
         >
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 cursor-default">
-            <SpotlightText>Your music. Your devices.</SpotlightText>
+            <SpotlightText>{t("title")}</SpotlightText>
           </h2>
           <p className="text-slate-400 text-lg">
-            Beautifully native on Windows, Android, and iOS.
+            {t("subtitle")}
           </p>
         </motion.div>
 

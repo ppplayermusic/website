@@ -1,4 +1,5 @@
 'use client'
+import {useTranslations} from 'next-intl'
 
 import { motion } from 'framer-motion'
 import { FAQItem } from '@/components/ui/FAQItem'
@@ -6,6 +7,7 @@ import { FAQ_ITEMS } from '@/lib/constants'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 
 export default function FAQSection() {
+  const t = useTranslations('faq');
   return (
     <section className="py-24">
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
@@ -19,12 +21,11 @@ export default function FAQSection() {
           <p className="text-red-500 font-semibold text-sm uppercase tracking-widest mb-3">FAQ</p>
           <h2 className="text-4xl sm:text-5xl font-black tracking-tight mb-4 cursor-default">
             <SpotlightText>
-              Common{' '}
-              <span className="gradient-text">questions</span>
+              {t.rich("title", { gradient: (chunks) => <span className="gradient-text">{chunks}</span> })}
             </SpotlightText>
           </h2>
           <p className="text-slate-400 text-lg">
-            Everything you need to know about PPPlayer.
+            {t("subtitle")}
           </p>
         </motion.div>
 

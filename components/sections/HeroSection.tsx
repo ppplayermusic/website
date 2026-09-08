@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 
 import React from 'react'
+import {useTranslations} from 'next-intl'
 import { motion } from 'framer-motion'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
 import { SpotlightText } from '@/components/ui/SpotlightText'
@@ -11,6 +12,7 @@ import { SpotlightButton } from '@/components/ui/SpotlightButton'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
 export default function HeroSection() {
+  const t = useTranslations('hero');
   return (
     <section className="relative pt-32 md:pt-40 pb-16 overflow-hidden flex flex-col items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full text-center z-10">
@@ -22,27 +24,27 @@ export default function HeroSection() {
           className="max-w-4xl mx-auto"
         >
           <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-6 leading-[0.9] cursor-default">
-            <SpotlightText className="text-white">Music.</SpotlightText><br />
+            <SpotlightText className="text-white">{t("title1")}</SpotlightText><br />
             <span className="text-slate-400">
-              <SpotlightText>Without the friction.</SpotlightText>
+              <SpotlightText>{t("title2")}</SpotlightText>
             </span>
           </h1>
           <p className="text-slate-300 text-xl md:text-2xl font-medium mb-10 max-w-2xl mx-auto">
-            No account. No subscription. Just play.
+            {t("desc")}
           </p>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
             <SpotlightButton href={DOWNLOAD_LINKS.ios} variant="light">
-              Get for iOS
+              {t("getIos")}
             </SpotlightButton>
             <SpotlightButton href={DOWNLOAD_LINKS.android} variant="dark">
-              Get for Android
+              {t("getAndroid")}
             </SpotlightButton>
             <SpotlightButton href={DOWNLOAD_LINKS.macos} variant="dark" download>
-              Get for Mac
+              {t("getMac")}
             </SpotlightButton>
             <SpotlightButton href={DOWNLOAD_LINKS.windows} variant="dark">
-              Get for Windows
+              {t("getWindows")}
             </SpotlightButton>
           </div>
         </motion.div>

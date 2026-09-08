@@ -4,11 +4,13 @@ import Image from 'next/image';
 
 
 import React from 'react'
+import {useTranslations} from 'next-intl'
 import { motion } from 'framer-motion'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
 export default function GoDeeperSection() {
+  const t = useTranslations('goDeeper');
   return (
     <section className="py-24 md:py-32 bg-[#fcfcfc] text-black border-t border-gray-100 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative">
@@ -22,7 +24,7 @@ export default function GoDeeperSection() {
           className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-5 select-none"
         >
           <h2 className="text-[12rem] md:text-[20rem] font-black tracking-tighter whitespace-nowrap">
-            FOLLOW
+            {t("bgText")}
           </h2>
         </motion.div>
 
@@ -35,7 +37,7 @@ export default function GoDeeperSection() {
             className="mb-16 text-center"
           >
             <h2 className="text-5xl md:text-7xl font-bold tracking-tight cursor-default">
-              <SpotlightText>Follow the music.</SpotlightText>
+              <SpotlightText>{t("title")}</SpotlightText>
             </h2>
           </motion.div>
 

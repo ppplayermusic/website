@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Script from 'next/script'
-import './globals.css'
+import '../globals.css'
 import CookieBanner from '@/components/CookieBanner'
 
 const inter = Inter({
@@ -56,15 +56,36 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages, setRequestLocale} from 'next-intl/server';
+import {routing} from '@/i18n/routing';
+import {notFound} from 'next/navigation';
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({locale}));
+}
+
+export default async function RootLayout({
   children,
+  params
 }: {
   children: React.ReactNode
+  params: Promise<{ locale: string }>
 }) {
+  const { locale } = await params;
+  
+  if (!routing.locales.includes(locale as typeof routing.locales[number])) {
+    notFound();
+  }
+
+  setRequestLocale(locale);
+  const messages = await getMessages();
+
   return (
-    <html lang="en" className={inter.variable}>
-      <head>
-        <Script id="google-analytics-consent" strategy="beforeInteractive">
+    <html lang={locale} className={inter.variable}>
+      <head />
+      <body className={inter.className}>
+        <Script id="google-analytics-consent">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -77,11 +98,8 @@ export default function RootLayout({
             });
           `}
         </Script>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-BFDXCJBB35"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BFDXCJBB35" />
+        <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -90,10 +108,10 @@ export default function RootLayout({
             gtag('config', 'G-BFDXCJBB35');
           `}
         </Script>
-      </head>
-      <body className={inter.className}>
-        {children}
-        <CookieBanner />
+        <NextIntlClientProvider messages={messages}>
+          {children}
+          <CookieBanner />
+        </NextIntlClientProvider>
       </body>
     </html>
   )

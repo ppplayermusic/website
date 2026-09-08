@@ -45,7 +45,7 @@ export const SpotlightButton = ({ href, children, variant = 'dark', ...props }: 
       />
       
       {/* Inner background to mask the center and create the "border" effect */}
-      <div className={`relative z-10 flex items-center justify-center h-full w-full rounded-full px-8 py-3.5 transition-colors duration-300 ${variant === 'dark' ? 'bg-[#050505] text-white group-hover:bg-black/60 backdrop-blur-md' : 'bg-white text-black group-hover:bg-slate-50'}`}>
+      <div className={`relative z-10 flex items-center justify-center h-full w-full rounded-full px-8 py-3.5 whitespace-nowrap transition-colors duration-300 ${variant === 'dark' ? 'bg-[#050505] text-white group-hover:bg-black/60 backdrop-blur-md' : 'bg-white text-black group-hover:bg-slate-50'}`}>
         <span className="font-semibold text-lg">{children}</span>
         <span className="ml-1 inline-block transition-transform duration-300 group-hover:translate-x-1 font-bold">&rarr;</span>
       </div>

@@ -1,8 +1,10 @@
-import Link from 'next/link'
+import {Link} from '@/i18n/routing'
+import {useTranslations} from 'next-intl'
 import { SpotlightLogo } from '@/components/ui/SpotlightLogo'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
 
 export default function Footer() {
+  const t = useTranslations('footer');
   return (
     <footer className="border-t border-white/5 bg-[var(--color-bg-base)]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-16">
@@ -22,37 +24,37 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-slate-500 text-sm max-w-xs leading-relaxed">
-              Music, without the friction. Free for iOS, Android, and Windows.
+              {t("desc")}
             </p>
           </div>
 
           {/* Links */}
           <div className="flex flex-wrap gap-12 md:gap-16">
             <div className="flex flex-col gap-3">
-              <span className="text-white text-xs font-semibold uppercase tracking-widest mb-4">Product</span>
-              <Link href="#features" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">Features</Link>
-              <Link href="#download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">Download</Link>
+              <span className="text-white text-xs font-semibold uppercase tracking-widest mb-4">{t("product")}</span>
+              <Link href="#features" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("features")}</Link>
+              <Link href="#download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("download")}</Link>
             </div>
             
             <div className="flex flex-col gap-3">
-              <span className="text-white text-xs font-semibold uppercase tracking-widest mb-4">Platforms</span>
-              <a href={DOWNLOAD_LINKS.ios} className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">iOS</a>
-              <a href={DOWNLOAD_LINKS.android} className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">Android</a>
-              <a href={DOWNLOAD_LINKS.windows} className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">Windows</a>
+              <span className="text-white text-xs font-semibold uppercase tracking-widest mb-4">{t("platforms")}</span>
+              <a href={DOWNLOAD_LINKS.ios} className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("ios")}</a>
+              <a href={DOWNLOAD_LINKS.android} className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("android")}</a>
+              <a href={DOWNLOAD_LINKS.windows} className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("windows")}</a>
             </div>
 
             <div className="flex flex-col gap-3">
-              <span className="text-white text-xs font-semibold uppercase tracking-widest mb-4">Social</span>
-              <a href="https://www.instagram.com/ppplayermusic/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">Instagram</a>
-              <a href="https://www.linkedin.com/company/ppplayer/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">LinkedIn</a>
-              <a href="https://www.facebook.com/ppplayermusic" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">Facebook</a>
-              <a href="https://github.com/ppplayermusic" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">GitHub</a>
+              <span className="text-white text-xs font-semibold uppercase tracking-widest mb-4">{t("social")}</span>
+              <a href="https://www.instagram.com/ppplayermusic/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("instagram")}</a>
+              <a href="https://www.linkedin.com/company/ppplayer/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("linkedin")}</a>
+              <a href="https://www.facebook.com/ppplayermusic" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("facebook")}</a>
+              <a href="https://github.com/ppplayermusic" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("github")}</a>
             </div>
 
             <div className="flex flex-col gap-3">
-              <span className="text-white text-xs font-semibold uppercase tracking-widest mb-4">Legal</span>
-              <Link href="/privacy" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">Privacy</Link>
-              <Link href="/terms" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">Terms</Link>
+              <span className="text-white text-xs font-semibold uppercase tracking-widest mb-4">{t("legal")}</span>
+              <Link href="/privacy" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("privacy")}</Link>
+              <Link href="/terms" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("terms")}</Link>
             </div>
           </div>
         </div>
@@ -63,7 +65,7 @@ export default function Footer() {
           <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
           
           <p className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} PPPlayer. All rights reserved.
+            {t("copyright", { year: new Date().getFullYear() })}
           </p>
           <div className="flex items-center gap-2">
             <a
