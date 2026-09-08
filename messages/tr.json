@@ -86,7 +86,9 @@
     "getAndroid": "Android İçin İndir",
     "getMac": "Mac İçin İndir",
     "getWindows": "Windows İçin İndir",
-    "notAvailable": "Henüz mevcut değil. Şu anda indirmek için yalnızca macOS sürümü mevcuttur."
+    "notAvailable": "Henüz mevcut değil. Şu anda indirmek için yalnızca macOS sürümü mevcuttur.",
+    "notAvailableTitle": "Yakında",
+    "okayBtn": "Tamam"
   },
   "downloadPage": {
     "badge": "%100 Ücretsiz · Hesap Gerekmez",

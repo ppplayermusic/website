@@ -4,14 +4,24 @@ const path = require('path');
 const messagesDir = path.join(__dirname, 'messages');
 const files = fs.readdirSync(messagesDir).filter(f => f.endsWith('.json'));
 
-const translations = {
-  'en.json': 'Not available yet. Currently, only the macOS version is available for download.',
-  'pt-BR.json': 'Ainda não disponível. Atualmente, apenas a versão para macOS está disponível para download.',
-  'es.json': 'Aún no disponible. Actualmente, solo la versión para macOS está disponible para descargar.',
-  'ru.json': 'Пока недоступно. В настоящее время для скачивания доступна только версия для macOS.',
-  'tr.json': 'Henüz mevcut değil. Şu anda indirmek için yalnızca macOS sürümü mevcuttur.',
-  'fr.json': 'Pas encore disponible. Actuellement, seule la version macOS est disponible au téléchargement.',
-  'de.json': 'Noch nicht verfügbar. Derzeit steht nur die macOS-Version zum Download bereit.'
+const titles = {
+  'en.json': 'Coming Soon',
+  'pt-BR.json': 'Em Breve',
+  'es.json': 'Próximamente',
+  'ru.json': 'Скоро',
+  'tr.json': 'Yakında',
+  'fr.json': 'Bientôt disponible',
+  'de.json': 'Demnächst'
+};
+
+const okays = {
+  'en.json': 'Okay',
+  'pt-BR.json': 'Entendi',
+  'es.json': 'Entendido',
+  'ru.json': 'Понятно',
+  'tr.json': 'Tamam',
+  'fr.json': 'D\'accord',
+  'de.json': 'Verstanden'
 };
 
 files.forEach(file => {
@@ -19,7 +29,8 @@ files.forEach(file => {
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   
   if (data.downloadCTA) {
-    data.downloadCTA.notAvailable = translations[file] || translations['en.json'];
+    data.downloadCTA.notAvailableTitle = titles[file] || titles['en.json'];
+    data.downloadCTA.okayBtn = okays[file] || okays['en.json'];
   }
   
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2));

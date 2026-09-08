@@ -86,7 +86,9 @@
     "getAndroid": "Obtenir pour Android",
     "getMac": "Obtenir pour Mac",
     "getWindows": "Obtenir pour Windows",
-    "notAvailable": "Pas encore disponible. Actuellement, seule la version macOS est disponible au téléchargement."
+    "notAvailable": "Pas encore disponible. Actuellement, seule la version macOS est disponible au téléchargement.",
+    "notAvailableTitle": "Bientôt disponible",
+    "okayBtn": "D'accord"
   },
   "downloadPage": {
     "badge": "100% Gratuit · Aucun Compte Requis",
