@@ -62,6 +62,7 @@ export default function PlatformsSection() {
               src="/images/screenshot-mobile.png"
               alt="PPPlayer Android"
               fill
+              sizes="(max-width: 768px) 30vw, 22vw"
               className="object-cover object-top"
             />
           </motion.div>
@@ -78,6 +79,7 @@ export default function PlatformsSection() {
               src="/images/screenshot-mobile.png"
               alt="PPPlayer iOS"
               fill
+              sizes="(max-width: 768px) 30vw, 22vw"
               className="object-cover object-top"
             />
           </motion.div>
