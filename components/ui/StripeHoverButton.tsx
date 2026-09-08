@@ -40,7 +40,7 @@ export const StripeHoverButton = ({ href, children, variant = 'dark' }: StripeHo
         className="absolute inset-0 z-0 transition-opacity duration-300 ease-in-out pointer-events-none rounded-full"
         style={{
           opacity: isHovered ? 1 : 0,
-          background: `radial-gradient(100px circle at ${mousePosition.x}px ${mousePosition.y}px, #533afd 0%, #f72df3 30%, #ff6118 50%, transparent 100%)`,
+          background: `radial-gradient(100px circle at ${mousePosition.x}px ${mousePosition.y}px, #fb7185 0%, #e11d48 30%, #9f1239 50%, transparent 100%)`,
         }}
       />
       

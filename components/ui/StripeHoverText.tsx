@@ -45,7 +45,7 @@ export const StripeHoverText = ({ children, className }: StripeHoverTextProps) =
           margin: '-0.5em',
           opacity: isHovered ? 1 : 0,
           transition: 'opacity 0.3s ease',
-          backgroundImage: `radial-gradient(150px circle at calc(${mousePosition.x}px + 0.5em) calc(${mousePosition.y}px + 0.5em), #533afd 0%, #f72df3 30%, #ff6118 50%, transparent 100%)`,
+          backgroundImage: `radial-gradient(150px circle at calc(${mousePosition.x}px + 0.5em) calc(${mousePosition.y}px + 0.5em), #fb7185 0%, #e11d48 30%, #9f1239 50%, transparent 100%)`,
           WebkitBackgroundClip: 'text',
           WebkitTextFillColor: 'transparent',
           backgroundClip: 'text',
