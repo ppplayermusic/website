@@ -1,40 +1,100 @@
 'use client'
 
-import {useLocale} from 'next-intl';
-import {useRouter, usePathname} from '@/i18n/routing';
-import { ChangeEvent } from 'react';
+import { useLocale } from 'next-intl';
+import { useRouter, usePathname } from '@/i18n/routing';
+import { useState, useRef, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+const languages = [
+  { code: 'en', label: 'English', flag: 'us' },
+  { code: 'pt-BR', label: 'Português', flag: 'br' },
+  { code: 'es', label: 'Español', flag: 'es' },
+  { code: 'ru', label: 'Русский', flag: 'ru' },
+  { code: 'tr', label: 'Türkçe', flag: 'tr' },
+  { code: 'fr', label: 'Français', flag: 'fr' },
+  { code: 'de', label: 'Deutsch', flag: 'de' }
+];
 
 export function LanguageSelector() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
-  function onSelectChange(event: ChangeEvent<HTMLSelectElement>) {
-    const nextLocale = event.target.value;
-    router.replace(pathname, {locale: nextLocale});
+  const activeLanguage = languages.find((lang) => lang.code === locale) || languages[0];
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  function onSelect(nextLocale: string) {
+    setIsOpen(false);
+    router.replace(pathname, { locale: nextLocale });
   }
 
   return (
-    <div className="relative inline-block">
-      <select
-        className="appearance-none bg-transparent text-slate-400 hover:text-white text-sm font-medium pr-6 py-1 cursor-pointer outline-none transition-colors"
-        defaultValue={locale}
-        onChange={onSelectChange}
+    <div className="relative inline-block" ref={dropdownRef}>
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex items-center gap-2 bg-transparent text-slate-400 hover:text-white text-sm font-medium py-1 outline-none transition-colors"
         aria-label="Select language"
       >
-        <option value="en" className="text-black bg-white">English</option>
-        <option value="pt-BR" className="text-black bg-white">Português (Brasil)</option>
-        <option value="es" className="text-black bg-white">Español</option>
-        <option value="ru" className="text-black bg-white">Русский</option>
-        <option value="tr" className="text-black bg-white">Türkçe</option>
-        <option value="fr" className="text-black bg-white">Français</option>
-        <option value="de" className="text-black bg-white">Deutsch</option>
-      </select>
-      <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-1 text-slate-400">
-        <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={`https://flagcdn.com/${activeLanguage.flag}.svg`}
+          alt={activeLanguage.label}
+          className="w-4 h-4 rounded-full object-cover"
+        />
+        <span className="hidden sm:inline-block">{activeLanguage.label}</span>
+        <svg
+          className={`fill-current h-4 w-4 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+        >
           <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
         </svg>
-      </div>
+      </button>
+
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.15 }}
+            className="absolute right-0 mt-2 w-40 rounded-xl bg-[var(--color-bg-base)] border border-white/10 shadow-xl overflow-hidden z-50 backdrop-blur-xl"
+          >
+            <div className="flex flex-col py-1">
+              {languages.map((lang) => (
+                <button
+                  key={lang.code}
+                  onClick={() => onSelect(lang.code)}
+                  className={`flex items-center gap-3 px-4 py-2 text-sm transition-colors ${
+                    locale === lang.code
+                      ? 'bg-white/10 text-white'
+                      : 'text-slate-400 hover:bg-white/5 hover:text-white'
+                  }`}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={`https://flagcdn.com/${lang.flag}.svg`}
+                    alt={lang.label}
+                    className="w-4 h-4 rounded-full object-cover"
+                  />
+                  {lang.label}
+                </button>
+              ))}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
