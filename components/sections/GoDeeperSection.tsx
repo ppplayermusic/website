@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 import React from 'react'
 import { motion } from 'framer-motion'
+import { StripeHoverText } from '@/components/ui/StripeHoverText'
 
 export default function GoDeeperSection() {
   return (
@@ -32,8 +33,8 @@ export default function GoDeeperSection() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="mb-16 text-center"
           >
-            <h2 className="text-5xl md:text-7xl font-bold tracking-tight">
-              Follow the music.
+            <h2 className="text-5xl md:text-7xl font-bold tracking-tight cursor-default">
+              <StripeHoverText>Follow the music.</StripeHoverText>
             </h2>
           </motion.div>
 

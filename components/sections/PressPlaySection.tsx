@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 import React from 'react'
 import { motion } from 'framer-motion'
+import { StripeHoverText } from '@/components/ui/StripeHoverText'
 
 export default function PressPlaySection() {
   return (
@@ -18,8 +19,8 @@ export default function PressPlaySection() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="text-center mb-16 md:mb-24 px-4"
         >
-          <h2 className="text-5xl md:text-7xl font-bold tracking-tight">
-            Then, just listen.
+          <h2 className="text-5xl md:text-7xl font-bold tracking-tight cursor-default">
+            <StripeHoverText>Then, just listen.</StripeHoverText>
           </h2>
         </motion.div>
 

@@ -2,7 +2,8 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Button } from '@/components/ui/Button'
+import { StripeHoverButton } from '@/components/ui/StripeHoverButton'
+import { StripeHoverText } from '@/components/ui/StripeHoverText'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
 
 export default function DownloadCTA() {
@@ -16,20 +17,20 @@ export default function DownloadCTA() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
-          <h2 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-16">
-            Just play.
+          <h2 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-16 cursor-default">
+            <StripeHoverText>Just play.</StripeHoverText>
           </h2>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button href={DOWNLOAD_LINKS.ios} size="lg" className="rounded-full px-8 bg-black text-white hover:bg-slate-800 border-none font-semibold">
+            <StripeHoverButton href={DOWNLOAD_LINKS.ios} variant="dark">
               Get for iOS
-            </Button>
-            <Button href={DOWNLOAD_LINKS.android} size="lg" variant="glass" className="rounded-full px-8 border-black/10 text-black hover:bg-black/5 font-semibold">
+            </StripeHoverButton>
+            <StripeHoverButton href={DOWNLOAD_LINKS.android} variant="light">
               Get for Android
-            </Button>
-            <Button href={DOWNLOAD_LINKS.windows} size="lg" variant="glass" className="rounded-full px-8 border-black/10 text-black hover:bg-black/5 font-semibold">
+            </StripeHoverButton>
+            <StripeHoverButton href={DOWNLOAD_LINKS.windows} variant="light">
               Get for Windows
-            </Button>
+            </StripeHoverButton>
           </div>
         </motion.div>
 
