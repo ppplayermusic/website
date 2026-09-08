@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import { SpotlightLogo } from '@/components/ui/SpotlightLogo'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
