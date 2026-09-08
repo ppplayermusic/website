@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Script from 'next/script'
 import '../globals.css'
 import CookieBanner from '@/components/CookieBanner'
+import { Preloader } from '@/components/ui/Preloader'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -109,6 +110,7 @@ export default async function RootLayout({
           `}
         </Script>
         <NextIntlClientProvider messages={messages}>
+          <Preloader />
           {children}
           <CookieBanner />
         </NextIntlClientProvider>
