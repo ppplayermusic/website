@@ -34,6 +34,7 @@ export default function Footer() {
               <span className="text-white text-xs font-semibold uppercase tracking-widest mb-4">{t("product")}</span>
               <Link href="/#features" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("features")}</Link>
               <Link href="/#download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("download")}</Link>
+              <Link href="/changelog" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">Changelog</Link>
             </div>
             
             <div className="flex flex-col gap-3">
