@@ -217,5 +217,40 @@
       "desc": "Download direto para macOS. Compatível com Apple Silicon e Intel.",
       "badge": "Download Direto"
     }
+  },
+  "changelog": {
+    "title": "Changelog",
+    "subtitle": "O que há de novo no PPPlayer.",
+    "back": "← Voltar para o PPPlayer",
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "9 de Setembro de 2026",
+      "desc": "Uma experiência de audição melhor.",
+      "new": "Novo",
+      "improved": "Melhorado",
+      "fixed": "Corrigido",
+      "autoplayTitle": "Reprodução Automática",
+      "autoplayDesc": "A música continua tocando com recomendações baseadas no que você está ouvindo.",
+      "discoverTitle": "Descobrir",
+      "discoverDesc": "Encontre músicas com base no seu histórico de reprodução, artistas favoritos e playlists.",
+      "tooltipsTitle": "Tooltips Interativos na Barra de Progresso",
+      "tooltipsDesc": "Foram adicionados tooltips dinâmicos que seguem perfeitamente o cursor do mouse ao passar pela barra de progresso.",
+      "startup": "Inicialização mais rápida",
+      "recovery": "Melhor recuperação de reprodução",
+      "macosMedia": "Controles de mídia do macOS melhorados",
+      "duplicateMedia": "Controles de mídia duplicados no macOS",
+      "stationHighlight": "Destaque de faixa ativa nas estações",
+      "seekbarPause": "A reprodução pausava/parava inesperadamente ao arrastar a barra de progresso",
+      "bottomBar": "A barra inferior do player ficava totalmente transparente e ilegível no macOS ao tocar música"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "Setembro de 2026",
+      "desc": "O primeiro lançamento do PPPlayer.",
+      "spotify": "Metadados de música com tecnologia do Spotify",
+      "youtube": "Reprodução de áudio com tecnologia do YouTube",
+      "playlists": "Playlists, favoritos e histórico de audição",
+      "platforms": "Suporte para macOS, Windows e Linux"
+    }
   }
 }

@@ -217,5 +217,40 @@
       "desc": "Direct download for macOS. Apple Silicon & Intel supported.",
       "badge": "Direct Download"
     }
+  },
+  "changelog": {
+    "title": "Changelog",
+    "subtitle": "What's new in PPPlayer.",
+    "back": "← Back to PPPlayer",
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "September 9, 2026",
+      "desc": "A better listening experience.",
+      "new": "New",
+      "improved": "Improved",
+      "fixed": "Fixed",
+      "autoplayTitle": "Autoplay",
+      "autoplayDesc": "Music keeps going with recommendations based on what you're listening to.",
+      "discoverTitle": "Discover",
+      "discoverDesc": "Find music based on your listening history, favorite artists and playlists.",
+      "tooltipsTitle": "Interactive Seekbar Tooltips",
+      "tooltipsDesc": "Added dynamic tooltips that perfectly follow your mouse cursor when hovering the player progress bar.",
+      "startup": "Faster startup",
+      "recovery": "Better playback recovery",
+      "macosMedia": "Improved macOS media controls",
+      "duplicateMedia": "Duplicate macOS media controls",
+      "stationHighlight": "Station active-track highlighting",
+      "seekbarPause": "Playback pausing/stopping unexpectedly when dragging the seekbar",
+      "bottomBar": "Bottom player bar rendering fully transparent and unreadable on macOS when playing music"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "September 2026",
+      "desc": "The first release of PPPlayer.",
+      "spotify": "Spotify-powered music metadata",
+      "youtube": "YouTube-powered audio playback",
+      "playlists": "Playlists, favorites and listening history",
+      "platforms": "macOS, Windows and Linux support"
+    }
   }
 }

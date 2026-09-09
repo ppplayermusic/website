@@ -217,5 +217,40 @@
       "desc": "macOS için doğrudan indirme. Apple Silicon ve Intel desteklenir.",
       "badge": "Doğrudan İndirme"
     }
+  },
+  "changelog": {
+    "title": "Sürüm Notları",
+    "subtitle": "PPPlayer'daki yenilikler.",
+    "back": "← PPPlayer'a Dön",
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "9 Eylül 2026",
+      "desc": "Daha iyi bir dinleme deneyimi.",
+      "new": "Yeni",
+      "improved": "Geliştirilmiş",
+      "fixed": "Düzeltilmiş",
+      "autoplayTitle": "Otomatik Oynatma",
+      "autoplayDesc": "Müzik, dinlediklerinize dayalı önerilerle devam eder.",
+      "discoverTitle": "Keşfet",
+      "discoverDesc": "Dinleme geçmişinize, favori sanatçılarınıza ve çalma listelerinize göre müzik bulun.",
+      "tooltipsTitle": "Etkileşimli İlerleme Çubuğu İpuçları",
+      "tooltipsDesc": "Oyuncu ilerleme çubuğunun üzerine gelindiğinde fare imlecini mükemmel bir şekilde takip eden dinamik ipuçları eklendi.",
+      "startup": "Daha hızlı başlangıç",
+      "recovery": "Daha iyi oynatma kurtarma",
+      "macosMedia": "Geliştirilmiş macOS medya kontrolleri",
+      "duplicateMedia": "Çoğaltılmış macOS medya kontrolleri",
+      "stationHighlight": "İstasyonlarda aktif parça vurgulama",
+      "seekbarPause": "İlerleme çubuğu sürüklenirken oynatma beklenmedik bir şekilde duraklıyordu/duruyordu",
+      "bottomBar": "Müzik çalarken macOS'ta alt oynatıcı çubuğunun tamamen şeffaf ve okunamaz hale gelmesi"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "Eylül 2026",
+      "desc": "PPPlayer'ın ilk sürümü.",
+      "spotify": "Spotify destekli müzik meta verileri",
+      "youtube": "YouTube destekli ses çalma",
+      "playlists": "Çalma listeleri, favoriler ve dinleme geçmişi",
+      "platforms": "macOS, Windows ve Linux desteği"
+    }
   }
 }

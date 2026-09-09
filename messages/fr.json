@@ -217,5 +217,40 @@
       "desc": "Téléchargement direct pour macOS. Compatible Apple Silicon & Intel.",
       "badge": "Téléchargement Direct"
     }
+  },
+  "changelog": {
+    "title": "Journal des modifications",
+    "subtitle": "Quoi de neuf dans PPPlayer.",
+    "back": "← Retour à PPPlayer",
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "9 Septembre 2026",
+      "desc": "Une meilleure expérience d'écoute.",
+      "new": "Nouveau",
+      "improved": "Amélioré",
+      "fixed": "Corrigé",
+      "autoplayTitle": "Lecture Automatique",
+      "autoplayDesc": "La musique continue avec des recommandations basées sur ce que vous écoutez.",
+      "discoverTitle": "Découvrir",
+      "discoverDesc": "Trouvez de la musique basée sur votre historique d'écoute, vos artistes préférés et vos playlists.",
+      "tooltipsTitle": "Info-bulles interactives sur la barre de progression",
+      "tooltipsDesc": "Ajout d'info-bulles dynamiques qui suivent parfaitement le curseur de la souris lors du survol de la barre de progression.",
+      "startup": "Démarrage plus rapide",
+      "recovery": "Meilleure récupération de lecture",
+      "macosMedia": "Contrôles multimédias macOS améliorés",
+      "duplicateMedia": "Contrôles multimédias dupliqués sur macOS",
+      "stationHighlight": "Mise en évidence de la piste active dans les stations",
+      "seekbarPause": "La lecture se mettait en pause/s'arrêtait de manière inattendue lors du glissement de la barre de progression",
+      "bottomBar": "La barre inférieure du lecteur devenait totalement transparente et illisible sur macOS lors de la lecture de musique"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "Septembre 2026",
+      "desc": "La première version de PPPlayer.",
+      "spotify": "Métadonnées musicales propulsées par Spotify",
+      "youtube": "Lecture audio propulsée par YouTube",
+      "playlists": "Playlists, favoris et historique d'écoute",
+      "platforms": "Support macOS, Windows et Linux"
+    }
   }
 }

@@ -217,5 +217,40 @@
       "desc": "Direkter Download für macOS. Unterstützt Apple Silicon & Intel.",
       "badge": "Direkter Download"
     }
+  },
+  "changelog": {
+    "title": "Änderungsprotokoll",
+    "subtitle": "Was ist neu bei PPPlayer.",
+    "back": "← Zurück zu PPPlayer",
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "9. September 2026",
+      "desc": "Ein besseres Hörerlebnis.",
+      "new": "Neu",
+      "improved": "Verbessert",
+      "fixed": "Behoben",
+      "autoplayTitle": "Automatische Wiedergabe",
+      "autoplayDesc": "Die Musik geht weiter mit Empfehlungen, die darauf basieren, was Sie gerade hören.",
+      "discoverTitle": "Entdecken",
+      "discoverDesc": "Finden Sie Musik basierend auf Ihrem Hörverlauf, Ihren Lieblingskünstlern und Wiedergabelisten.",
+      "tooltipsTitle": "Interaktive Fortschrittsbalken-Tooltips",
+      "tooltipsDesc": "Dynamische Tooltips hinzugefügt, die dem Mauszeiger perfekt folgen, wenn Sie über den Fortschrittsbalken fahren.",
+      "startup": "Schnellerer Start",
+      "recovery": "Bessere Wiederherstellung der Wiedergabe",
+      "macosMedia": "Verbesserte macOS-Mediensteuerung",
+      "duplicateMedia": "Doppelte macOS-Mediensteuerung",
+      "stationHighlight": "Hervorhebung des aktiven Titels in Radiosendern",
+      "seekbarPause": "Die Wiedergabe pausierte/stoppte unerwartet beim Ziehen des Fortschrittsbalkens",
+      "bottomBar": "Die untere Player-Leiste wurde auf macOS bei der Musikwiedergabe vollständig transparent und unlesbar"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "September 2026",
+      "desc": "Die erste Veröffentlichung von PPPlayer.",
+      "spotify": "Musik-Metadaten unterstützt von Spotify",
+      "youtube": "Audiowiedergabe unterstützt von YouTube",
+      "playlists": "Wiedergabelisten, Favoriten und Hörverlauf",
+      "platforms": "Unterstützung für macOS, Windows und Linux"
+    }
   }
 }
