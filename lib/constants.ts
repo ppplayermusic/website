@@ -25,7 +25,7 @@ export const PLATFORMS = [
     requirements: {
       os: 'macOS 10.15 Catalina or newer',
       architecture: 'Apple Silicon & Intel (Universal)',
-      memory: '4 GB RAM',
+      memory: '4 GB RAM (Recommended)',
     }
   },
   {
@@ -39,8 +39,8 @@ export const PLATFORMS = [
     isAvailable: false,
     requirements: {
       os: 'Windows 10 or later (64-bit)',
-      architecture: 'x86_64 / ARM64',
-      memory: '4 GB RAM',
+      architecture: 'x64',
+      memory: '4 GB RAM (Recommended)',
     }
   },
   {
@@ -53,9 +53,9 @@ export const PLATFORMS = [
     color: 'from-yellow-400 to-amber-300',
     isAvailable: false,
     requirements: {
-      os: 'Ubuntu 18.04 / Debian 10 or newer',
+      os: 'Ubuntu 20.04 or newer (Experimental)',
       architecture: 'x86_64',
-      memory: '4 GB RAM',
+      memory: '4 GB RAM (Recommended)',
     }
   },
   {
@@ -70,7 +70,7 @@ export const PLATFORMS = [
     requirements: {
       os: 'iOS 13.0 or newer',
       architecture: 'ARM64',
-      memory: '2 GB RAM',
+      memory: '2 GB RAM (Recommended)',
     }
   },
   {
@@ -83,9 +83,9 @@ export const PLATFORMS = [
     color: 'from-green-400 to-emerald-300',
     isAvailable: false,
     requirements: {
-      os: 'Android 5.0 (API 21) or newer',
-      architecture: 'ARM / ARM64 / x86_64',
-      memory: '2 GB RAM',
+      os: 'Android 7.0 (API 24) or newer',
+      architecture: 'ARM64 / ARM / x86_64',
+      memory: '2 GB RAM (Recommended)',
     }
   },
 ];
