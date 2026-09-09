@@ -12,7 +12,8 @@ import { DOWNLOAD_LINKS } from '@/lib/constants'
 import { LanguageSelector } from '@/components/ui/LanguageSelector'
 
 const navLinks = [
-  { label: 'features', href: '/#features' }
+  { label: 'features', href: '/#features', isRaw: false },
+  { label: 'Changelog', href: '/changelog', isRaw: true }
 ]
 
 export default function Navbar() {
@@ -63,7 +64,7 @@ export default function Navbar() {
                 href={link.href}
                 className="text-slate-400 hover:text-white transition-colors text-sm font-medium"
               >
-                {t(link.label)}
+                {link.isRaw ? link.label : t(link.label)}
               </Link>
             ))}
             <LanguageSelector />
@@ -119,7 +120,7 @@ export default function Navbar() {
                     className="text-slate-300 hover:text-white text-lg font-medium transition-colors"
                     onClick={() => setIsOpen(false)}
                   >
-                    {t(link.label)}
+                    {link.isRaw ? link.label : t(link.label)}
                   </Link>
                 ))}
               </nav>
