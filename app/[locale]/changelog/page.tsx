@@ -49,11 +49,46 @@ export default async function ChangelogPage({ params }: { params: Promise<{ loca
 
           <div className="relative border-l border-white/10 ml-4 md:ml-8 space-y-24">
             
-            {/* Version 1.0.1 */}
+            {/* Version 1.0.2 */}
             <div className="relative pl-8 md:pl-16">
               <div className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-red-500 shadow-[0_0_10px_rgba(239,68,68,0.5)]" />
               <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 mb-6">
-                <h2 className="text-2xl font-bold text-white tracking-tight">{t('v1_0_1.version')}</h2>
+                <h2 className="text-2xl font-bold text-white tracking-tight">{t('v1_0_2.version')}</h2>
+                <span className="text-slate-500 font-medium">{t('v1_0_2.date')}</span>
+              </div>
+              
+              <p className="text-slate-300 text-lg mb-10 leading-relaxed max-w-2xl">
+                {t('v1_0_2.desc')}
+              </p>
+
+              <div className="space-y-10">
+                <div>
+                  <h3 className="text-white text-xs font-semibold uppercase tracking-widest mb-5">{t('v1_0_1.improved')}</h3>
+                  <ul className="space-y-6">
+                    <li className="flex gap-4">
+                      <span className="text-blue-400 mt-0.5">✦</span>
+                      <div>
+                        <strong className="block text-white mb-1">{t('v1_0_2.autoplayContextTitle')}</strong>
+                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">{t('v1_0_2.autoplayContextDesc')}</span>
+                      </div>
+                    </li>
+                    <li className="flex gap-4">
+                      <span className="text-blue-400 mt-0.5">✦</span>
+                      <div>
+                        <strong className="block text-white mb-1">{t('v1_0_2.tieredRecsTitle')}</strong>
+                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">{t('v1_0_2.tieredRecsDesc')}</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Version 1.0.1 */}
+            <div className="relative pl-8 md:pl-16">
+              <div className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-white/20" />
+              <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 mb-6">
+                <h2 className="text-2xl font-bold text-white tracking-tight opacity-70">{t('v1_0_1.version')}</h2>
                 <span className="text-slate-500 font-medium">{t('v1_0_1.date')}</span>
               </div>
               

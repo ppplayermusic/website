@@ -222,6 +222,15 @@
     "title": "Sürüm Notları",
     "subtitle": "PPPlayer'daki yenilikler.",
     "back": "← PPPlayer'a Dön",
+    "v1_0_2": {
+      "version": "v1.0.2",
+      "date": "September 9, 2026",
+      "desc": "Smarter, context-based autoplay.",
+      "autoplayContextTitle": "Context-Aware Autoplay",
+      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
+      "tieredRecsTitle": "Tiered Recommendation Engine",
+      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+    },
     "v1_0_1": {
       "version": "v1.0.1",
       "date": "9 Eylül 2026",

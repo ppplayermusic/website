@@ -222,6 +222,15 @@
     "title": "Changelog",
     "subtitle": "O que há de novo no PPPlayer.",
     "back": "← Voltar para o PPPlayer",
+    "v1_0_2": {
+      "version": "v1.0.2",
+      "date": "9 de Setembro de 2026",
+      "desc": "Autoplay mais inteligente baseado no contexto.",
+      "autoplayContextTitle": "Autoplay Sensível ao Contexto",
+      "autoplayContextDesc": "O Autoplay agora prioriza músicas do artista atual antes de adicionar artistas relacionados à fila.",
+      "tieredRecsTitle": "Novo Motor de Recomendações",
+      "tieredRecsDesc": "As recomendações usam estritamente o catálogo do artista atual, sem buscas genéricas com erros de nome."
+    },
     "v1_0_1": {
       "version": "v1.0.1",
       "date": "9 de Setembro de 2026",
