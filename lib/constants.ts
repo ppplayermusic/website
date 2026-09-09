@@ -14,22 +14,19 @@ export const DOWNLOAD_LINKS = {
 // Platform data
 export const PLATFORMS = [
   {
-    id: 'ios',
-    name: 'iOS',
-    label: 'iPhone & iPad',
-    description: 'Available on the App Store for iPhone and iPad.',
-    badge: 'App Store',
-    href: DOWNLOAD_LINKS.ios,
-    color: 'from-slate-400 to-slate-200',
-  },
-  {
-    id: 'android',
-    name: 'Android',
-    label: 'Android',
-    description: 'Available on Google Play for Android phones and tablets.',
-    badge: 'Google Play',
-    href: DOWNLOAD_LINKS.android,
-    color: 'from-green-400 to-emerald-300',
+    id: 'macos',
+    name: 'macOS',
+    label: 'Mac',
+    description: 'Direct download for macOS. Apple Silicon & Intel supported.',
+    badge: 'Direct Download',
+    href: DOWNLOAD_LINKS.macos,
+    color: 'from-gray-400 to-gray-200',
+    isAvailable: true,
+    requirements: {
+      os: 'macOS 10.15 Catalina or newer',
+      architecture: 'Apple Silicon & Intel (Universal)',
+      memory: '4 GB RAM',
+    }
   },
   {
     id: 'windows',
@@ -39,17 +36,59 @@ export const PLATFORMS = [
     badge: 'Direct Download',
     href: DOWNLOAD_LINKS.windows,
     color: 'from-blue-400 to-cyan-300',
+    isAvailable: false,
+    requirements: {
+      os: 'Windows 10 or later (64-bit)',
+      architecture: 'x86_64 / ARM64',
+      memory: '4 GB RAM',
+    }
   },
   {
-    id: 'macos',
-    name: 'macOS',
-    label: 'Mac',
-    description: 'Direct download for macOS. Apple Silicon & Intel supported.',
+    id: 'linux',
+    name: 'Linux',
+    label: 'Linux',
+    description: 'Available for modern Linux distributions.',
     badge: 'Direct Download',
-    href: DOWNLOAD_LINKS.macos,
-    color: 'from-gray-400 to-gray-200',
+    href: '#',
+    color: 'from-yellow-400 to-amber-300',
+    isAvailable: false,
+    requirements: {
+      os: 'Ubuntu 18.04 / Debian 10 or newer',
+      architecture: 'x86_64',
+      memory: '4 GB RAM',
+    }
   },
-]
+  {
+    id: 'ios',
+    name: 'iOS',
+    label: 'iPhone & iPad',
+    description: 'Available on the App Store for iPhone and iPad.',
+    badge: 'App Store',
+    href: DOWNLOAD_LINKS.ios,
+    color: 'from-slate-400 to-slate-200',
+    isAvailable: false,
+    requirements: {
+      os: 'iOS 13.0 or newer',
+      architecture: 'ARM64',
+      memory: '2 GB RAM',
+    }
+  },
+  {
+    id: 'android',
+    name: 'Android',
+    label: 'Android',
+    description: 'Available on Google Play for Android phones and tablets.',
+    badge: 'Google Play',
+    href: DOWNLOAD_LINKS.android,
+    color: 'from-green-400 to-emerald-300',
+    isAvailable: false,
+    requirements: {
+      os: 'Android 5.0 (API 21) or newer',
+      architecture: 'ARM / ARM64 / x86_64',
+      memory: '2 GB RAM',
+    }
+  },
+];
 
 // Feature cards
 export const FEATURES = [

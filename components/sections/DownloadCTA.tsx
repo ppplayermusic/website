@@ -1,22 +1,44 @@
 'use client'
 
 import React, { useState } from 'react'
-import {useTranslations} from 'next-intl'
-import { motion } from 'framer-motion'
+import { useTranslations } from 'next-intl'
+import { motion, AnimatePresence } from 'framer-motion'
 import { SpotlightButton } from '@/components/ui/SpotlightButton'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { SpotlightLogo } from '@/components/ui/SpotlightLogo'
-import { DOWNLOAD_LINKS } from '@/lib/constants'
+import { PLATFORMS } from '@/lib/constants'
 import { NotAvailableModal } from '@/components/ui/NotAvailableModal'
+import { Monitor, Smartphone, Apple, Laptop } from 'lucide-react'
+
+// Helper to get platform icon
+const getPlatformIcon = (id: string, className?: string) => {
+  switch (id) {
+    case 'macos':
+    case 'ios':
+      return <Apple className={className} strokeWidth={1.5} />;
+    case 'windows':
+      return <Monitor className={className} strokeWidth={1.5} />;
+    case 'android':
+      return <Smartphone className={className} strokeWidth={1.5} />;
+    case 'linux':
+      return <Laptop className={className} strokeWidth={1.5} />;
+    default:
+      return null;
+  }
+}
 
 export default function DownloadCTA() {
   const t = useTranslations('downloadCTA');
+  
+  const [activePlatformId, setActivePlatformId] = useState<string>('macos');
   const [showModal, setShowModal] = useState(false);
 
-  const handleNotAvailable = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleNotAvailable = (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => {
     e.preventDefault();
     setShowModal(true);
   };
+
+  const activePlatform = PLATFORMS.find(p => p.id === activePlatformId) || PLATFORMS[0];
 
   return (
     <>
@@ -40,23 +62,107 @@ export default function DownloadCTA() {
               <SpotlightText className="text-white">{t("title")}</SpotlightText>
             </h2>
 
-            <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
-              <SpotlightButton href="#" variant="dark" onClick={handleNotAvailable}>
-                {t("getIos")}
-              </SpotlightButton>
-              <SpotlightButton href="#" variant="dark" onClick={handleNotAvailable}>
-                {t("getAndroid")}
-              </SpotlightButton>
-              <SpotlightButton href={DOWNLOAD_LINKS.macos} variant="light" download>
-                {t("getMac")}
-              </SpotlightButton>
-              <SpotlightButton href="#" variant="dark" onClick={handleNotAvailable}>
-                {t("getWindows")}
-              </SpotlightButton>
-              <SpotlightButton href="#" variant="dark" onClick={handleNotAvailable}>
-                {t("getLinux")}
-              </SpotlightButton>
+            {/* Platform Selector */}
+            <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4 mb-12">
+              {PLATFORMS.map((platform) => {
+                const isActive = activePlatformId === platform.id;
+                return (
+                  <button
+                    key={platform.id}
+                    onClick={() => setActivePlatformId(platform.id)}
+                    className={`relative flex items-center gap-2 px-5 py-3 rounded-full text-sm md:text-base font-medium transition-all duration-300 outline-none
+                      ${isActive 
+                        ? 'text-white bg-white/10 border border-white/20' 
+                        : 'text-white/60 hover:text-white hover:bg-white/5 border border-transparent'
+                      }
+                    `}
+                  >
+                    {getPlatformIcon(platform.id, 'w-5 h-5')}
+                    {platform.name}
+                    {!platform.isAvailable && (
+                       <span className="ml-1 text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded-sm bg-white/10 text-white/50 hidden md:inline-block">
+                         Soon
+                       </span>
+                    )}
+                  </button>
+                )
+              })}
             </div>
+
+            {/* System Requirements & Download Button Container */}
+            <div className="relative min-h-[300px] max-w-2xl mx-auto bg-white/[0.02] border border-white/5 rounded-3xl p-8 md:p-12 shadow-2xl backdrop-blur-xl">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={activePlatform.id}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.3, ease: 'easeOut' }}
+                  className="flex flex-col items-center text-center"
+                >
+                  
+                  <div className="mb-8">
+                    <h3 className="text-2xl md:text-3xl font-bold tracking-tight mb-2">
+                      {activePlatform.name} Requirements
+                    </h3>
+                    <p className="text-white/50">
+                      {activePlatform.description}
+                    </p>
+                  </div>
+
+                  <div className="w-full text-left grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-12 mb-10 pt-8 border-t border-white/5">
+                    
+                    <div className="flex flex-col">
+                      <span className="text-xs uppercase tracking-widest text-white/40 font-semibold mb-1">
+                        Operating System
+                      </span>
+                      <span className="text-white/90 font-medium text-sm">
+                        {activePlatform.requirements?.os}
+                      </span>
+                    </div>
+
+                    <div className="flex flex-col">
+                      <span className="text-xs uppercase tracking-widest text-white/40 font-semibold mb-1">
+                        Architecture
+                      </span>
+                      <span className="text-white/90 font-medium text-sm">
+                        {activePlatform.requirements?.architecture}
+                      </span>
+                    </div>
+
+                    <div className="flex flex-col">
+                      <span className="text-xs uppercase tracking-widest text-white/40 font-semibold mb-1">
+                        Memory
+                      </span>
+                      <span className="text-white/90 font-medium text-sm">
+                        {activePlatform.requirements?.memory}
+                      </span>
+                    </div>
+
+                    <div className="flex flex-col">
+                      <span className="text-xs uppercase tracking-widest text-white/40 font-semibold mb-1">
+                        Internet
+                      </span>
+                      <span className="text-white/90 font-medium text-sm">
+                        Required for streaming
+                      </span>
+                    </div>
+
+                  </div>
+
+                  <SpotlightButton 
+                    href={activePlatform.isAvailable ? activePlatform.href : '#'} 
+                    variant={activePlatform.isAvailable ? 'light' : 'dark'}
+                    onClick={activePlatform.isAvailable ? undefined : handleNotAvailable}
+                    download={activePlatform.isAvailable ? true : undefined}
+                  >
+                    Download for {activePlatform.name}
+                  </SpotlightButton>
+                  
+                </motion.div>
+              </AnimatePresence>
+            </div>
+
           </motion.div>
 
           {/* Subtle Logo representation at the end */}
