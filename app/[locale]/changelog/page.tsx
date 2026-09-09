@@ -47,12 +47,12 @@ export default async function ChangelogPage({ params }: { params: Promise<{ loca
 
           <div className="relative border-l border-white/10 ml-4 md:ml-8 space-y-24">
             
-            {/* Version 1.1.0 */}
+            {/* Version 1.0.1 */}
             <div className="relative pl-8 md:pl-16">
               <div className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-red-500 shadow-[0_0_10px_rgba(239,68,68,0.5)]" />
               <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 mb-6">
-                <h2 className="text-2xl font-bold text-white tracking-tight">v1.1.0</h2>
-                <span className="text-slate-500 font-medium">September 2026</span>
+                <h2 className="text-2xl font-bold text-white tracking-tight">v1.0.1</h2>
+                <span className="text-slate-500 font-medium">September 9, 2026</span>
               </div>
               
               <p className="text-slate-300 text-lg mb-10 leading-relaxed max-w-2xl">
@@ -75,6 +75,13 @@ export default async function ChangelogPage({ params }: { params: Promise<{ loca
                       <div>
                         <strong className="block text-white mb-1">Discover</strong>
                         <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">Find music based on your listening history, favorite artists and playlists.</span>
+                      </div>
+                    </li>
+                    <li className="flex gap-4">
+                      <span className="text-red-400 mt-0.5">✦</span>
+                      <div>
+                        <strong className="block text-white mb-1">Interactive Seekbar Tooltips</strong>
+                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">Added dynamic tooltips that perfectly follow your mouse cursor when hovering the player progress bar.</span>
                       </div>
                     </li>
                   </ul>
@@ -108,6 +115,14 @@ export default async function ChangelogPage({ params }: { params: Promise<{ loca
                     <li className="flex gap-4 items-center">
                       <span className="text-emerald-400 text-sm">✦</span>
                       <span className="text-slate-300 text-sm font-medium">Station active-track highlighting</span>
+                    </li>
+                    <li className="flex gap-4 items-center">
+                      <span className="text-emerald-400 text-sm">✦</span>
+                      <span className="text-slate-300 text-sm font-medium">Playback pausing/stopping unexpectedly when dragging the seekbar</span>
+                    </li>
+                    <li className="flex gap-4 items-center">
+                      <span className="text-emerald-400 text-sm">✦</span>
+                      <span className="text-slate-300 text-sm font-medium">Bottom player bar rendering fully transparent and unreadable on macOS when playing music</span>
                     </li>
                   </ul>
                 </div>
