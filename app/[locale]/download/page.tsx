@@ -63,20 +63,6 @@ export default async function DownloadPage({ params }: { params: Promise<{ local
         {/* Visual composition */}
         <PlatformsSection />
 
-        {/* System requirements note */}
-        <section className="py-8">
-          <div className="max-w-3xl mx-auto px-4 sm:px-6">
-            <div className="glass rounded-2xl p-5 border border-white/8 text-sm text-slate-500 flex items-start gap-3">
-              <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0">
-                <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801" />
-              </svg>
-              <div>
-                <span className="text-white font-semibold">{t("windowsReqLabel")}</span>{' '}
-                {t("windowsReqDesc")}
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Final CTA */}
         <DownloadCTA />
