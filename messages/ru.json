@@ -1,20 +1,20 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer: Бесплатный музыкальный плеер для iOS, Android и Windows | Без регистрации",
-    "homeDesc": "PPPlayer — это бесплатное музыкальное приложение для iPhone, Android и Windows. Открывайте артистов, жанры и слушайте мгновенно: без аккаунта, без подписки, бесплатно.",
+    "homeTitle": "PPPlayer: Бесплатный музыкальный плеер для macOS, Linux, Windows, iOS и Android | Без регистрации",
+    "homeDesc": "PPPlayer — это бесплатное музыкальное приложение для macOS, Linux, Windows, iPhone и Android. Открывайте артистов, жанры и слушайте мгновенно: без аккаунта, без подписки, бесплатно.",
     "downloadTitle": "Скачать PPPlayer бесплатно",
-    "downloadDesc": "Скачайте PPPlayer для iOS, Android или Windows. Бесплатное музыкальное приложение: регистрация не требуется. Начните слушать уже через пару минут.",
+    "downloadDesc": "Скачайте PPPlayer для macOS, Linux, Windows, iOS или Android. Бесплатное музыкальное приложение: регистрация не требуется. Начните слушать уже через пару минут.",
     "privacyTitle": "Политика конфиденциальности",
-    "privacyDesc": "Политика конфиденциальности PPPlayer: бесплатное музыкальное приложение для iOS, Android и Windows.",
+    "privacyDesc": "Политика конфиденциальности PPPlayer: бесплатное музыкальное приложение для macOS, Linux, Windows, iOS и Android.",
     "termsTitle": "Условия использования",
-    "termsDesc": "Условия использования PPPlayer: бесплатное музыкальное приложение для iOS, Android и Windows."
+    "termsDesc": "Условия использования PPPlayer: бесплатное музыкальное приложение для macOS, Linux, Windows, iOS и Android."
   },
   "nav": {
     "features": "Функции",
     "download": "Скачать бесплатно"
   },
   "footer": {
-    "desc": "Музыка, без преград. Бесплатно для iOS, Android и Windows.",
+    "desc": "Музыка, без преград. Бесплатно для macOS, Linux, Windows, iOS и Android.",
     "product": "Продукт",
     "features": "Функции",
     "download": "Скачать",
@@ -45,7 +45,8 @@
     "getIos": "Скачать для iOS",
     "getAndroid": "Скачать для Android",
     "getMac": "Скачать для Mac",
-    "getWindows": "Скачать для Windows"
+    "getWindows": "Скачать для Windows",
+    "getLinux": "Скачать для Linux"
   },
   "discover": {
     "title": "Найди<br></br>то, что<br></br>стоит послушать."
@@ -78,7 +79,7 @@
   },
   "platforms": {
     "title": "Ваша музыка. Ваши устройства.",
-    "subtitle": "Прекрасно и нативно на Windows, Android и iOS."
+    "subtitle": "Прекрасно и нативно на macOS, Linux, Windows, Android и iOS."
   },
   "downloadCTA": {
     "title": "Просто слушай.",
@@ -88,7 +89,8 @@
     "getWindows": "Скачать для Windows",
     "notAvailable": "Пока недоступно. В настоящее время для скачивания доступна только версия для macOS.",
     "notAvailableTitle": "Скоро",
-    "okayBtn": "Понятно"
+    "okayBtn": "Понятно",
+    "getLinux": "Скачать для Linux"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 теперь доступен",
@@ -109,7 +111,7 @@
     "sections": {
       "s1": {
         "title": "1. Обзор",
-        "p": "PPPlayer («мы», «наш», «приложение») обязуется защищать вашу конфиденциальность. Эта политика объясняет, какие данные мы собираем, почему и как они используются, когда вы используете PPPlayer на iOS, Android или Windows."
+        "p": "PPPlayer («мы», «наш», «приложение») обязуется защищать вашу конфиденциальность. Эта политика объясняет, какие данные мы собираем, почему и как они используются, когда вы используете PPPlayer на macOS, Linux, Windows, iOS или Android."
       },
       "s2": {
         "title": "2. Без регистрации",
@@ -215,6 +217,12 @@
       "name": "macOS",
       "label": "Mac",
       "desc": "Прямая загрузка для macOS. Поддержка Apple Silicon и Intel.",
+      "badge": "Прямая загрузка"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Прямая загрузка для Linux. Поддержка AppImage.",
       "badge": "Прямая загрузка"
     }
   },

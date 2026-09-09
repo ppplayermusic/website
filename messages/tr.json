@@ -1,20 +1,20 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer: iOS, Android & Windows İçin Ücretsiz Müzik | Hesap Gerekmez",
-    "homeDesc": "PPPlayer, iPhone, Android ve Windows için ücretsiz bir müzik uygulamasıdır. Sanatçıları ve türleri keşfedin: hesap yok, kayıt yok, ücretsiz.",
+    "homeTitle": "PPPlayer: macOS, Linux, Windows, iOS & Android İçin Ücretsiz Müzik | Hesap Gerekmez",
+    "homeDesc": "PPPlayer, macOS, Linux, Windows, iPhone ve Android için ücretsiz bir müzik uygulamasıdır. Sanatçıları ve türleri keşfedin: hesap yok, kayıt yok, ücretsiz.",
     "downloadTitle": "PPPlayer'ı Ücretsiz İndir",
-    "downloadDesc": "PPPlayer'ı iOS, Android veya Windows için indirin. Hesap gerekmez. Dakikalar içinde dinlemeye başlayın.",
+    "downloadDesc": "PPPlayer'ı macOS, Linux, Windows, iOS veya Android için indirin. Hesap gerekmez. Dakikalar içinde dinlemeye başlayın.",
     "privacyTitle": "Gizlilik Politikası",
-    "privacyDesc": "PPPlayer için Gizlilik Politikası: iOS, Android ve Windows için ücretsiz müzik uygulaması.",
+    "privacyDesc": "PPPlayer için Gizlilik Politikası: macOS, Linux, Windows, iOS ve Android için ücretsiz müzik uygulaması.",
     "termsTitle": "Hizmet Şartları",
-    "termsDesc": "PPPlayer için Hizmet Şartları: iOS, Android ve Windows için ücretsiz müzik uygulaması."
+    "termsDesc": "PPPlayer için Hizmet Şartları: macOS, Linux, Windows, iOS ve Android için ücretsiz müzik uygulaması."
   },
   "nav": {
     "features": "Özellikler",
     "download": "Ücretsiz İndir"
   },
   "footer": {
-    "desc": "Zorluklar olmadan müzik. iOS, Android ve Windows için ücretsiz.",
+    "desc": "Zorluklar olmadan müzik. macOS, Linux, Windows, iOS ve Android için ücretsiz.",
     "product": "Ürün",
     "features": "Özellikler",
     "download": "İndir",
@@ -45,7 +45,8 @@
     "getIos": "iOS İçin İndir",
     "getAndroid": "Android İçin İndir",
     "getMac": "Mac İçin İndir",
-    "getWindows": "Windows İçin İndir"
+    "getWindows": "Windows İçin İndir",
+    "getLinux": "Linux için İndir"
   },
   "discover": {
     "title": "Dinlemeye<br></br>değer<br></br>bir şeyler bul."
@@ -78,7 +79,7 @@
   },
   "platforms": {
     "title": "Senin müziğin. Cihazların.",
-    "subtitle": "Windows, Android ve iOS'te muhteşem yerel görünüm."
+    "subtitle": "macOS, Linux, Windows, Android ve iOS'te muhteşem yerel görünüm."
   },
   "downloadCTA": {
     "title": "Sadece dinle.",
@@ -88,7 +89,8 @@
     "getWindows": "Windows İçin İndir",
     "notAvailable": "Henüz mevcut değil. Şu anda indirmek için yalnızca macOS sürümü mevcuttur.",
     "notAvailableTitle": "Yakında",
-    "okayBtn": "Tamam"
+    "okayBtn": "Tamam",
+    "getLinux": "Linux için İndir"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 artık mevcut",
@@ -215,6 +217,12 @@
       "name": "macOS",
       "label": "Mac",
       "desc": "macOS için doğrudan indirme. Apple Silicon ve Intel desteklenir.",
+      "badge": "Doğrudan İndirme"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Linux için doğrudan indirme. AppImage desteklenir.",
       "badge": "Doğrudan İndirme"
     }
   },

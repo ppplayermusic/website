@@ -3,7 +3,7 @@
     "homeTitle": "PPPlayer: App Musique Gratuite iOS, Android, Windows | Sans Inscription",
     "homeDesc": "PPPlayer est une application musicale gratuite. Découvrez des artistes et genres sans créer de compte, sans abonnement, gratuitement.",
     "downloadTitle": "Télécharger PPPlayer Gratuitement",
-    "downloadDesc": "Téléchargez PPPlayer pour iOS, Android ou Windows. Application de musique gratuite, aucun compte requis.",
+    "downloadDesc": "Téléchargez PPPlayer pour macOS, Linux, Windows, iOS ou Android. Application de musique gratuite, aucun compte requis.",
     "privacyTitle": "Politique de Confidentialité",
     "privacyDesc": "Politique de confidentialité de PPPlayer: application musicale gratuite.",
     "termsTitle": "Conditions d'Utilisation",
@@ -14,7 +14,7 @@
     "download": "Télécharger"
   },
   "footer": {
-    "desc": "La musique, sans friction. Gratuit pour iOS, Android et Windows.",
+    "desc": "La musique, sans friction. Gratuit pour macOS, Linux, Windows, iOS et Android.",
     "product": "Produit",
     "features": "Fonctionnalités",
     "download": "Télécharger",
@@ -45,7 +45,8 @@
     "getIos": "Obtenir pour iOS",
     "getAndroid": "Obtenir pour Android",
     "getMac": "Obtenir pour Mac",
-    "getWindows": "Obtenir pour Windows"
+    "getWindows": "Obtenir pour Windows",
+    "getLinux": "Obtenir pour Linux"
   },
   "discover": {
     "title": "Trouvez<br></br>quelque chose<br></br>qui vaut le coup."
@@ -78,7 +79,7 @@
   },
   "platforms": {
     "title": "Votre musique. Vos appareils.",
-    "subtitle": "Magnifiquement natif sur Windows, Android et iOS."
+    "subtitle": "Magnifiquement natif sur macOS, Linux, Windows, Android et iOS."
   },
   "downloadCTA": {
     "title": "Jouez simplement.",
@@ -88,7 +89,8 @@
     "getWindows": "Obtenir pour Windows",
     "notAvailable": "Pas encore disponible. Actuellement, seule la version macOS est disponible au téléchargement.",
     "notAvailableTitle": "Bientôt disponible",
-    "okayBtn": "D'accord"
+    "okayBtn": "D'accord",
+    "getLinux": "Obtenir pour Linux"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 est maintenant disponible",
@@ -215,6 +217,12 @@
       "name": "macOS",
       "label": "Mac",
       "desc": "Téléchargement direct pour macOS. Compatible Apple Silicon & Intel.",
+      "badge": "Téléchargement Direct"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Téléchargement direct pour Linux. Compatible AppImage.",
       "badge": "Téléchargement Direct"
     }
   },

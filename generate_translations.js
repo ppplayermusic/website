@@ -3,20 +3,20 @@ const path = require('path');
 
 const en = {
   metadata: {
-    homeTitle: "PPPlayer: Free Music App for iOS, Android & Windows | No Account Required",
-    homeDesc: "PPPlayer is a free music app for iPhone, Android, and Windows. Discover artists, explore genres, and start listening instantly: no account, no signup, no cost.",
+    homeTitle: "PPPlayer: Free Music App for macOS, Linux, Windows, iOS & Android | No Account Required",
+    homeDesc: "PPPlayer is a free music app for macOS, Linux, Windows, iPhone, and Android. Discover artists, explore genres, and start listening instantly: no account, no signup, no cost.",
     downloadTitle: "Download PPPlayer Free",
-    downloadDesc: "Download PPPlayer for iOS, Android, or Windows. Free music app: no account required. Start listening in minutes.",
+    downloadDesc: "Download PPPlayer for macOS, Linux, Windows, iOS, or Android. Free music app: no account required. Start listening in minutes.",
     privacyTitle: "Privacy Policy",
-    privacyDesc: "Privacy Policy for PPPlayer: free music app for iOS, Android, and Windows.",
+    privacyDesc: "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
     termsTitle: "Terms of Service",
-    termsDesc: "Terms of Service for PPPlayer: free music app for iOS, Android, and Windows."
+    termsDesc: "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android."
   },
   nav: {
     features: "Features"
   },
   footer: {
-    desc: "Music, without the friction. Free for iOS, Android, and Windows.",
+    desc: "Music, without the friction. Free for macOS, Linux, Windows, iOS, and Android.",
     product: "Product",
     features: "Features",
     download: "Download",
@@ -80,7 +80,7 @@ const en = {
   },
   platforms: {
     title: "Your music. Your devices.",
-    subtitle: "Beautifully native on Windows, Android, and iOS."
+    subtitle: "Beautifully native on macOS, Linux, Windows, Android, and iOS."
   },
   downloadCTA: {
     title: "Just play.",
@@ -106,7 +106,7 @@ const en = {
     title: "Privacy Policy",
     lastUpdated: "Last updated: April 2025",
     sections: {
-      s1: { title: "1. Overview", p: "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explains what data we collect, why, and how it is used when you use PPPlayer on iOS, Android, or Windows." },
+      s1: { title: "1. Overview", p: "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explains what data we collect, why, and how it is used when you use PPPlayer on macOS, Linux, Windows, iOS, or Android." },
       s2: { title: "2. No Account Required", p: "PPPlayer does not require you to create an account. We do not collect your name, email address, or any personally identifiable information to use the app." },
       s3: { title: "3. Data We Collect", p1: "We may collect the following anonymous, non-identifiable data:", li1: "Crash reports and error logs (to improve app stability)", li2: "Anonymous usage analytics (feature usage, session duration)", li3: "Device type and operating system version", p2: "We do not collect: names, emails, payment info, or precise location data." },
       s4: { title: "4. Third-Party Services", p: "PPPlayer may use third-party services for music metadata and analytics. These services have their own privacy policies. We encourage you to review them." },
@@ -137,20 +137,20 @@ const en = {
 
 const pt = {
   metadata: {
-    homeTitle: "PPPlayer: App de Música Grátis para iOS, Android e Windows | Sem Conta",
-    homeDesc: "PPPlayer é um app de música gratuito para iPhone, Android e Windows. Descubra artistas e gêneros sem criar conta, sem cadastro e sem custo.",
+    homeTitle: "PPPlayer: App de Música Grátis para macOS, Linux, Windows, iOS e Android | Sem Conta",
+    homeDesc: "PPPlayer é um app de música gratuito para macOS, Linux, Windows, iPhone e Android. Descubra artistas e gêneros sem criar conta, sem cadastro e sem custo.",
     downloadTitle: "Baixe o PPPlayer Grátis",
-    downloadDesc: "Baixe o PPPlayer para iOS, Android ou Windows. App de música gratuito sem necessidade de conta. Comece a ouvir em minutos.",
+    downloadDesc: "Baixe o PPPlayer para macOS, Linux, Windows, iOS ou Android. App de música gratuito sem necessidade de conta. Comece a ouvir em minutos.",
     privacyTitle: "Política de Privacidade",
-    privacyDesc: "Política de Privacidade do PPPlayer: app de música grátis para iOS, Android e Windows.",
+    privacyDesc: "Política de Privacidade do PPPlayer: app de música grátis para macOS, Linux, Windows, iOS e Android.",
     termsTitle: "Termos de Serviço",
-    termsDesc: "Termos de Serviço do PPPlayer: app de música grátis para iOS, Android e Windows."
+    termsDesc: "Termos de Serviço do PPPlayer: app de música grátis para macOS, Linux, Windows, iOS e Android."
   },
   nav: {
     features: "Recursos"
   },
   footer: {
-    desc: "Música, sem atrito. Grátis para iOS, Android e Windows.",
+    desc: "Música, sem atrito. Grátis para macOS, Linux, Windows, iOS e Android.",
     product: "Produto",
     features: "Recursos",
     download: "Baixar",
@@ -214,7 +214,7 @@ const pt = {
   },
   platforms: {
     title: "Sua música. Seus aparelhos.",
-    subtitle: "Lindo e nativo no Windows, Android e iOS."
+    subtitle: "Lindo e nativo no macOS, Linux, Windows, Android e iOS."
   },
   downloadCTA: {
     title: "Apenas ouça.",
@@ -240,7 +240,7 @@ const pt = {
     title: "Política de Privacidade",
     lastUpdated: "Última atualização: Abril de 2025",
     sections: {
-      s1: { title: "1. Visão Geral", p: "O PPPlayer (\"nós\", \"nosso\", \"o app\") está comprometido em proteger sua privacidade. Esta política explica quais dados coletamos, por que e como são usados quando você usa o PPPlayer no iOS, Android ou Windows." },
+      s1: { title: "1. Visão Geral", p: "O PPPlayer (\"nós\", \"nosso\", \"o app\") está comprometido em proteger sua privacidade. Esta política explica quais dados coletamos, por que e como são usados quando você usa o PPPlayer no macOS, Linux, Windows, iOS ou Android." },
       s2: { title: "2. Nenhuma Conta Necessária", p: "O PPPlayer não exige que você crie uma conta. Não coletamos seu nome, e-mail ou qualquer informação pessoal identificável." },
       s3: { title: "3. Dados que Coletamos", p1: "Podemos coletar os seguintes dados anônimos e não identificáveis:", li1: "Relatórios de erros (para melhorar a estabilidade)", li2: "Análises de uso anônimas (uso de recursos, duração da sessão)", li3: "Tipo de aparelho e versão do sistema", p2: "Nós não coletamos: nomes, e-mails, dados de pagamento ou localização exata." },
       s4: { title: "4. Serviços de Terceiros", p: "O PPPlayer pode usar serviços de terceiros para metadados de música e análises. Eles possuem políticas próprias, que encorajamos você a ler." },
@@ -271,20 +271,20 @@ const pt = {
 
 const es = {
   metadata: {
-    homeTitle: "PPPlayer: App de Música Gratis para iOS, Android y Windows | Sin Cuenta",
-    homeDesc: "PPPlayer es una app de música gratuita para iPhone, Android y Windows. Descubre artistas y géneros sin crear cuenta, sin registro y sin costo.",
+    homeTitle: "PPPlayer: App de Música Gratis para macOS, Linux, Windows, iOS y Android | Sin Cuenta",
+    homeDesc: "PPPlayer es una app de música gratuita para macOS, Linux, Windows, iPhone y Android. Descubre artistas y géneros sin crear cuenta, sin registro y sin costo.",
     downloadTitle: "Descarga PPPlayer Gratis",
-    downloadDesc: "Descarga PPPlayer para iOS, Android o Windows. App de música gratis sin necesidad de cuenta. Empieza a escuchar en minutos.",
+    downloadDesc: "Descarga PPPlayer para macOS, Linux, Windows, iOS o Android. App de música gratis sin necesidad de cuenta. Empieza a escuchar en minutos.",
     privacyTitle: "Política de Privacidad",
-    privacyDesc: "Política de Privacidad de PPPlayer: app de música gratis para iOS, Android y Windows.",
+    privacyDesc: "Política de Privacidad de PPPlayer: app de música gratis para macOS, Linux, Windows, iOS y Android.",
     termsTitle: "Términos de Servicio",
-    termsDesc: "Términos de Servicio de PPPlayer: app de música gratis para iOS, Android y Windows."
+    termsDesc: "Términos de Servicio de PPPlayer: app de música gratis para macOS, Linux, Windows, iOS y Android."
   },
   nav: {
     features: "Funciones"
   },
   footer: {
-    desc: "Música, sin fricción. Gratis para iOS, Android y Windows.",
+    desc: "Música, sin fricción. Gratis para macOS, Linux, Windows, iOS y Android.",
     product: "Producto",
     features: "Funciones",
     download: "Descargar",
@@ -348,7 +348,7 @@ const es = {
   },
   platforms: {
     title: "Tu música. Tus dispositivos.",
-    subtitle: "Bellamente nativo en Windows, Android e iOS."
+    subtitle: "Bellamente nativo en macOS, Linux, Windows, Android e iOS."
   },
   downloadCTA: {
     title: "Solo escucha.",
@@ -374,7 +374,7 @@ const es = {
     title: "Política de Privacidad",
     lastUpdated: "Última actualización: Abril de 2025",
     sections: {
-      s1: { title: "1. Descripción General", p: "PPPlayer (\"nosotros\", \"nuestro\", \"la app\") se compromete a proteger tu privacidad. Esta política explica qué datos recopilamos y cómo se usan al utilizar PPPlayer en iOS, Android o Windows." },
+      s1: { title: "1. Descripción General", p: "PPPlayer (\"nosotros\", \"nuestro\", \"la app\") se compromete a proteger tu privacidad. Esta política explica qué datos recopilamos y cómo se usan al utilizar PPPlayer en macOS, Linux, Windows, iOS o Android." },
       s2: { title: "2. Sin Cuenta Necesaria", p: "PPPlayer no requiere cuenta. No recopilamos tu nombre, correo ni información personal identificable." },
       s3: { title: "3. Datos que Recopilamos", p1: "Podemos recopilar los siguientes datos anónimos:", li1: "Reportes de fallos (para mejorar la app)", li2: "Analíticas de uso (uso de funciones, duración de sesión)", li3: "Tipo de dispositivo y versión del SO", p2: "No recopilamos: nombres, correos, datos de pago ni ubicación." },
       s4: { title: "4. Servicios de Terceros", p: "PPPlayer puede usar servicios de terceros para metadatos y analíticas. Tienen sus propias políticas." },

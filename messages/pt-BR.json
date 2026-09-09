@@ -1,20 +1,20 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer: App de Música Grátis para iOS, Android e Windows | Sem Conta",
-    "homeDesc": "PPPlayer é um app de música gratuito para iPhone, Android e Windows. Descubra artistas e gêneros sem criar conta, sem cadastro e sem custo.",
+    "homeTitle": "PPPlayer: App de Música Grátis para macOS, Linux, Windows, iOS e Android | Sem Conta",
+    "homeDesc": "PPPlayer é um app de música gratuito para macOS, Linux, Windows, iPhone e Android. Descubra artistas e gêneros sem criar conta, sem cadastro e sem custo.",
     "downloadTitle": "Baixe o PPPlayer Grátis",
-    "downloadDesc": "Baixe o PPPlayer para iOS, Android ou Windows. App de música gratuito sem necessidade de conta. Comece a ouvir em minutos.",
+    "downloadDesc": "Baixe o PPPlayer para macOS, Linux, Windows, iOS ou Android. App de música gratuito sem necessidade de conta. Comece a ouvir em minutos.",
     "privacyTitle": "Política de Privacidade",
-    "privacyDesc": "Política de Privacidade do PPPlayer: app de música grátis para iOS, Android e Windows.",
+    "privacyDesc": "Política de Privacidade do PPPlayer: app de música grátis para macOS, Linux, Windows, iOS e Android.",
     "termsTitle": "Termos de Serviço",
-    "termsDesc": "Termos de Serviço do PPPlayer: app de música grátis para iOS, Android e Windows."
+    "termsDesc": "Termos de Serviço do PPPlayer: app de música grátis para macOS, Linux, Windows, iOS e Android."
   },
   "nav": {
     "features": "Recursos",
     "download": "Baixar Grátis"
   },
   "footer": {
-    "desc": "Música, sem atrito. Grátis para iOS, Android e Windows.",
+    "desc": "Música, sem atrito. Grátis para macOS, Linux, Windows, iOS e Android.",
     "product": "Produto",
     "features": "Recursos",
     "download": "Baixar",
@@ -45,7 +45,8 @@
     "getIos": "Baixar para iOS",
     "getAndroid": "Baixar para Android",
     "getMac": "Baixar para Mac",
-    "getWindows": "Baixar para Windows"
+    "getWindows": "Baixar para Windows",
+    "getLinux": "Baixar para Linux"
   },
   "discover": {
     "title": "Encontre<br></br>algo que<br></br>valha a pena."
@@ -78,7 +79,7 @@
   },
   "platforms": {
     "title": "Sua música. Seus aparelhos.",
-    "subtitle": "Lindo e nativo no Windows, Android e iOS."
+    "subtitle": "Lindo e nativo no macOS, Linux, Windows, Android e iOS."
   },
   "downloadCTA": {
     "title": "Apenas ouça.",
@@ -88,7 +89,8 @@
     "getWindows": "Baixar para Windows",
     "notAvailable": "Ainda não disponível. Atualmente, apenas a versão para macOS está disponível para download.",
     "notAvailableTitle": "Em Breve",
-    "okayBtn": "Entendi"
+    "okayBtn": "Entendi",
+    "getLinux": "Baixar para Linux"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 já está disponível",
@@ -109,7 +111,7 @@
     "sections": {
       "s1": {
         "title": "1. Visão Geral",
-        "p": "O PPPlayer (\"nós\", \"nosso\", \"o app\") está comprometido em proteger sua privacidade. Esta política explica quais dados coletamos, por que e como são usados quando você usa o PPPlayer no iOS, Android ou Windows."
+        "p": "O PPPlayer (\"nós\", \"nosso\", \"o app\") está comprometido em proteger sua privacidade. Esta política explica quais dados coletamos, por que e como são usados quando você usa o PPPlayer no macOS, Linux, Windows, iOS ou Android."
       },
       "s2": {
         "title": "2. Nenhuma Conta Necessária",
@@ -215,6 +217,12 @@
       "name": "macOS",
       "label": "Mac",
       "desc": "Download direto para macOS. Compatível com Apple Silicon e Intel.",
+      "badge": "Download Direto"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Download direto para Linux. Suporte a AppImage.",
       "badge": "Download Direto"
     }
   },

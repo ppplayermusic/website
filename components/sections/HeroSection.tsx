@@ -40,7 +40,7 @@ export default function HeroSection() {
               {t("desc")}
             </p>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+            <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
               <SpotlightButton href="#" variant="light" onClick={handleNotAvailable}>
                 {t("getIos")}
               </SpotlightButton>
@@ -52,6 +52,9 @@ export default function HeroSection() {
               </SpotlightButton>
               <SpotlightButton href="#" variant="dark" onClick={handleNotAvailable}>
                 {t("getWindows")}
+              </SpotlightButton>
+              <SpotlightButton href="#" variant="dark" onClick={handleNotAvailable}>
+                {t("getLinux")}
               </SpotlightButton>
             </div>
           </motion.div>

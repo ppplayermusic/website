@@ -66,13 +66,25 @@ export default function PlatformCardsSection() {
       gradient: 'from-green-500/10 to-transparent',
       isAvailable: false,
     },
+    {
+      id: 'linux',
+      icon: <Laptop className="w-10 h-10 text-white" strokeWidth={1.5} />,
+      name: t('linux.name'),
+      label: t('linux.label'),
+      description: t('linux.desc'),
+      badge: t('linux.badge'),
+      href: "#",
+      color: 'rgba(234, 179, 8, 0.1)',
+      gradient: 'from-yellow-500/10 to-transparent',
+      isAvailable: false,
+    },
   ];
 
   return (
     <>
       <section className="py-16 md:py-24 bg-[var(--color-bg-base)] text-white relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
             {platforms.map((platform, i) => (
               <motion.a
                 key={platform.id}
