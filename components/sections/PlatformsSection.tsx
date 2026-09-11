@@ -8,6 +8,7 @@ import {useTranslations} from 'next-intl'
 import { motion } from 'framer-motion'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
+import { AndroidFrame, IPhoneFrame } from '@/components/ui/DeviceFrames'
 
 export default function PlatformsSection() {
   const t = useTranslations('platforms');
@@ -58,24 +59,17 @@ export default function PlatformsSection() {
             whileInView={{ opacity: 1, x: 0, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-            className="absolute left-[5%] md:left-[15%] bottom-0 w-[30%] md:w-[22%] aspect-[9/19] z-10 flex items-center justify-center"
+            className="absolute left-[8%] md:left-[18%] bottom-0 w-[30%] md:w-[22%] z-10 flex items-center justify-center"
           >
-            {/* Android Frame Casing */}
-            <div className="relative w-full h-full bg-[#0a0a0a] rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.8),0_0_0_1px_rgba(255,255,255,0.1)] border-[4px] md:border-[6px] border-[#1a1a1c] ring-1 ring-[#333] ring-inset">
-              
-              {/* Power Button */}
-              <div className="absolute -right-[4px] md:-right-[6px] top-[35%] w-[2px] md:w-[3px] h-[10%] bg-[#222] rounded-r-md" />
-              {/* Volume Buttons */}
-              <div className="absolute -right-[4px] md:-right-[6px] top-[50%] w-[2px] md:w-[3px] h-[16%] bg-[#222] rounded-r-md" />
-
+            <AndroidFrame>
               <Image
                 src="/images/mobile-screenshot-android.png"
                 alt="PPPlayer Android"
                 fill
                 sizes="(max-width: 768px) 30vw, 22vw"
-                className="object-cover object-top rounded-[1.3rem] md:rounded-[1.7rem]"
+                className="object-cover object-top"
               />
-            </div>
+            </AndroidFrame>
           </motion.div>
 
           {/* iOS Right */}
@@ -84,26 +78,17 @@ export default function PlatformsSection() {
             whileInView={{ opacity: 1, x: 0, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="absolute right-[5%] md:right-[15%] bottom-0 w-[30%] md:w-[22%] aspect-[9/19] z-10 translate-y-8"
+            className="absolute right-[8%] md:right-[18%] bottom-0 w-[30%] md:w-[22%] z-10 translate-y-8"
           >
-            {/* iPhone Frame Casing */}
-            <div className="relative w-full h-full bg-[#0a0a0a] rounded-[2.5rem] md:rounded-[3.5rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.8),0_0_0_1px_rgba(255,255,255,0.1)] border-[6px] md:border-[10px] border-[#1a1a1c] ring-1 ring-[#333] ring-inset">
-              
-              {/* Side Buttons (Action/Volume) */}
-              <div className="absolute -left-[6px] md:-left-[10px] top-[15%] w-[3px] md:w-[4px] h-[8%] bg-[#222] rounded-l-md" />
-              <div className="absolute -left-[6px] md:-left-[10px] top-[26%] w-[3px] md:w-[4px] h-[12%] bg-[#222] rounded-l-md" />
-              <div className="absolute -left-[6px] md:-left-[10px] top-[40%] w-[3px] md:w-[4px] h-[12%] bg-[#222] rounded-l-md" />
-              {/* Side Button (Power) */}
-              <div className="absolute -right-[6px] md:-right-[10px] top-[30%] w-[3px] md:w-[4px] h-[16%] bg-[#222] rounded-r-md" />
-
+            <IPhoneFrame>
               <Image
                 src="/images/mobile-screenshot-queue.png"
                 alt="PPPlayer iOS"
                 fill
                 sizes="(max-width: 768px) 30vw, 22vw"
-                className="object-cover object-top rounded-[2rem] md:rounded-[3rem]"
+                className="object-cover object-top"
               />
-            </div>
+            </IPhoneFrame>
           </motion.div>
 
         </div>
