@@ -7,11 +7,14 @@
     "privacyTitle": "Privacy Policy",
     "privacyDesc": "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
     "termsTitle": "Terms of Service",
-    "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android."
+    "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
+    "supportTitle": "Support - PPPlayer",
+    "supportDesc": "Support and FAQ for PPPlayer."
   },
   "nav": {
     "features": "Features",
-    "download": "Download Free"
+    "download": "Download Free",
+    "support": "Support"
   },
   "footer": {
     "desc": "Music, without the friction. Free for macOS, Linux, Windows, iOS, and Android.",
@@ -308,5 +311,11 @@
       "playlists": "Playlists, favorites and listening history",
       "platforms": "macOS, Windows and Linux support"
     }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "How can we help you?",
+    "contactTitle": "Contact Us",
+    "contactDesc": "Have a question or need help? Reach out to us at contact@ppplayer.com."
   }
 }

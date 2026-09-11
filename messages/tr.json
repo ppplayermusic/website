@@ -7,11 +7,14 @@
     "privacyTitle": "Gizlilik Politikası",
     "privacyDesc": "PPPlayer için Gizlilik Politikası: macOS, Linux, Windows, iOS ve Android için ücretsiz müzik uygulaması.",
     "termsTitle": "Hizmet Şartları",
-    "termsDesc": "PPPlayer için Hizmet Şartları: macOS, Linux, Windows, iOS ve Android için ücretsiz müzik uygulaması."
+    "termsDesc": "PPPlayer için Hizmet Şartları: macOS, Linux, Windows, iOS ve Android için ücretsiz müzik uygulaması.",
+    "supportTitle": "Destek - PPPlayer",
+    "supportDesc": "PPPlayer için Destek ve SSS."
   },
   "nav": {
     "features": "Özellikler",
-    "download": "Ücretsiz İndir"
+    "download": "Ücretsiz İndir",
+    "support": "Destek"
   },
   "footer": {
     "desc": "Zorluklar olmadan müzik. macOS, Linux, Windows, iOS ve Android için ücretsiz.",
@@ -299,5 +302,11 @@
       "playlists": "Çalma listeleri, favoriler ve dinleme geçmişi",
       "platforms": "macOS, Windows ve Linux desteği"
     }
+  },
+  "support": {
+    "title": "Destek",
+    "subtitle": "Size nasıl yardımcı olabiliriz?",
+    "contactTitle": "Bize Ulaşın",
+    "contactDesc": "Bir sorunuz mu var veya yardıma mı ihtiyacınız var? contact@ppplayer.com adresinden bize ulaşın."
   }
 }

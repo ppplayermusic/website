@@ -7,6 +7,7 @@ import { DOWNLOAD_LINKS } from '@/lib/constants'
 
 export default function Footer() {
   const t = useTranslations('footer');
+  const tNav = useTranslations('nav');
   const pathname = usePathname();
   const isHome = pathname === '/';
 
@@ -49,6 +50,7 @@ export default function Footer() {
                 </>
               )}
               <Link href="/changelog" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">Changelog</Link>
+              <Link href="/support" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{tNav("support")}</Link>
             </div>
             
             <div className="flex flex-col gap-3">

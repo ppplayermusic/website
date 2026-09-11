@@ -7,11 +7,14 @@
     "privacyTitle": "Datenschutzrichtlinie",
     "privacyDesc": "Datenschutzrichtlinie für PPPlayer: kostenlose Musik-App.",
     "termsTitle": "Nutzungsbedingungen",
-    "termsDesc": "Nutzungsbedingungen für PPPlayer: kostenlose Musik-App."
+    "termsDesc": "Nutzungsbedingungen für PPPlayer: kostenlose Musik-App.",
+    "supportTitle": "Support - PPPlayer",
+    "supportDesc": "Support und FAQ für PPPlayer."
   },
   "nav": {
     "features": "Funktionen",
-    "download": "Kostenlos Laden"
+    "download": "Kostenlos Laden",
+    "support": "Support"
   },
   "footer": {
     "desc": "Musik, ohne Hürden. Kostenlos für macOS, Linux, Windows, iOS und Android.",
@@ -299,5 +302,11 @@
       "playlists": "Wiedergabelisten, Favoriten und Hörverlauf",
       "platforms": "Unterstützung für macOS, Windows und Linux"
     }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Wie können wir Ihnen helfen?",
+    "contactTitle": "Kontaktiere uns",
+    "contactDesc": "Haben Sie eine Frage oder benötigen Sie Hilfe? Kontaktieren Sie uns unter contact@ppplayer.com."
   }
 }
