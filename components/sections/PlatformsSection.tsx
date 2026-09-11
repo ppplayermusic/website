@@ -61,19 +61,19 @@ export default function PlatformsSection() {
             className="absolute left-[5%] md:left-[15%] bottom-0 w-[30%] md:w-[22%] aspect-[9/19] z-10 flex items-center justify-center"
           >
             {/* Android Frame Casing */}
-            <div className="relative w-full h-full bg-[#0a0a0a] rounded-[2rem] md:rounded-[2.5rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.8),0_0_0_1px_rgba(255,255,255,0.1)] border-[4px] md:border-[8px] border-[#1a1a1c] ring-1 ring-[#333] ring-inset">
+            <div className="relative w-full h-full bg-[#0a0a0a] rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.8),0_0_0_1px_rgba(255,255,255,0.1)] border-[4px] md:border-[6px] border-[#1a1a1c] ring-1 ring-[#333] ring-inset">
               
               {/* Power Button */}
-              <div className="absolute -right-[4px] md:-right-[8px] top-[25%] w-[3px] md:w-[4px] h-[12%] bg-[#222] rounded-r-md" />
+              <div className="absolute -right-[4px] md:-right-[6px] top-[35%] w-[2px] md:w-[3px] h-[10%] bg-[#222] rounded-r-md" />
               {/* Volume Buttons */}
-              <div className="absolute -right-[4px] md:-right-[8px] top-[40%] w-[3px] md:w-[4px] h-[20%] bg-[#222] rounded-r-md" />
+              <div className="absolute -right-[4px] md:-right-[6px] top-[50%] w-[2px] md:w-[3px] h-[16%] bg-[#222] rounded-r-md" />
 
               <Image
-                src="/images/mobile-screenshot-artist.png"
+                src="/images/mobile-screenshot-android.png"
                 alt="PPPlayer Android"
                 fill
                 sizes="(max-width: 768px) 30vw, 22vw"
-                className="object-cover object-top rounded-[1.8rem] md:rounded-[2.2rem]"
+                className="object-cover object-top rounded-[1.3rem] md:rounded-[1.7rem]"
               />
             </div>
           </motion.div>
