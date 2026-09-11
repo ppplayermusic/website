@@ -131,38 +131,3 @@ export const FEATURES = [
   },
 ]
 
-// FAQ items
-export const FAQ_ITEMS = [
-  {
-    q: 'Is PPPlayer free?',
-    a: 'Yes. PPPlayer is 100% free. No subscriptions, no in-app purchases, and no hidden costs.',
-  },
-  {
-    q: 'Do I need to create an account?',
-    a: 'No. You do not need an email address, account, or login of any kind. Just download, open, and start listening.',
-  },
-  {
-    q: 'Is PPPlayer available for iPhone?',
-    a: 'Yes. PPPlayer is available on the App Store for iPhone and iPad.',
-  },
-  {
-    q: 'Is PPPlayer available for Android?',
-    a: 'Yes. You can download PPPlayer on Google Play for Android phones and tablets.',
-  },
-  {
-    q: 'Can I use PPPlayer on Windows?',
-    a: 'Yes. PPPlayer is available for Windows 10 and later as a direct download. No store required.',
-  },
-  {
-    q: 'What music features does PPPlayer offer?',
-    a: 'PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required.',
-  },
-  {
-    q: 'How do I download PPPlayer?',
-    a: 'Tap the download button for your platform on this page. The download takes less than a minute.',
-  },
-  {
-    q: 'Is there a premium version?',
-    a: 'No. PPPlayer is fully free. Everything you see is available at no cost, with no account needed.',
-  },
-]

@@ -106,7 +106,41 @@
   "faq": {
     "badge": "SSS",
     "title": "Sıkça sorulan <gradient>sorular</gradient>",
-    "subtitle": "PPPlayer hakkında bilmen gereken her şey."
+    "subtitle": "PPPlayer hakkında bilmen gereken her şey.",
+    "items": [
+      {
+        "q": "PPPlayer ücretsiz mi?",
+        "a": "Evet. PPPlayer %100 ücretsizdir. Abonelik, uygulama içi satın alma ve gizli maliyet yok."
+      },
+      {
+        "q": "Hesap oluşturmam gerekiyor mu?",
+        "a": "Hayır. E-posta adresi, hesap veya oturum açma gerekmez. Sadece indirin, açın ve dinlemeye başlayın."
+      },
+      {
+        "q": "PPPlayer iPhone için mevcut mu?",
+        "a": "Evet. PPPlayer, iPhone ve iPad için App Store'da mevcuttur."
+      },
+      {
+        "q": "PPPlayer Android için mevcut mu?",
+        "a": "Evet. PPPlayer'ı Android telefonlar ve tabletler için Google Play'den indirebilirsiniz."
+      },
+      {
+        "q": "PPPlayer'ı Windows'ta kullanabilir miyim?",
+        "a": "Evet. PPPlayer, doğrudan indirme olarak Windows 10 ve sonrası için mevcuttur."
+      },
+      {
+        "q": "PPPlayer hangi müzik özelliklerini sunuyor?",
+        "a": "PPPlayer sanatçı keşfi, ilgili sanatçılar, sanatçı radyosu, çalma listeleri, tür keşfi ve güzel bir oynatıcı içerir. Hepsi ücretsizdir ve hesap gerekmez."
+      },
+      {
+        "q": "PPPlayer'ı nasıl indirebilirim?",
+        "a": "Bu sayfadaki platformunuz için indirme düğmesine dokunun. İndirme işlemi bir dakikadan kısa sürer."
+      },
+      {
+        "q": "Premium sürüm var mı?",
+        "a": "Hayır. PPPlayer tamamen ücretsizdir. Gördüğünüz her şey ücretsiz olarak kullanılabilir."
+      }
+    ]
   },
   "privacy": {
     "title": "Gizlilik Politikası",

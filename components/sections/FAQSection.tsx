@@ -3,11 +3,12 @@ import {useTranslations} from 'next-intl'
 
 import { motion } from 'framer-motion'
 import { FAQItem } from '@/components/ui/FAQItem'
-import { FAQ_ITEMS } from '@/lib/constants'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 
 export default function FAQSection() {
   const t = useTranslations('faq');
+  const items = t.raw('items') as { q: string; a: string }[];
+  
   return (
     <section className="py-24">
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
@@ -36,7 +37,7 @@ export default function FAQSection() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="flex flex-col gap-3"
         >
-          {FAQ_ITEMS.map((faq) => (
+          {items.map((faq) => (
             <FAQItem key={faq.q} question={faq.q} answer={faq.a} />
           ))}
         </motion.div>
@@ -44,3 +45,4 @@ export default function FAQSection() {
     </section>
   )
 }
+
