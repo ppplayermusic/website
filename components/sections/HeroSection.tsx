@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Image from 'next/image';
 import {useTranslations} from 'next-intl'
 import { motion } from 'framer-motion'
-import { DOWNLOAD_LINKS } from '@/lib/constants'
+import { DOWNLOAD_LINKS, PROJECT_LINKS } from '@/lib/constants'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { SpotlightButton } from '@/components/ui/SpotlightButton'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
@@ -30,6 +30,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="max-w-4xl mx-auto"
           >
+            <a href="#open-source" className="inline-block mb-6 text-sm font-semibold text-red-500 hover:text-red-400">{t('badge')}</a>
             <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-6 leading-[0.9] cursor-default">
               <SpotlightText className="text-white">{t("title1")}</SpotlightText><br />
               <span className="text-slate-400">
@@ -57,6 +58,7 @@ export default function HeroSection() {
                 {t("getLinux")}
               </SpotlightButton>
             </div>
+            <a href={PROJECT_LINKS.source} className="inline-block mt-6 text-sm text-slate-400 underline underline-offset-4 hover:text-white">{t('source')}</a>
           </motion.div>
         </div>
 

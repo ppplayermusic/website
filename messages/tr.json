@@ -1,23 +1,24 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer: macOS, Linux, Windows, iOS & Android İçin Ücretsiz Müzik | Hesap Gerekmez",
-    "homeDesc": "PPPlayer, macOS, Linux, Windows, iPhone ve Android için ücretsiz bir müzik uygulamasıdır. Sanatçıları ve türleri keşfedin: hesap yok, kayıt yok, ücretsiz.",
+    "homeTitle": "PPPlayer | Ücretsiz ve açık kaynaklı",
+    "homeDesc": "Ücretsiz, açık kaynaklı bir müzik çalar. Hesap yok. Abonelik yok. Sadece dinleyin.",
     "downloadTitle": "PPPlayer'ı Ücretsiz İndir",
-    "downloadDesc": "PPPlayer'ı macOS, Linux, Windows, iOS veya Android için indirin. Hesap gerekmez. Dakikalar içinde dinlemeye başlayın.",
+    "downloadDesc": "Ücretsiz, açık kaynaklı bir müzik çalar. Hesap yok. Abonelik yok. Sadece dinleyin.",
     "privacyTitle": "Gizlilik Politikası",
     "privacyDesc": "PPPlayer için Gizlilik Politikası: macOS, Linux, Windows, iOS ve Android için ücretsiz müzik uygulaması.",
     "termsTitle": "Hizmet Şartları",
     "termsDesc": "PPPlayer için Hizmet Şartları: macOS, Linux, Windows, iOS ve Android için ücretsiz müzik uygulaması.",
     "supportTitle": "Destek - PPPlayer",
-    "supportDesc": "PPPlayer için Destek ve SSS."
+    "supportDesc": "PPPlayer bağımsız, açık kaynaklı bir projedir. Hatalar ve özellik önerileri için GitHub’ı kullanın. Diğer sorularınız için contact@ppplayer.com adresine yazın."
   },
   "nav": {
     "features": "Özellikler",
     "download": "Ücretsiz İndir",
-    "support": "Destek"
+    "support": "Destek",
+    "contribute": "Katkıda bulunun"
   },
   "footer": {
-    "desc": "Zorluklar olmadan müzik. macOS, Linux, Windows, iOS ve Android için ücretsiz.",
+    "desc": "Ücretsiz, açık kaynaklı bir müzik çalar. Hesap yok. Abonelik yok. Sadece dinleyin.",
     "product": "Ürün",
     "features": "Özellikler",
     "download": "İndir",
@@ -33,7 +34,9 @@
     "legal": "Yasal",
     "privacy": "Gizlilik",
     "terms": "Şartlar",
-    "copyright": "© {year} PPPlayer. Tüm hakları saklıdır."
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "Kodu GitHub’da görüntüle",
+    "contribute": "Katkıda bulunun"
   },
   "cookie": {
     "title": "Gizliliğinize değer veriyoruz",
@@ -44,12 +47,14 @@
   "hero": {
     "title1": "Müzik.",
     "title2": "Zorluklar olmadan.",
-    "desc": "Hesap yok. Abonelik yok. Sadece dinle.",
+    "desc": "Ücretsiz, açık kaynaklı bir müzik çalar. Hesap yok. Abonelik yok. Sadece dinleyin.",
     "getIos": "iOS İçin İndir",
     "getAndroid": "Android İçin İndir",
     "getMac": "Mac İçin İndir",
     "getWindows": "Windows İçin İndir",
-    "getLinux": "Linux için İndir"
+    "getLinux": "Linux için İndir",
+    "badge": "Ücretsiz ve açık kaynaklı",
+    "source": "Kodu GitHub’da görüntüle"
   },
   "discover": {
     "title": "Dinlemeye<br></br>değer<br></br>bir şeyler bul."
@@ -78,7 +83,7 @@
   },
   "noAccount": {
     "title": "Hesap yok.",
-    "subtitle": "Müzik izin istememeli."
+    "subtitle": "Ücretsiz ve açık kaynaklı"
   },
   "platforms": {
     "title": "Senin müziğin. Cihazların.",
@@ -140,7 +145,9 @@
         "q": "Premium sürüm var mı?",
         "a": "Hayır. PPPlayer tamamen ücretsizdir. Gördüğünüz her şey ücretsiz olarak kullanılabilir."
       }
-    ]
+    ],
+    "openSourceQuestion": "PPPlayer açık kaynaklı mı?",
+    "openSourceAnswer": "Evet. PPPlayer açık kaynaklı bir projedir. MIT lisansı, yazılımı lisans koşulları altında kullanmanıza, incelemenize, değiştirmenize ve paylaşmanıza olanak tanır. Kaynak kodunu ve katkı bağlantılarını açık kaynak bölümünde bulabilirsiniz."
   },
   "privacy": {
     "title": "Gizlilik Politikası",
@@ -191,7 +198,7 @@
   },
   "terms": {
     "title": "Hizmet Şartları",
-    "lastUpdated": "Son Güncelleme: Nisan 2025",
+    "lastUpdated": "Son güncelleme: 11 Eylül 2026",
     "sections": {
       "s1": {
         "title": "1. Şartların Kabulü",
@@ -199,8 +206,8 @@
       },
       "s2": {
         "title": "2. Uygulamanın Kullanımı",
-        "p": "PPPlayer kişisel kullanım için ücretsiz sağlanmaktadır. Şunları yapmamayı kabul edersiniz:",
-        "li1": "Uygulamada tersine mühendislik yapmamak veya değiştirmemek",
+        "p": "PPPlayer ücretsiz ve açık kaynaklı bir yazılımdır. Yazılımın kullanımı, kopyalanması, değiştirilmesi ve dağıtılması, proje deposundaki MIT lisansına tabidir. Uygulamayı kullanırken şunları yapmamayı kabul edersiniz:",
+        "li1": "Geçerli yazılım lisanslarının gerektirdiği telif hakkı veya izin bildirimlerini kaldırmak",
         "li2": "Uygulamayı zararlı içerik dağıtmak için kullanmamak",
         "li3": "Yürürlükteki yasalara aykırı davranmamak"
       },
@@ -210,7 +217,7 @@
       },
       "s4": {
         "title": "4. Fikri Mülkiyet",
-        "p": "PPPlayer'ın içeriği PPPlayer'a aittir. Uygulama içinde gösterilen müzik içeriği üçüncü taraf sağlayıcılardan alınmıştır ve lisanslarına tabidir."
+        "p": "PPPlayer kaynak kodu MIT lisansı altında sunulur. Üçüncü taraf bağımlılıklar kendi lisanslarına tabidir. Müzik, görseller ve meta veriler ilgili haklara ve lisanslara tabi olmaya devam eder; yazılım lisansı bu içerik üzerinde hak vermez."
       },
       "s5": {
         "title": "5. Garanti Reddi",
@@ -335,12 +342,33 @@
       "youtube": "YouTube destekli ses çalma",
       "playlists": "Çalma listeleri, favoriler ve dinleme geçmişi",
       "platforms": "macOS, Windows ve Linux desteği"
+    },
+    "v1_0_5": {
+      "version": "v1.0.5",
+      "date": "11 Eylül 2026",
+      "desc": "macOS’ta kesintisiz arka plan oynatma.",
+      "new": "Yenilikler",
+      "fixed": "Düzeltmeler",
+      "appNapTitle": "Kesintisiz arka plan oynatma",
+      "appNapDesc": "macOS App Nap’in simge durumuna küçültülen oynatıcıyı askıya alması önlenerek sıranın kesintisiz devam etmesi sağlandı."
     }
   },
   "support": {
     "title": "Destek",
     "subtitle": "Size nasıl yardımcı olabiliriz?",
     "contactTitle": "Bize Ulaşın",
-    "contactDesc": "Bir sorunuz mu var veya yardıma mı ihtiyacınız var? contact@ppplayer.com adresinden bize ulaşın."
+    "contactDesc": "PPPlayer bağımsız, açık kaynaklı bir projedir. Hatalar ve özellik önerileri için GitHub’ı kullanın. Diğer sorularınız için contact@ppplayer.com adresine yazın.",
+    "githubTitle": "Açık kaynak",
+    "githubDesc": "PPPlayer bağımsız, açık kaynaklı bir projedir. Kodu inceleyin, hata bildirin, özellik önerin veya kod ve çevirilerle katkıda bulunun. Her katkı dinleme deneyimini iyileştirir.",
+    "githubBtn": "GitHub’da görüntüle"
+  },
+  "openSource": {
+    "badge": "Ücretsiz ve açık kaynaklı",
+    "title": "Açık geliştiriliyor.",
+    "desc": "PPPlayer bağımsız, açık kaynaklı bir projedir. Kodu inceleyin, hata bildirin, özellik önerin veya kod ve çevirilerle katkıda bulunun. Her katkı dinleme deneyimini iyileştirir.",
+    "source": "Kodu GitHub’da görüntüle",
+    "contribute": "Katkıda bulunun",
+    "issues": "Hata bildirin",
+    "license": "MIT lisansı"
   }
 }

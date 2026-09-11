@@ -1,7 +1,15 @@
 // Site configuration
 export const SITE_URL = 'https://ppplayer.com'
 export const SITE_NAME = 'PPPlayer'
-export const SITE_TAGLINE = 'Free music. No account. Just play.'
+export const SITE_TAGLINE = 'A free, open-source music player. No account. Just play.'
+
+export const PROJECT_LINKS = {
+  organization: 'https://github.com/ppplayermusic',
+  source: 'https://github.com/ppplayermusic/app',
+  contribute: 'https://github.com/ppplayermusic/.github/blob/main/CONTRIBUTING.md',
+  issues: 'https://github.com/ppplayermusic/app/issues',
+  license: 'https://github.com/ppplayermusic/ppplayer/blob/main/LICENSE',
+}
 
 // Download links: update when store listings are live
 export const DOWNLOAD_LINKS = {

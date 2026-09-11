@@ -13,13 +13,14 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'PPPlayer: Free Music App for iOS, Android & Windows | No Account Required',
+    default: 'PPPlayer: Free & Open-Source Music Player',
     template: '%s | PPPlayer',
   },
   description:
-    'PPPlayer is a free music app for iPhone, Android, and Windows. Discover artists, explore genres, and start listening instantly: no account, no signup, no cost.',
+    'PPPlayer is a free, open-source music player. Discover music, explore the source code, and contribute. No account or subscription required.',
   keywords: [
     'free music app',
+    'open source music player',
     'music app no account',
     'music app for iPhone',
     'music app for Android',
@@ -33,14 +34,14 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://ppplayer.com',
     siteName: 'PPPlayer',
-    title: 'PPPlayer: Free Music App for iPhone, Android, and Windows',
-    description: 'Download PPPlayer for free. No account, no signup, no cost. Stream music on your iPhone, Android, and Windows devices.',
+    title: 'PPPlayer: Free & Open-Source Music Player',
+    description: 'Discover PPPlayer, a free, open-source music player. Explore the code, contribute, or download an available release.',
     images: [{ url: '/og-image.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PPPlayer: Free Music App',
-    description: 'No account. No signup. Just download and listen.',
+    title: 'PPPlayer: Free & Open-Source Music Player',
+    description: 'Free and open source. No account. No subscription. Just play.',
     images: ['/og-image.png'],
   },
   robots: {

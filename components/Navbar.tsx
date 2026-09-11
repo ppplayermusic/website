@@ -8,7 +8,7 @@ import { Menu, X } from 'lucide-react'
 // Import handled
 import { Button } from '@/components/ui/Button'
 import { SpotlightLogo } from '@/components/ui/SpotlightLogo'
-import { DOWNLOAD_LINKS } from '@/lib/constants'
+import { PROJECT_LINKS } from '@/lib/constants'
 import { LanguageSelector } from '@/components/ui/LanguageSelector'
 
 const navLinks = [
@@ -61,7 +61,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
+          <nav className="hidden xl:flex items-center gap-5">
             {navLinks.map((link) => {
               const isHashLink = link.href.startsWith('/#');
               if (isHashLink && isHome) {
@@ -85,11 +85,12 @@ export default function Navbar() {
                 </Link>
               );
             })}
+            <a href={PROJECT_LINKS.organization} className="text-slate-400 hover:text-white transition-colors text-sm font-medium">{t("contribute")}</a>
             <LanguageSelector />
           </nav>
 
           {/* Desktop CTA & Socials */}
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden xl:flex items-center gap-4">
             <div className="flex items-center gap-3 border-r border-white/10 pr-4">
               <a href="https://www.instagram.com/ppplayermusic/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-slate-400 hover:text-white transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.75" fill="currentColor" stroke="none"/></svg>
@@ -111,7 +112,7 @@ export default function Navbar() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 text-slate-400 hover:text-white transition-colors"
+            className="xl:hidden p-2 text-slate-400 hover:text-white transition-colors"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
@@ -127,7 +128,7 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden overflow-hidden backdrop-blur-2xl bg-[var(--color-bg-base)]/95 border-b border-white/5"
+            className="xl:hidden overflow-hidden backdrop-blur-2xl bg-[var(--color-bg-base)]/95 border-b border-white/5"
           >
             <div className="px-4 py-6 flex flex-col gap-6">
               <nav className="flex flex-col gap-4">
@@ -156,6 +157,7 @@ export default function Navbar() {
                     </Link>
                   );
                 })}
+                <a href={PROJECT_LINKS.organization} onClick={() => setIsOpen(false)} className="text-slate-300 hover:text-white text-lg font-medium transition-colors">{t("contribute")}</a>
               </nav>
               <div className="pt-4 border-t border-white/5 flex flex-col gap-6">
                 <div className="flex items-center justify-center gap-6">

@@ -37,6 +37,7 @@ export default function FAQSection() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="flex flex-col gap-3"
         >
+          <FAQItem question={t('openSourceQuestion')} answer={t('openSourceAnswer')} />
           {items.map((faq) => (
             <FAQItem key={faq.q} question={faq.q} answer={faq.a} />
           ))}

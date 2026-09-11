@@ -1,4 +1,4 @@
-import {Link} from '@/i18n/routing'
+import { PROJECT_LINKS } from '@/lib/constants'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import FAQSection from '@/components/sections/FAQSection'
@@ -55,17 +55,24 @@ export default async function SupportPage({ params }: { params: Promise<{ locale
               {t("subtitle")}
             </SpotlightText>
           </h1>
-          <div className="max-w-2xl mx-auto mt-12 bg-[var(--color-bg-base)]/50 border border-white/10 rounded-2xl p-8 backdrop-blur-md text-left flex flex-col items-center">
+          <div className="max-w-5xl mx-auto mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-[var(--color-bg-base)]/50 border border-white/10 rounded-2xl p-8 backdrop-blur-md text-left flex flex-col items-center">
             <h2 className="text-2xl font-bold text-white mb-4">{t("contactTitle")}</h2>
             <p className="text-slate-400 text-lg mb-8 text-center max-w-md">
               {t("contactDesc")}
             </p>
             <a 
               href="mailto:contact@ppplayer.com"
-              className="inline-flex items-center justify-center px-8 py-3 text-base font-medium text-black bg-white rounded-full hover:bg-slate-200 transition-colors"
+              className="mt-auto inline-flex items-center justify-center px-8 py-3 text-base font-medium text-black bg-white rounded-full hover:bg-slate-200 transition-colors"
             >
               contact@ppplayer.com
             </a>
+          </div>
+          <div className="bg-[var(--color-bg-base)]/50 border border-white/10 rounded-2xl p-8 backdrop-blur-md flex flex-col items-center">
+            <h2 className="text-2xl font-bold text-white mb-4">{t('githubTitle')}</h2>
+            <p className="text-slate-400 text-lg mb-8 max-w-md">{t('githubDesc')}</p>
+            <a href={PROJECT_LINKS.organization} className="mt-auto inline-flex items-center justify-center px-8 py-3 text-base font-medium text-black bg-white rounded-full hover:bg-slate-200 transition-colors">{t('githubBtn')}</a>
+          </div>
           </div>
         </section>
 

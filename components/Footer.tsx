@@ -3,7 +3,7 @@
 import {Link, usePathname} from '@/i18n/routing'
 import {useTranslations} from 'next-intl'
 import { SpotlightLogo } from '@/components/ui/SpotlightLogo'
-import { DOWNLOAD_LINKS } from '@/lib/constants'
+import { PROJECT_LINKS } from '@/lib/constants'
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -32,6 +32,7 @@ export default function Footer() {
             <p className="text-slate-500 text-sm max-w-xs leading-relaxed">
               {t("desc")}
             </p>
+            <a href={PROJECT_LINKS.source} className="text-slate-400 hover:text-white text-sm underline underline-offset-4">{t('source')}</a>
           </div>
 
           {/* Links */}
@@ -50,6 +51,7 @@ export default function Footer() {
                 </>
               )}
               <Link href="/changelog" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">Changelog</Link>
+              <a href={PROJECT_LINKS.organization} className="text-slate-400 hover:text-white text-sm transition-colors">{t("contribute")}</a>
               <Link href="/support" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{tNav("support")}</Link>
             </div>
             

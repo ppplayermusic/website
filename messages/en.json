@@ -1,23 +1,24 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer: Free Music App for macOS, Linux, Windows, iOS & Android | No Account Required",
-    "homeDesc": "PPPlayer is a free music app for macOS, Linux, Windows, iPhone, and Android. Discover artists, explore genres, and start listening instantly: no account, no signup, no cost.",
+    "homeTitle": "PPPlayer | Free & open source",
+    "homeDesc": "A free, open-source music player. No account. No subscription. Just play.",
     "downloadTitle": "Download PPPlayer Free",
-    "downloadDesc": "Download PPPlayer for macOS, Linux, Windows, iOS, or Android. Free music app: no account required. Start listening in minutes.",
+    "downloadDesc": "A free, open-source music player. No account. No subscription. Just play.",
     "privacyTitle": "Privacy Policy",
     "privacyDesc": "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
     "termsTitle": "Terms of Service",
     "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
     "supportTitle": "Support - PPPlayer",
-    "supportDesc": "Support and FAQ for PPPlayer."
+    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com."
   },
   "nav": {
     "features": "Features",
     "download": "Download Free",
-    "support": "Support"
+    "support": "Support",
+    "contribute": "Contribute"
   },
   "footer": {
-    "desc": "Music, without the friction. Free for macOS, Linux, Windows, iOS, and Android.",
+    "desc": "A free, open-source music player. No account. No subscription. Just play.",
     "product": "Product",
     "features": "Features",
     "download": "Download",
@@ -33,7 +34,9 @@
     "legal": "Legal",
     "privacy": "Privacy",
     "terms": "Terms",
-    "copyright": "© {year} PPPlayer. All rights reserved."
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "View source on GitHub",
+    "contribute": "Contribute"
   },
   "cookie": {
     "title": "We value your privacy",
@@ -44,12 +47,14 @@
   "hero": {
     "title1": "Music.",
     "title2": "Without the friction.",
-    "desc": "No account. No subscription. Just play.",
+    "desc": "A free, open-source music player. No account. No subscription. Just play.",
     "getIos": "Get for iOS",
     "getAndroid": "Get for Android",
     "getMac": "Get for Mac",
     "getWindows": "Get for Windows",
-    "getLinux": "Get for Linux"
+    "getLinux": "Get for Linux",
+    "badge": "Free & open source",
+    "source": "View source on GitHub"
   },
   "discover": {
     "title": "Find<br></br>something<br></br>worth playing."
@@ -78,7 +83,7 @@
   },
   "noAccount": {
     "title": "No account.",
-    "subtitle": "Music shouldn't require permission."
+    "subtitle": "Free & open source"
   },
   "platforms": {
     "title": "Your music. Your devices.",
@@ -140,7 +145,9 @@
         "q": "Is there a premium version?",
         "a": "No. PPPlayer is fully free. Everything you see is available at no cost, with no account needed."
       }
-    ]
+    ],
+    "openSourceQuestion": "Is PPPlayer open source?",
+    "openSourceAnswer": "Yes. PPPlayer is an open-source project. Its MIT license allows you to use, study, modify, and share the software under the license terms. Find the source code and contribution links in the open-source section."
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -191,7 +198,7 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Last updated: April 2025",
+    "lastUpdated": "Last updated: September 11, 2026",
     "sections": {
       "s1": {
         "title": "1. Acceptance of Terms",
@@ -199,8 +206,8 @@
       },
       "s2": {
         "title": "2. Use of the App",
-        "p": "PPPlayer is provided free of charge for personal, non-commercial use. You agree not to:",
-        "li1": "Reverse engineer, decompile, or modify the app",
+        "p": "PPPlayer is free, open-source software. Use, copying, modification, and distribution of the software are governed by the MIT license in the project repository. When using the app, you agree not to:",
+        "li1": "Remove copyright or permission notices required by the applicable software licenses",
         "li2": "Use the app to distribute malware or harmful content",
         "li3": "Violate any applicable laws or regulations while using the app"
       },
@@ -210,7 +217,7 @@
       },
       "s4": {
         "title": "4. Intellectual Property",
-        "p": "PPPlayer and its content, features, and functionality are owned by PPPlayer and protected by applicable intellectual property laws. Music content displayed within the app is sourced from third-party providers and subject to their respective rights and licenses."
+        "p": "PPPlayer source code is available under the MIT license. Third-party dependencies retain their own licenses. Music, artwork, and metadata remain subject to their respective rights and licenses; the software license does not grant rights to that content."
       },
       "s5": {
         "title": "5. Disclaimer of Warranties",
@@ -350,6 +357,18 @@
     "title": "Support",
     "subtitle": "How can we help you?",
     "contactTitle": "Contact Us",
-    "contactDesc": "Have a question or need help? Reach out to us at contact@ppplayer.com."
+    "contactDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com.",
+    "githubTitle": "Open Source",
+    "githubDesc": "PPPlayer is an independent, open-source project. Explore the code, report a bug, suggest a feature, or contribute code and translations. Every contribution helps improve the listening experience.",
+    "githubBtn": "View on GitHub"
+  },
+  "openSource": {
+    "badge": "Free & open source",
+    "title": "Built in the open.",
+    "desc": "PPPlayer is an independent, open-source project. Explore the code, report a bug, suggest a feature, or contribute code and translations. Every contribution helps improve the listening experience.",
+    "source": "View source on GitHub",
+    "contribute": "Contribute",
+    "issues": "Report a bug",
+    "license": "MIT license"
   }
 }

@@ -9,6 +9,7 @@ import NoAccountSection from '@/components/sections/NoAccountSection'
 import PlatformsSection from '@/components/sections/PlatformsSection'
 import FeatureGallerySection from '@/components/sections/FeatureGallerySection'
 import DownloadCTA from '@/components/sections/DownloadCTA'
+import OpenSourceSection from '@/components/sections/OpenSourceSection'
 
 import {setRequestLocale} from 'next-intl/server';
 import {getTranslations} from 'next-intl/server';
@@ -57,6 +58,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <FeatureGallerySection />
         <NoAccountSection />
         <PlatformsSection />
+        <OpenSourceSection />
         <DownloadCTA />
       </main>
       <Footer />

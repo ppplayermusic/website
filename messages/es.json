@@ -1,23 +1,24 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer: App de Música Gratis para macOS, Linux, Windows, iOS y Android | Sin Cuenta",
-    "homeDesc": "PPPlayer es una app de música gratuita para macOS, Linux, Windows, iPhone y Android. Descubre artistas y géneros sin crear cuenta, sin registro y sin costo.",
+    "homeTitle": "PPPlayer | Gratis y de código abierto",
+    "homeDesc": "Un reproductor de música gratuito y de código abierto. Sin cuenta. Sin suscripción. Solo dale al play.",
     "downloadTitle": "Descarga PPPlayer Gratis",
-    "downloadDesc": "Descarga PPPlayer para macOS, Linux, Windows, iOS o Android. App de música gratis sin necesidad de cuenta. Empieza a escuchar en minutos.",
+    "downloadDesc": "Un reproductor de música gratuito y de código abierto. Sin cuenta. Sin suscripción. Solo dale al play.",
     "privacyTitle": "Política de Privacidad",
     "privacyDesc": "Política de Privacidad de PPPlayer: app de música gratis para macOS, Linux, Windows, iOS y Android.",
     "termsTitle": "Términos de Servicio",
     "termsDesc": "Términos de Servicio de PPPlayer: app de música gratis para macOS, Linux, Windows, iOS y Android.",
     "supportTitle": "Soporte - PPPlayer",
-    "supportDesc": "Soporte y Preguntas Frecuentes de PPPlayer."
+    "supportDesc": "PPPlayer es un proyecto independiente y de código abierto. Usa GitHub para informar de errores y sugerir funciones. Para otras consultas, escribe a contact@ppplayer.com."
   },
   "nav": {
     "features": "Funciones",
     "download": "Descargar Gratis",
-    "support": "Soporte"
+    "support": "Soporte",
+    "contribute": "Contribuir"
   },
   "footer": {
-    "desc": "Música, sin fricción. Gratis para macOS, Linux, Windows, iOS y Android.",
+    "desc": "Un reproductor de música gratuito y de código abierto. Sin cuenta. Sin suscripción. Solo dale al play.",
     "product": "Producto",
     "features": "Funciones",
     "download": "Descargar",
@@ -33,7 +34,9 @@
     "legal": "Legal",
     "privacy": "Privacidad",
     "terms": "Términos",
-    "copyright": "© {year} PPPlayer. Todos los derechos reservados."
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "Ver código en GitHub",
+    "contribute": "Contribuir"
   },
   "cookie": {
     "title": "Valoramos tu privacidad",
@@ -44,12 +47,14 @@
   "hero": {
     "title1": "Música.",
     "title2": "Sin complicaciones.",
-    "desc": "Sin cuenta. Sin suscripción. Solo dale play.",
+    "desc": "Un reproductor de música gratuito y de código abierto. Sin cuenta. Sin suscripción. Solo dale al play.",
     "getIos": "Obtener para iOS",
     "getAndroid": "Obtener para Android",
     "getMac": "Obtener para Mac",
     "getWindows": "Obtener para Windows",
-    "getLinux": "Descargar para Linux"
+    "getLinux": "Descargar para Linux",
+    "badge": "Gratis y de código abierto",
+    "source": "Ver código en GitHub"
   },
   "discover": {
     "title": "Encuentra<br></br>algo que<br></br>valga la pena."
@@ -78,7 +83,7 @@
   },
   "noAccount": {
     "title": "Sin cuenta.",
-    "subtitle": "La música no debería pedir permiso."
+    "subtitle": "Gratis y de código abierto"
   },
   "platforms": {
     "title": "Tu música. Tus dispositivos.",
@@ -140,7 +145,9 @@
         "q": "¿Hay una versión premium?",
         "a": "No. PPPlayer es completamente gratis. Todo está disponible sin costo."
       }
-    ]
+    ],
+    "openSourceQuestion": "¿PPPlayer es de código abierto?",
+    "openSourceAnswer": "Sí. PPPlayer es un proyecto de código abierto. Su licencia MIT permite usar, estudiar, modificar y compartir el software según sus términos. Encontrarás los enlaces al código y a las contribuciones en la sección de código abierto."
   },
   "privacy": {
     "title": "Política de Privacidad",
@@ -191,7 +198,7 @@
   },
   "terms": {
     "title": "Términos de Servicio",
-    "lastUpdated": "Última actualización: Abril de 2025",
+    "lastUpdated": "Última actualización: 11 de septiembre de 2026",
     "sections": {
       "s1": {
         "title": "1. Aceptación de Términos",
@@ -199,8 +206,8 @@
       },
       "s2": {
         "title": "2. Uso de la App",
-        "p": "PPPlayer es gratuita para uso personal. Aceptas no:",
-        "li1": "Hacer ingeniería inversa o modificar la app",
+        "p": "PPPlayer es software gratuito y de código abierto. El uso, la copia, la modificación y la distribución del software se rigen por la licencia MIT del repositorio del proyecto. Al usar la aplicación, aceptas no:",
+        "li1": "Eliminar los avisos de derechos de autor o de permiso exigidos por las licencias de software aplicables",
         "li2": "Usar la app para distribuir malware",
         "li3": "Violar leyes aplicables usando la app"
       },
@@ -210,7 +217,7 @@
       },
       "s4": {
         "title": "4. Propiedad Intelectual",
-        "p": "PPPlayer es dueña de la app. El contenido musical proviene de terceros y está sujeto a sus licencias."
+        "p": "El código fuente de PPPlayer está disponible bajo la licencia MIT. Las dependencias de terceros conservan sus propias licencias. La música, las imágenes y los metadatos siguen sujetos a sus respectivos derechos y licencias; la licencia del software no otorga derechos sobre ese contenido."
       },
       "s5": {
         "title": "5. Renuncia de Garantías",
@@ -335,12 +342,33 @@
       "youtube": "Reproducción de audio impulsada por YouTube",
       "playlists": "Listas de reproducción, favoritos e historial de escucha",
       "platforms": "Soporte para macOS, Windows y Linux"
+    },
+    "v1_0_5": {
+      "version": "v1.0.5",
+      "date": "11 de septiembre de 2026",
+      "desc": "Reproducción continua en segundo plano en macOS.",
+      "new": "Novedades",
+      "fixed": "Correcciones",
+      "appNapTitle": "Reproducción continua en segundo plano",
+      "appNapDesc": "Se evitó que App Nap de macOS suspendiera el reproductor al minimizarlo, permitiendo que la cola continúe sin interrupciones."
     }
   },
   "support": {
     "title": "Soporte",
     "subtitle": "¿Cómo podemos ayudarte?",
     "contactTitle": "Contáctanos",
-    "contactDesc": "¿Tienes alguna pregunta o necesitas ayuda? Contáctanos en contact@ppplayer.com."
+    "contactDesc": "PPPlayer es un proyecto independiente y de código abierto. Usa GitHub para informar de errores y sugerir funciones. Para otras consultas, escribe a contact@ppplayer.com.",
+    "githubTitle": "Código abierto",
+    "githubDesc": "PPPlayer es un proyecto independiente y de código abierto. Explora el código, informa de un error, sugiere una función o contribuye con código y traducciones. Cada contribución ayuda a mejorar la experiencia de escucha.",
+    "githubBtn": "Ver en GitHub"
+  },
+  "openSource": {
+    "badge": "Gratis y de código abierto",
+    "title": "Desarrollado en abierto.",
+    "desc": "PPPlayer es un proyecto independiente y de código abierto. Explora el código, informa de un error, sugiere una función o contribuye con código y traducciones. Cada contribución ayuda a mejorar la experiencia de escucha.",
+    "source": "Ver código en GitHub",
+    "contribute": "Contribuir",
+    "issues": "Informar de un error",
+    "license": "Licencia MIT"
   }
 }
