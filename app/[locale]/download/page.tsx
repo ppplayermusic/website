@@ -4,7 +4,6 @@ import Footer from '@/components/Footer'
 import PlatformsSection from '@/components/sections/PlatformsSection'
 import PlatformCardsSection from '@/components/sections/PlatformCardsSection'
 import DownloadCTA from '@/components/sections/DownloadCTA'
-import FAQSection from '@/components/sections/FAQSection'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 
 import {getTranslations} from 'next-intl/server';
@@ -66,9 +65,6 @@ export default async function DownloadPage({ params }: { params: Promise<{ local
 
         {/* Final CTA */}
         <DownloadCTA />
-
-        {/* FAQ */}
-        <FAQSection />
       </main>
       <Footer />
     </>
