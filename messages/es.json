@@ -230,6 +230,22 @@
     "title": "Registro de cambios",
     "subtitle": "Novedades en PPPlayer.",
     "back": "← Volver a PPPlayer",
+    "v1_0_3": {
+      "version": "v1.0.3",
+      "date": "10 de septiembre de 2026",
+      "desc": "Reproducción en segundo plano y estabilidad.",
+      "new": "Nuevo",
+      "improved": "Mejorado",
+      "fixed": "Corregido",
+      "hybridEngineTitle": "Motor de Reproducción Híbrido",
+      "hybridEngineDesc": "Procesamiento en segundo plano robusto y reproducción en la pantalla de bloqueo.",
+      "dedupTitle": "Desduplicación de Comandos",
+      "dedupDesc": "Se agregaron IDs de generación para evitar comandos multimedia superpuestos.",
+      "queueAdvance": "La cola de canciones a veces no avanzaba automáticamente",
+      "resumeBug": "Pista pausada que se reanudaba inesperadamente al cambiar de aplicación",
+      "precision": "Precisión de milisegundos para la posición actual y duración",
+      "linter": "Limpieza de código y corrección de errores del linter"
+    },
     "v1_0_2": {
       "version": "v1.0.2",
       "date": "September 9, 2026",
