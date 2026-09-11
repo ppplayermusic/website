@@ -7,7 +7,7 @@ export const SITE_TAGLINE = 'Free music. No account. Just play.'
 export const DOWNLOAD_LINKS = {
   ios: 'https://apps.apple.com/app/ppplayer',
   android: 'https://play.google.com/store/apps/details?id=com.ppplayer',
-  windows: 'https://github.com/ppplayermusic/app/releases/latest/download/PPPlayer-Windows.exe',
+  windows: 'https://ppplayer.com/download/windows',
   macos: 'https://github.com/ppplayermusic/app/releases/latest/download/PPPlayer-macOS.dmg',
 }
 
