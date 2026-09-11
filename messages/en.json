@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Free & open source",
+    "homeTitle": "PPPlayer | Free & Open-Source Music Player",
     "homeDesc": "A free, open-source music player. No account. No subscription. Just play.",
     "downloadTitle": "Download PPPlayer Free",
     "downloadDesc": "A free, open-source music player. No account. No subscription. Just play.",
@@ -102,8 +102,8 @@
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 is now available",
-    "title": "Download <gradient>PPPlayer Free</gradient>",
-    "subtitle": "Pick your platform. Start listening in minutes.",
+    "title": "Download <gradient>PPPlayer</gradient>",
+    "subtitle": "Pick your platform. Start listening in seconds.",
     "desc": "No account required. No email. No signup. Just music.",
     "windowsReqLabel": "Windows system requirements:",
     "windowsReqDesc": "Windows 10 or later (64-bit). ~50 MB download. No Microsoft Store required."
@@ -147,7 +147,7 @@
       }
     ],
     "openSourceQuestion": "Is PPPlayer open source?",
-    "openSourceAnswer": "Yes. PPPlayer is an open-source project. Its MIT license allows you to use, study, modify, and share the software under the license terms. Find the source code and contribution links in the open-source section."
+    "openSourceAnswer": "Yes. PPPlayer is 100% open-source under the MIT license. You can use, study, modify, and share the software freely. Check out our GitHub repository to view the source code or get involved."
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -357,15 +357,15 @@
     "title": "Support",
     "subtitle": "How can we help you?",
     "contactTitle": "Contact Us",
-    "contactDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com.",
-    "githubTitle": "Open Source",
-    "githubDesc": "PPPlayer is an independent, open-source project. Explore the code, report a bug, suggest a feature, or contribute code and translations. Every contribution helps improve the listening experience.",
+    "contactDesc": "For general inquiries, partnerships, or questions not suited for GitHub, feel free to reach out to us at contact@ppplayer.com.",
+    "githubTitle": "Community & GitHub",
+    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us in building the ultimate open-source music player.",
     "githubBtn": "View on GitHub"
   },
   "openSource": {
     "badge": "Free & open source",
-    "title": "Built in the open.",
-    "desc": "PPPlayer is an independent, open-source project. Explore the code, report a bug, suggest a feature, or contribute code and translations. Every contribution helps improve the listening experience.",
+    "title": "By the community. For the community.",
+    "desc": "PPPlayer is proudly open-source. Explore the codebase, report issues, suggest features, or contribute your own code. Every contribution makes the listening experience better for everyone.",
     "source": "View source on GitHub",
     "contribute": "Contribute",
     "issues": "Report a bug",

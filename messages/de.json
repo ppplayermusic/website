@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Kostenlos und Open Source",
+    "homeTitle": "PPPlayer | Kostenloser & Open-Source-Musikplayer",
     "homeDesc": "Ein kostenloser Open-Source-Musikplayer. Ohne Konto. Ohne Abo. Einfach abspielen.",
     "downloadTitle": "PPPlayer Kostenlos Herunterladen",
     "downloadDesc": "Ein kostenloser Open-Source-Musikplayer. Ohne Konto. Ohne Abo. Einfach abspielen.",
@@ -102,8 +102,8 @@
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 ist jetzt verfügbar",
-    "title": "Lade <gradient>PPPlayer Kostenlos</gradient>",
-    "subtitle": "Wähle deine Plattform. In wenigen Minuten loslegen.",
+    "title": "<gradient>PPPlayer</gradient> herunterladen",
+    "subtitle": "Wähle deine Plattform. Beginne in Sekunden mit dem Hören.",
     "desc": "Keine Anmeldung. Keine E-Mail. Einfach Musik.",
     "windowsReqLabel": "Windows-Systemanforderungen:",
     "windowsReqDesc": "Windows 10 oder neuer (64-bit). ~50 MB. Kein Microsoft Store erforderlich."
@@ -147,7 +147,7 @@
       }
     ],
     "openSourceQuestion": "Ist PPPlayer Open Source?",
-    "openSourceAnswer": "Ja. PPPlayer ist ein Open-Source-Projekt. Die MIT-Lizenz erlaubt dir, die Software gemäß ihren Bedingungen zu nutzen, zu untersuchen, zu verändern und weiterzugeben. Links zum Quellcode und zur Mitarbeit findest du im Open-Source-Bereich."
+    "openSourceAnswer": "Ja. PPPlayer ist zu 100 % Open Source unter der MIT-Lizenz. Du kannst die Software frei nutzen, studieren, ändern und weitergeben. Besuche unser GitHub-Repository, um den Quellcode zu sehen oder dich zu beteiligen."
   },
   "privacy": {
     "title": "Datenschutzrichtlinie",
@@ -357,15 +357,15 @@
     "title": "Support",
     "subtitle": "Wie können wir Ihnen helfen?",
     "contactTitle": "Kontaktiere uns",
-    "contactDesc": "PPPlayer ist ein unabhängiges Open-Source-Projekt. Nutze GitHub für Fehlermeldungen und Funktionsvorschläge. Bei anderen Fragen schreibe an contact@ppplayer.com.",
-    "githubTitle": "Open Source",
-    "githubDesc": "PPPlayer ist ein unabhängiges Open-Source-Projekt. Sieh dir den Code an, melde Fehler, schlage Funktionen vor oder hilf mit Code und Übersetzungen. Jeder Beitrag verbessert das Hörerlebnis.",
+    "contactDesc": "Für allgemeine Anfragen, Partnerschaften oder Fragen, die nicht für GitHub geeignet sind, kontaktiere uns gerne unter contact@ppplayer.com.",
+    "githubTitle": "Community & GitHub",
+    "githubDesc": "Erkunde den Code, melde einen Fehler, schlage eine Funktion vor oder trage Code und Übersetzungen bei. Mach mit und baue mit uns den ultimativen Open-Source-Musikplayer.",
     "githubBtn": "Auf GitHub ansehen"
   },
   "openSource": {
     "badge": "Kostenlos und Open Source",
-    "title": "Offen entwickelt.",
-    "desc": "PPPlayer ist ein unabhängiges Open-Source-Projekt. Sieh dir den Code an, melde Fehler, schlage Funktionen vor oder hilf mit Code und Übersetzungen. Jeder Beitrag verbessert das Hörerlebnis.",
+    "title": "Von der Community. Für die Community.",
+    "desc": "PPPlayer ist stolz darauf, Open Source zu sein. Erkunde die Codebasis, melde Probleme, schlage Funktionen vor oder trage deinen eigenen Code bei. Jede Einbringung macht das Hörerlebnis für alle besser.",
     "source": "Quellcode auf GitHub",
     "contribute": "Mitwirken",
     "issues": "Fehler melden",

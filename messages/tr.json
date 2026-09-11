@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Ücretsiz ve açık kaynaklı",
+    "homeTitle": "PPPlayer | Ücretsiz ve Açık Kaynaklı Müzik Çalar",
     "homeDesc": "Ücretsiz, açık kaynaklı bir müzik çalar. Hesap yok. Abonelik yok. Sadece dinleyin.",
     "downloadTitle": "PPPlayer'ı Ücretsiz İndir",
     "downloadDesc": "Ücretsiz, açık kaynaklı bir müzik çalar. Hesap yok. Abonelik yok. Sadece dinleyin.",
@@ -102,8 +102,8 @@
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 artık mevcut",
-    "title": "<gradient>PPPlayer'ı Ücretsiz</gradient> İndir",
-    "subtitle": "Platformunu seç. Dakikalar içinde dinlemeye başla.",
+    "title": "<gradient>PPPlayer'ı</gradient> İndir",
+    "subtitle": "Platformunuzu seçin. Saniyeler içinde dinlemeye başlayın.",
     "desc": "Hesap gerekmez. E-posta yok. Kayıt yok. Sadece müzik.",
     "windowsReqLabel": "Windows sistem gereksinimleri:",
     "windowsReqDesc": "Windows 10 veya üzeri (64-bit). ~50 MB. Microsoft Store gerekmez."
@@ -147,7 +147,7 @@
       }
     ],
     "openSourceQuestion": "PPPlayer açık kaynaklı mı?",
-    "openSourceAnswer": "Evet. PPPlayer açık kaynaklı bir projedir. MIT lisansı, yazılımı lisans koşulları altında kullanmanıza, incelemenize, değiştirmenize ve paylaşmanıza olanak tanır. Kaynak kodunu ve katkı bağlantılarını açık kaynak bölümünde bulabilirsiniz."
+    "openSourceAnswer": "Evet. PPPlayer, MIT lisansı altında %100 açık kaynaklıdır. Yazılımı özgürce kullanabilir, inceleyebilir, değiştirebilir ve paylaşabilirsiniz. Kaynak kodunu görmek veya dahil olmak için GitHub depomuza göz atın."
   },
   "privacy": {
     "title": "Gizlilik Politikası",
@@ -357,15 +357,15 @@
     "title": "Destek",
     "subtitle": "Size nasıl yardımcı olabiliriz?",
     "contactTitle": "Bize Ulaşın",
-    "contactDesc": "PPPlayer bağımsız, açık kaynaklı bir projedir. Hatalar ve özellik önerileri için GitHub’ı kullanın. Diğer sorularınız için contact@ppplayer.com adresine yazın.",
-    "githubTitle": "Açık kaynak",
-    "githubDesc": "PPPlayer bağımsız, açık kaynaklı bir projedir. Kodu inceleyin, hata bildirin, özellik önerin veya kod ve çevirilerle katkıda bulunun. Her katkı dinleme deneyimini iyileştirir.",
+    "contactDesc": "Genel sorular, ortaklıklar veya GitHub'a uygun olmayan sorularınız için contact@ppplayer.com adresinden bize ulaşabilirsiniz.",
+    "githubTitle": "Topluluk ve GitHub",
+    "githubDesc": "Kodu inceleyin, bir hata bildirin, bir özellik önerin veya kod ve çevirilere katkıda bulunun. Nihai açık kaynaklı müzik çaları oluşturmak için bize katılın.",
     "githubBtn": "GitHub’da görüntüle"
   },
   "openSource": {
     "badge": "Ücretsiz ve açık kaynaklı",
-    "title": "Açık geliştiriliyor.",
-    "desc": "PPPlayer bağımsız, açık kaynaklı bir projedir. Kodu inceleyin, hata bildirin, özellik önerin veya kod ve çevirilerle katkıda bulunun. Her katkı dinleme deneyimini iyileştirir.",
+    "title": "Topluluk tarafından. Topluluk için.",
+    "desc": "PPPlayer gururla açık kaynaklıdır. Kod tabanını inceleyin, sorunları bildirin, özellikler önerin veya kendi kodunuzla katkıda bulunun. Her katkı, dinleme deneyimini herkes için daha iyi hale getirir.",
     "source": "Kodu GitHub’da görüntüle",
     "contribute": "Katkıda bulunun",
     "issues": "Hata bildirin",
