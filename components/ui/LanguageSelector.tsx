@@ -12,7 +12,11 @@ const languages = [
   { code: 'ru', label: 'Русский', flag: 'ru' },
   { code: 'tr', label: 'Türkçe', flag: 'tr' },
   { code: 'fr', label: 'Français', flag: 'fr' },
-  { code: 'de', label: 'Deutsch', flag: 'de' }
+  { code: 'de', label: 'Deutsch', flag: 'de' },
+  { code: 'hi', label: 'हिन्दी', flag: 'in' },
+  { code: 'it', label: 'Italiano', flag: 'it' },
+  { code: 'ja', label: '日本語', flag: 'jp' },
+  { code: 'ko', label: '한국어', flag: 'kr' }
 ];
 
 export function LanguageSelector() {

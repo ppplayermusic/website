@@ -1,0 +1,374 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer | 무료 & 오픈소스 음악 플레이어",
+    "homeDesc": "무료 오픈소스 음악 플레이어. 계정 불필요. 구독 불필요. 그냥 재생하세요.",
+    "downloadTitle": "PPPlayer 무료 다운로드",
+    "downloadDesc": "무료 오픈소스 음악 플레이어. 계정 불필요. 구독 불필요. 그냥 재생하세요.",
+    "privacyTitle": "개인정보 처리방침",
+    "privacyDesc": "PPPlayer의 개인정보 처리방침: macOS, Linux, Windows, iOS, Android용 무료 음악 앱.",
+    "termsTitle": "서비스 이용약관",
+    "termsDesc": "PPPlayer의 서비스 이용약관: macOS, Linux, Windows, iOS, Android용 무료 음악 앱.",
+    "supportTitle": "지원 - PPPlayer",
+    "supportDesc": "PPPlayer는 독립적인 오픈소스 프로젝트입니다. 버그 및 기능 제안은 GitHub를 이용해 주세요. 기타 문의 사항은 contact@ppplayer.com으로 이메일을 보내주세요."
+  },
+  "nav": {
+    "features": "기능",
+    "download": "무료 다운로드",
+    "support": "지원",
+    "contribute": "기여하기"
+  },
+  "footer": {
+    "desc": "무료 오픈소스 음악 플레이어. 계정 불필요. 구독 불필요. 그냥 재생하세요.",
+    "product": "제품",
+    "features": "기능",
+    "download": "다운로드",
+    "platforms": "플랫폼",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "소셜",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "법적 정보",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관",
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "GitHub에서 소스 보기",
+    "contribute": "기여하기"
+  },
+  "cookie": {
+    "title": "프라이버시 존중",
+    "desc": "사이트 트래픽을 분석하고 경험을 개선하기 위해 쿠키를 사용합니다. \"동의\"를 클릭하면 쿠키 사용에 동의하는 것입니다.",
+    "decline": "모두 거절",
+    "accept": "모두 동의"
+  },
+  "hero": {
+    "title1": "음악.",
+    "title2": "어떠한 마찰 없이.",
+    "desc": "무료 오픈소스 음악 플레이어. 계정 불필요. 구독 불필요. 그냥 재생하세요.",
+    "getIos": "iOS용 다운로드",
+    "getAndroid": "Android용 다운로드",
+    "getMac": "Mac용 다운로드",
+    "getWindows": "Windows용 다운로드",
+    "getLinux": "Linux용 다운로드",
+    "badge": "무료 & 오픈소스",
+    "source": "GitHub에서 소스 보기"
+  },
+  "discover": {
+    "title": "재생할<br></br>가치가 있는<br></br>무언가를 찾으세요."
+  },
+  "artistRadio": {
+    "title": "끝없는 청취."
+  },
+  "goDeeper": {
+    "bgText": "FOLLOW",
+    "title": "음악을 팔로우하세요."
+  },
+  "pressPlay": {
+    "title": "그런 다음, 그냥 들으세요."
+  },
+  "featureGallery": {
+    "title": "당신에게 필요한 모든 것.",
+    "subtitle": "성능을 위해 구축된 아름다운 네이티브 경험.",
+    "searchTitle": "원하는 것을 정확히 찾으세요.",
+    "searchDesc": "트랙, 아티스트, 앨범 전반에 걸쳐 전 세계적으로 즉시 검색합니다.",
+    "queueTitle": "완벽한 대기열.",
+    "queueDesc": "아름답고 순서를 바꿀 수 있는 대기열로 다음에 재생할 곡을 관리하세요.",
+    "favTitle": "당신의 음악, 당신의 규칙.",
+    "favDesc": "클릭 한 번으로 개인 라이브러리를 만드세요. 항상 거기에 있습니다.",
+    "contextTitle": "디자인에 의한 네이티브.",
+    "contextDesc": "어디서나 마우스 오른쪽 버튼 클릭. 아름답고 문맥을 인식하는 네이티브 메뉴."
+  },
+  "noAccount": {
+    "title": "계정 없음.",
+    "subtitle": "무료 & 오픈소스"
+  },
+  "platforms": {
+    "title": "당신의 음악. 당신의 기기.",
+    "subtitle": "macOS, Linux, Windows, Android, iOS에서 아름답게 네이티브로."
+  },
+  "downloadCTA": {
+    "title": "그냥 재생하세요.",
+    "getIos": "iOS용 다운로드",
+    "getAndroid": "Android용 다운로드",
+    "getMac": "Mac용 다운로드",
+    "getWindows": "Windows용 다운로드",
+    "notAvailable": "아직 사용할 수 없습니다. 현재는 macOS 버전만 다운로드할 수 있습니다.",
+    "notAvailableTitle": "출시 예정",
+    "okayBtn": "확인",
+    "getLinux": "Linux용 다운로드"
+  },
+  "downloadPage": {
+    "badge": "PPPlayer 1.0 출시",
+    "title": "<gradient>PPPlayer</gradient> 다운로드",
+    "subtitle": "플랫폼을 선택하세요. 몇 초 안에 청취를 시작하세요.",
+    "desc": "계정 불필요. 이메일 불필요. 가입 불필요. 오직 음악만.",
+    "windowsReqLabel": "Windows 시스템 요구 사항:",
+    "windowsReqDesc": "Windows 10 이상(64비트). 약 50MB 다운로드. Microsoft Store가 필요하지 않습니다."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "자주 묻는 <gradient>질문</gradient>",
+    "subtitle": "PPPlayer에 대해 알아야 할 모든 것.",
+    "items": [
+      {
+        "q": "PPPlayer는 무료인가요?",
+        "a": "네. PPPlayer는 100% 무료입니다. 구독, 인앱 결제, 숨겨진 비용이 없습니다."
+      },
+      {
+        "q": "계정을 만들어야 하나요?",
+        "a": "아니요. 이메일 주소, 계정, 또는 어떤 종류의 로그인도 필요하지 않습니다. 그냥 다운로드하고 열어서 듣기 시작하세요."
+      },
+      {
+        "q": "PPPlayer는 iPhone용으로 제공되나요?",
+        "a": "네. PPPlayer는 iPhone 및 iPad용 App Store에서 이용할 수 있습니다."
+      },
+      {
+        "q": "PPPlayer는 Android용으로 제공되나요?",
+        "a": "네. Android 휴대폰 및 태블릿용 Google Play에서 PPPlayer를 다운로드할 수 있습니다."
+      },
+      {
+        "q": "Windows에서 PPPlayer를 사용할 수 있나요?",
+        "a": "네. PPPlayer는 Windows 10 이상용으로 직접 다운로드하여 이용할 수 있습니다. 스토어가 필요하지 않습니다."
+      },
+      {
+        "q": "PPPlayer는 어떤 음악 기능을 제공하나요?",
+        "a": "PPPlayer에는 아티스트 발견, 관련 아티스트, 아티스트 라디오, 아티스트 플레이리스트, 장르 탐색 및 아름다운 전체 화면 플레이어가 포함되어 있습니다. 모두 무료이며 계정이 필요하지 않습니다."
+      },
+      {
+        "q": "PPPlayer를 어떻게 다운로드하나요?",
+        "a": "이 페이지에서 해당 플랫폼의 다운로드 버튼을 탭하세요. 다운로드에는 1분이 채 걸리지 않습니다."
+      },
+      {
+        "q": "프리미엄 버전이 있나요?",
+        "a": "아니요. PPPlayer는 완전히 무료입니다. 보이는 모든 것을 비용 없이 이용할 수 있으며, 계정이 필요하지 않습니다."
+      }
+    ],
+    "openSourceQuestion": "PPPlayer는 오픈소스인가요?",
+    "openSourceAnswer": "네. PPPlayer는 MIT 라이선스에 따라 100% 오픈소스입니다. 소프트웨어를 자유롭게 사용, 연구, 수정 및 공유할 수 있습니다. 소스 코드를 보거나 참여하려면 GitHub 리포지토리를 확인하세요."
+  },
+  "privacy": {
+    "title": "개인정보 처리방침",
+    "lastUpdated": "최근 업데이트: 2025년 4월",
+    "sections": {
+      "s1": {
+        "title": "1. 개요",
+        "p": "PPPlayer(\"당사\", \"당사의\", \"앱\")는 귀하의 개인정보를 보호하기 위해 최선을 다하고 있습니다. 이 정책은 macOS, Linux, Windows, iOS 또는 Android에서 PPPlayer를 사용할 때 당사가 어떤 데이터를 수집하고, 왜 수집하며, 어떻게 사용하는지 설명합니다."
+      },
+      "s2": {
+        "title": "2. 계정 불필요",
+        "p": "PPPlayer는 계정 생성을 요구하지 않습니다. 앱을 사용하기 위해 귀하의 이름, 이메일 주소 또는 개인 식별 정보를 수집하지 않습니다."
+      },
+      "s3": {
+        "title": "3. 수집하는 데이터",
+        "p1": "당사는 다음과 같은 익명의 식별 불가능한 데이터를 수집할 수 있습니다:",
+        "li1": "충돌 보고서 및 오류 로그 (앱 안정성 향상을 위해)",
+        "li2": "익명 사용 분석 (기능 사용, 세션 시간)",
+        "li3": "기기 유형 및 운영 체제 버전",
+        "p2": "당사는 이름, 이메일, 결제 정보 또는 정확한 위치 데이터를 수집하지 않습니다."
+      },
+      "s4": {
+        "title": "4. 타사 서비스",
+        "p": "PPPlayer는 음악 메타데이터 및 분석을 위해 타사 서비스를 사용할 수 있습니다. 이러한 서비스에는 자체 개인정보 처리방침이 있습니다. 이를 검토할 것을 권장합니다."
+      },
+      "s5": {
+        "title": "5. 데이터 보존",
+        "p": "익명 분석 데이터는 최대 12개월 동안 보존됩니다. 충돌 로그는 90일 후 삭제됩니다."
+      },
+      "s6": {
+        "title": "6. 귀하의 권리",
+        "p": "개인 데이터를 수집하지 않으므로 액세스, 내보내기 또는 삭제할 개인 정보가 없습니다. 질문이 있는 경우 아래 주소로 문의해 주세요."
+      },
+      "s7": {
+        "title": "7. 아동",
+        "p": "PPPlayer는 13세 미만의 어린이를 대상으로 하지 않습니다. 당사는 어린이로부터 의도적으로 데이터를 수집하지 않습니다."
+      },
+      "s8": {
+        "title": "8. 변경 사항",
+        "p": "당사는 수시로 이 정책을 업데이트할 수 있습니다. 마지막 업데이트 날짜를 이 페이지 상단에 기록합니다."
+      },
+      "s9": {
+        "title": "9. 연락처",
+        "p": "이 정책에 대한 질문이 있으신가요? 다음 주소로 문의하세요: "
+      }
+    },
+    "back": "← PPPlayer로 돌아가기"
+  },
+  "terms": {
+    "title": "서비스 이용약관",
+    "lastUpdated": "최근 업데이트: 2026년 9월 11일",
+    "sections": {
+      "s1": {
+        "title": "1. 약관 동의",
+        "p": "PPPlayer를 다운로드하거나 사용함으로써 귀하는 이 서비스 이용약관에 동의하게 됩니다. 동의하지 않는 경우 앱을 사용하지 마십시오."
+      },
+      "s2": {
+        "title": "2. 앱 사용",
+        "p": "PPPlayer는 무료 오픈소스 소프트웨어입니다. 소프트웨어의 사용, 복사, 수정 및 배포는 프로젝트 리포지토리의 MIT 라이선스를 따릅니다. 앱을 사용할 때 귀하는 다음에 동의합니다:",
+        "li1": "적용되는 소프트웨어 라이선스에서 요구하는 저작권 또는 허가 고지를 제거하지 않음",
+        "li2": "맬웨어 또는 유해한 콘텐츠를 배포하기 위해 앱을 사용하지 않음",
+        "li3": "앱을 사용하는 동안 적용되는 법률 또는 규정을 위반하지 않음"
+      },
+      "s3": {
+        "title": "3. 계정 불필요",
+        "p": "PPPlayer는 계정 생성이 필요하지 않습니다. 다운로드 직후 모든 기능을 사용할 수 있습니다."
+      },
+      "s4": {
+        "title": "4. 지적 재산",
+        "p": "PPPlayer 소스 코드는 MIT 라이선스에 따라 사용할 수 있습니다. 타사 종속성은 자체 라이선스를 유지합니다. 음악, 아트워크 및 메타데이터는 해당 권리 및 라이선스의 적용을 받으며, 소프트웨어 라이선스는 해당 콘텐츠에 대한 권리를 부여하지 않습니다."
+      },
+      "s5": {
+        "title": "5. 보증 부인",
+        "p": "PPPlayer는 명시적이든 묵시적이든 어떠한 종류의 보증 없이 \"있는 그대로\" 제공됩니다. 당사는 중단 없는 서비스를 보장하거나 앱에 오류가 없을 것이라고 보장하지 않습니다."
+      },
+      "s6": {
+        "title": "6. 책임 제한",
+        "p": "법률이 허용하는 최대 범위 내에서, PPPlayer는 앱 사용 또는 사용 불능으로 인해 발생하는 간접적, 우발적, 특별 또는 결과적 손해에 대해 책임을 지지 않습니다."
+      },
+      "s7": {
+        "title": "7. 약관 변경",
+        "p": "당사는 언제든지 이 약관을 업데이트할 권리를 보유합니다. 변경 후 앱을 계속 사용하면 새로운 약관에 동의하는 것으로 간주됩니다."
+      },
+      "s8": {
+        "title": "8. 연락처",
+        "p": "이 약관에 대한 질문이 있으신가요? 다음 주소로 문의하세요: "
+      }
+    },
+    "back": "← PPPlayer로 돌아가기"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone 및 iPad",
+      "desc": "iPhone 및 iPad용 App Store에서 다운로드할 수 있습니다.",
+      "badge": "App Store"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Android 휴대폰 및 태블릿용 Google Play에서 다운로드할 수 있습니다.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Windows 10 이상용 직접 다운로드. 스토어가 필요하지 않습니다.",
+      "badge": "직접 다운로드"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "macOS용 직접 다운로드. Apple Silicon 및 Intel 지원.",
+      "badge": "직접 다운로드"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Linux용 직접 다운로드. AppImage 지원.",
+      "badge": "직접 다운로드"
+    }
+  },
+  "changelog": {
+    "title": "변경 로그",
+    "subtitle": "PPPlayer의 새로운 기능.",
+    "back": "← PPPlayer로 돌아가기",
+    "v1_0_5": {
+      "version": "v1.0.5",
+      "date": "2026년 9월 11일",
+      "desc": "macOS에서 끊김 없는 백그라운드 재생.",
+      "new": "새로운 기능",
+      "fixed": "수정됨",
+      "appNapTitle": "끊김 없는 백그라운드 재생",
+      "appNapDesc": "최소화될 때 macOS App Nap이 플레이어를 공격적으로 일시 중단하는 것을 방지하여 대기열이 중단 없이 계속되도록 했습니다."
+    },
+    "v1_0_4": {
+      "version": "v1.0.4",
+      "date": "2026년 9월 11일",
+      "desc": "자동화된 릴리스 및 코드 서명.",
+      "new": "새로운 기능",
+      "fixed": "수정됨",
+      "ciTitle": "자동화된 릴리스 파이프라인",
+      "ciDesc": "일관된 빌드 및 macOS 코드 서명을 위한 GitHub Actions 워크플로.",
+      "signedTitle": "서명된 macOS 릴리스",
+      "signedDesc": "공식적으로 서명되고 공증된 macOS 릴리스를 이제 웹사이트에서 직접 다운로드할 수 있습니다.",
+      "licenseTitle": "오픈소스 라이선스",
+      "licenseDesc": "리포지토리에 MIT 라이선스를 추가했습니다.",
+      "submoduleFix": "CI 워크플로의 하위 모듈 체크아웃 구성 수정"
+    },
+    "v1_0_3": {
+      "version": "v1.0.3",
+      "date": "2026년 9월 10일",
+      "desc": "백그라운드 재생 및 안정성.",
+      "new": "새로운 기능",
+      "improved": "개선됨",
+      "fixed": "수정됨",
+      "hybridEngineTitle": "하이브리드 재생 엔진",
+      "hybridEngineDesc": "강력한 백그라운드 처리 및 잠금 화면 재생 기능.",
+      "dedupTitle": "명령 중복 제거",
+      "dedupDesc": "WebView 브리지를 가로질러 겹치고 오래된 미디어 명령을 방지하기 위해 생성 ID를 추가했습니다.",
+      "queueAdvance": "곡 대기열이 다음 트랙으로 자동으로 넘어가지 않는 문제 수정",
+      "resumeBug": "포그라운드에서 PiP 또는 백그라운드로 전환할 때 일시 중지된 트랙이 예기치 않게 재개되는 문제 수정",
+      "precision": "현재 트랙 위치 및 재생 기간에 대한 밀리초 단위의 정확한 보고",
+      "linter": "여러 IDE linter 오류를 제거하고 중복 파일을 정리했습니다."
+    },
+    "v1_0_2": {
+      "version": "v1.0.2",
+      "date": "2026년 9월 9일",
+      "desc": "더 스마트하고 컨텍스트 기반의 자동 재생.",
+      "autoplayContextTitle": "컨텍스트 인식 자동 재생",
+      "autoplayContextDesc": "이제 자동 재생은 관련 아티스트를 대기열에 추가하기 전에 현재 아티스트의 트랙을 우선시합니다.",
+      "tieredRecsTitle": "계층화된 추천 엔진",
+      "tieredRecsDesc": "이제 추천 기능은 이름으로 퍼지 검색을 수행하는 대신 타겟 아티스트의 카탈로그를 엄격하게 사용합니다."
+    },
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "2026년 9월 9일",
+      "desc": "더 나은 청취 경험.",
+      "new": "새로운 기능",
+      "improved": "개선됨",
+      "fixed": "수정됨",
+      "autoplayTitle": "자동 재생",
+      "autoplayDesc": "듣고 있는 음악을 기반으로 한 추천 음악이 계속 재생됩니다.",
+      "discoverTitle": "발견",
+      "discoverDesc": "청취 기록, 좋아하는 아티스트 및 플레이리스트를 기반으로 음악을 찾습니다.",
+      "tooltipsTitle": "인터랙티브 탐색 막대 툴팁",
+      "tooltipsDesc": "플레이어 진행률 막대 위에 마우스를 올릴 때 마우스 커서를 완벽하게 따라다니는 동적 툴팁을 추가했습니다.",
+      "startup": "시작 속도 향상",
+      "recovery": "더 나은 재생 복구",
+      "macosMedia": "macOS 미디어 컨트롤 개선",
+      "duplicateMedia": "중복된 macOS 미디어 컨트롤 수정",
+      "stationHighlight": "스테이션 활성 트랙 강조 표시",
+      "seekbarPause": "탐색 막대를 드래그할 때 예기치 않게 재생이 일시 중지/중지되는 문제 수정",
+      "bottomBar": "음악을 재생할 때 macOS에서 하단 플레이어 표시줄이 완전히 투명해져 읽을 수 없는 문제 수정"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "2026년 9월",
+      "desc": "PPPlayer의 첫 번째 릴리스.",
+      "spotify": "Spotify 기반 음악 메타데이터",
+      "youtube": "YouTube 기반 오디오 재생",
+      "playlists": "플레이리스트, 즐겨찾기 및 청취 기록",
+      "platforms": "macOS, Windows, Linux 지원"
+    }
+  },
+  "support": {
+    "title": "지원",
+    "subtitle": "어떻게 도와드릴까요?",
+    "contactTitle": "문의하기",
+    "contactDesc": "일반적인 문의, 파트너십 또는 GitHub에 적합하지 않은 질문이 있는 경우 언제든지 contact@ppplayer.com으로 문의해 주세요.",
+    "githubTitle": "커뮤니티 및 GitHub",
+    "githubDesc": "코드를 탐색하거나, 버그를 보고하거나, 기능을 제안하거나, 코드 및 번역에 기여하세요. 궁극의 오픈소스 음악 플레이어를 구축하는 데 참여하세요.",
+    "githubBtn": "GitHub에서 보기"
+  },
+  "openSource": {
+    "badge": "무료 & 오픈소스",
+    "title": "커뮤니티에 의해. 커뮤니티를 위해.",
+    "desc": "PPPlayer는 자랑스러운 오픈소스입니다. 코드베이스를 탐색하고, 문제를 보고하고, 기능을 제안하거나, 직접 코드를 기여하세요. 모든 기여는 모두를 위한 청취 경험을 개선합니다.",
+    "source": "GitHub에서 소스 보기",
+    "contribute": "기여하기",
+    "issues": "버그 보고하기",
+    "license": "MIT 라이선스"
+  }
+}
