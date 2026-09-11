@@ -21,6 +21,9 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
 
+  const pathname = usePathname();
+  const isHome = pathname === '/';
+
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20)
     
@@ -58,15 +61,29 @@ export default function Navbar() {
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-slate-400 hover:text-white transition-colors text-sm font-medium"
-              >
-                {link.isRaw ? link.label : t(link.label)}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const isHashLink = link.href.startsWith('/#');
+              if (isHashLink && isHome) {
+                return (
+                  <a
+                    key={link.href}
+                    href={link.href.substring(1)}
+                    className="text-slate-400 hover:text-white transition-colors text-sm font-medium"
+                  >
+                    {link.isRaw ? link.label : t(link.label)}
+                  </a>
+                );
+              }
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-slate-400 hover:text-white transition-colors text-sm font-medium"
+                >
+                  {link.isRaw ? link.label : t(link.label)}
+                </Link>
+              );
+            })}
             <LanguageSelector />
           </nav>
 
@@ -113,16 +130,31 @@ export default function Navbar() {
           >
             <div className="px-4 py-6 flex flex-col gap-6">
               <nav className="flex flex-col gap-4">
-                {navLinks.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    className="text-slate-300 hover:text-white text-lg font-medium transition-colors"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    {link.isRaw ? link.label : t(link.label)}
-                  </Link>
-                ))}
+                {navLinks.map((link) => {
+                  const isHashLink = link.href.startsWith('/#');
+                  if (isHashLink && isHome) {
+                    return (
+                      <a
+                        key={link.href}
+                        href={link.href.substring(1)}
+                        className="text-slate-300 hover:text-white text-lg font-medium transition-colors"
+                        onClick={() => setIsOpen(false)}
+                      >
+                        {link.isRaw ? link.label : t(link.label)}
+                      </a>
+                    );
+                  }
+                  return (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="text-slate-300 hover:text-white text-lg font-medium transition-colors"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {link.isRaw ? link.label : t(link.label)}
+                    </Link>
+                  );
+                })}
               </nav>
               <div className="pt-4 border-t border-white/5 flex flex-col gap-6">
                 <div className="flex items-center justify-center gap-6">

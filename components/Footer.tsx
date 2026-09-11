@@ -1,10 +1,13 @@
-import {Link} from '@/i18n/routing'
+import {Link, usePathname} from '@/i18n/routing'
 import {useTranslations} from 'next-intl'
 import { SpotlightLogo } from '@/components/ui/SpotlightLogo'
 import { DOWNLOAD_LINKS } from '@/lib/constants'
 
 export default function Footer() {
   const t = useTranslations('footer');
+  const pathname = usePathname();
+  const isHome = pathname === '/';
+
   return (
     <footer className="border-t border-white/5 bg-[var(--color-bg-base)]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-16">
@@ -32,8 +35,17 @@ export default function Footer() {
           <div className="flex flex-wrap gap-12 md:gap-16">
             <div className="flex flex-col gap-3">
               <span className="text-white text-xs font-semibold uppercase tracking-widest mb-4">{t("product")}</span>
-              <Link href="/#features" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("features")}</Link>
-              <Link href="/#download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("download")}</Link>
+              {isHome ? (
+                <>
+                  <a href="#features" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("features")}</a>
+                  <a href="#download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("download")}</a>
+                </>
+              ) : (
+                <>
+                  <Link href="/#features" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("features")}</Link>
+                  <Link href="/#download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("download")}</Link>
+                </>
+              )}
               <Link href="/changelog" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">Changelog</Link>
             </div>
             
