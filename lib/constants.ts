@@ -9,7 +9,7 @@ export const DOWNLOAD_LINKS = {
   android: 'https://play.google.com/store/apps/details?id=com.ppplayer',
   windows: 'https://ppplayer.com/download/windows',
   macos: 'https://github.com/ppplayermusic/app/releases/latest/download/PPPlayer-macOS.dmg',
-  androidApk: 'https://github.com/ppplayermusic/app/releases/latest/download/app-release.apk',
+  androidApk: 'https://github.com/ppplayermusic/app/releases/latest/download/PPPlayer-Android.apk',
 }
 
 // Platform data
