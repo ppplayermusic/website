@@ -1,7 +1,7 @@
 'use client'
 
 import {useTranslations} from 'next-intl';
-import {Link} from '@/i18n/routing';
+import {Link, usePathname} from '@/i18n/routing';
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
