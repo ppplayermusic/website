@@ -65,6 +65,8 @@ export default function PlatformCardsSection() {
       color: 'rgba(34, 197, 94, 0.1)',
       gradient: 'from-green-500/10 to-transparent',
       isAvailable: false,
+      secondaryHref: DOWNLOAD_LINKS.androidApk,
+      secondaryBadge: 'APK',
     },
     {
       id: 'linux',
@@ -86,34 +88,39 @@ export default function PlatformCardsSection() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
             {platforms.map((platform, i) => (
-              <motion.a
+              <motion.div
                 key={platform.id}
-                href={platform.isAvailable ? platform.href : '#'}
-                onClick={platform.isAvailable ? undefined : handleNotAvailable}
-                download={platform.isAvailable ? true : undefined}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.6, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
-                className="group outline-none"
+                className="group outline-none h-full"
               >
                 <SpotlightCard 
                   spotlightColor={platform.color}
-                  className={`h-full flex flex-col p-8 transition-transform duration-500 ease-out group-hover:scale-[1.02] ${platform.isAvailable ? '' : 'opacity-70 group-hover:opacity-100'}`}
+                  className={`h-full relative flex flex-col p-8 transition-transform duration-500 ease-out group-hover:scale-[1.02] ${(platform.isAvailable || platform.secondaryHref) ? '' : 'opacity-70 group-hover:opacity-100'}`}
                 >
-                  {/* Subtle top gradient */}
+                  {/* Primary Link Overlay - catches clicks on the whole card */}
+                  <a
+                    href={platform.isAvailable ? platform.href : '#'}
+                    onClick={platform.isAvailable ? undefined : handleNotAvailable}
+                    download={platform.isAvailable ? true : undefined}
+                    className="absolute inset-0 z-0"
+                    aria-label={`Download for ${platform.name}`}
+                  />
+                  
                   <div className={`absolute top-0 inset-x-0 h-32 bg-gradient-to-b ${platform.gradient} opacity-50 pointer-events-none`} />
                   
-                  <div className="relative z-10 mb-6">
+                  <div className="relative z-10 mb-6 pointer-events-none">
                     <div className="p-3 bg-white/5 rounded-2xl w-fit border border-white/10 backdrop-blur-md shadow-2xl">
                       {platform.icon}
                     </div>
                   </div>
                   
-                  <div className="relative z-10 flex-grow">
+                  <div className="relative z-10 flex-grow pointer-events-none">
                     <div className="flex items-center gap-3 mb-2">
                       <h3 className="text-2xl font-bold tracking-tight text-white">{platform.name}</h3>
-                      {!platform.isAvailable && (
+                      {!platform.isAvailable && !platform.secondaryHref && (
                         <span className="text-[10px] uppercase tracking-wider font-semibold px-2 py-0.5 rounded-full bg-white/10 text-white/60">
                           Soon
                         </span>
@@ -127,16 +134,28 @@ export default function PlatformCardsSection() {
                     </p>
                   </div>
                   
-                  <div className="relative z-10 mt-8">
-                    <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm font-medium text-white/80 group-hover:bg-white/10 group-hover:text-white transition-all duration-300">
+                  <div className="relative z-20 mt-8 flex flex-wrap items-center gap-3">
+                    <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm font-medium text-white/80 group-hover:bg-white/10 group-hover:text-white transition-all duration-300 pointer-events-none">
                       {platform.badge}
                       <svg className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                       </svg>
                     </span>
+                    
+                    {platform.secondaryHref && platform.secondaryBadge && (
+                      <a
+                        href={platform.secondaryHref}
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm font-medium text-white/80 hover:bg-white/10 hover:text-white transition-all duration-300 pointer-events-auto shadow-sm"
+                      >
+                        {platform.secondaryBadge}
+                        <svg className="w-4 h-4 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                      </a>
+                    )}
                   </div>
                 </SpotlightCard>
-              </motion.a>
+              </motion.div>
             ))}
           </div>
         </div>
