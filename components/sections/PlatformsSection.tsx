@@ -58,15 +58,24 @@ export default function PlatformsSection() {
             whileInView={{ opacity: 1, x: 0, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-            className="absolute left-[5%] md:left-[15%] bottom-0 w-[30%] md:w-[22%] aspect-[9/19] bg-[#0a0a0a] rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.8),0_0_0_1px_rgba(255,255,255,0.1)] z-10 flex items-center justify-center"
+            className="absolute left-[5%] md:left-[15%] bottom-0 w-[30%] md:w-[22%] aspect-[9/19] z-10 flex items-center justify-center"
           >
-            <Image
-              src="/images/mobile-screenshot-discover.png"
-              alt="PPPlayer Android"
-              fill
-              sizes="(max-width: 768px) 30vw, 22vw"
-              className="object-cover object-top"
-            />
+            {/* Android Frame Casing */}
+            <div className="relative w-full h-full bg-[#0a0a0a] rounded-[2rem] md:rounded-[2.5rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.8),0_0_0_1px_rgba(255,255,255,0.1)] border-[4px] md:border-[8px] border-[#1a1a1c] ring-1 ring-[#333] ring-inset">
+              
+              {/* Power Button */}
+              <div className="absolute -right-[4px] md:-right-[8px] top-[25%] w-[3px] md:w-[4px] h-[12%] bg-[#222] rounded-r-md" />
+              {/* Volume Buttons */}
+              <div className="absolute -right-[4px] md:-right-[8px] top-[40%] w-[3px] md:w-[4px] h-[20%] bg-[#222] rounded-r-md" />
+
+              <Image
+                src="/images/mobile-screenshot-artist.png"
+                alt="PPPlayer Android"
+                fill
+                sizes="(max-width: 768px) 30vw, 22vw"
+                className="object-cover object-top rounded-[1.8rem] md:rounded-[2.2rem]"
+              />
+            </div>
           </motion.div>
 
           {/* iOS Right */}
