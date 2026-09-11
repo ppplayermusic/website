@@ -9,7 +9,7 @@ import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 export default function DiscoverSection() {
   const t = useTranslations('discover');
   return (
-    <section id="discover" className="py-32 md:py-48 bg-white text-black overflow-hidden">
+    <section id="features" className="py-32 md:py-48 bg-white text-black overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         
         {/* Asymmetric editorial composition */}
