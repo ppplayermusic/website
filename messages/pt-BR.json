@@ -230,6 +230,20 @@
     "title": "Changelog",
     "subtitle": "O que há de novo no PPPlayer.",
     "back": "← Voltar para o PPPlayer",
+    "v1_0_4": {
+      "version": "v1.0.4",
+      "date": "11 de setembro de 2026",
+      "desc": "Lançamentos automatizados e assinatura de código.",
+      "new": "Novo",
+      "fixed": "Corrigido",
+      "ciTitle": "Pipeline de Lançamento Automatizado",
+      "ciDesc": "Fluxo de trabalho do GitHub Actions para builds consistentes e assinatura de código no macOS.",
+      "signedTitle": "Lançamentos macOS Assinados",
+      "signedDesc": "Lançamentos oficiais do macOS assinados e notarizados agora disponíveis diretamente no site.",
+      "licenseTitle": "Licença de Código Aberto",
+      "licenseDesc": "Licença MIT adicionada ao repositório.",
+      "submoduleFix": "Corrigida a configuração de checkout de submódulos nos fluxos de CI"
+    },
     "v1_0_3": {
       "version": "v1.0.3",
       "date": "10 de setembro de 2026",

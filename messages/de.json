@@ -230,6 +230,20 @@
     "title": "Änderungsprotokoll",
     "subtitle": "Was ist neu bei PPPlayer.",
     "back": "← Zurück zu PPPlayer",
+    "v1_0_4": {
+      "version": "v1.0.4",
+      "date": "September 11, 2026",
+      "desc": "Automated releases and code signing.",
+      "new": "New",
+      "fixed": "Fixed",
+      "ciTitle": "Automated Release Pipeline",
+      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
+      "signedTitle": "Signed macOS Releases",
+      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
+      "licenseTitle": "Open Source License",
+      "licenseDesc": "Added MIT License to the repository.",
+      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+    },
     "v1_0_3": {
       "version": "v1.0.3",
       "date": "September 10, 2026",
