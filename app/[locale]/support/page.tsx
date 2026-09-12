@@ -34,7 +34,9 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
         'hi': '/hi/support',
         'it': '/it/support',
         'ja': '/ja/support',
-        'ko': '/ko/support'
+        'ko': '/ko/support',
+        'ar': '/ar/support',
+        'zh': '/zh/support'
       }
     }
   };

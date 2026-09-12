@@ -33,7 +33,9 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
         'hi': '/hi/privacy',
         'it': '/it/privacy',
         'ja': '/ja/privacy',
-        'ko': '/ko/privacy'
+        'ko': '/ko/privacy',
+        'ar': '/ar/privacy',
+        'zh': '/zh/privacy'
       }
     }
   };

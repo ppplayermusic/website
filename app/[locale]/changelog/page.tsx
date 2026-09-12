@@ -31,7 +31,9 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
         'hi': '/hi/changelog',
         'it': '/it/changelog',
         'ja': '/ja/changelog',
-        'ko': '/ko/changelog'
+        'ko': '/ko/changelog',
+        'ar': '/ar/changelog',
+        'zh': '/zh/changelog'
       }
     }
   };
