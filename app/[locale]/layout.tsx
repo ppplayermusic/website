@@ -142,7 +142,7 @@ export default async function RootLayout({
         />
       </head>
       <body className={isRTL ? notoSansArabic.className : inter.className}>
-        <Script id="google-analytics-consent" nonce={nonce}>
+        <Script id="google-analytics-consent" nonce={nonce} strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -155,8 +155,8 @@ export default async function RootLayout({
             });
           `}
         </Script>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BFDXCJBB35" nonce={nonce} />
-        <Script id="google-analytics" nonce={nonce}>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BFDXCJBB35" nonce={nonce} strategy="lazyOnload" />
+        <Script id="google-analytics" nonce={nonce} strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
