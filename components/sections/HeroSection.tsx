@@ -78,6 +78,7 @@ export default function HeroSection() {
                 width={1920}
                 height={1080}
                 style={{ width: '100%', height: 'auto', display: 'block' }}
+                sizes="(max-width: 768px) calc(100vw - 32px), 1024px"
                 priority
               />
             </MacOSWindowFrame>
