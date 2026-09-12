@@ -20,6 +20,14 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Environment Variables
+
+To run the project locally with full features (like Ads and Cookie Banners), you will need to set up environment variables. 
+
+1. Copy the example file: `cp .env.example .env.local`
+2. Configure the AdSense variables if you want to test ad rendering.
+3. Toggle `NEXT_PUBLIC_USE_CUSTOM_COOKIE_BANNER` to `true` if you want to test the custom cookie consent fallback logic.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
