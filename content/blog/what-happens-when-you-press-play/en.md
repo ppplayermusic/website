@@ -5,6 +5,7 @@ date: "2026-09-12"
 author: "PPPlayer Editorial"
 category: "Engineering"
 readTime: "6"
+coverImage: "/images/blog/what-happens-when-you-press-play.jpg"
 isDraft: false
 ---
 

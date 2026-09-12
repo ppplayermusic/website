@@ -18,11 +18,30 @@ export default function CookieBanner() {
   useEffect(() => {
     // Check if consent is already set
     const consent = localStorage.getItem("cookie_consent")
-    if (!consent) {
-      // Small delay for better UX
-      const timer = setTimeout(() => setShow(true), 1000)
-      return () => clearTimeout(timer)
+    if (consent) {
+      return;
     }
+
+    // Delay slightly to allow Google's CMP (__tcfapi) to initialize if it's loading
+    const timer = setTimeout(() => {
+      // Check if Google's CMP is active and GDPR applies
+      if (typeof window !== 'undefined' && typeof (window as any).__tcfapi === 'function') {
+        (window as any).__tcfapi('getTCData', 2, (tcData: any, success: boolean) => {
+          if (success && tcData.gdprApplies) {
+            // Google CMP handles this user. Do NOT show our banner.
+            setShow(false);
+          } else {
+            // GDPR doesn't apply (e.g., US user), show our banner.
+            setShow(true);
+          }
+        });
+      } else {
+        // Fallback: no CMP found, show our banner
+        setShow(true);
+      }
+    }, 1500);
+
+    return () => clearTimeout(timer)
   }, [])
 
   const handleConsent = (granted: boolean) => {

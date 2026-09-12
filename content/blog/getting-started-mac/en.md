@@ -5,6 +5,7 @@ date: "2026-09-12"
 author: "PPPlayer Team"
 category: "Guides"
 readTime: "5"
+coverImage: "/images/blog/getting-started-mac.jpg"
 isDraft: false
 ---
 

@@ -5,6 +5,7 @@ date: "2026-09-12"
 author: "PPPlayer Team"
 category: "Discovery"
 readTime: "4"
+coverImage: "/images/blog/discover-new-music.jpg"
 isDraft: true
 ---
 

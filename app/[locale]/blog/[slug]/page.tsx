@@ -8,6 +8,13 @@ import Footer from '@/components/Footer';
 import { getPostBySlug, getAllPosts } from '@/lib/blog';
 import { Link, routing } from '@/i18n/routing';
 import Image from 'next/image';
+import Script from 'next/script';
+import AdUnit from '@/components/AdUnit';
+
+const ADSENSE_SUPPORTED_LOCALES = new Set([
+  'ar', 'bn', 'cs', 'da', 'de', 'en', 'es', 'fil', 'fr', 'hi', 'hu', 
+  'id', 'it', 'ja', 'ko', 'lv', 'pl', 'pt-BR', 'ru', 'sv', 'tr', 'zh'
+]);
 
 export async function generateMetadata({params}: {params: Promise<{locale: string, slug: string}>}) {
   const {locale, slug} = await params;
@@ -66,6 +73,32 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
     }
   }
 
+  const isAdEligible = !isFallback && !post.isDraft && ADSENSE_SUPPORTED_LOCALES.has(locale) && post.content.length > 500;
+  
+  let part1 = post.content;
+  let part2 = '';
+  let part3 = '';
+
+  if (isAdEligible) {
+    const match1 = post.content.match(/\n## /);
+    if (match1 && match1.index) {
+      part1 = post.content.substring(0, match1.index);
+      const remainder = post.content.substring(match1.index);
+      
+      if (remainder.length > 3000) {
+        const match2 = remainder.substring(1500).match(/\n## /);
+        if (match2 && match2.index) {
+          part2 = remainder.substring(0, 1500 + match2.index);
+          part3 = remainder.substring(1500 + match2.index);
+        } else {
+          part2 = remainder;
+        }
+      } else {
+        part2 = remainder;
+      }
+    }
+  }
+
   return (
     <>
       <Navbar />
@@ -112,9 +145,21 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
           </div>
 
           <div className="prose prose-invert prose-lg max-w-none prose-headings:text-white prose-a:text-blue-400 hover:prose-a:text-blue-300 prose-img:rounded-xl">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>
-              {post.content}
-            </ReactMarkdown>
+            {isAdEligible && part2 ? (
+              <>
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>{part1}</ReactMarkdown>
+                <AdUnit slotId={process.env.NEXT_PUBLIC_ADSENSE_SLOT_ID} />
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>{part2}</ReactMarkdown>
+                {part3 && (
+                  <>
+                    <AdUnit slotId={process.env.NEXT_PUBLIC_ADSENSE_SLOT_ID_LONG} />
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>{part3}</ReactMarkdown>
+                  </>
+                )}
+              </>
+            ) : (
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>
+            )}
           </div>
         </article>
       </main>

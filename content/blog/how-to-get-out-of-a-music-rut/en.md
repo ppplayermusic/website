@@ -5,6 +5,7 @@ date: "2026-09-12"
 author: "PPPlayer Editorial"
 category: "Discovery"
 readTime: "6"
+coverImage: "/images/blog/how-to-get-out-of-a-music-rut.jpg"
 isDraft: false
 ---
 

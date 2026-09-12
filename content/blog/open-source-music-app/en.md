@@ -5,6 +5,7 @@ date: "2026-09-12"
 author: "PPPlayer Team"
 category: "Community"
 readTime: "5"
+coverImage: "/images/blog/open-source-music-app.jpg"
 isDraft: true
 ---
 

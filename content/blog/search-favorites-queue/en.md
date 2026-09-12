@@ -5,6 +5,7 @@ date: "2026-09-12"
 author: "PPPlayer Team"
 category: "Guides"
 readTime: "4"
+coverImage: "/images/blog/search-favorites-queue.jpg"
 isDraft: false
 ---
 

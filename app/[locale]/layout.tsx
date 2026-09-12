@@ -107,6 +107,14 @@ export default async function RootLayout({
       className={`${inter.variable} ${notoSansArabic.variable}`}
     >
       <head>
+        {process.env.NEXT_PUBLIC_ADSENSE_ENABLED === 'true' && process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID && (
+          <Script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID}`}
+            crossOrigin="anonymous"
+            strategy="afterInteractive"
+          />
+        )}
         <script
           id="schema-org"
           type="application/ld+json"
@@ -156,7 +164,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <Preloader />
           {children}
-          <CookieBanner />
+          {process.env.NEXT_PUBLIC_USE_CUSTOM_COOKIE_BANNER === 'true' && <CookieBanner />}
         </NextIntlClientProvider>
       </body>
     </html>

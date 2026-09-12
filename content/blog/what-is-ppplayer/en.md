@@ -5,6 +5,7 @@ date: "2026-09-12"
 author: "PPPlayer Team"
 category: "Product"
 readTime: "3"
+coverImage: "/images/blog/what-is-ppplayer.jpg"
 isDraft: false
 ---
 

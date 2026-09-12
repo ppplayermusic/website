@@ -5,6 +5,7 @@ date: "2026-09-12"
 author: "PPPlayer Editorial"
 category: "Education"
 readTime: "7"
+coverImage: "/images/blog/live-acoustic-remastered.jpg"
 isDraft: false
 ---
 

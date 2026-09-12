@@ -5,6 +5,7 @@ date: "2026-09-12"
 author: "PPPlayer Team"
 category: "Community"
 readTime: "3"
+coverImage: "/images/blog/contribute-without-code.jpg"
 isDraft: true
 ---
 
