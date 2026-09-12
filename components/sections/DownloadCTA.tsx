@@ -79,7 +79,7 @@ export default function DownloadCTA() {
                   >
                     {getPlatformIcon(platform.id, 'w-5 h-5')}
                     {platform.name}
-                    {!platform.isAvailable && (
+                    {!platform.isAvailable && !platform.secondaryHref && (
                        <span className="ml-1 text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded-sm bg-white/10 text-white/50 hidden md:inline-block">
                          Soon
                        </span>
