@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 let cachedToken: string | null = null;
 let tokenExpiryTime: number = 0; // Timestamp in milliseconds
 
-export async function POST(request: Request) {
+export async function POST() {
   const clientId = process.env.SPOTIFY_CLIENT_ID;
   const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
 
@@ -47,7 +47,7 @@ export async function POST(request: Request) {
       access_token: cachedToken,
       expires_in: data.expires_in,
     });
-  } catch (error) {
+  } catch {
     return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
   }
 }

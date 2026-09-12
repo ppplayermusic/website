@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer | Bepul va ochiq manbali musiqa pleyeri",
+    "homeDesc": "Bepul, ochiq manbali musiqa pleyeri. Hisob yo'q. Obuna yo'q. Shunchaki tinglang.",
+    "downloadTitle": "PPPlayer-ni bepul yuklab oling",
+    "downloadDesc": "Bepul, ochiq manbali musiqa pleyeri. Hisob yo'q. Obuna yo'q. Shunchaki tinglang.",
+    "privacyTitle": "Maxfiylik siyosati",
+    "privacyDesc": "PPPlayer uchun maxfiylik siyosati: macOS, Linux, Windows, iOS va Android uchun bepul musiqa ilovasi.",
+    "termsTitle": "Foydalanish shartlari",
+    "termsDesc": "PPPlayer uchun foydalanish shartlari: macOS, Linux, Windows, iOS va Android uchun bepul musiqa ilovasi.",
+    "supportTitle": "Yordam - PPPlayer",
+    "supportDesc": "PPPlayer mustaqil, ochiq manbali loyihadir. Xatolar va yangi xususiyat g'oyalari uchun GitHub-dan foydalaning. Boshqa savollar uchun contact@ppplayer.com manziliga yozing."
+  },
+  "nav": {
+    "features": "Xususiyatlar",
+    "download": "Bepul yuklab olish",
+    "support": "Yordam",
+    "contribute": "Hissa qo'shish"
+  },
+  "footer": {
+    "desc": "Bepul, ochiq manbali musiqa pleyeri. Hisob yo'q. Obuna yo'q. Shunchaki tinglang.",
+    "product": "Mahsulot",
+    "features": "Xususiyatlar",
+    "download": "Yuklab olish",
+    "platforms": "Platformalar",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Ijtimoiy tarmoqlar",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Huquqiy",
+    "privacy": "Maxfiylik",
+    "terms": "Shartlar",
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "GitHub-da manba kodini ko'rish",
+    "contribute": "Hissa qo'shish",
+    "changelog": "O'zgarishlar tarixi",
+    "linux": "Linux"
+  },
+  "cookie": {
+    "title": "Maxfiyligingizni qadrlaymiz",
+    "desc": "Sayt trafigini tahlil qilish va tajribangizni yaxshilash uchun cookie fayllaridan foydalanamiz. \"Qabul qilish\" tugmasini bosish orqali siz cookie fayllaridan foydalanishimizga rozilik bildirasiz.",
+    "decline": "Barchasini rad etish",
+    "accept": "Barchasini qabul qilish"
+  },
+  "hero": {
+    "title1": "Musiqa.",
+    "title2": "To'siqlarsiz.",
+    "desc": "Bepul, ochiq manbali musiqa pleyeri. Hisob yo'q. Obuna yo'q. Shunchaki tinglang.",
+    "getIos": "iOS uchun yuklab olish",
+    "getAndroid": "Android uchun yuklab olish",
+    "getMac": "Mac uchun yuklab olish",
+    "getWindows": "Windows uchun yuklab olish",
+    "getLinux": "Linux uchun yuklab olish",
+    "badge": "Bepul va ochiq manbali",
+    "source": "GitHub-da manba kodini ko'rish"
+  },
+  "discover": {
+    "title": "Tinglashga<br></br>arziydigan<br></br>narsani toping."
+  },
+  "artistRadio": {
+    "title": "Cheksiz tinglash."
+  },
+  "goDeeper": {
+    "bgText": "KUZATISH",
+    "title": "Musiqaga ergashing."
+  },
+  "pressPlay": {
+    "title": "Keyin shunchaki ijro etish tugmasini bosing."
+  },
+  "featureGallery": {
+    "title": "Sizga kerak bo'lgan hamma narsa.",
+    "subtitle": "Ishlash unumdorligi uchun yaratilgan ajoyib, mahalliy tajriba.",
+    "searchTitle": "Aynan nima qidirayotganingizni toping.",
+    "searchDesc": "Treklar, ijrochilar va albomlarni bir zumda global miqyosda qidiring.",
+    "queueTitle": "Ajoyib navbat.",
+    "queueDesc": "Keyin nima ijro etilishini chiroyli, qayta tartiblanadigan navbat bilan boshqaring.",
+    "favTitle": "Sizning musiqangiz, sizning qoidalaringiz.",
+    "favDesc": "Bir marta bosish bilan shaxsiy kutubxonangizni yarating. Har doim shu yerda.",
+    "contextTitle": "Dizayn bo'yicha mahalliy.",
+    "contextDesc": "Istalgan joyni o'ng tugma bilan bosing. Chiroyli, kontekstni tushunadigan mahalliy menyular."
+  },
+  "noAccount": {
+    "title": "Hisob yo'q.",
+    "subtitle": "Bepul va ochiq manbali"
+  },
+  "platforms": {
+    "title": "Sizning musiqangiz. Sizning qurilmalaringiz.",
+    "subtitle": "macOS, Linux, Windows, Android va iOS-da ajoyib tarzda ishlaydi."
+  },
+  "downloadCTA": {
+    "title": "Shunchaki tinglang.",
+    "getIos": "iOS uchun yuklab olish",
+    "getAndroid": "Android uchun yuklab olish",
+    "getMac": "Mac uchun yuklab olish",
+    "getWindows": "Windows uchun yuklab olish",
+    "notAvailable": "Hali mavjud emas. Hozirda faqat macOS versiyasini yuklab olish mumkin.",
+    "notAvailableTitle": "Tez kunda",
+    "okayBtn": "Yaxshi",
+    "getLinux": "Linux uchun yuklab olish"
+  },
+  "downloadPage": {
+    "badge": "PPPlayer 1.0 endi mavjud",
+    "title": "<gradient>PPPlayer</gradient>-ni yuklab oling",
+    "subtitle": "Platformangizni tanlang. Sanoqli soniyalarda tinglashni boshlang.",
+    "desc": "Hisob talab qilinmaydi. Elektron pochta yo'q. Ro'yxatdan o'tish yo'q. Faqat musiqa.",
+    "windowsReqLabel": "Windows tizim talablari:",
+    "windowsReqDesc": "Windows 10 yoki undan yangiroq (64 bit). ~50 MB yuklab olish. Microsoft Store kerak emas."
+  },
+  "faq": {
+    "badge": "TSS",
+    "title": "Ko'p so'raladigan <gradient>savollar</gradient>",
+    "subtitle": "PPPlayer haqida bilishingiz kerak bo'lgan hamma narsa.",
+    "items": [
+      {
+        "q": "PPPlayer bepulmi?",
+        "a": "Ha. PPPlayer 100% bepul. Obunalar, ilova ichidagi xaridlar va yashirin to'lovlar yo'q."
+      },
+      {
+        "q": "Hisob yaratishim kerakmi?",
+        "a": "Yo'q. Sizga elektron pochta manzili, hisob yoki hech qanday tizimga kirish kerak emas. Shunchaki yuklab oling, oching va tinglashni boshlang."
+      },
+      {
+        "q": "PPPlayer iPhone uchun mavjudmi?",
+        "a": "Ha. PPPlayer iPhone va iPad uchun App Store-da mavjud."
+      },
+      {
+        "q": "PPPlayer Android uchun mavjudmi?",
+        "a": "Ha. PPPlayer-ni Android telefonlari va planshetlari uchun Google Play-dan yuklab olishingiz mumkin."
+      },
+      {
+        "q": "PPPlayer-ni Windows-da ishlata olamanmi?",
+        "a": "Ha. PPPlayer Windows 10 va undan yangiroq versiyalar uchun to'g'ridan-to'g'ri yuklab olish sifatida mavjud. Do'kon talab qilinmaydi."
+      },
+      {
+        "q": "PPPlayer qanday musiqa xususiyatlarini taklif qiladi?",
+        "a": "PPPlayer ijrochilarni kashf qilish, o'xshash ijrochilar, ijrochi radiosi, ijrochi pleylistlari, janrlarni o'rganish va chiroyli to'liq ekranli pleyerni o'z ichiga oladi. Ularning barchasi bepul va hisob talab qilinmaydi."
+      },
+      {
+        "q": "PPPlayer-ni qanday yuklab olishim mumkin?",
+        "a": "Ushbu sahifada platformangiz uchun yuklab olish tugmasini bosing. Yuklab olish bir daqiqadan kamroq vaqtni oladi."
+      },
+      {
+        "q": "Premium versiyasi bormi?",
+        "a": "Yo'q. PPPlayer butunlay bepul. Siz ko'rgan hamma narsa hisobsiz, bepul mavjud."
+      }
+    ],
+    "openSourceQuestion": "PPPlayer ochiq manbalimi?",
+    "openSourceAnswer": "Ha. PPPlayer MIT litsenziyasi ostida 100% ochiq manbali. Dasturdan erkin foydalanishingiz, o'rganishingiz, o'zgartirishingiz va ulashishingiz mumkin. Manba kodini ko'rish yoki hissa qo'shish uchun GitHub repozitoriymizga tashrif buyuring."
+  },
+  "privacy": {
+    "title": "Maxfiylik siyosati",
+    "lastUpdated": "Oxirgi yangilanish: 2025-yil aprel",
+    "sections": {
+      "s1": {
+        "title": "1. Umumiy ko'rinish",
+        "p": "PPPlayer (\"biz\", \"bizning\", \"ilova\") sizning maxfiyligingizni himoya qilishga intiladi. Ushbu siyosat macOS, Linux, Windows, iOS yoki Android-da PPPlayer-dan foydalanganingizda qanday ma'lumotlarni yig'ishimizni, nima uchun va qanday foydalanishimizni tushuntiradi."
+      },
+      "s2": {
+        "title": "2. Hisob talab qilinmaydi",
+        "p": "PPPlayer hisob yaratishingizni talab qilmaydi. Ilovadan foydalanish uchun ismingiz, elektron pochtangiz yoki boshqa shaxsga doir ma'lumotlarni yig'maymiz."
+      },
+      "s3": {
+        "title": "3. Biz yig'adigan ma'lumotlar",
+        "p1": "Biz quyidagi anonim, shaxsni aniqlamaydigan ma'lumotlarni yig'ishimiz mumkin:",
+        "li1": "Qulash hisobotlari va xatolar jurnallari (ilova barqarorligini yaxshilash uchun)",
+        "li2": "Anonim foydalanish tahlili (xususiyatlardan foydalanish, sessiya davomiyligi)",
+        "li3": "Qurilma turi va operatsion tizim versiyasi",
+        "p2": "Biz yig'maymiz: ismlar, elektron pochtalar, to'lov ma'lumotlari yoki aniq joylashuv ma'lumotlari."
+      },
+      "s4": {
+        "title": "4. Uchinchi tomon xizmatlari",
+        "p": "PPPlayer musiqa metama'lumotlari va tahlillari uchun uchinchi tomon xizmatlaridan foydalanishi mumkin. Ushbu xizmatlarning o'z maxfiylik siyosati mavjud. Ularni ko'rib chiqishingizni tavsiya qilamiz."
+      },
+      "s5": {
+        "title": "5. Ma'lumotlarni saqlash",
+        "p": "Anonim tahlil ma'lumotlari ko'pi bilan 12 oy saqlanadi. Qulash jurnallari 90 kundan keyin o'chiriladi."
+      },
+      "s6": {
+        "title": "6. Sizning huquqlaringiz",
+        "p": "Biz shaxsiy ma'lumotlarni yig'maganimiz sababli, kirish, eksport qilish yoki o'chirish uchun shaxsiy ma'lumotlar mavjud emas. Agar savollaringiz bo'lsa, quyidagi manzil orqali biz bilan bog'laning."
+      },
+      "s7": {
+        "title": "7. Bolalar",
+        "p": "PPPlayer 13 yoshgacha bo'lgan bolalar uchun mo'ljallanmagan. Biz bilvosita bolalardan ma'lumot yig'maymiz."
+      },
+      "s8": {
+        "title": "8. O'zgarishlar",
+        "p": "Biz vaqti-vaqti bilan ushbu siyosatni yangilab turishimiz mumkin. Oxirgi yangilangan sanani ushbu sahifaning yuqori qismida ko'rsatamiz."
+      },
+      "s9": {
+        "title": "9. Aloqa",
+        "p": "Ushbu siyosat bo'yicha savollaringiz bormi? Biz bilan bog'laning: "
+      }
+    },
+    "back": "← PPPlayer-ga qaytish"
+  },
+  "terms": {
+    "title": "Foydalanish shartlari",
+    "lastUpdated": "Oxirgi yangilanish: 2026-yil 11-sentabr",
+    "sections": {
+      "s1": {
+        "title": "1. Shartlarni qabul qilish",
+        "p": "PPPlayer-ni yuklab olish yoki undan foydalanish orqali siz ushbu Foydalanish shartlariga rozilik bildirasiz. Agar rozi bo'lmasangiz, iltimos, ilovadan foydalanmang."
+      },
+      "s2": {
+        "title": "2. Ilovadan foydalanish",
+        "p": "PPPlayer bepul va ochiq manbali dastur. Dasturdan foydalanish, ko'chirish, o'zgartirish va tarqatish loyiha repozitoriysidagi MIT litsenziyasi bilan tartibga solinadi. Ilovadan foydalangan holda siz quyidagilarga rozi bo'lasiz:",
+        "li1": "Amaldagi dasturiy ta'minot litsenziyalari tomonidan talab qilinadigan mualliflik huquqi yoki ruxsatnomalarni olib tashlamaslik",
+        "li2": "Ilovadan zararli dasturlar yoki zararli tarkibni tarqatish uchun foydalanmaslik",
+        "li3": "Ilovadan foydalanganda amaldagi qonunlar yoki qoidalarni buzmaslik"
+      },
+      "s3": {
+        "title": "3. Hisob talab qilinmaydi",
+        "p": "PPPlayer hisob yaratishni talab qilmaydi. Barcha xususiyatlardan yuklab olingandan so'ng darhol foydalanishingiz mumkin."
+      },
+      "s4": {
+        "title": "4. Intellektual mulk",
+        "p": "PPPlayer manba kodi MIT litsenziyasi ostida mavjud. Uchinchi tomon bog'liqliklari o'z litsenziyalarini saqlab qoladi. Musiqa, san'at asarlari va metama'lumotlar tegishli huquqlar va litsenziyalarga bo'ysunadi; dasturiy ta'minot litsenziyasi ushbu tarkibga huquq bermaydi."
+      },
+      "s5": {
+        "title": "5. Kafolatlardan voz kechish",
+        "p": "PPPlayer hech qanday kafolatsiz, ochiq yoki nazarda tutilgan holda \"qanday bo'lsa shunday\" taqdim etiladi. Biz uzluksiz xizmat ko'rsatishga yoki ilova xatosiz ishlashiga kafolat bermaymiz."
+      },
+      "s6": {
+        "title": "6. Javobgarlikni cheklash",
+        "p": "Qonun ruxsat bergan maksimal darajada, PPPlayer ilovadan foydalanishingiz yoki foydalana olmasligingiz natijasida kelib chiqadigan har qanday bilvosita, tasodifiy, maxsus yoki oqibatli zararlar uchun javobgar bo'lmaydi."
+      },
+      "s7": {
+        "title": "7. Shartlarga o'zgartirishlar",
+        "p": "Biz istalgan vaqtda ushbu shartlarni yangilash huquqini o'zida saqlab qolamiz. O'zgarishlardan keyin ilovadan foydalanishni davom ettirish yangi shartlarni qabul qilishni anglatadi."
+      },
+      "s8": {
+        "title": "8. Aloqa",
+        "p": "Ushbu shartlar bo'yicha savollaringiz bormi? Biz bilan bog'laning: "
+      }
+    },
+    "back": "← PPPlayer-ga qaytish"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone va iPad",
+      "desc": "iPhone va iPad uchun App Store-da mavjud.",
+      "badge": "App Store"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Android telefonlari va planshetlari uchun Google Play-da mavjud.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Windows 10 va undan yangiroq versiyalar uchun to'g'ridan-to'g'ri yuklab olish. Do'kon kerak emas.",
+      "badge": "To'g'ridan-to'g'ri yuklab olish"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "macOS uchun to'g'ridan-to'g'ri yuklab olish. Apple Silicon va Intel qo'llab-quvvatlanadi.",
+      "badge": "To'g'ridan-to'g'ri yuklab olish"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Linux uchun to'g'ridan-to'g'ri yuklab olish. AppImage qo'llab-quvvatlanadi.",
+      "badge": "To'g'ridan-to'g'ri yuklab olish"
+    }
+  },
+  "changelog": {
+    "title": "O'zgarishlar tarixi",
+    "subtitle": "PPPlayer-da nima yangiliklar.",
+    "back": "← PPPlayer-ga qaytish",
+    "v1_2_0": {
+      "version": "v1.2.0",
+      "date": "September 12, 2026",
+      "desc": "Expanded localization support with 10 new languages.",
+      "added": "Added",
+      "fixed": "Fixed",
+      "lang10Title": "10 New Languages",
+      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+    },
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "2026-yil 12-sentabr",
+      "desc": "Arab va xitoycha lokalizatsiyalar qo'shildi va macOS oynasini o'lchamini o'zgartirish xatolari tuzatildi.",
+      "added": "Qo'shildi",
+      "fixed": "Tuzatildi",
+      "localizationTitle": "Lokalizatsiyani kengaytirish",
+      "localizationDesc": "Arab va xitoy (soddalashtirilgan va an'anaviy) tillari qo'shildi.",
+      "layoutTitle": "macOS maketini tuzatish",
+      "layoutDesc": "Ilova oynasi o'lchami o'zgartirilganda YouTube video pleyerining markazdan siljishi muammosi hal qilindi."
+    },
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "2026-yil 12-sentabr",
+      "desc": "Ijro etish xatolari tuzatildi va ilova ishga tushirilganda qidiruv paneli yaxshilandi.",
+      "fixed": "Tuzatildi",
+      "snapTitle": "Ishga tushirishda qidiruv paneli xatosi",
+      "snapDesc": "Ilova ishga tushirilgandan so'ng darhol siljitilganda qidiruv paneli o'zining boshlang'ich holatiga qaytib ketishi muammosi hal qilindi.",
+      "durationTitle": "Davomiylik yo'qolishi",
+      "durationDesc": "Ilova birinchi marta ishga tushirilganda qidiruv paneli 0:00 davomiyligini ko'rsatishi tuzatildi."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "2026-yil 11-sentabr",
+      "desc": "Butun ilova va veb-saytda keng qamrovli xalqarolashtirish va lokalizatsiya.",
+      "new": "Yangi",
+      "langTitle": "11 Global til",
+      "langDesc": "Ispan, fransuz, nemis, portugal, italyan, yapon, koreys, xitoy, hind, rus va arab tillari uchun to'liq yordam qo'shildi.",
+      "pickerTitle": "Ilova ichidagi til tanlagich",
+      "pickerDesc": "Sozlamalar menyusida ilova ichidagi til tanlagich qo'shildi, u tarjimalarni ilovani qayta ishga tushirmasdan darhol qo'llaydi.",
+      "osTitle": "OS darajasidagi integratsiya",
+      "osDesc": "Ilova tilini avtomatik ravishda sinxronlashtirish uchun Android 13+ va iOS tizimlarida mahalliy OS darajasidagi til integratsiyasi."
+    },
+    "v1_0_6": {
+      "version": "v1.0.6",
+      "date": "2026-yil 11-sentabr",
+      "desc": "Yangi o'rnatishlar uchun tezkor tuzatish.",
+      "fixed": "Tuzatildi",
+      "crashTitle": "Ishga tushirishdagi qulashni tuzatish",
+      "crashDesc": "Muhit konfiguratsiyasi fayli yo'qligi sababli yangi o'rnatishlarda ilovaning bo'sh ekranda qulashiga olib keladigan jiddiy xato tuzatildi."
+    },
+    "v1_0_5": {
+      "version": "v1.0.5",
+      "date": "2026-yil 11-sentabr",
+      "desc": "macOS-da uzluksiz fon ijrosi.",
+      "new": "Yangi",
+      "fixed": "Tuzatildi",
+      "appNapTitle": "Uzluksiz fon ijrosi",
+      "appNapDesc": "macOS App Nap-ning pleyer minimallashtirilganda uni agressiv ravishda to'xtatib qo'yishi oldi olindi, bu navbatning uzluksiz davom etishiga imkon beradi."
+    },
+    "v1_0_4": {
+      "version": "v1.0.4",
+      "date": "2026-yil 11-sentabr",
+      "desc": "Avtomatlashtirilgan relizlar va kodni imzolash.",
+      "new": "Yangi",
+      "fixed": "Tuzatildi",
+      "ciTitle": "Avtomatlashtirilgan relizlar konveyeri",
+      "ciDesc": "Barqaror qurilishlar va macOS kodini imzolash uchun GitHub Actions ish oqimi.",
+      "signedTitle": "Imzolangan macOS relizlari",
+      "signedDesc": "Rasmiy imzolangan va tasdiqlangan macOS relizlari endi bevosita veb-saytda mavjud.",
+      "licenseTitle": "Ochiq manbali litsenziya",
+      "licenseDesc": "Repozitoriyga MIT litsenziyasi qo'shildi.",
+      "submoduleFix": "CI ish oqimlarida quyi modulni tekshirish konfiguratsiyasi tuzatildi"
+    },
+    "v1_0_3": {
+      "version": "v1.0.3",
+      "date": "2026-yil 10-sentabr",
+      "desc": "Fon ijrosi va barqarorlik.",
+      "new": "Yangi",
+      "improved": "Yaxshilandi",
+      "fixed": "Tuzatildi",
+      "hybridEngineTitle": "Gibrid ijro mexanizmi",
+      "hybridEngineDesc": "Kuchli fonni qayta ishlash va qulflangan ekranda ijro etish imkoniyatlari.",
+      "dedupTitle": "Buyruqlarni takrorlashni oldini olish",
+      "dedupDesc": "WebView ko'prigi orqali bir-birining ustiga tushadigan va eskirgan media buyruqlarining oldini olish uchun avlod identifikatorlari qo'shildi.",
+      "queueAdvance": "Qo'shiqlar navbati keyingi trekka avtomatik ravishda o'tmasdi",
+      "resumeBug": "To'xtatilgan trek oldingi plandan PiP yoki fonga o'tkazilganda kutilmaganda davom etardi",
+      "precision": "Joriy trek holati va ijro davomiyligi uchun millisekundlik aniqlik",
+      "linter": "Bir nechta IDE linter xatolari bartaraf etildi va ortiqcha fayllar tozalandi"
+    },
+    "v1_0_2": {
+      "version": "v1.0.2",
+      "date": "2026-yil 9-sentabr",
+      "desc": "Aqlliroq, kontekstga asoslangan avtomatik ijro.",
+      "autoplayContextTitle": "Kontekstni tushunadigan avtomatik ijro",
+      "autoplayContextDesc": "Avtomatik ijro endi o'xshash ijrochilarni navbatga qo'yishdan oldin joriy ijrochi treklariga ustuvorlik beradi.",
+      "tieredRecsTitle": "Ko'p bosqichli tavsiyalar mexanizmi",
+      "tieredRecsDesc": "Tavsiyalar endi ism bo'yicha noaniq qidirish o'rniga faqat maqsadli ijrochi katalogidan foydalanadi."
+    },
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "2026-yil 9-sentabr",
+      "desc": "Yaxshiroq tinglash tajribasi.",
+      "new": "Yangi",
+      "improved": "Yaxshilandi",
+      "fixed": "Tuzatildi",
+      "autoplayTitle": "Avtomatik ijro",
+      "autoplayDesc": "Musiqa sizning tinglayotganingiz asosida tavsiyalar bilan davom etadi.",
+      "discoverTitle": "Kashf qilish",
+      "discoverDesc": "Tinglash tarixi, sevimli ijrochilar va pleylistlar asosida musiqa toping.",
+      "tooltipsTitle": "Interaktiv qidiruv paneli maslahatlari",
+      "tooltipsDesc": "Sichqoncha kursorini pleyerning o'sish paneli ustiga olib borganingizda mukammal darajada ergashadigan dinamik maslahatlar qo'shildi.",
+      "startup": "Tezroq ishga tushirish",
+      "recovery": "Yaxshiroq ijroni tiklash",
+      "macosMedia": "Kengaytirilgan macOS media boshqaruvi",
+      "duplicateMedia": "Ikki nusxadagi macOS media boshqaruvi",
+      "stationHighlight": "Stantsiyaning faol trekini ajratib ko'rsatish",
+      "seekbarPause": "Qidiruv paneli tortilganda ijro kutilmaganda to'xtatildi/to'xtadi",
+      "bottomBar": "Musiqa ijro etilayotganda macOS-da pastki pleyer paneli to'liq shaffof va o'qib bo'lmaydigan qilib ko'rsatildi"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "2026-yil Sentabr",
+      "desc": "PPPlayer-ning birinchi relizi.",
+      "spotify": "Spotify-ga asoslangan musiqa metama'lumotlari",
+      "youtube": "YouTube-ga asoslangan audio ijrosi",
+      "playlists": "Pleylistlar, sevimlilar va tinglash tarixi",
+      "platforms": "macOS, Windows va Linux yordami"
+    }
+  },
+  "support": {
+    "title": "Yordam",
+    "subtitle": "Qanday yordam bera olamiz?",
+    "contactTitle": "Biz bilan bog'laning",
+    "contactDesc": "Umumiy so'rovlar, hamkorlik yoki GitHub-ga mos kelmaydigan savollar uchun contact@ppplayer.com manziliga murojaat qiling.",
+    "githubTitle": "Hamjamiyat va GitHub",
+    "githubDesc": "Kodni o'rganing, xato haqida xabar bering, xususiyatni taklif qiling yoki kod va tarjimalarga hissa qo'shing. Ochiq manbali eng yaxshi musiqa pleyerini yaratishda bizga qo'shiling.",
+    "githubBtn": "GitHub-da ko'rish"
+  },
+  "openSource": {
+    "badge": "Bepul va ochiq manbali",
+    "title": "Hamjamiyat tomonidan. Hamjamiyat uchun.",
+    "desc": "PPPlayer g'urur bilan ochiq manbali loyihadir. Kod bazasini o'rganing, muammolar haqida xabar bering, xususiyatlarni taklif qiling yoki o'z kodingiz bilan hissa qo'shing. Har bir hissa hamma uchun tinglash tajribasini yaxshilaydi.",
+    "source": "GitHub-da manba kodini ko'rish",
+    "contribute": "Hissa qo'shish",
+    "issues": "Xato haqida xabar berish",
+    "license": "MIT litsenziyasi"
+  }
+}

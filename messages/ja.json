@@ -276,6 +276,15 @@
     "title": "チェンジログ",
     "subtitle": "PPPlayer の最新情報。",
     "back": "← PPPlayer に戻る",
+    "v1_2_0": {
+      "version": "v1.2.0",
+      "date": "September 12, 2026",
+      "desc": "Expanded localization support with 10 new languages.",
+      "added": "Added",
+      "fixed": "Fixed",
+      "lang10Title": "10 New Languages",
+      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+    },
     "v1_1_2": {
       "version": "v1.1.2",
       "date": "2026年9月12日",

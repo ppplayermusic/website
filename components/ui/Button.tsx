@@ -52,7 +52,7 @@ export function Button({
         className={classes}
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
-        {...(props as any)}
+        {...(props as React.ComponentProps<typeof motion.a>)}
       >
         {children}
       </motion.a>
