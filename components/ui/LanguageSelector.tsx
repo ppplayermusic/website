@@ -16,7 +16,9 @@ const languages = [
   { code: 'hi', label: 'हिन्दी', flag: 'in' },
   { code: 'it', label: 'Italiano', flag: 'it' },
   { code: 'ja', label: '日本語', flag: 'jp' },
-  { code: 'ko', label: '한국어', flag: 'kr' }
+  { code: 'ko', label: '한국어', flag: 'kr' },
+  { code: 'ar', label: 'العربية', flag: 'sa' },
+  { code: 'zh', label: '中文', flag: 'cn' }
 ];
 
 export function LanguageSelector() {

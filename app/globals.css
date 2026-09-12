@@ -79,3 +79,64 @@ body {
   text-transform: uppercase;
 }
 
+/* ───────────────────────────────────────────
+   RTL (Right-to-Left) — Arabic locale support
+   ─────────────────────────────────────────── */
+
+/* Restore natural letter-spacing for Arabic (Latin-optimised Inter has tight tracking) */
+[dir="rtl"] {
+  letter-spacing: 0;
+}
+
+/* Text alignment: use logical 'start' so RTL naturally flows right-aligned */
+[dir="rtl"] p,
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] li {
+  text-align: start;
+}
+
+/* Keep centered text centered regardless of dir */
+[dir="rtl"] .text-center { text-align: center; }
+
+/* Flip logical margin shorthands for spacers */
+[dir="rtl"] .ml-auto { margin-left: unset; margin-right: auto; }
+[dir="rtl"] .mr-auto { margin-right: unset; margin-left: auto; }
+
+/* ── Changelog timeline: move border + bullets from left → right ── */
+[dir="rtl"] .border-l {
+  border-left: none;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Timeline bullet dots */
+[dir="rtl"] .border-l [class*="-left-\[5px\]"] {
+  left: auto;
+  right: -5px;
+}
+
+/* Timeline entry padding: flip pl-8 md:pl-16 → pr-8 md:pr-16 */
+[dir="rtl"] .border-l > div {
+  padding-left: 0 !important;
+  padding-right: 2rem;
+}
+
+@media (min-width: 768px) {
+  [dir="rtl"] .border-l > div {
+    padding-right: 4rem;
+  }
+}
+
+/* ── Inline icon+text pairs inside list items ── */
+/* The changelog uses `flex gap-4` li items with an icon + text block.
+   We flip just those so the bullet icon appears on the right. */
+[dir="rtl"] ul li.flex {
+  flex-direction: row-reverse;
+}
+
+
+
+
+

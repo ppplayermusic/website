@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Noto_Sans_Arabic } from 'next/font/google'
 import Script from 'next/script'
 import '../globals.css'
 import CookieBanner from '@/components/CookieBanner'
@@ -10,6 +10,15 @@ const inter = Inter({
   variable: '--font-inter',
   display: 'swap',
 })
+
+const notoSansArabic = Noto_Sans_Arabic({
+  subsets: ['arabic'],
+  variable: '--font-arabic',
+  display: 'swap',
+  weight: ['400', '500', '600', '700', '900'],
+})
+
+const RTL_LOCALES = new Set(['ar'])
 
 export const metadata: Metadata = {
   title: {
@@ -75,6 +84,7 @@ export default async function RootLayout({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params;
+  const isRTL = RTL_LOCALES.has(locale);
   
   if (!routing.locales.includes(locale as typeof routing.locales[number])) {
     notFound();
@@ -84,9 +94,13 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={inter.variable}>
+    <html
+      lang={locale}
+      dir={isRTL ? 'rtl' : 'ltr'}
+      className={`${inter.variable} ${notoSansArabic.variable}`}
+    >
       <head />
-      <body className={inter.className}>
+      <body className={isRTL ? notoSansArabic.className : inter.className}>
         <Script id="google-analytics-consent">
           {`
             window.dataLayer = window.dataLayer || [];

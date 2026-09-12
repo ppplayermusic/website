@@ -14,7 +14,25 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
   const t = await getTranslations({locale, namespace: 'metadata'});
   return {
     title: t('downloadTitle'),
-    description: t('downloadDesc')
+    description: t('downloadDesc'),
+    alternates: {
+      canonical: locale === 'en' ? '/download' : `/${locale}/download`,
+      languages: {
+        'en': '/download',
+        'pt-BR': '/pt-BR/download',
+        'es': '/es/download',
+        'ru': '/ru/download',
+        'tr': '/tr/download',
+        'fr': '/fr/download',
+        'de': '/de/download',
+        'hi': '/hi/download',
+        'it': '/it/download',
+        'ja': '/ja/download',
+        'ko': '/ko/download',
+        'ar': '/ar/download',
+        'zh': '/zh/download'
+      }
+    }
   };
 }
 
