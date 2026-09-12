@@ -36,7 +36,9 @@
     "terms": "शर्तें",
     "copyright": "© {year} PPPlayer Music.",
     "source": "GitHub पर सोर्स देखें",
-    "contribute": "योगदान करें"
+    "contribute": "योगदान करें",
+    "changelog": "परिवर्तन लॉग",
+    "linux": "Linux"
   },
   "cookie": {
     "title": "हम आपकी निजता का सम्मान करते हैं",

@@ -36,7 +36,9 @@
     "terms": "Conditions",
     "copyright": "© {year} PPPlayer Music.",
     "source": "Voir le code sur GitHub",
-    "contribute": "Contribuer"
+    "contribute": "Contribuer",
+    "changelog": "Journal des modifications",
+    "linux": "Linux"
   },
   "cookie": {
     "title": "Nous respectons votre vie privée",

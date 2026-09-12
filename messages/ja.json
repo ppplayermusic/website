@@ -36,7 +36,9 @@
     "terms": "利用規約",
     "copyright": "© {year} PPPlayer Music.",
     "source": "GitHub でソースを表示",
-    "contribute": "貢献する"
+    "contribute": "貢献する",
+    "changelog": "変更履歴",
+    "linux": "Linux"
   },
   "cookie": {
     "title": "プライバシーを尊重します",

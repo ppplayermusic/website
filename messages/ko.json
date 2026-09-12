@@ -36,7 +36,9 @@
     "terms": "이용약관",
     "copyright": "© {year} PPPlayer Music.",
     "source": "GitHub에서 소스 보기",
-    "contribute": "기여하기"
+    "contribute": "기여하기",
+    "changelog": "변경 로그",
+    "linux": "Linux"
   },
   "cookie": {
     "title": "프라이버시 존중",
