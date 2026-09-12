@@ -104,6 +104,25 @@ export default async function RootLayout({
     >
       <head>
         <script
+          type="application/ld+json"
+          nonce={nonce}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "PPPlayer",
+              "operatingSystem": "Android, iOS, macOS, Windows, Linux",
+              "applicationCategory": "MultimediaApplication",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              },
+              "description": "Free and open-source music player. Discover music, explore the source code, and contribute. No account or subscription required."
+            })
+          }}
+        />
+        <script
           nonce={nonce}
           dangerouslySetInnerHTML={{
             __html: `
