@@ -9,13 +9,16 @@
     "termsTitle": "Foydalanish shartlari",
     "termsDesc": "PPPlayer uchun foydalanish shartlari: macOS, Linux, Windows, iOS va Android uchun bepul musiqa ilovasi.",
     "supportTitle": "Yordam - PPPlayer",
-    "supportDesc": "PPPlayer mustaqil, ochiq manbali loyihadir. Xatolar va yangi xususiyat g'oyalari uchun GitHub-dan foydalaning. Boshqa savollar uchun contact@ppplayer.com manziliga yozing."
+    "supportDesc": "PPPlayer mustaqil, ochiq manbali loyihadir. Xatolar va yangi xususiyat g'oyalari uchun GitHub-dan foydalaning. Boshqa savollar uchun contact@ppplayer.com manziliga yozing.",
+    "blogTitle": "Blog | PPPlayer",
+    "blogDesc": "PPPlayer jamoasidan yangiliklar, yangilanishlar va hikoyalar."
   },
   "nav": {
     "features": "Xususiyatlar",
     "download": "Bepul yuklab olish",
     "support": "Yordam",
-    "contribute": "Hissa qo'shish"
+    "contribute": "Hissa qo'shish",
+    "blog": "Blog"
   },
   "footer": {
     "desc": "Bepul, ochiq manbali musiqa pleyeri. Hisob yo'q. Obuna yo'q. Shunchaki tinglang.",
@@ -38,7 +41,8 @@
     "source": "GitHub-da manba kodini ko'rish",
     "contribute": "Hissa qo'shish",
     "changelog": "O'zgarishlar tarixi",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "Blog"
   },
   "cookie": {
     "title": "Maxfiyligingizni qadrlaymiz",
@@ -427,5 +431,16 @@
     "contribute": "Hissa qo'shish",
     "issues": "Xato haqida xabar berish",
     "license": "MIT litsenziyasi"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "PPPlayer jamoasidan yangiliklar, yangilanishlar va hikoyalar.",
+    "readMore": "Maqolani o'qish",
+    "minRead": "daq. o'qish",
+    "publishedOn": "Nashr qilingan sana",
+    "back": "← Blogga qaytish",
+    "noArticles": "Bu til uchun maqolalar topilmadi.",
+    "writtenBy": "Muallif",
+    "translationUnavailable": "Ushbu maqola sizning tilingizda mavjud emas."
   }
 }

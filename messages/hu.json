@@ -9,13 +9,16 @@
     "termsTitle": "Szolgáltatási feltételek",
     "termsDesc": "Szolgáltatási feltételek a PPPlayerhez: ingyenes zenei alkalmazás macOS, Linux, Windows, iOS és Android rendszerre.",
     "supportTitle": "Támogatás - PPPlayer",
-    "supportDesc": "A PPPlayer egy független, nyílt forráskódú projekt. Hibák és funkcióötletek esetén használja a GitHubot. Egyéb kérdések esetén küldjön e-mailt a contact@ppplayer.com címre."
+    "supportDesc": "A PPPlayer egy független, nyílt forráskódú projekt. Hibák és funkcióötletek esetén használja a GitHubot. Egyéb kérdések esetén küldjön e-mailt a contact@ppplayer.com címre.",
+    "blogTitle": "Blog | PPPlayer",
+    "blogDesc": "Hírek, frissítések és történetek a PPPlayer csapatától."
   },
   "nav": {
     "features": "Funkciók",
     "download": "Ingyenes letöltés",
     "support": "Támogatás",
-    "contribute": "Hozzájárulás"
+    "contribute": "Hozzájárulás",
+    "blog": "Blog"
   },
   "footer": {
     "desc": "Ingyenes, nyílt forráskódú zenelejátszó. Nincs fiók. Nincs előfizetés. Csak játszd le.",
@@ -38,7 +41,8 @@
     "source": "Forráskód megtekintése a GitHubon",
     "contribute": "Hozzájárulás",
     "changelog": "Változások naplója",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "Blog"
   },
   "cookie": {
     "title": "Értékeljük az adatait",
@@ -427,5 +431,16 @@
     "contribute": "Hozzájárulás",
     "issues": "Hiba jelentése",
     "license": "MIT licenc"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Hírek, frissítések és történetek a PPPlayer csapatától.",
+    "readMore": "Cikk elolvasása",
+    "minRead": "perc olvasás",
+    "publishedOn": "Közzétéve",
+    "back": "← Vissza a Bloghoz",
+    "noArticles": "Nem találhatók cikkek ezen a nyelven.",
+    "writtenBy": "Írta",
+    "translationUnavailable": "Ez a cikk nem érhető el az Ön nyelvén."
   }
 }

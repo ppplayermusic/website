@@ -9,13 +9,16 @@
     "termsTitle": "Términos de Servicio",
     "termsDesc": "Términos de Servicio de PPPlayer: app de música gratis para macOS, Linux, Windows, iOS y Android.",
     "supportTitle": "Soporte - PPPlayer",
-    "supportDesc": "PPPlayer es un proyecto independiente y de código abierto. Usa GitHub para informar de errores y sugerir funciones. Para otras consultas, escribe a contact@ppplayer.com."
+    "supportDesc": "PPPlayer es un proyecto independiente y de código abierto. Usa GitHub para informar de errores y sugerir funciones. Para otras consultas, escribe a contact@ppplayer.com.",
+    "blogTitle": "Blog | PPPlayer",
+    "blogDesc": "Noticias, actualizaciones e historias del equipo de PPPlayer."
   },
   "nav": {
     "features": "Funciones",
     "download": "Descargar Gratis",
     "support": "Soporte",
-    "contribute": "Contribuir"
+    "contribute": "Contribuir",
+    "blog": "Blog"
   },
   "footer": {
     "desc": "Un reproductor de música gratuito y de código abierto. Sin cuenta. Sin suscripción. Solo dale al play.",
@@ -38,7 +41,8 @@
     "source": "Ver código en GitHub",
     "contribute": "Contribuir",
     "changelog": "Registro de cambios",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "Blog"
   },
   "cookie": {
     "title": "Valoramos tu privacidad",
@@ -427,5 +431,16 @@
     "contribute": "Contribuir",
     "issues": "Informar de un error",
     "license": "Licencia MIT"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Noticias, actualizaciones e historias del equipo de PPPlayer.",
+    "readMore": "Leer artículo",
+    "minRead": "min de lectura",
+    "publishedOn": "Publicado el",
+    "back": "← Volver al Blog",
+    "noArticles": "No se encontraron artículos para este idioma.",
+    "writtenBy": "Por",
+    "translationUnavailable": "Este artículo no está disponible en su idioma."
   }
 }

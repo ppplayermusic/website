@@ -9,13 +9,16 @@
     "termsTitle": "服务条款",
     "termsDesc": "PPPlayer 的服务条款：适用于 macOS、Linux、Windows、iOS 和 Android 的免费音乐应用。",
     "supportTitle": "支持 - PPPlayer",
-    "supportDesc": "PPPlayer 是一个独立的开源项目。如需报告错误或提出功能建议，请使用 GitHub。其他问题请发送电子邮件至 contact@ppplayer.com。"
+    "supportDesc": "PPPlayer 是一个独立的开源项目。如需报告错误或提出功能建议，请使用 GitHub。其他问题请发送电子邮件至 contact@ppplayer.com。",
+    "blogTitle": "博客 | PPPlayer",
+    "blogDesc": "来自PPPlayer团队的新闻、更新和故事。"
   },
   "nav": {
     "features": "功能特点",
     "download": "免费下载",
     "support": "支持",
-    "contribute": "参与贡献"
+    "contribute": "参与贡献",
+    "blog": "博客"
   },
   "footer": {
     "desc": "免费、开源的音乐播放器。无需账号。无订阅。即刻播放。",
@@ -38,7 +41,8 @@
     "source": "在 GitHub 上查看源码",
     "contribute": "参与贡献",
     "changelog": "更新日志",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "博客"
   },
   "cookie": {
     "title": "我们尊重您的隐私",
@@ -427,5 +431,16 @@
     "contribute": "参与贡献",
     "issues": "报告错误",
     "license": "MIT 许可证"
+  },
+  "blog": {
+    "title": "博客",
+    "subtitle": "来自PPPlayer团队的新闻、更新和故事。",
+    "readMore": "阅读文章",
+    "minRead": "分钟阅读",
+    "publishedOn": "发布于",
+    "back": "← 返回博客",
+    "noArticles": "未找到该语言的文章。",
+    "writtenBy": "作者",
+    "translationUnavailable": "此文章不提供您的语言版本。"
   }
 }

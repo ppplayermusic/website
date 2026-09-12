@@ -9,13 +9,16 @@
     "termsTitle": "Servicevilkår",
     "termsDesc": "Servicevilkår for PPPlayer: gratis musikapp til macOS, Linux, Windows, iOS og Android.",
     "supportTitle": "Support - PPPlayer",
-    "supportDesc": "PPPlayer er et uafhængigt, open-source projekt. For fejl og funktionsidéer, brug GitHub. For andre spørgsmål, e-mail contact@ppplayer.com."
+    "supportDesc": "PPPlayer er et uafhængigt, open-source projekt. For fejl og funktionsidéer, brug GitHub. For andre spørgsmål, e-mail contact@ppplayer.com.",
+    "blogTitle": "Blog | PPPlayer",
+    "blogDesc": "Nyheder, opdateringer og historier fra PPPlayer-teamet."
   },
   "nav": {
     "features": "Funktioner",
     "download": "Download Gratis",
     "support": "Support",
-    "contribute": "Bidrag"
+    "contribute": "Bidrag",
+    "blog": "Blog"
   },
   "footer": {
     "desc": "En gratis, open-source musikafspiller. Ingen konto. Intet abonnement. Bare spil.",
@@ -38,7 +41,8 @@
     "source": "Se kildekode på GitHub",
     "contribute": "Bidrag",
     "changelog": "Ændringslog",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "Blog"
   },
   "cookie": {
     "title": "Vi værdsætter dit privatliv",
@@ -427,5 +431,16 @@
     "contribute": "Bidrag",
     "issues": "Rapporter en fejl",
     "license": "MIT licens"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Nyheder, opdateringer og historier fra PPPlayer-teamet.",
+    "readMore": "Læs artikel",
+    "minRead": "min læsning",
+    "publishedOn": "Udgivet den",
+    "back": "← Tilbage til Blog",
+    "noArticles": "Ingen artikler fundet for dette sprog.",
+    "writtenBy": "Af",
+    "translationUnavailable": "Denne artikel er ikke tilgængelig på dit sprog."
   }
 }

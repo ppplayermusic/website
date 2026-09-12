@@ -9,13 +9,16 @@
     "termsTitle": "Terms of Service",
     "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
     "supportTitle": "Support - PPPlayer",
-    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com."
+    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com.",
+    "blogTitle": "Emuārs | PPPlayer",
+    "blogDesc": "Ziņas, atjauninājumi un stāsti no PPPlayer komandas."
   },
   "nav": {
     "features": "Features",
     "download": "Download Free",
     "support": "Support",
-    "contribute": "Contribute"
+    "contribute": "Contribute",
+    "blog": "Emuārs"
   },
   "footer": {
     "desc": "A free, open-source music player. No account. No subscription. Just play.",
@@ -38,7 +41,8 @@
     "source": "View source on GitHub",
     "contribute": "Contribute",
     "changelog": "Changelog",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "Emuārs"
   },
   "cookie": {
     "title": "We value your privacy",
@@ -427,5 +431,16 @@
     "contribute": "Contribute",
     "issues": "Report a bug",
     "license": "MIT license"
+  },
+  "blog": {
+    "title": "Emuārs",
+    "subtitle": "Ziņas, atjauninājumi un stāsti no PPPlayer komandas.",
+    "readMore": "Lasīt rakstu",
+    "minRead": "min lasīšanai",
+    "publishedOn": "Publicēts",
+    "back": "← Atpakaļ uz Emuāru",
+    "noArticles": "Šai valodai raksti nav atrasti.",
+    "writtenBy": "Autors",
+    "translationUnavailable": "Šis raksts nav pieejams jūsu valodā."
   }
 }

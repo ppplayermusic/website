@@ -9,13 +9,16 @@
     "termsTitle": "Conditions d'Utilisation",
     "termsDesc": "Conditions d'utilisation de PPPlayer: application musicale gratuite.",
     "supportTitle": "Support - PPPlayer",
-    "supportDesc": "PPPlayer est un projet indépendant et open source. Utilisez GitHub pour signaler des bugs et proposer des fonctionnalités. Pour toute autre question, écrivez à contact@ppplayer.com."
+    "supportDesc": "PPPlayer est un projet indépendant et open source. Utilisez GitHub pour signaler des bugs et proposer des fonctionnalités. Pour toute autre question, écrivez à contact@ppplayer.com.",
+    "blogTitle": "Blog | PPPlayer",
+    "blogDesc": "Actualités, mises à jour et histoires de l'équipe PPPlayer."
   },
   "nav": {
     "features": "Fonctionnalités",
     "download": "Télécharger",
     "support": "Support",
-    "contribute": "Contribuer"
+    "contribute": "Contribuer",
+    "blog": "Blog"
   },
   "footer": {
     "desc": "Un lecteur de musique gratuit et open source. Sans compte. Sans abonnement. Lancez la lecture.",
@@ -38,7 +41,8 @@
     "source": "Voir le code sur GitHub",
     "contribute": "Contribuer",
     "changelog": "Journal des modifications",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "Blog"
   },
   "cookie": {
     "title": "Nous respectons votre vie privée",
@@ -427,5 +431,16 @@
     "contribute": "Contribuer",
     "issues": "Signaler un bug",
     "license": "Licence MIT"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Actualités, mises à jour et histoires de l'équipe PPPlayer.",
+    "readMore": "Lire l'article",
+    "minRead": "min de lecture",
+    "publishedOn": "Publié le",
+    "back": "← Retour au Blog",
+    "noArticles": "Aucun article trouvé pour cette langue.",
+    "writtenBy": "Par",
+    "translationUnavailable": "Cet article n'est pas disponible dans votre langue."
   }
 }

@@ -9,13 +9,16 @@
     "termsTitle": "利用規約",
     "termsDesc": "PPPlayer の利用規約: macOS、Linux、Windows、iOS、Android 向けの無料音楽アプリ。",
     "supportTitle": "サポート - PPPlayer",
-    "supportDesc": "PPPlayer は独立したオープンソースプロジェクトです。バグや機能の提案は GitHub を使用してください。その他の質問については、contact@ppplayer.com にメールしてください。"
+    "supportDesc": "PPPlayer は独立したオープンソースプロジェクトです。バグや機能の提案は GitHub を使用してください。その他の質問については、contact@ppplayer.com にメールしてください。",
+    "blogTitle": "ブログ | PPPlayer",
+    "blogDesc": "PPPlayerチームからのニュース、アップデート、ストーリー。"
   },
   "nav": {
     "features": "機能",
     "download": "無料ダウンロード",
     "support": "サポート",
-    "contribute": "貢献する"
+    "contribute": "貢献する",
+    "blog": "ブログ"
   },
   "footer": {
     "desc": "無料でオープンソースの音楽プレイヤー。アカウント不要。サブスクリプション不要。ただ再生するだけ。",
@@ -38,7 +41,8 @@
     "source": "GitHub でソースを表示",
     "contribute": "貢献する",
     "changelog": "変更履歴",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "ブログ"
   },
   "cookie": {
     "title": "プライバシーを尊重します",
@@ -427,5 +431,16 @@
     "contribute": "貢献する",
     "issues": "バグを報告する",
     "license": "MIT ライセンス"
+  },
+  "blog": {
+    "title": "ブログ",
+    "subtitle": "PPPlayerチームからのニュース、アップデート、ストーリー。",
+    "readMore": "記事を読む",
+    "minRead": "分で読める",
+    "publishedOn": "公開日",
+    "back": "← ブログに戻る",
+    "noArticles": "この言語の記事は見つかりませんでした。",
+    "writtenBy": "作成者",
+    "translationUnavailable": "この記事はあなたの言語では利用できません。"
   }
 }

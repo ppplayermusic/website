@@ -9,13 +9,16 @@
     "termsTitle": "Условия использования",
     "termsDesc": "Условия использования PPPlayer: бесплатное музыкальное приложение для macOS, Linux, Windows, iOS и Android.",
     "supportTitle": "Поддержка - PPPlayer",
-    "supportDesc": "PPPlayer — независимый проект с открытым кодом. Сообщайте об ошибках и предлагайте функции на GitHub. По другим вопросам пишите на contact@ppplayer.com."
+    "supportDesc": "PPPlayer — независимый проект с открытым кодом. Сообщайте об ошибках и предлагайте функции на GitHub. По другим вопросам пишите на contact@ppplayer.com.",
+    "blogTitle": "Блог | PPPlayer",
+    "blogDesc": "Новости, обновления и истории от команды PPPlayer."
   },
   "nav": {
     "features": "Функции",
     "download": "Скачать бесплатно",
     "support": "Поддержка",
-    "contribute": "Участвовать"
+    "contribute": "Участвовать",
+    "blog": "Блог"
   },
   "footer": {
     "desc": "Бесплатный музыкальный плеер с открытым исходным кодом. Без аккаунта. Без подписки. Просто слушайте.",
@@ -38,7 +41,8 @@
     "source": "Исходный код на GitHub",
     "contribute": "Участвовать",
     "changelog": "Список изменений",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "Блог"
   },
   "cookie": {
     "title": "Мы ценим вашу конфиденциальность",
@@ -427,5 +431,16 @@
     "contribute": "Участвовать",
     "issues": "Сообщить об ошибке",
     "license": "Лицензия MIT"
+  },
+  "blog": {
+    "title": "Блог",
+    "subtitle": "Новости, обновления и истории от команды PPPlayer.",
+    "readMore": "Читать статью",
+    "minRead": "мин чтения",
+    "publishedOn": "Опубликовано",
+    "back": "← Вернуться в блог",
+    "noArticles": "Статьи для этого языка не найдены.",
+    "writtenBy": "Автор",
+    "translationUnavailable": "Эта статья недоступна на вашем языке."
   }
 }

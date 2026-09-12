@@ -13,6 +13,7 @@ import { LanguageSelector } from '@/components/ui/LanguageSelector'
 
 const navLinks = [
   { label: 'features', href: '/#features', isRaw: false },
+  { label: 'blog', href: '/blog', isRaw: false },
   { label: 'Changelog', href: '/changelog', isRaw: true },
   { label: 'support', href: '/support', isRaw: false }
 ]

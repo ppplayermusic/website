@@ -9,13 +9,16 @@
     "termsTitle": "서비스 이용약관",
     "termsDesc": "PPPlayer의 서비스 이용약관: macOS, Linux, Windows, iOS, Android용 무료 음악 앱.",
     "supportTitle": "지원 - PPPlayer",
-    "supportDesc": "PPPlayer는 독립적인 오픈소스 프로젝트입니다. 버그 및 기능 제안은 GitHub를 이용해 주세요. 기타 문의 사항은 contact@ppplayer.com으로 이메일을 보내주세요."
+    "supportDesc": "PPPlayer는 독립적인 오픈소스 프로젝트입니다. 버그 및 기능 제안은 GitHub를 이용해 주세요. 기타 문의 사항은 contact@ppplayer.com으로 이메일을 보내주세요.",
+    "blogTitle": "블로그 | PPPlayer",
+    "blogDesc": "PPPlayer 팀의 뉴스, 업데이트 및 스토리."
   },
   "nav": {
     "features": "기능",
     "download": "무료 다운로드",
     "support": "지원",
-    "contribute": "기여하기"
+    "contribute": "기여하기",
+    "blog": "블로그"
   },
   "footer": {
     "desc": "무료 오픈소스 음악 플레이어. 계정 불필요. 구독 불필요. 그냥 재생하세요.",
@@ -38,7 +41,8 @@
     "source": "GitHub에서 소스 보기",
     "contribute": "기여하기",
     "changelog": "변경 로그",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "블로그"
   },
   "cookie": {
     "title": "프라이버시 존중",
@@ -427,5 +431,16 @@
     "contribute": "기여하기",
     "issues": "버그 보고하기",
     "license": "MIT 라이선스"
+  },
+  "blog": {
+    "title": "블로그",
+    "subtitle": "PPPlayer 팀의 뉴스, 업데이트 및 스토리.",
+    "readMore": "기사 읽기",
+    "minRead": "분 읽기",
+    "publishedOn": "게시일",
+    "back": "← 블로그로 돌아가기",
+    "noArticles": "이 언어로 된 기사를 찾을 수 없습니다.",
+    "writtenBy": "작성자",
+    "translationUnavailable": "이 기사는 귀하의 언어로 제공되지 않습니다."
   }
 }

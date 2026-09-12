@@ -9,13 +9,16 @@
     "termsTitle": "सेवा की शर्तें",
     "termsDesc": "PPPlayer के लिए सेवा की शर्तें: macOS, Linux, Windows, iOS और Android के लिए मुफ़्त म्यूज़िक ऐप।",
     "supportTitle": "सहायता - PPPlayer",
-    "supportDesc": "PPPlayer एक स्वतंत्र, ओपन-सोर्स प्रोजेक्ट है। बग और फ़ीचर आइडिया के लिए, GitHub का उपयोग करें। अन्य सवालों के लिए, contact@ppplayer.com पर ईमेल करें।"
+    "supportDesc": "PPPlayer एक स्वतंत्र, ओपन-सोर्स प्रोजेक्ट है। बग और फ़ीचर आइडिया के लिए, GitHub का उपयोग करें। अन्य सवालों के लिए, contact@ppplayer.com पर ईमेल करें।",
+    "blogTitle": "ब्लॉग | PPPlayer",
+    "blogDesc": "PPPlayer टीम से समाचार, अपडेट और कहानियाँ।"
   },
   "nav": {
     "features": "विशेषताएं",
     "download": "मुफ़्त डाउनलोड करें",
     "support": "सहायता",
-    "contribute": "योगदान करें"
+    "contribute": "योगदान करें",
+    "blog": "ब्लॉग"
   },
   "footer": {
     "desc": "एक मुफ़्त, ओपन-सोर्स म्यूज़िक प्लेयर। कोई खाता नहीं। कोई सदस्यता नहीं। बस संगीत सुनें।",
@@ -38,7 +41,8 @@
     "source": "GitHub पर सोर्स देखें",
     "contribute": "योगदान करें",
     "changelog": "परिवर्तन लॉग",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "ब्लॉग"
   },
   "cookie": {
     "title": "हम आपकी निजता का सम्मान करते हैं",
@@ -427,5 +431,16 @@
     "contribute": "योगदान करें",
     "issues": "बग रिपोर्ट करें",
     "license": "MIT लाइसेंस"
+  },
+  "blog": {
+    "title": "ब्लॉग",
+    "subtitle": "PPPlayer टीम से समाचार, अपडेट और कहानियाँ।",
+    "readMore": "लेख पढ़ें",
+    "minRead": "मिनट पढ़ें",
+    "publishedOn": "को प्रकाशित",
+    "back": "← ब्लॉग पर वापस जाएँ",
+    "noArticles": "इस भाषा के लिए कोई लेख नहीं मिला।",
+    "writtenBy": "द्वारा",
+    "translationUnavailable": "यह लेख आपकी भाषा में उपलब्ध नहीं है।"
   }
 }

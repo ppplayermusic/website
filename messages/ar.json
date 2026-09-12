@@ -9,13 +9,16 @@
     "termsTitle": "شروط الخدمة",
     "termsDesc": "شروط الخدمة لتطبيق PPPlayer: تطبيق موسيقى مجاني لأنظمة macOS و Linux و Windows و iOS و Android.",
     "supportTitle": "الدعم - PPPlayer",
-    "supportDesc": "PPPlayer هو مشروع مستقل ومفتوح المصدر. للإبلاغ عن الأخطاء واقتراح الميزات، استخدم GitHub. للأسئلة الأخرى، أرسل بريداً إلكترونياً إلى contact@ppplayer.com."
+    "supportDesc": "PPPlayer هو مشروع مستقل ومفتوح المصدر. للإبلاغ عن الأخطاء واقتراح الميزات، استخدم GitHub. للأسئلة الأخرى، أرسل بريداً إلكترونياً إلى contact@ppplayer.com.",
+    "blogTitle": "المدونة | PPPlayer",
+    "blogDesc": "الأخبار والتحديثات والقصص من فريق PPPlayer."
   },
   "nav": {
     "features": "الميزات",
     "download": "تحميل مجاني",
     "support": "الدعم",
-    "contribute": "المساهمة"
+    "contribute": "المساهمة",
+    "blog": "المدونة"
   },
   "footer": {
     "desc": "مشغل موسيقى مجاني ومفتوح المصدر. لا يحتاج إلى حساب. بدون اشتراك. فقط استمع.",
@@ -38,7 +41,8 @@
     "source": "عرض المصدر على GitHub",
     "contribute": "المساهمة",
     "changelog": "سجل التغييرات",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "المدونة"
   },
   "cookie": {
     "title": "نحن نقدر خصوصيتك",
@@ -427,5 +431,16 @@
     "contribute": "المساهمة",
     "issues": "الإبلاغ عن خطأ",
     "license": "ترخيص MIT"
+  },
+  "blog": {
+    "title": "المدونة",
+    "subtitle": "الأخبار والتحديثات والقصص من فريق PPPlayer.",
+    "readMore": "قراءة المقال",
+    "minRead": "دقائق للقراءة",
+    "publishedOn": "نُشر في",
+    "back": "← العودة إلى المدونة",
+    "noArticles": "لم يتم العثور على مقالات لهذه اللغة.",
+    "writtenBy": "بواسطة",
+    "translationUnavailable": "هذا المقال غير متوفر بلغتك."
   }
 }

@@ -9,13 +9,16 @@
     "termsTitle": "Podmínky služby",
     "termsDesc": "Podmínky služby pro PPPlayer: bezplatná hudební aplikace pro macOS, Linux, Windows, iOS a Android.",
     "supportTitle": "Podpora - PPPlayer",
-    "supportDesc": "PPPlayer je nezávislý projekt s otevřeným zdrojovým kódem. Pro chyby a nápady na funkce použijte GitHub. V případě dalších dotazů zašlete e-mail na adresu contact@ppplayer.com."
+    "supportDesc": "PPPlayer je nezávislý projekt s otevřeným zdrojovým kódem. Pro chyby a nápady na funkce použijte GitHub. V případě dalších dotazů zašlete e-mail na adresu contact@ppplayer.com.",
+    "blogTitle": "Blog | PPPlayer",
+    "blogDesc": "Novinky, aktualizace a příběhy od týmu PPPlayer."
   },
   "nav": {
     "features": "Funkce",
     "download": "Stáhnout zdarma",
     "support": "Podpora",
-    "contribute": "Přispět"
+    "contribute": "Přispět",
+    "blog": "Blog"
   },
   "footer": {
     "desc": "Bezplatný hudební přehrávač s otevřeným zdrojovým kódem. Žádný účet. Žádné předplatné. Prostě hrajte.",
@@ -38,7 +41,8 @@
     "source": "Zobrazit zdrojový kód na GitHubu",
     "contribute": "Přispět",
     "changelog": "Seznam změn",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "Blog"
   },
   "cookie": {
     "title": "Ceníme si vašeho soukromí",
@@ -427,5 +431,16 @@
     "contribute": "Přispět",
     "issues": "Nahlásit chybu",
     "license": "MIT licence"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Novinky, aktualizace a příběhy od týmu PPPlayer.",
+    "readMore": "Číst článek",
+    "minRead": "min čtení",
+    "publishedOn": "Publikováno",
+    "back": "← Zpět na Blog",
+    "noArticles": "Pro tento jazyk nebyly nalezeny žádné články.",
+    "writtenBy": "Od",
+    "translationUnavailable": "Tento článek není k dispozici ve vašem jazyce."
   }
 }

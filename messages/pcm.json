@@ -9,13 +9,16 @@
     "termsTitle": "Terms of Service",
     "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
     "supportTitle": "Support - PPPlayer",
-    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com."
+    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com.",
+    "blogTitle": "Blog | PPPlayer",
+    "blogDesc": "News, updates, and stories from di PPPlayer team."
   },
   "nav": {
     "features": "Features",
     "download": "Download Free",
     "support": "Support",
-    "contribute": "Contribute"
+    "contribute": "Contribute",
+    "blog": "Blog"
   },
   "footer": {
     "desc": "A free, open-source music player. No account. No subscription. Just play.",
@@ -38,7 +41,8 @@
     "source": "View source on GitHub",
     "contribute": "Contribute",
     "changelog": "Changelog",
-    "linux": "Linux"
+    "linux": "Linux",
+    "blog": "Blog"
   },
   "cookie": {
     "title": "We value your privacy",
@@ -427,5 +431,16 @@
     "contribute": "Contribute",
     "issues": "Report a bug",
     "license": "MIT license"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "News, updates, and stories from di PPPlayer team.",
+    "readMore": "Read article",
+    "minRead": "min read",
+    "publishedOn": "Published on",
+    "back": "← Back to Blog",
+    "noArticles": "No articles found for dis language.",
+    "writtenBy": "By",
+    "translationUnavailable": "Dis article no dey available in your language."
   }
 }
