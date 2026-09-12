@@ -13,7 +13,7 @@ https.get(SITEMAP_URL, (res) => {
   res.on('data', chunk => { xmlData += chunk; });
   res.on('end', () => {
     if (res.statusCode !== 200) {
-      console.error(`❌ Failed to fetch sitemap (Status: ${res.statusCode})`);
+      console.error(`Failed to fetch sitemap (Status: ${res.statusCode})`);
       return;
     }
 
@@ -25,7 +25,7 @@ https.get(SITEMAP_URL, (res) => {
     }
 
     if (urlList.length === 0) {
-      console.error('❌ No URLs found in sitemap.xml.');
+      console.error('No URLs found in sitemap.xml.');
       return;
     }
 
@@ -54,9 +54,9 @@ https.get(SITEMAP_URL, (res) => {
       postRes.on('data', (chunk) => { data += chunk; });
       postRes.on('end', () => {
         if (postRes.statusCode >= 200 && postRes.statusCode < 300) {
-          console.log(`✅ Successfully submitted ${urlList.length} URLs to IndexNow!`);
+          console.log(`Successfully submitted ${urlList.length} URLs to IndexNow!`);
         } else {
-          console.error('❌ Failed to submit URLs to IndexNow.');
+          console.error('Failed to submit URLs to IndexNow.');
           console.error(`Status Code: ${postRes.statusCode}`);
           console.error(`Response: ${data}`);
         }
@@ -64,12 +64,12 @@ https.get(SITEMAP_URL, (res) => {
     });
 
     req.on('error', (e) => {
-      console.error(`❌ Request error: ${e.message}`);
+      console.error(`Request error: ${e.message}`);
     });
 
     req.write(payload);
     req.end();
   });
 }).on('error', (e) => {
-  console.error(`❌ Failed to fetch sitemap: ${e.message}`);
+  console.error(`Failed to fetch sitemap: ${e.message}`);
 });
