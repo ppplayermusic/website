@@ -1,0 +1,417 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer | Ingyenes, nyílt forráskódú zenelejátszó",
+    "homeDesc": "Ingyenes, nyílt forráskódú zenelejátszó. Nincs fiók. Nincs előfizetés. Csak játszd le.",
+    "downloadTitle": "Töltse le a PPPlayert ingyen",
+    "downloadDesc": "Ingyenes, nyílt forráskódú zenelejátszó. Nincs fiók. Nincs előfizetés. Csak játszd le.",
+    "privacyTitle": "Adatvédelmi irányelvek",
+    "privacyDesc": "Adatvédelmi irányelvek a PPPlayerhez: ingyenes zenei alkalmazás macOS, Linux, Windows, iOS és Android rendszerre.",
+    "termsTitle": "Szolgáltatási feltételek",
+    "termsDesc": "Szolgáltatási feltételek a PPPlayerhez: ingyenes zenei alkalmazás macOS, Linux, Windows, iOS és Android rendszerre.",
+    "supportTitle": "Támogatás - PPPlayer",
+    "supportDesc": "A PPPlayer egy független, nyílt forráskódú projekt. Hibák és funkcióötletek esetén használja a GitHubot. Egyéb kérdések esetén küldjön e-mailt a contact@ppplayer.com címre."
+  },
+  "nav": {
+    "features": "Funkciók",
+    "download": "Ingyenes letöltés",
+    "support": "Támogatás",
+    "contribute": "Hozzájárulás"
+  },
+  "footer": {
+    "desc": "Ingyenes, nyílt forráskódú zenelejátszó. Nincs fiók. Nincs előfizetés. Csak játszd le.",
+    "product": "Termék",
+    "features": "Funkciók",
+    "download": "Letöltés",
+    "platforms": "Platformok",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Közösségi média",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Jogi információk",
+    "privacy": "Adatvédelem",
+    "terms": "Feltételek",
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "Forráskód megtekintése a GitHubon",
+    "contribute": "Hozzájárulás",
+    "changelog": "Változások naplója",
+    "linux": "Linux"
+  },
+  "cookie": {
+    "title": "Értékeljük az adatait",
+    "desc": "Sütiket használunk az oldal forgalmának elemzésére és a felhasználói élmény javítására. Az \"Elfogadás\" gombra kattintva hozzájárul a sütik használatához.",
+    "decline": "Összes elutasítása",
+    "accept": "Összes elfogadása"
+  },
+  "hero": {
+    "title1": "Zene.",
+    "title2": "Zökkenőmentesen.",
+    "desc": "Ingyenes, nyílt forráskódú zenelejátszó. Nincs fiók. Nincs előfizetés. Csak játszd le.",
+    "getIos": "Letöltés iOS-re",
+    "getAndroid": "Letöltés Androidra",
+    "getMac": "Letöltés Mac-re",
+    "getWindows": "Letöltés Windows-ra",
+    "getLinux": "Letöltés Linux-ra",
+    "badge": "Ingyenes és nyílt forráskódú",
+    "source": "Forráskód megtekintése a GitHubon"
+  },
+  "discover": {
+    "title": "Találj<br></br>valamit<br></br>amit érdemes lejátszani."
+  },
+  "artistRadio": {
+    "title": "Végtelen zenehallgatás."
+  },
+  "goDeeper": {
+    "bgText": "KÖVETÉS",
+    "title": "Kövesd a zenét."
+  },
+  "pressPlay": {
+    "title": "Ezután csak nyomd meg a lejátszást."
+  },
+  "featureGallery": {
+    "title": "Minden, amire szükséged van.",
+    "subtitle": "Gyönyörű, natív élmény a teljesítményre tervezve.",
+    "searchTitle": "Találd meg pontosan, amit keresel.",
+    "searchDesc": "Keress globálisan a számok, előadók és albumok között azonnal.",
+    "queueTitle": "Tökéletes sorrend.",
+    "queueDesc": "Kezeld a következők lejátszását egy gyönyörű, átrendezhető várólistával.",
+    "favTitle": "A te zenéd, a te szabályaid.",
+    "favDesc": "Építsd fel személyes könyvtáradat egyetlen kattintással. Mindig ott van.",
+    "contextTitle": "Dizájnra natív.",
+    "contextDesc": "Kattints jobb gombbal bárhova. Gyönyörű, környezetérzékeny natív menük."
+  },
+  "noAccount": {
+    "title": "Nincs fiók.",
+    "subtitle": "Ingyenes és nyílt forráskódú"
+  },
+  "platforms": {
+    "title": "A te zenéd. A te eszközeid.",
+    "subtitle": "Gyönyörűen natív macOS, Linux, Windows, Android és iOS rendszereken."
+  },
+  "downloadCTA": {
+    "title": "Csak játszd le.",
+    "getIos": "Letöltés iOS-re",
+    "getAndroid": "Letöltés Androidra",
+    "getMac": "Letöltés Mac-re",
+    "getWindows": "Letöltés Windows-ra",
+    "notAvailable": "Még nem elérhető. Jelenleg csak a macOS verzió tölthető le.",
+    "notAvailableTitle": "Hamarosan",
+    "okayBtn": "Rendben",
+    "getLinux": "Letöltés Linux-ra"
+  },
+  "downloadPage": {
+    "badge": "A PPPlayer 1.0 már elérhető",
+    "title": "<gradient>PPPlayer</gradient> letöltése",
+    "subtitle": "Válaszd ki a platformot. Kezdj el zenét hallgatni másodpercek alatt.",
+    "desc": "Nincs szükség fiókra. Nincs e-mail. Nincs regisztráció. Csak zene.",
+    "windowsReqLabel": "Windows rendszerkövetelmények:",
+    "windowsReqDesc": "Windows 10 vagy újabb (64 bites). ~50 MB letöltés. Nem szükséges a Microsoft Store."
+  },
+  "faq": {
+    "badge": "GYIK",
+    "title": "Gyakori <gradient>kérdések</gradient>",
+    "subtitle": "Minden, amit a PPPlayerről tudni kell.",
+    "items": [
+      {
+        "q": "Ingyenes a PPPlayer?",
+        "a": "Igen. A PPPlayer 100%-ban ingyenes. Nincsenek előfizetések, nincsenek alkalmazáson belüli vásárlások, és nincsenek rejtett költségek."
+      },
+      {
+        "q": "Létre kell hoznom egy fiókot?",
+        "a": "Nem. Nincs szükség e-mail címre, fiókra vagy bármilyen bejelentkezésre. Csak töltsd le, nyisd meg, és kezdd el hallgatni."
+      },
+      {
+        "q": "Elérhető a PPPlayer iPhone-ra?",
+        "a": "Igen. A PPPlayer elérhető az App Store-ban iPhone-ra és iPadre."
+      },
+      {
+        "q": "Elérhető a PPPlayer Androidra?",
+        "a": "Igen. Letöltheted a PPPlayert a Google Playről Android telefonokra és táblagépekre."
+      },
+      {
+        "q": "Használhatom a PPPlayert Windows rendszeren?",
+        "a": "Igen. A PPPlayer elérhető Windows 10 és újabb rendszerekre közvetlen letöltésként. Nincs szükség áruházra."
+      },
+      {
+        "q": "Milyen zenei funkciókat kínál a PPPlayer?",
+        "a": "A PPPlayer tartalmaz előadók felfedezését, kapcsolódó előadókat, előadói rádiót, előadói lejátszási listákat, műfajok felfedezését és egy gyönyörű teljes képernyős lejátszót. Mindez ingyenes, és nincs szükség fiókra."
+      },
+      {
+        "q": "Hogyan tölthetem le a PPPlayert?",
+        "a": "Koppints a platformodhoz tartozó letöltés gombra ezen az oldalon. A letöltés kevesebb, mint egy percet vesz igénybe."
+      },
+      {
+        "q": "Van prémium verzió?",
+        "a": "Nem. A PPPlayer teljesen ingyenes. Minden, amit látsz, ingyenesen elérhető, fiók nélkül."
+      }
+    ],
+    "openSourceQuestion": "Nyílt forráskódú a PPPlayer?",
+    "openSourceAnswer": "Igen. A PPPlayer 100%-ban nyílt forráskódú az MIT licenc alatt. A szoftvert szabadon használhatod, tanulmányozhatod, módosíthatod és megoszthatod. Nézd meg a GitHub adattárunkat a forráskód megtekintéséhez vagy a részvételhez."
+  },
+  "privacy": {
+    "title": "Adatvédelmi irányelvek",
+    "lastUpdated": "Utolsó frissítés: 2025. április",
+    "sections": {
+      "s1": {
+        "title": "1. Áttekintés",
+        "p": "A PPPlayer (\"mi\", \"miénk\", \"az alkalmazás\") elkötelezett a magánéleted védelme iránt. Ez az irányelv elmagyarázza, hogy milyen adatokat gyűjtünk, miért, és hogyan használjuk azokat, amikor a PPPlayert macOS, Linux, Windows, iOS vagy Android rendszeren használod."
+      },
+      "s2": {
+        "title": "2. Nincs szükség fiókra",
+        "p": "A PPPlayer nem igényli, hogy fiókot hozz létre. Nem gyűjtjük a nevedet, e-mail címedet vagy bármilyen személyazonosításra alkalmas információt az alkalmazás használatához."
+      },
+      "s3": {
+        "title": "3. Általunk gyűjtött adatok",
+        "p1": "Az alábbi névtelen, nem azonosítható adatokat gyűjthetjük:",
+        "li1": "Összeomlási jelentések és hibanaplók (az alkalmazás stabilitásának javítása érdekében)",
+        "li2": "Névtelen használati elemzések (funkciók használata, munkamenet időtartama)",
+        "li3": "Eszköztípus és operációs rendszer verziója",
+        "p2": "Nem gyűjtünk: neveket, e-maileket, fizetési információkat vagy pontos helyadatokat."
+      },
+      "s4": {
+        "title": "4. Harmadik féltől származó szolgáltatások",
+        "p": "A PPPlayer harmadik féltől származó szolgáltatásokat használhat a zenei metaadatokhoz és elemzésekhez. Ezek a szolgáltatások saját adatvédelmi irányelvekkel rendelkeznek. Javasoljuk, hogy tekintsd át ezeket."
+      },
+      "s5": {
+        "title": "5. Adatmegőrzés",
+        "p": "A névtelen elemzési adatokat legfeljebb 12 hónapig őrizzük meg. Az összeomlási naplók 90 nap után törlődnek."
+      },
+      "s6": {
+        "title": "6. A te jogaid",
+        "p": "Mivel nem gyűjtünk személyes adatokat, nincsenek személyes információk, amelyeket elérhetsz, exportálhatsz vagy törölhetsz. Ha kérdésed van, lépj kapcsolatba velünk az alábbi címen."
+      },
+      "s7": {
+        "title": "7. Gyermekek",
+        "p": "A PPPlayer nem 13 éven aluli gyermekek számára készült. Tudatosan nem gyűjtünk adatokat gyermekektől."
+      },
+      "s8": {
+        "title": "8. Változások",
+        "p": "Időről időre frissíthetjük ezt az irányelvet. Az utolsó frissítés dátumát ezen az oldalon a tetején jelezzük."
+      },
+      "s9": {
+        "title": "9. Kapcsolat",
+        "p": "Kérdésed van ezzel az irányelvvel kapcsolatban? Lépj kapcsolatba velünk a "
+      }
+    },
+    "back": "← Vissza a PPPlayerhez"
+  },
+  "terms": {
+    "title": "Szolgáltatási feltételek",
+    "lastUpdated": "Utolsó frissítés: 2026. szeptember 11.",
+    "sections": {
+      "s1": {
+        "title": "1. A feltételek elfogadása",
+        "p": "A PPPlayer letöltésével vagy használatával elfogadod ezeket a Szolgáltatási feltételeket. Ha nem értesz egyet, kérjük, ne használd az alkalmazást."
+      },
+      "s2": {
+        "title": "2. Az alkalmazás használata",
+        "p": "A PPPlayer egy ingyenes, nyílt forráskódú szoftver. A szoftver használatát, másolását, módosítását és terjesztését a projekt adattárában található MIT licenc szabályozza. Az alkalmazás használatával beleegyezel, hogy nem:",
+        "li1": "Távolítod el a vonatkozó szoftverlicencek által megkövetelt szerzői jogi vagy engedélyezési megjegyzéseket",
+        "li2": "Használod az alkalmazást kártékony szoftverek vagy káros tartalom terjesztésére",
+        "li3": "Sérted meg a vonatkozó törvényeket vagy előírásokat az alkalmazás használata során"
+      },
+      "s3": {
+        "title": "3. Nincs szükség fiókra",
+        "p": "A PPPlayer nem igényli fiók létrehozását. Az összes funkciót közvetlenül a letöltés után használhatod."
+      },
+      "s4": {
+        "title": "4. Szellemi tulajdon",
+        "p": "A PPPlayer forráskódja az MIT licenc alatt érhető el. A harmadik féltől származó függőségek megtartják saját licencüket. A zene, a borítóképek és a metaadatok továbbra is a vonatkozó jogaik és licenceik hatálya alá tartoznak; a szoftverlicenc nem biztosít jogokat ehhez a tartalomhoz."
+      },
+      "s5": {
+        "title": "5. A garanciák kizárása",
+        "p": "A PPPlayert \"ahogy van\" biztosítjuk, bármilyen kifejezett vagy vélelmezett garancia nélkül. Nem garantáljuk a megszakítás nélküli szolgáltatást vagy azt, hogy az alkalmazás hibamentes lesz."
+      },
+      "s6": {
+        "title": "6. A felelősség korlátozása",
+        "p": "A törvény által megengedett maximális mértékig a PPPlayer nem vállal felelősséget semmilyen közvetett, véletlenszerű, különleges vagy következményes kárért, amely az alkalmazás használatából vagy a használatának képtelenségéből ered."
+      },
+      "s7": {
+        "title": "7. A feltételek módosítása",
+        "p": "Fenntartjuk a jogot a feltételek bármikori frissítésére. Az alkalmazás további használata a változások után az új feltételek elfogadását jelenti."
+      },
+      "s8": {
+        "title": "8. Kapcsolat",
+        "p": "Kérdésed van ezekkel a feltételekkel kapcsolatban? Lépj kapcsolatba velünk a "
+      }
+    },
+    "back": "← Vissza a PPPlayerhez"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone és iPad",
+      "desc": "Elérhető az App Store-ban iPhone-ra és iPadre.",
+      "badge": "App Store"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Elérhető a Google Playen Android telefonokra és táblagépekre.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Közvetlen letöltés Windows 10 és újabb rendszerekre. Nincs szükség áruházra.",
+      "badge": "Közvetlen letöltés"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "Közvetlen letöltés macOS-re. Az Apple Silicon és az Intel támogatott.",
+      "badge": "Közvetlen letöltés"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Közvetlen letöltés Linux-ra. Az AppImage támogatott.",
+      "badge": "Közvetlen letöltés"
+    }
+  },
+  "changelog": {
+    "title": "Változások naplója",
+    "subtitle": "Újdonságok a PPPlayerben.",
+    "back": "← Vissza a PPPlayerhez",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "2026. szeptember 12.",
+      "desc": "Arab és kínai honosítások hozzáadva, valamint macOS átméretezési hibák javítva.",
+      "added": "Hozzáadva",
+      "fixed": "Javítva",
+      "localizationTitle": "Honosítás Bővítése",
+      "localizationDesc": "Arab és kínai (egyszerűsített és hagyományos) honosítások hozzáadva.",
+      "layoutTitle": "macOS Elrendezés Javítása",
+      "layoutDesc": "Javítottunk egy problémát a macOS rendszerben, ahol a YouTube videó lejátszó elcsúszott a középpontból az alkalmazás ablakának átméretezésekor."
+    },
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "2026. szeptember 12.",
+      "desc": "Lejátszási hibák javítva és a keresősáv csiszolása az alkalmazás indításakor.",
+      "fixed": "Javítva",
+      "snapTitle": "Keresősáv hiba indításkor",
+      "snapDesc": "Javítottunk egy problémát, ahol a keresősáv azonnal visszaugrott a kezdőpozícióba, amikor az alkalmazás elindítása után azonnal elcsúsztatták.",
+      "durationTitle": "Hiányzó időtartam",
+      "durationDesc": "Javítottuk, hogy a keresősáv 0:00 időtartamot mutatott az alkalmazás első indításakor."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "2026. szeptember 11.",
+      "desc": "Átfogó nemzetköziesítés és honosítás az egész alkalmazásban és a weboldalon.",
+      "new": "Új",
+      "langTitle": "11 Globális nyelv",
+      "langDesc": "Teljes támogatás hozzáadva a következő nyelvekhez: spanyol, francia, német, portugál, olasz, japán, koreai, kínai, hindi, orosz és arab.",
+      "pickerTitle": "Alkalmazáson belüli nyelvválasztó",
+      "pickerDesc": "Az alkalmazáson belüli nyelvválasztó a Beállítások menüben található, és a fordításokat azonnal alkalmazza az alkalmazás újraindítása nélkül.",
+      "osTitle": "OS-szintű integráció",
+      "osDesc": "Natív OS-szintű nyelvi integráció Android 13+ és iOS rendszereken az alkalmazás nyelvének automatikus szinkronizálásához."
+    },
+    "v1_0_6": {
+      "version": "v1_0_6",
+      "date": "2026. szeptember 11.",
+      "desc": "Gyorsjavítás friss telepítésekhez.",
+      "fixed": "Javítva",
+      "crashTitle": "Indítási összeomlás javítása",
+      "crashDesc": "Kijavítottunk egy kritikus hibát, amely miatt az alkalmazás egy üres képernyőn összeomlott a friss telepítések során egy hiányzó környezeti konfigurációs fájl miatt."
+    },
+    "v1_0_5": {
+      "version": "v1_0_5",
+      "date": "2026. szeptember 11.",
+      "desc": "Zökkenőmentes háttérbeli lejátszás macOS rendszeren.",
+      "new": "Új",
+      "fixed": "Javítva",
+      "appNapTitle": "Zökkenőmentes háttérbeli lejátszás",
+      "appNapDesc": "Megakadályoztuk, hogy a macOS App Nap agresszívan felfüggessze a lejátszót minimalizált állapotban, lehetővé téve a várólista megszakítás nélküli folytatását."
+    },
+    "v1_0_4": {
+      "version": "v1_0_4",
+      "date": "2026. szeptember 11.",
+      "desc": "Automatizált kiadások és kódaláírás.",
+      "new": "Új",
+      "fixed": "Javítva",
+      "ciTitle": "Automatizált kiadási folyamat",
+      "ciDesc": "GitHub Actions munkafolyamat a következetes buildekhez és a macOS kódaláíráshoz.",
+      "signedTitle": "Aláírt macOS kiadások",
+      "signedDesc": "A hivatalos aláírt és közjegyző által hitelesített macOS kiadások mostantól közvetlenül letölthetők a webhelyről.",
+      "licenseTitle": "Nyílt Forráskódú Licenc",
+      "licenseDesc": "MIT Licenc hozzáadva a tárhoz.",
+      "submoduleFix": "Kijavítottuk a részmodul kifizetési konfigurációt a CI munkafolyamatokban"
+    },
+    "v1_0_3": {
+      "version": "v1_0_3",
+      "date": "2026. szeptember 10.",
+      "desc": "Háttérbeli lejátszás és stabilitás.",
+      "new": "Új",
+      "improved": "Továbbfejlesztett",
+      "fixed": "Javítva",
+      "hybridEngineTitle": "Hibrid lejátszási motor",
+      "hybridEngineDesc": "Erős háttérbeli feldolgozási és zárolási képernyőn történő lejátszási képességek.",
+      "dedupTitle": "Parancsok ismétlődésének megszüntetése",
+      "dedupDesc": "Generálási azonosítók hozzáadva a WebView hídon átfedő és elavult médiaparancsok megelőzése érdekében.",
+      "queueAdvance": "A dalkövetkezés nem lép automatikusan a következő számra",
+      "resumeBug": "A szüneteltetett szám váratlanul folytatódik az előtérből a PiP vagy a háttérbe történő áttéréskor",
+      "precision": "Pontos, milliszekundumos pontosságú jelentés az aktuális szám pozíciójáról és a lejátszás időtartamáról",
+      "linter": "Számos IDE linter hiba kiküszöbölve és a felesleges fájlok törölve"
+    },
+    "v1_0_2": {
+      "version": "v1_0_2",
+      "date": "2026. szeptember 9.",
+      "desc": "Okosabb, kontextusfüggő automatikus lejátszás.",
+      "autoplayContextTitle": "Kontextusérzékeny automatikus lejátszás",
+      "autoplayContextDesc": "Az automatikus lejátszás mostantól prioritást élvez az aktuális előadó zeneszámai esetében, mielőtt a kapcsolódó előadókat a sorba helyezné.",
+      "tieredRecsTitle": "Többszintű ajánló motor",
+      "tieredRecsDesc": "Az ajánlások mostantól szigorúan a célzott művész katalógusát használják a név szerinti homályos keresés helyett."
+    },
+    "v1_0_1": {
+      "version": "v1_0_1",
+      "date": "2026. szeptember 9.",
+      "desc": "Egy jobb zenehallgatási élmény.",
+      "new": "Új",
+      "improved": "Továbbfejlesztett",
+      "fixed": "Javítva",
+      "autoplayTitle": "Automatikus lejátszás",
+      "autoplayDesc": "A zene folytatódik az alapján, hogy mit hallgatsz, ajánlásokkal.",
+      "discoverTitle": "Felfedezés",
+      "discoverDesc": "Keress zenét a hallgatási előzményeid, kedvenc előadóid és lejátszási listáid alapján.",
+      "tooltipsTitle": "Interaktív keresősáv gyorstippek",
+      "tooltipsDesc": "Dinamikus gyorstippek hozzáadva, amelyek tökéletesen követik az egérkurzort, ha a lejátszó folyamatjelző sávja fölé viszed az egeret.",
+      "startup": "Gyorsabb indítás",
+      "recovery": "Jobb lejátszási helyreállítás",
+      "macosMedia": "Továbbfejlesztett macOS médiavezérlők",
+      "duplicateMedia": "Kettős macOS médiavezérlők",
+      "stationHighlight": "A rádióállomás aktív számának kiemelése",
+      "seekbarPause": "Lejátszás váratlan szünetelése/leállása a keresősáv húzásakor",
+      "bottomBar": "Az alsó lejátszó sáv macOS rendszeren zenehallgatás közben teljesen átlátszónak és olvashatatlannak látszott"
+    },
+    "v1_0_0": {
+      "version": "v1_0_0",
+      "date": "2026. szeptember",
+      "desc": "A PPPlayer első kiadása.",
+      "spotify": "Spotify-alapú zenei metaadatok",
+      "youtube": "YouTube-alapú hanglejátszás",
+      "playlists": "Lejátszási listák, kedvencek és hallgatási előzmények",
+      "platforms": "macOS, Windows és Linux támogatás"
+    }
+  },
+  "support": {
+    "title": "Támogatás",
+    "subtitle": "Hogyan segíthetünk?",
+    "contactTitle": "Kapcsolatfelvétel",
+    "contactDesc": "Általános kérdésekkel, partnerségekkel vagy a GitHubhoz nem illő kérdésekkel fordulj hozzánk bizalommal a contact@ppplayer.com címen.",
+    "githubTitle": "Közösség és GitHub",
+    "githubDesc": "Fedezd fel a kódot, jelents egy hibát, javasolj egy funkciót, vagy járulj hozzá kódhoz és fordításokhoz. Csatlakozz hozzánk a végső nyílt forráskódú zenelejátszó felépítésében.",
+    "githubBtn": "Megtekintés a GitHubon"
+  },
+  "openSource": {
+    "badge": "Ingyenes és nyílt forráskódú",
+    "title": "A közösség által. A közösségért.",
+    "desc": "A PPPlayer büszkén nyílt forráskódú. Fedezd fel a kódbázist, jelents problémákat, javasolj funkciókat, vagy járulj hozzá a saját kódoddal. Minden hozzájárulás mindenki számára jobbá teszi a hallgatási élményt.",
+    "source": "Forráskód megtekintése a GitHubon",
+    "contribute": "Hozzájárulás",
+    "issues": "Hiba jelentése",
+    "license": "MIT licenc"
+  }
+}

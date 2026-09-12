@@ -1,0 +1,417 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer | Darmowy odtwarzacz muzyki Open-Source",
+    "homeDesc": "Darmowy, otwartoźródłowy odtwarzacz muzyki. Brak konta. Brak subskrypcji. Po prostu graj.",
+    "downloadTitle": "Pobierz PPPlayer za darmo",
+    "downloadDesc": "Darmowy, otwartoźródłowy odtwarzacz muzyki. Brak konta. Brak subskrypcji. Po prostu graj.",
+    "privacyTitle": "Polityka prywatności",
+    "privacyDesc": "Polityka prywatności dla PPPlayer: darmowej aplikacji muzycznej dla systemów macOS, Linux, Windows, iOS i Android.",
+    "termsTitle": "Warunki usługi",
+    "termsDesc": "Warunki usługi dla PPPlayer: darmowej aplikacji muzycznej dla systemów macOS, Linux, Windows, iOS i Android.",
+    "supportTitle": "Wsparcie - PPPlayer",
+    "supportDesc": "PPPlayer to niezależny projekt open-source. Błędy i propozycje funkcji zgłaszaj na GitHubie. W innych sprawach napisz na contact@ppplayer.com."
+  },
+  "nav": {
+    "features": "Funkcje",
+    "download": "Pobierz za darmo",
+    "support": "Wsparcie",
+    "contribute": "Współtwórz"
+  },
+  "footer": {
+    "desc": "Darmowy, otwartoźródłowy odtwarzacz muzyki. Brak konta. Brak subskrypcji. Po prostu graj.",
+    "product": "Produkt",
+    "features": "Funkcje",
+    "download": "Pobierz",
+    "platforms": "Platformy",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Społeczności",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Informacje prawne",
+    "privacy": "Prywatność",
+    "terms": "Warunki",
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "Zobacz kod na GitHubie",
+    "contribute": "Współtwórz",
+    "changelog": "Dziennik zmian",
+    "linux": "Linux"
+  },
+  "cookie": {
+    "title": "Cenimy Twoją prywatność",
+    "desc": "Używamy plików cookie, aby analizować ruch na stronie i ulepszać Twoje doświadczenia. Klikając \"Akceptuj\", wyrażasz zgodę na używanie przez nas plików cookie.",
+    "decline": "Odrzuć wszystkie",
+    "accept": "Akceptuj wszystkie"
+  },
+  "hero": {
+    "title1": "Muzyka.",
+    "title2": "Bez przeszkód.",
+    "desc": "Darmowy, otwartoźródłowy odtwarzacz muzyki. Brak konta. Brak subskrypcji. Po prostu graj.",
+    "getIos": "Pobierz na iOS",
+    "getAndroid": "Pobierz na Androida",
+    "getMac": "Pobierz na Maca",
+    "getWindows": "Pobierz na Windows",
+    "getLinux": "Pobierz na Linux",
+    "badge": "Darmowe i open source",
+    "source": "Zobacz kod na GitHubie"
+  },
+  "discover": {
+    "title": "Znajdź<br></br>coś<br></br>warte słuchania."
+  },
+  "artistRadio": {
+    "title": "Nieskończone słuchanie."
+  },
+  "goDeeper": {
+    "bgText": "OBSERWUJ",
+    "title": "Podążaj za muzyką."
+  },
+  "pressPlay": {
+    "title": "A potem, po prostu słuchaj."
+  },
+  "featureGallery": {
+    "title": "Wszystko, czego potrzebujesz.",
+    "subtitle": "Piękne, natywne środowisko zbudowane pod kątem wydajności.",
+    "searchTitle": "Znajdź dokładnie to, czego szukasz.",
+    "searchDesc": "Wyszukuj globalnie we wszystkich utworach, artystach i albumach błyskawicznie.",
+    "queueTitle": "Idealna kolejka.",
+    "queueDesc": "Zarządzaj tym, co zagra następne, dzięki pięknej, konfigurowalnej kolejce.",
+    "favTitle": "Twoja muzyka, Twoje zasady.",
+    "favDesc": "Zbuduj swoją osobistą bibliotekę jednym kliknięciem. Zawsze pod ręką.",
+    "contextTitle": "Natywny z założenia.",
+    "contextDesc": "Kliknij prawym przyciskiem gdziekolwiek. Piękne, natywne menu kontekstowe."
+  },
+  "noAccount": {
+    "title": "Brak konta.",
+    "subtitle": "Darmowe i open source"
+  },
+  "platforms": {
+    "title": "Twoja muzyka. Twoje urządzenia.",
+    "subtitle": "Pięknie natywny na macOS, Linux, Windows, Android i iOS."
+  },
+  "downloadCTA": {
+    "title": "Po prostu graj.",
+    "getIos": "Pobierz na iOS",
+    "getAndroid": "Pobierz na Androida",
+    "getMac": "Pobierz na Maca",
+    "getWindows": "Pobierz na Windows",
+    "notAvailable": "Jeszcze niedostępne. Obecnie dostępna do pobrania jest tylko wersja na macOS.",
+    "notAvailableTitle": "Wkrótce",
+    "okayBtn": "Okej",
+    "getLinux": "Pobierz na Linux"
+  },
+  "downloadPage": {
+    "badge": "PPPlayer 1.0 już dostępny",
+    "title": "Pobierz <gradient>PPPlayer</gradient>",
+    "subtitle": "Wybierz swoją platformę. Zacznij słuchać w kilka sekund.",
+    "desc": "Konto niewymagane. Brak e-maila. Brak rejestracji. Po prostu muzyka.",
+    "windowsReqLabel": "Wymagania systemowe Windows:",
+    "windowsReqDesc": "Windows 10 lub nowszy (64-bit). Plik ~50 MB. Microsoft Store niewymagany."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Częste <gradient>pytania</gradient>",
+    "subtitle": "Wszystko, co musisz wiedzieć o PPPlayer.",
+    "items": [
+      {
+        "q": "Czy PPPlayer jest darmowy?",
+        "a": "Tak. PPPlayer jest w 100% darmowy. Brak subskrypcji, brak zakupów w aplikacji i brak ukrytych kosztów."
+      },
+      {
+        "q": "Czy muszę tworzyć konto?",
+        "a": "Nie. Nie potrzebujesz adresu e-mail, konta ani loginu. Wystarczy pobrać, otworzyć i zacząć słuchać."
+      },
+      {
+        "q": "Czy PPPlayer jest dostępny na iPhone'a?",
+        "a": "Tak. PPPlayer jest dostępny w App Store na iPhone'a i iPada."
+      },
+      {
+        "q": "Czy PPPlayer jest dostępny na Androida?",
+        "a": "Tak. Możesz pobrać PPPlayer w Google Play na telefony i tablety z Androidem."
+      },
+      {
+        "q": "Czy mogę używać PPPlayer w systemie Windows?",
+        "a": "Tak. PPPlayer jest dostępny do bezpośredniego pobrania dla systemu Windows 10 i nowszych. Sklep nie jest wymagany."
+      },
+      {
+        "q": "Jakie funkcje muzyczne oferuje PPPlayer?",
+        "a": "PPPlayer oferuje odkrywanie artystów, powiązanych artystów, radio artysty, playlisty artysty, przeglądanie gatunków oraz piękny odtwarzacz pełnoekranowy. Wszystko to jest darmowe i nie wymaga konta."
+      },
+      {
+        "q": "Jak pobrać PPPlayer?",
+        "a": "Kliknij przycisk pobierania dla swojej platformy na tej stronie. Pobieranie zajmie mniej niż minutę."
+      },
+      {
+        "q": "Czy istnieje wersja premium?",
+        "a": "Nie. PPPlayer jest całkowicie darmowy. Wszystko, co widzisz, jest dostępne bezpłatnie i nie wymaga konta."
+      }
+    ],
+    "openSourceQuestion": "Czy PPPlayer to open source?",
+    "openSourceAnswer": "Tak. PPPlayer jest w 100% oprogramowaniem open-source na licencji MIT. Możesz używać, badać, modyfikować i udostępniać oprogramowanie za darmo. Sprawdź nasze repozytorium na GitHubie, aby zobaczyć kod źródłowy lub się zaangażować."
+  },
+  "privacy": {
+    "title": "Polityka prywatności",
+    "lastUpdated": "Ostatnia aktualizacja: Kwiecień 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Przegląd",
+        "p": "PPPlayer (\"my\", \"nasza aplikacja\") zobowiązuje się do ochrony Twojej prywatności. Ta polityka wyjaśnia, jakie dane zbieramy, dlaczego to robimy i w jaki sposób są one wykorzystywane, gdy korzystasz z PPPlayer w systemach macOS, Linux, Windows, iOS lub Android."
+      },
+      "s2": {
+        "title": "2. Konto niewymagane",
+        "p": "PPPlayer nie wymaga zakładania konta. Nie zbieramy Twojego imienia i nazwiska, adresu e-mail ani żadnych informacji umożliwiających identyfikację osoby w celu korzystania z aplikacji."
+      },
+      "s3": {
+        "title": "3. Dane, które zbieramy",
+        "p1": "Możemy zbierać następujące anonimowe, niemożliwe do identyfikacji dane:",
+        "li1": "Raporty o awariach i dzienniki błędów (w celu poprawy stabilności aplikacji)",
+        "li2": "Anonimowe statystyki użytkowania (wykorzystanie funkcji, czas trwania sesji)",
+        "li3": "Typ urządzenia i wersja systemu operacyjnego",
+        "p2": "Nie zbieramy: imion i nazwisk, adresów e-mail, informacji o płatnościach ani precyzyjnych danych o lokalizacji."
+      },
+      "s4": {
+        "title": "4. Usługi stron trzecich",
+        "p": "PPPlayer może używać usług stron trzecich w celu uzyskania metadanych muzycznych i statystyk. Usługi te mają własne polityki prywatności. Zachęcamy do zapoznania się z nimi."
+      },
+      "s5": {
+        "title": "5. Przechowywanie danych",
+        "p": "Anonimowe dane analityczne są przechowywane maksymalnie przez 12 miesięcy. Raporty o awariach są usuwane po 90 dniach."
+      },
+      "s6": {
+        "title": "6. Twoje prawa",
+        "p": "Ponieważ nie zbieramy danych osobowych, nie ma informacji osobowych, do których można by uzyskać dostęp, wyeksportować lub je usunąć. Jeśli masz pytania, skontaktuj się z nami pod adresem poniżej."
+      },
+      "s7": {
+        "title": "7. Dzieci",
+        "p": "PPPlayer nie jest przeznaczony dla dzieci poniżej 13 roku życia. Nie zbieramy świadomie danych od dzieci."
+      },
+      "s8": {
+        "title": "8. Zmiany",
+        "p": "Od czasu do czasu możemy aktualizować tę politykę. Datę ostatniej aktualizacji zaznaczymy na górze tej strony."
+      },
+      "s9": {
+        "title": "9. Kontakt",
+        "p": "Masz pytania dotyczące tej polityki? Skontaktuj się z nami pod adresem "
+      }
+    },
+    "back": "← Wróć do PPPlayer"
+  },
+  "terms": {
+    "title": "Warunki usługi",
+    "lastUpdated": "Ostatnia aktualizacja: 11 września 2026",
+    "sections": {
+      "s1": {
+        "title": "1. Akceptacja Warunków",
+        "p": "Pobierając lub korzystając z PPPlayer, wyrażasz zgodę na niniejsze Warunki usługi. Jeśli się nie zgadzasz, nie korzystaj z aplikacji."
+      },
+      "s2": {
+        "title": "2. Korzystanie z Aplikacji",
+        "p": "PPPlayer to darmowe oprogramowanie open-source. Używanie, kopiowanie, modyfikowanie i dystrybucja oprogramowania podlegają licencji MIT znajdującej się w repozytorium projektu. Korzystając z aplikacji, zgadzasz się nie:",
+        "li1": "Usuwać informacji o prawach autorskich lub uprawnieniach wymaganych przez odpowiednie licencje oprogramowania",
+        "li2": "Używać aplikacji do rozpowszechniania złośliwego oprogramowania lub szkodliwych treści",
+        "li3": "Naruszać jakichkolwiek obowiązujących praw lub przepisów podczas korzystania z aplikacji"
+      },
+      "s3": {
+        "title": "3. Konto niewymagane",
+        "p": "PPPlayer nie wymaga zakładania konta. Możesz zacząć korzystać ze wszystkich funkcji natychmiast po pobraniu."
+      },
+      "s4": {
+        "title": "4. Własność intelektualna",
+        "p": "Kod źródłowy PPPlayer jest udostępniany na licencji MIT. Zależności stron trzecich zachowują własne licencje. Muzyka, grafiki i metadane podlegają ich własnym prawom i licencjom; licencja na oprogramowanie nie udziela praw do tych treści."
+      },
+      "s5": {
+        "title": "5. Zrzeczenie się gwarancji",
+        "p": "PPPlayer jest dostarczany \"tak jak jest\" bez żadnych gwarancji, wyraźnych ani dorozumianych. Nie gwarantujemy nieprzerwanej usługi ani tego, że aplikacja będzie wolna od błędów."
+      },
+      "s6": {
+        "title": "6. Ograniczenie odpowiedzialności",
+        "p": "W maksymalnym zakresie dozwolonym przez prawo, PPPlayer nie ponosi odpowiedzialności za jakiekolwiek szkody pośrednie, przypadkowe, specjalne lub wtórne wynikające z używania lub niemożności używania aplikacji."
+      },
+      "s7": {
+        "title": "7. Zmiany Warunków",
+        "p": "Zastrzegamy sobie prawo do aktualizacji tych warunków w dowolnym momencie. Dalsze korzystanie z aplikacji po wprowadzeniu zmian oznacza akceptację nowych warunków."
+      },
+      "s8": {
+        "title": "8. Kontakt",
+        "p": "Masz pytania dotyczące tych warunków? Skontaktuj się z nami pod adresem "
+      }
+    },
+    "back": "← Wróć do PPPlayer"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone i iPad",
+      "desc": "Dostępne w App Store dla iPhone'a i iPada.",
+      "badge": "App Store"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Dostępne w Google Play na telefony i tablety z Androidem.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Pobieranie bezpośrednie dla systemu Windows 10 i nowszych. Sklep nie jest potrzebny.",
+      "badge": "Pobieranie bezpośrednie"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "Pobieranie bezpośrednie dla macOS. Obsługiwane układy Apple Silicon i Intel.",
+      "badge": "Pobieranie bezpośrednie"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Pobieranie bezpośrednie dla Linuxa. Obsługiwany format AppImage.",
+      "badge": "Pobieranie bezpośrednie"
+    }
+  },
+  "changelog": {
+    "title": "Dziennik zmian",
+    "subtitle": "Co nowego w PPPlayer.",
+    "back": "← Wróć do PPPlayer",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "12 września 2026",
+      "desc": "Dodano lokalizacje arabską i chińską oraz naprawiono błędy zmiany rozmiaru okna w macOS.",
+      "added": "Dodano",
+      "fixed": "Naprawiono",
+      "localizationTitle": "Rozszerzenie lokalizacji",
+      "localizationDesc": "Dodano lokalizację arabską i chińską (uproszczoną i tradycyjną).",
+      "layoutTitle": "Poprawka układu macOS",
+      "layoutDesc": "Naprawiono problem na macOS, gdzie odtwarzacz wideo YouTube przesuwał się ze środka podczas zmiany rozmiaru okna aplikacji."
+    },
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "12 września 2026",
+      "desc": "Naprawiono błędy odtwarzania i poprawiono pasek postępu podczas uruchamiania aplikacji.",
+      "fixed": "Naprawiono",
+      "snapTitle": "Błąd paska postępu przy uruchamianiu",
+      "snapDesc": "Naprawiono błąd, przez który pasek postępu natychmiast wracał na początek podczas przeciągania go zaraz po uruchomieniu aplikacji.",
+      "durationTitle": "Brakujący czas trwania",
+      "durationDesc": "Naprawiono błąd wyświetlania przez pasek postępu czasu trwania 0:00, gdy aplikacja była uruchamiana po raz pierwszy."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "11 września 2026",
+      "desc": "Kompleksowa internacjonalizacja i lokalizacja całej aplikacji i strony internetowej.",
+      "new": "Nowość",
+      "langTitle": "11 Globalnych języków",
+      "langDesc": "Dodano pełne wsparcie dla języka hiszpańskiego, francuskiego, niemieckiego, portugalskiego, włoskiego, japońskiego, koreańskiego, chińskiego, hindi, rosyjskiego i arabskiego.",
+      "pickerTitle": "Przełącznik języka w aplikacji",
+      "pickerDesc": "Dodano przełącznik języka w aplikacji w menu Preferencji, który natychmiast stosuje tłumaczenia bez restartowania aplikacji.",
+      "osTitle": "Integracja na poziomie systemu operacyjnego",
+      "osDesc": "Natywne integracje z językiem systemu w Android 13+ i iOS do automatycznej synchronizacji języka aplikacji."
+    },
+    "v1_0_6": {
+      "version": "v1.0.6",
+      "date": "11 września 2026",
+      "desc": "Hotfix dla nowych instalacji.",
+      "fixed": "Naprawiono",
+      "crashTitle": "Poprawka błędu przy starcie",
+      "crashDesc": "Naprawiono krytyczny błąd powodujący awarię aplikacji na białym ekranie podczas nowej instalacji z powodu braku pliku konfiguracji środowiska."
+    },
+    "v1_0_5": {
+      "version": "v1.0.5",
+      "date": "11 września 2026",
+      "desc": "Płynne odtwarzanie w tle na macOS.",
+      "new": "Nowość",
+      "fixed": "Naprawiono",
+      "appNapTitle": "Odtwarzanie w tle bez przerw",
+      "appNapDesc": "Zapobiegnięto agresywnemu usypianiu odtwarzacza przez funkcję App Nap w macOS, umożliwiając nieprzerwane odtwarzanie kolejki."
+    },
+    "v1_0_4": {
+      "version": "v1.0.4",
+      "date": "11 września 2026",
+      "desc": "Zautomatyzowane wydania i podpisywanie kodu.",
+      "new": "Nowość",
+      "fixed": "Naprawiono",
+      "ciTitle": "Zautomatyzowany przepływ wydań",
+      "ciDesc": "Przepływ pracy GitHub Actions zapewniający spójne kompilacje i podpisywanie kodu na macOS.",
+      "signedTitle": "Podpisane wydania na macOS",
+      "signedDesc": "Oficjalne, podpisane i poświadczone wydania na macOS są teraz dostępne bezpośrednio na stronie internetowej.",
+      "licenseTitle": "Licencja Open Source",
+      "licenseDesc": "Dodano licencję MIT do repozytorium.",
+      "submoduleFix": "Naprawiono konfigurację pobierania submodułów w przepływach pracy CI"
+    },
+    "v1_0_3": {
+      "version": "v1.0.3",
+      "date": "10 września 2026",
+      "desc": "Odtwarzanie w tle i stabilność.",
+      "new": "Nowość",
+      "improved": "Ulepszono",
+      "fixed": "Naprawiono",
+      "hybridEngineTitle": "Hybrydowy silnik odtwarzania",
+      "hybridEngineDesc": "Solidne przetwarzanie w tle i możliwości odtwarzania na ekranie blokady.",
+      "dedupTitle": "Deduplikacja poleceń",
+      "dedupDesc": "Dodano identyfikatory generacji, aby zapobiec nakładaniu się i nieaktualnym poleceniom medialnym przesyłanym przez interfejs WebView.",
+      "queueAdvance": "Kolejka utworów nie przechodziła automatycznie do następnego utworu",
+      "resumeBug": "Zatrzymany utwór nieoczekiwanie wznawiał odtwarzanie podczas przechodzenia z pierwszego planu do PiP lub tła",
+      "precision": "Dokładne raportowanie co do milisekundy obecnej pozycji utworu i czasu odtwarzania",
+      "linter": "Wyeliminowano kilka błędów lintera w IDE i wyczyszczono redundantne pliki"
+    },
+    "v1_0_2": {
+      "version": "v1.0.2",
+      "date": "9 września 2026",
+      "desc": "Inteligentniejsze, oparte na kontekście autoodtwarzanie.",
+      "autoplayContextTitle": "Kontekstowe autoodtwarzanie",
+      "autoplayContextDesc": "Autoodtwarzanie traktuje teraz priorytetowo utwory bieżącego artysty przed dodaniem do kolejki powiązanych artystów.",
+      "tieredRecsTitle": "Warstwowy silnik rekomendacji",
+      "tieredRecsDesc": "Rekomendacje wykorzystują teraz ściśle katalog docelowego artysty zamiast rozmytego wyszukiwania po nazwie."
+    },
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "9 września 2026",
+      "desc": "Lepsze wrażenia ze słuchania.",
+      "new": "Nowość",
+      "improved": "Ulepszono",
+      "fixed": "Naprawiono",
+      "autoplayTitle": "Autoodtwarzanie",
+      "autoplayDesc": "Muzyka gra dalej dzięki rekomendacjom opartym na tym, czego słuchasz.",
+      "discoverTitle": "Odkrywaj",
+      "discoverDesc": "Odkrywaj muzykę na podstawie swojej historii odtwarzania, ulubionych artystów i playlist.",
+      "tooltipsTitle": "Interaktywne dymki na pasku postępu",
+      "tooltipsDesc": "Dodano dynamiczne dymki, które idealnie podążają za kursorem myszy podczas najechania na pasek postępu.",
+      "startup": "Szybsze uruchamianie",
+      "recovery": "Lepsze wznawianie odtwarzania",
+      "macosMedia": "Ulepszone sterowanie mediami na macOS",
+      "duplicateMedia": "Podwójne kontrolki mediów na macOS",
+      "stationHighlight": "Podświetlanie aktywnego utworu na stacji radiowej",
+      "seekbarPause": "Odtwarzanie zatrzymywało/pauzowało nieoczekiwanie podczas przeciągania paska postępu",
+      "bottomBar": "Dolny pasek odtwarzacza na macOS stawał się całkowicie przezroczysty i nieczytelny podczas odtwarzania muzyki"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "Wrzesień 2026",
+      "desc": "Pierwsze wydanie PPPlayer.",
+      "spotify": "Metadane muzyczne wspierane przez Spotify",
+      "youtube": "Odtwarzanie audio wspierane przez YouTube",
+      "playlists": "Playlisty, ulubione i historia słuchania",
+      "platforms": "Wsparcie dla macOS, Windows i Linux"
+    }
+  },
+  "support": {
+    "title": "Wsparcie",
+    "subtitle": "Jak możemy Ci pomóc?",
+    "contactTitle": "Skontaktuj się z nami",
+    "contactDesc": "W przypadku zapytań ogólnych, partnerstw lub pytań nienadających się na GitHuba, skontaktuj się z nami pod adresem contact@ppplayer.com.",
+    "githubTitle": "Społeczność i GitHub",
+    "githubDesc": "Odkrywaj kod, zgłaszaj błędy, proponuj funkcje lub twórz kod i tłumaczenia. Dołącz do nas w budowaniu najlepszego otwartoźródłowego odtwarzacza muzyki.",
+    "githubBtn": "Zobacz na GitHubie"
+  },
+  "openSource": {
+    "badge": "Darmowe i open source",
+    "title": "Przez społeczność. Dla społeczności.",
+    "desc": "PPPlayer jest dumnie oprogramowaniem open-source. Badaj kod, zgłaszaj problemy, sugeruj funkcje lub twórz własny kod. Każdy wkład poprawia wrażenia ze słuchania dla wszystkich.",
+    "source": "Zobacz kod na GitHubie",
+    "contribute": "Współtwórz",
+    "issues": "Zgłoś błąd",
+    "license": "Licencja MIT"
+  }
+}

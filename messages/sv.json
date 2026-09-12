@@ -1,0 +1,417 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer | Gratis musikspelare med öppen källkod",
+    "homeDesc": "En gratis musikspelare med öppen källkod. Inget konto. Ingen prenumeration. Bara spela.",
+    "downloadTitle": "Ladda ner PPPlayer gratis",
+    "downloadDesc": "En gratis musikspelare med öppen källkod. Inget konto. Ingen prenumeration. Bara spela.",
+    "privacyTitle": "Integritetspolicy",
+    "privacyDesc": "Integritetspolicy för PPPlayer: gratis musikapp för macOS, Linux, Windows, iOS och Android.",
+    "termsTitle": "Användarvillkor",
+    "termsDesc": "Användarvillkor för PPPlayer: gratis musikapp för macOS, Linux, Windows, iOS och Android.",
+    "supportTitle": "Support - PPPlayer",
+    "supportDesc": "PPPlayer är ett oberoende projekt med öppen källkod. För buggar och funktionsidéer, använd GitHub. För övriga frågor, maila contact@ppplayer.com."
+  },
+  "nav": {
+    "features": "Funktioner",
+    "download": "Ladda ner gratis",
+    "support": "Support",
+    "contribute": "Bidra"
+  },
+  "footer": {
+    "desc": "En gratis musikspelare med öppen källkod. Inget konto. Ingen prenumeration. Bara spela.",
+    "product": "Produkt",
+    "features": "Funktioner",
+    "download": "Ladda ner",
+    "platforms": "Plattformar",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Socialt",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Juridiskt",
+    "privacy": "Integritet",
+    "terms": "Villkor",
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "Visa källkod på GitHub",
+    "contribute": "Bidra",
+    "changelog": "Ändringslogg",
+    "linux": "Linux"
+  },
+  "cookie": {
+    "title": "Vi värdesätter din integritet",
+    "desc": "Vi använder cookies för att analysera webbplatstrafik och förbättra din upplevelse. Genom att klicka på \"Acceptera\" samtycker du till vår användning av cookies.",
+    "decline": "Avvisa alla",
+    "accept": "Acceptera alla"
+  },
+  "hero": {
+    "title1": "Musik.",
+    "title2": "Utan friktion.",
+    "desc": "En gratis musikspelare med öppen källkod. Inget konto. Ingen prenumeration. Bara spela.",
+    "getIos": "Hämta för iOS",
+    "getAndroid": "Hämta för Android",
+    "getMac": "Hämta för Mac",
+    "getWindows": "Hämta för Windows",
+    "getLinux": "Hämta för Linux",
+    "badge": "Gratis & öppen källkod",
+    "source": "Visa källkod på GitHub"
+  },
+  "discover": {
+    "title": "Hitta<br></br>något<br></br>värt att spela."
+  },
+  "artistRadio": {
+    "title": "Ändlöst lyssnande."
+  },
+  "goDeeper": {
+    "bgText": "FÖLJ",
+    "title": "Följ musiken."
+  },
+  "pressPlay": {
+    "title": "Sedan är det bara att trycka på spela."
+  },
+  "featureGallery": {
+    "title": "Allt du behöver.",
+    "subtitle": "En vacker, inbyggd upplevelse byggd för prestanda.",
+    "searchTitle": "Hitta precis det du vill ha.",
+    "searchDesc": "Sök globalt över spår, artister och album direkt.",
+    "queueTitle": "Perfekt köad.",
+    "queueDesc": "Hantera vad som spelas härnäst med en vacker, omordningsbar kö.",
+    "favTitle": "Din musik, dina regler.",
+    "favDesc": "Bygg ditt personliga bibliotek med ett klick. Alltid där.",
+    "contextTitle": "Inbyggt genom design.",
+    "contextDesc": "Högerklicka var som helst. Vackra, kontextmedvetna inbyggda menyer."
+  },
+  "noAccount": {
+    "title": "Inget konto.",
+    "subtitle": "Gratis & öppen källkod"
+  },
+  "platforms": {
+    "title": "Din musik. Dina enheter.",
+    "subtitle": "Vackert inbyggt på macOS, Linux, Windows, Android och iOS."
+  },
+  "downloadCTA": {
+    "title": "Bara spela.",
+    "getIos": "Hämta för iOS",
+    "getAndroid": "Hämta för Android",
+    "getMac": "Hämta för Mac",
+    "getWindows": "Hämta för Windows",
+    "notAvailable": "Inte tillgängligt ännu. För närvarande är endast macOS-versionen tillgänglig för nedladdning.",
+    "notAvailableTitle": "Kommer snart",
+    "okayBtn": "Okej",
+    "getLinux": "Hämta för Linux"
+  },
+  "downloadPage": {
+    "badge": "PPPlayer 1.0 är nu tillgänglig",
+    "title": "Ladda ner <gradient>PPPlayer</gradient>",
+    "subtitle": "Välj din plattform. Börja lyssna på några sekunder.",
+    "desc": "Inget konto krävs. Ingen e-post. Ingen registrering. Bara musik.",
+    "windowsReqLabel": "Windows systemkrav:",
+    "windowsReqDesc": "Windows 10 eller senare (64-bitars). ~50 MB nedladdning. Ingen Microsoft Store krävs."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Vanliga <gradient>frågor</gradient>",
+    "subtitle": "Allt du behöver veta om PPPlayer.",
+    "items": [
+      {
+        "q": "Är PPPlayer gratis?",
+        "a": "Ja. PPPlayer är 100% gratis. Inga prenumerationer, inga köp i appen och inga dolda kostnader."
+      },
+      {
+        "q": "Måste jag skapa ett konto?",
+        "a": "Nej. Du behöver ingen e-postadress, inget konto eller inloggning av något slag. Det är bara att ladda ner, öppna och börja lyssna."
+      },
+      {
+        "q": "Finns PPPlayer tillgängligt för iPhone?",
+        "a": "Ja. PPPlayer finns i App Store för iPhone och iPad."
+      },
+      {
+        "q": "Finns PPPlayer tillgängligt för Android?",
+        "a": "Ja. Du kan ladda ner PPPlayer på Google Play för Android-telefoner och -surfplattor."
+      },
+      {
+        "q": "Kan jag använda PPPlayer på Windows?",
+        "a": "Ja. PPPlayer är tillgängligt för Windows 10 och senare som en direkt nedladdning. Ingen butik krävs."
+      },
+      {
+        "q": "Vilka musikfunktioner erbjuder PPPlayer?",
+        "a": "PPPlayer inkluderar artistupptäckt, relaterade artister, artistradio, artistspellistor, genreutforskning och en vacker fullskärmsspelare. Det är helt gratis och inget konto krävs."
+      },
+      {
+        "q": "Hur laddar jag ner PPPlayer?",
+        "a": "Tryck på nedladdningsknappen för din plattform på den här sidan. Nedladdningen tar mindre än en minut."
+      },
+      {
+        "q": "Finns det en premiumversion?",
+        "a": "Nej. PPPlayer är helt gratis. Allt du ser är tillgängligt utan kostnad, utan något konto som behövs."
+      }
+    ],
+    "openSourceQuestion": "Är PPPlayer öppen källkod?",
+    "openSourceAnswer": "Ja. PPPlayer är till 100% öppen källkod under MIT-licensen. Du kan använda, studera, ändra och dela programvaran fritt. Kolla in vårt GitHub-förråd för att se källkoden eller engagera dig."
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "lastUpdated": "Senast uppdaterad: April 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Översikt",
+        "p": "PPPlayer (\"vi\", \"vår\", \"appen\") har åtagit sig att skydda din integritet. Denna policy förklarar vilken data vi samlar in, varför, och hur den används när du använder PPPlayer på macOS, Linux, Windows, iOS eller Android."
+      },
+      "s2": {
+        "title": "2. Inget konto krävs",
+        "p": "PPPlayer kräver inte att du skapar ett konto. Vi samlar inte in ditt namn, din e-postadress eller någon personligt identifierbar information för att använda appen."
+      },
+      "s3": {
+        "title": "3. Data vi samlar in",
+        "p1": "Vi kan samla in följande anonyma, icke-identifierbara data:",
+        "li1": "Kraschrapporter och felloggar (för att förbättra appens stabilitet)",
+        "li2": "Anonym användningsanalys (funktionsanvändning, sessionslängd)",
+        "li3": "Enhetstyp och operativsystemversion",
+        "p2": "Vi samlar inte in: namn, e-postmeddelanden, betalningsinformation eller exakta platsdata."
+      },
+      "s4": {
+        "title": "4. Tredjepartstjänster",
+        "p": "PPPlayer kan använda tredjepartstjänster för musikmetadata och analys. Dessa tjänster har sina egna integritetspolicyer. Vi uppmuntrar dig att granska dem."
+      },
+      "s5": {
+        "title": "5. Datalagring",
+        "p": "Anonyma analysdata lagras i högst 12 månader. Kraschloggar raderas efter 90 dagar."
+      },
+      "s6": {
+        "title": "6. Dina rättigheter",
+        "p": "Eftersom vi inte samlar in personuppgifter finns det ingen personlig information att komma åt, exportera eller radera. Om du har frågor, kontakta oss på adressen nedan."
+      },
+      "s7": {
+        "title": "7. Barn",
+        "p": "PPPlayer riktar sig inte till barn under 13 år. Vi samlar inte medvetet in data från barn."
+      },
+      "s8": {
+        "title": "8. Ändringar",
+        "p": "Vi kan uppdatera denna policy från tid till annan. Vi kommer att notera datumet för den senaste uppdateringen högst upp på denna sida."
+      },
+      "s9": {
+        "title": "9. Kontakt",
+        "p": "Frågor om denna policy? Kontakta oss på "
+      }
+    },
+    "back": "← Tillbaka till PPPlayer"
+  },
+  "terms": {
+    "title": "Användarvillkor",
+    "lastUpdated": "Senast uppdaterad: 11 september 2026",
+    "sections": {
+      "s1": {
+        "title": "1. Godkännande av villkor",
+        "p": "Genom att ladda ner eller använda PPPlayer godkänner du dessa användarvillkor. Om du inte håller med, vänligen använd inte appen."
+      },
+      "s2": {
+        "title": "2. Användning av appen",
+        "p": "PPPlayer är en gratis programvara med öppen källkod. Användning, kopiering, modifiering och distribution av programvaran styrs av MIT-licensen i projektförvaret. När du använder appen godkänner du att inte:",
+        "li1": "Ta bort upphovsrätts- eller tillståndsmeddelanden som krävs av de tillämpliga programvarulicenserna",
+        "li2": "Använda appen för att distribuera skadlig kod eller skadligt innehåll",
+        "li3": "Bryta mot tillämpliga lagar eller regler när du använder appen"
+      },
+      "s3": {
+        "title": "3. Inget konto krävs",
+        "p": "PPPlayer kräver inte att ett konto skapas. Du kan använda alla funktioner omedelbart efter nedladdning."
+      },
+      "s4": {
+        "title": "4. Immateriella rättigheter",
+        "p": "PPPlayer-källkoden är tillgänglig under MIT-licensen. Tredjepartsberoenden behåller sina egna licenser. Musik, konstverk och metadata förblir föremål för deras respektive rättigheter och licenser; programvarulicensen beviljar inte rättigheter till det innehållet."
+      },
+      "s5": {
+        "title": "5. Friskrivning från garantier",
+        "p": "PPPlayer tillhandahålls \"i befintligt skick\" utan garanti av något slag, varken uttrycklig eller underförstådd. Vi garanterar inte oavbruten service eller att appen kommer att vara felfri."
+      },
+      "s6": {
+        "title": "6. Ansvarsbegränsning",
+        "p": "I den maximala utsträckning som tillåts enligt lag ska PPPlayer inte hållas ansvarig för några indirekta, tillfälliga, speciella eller följdskador till följd av din användning eller oförmåga att använda appen."
+      },
+      "s7": {
+        "title": "7. Ändringar av villkor",
+        "p": "Vi förbehåller oss rätten att uppdatera dessa villkor när som helst. Fortsatt användning av appen efter ändringar utgör acceptans av de nya villkoren."
+      },
+      "s8": {
+        "title": "8. Kontakt",
+        "p": "Frågor om dessa villkor? Nå oss på "
+      }
+    },
+    "back": "← Tillbaka till PPPlayer"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone & iPad",
+      "desc": "Finns i App Store för iPhone och iPad.",
+      "badge": "App Store"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Finns på Google Play för Android-telefoner och -surfplattor.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Direkt nedladdning för Windows 10 och senare. Ingen butik behövs.",
+      "badge": "Direkt nedladdning"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "Direkt nedladdning för macOS. Apple Silicon och Intel stöds.",
+      "badge": "Direkt nedladdning"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Direkt nedladdning för Linux. AppImage stöds.",
+      "badge": "Direkt nedladdning"
+    }
+  },
+  "changelog": {
+    "title": "Ändringslogg",
+    "subtitle": "Vad är nytt i PPPlayer.",
+    "back": "← Tillbaka till PPPlayer",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "12 september 2026",
+      "desc": "Lade till arabiska och kinesiska lokaliseringar och åtgärdade buggar för storleksändring av macOS.",
+      "added": "Tillagd",
+      "fixed": "Fixad",
+      "localizationTitle": "Lokaliseringsutbyggnad",
+      "localizationDesc": "Lade till arabiska och kinesiska (förenklad och traditionell) lokaliseringar.",
+      "layoutTitle": "Fix för macOS-layout",
+      "layoutDesc": "Åtgärdade ett problem på macOS där YouTube-videospelaren skiftade från mitten när man ändrade storlek på programfönstret."
+    },
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "12 september 2026",
+      "desc": "Åtgärdade uppspelningsfel och polerade sökfältet vid appstart.",
+      "fixed": "Fixad",
+      "snapTitle": "Sökfältsbugg vid uppstart",
+      "snapDesc": "Åtgärdade ett problem där sökfältet direkt snäppte tillbaka till startpositionen när man gled på det direkt efter att appen hade startats.",
+      "durationTitle": "Saknad varaktighet",
+      "durationDesc": "Fixade att sökfältet visade en varaktighet på 0:00 när appen startas för första gången."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "11 september 2026",
+      "desc": "Omfattande internationalisering och lokalisering över hela appen och webbplatsen.",
+      "new": "Ny",
+      "langTitle": "11 Globala Språk",
+      "langDesc": "Lade till fullt stöd för spanska, franska, tyska, portugisiska, italienska, japanska, koreanska, kinesiska, hindi, ryska och arabiska.",
+      "pickerTitle": "Språkväljare I Appen",
+      "pickerDesc": "Lade till en språkväljare i appen i menyn Inställningar som tillämpar översättningar direkt utan att behöva starta om appen.",
+      "osTitle": "Integration på OS-Nivå",
+      "osDesc": "Inbyggda språkintegrationer på operativsystemsnivå på Android 13+ och iOS för att automatiskt synkronisera appens språk."
+    },
+    "v1_0_6": {
+      "version": "v1.0.6",
+      "date": "11 september 2026",
+      "desc": "Snabbkorrigering för nya installationer.",
+      "fixed": "Fixad",
+      "crashTitle": "Fix för uppstartskrasch",
+      "crashDesc": "Åtgärdade en kritisk bugg som fick appen att krascha på en tom skärm vid nya installationer på grund av en saknad miljökonfigurationsfil."
+    },
+    "v1_0_5": {
+      "version": "v1.0.5",
+      "date": "11 september 2026",
+      "desc": "Sömlös bakgrundsuppspelning på macOS.",
+      "new": "Ny",
+      "fixed": "Fixad",
+      "appNapTitle": "Sömlös Bakgrundsuppspelning",
+      "appNapDesc": "Förhindrade macOS App Nap från att aggressivt stänga av spelaren när den var minimerad, vilket gör att kön kan fortsätta oavbrutet."
+    },
+    "v1_0_4": {
+      "version": "v1.0.4",
+      "date": "11 september 2026",
+      "desc": "Automatiserade releaser och kodsignering.",
+      "new": "Ny",
+      "fixed": "Fixad",
+      "ciTitle": "Automatiserad Release-Pipeline",
+      "ciDesc": "GitHub Actions-arbetsflöde för konsekventa byggen och kodsignering för macOS.",
+      "signedTitle": "Signerade macOS-releaser",
+      "signedDesc": "Officiellt signerade och attesterade macOS-releaser är nu tillgängliga direkt på webbplatsen.",
+      "licenseTitle": "Öppen Källkodslicens",
+      "licenseDesc": "Lade till MIT-licens till förvaret.",
+      "submoduleFix": "Åtgärdade konfiguration för utcheckning av undermoduler i CI-arbetsflöden"
+    },
+    "v1_0_3": {
+      "version": "v1.0.3",
+      "date": "10 september 2026",
+      "desc": "Bakgrundsuppspelning och stabilitet.",
+      "new": "Ny",
+      "improved": "Förbättrad",
+      "fixed": "Fixad",
+      "hybridEngineTitle": "Hybrid-Uppspelningsmotor",
+      "hybridEngineDesc": "Robusta funktioner för bakgrundsbearbetning och uppspelning på låsskärmen.",
+      "dedupTitle": "Kommando-Deduplicering",
+      "dedupDesc": "Lade till genererings-ID:n för att förhindra överlappande och inaktuella mediakommandon över WebView-bryggan.",
+      "queueAdvance": "Låtkön går inte automatiskt framåt till nästa spår",
+      "resumeBug": "Pausat spår återupptas oväntat vid överlämning från förgrund till PiP eller bakgrund",
+      "precision": "Noggrann millisekundsprecisionsrapportering för aktuell spårposition och uppspelningslängd",
+      "linter": "Eliminerade flera IDE-linterfel och rensade upp redundanta filer"
+    },
+    "v1_0_2": {
+      "version": "v1.0.2",
+      "date": "9 september 2026",
+      "desc": "Smartare, kontextbaserad autouppspelning.",
+      "autoplayContextTitle": "Kontextmedveten Autouppspelning",
+      "autoplayContextDesc": "Autoplay prioriterar nu spår från den aktuella artisten innan relaterade artister läggs till i kön.",
+      "tieredRecsTitle": "Nivåindelat Rekommendationssystem",
+      "tieredRecsDesc": "Rekommendationer använder nu strikt målartistens katalog istället för suddig sökning efter namn."
+    },
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "9 september 2026",
+      "desc": "En bättre lyssningsupplevelse.",
+      "new": "Ny",
+      "improved": "Förbättrad",
+      "fixed": "Fixad",
+      "autoplayTitle": "Autouppspelning",
+      "autoplayDesc": "Musiken fortsätter med rekommendationer baserade på vad du lyssnar på.",
+      "discoverTitle": "Upptäck",
+      "discoverDesc": "Hitta musik baserat på din lyssningshistorik, favoritartister och spellistor.",
+      "tooltipsTitle": "Interaktiva Verktygstips För Sökfält",
+      "tooltipsDesc": "Lade till dynamiska verktygstips som perfekt följer din muspekare när du håller muspekaren över spelarens förloppsindikator.",
+      "startup": "Snabbare uppstart",
+      "recovery": "Bättre uppspelningsåterställning",
+      "macosMedia": "Förbättrade mediakontroller för macOS",
+      "duplicateMedia": "Dubbla mediakontroller för macOS",
+      "stationHighlight": "Markering av aktivt spår för station",
+      "seekbarPause": "Uppspelning pausades/stoppades oväntat när sökfältet drogs",
+      "bottomBar": "Spelarens nedre fält renderades helt transparent och oläsbart på macOS när du spelade musik"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "September 2026",
+      "desc": "Den första utgåvan av PPPlayer.",
+      "spotify": "Spotify-driven musikmetadata",
+      "youtube": "YouTube-driven ljuduppspelning",
+      "playlists": "Spellistor, favoriter och lyssningshistorik",
+      "platforms": "Stöd för macOS, Windows och Linux"
+    }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Hur kan vi hjälpa dig?",
+    "contactTitle": "Kontakta oss",
+    "contactDesc": "För allmänna förfrågningar, partnerskap eller frågor som inte passar för GitHub är du välkommen att kontakta oss på contact@ppplayer.com.",
+    "githubTitle": "Gemenskap & GitHub",
+    "githubDesc": "Utforska koden, rapportera en bugg, föreslå en funktion eller bidra med kod och översättningar. Var med oss och bygg den ultimata musikspelaren med öppen källkod.",
+    "githubBtn": "Visa på GitHub"
+  },
+  "openSource": {
+    "badge": "Gratis & öppen källkod",
+    "title": "Av gemenskapen. För gemenskapen.",
+    "desc": "PPPlayer är stolt öppen källkod. Utforska kodbasen, rapportera problem, föreslå funktioner eller bidra med din egen kod. Varje bidrag gör lyssningsupplevelsen bättre för alla.",
+    "source": "Visa källkod på GitHub",
+    "contribute": "Bidra",
+    "issues": "Rapportera en bugg",
+    "license": "MIT-licens"
+  }
+}

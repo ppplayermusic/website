@@ -1,0 +1,417 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer | Bezplatný hudební přehrávač s otevřeným zdrojovým kódem",
+    "homeDesc": "Bezplatný hudební přehrávač s otevřeným zdrojovým kódem. Žádný účet. Žádné předplatné. Prostě hrajte.",
+    "downloadTitle": "Stáhnout PPPlayer zdarma",
+    "downloadDesc": "Bezplatný hudební přehrávač s otevřeným zdrojovým kódem. Žádný účet. Žádné předplatné. Prostě hrajte.",
+    "privacyTitle": "Zásady ochrany osobních údajů",
+    "privacyDesc": "Zásady ochrany osobních údajů pro PPPlayer: bezplatná hudební aplikace pro macOS, Linux, Windows, iOS a Android.",
+    "termsTitle": "Podmínky služby",
+    "termsDesc": "Podmínky služby pro PPPlayer: bezplatná hudební aplikace pro macOS, Linux, Windows, iOS a Android.",
+    "supportTitle": "Podpora - PPPlayer",
+    "supportDesc": "PPPlayer je nezávislý projekt s otevřeným zdrojovým kódem. Pro chyby a nápady na funkce použijte GitHub. V případě dalších dotazů zašlete e-mail na adresu contact@ppplayer.com."
+  },
+  "nav": {
+    "features": "Funkce",
+    "download": "Stáhnout zdarma",
+    "support": "Podpora",
+    "contribute": "Přispět"
+  },
+  "footer": {
+    "desc": "Bezplatný hudební přehrávač s otevřeným zdrojovým kódem. Žádný účet. Žádné předplatné. Prostě hrajte.",
+    "product": "Produkt",
+    "features": "Funkce",
+    "download": "Stáhnout",
+    "platforms": "Platformy",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Sociální sítě",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Právní",
+    "privacy": "Soukromí",
+    "terms": "Podmínky",
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "Zobrazit zdrojový kód na GitHubu",
+    "contribute": "Přispět",
+    "changelog": "Seznam změn",
+    "linux": "Linux"
+  },
+  "cookie": {
+    "title": "Ceníme si vašeho soukromí",
+    "desc": "Používáme soubory cookie k analýze návštěvnosti webu a vylepšení vašeho zážitku. Kliknutím na \"Přijmout\" souhlasíte s používáním souborů cookie.",
+    "decline": "Odmítnout vše",
+    "accept": "Přijmout vše"
+  },
+  "hero": {
+    "title1": "Hudba.",
+    "title2": "Bez tření.",
+    "desc": "Bezplatný hudební přehrávač s otevřeným zdrojovým kódem. Žádný účet. Žádné předplatné. Prostě hrajte.",
+    "getIos": "Získat pro iOS",
+    "getAndroid": "Získat pro Android",
+    "getMac": "Získat pro Mac",
+    "getWindows": "Získat pro Windows",
+    "getLinux": "Získat pro Linux",
+    "badge": "Zdarma a s otevřeným zdrojovým kódem",
+    "source": "Zobrazit zdrojový kód na GitHubu"
+  },
+  "discover": {
+    "title": "Najděte<br></br>něco<br></br>co stojí za to hrát."
+  },
+  "artistRadio": {
+    "title": "Nekonečný poslech."
+  },
+  "goDeeper": {
+    "bgText": "SLEDOVAT",
+    "title": "Následujte hudbu."
+  },
+  "pressPlay": {
+    "title": "Pak prostě stiskněte play."
+  },
+  "featureGallery": {
+    "title": "Vše, co potřebujete.",
+    "subtitle": "Krásný, nativní zážitek vytvořený pro výkon.",
+    "searchTitle": "Najděte přesně to, co chcete.",
+    "searchDesc": "Okamžitě prohledávejte globálně skladby, umělce a alba.",
+    "queueTitle": "Dokonale seřazené.",
+    "queueDesc": "Spravujte, co se bude hrát dál, pomocí krásné, uspořádatelné fronty.",
+    "favTitle": "Vaše hudba, vaše pravidla.",
+    "favDesc": "Vytvořte si osobní knihovnu jedním kliknutím. Vždy tam.",
+    "contextTitle": "Nativní od návrhu.",
+    "contextDesc": "Klikněte pravým tlačítkem kamkoli. Krásné, kontextové nativní nabídky."
+  },
+  "noAccount": {
+    "title": "Žádný účet.",
+    "subtitle": "Zdarma a s otevřeným zdrojovým kódem"
+  },
+  "platforms": {
+    "title": "Vaše hudba. Vaše zařízení.",
+    "subtitle": "Krásně nativní na macOS, Linux, Windows, Android a iOS."
+  },
+  "downloadCTA": {
+    "title": "Prostě hrajte.",
+    "getIos": "Získat pro iOS",
+    "getAndroid": "Získat pro Android",
+    "getMac": "Získat pro Mac",
+    "getWindows": "Získat pro Windows",
+    "notAvailable": "Zatím není k dispozici. V současné době je ke stažení k dispozici pouze verze pro macOS.",
+    "notAvailableTitle": "Již brzy",
+    "okayBtn": "Dobře",
+    "getLinux": "Získat pro Linux"
+  },
+  "downloadPage": {
+    "badge": "PPPlayer 1.0 je nyní k dispozici",
+    "title": "Stáhnout <gradient>PPPlayer</gradient>",
+    "subtitle": "Vyberte si platformu. Začněte poslouchat během několika sekund.",
+    "desc": "Není vyžadován žádný účet. Žádný e-mail. Žádná registrace. Prostě hudba.",
+    "windowsReqLabel": "Systémové požadavky Windows:",
+    "windowsReqDesc": "Windows 10 nebo novější (64-bit). Stažení ~50 MB. Není vyžadován Microsoft Store."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Časté <gradient>dotazy</gradient>",
+    "subtitle": "Vše, co potřebujete vědět o PPPlayeru.",
+    "items": [
+      {
+        "q": "Je PPPlayer zdarma?",
+        "a": "Ano. PPPlayer je 100% zdarma. Žádná předplatná, žádné nákupy v aplikaci a žádné skryté náklady."
+      },
+      {
+        "q": "Musím si vytvořit účet?",
+        "a": "Ne. Nepotřebujete e-mailovou adresu, účet ani žádné přihlášení. Stačí stáhnout, otevřít a začít poslouchat."
+      },
+      {
+        "q": "Je PPPlayer k dispozici pro iPhone?",
+        "a": "Ano. PPPlayer je k dispozici v App Store pro iPhone a iPad."
+      },
+      {
+        "q": "Je PPPlayer k dispozici pro Android?",
+        "a": "Ano. PPPlayer si můžete stáhnout na Google Play pro telefony a tablety s Androidem."
+      },
+      {
+        "q": "Mohu použít PPPlayer ve Windows?",
+        "a": "Ano. PPPlayer je k dispozici pro Windows 10 a novější jako přímé stažení. Není vyžadován žádný obchod."
+      },
+      {
+        "q": "Jaké hudební funkce nabízí PPPlayer?",
+        "a": "PPPlayer zahrnuje objevování umělců, související umělce, rádio umělců, seznamy skladeb umělců, zkoumání žánrů a krásný přehrávač přes celou obrazovku. Vše je zdarma a není vyžadován žádný účet."
+      },
+      {
+        "q": "Jak stáhnu PPPlayer?",
+        "a": "Klepněte na tlačítko stahování pro vaši platformu na této stránce. Stažení trvá méně než minutu."
+      },
+      {
+        "q": "Existuje prémiová verze?",
+        "a": "Ne. PPPlayer je plně zdarma. Vše, co vidíte, je k dispozici bez jakýchkoli nákladů, bez nutnosti účtu."
+      }
+    ],
+    "openSourceQuestion": "Je PPPlayer s otevřeným zdrojovým kódem?",
+    "openSourceAnswer": "Ano. PPPlayer je 100% open-source pod licencí MIT. Software můžete volně používat, studovat, upravovat a sdílet. Podívejte se na naše úložiště GitHub a prohlédněte si zdrojový kód nebo se zapojte."
+  },
+  "privacy": {
+    "title": "Zásady ochrany osobních údajů",
+    "lastUpdated": "Naposledy aktualizováno: Duben 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Přehled",
+        "p": "PPPlayer (dále jen \"my\", \"naše\", \"aplikace\") se zavazuje chránit vaše soukromí. Tyto zásady vysvětlují, jaká data shromažďujeme, proč a jak jsou používána, když používáte PPPlayer na macOS, Linux, Windows, iOS nebo Android."
+      },
+      "s2": {
+        "title": "2. Není vyžadován žádný účet",
+        "p": "PPPlayer nevyžaduje vytvoření účtu. K používání aplikace neshromažďujeme vaše jméno, e-mailovou adresu ani žádné osobně identifikovatelné informace."
+      },
+      "s3": {
+        "title": "3. Data, která shromažďujeme",
+        "p1": "Můžeme shromažďovat následující anonymní, neidentifikovatelná data:",
+        "li1": "Zprávy o selhání a protokoly chyb (ke zlepšení stability aplikace)",
+        "li2": "Anonymní analytika používání (používání funkcí, doba trvání relace)",
+        "li3": "Typ zařízení a verze operačního systému",
+        "p2": "Neshromažďujeme: jména, e-maily, platební údaje ani přesná data o poloze."
+      },
+      "s4": {
+        "title": "4. Služby třetích stran",
+        "p": "PPPlayer může používat služby třetích stran pro metadata a analýzu hudby. Tyto služby mají své vlastní zásady ochrany osobních údajů. Doporučujeme vám si je přečíst."
+      },
+      "s5": {
+        "title": "5. Uchovávání dat",
+        "p": "Anonymní analytická data jsou uchovávána po dobu maximálně 12 měsíců. Protokoly selhání jsou smazány po 90 dnech."
+      },
+      "s6": {
+        "title": "6. Vaše práva",
+        "p": "Protože neshromažďujeme osobní údaje, neexistují žádné osobní údaje, ke kterým byste mohli přistupovat, exportovat je nebo je mazat. Máte-li dotazy, kontaktujte nás na níže uvedené adrese."
+      },
+      "s7": {
+        "title": "7. Děti",
+        "p": "PPPlayer není určen dětem mladším 13 let. Záměrně neshromažďujeme data od dětí."
+      },
+      "s8": {
+        "title": "8. Změny",
+        "p": "Tyto zásady můžeme čas od času aktualizovat. Datum poslední aktualizace uvedeme v horní části této stránky."
+      },
+      "s9": {
+        "title": "9. Kontakt",
+        "p": "Máte dotazy k těmto zásadám? Kontaktujte nás na "
+      }
+    },
+    "back": "← Zpět na PPPlayer"
+  },
+  "terms": {
+    "title": "Podmínky služby",
+    "lastUpdated": "Naposledy aktualizováno: 11. září 2026",
+    "sections": {
+      "s1": {
+        "title": "1. Přijetí podmínek",
+        "p": "Stažením nebo používáním PPPlayeru souhlasíte s těmito Podmínkami služby. Pokud nesouhlasíte, aplikaci prosím nepoužívejte."
+      },
+      "s2": {
+        "title": "2. Používání aplikace",
+        "p": "PPPlayer je bezplatný open-source software. Používání, kopírování, úpravy a distribuce softwaru se řídí licencí MIT v úložišti projektu. Při používání aplikace souhlasíte s tím, že nebudete:",
+        "li1": "Odstraňovat autorská práva nebo upozornění na oprávnění vyžadovaná příslušnými softwarovými licencemi",
+        "li2": "Používat aplikaci k distribuci malwaru nebo škodlivého obsahu",
+        "li3": "Porušovat jakékoli platné zákony nebo předpisy při používání aplikace"
+      },
+      "s3": {
+        "title": "3. Není vyžadován žádný účet",
+        "p": "PPPlayer nevyžaduje vytvoření účtu. Všechny funkce můžete používat ihned po stažení."
+      },
+      "s4": {
+        "title": "4. Duševní vlastnictví",
+        "p": "Zdrojový kód PPPlayer je k dispozici pod licencí MIT. Závislosti třetích stran si ponechávají své vlastní licence. Hudba, umělecká díla a metadata zůstávají předmětem jejich příslušných práv a licencí; softwarová licence neposkytuje práva k tomuto obsahu."
+      },
+      "s5": {
+        "title": "5. Zřeknutí se záruk",
+        "p": "PPPlayer je poskytován \"tak, jak je\", bez záruky jakéhokoli druhu, výslovné nebo předpokládané. Nezaručujeme nepřetržitou službu nebo že aplikace bude bez chyb."
+      },
+      "s6": {
+        "title": "6. Omezení odpovědnosti",
+        "p": "V maximálním rozsahu povoleném zákonem nenese PPPlayer odpovědnost za žádné nepřímé, náhodné, zvláštní nebo následné škody vyplývající z vašeho používání nebo nemožnosti používat aplikaci."
+      },
+      "s7": {
+        "title": "7. Změny podmínek",
+        "p": "Vyhrazujeme si právo tyto podmínky kdykoli aktualizovat. Pokračující používání aplikace po změnách představuje přijetí nových podmínek."
+      },
+      "s8": {
+        "title": "8. Kontakt",
+        "p": "Máte dotazy k těmto podmínkám? Kontaktujte nás na "
+      }
+    },
+    "back": "← Zpět na PPPlayer"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone a iPad",
+      "desc": "K dispozici v App Store pro iPhone a iPad.",
+      "badge": "App Store"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "K dispozici na Google Play pro telefony a tablety se systémem Android.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Přímé stažení pro Windows 10 a novější. Není nutný žádný obchod.",
+      "badge": "Přímé stažení"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "Přímé stažení pro macOS. Podporováno Apple Silicon a Intel.",
+      "badge": "Přímé stažení"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Přímé stažení pro Linux. Podporováno AppImage.",
+      "badge": "Přímé stažení"
+    }
+  },
+  "changelog": {
+    "title": "Seznam změn",
+    "subtitle": "Co je nového v PPPlayeru.",
+    "back": "← Zpět na PPPlayer",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "12. září 2026",
+      "desc": "Přidána arabská a čínská lokalizace a opraveny chyby při změně velikosti v macOS.",
+      "added": "Přidáno",
+      "fixed": "Opraveno",
+      "localizationTitle": "Rozšíření lokalizace",
+      "localizationDesc": "Přidána arabská a čínská (zjednodušená a tradiční) lokalizace.",
+      "layoutTitle": "Oprava rozložení pro macOS",
+      "layoutDesc": "Opraven problém v systému macOS, kdy se přehrávač videa YouTube posunul mimo střed při změně velikosti okna aplikace."
+    },
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "12. září 2026",
+      "desc": "Opraveny chyby přehrávání a vylepšen vyhledávací panel při spuštění aplikace.",
+      "fixed": "Opraveno",
+      "snapTitle": "Chyba vyhledávacího panelu při spuštění",
+      "snapDesc": "Opraven problém, kdy se vyhledávací panel okamžitě vrátil do výchozí polohy, když byl posunut ihned po spuštění aplikace.",
+      "durationTitle": "Chybějící doba trvání",
+      "durationDesc": "Opraveno zobrazení doby trvání 0:00 ve vyhledávacím panelu při prvním spuštění aplikace."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "11. září 2026",
+      "desc": "Komplexní internacionalizace a lokalizace v celé aplikaci a na webu.",
+      "new": "Nové",
+      "langTitle": "11 globálních jazyků",
+      "langDesc": "Přidána plná podpora pro španělštinu, francouzštinu, němčinu, portugalštinu, italštinu, japonštinu, korejštinu, čínštinu, hindštinu, ruštinu a arabštinu.",
+      "pickerTitle": "Výběr jazyka v aplikaci",
+      "pickerDesc": "Přidán výběr jazyka v aplikaci v nabídce Předvolby, který aplikuje překlady okamžitě bez nutnosti restartování aplikace.",
+      "osTitle": "Integrace na úrovni OS",
+      "osDesc": "Nativní integrace jazyků na úrovni operačního systému v Androidu 13+ a iOS pro automatickou synchronizaci jazyka aplikace."
+    },
+    "v1_0_6": {
+      "version": "v1.0.6",
+      "date": "11. září 2026",
+      "desc": "Hotfix pro nové instalace.",
+      "fixed": "Opraveno",
+      "crashTitle": "Oprava selhání při spuštění",
+      "crashDesc": "Opravena kritická chyba, která způsobovala selhání aplikace na prázdné obrazovce při nových instalacích kvůli chybějícímu konfiguračnímu souboru prostředí."
+    },
+    "v1_0_5": {
+      "version": "v1.0.5",
+      "date": "11. září 2026",
+      "desc": "Plynulé přehrávání na pozadí v macOS.",
+      "new": "Nové",
+      "fixed": "Opraveno",
+      "appNapTitle": "Přehrávání bez mezer na pozadí",
+      "appNapDesc": "Zabráněno agresivnímu pozastavení přehrávače systémem macOS App Nap, když je minimalizován, což umožňuje frontě pokračovat bez přerušení."
+    },
+    "v1_0_4": {
+      "version": "v1.0.4",
+      "date": "11. září 2026",
+      "desc": "Automatizovaná vydání a podepisování kódu.",
+      "new": "Nové",
+      "fixed": "Opraveno",
+      "ciTitle": "Automatizovaný kanál vydání",
+      "ciDesc": "Pracovní postup GitHub Actions pro konzistentní sestavování a podepisování kódu macOS.",
+      "signedTitle": "Podepsaná vydání macOS",
+      "signedDesc": "Oficiální podepsaná a notářsky ověřená vydání pro macOS jsou nyní k dispozici přímo na webu.",
+      "licenseTitle": "Open Source Licence",
+      "licenseDesc": "Do úložiště byla přidána licence MIT.",
+      "submoduleFix": "Opravena konfigurace pokladny podmodulů v pracovních postupech CI"
+    },
+    "v1_0_3": {
+      "version": "v1.0.3",
+      "date": "10. září 2026",
+      "desc": "Přehrávání na pozadí a stabilita.",
+      "new": "Nové",
+      "improved": "Vylepšeno",
+      "fixed": "Opraveno",
+      "hybridEngineTitle": "Hybridní přehrávací engine",
+      "hybridEngineDesc": "Robustní možnosti zpracování na pozadí a přehrávání na zamykací obrazovce.",
+      "dedupTitle": "Deduplikace příkazů",
+      "dedupDesc": "Přidána ID generování, aby se zabránilo překrývajícím se a zastaralým mediálním příkazům přes most WebView.",
+      "queueAdvance": "Fronta skladeb se automaticky neposouvá na další skladbu",
+      "resumeBug": "Pozastavená skladba se neočekávaně obnoví při přechodu z popředí do PiP nebo na pozadí",
+      "precision": "Přesné hlášení aktuální pozice skladby a doby přehrávání s přesností na milisekundy",
+      "linter": "Odstraněno několik chyb linteru IDE a vyčištěny nadbytečné soubory"
+    },
+    "v1_0_2": {
+      "version": "v1.0.2",
+      "date": "9. září 2026",
+      "desc": "Chytřejší automatické přehrávání založené na kontextu.",
+      "autoplayContextTitle": "Kontextové automatické přehrávání",
+      "autoplayContextDesc": "Automatické přehrávání nyní upřednostňuje skladby od aktuálního umělce před přidáním souvisejících umělců do fronty.",
+      "tieredRecsTitle": "Stupňovitý modul doporučení",
+      "tieredRecsDesc": "Doporučení nyní striktně používají katalog cílového umělce namísto nepřesného vyhledávání podle jména."
+    },
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "9. září 2026",
+      "desc": "Lepší zážitek z poslechu.",
+      "new": "Nové",
+      "improved": "Vylepšeno",
+      "fixed": "Opraveno",
+      "autoplayTitle": "Automatické přehrávání",
+      "autoplayDesc": "Hudba hraje dál díky doporučením založeným na tom, co posloucháte.",
+      "discoverTitle": "Objevujte",
+      "discoverDesc": "Najděte hudbu na základě vaší historie poslechu, oblíbených umělců a seznamů skladeb.",
+      "tooltipsTitle": "Interaktivní popisky vyhledávacího panelu",
+      "tooltipsDesc": "Přidány dynamické popisky, které dokonale sledují kurzor myši při najetí myší na ukazatel průběhu přehrávače.",
+      "startup": "Rychlejší spuštění",
+      "recovery": "Lepší obnova přehrávání",
+      "macosMedia": "Vylepšené ovládání médií v systému macOS",
+      "duplicateMedia": "Duplicitní ovládání médií v systému macOS",
+      "stationHighlight": "Zvýraznění aktivní skladby stanice",
+      "seekbarPause": "Neočekávané pozastavení/zastavení přehrávání při tažení vyhledávacího panelu",
+      "bottomBar": "Spodní lišta přehrávače se v systému macOS při přehrávání hudby vykreslovala jako plně průhledná a nečitelná"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "Září 2026",
+      "desc": "První vydání PPPlayeru.",
+      "spotify": "Hudební metadata využívající Spotify",
+      "youtube": "Přehrávání zvuku s podporou YouTube",
+      "playlists": "Seznamy skladeb, oblíbené položky a historie poslechu",
+      "platforms": "Podpora pro macOS, Windows a Linux"
+    }
+  },
+  "support": {
+    "title": "Podpora",
+    "subtitle": "Jak vám můžeme pomoci?",
+    "contactTitle": "Kontaktujte nás",
+    "contactDesc": "V případě obecných dotazů, partnerství nebo otázek, které nejsou vhodné pro GitHub, nás neváhejte kontaktovat na adrese contact@ppplayer.com.",
+    "githubTitle": "Komunita a GitHub",
+    "githubDesc": "Prozkoumejte kód, nahlaste chybu, navrhněte funkci nebo přispějte kódem a překlady. Připojte se k nám při budování dokonalého hudebního přehrávače s otevřeným zdrojovým kódem.",
+    "githubBtn": "Zobrazit na GitHubu"
+  },
+  "openSource": {
+    "badge": "Zdarma a s otevřeným zdrojovým kódem",
+    "title": "Od komunity. Pro komunitu.",
+    "desc": "PPPlayer je hrdě open-source. Prozkoumejte kódovou základnu, nahlaste problémy, navrhněte funkce nebo přispějte vlastním kódem. Každý příspěvek zlepšuje zážitek z poslechu pro všechny.",
+    "source": "Zobrazit zdrojový kód na GitHubu",
+    "contribute": "Přispět",
+    "issues": "Nahlásit chybu",
+    "license": "MIT licence"
+  }
+}

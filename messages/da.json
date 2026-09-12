@@ -1,0 +1,417 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer | Gratis og open-source musikafspiller",
+    "homeDesc": "En gratis, open-source musikafspiller. Ingen konto. Intet abonnement. Bare spil.",
+    "downloadTitle": "Download PPPlayer Gratis",
+    "downloadDesc": "En gratis, open-source musikafspiller. Ingen konto. Intet abonnement. Bare spil.",
+    "privacyTitle": "Privatlivspolitik",
+    "privacyDesc": "Privatlivspolitik for PPPlayer: gratis musikapp til macOS, Linux, Windows, iOS og Android.",
+    "termsTitle": "Servicevilkår",
+    "termsDesc": "Servicevilkår for PPPlayer: gratis musikapp til macOS, Linux, Windows, iOS og Android.",
+    "supportTitle": "Support - PPPlayer",
+    "supportDesc": "PPPlayer er et uafhængigt, open-source projekt. For fejl og funktionsidéer, brug GitHub. For andre spørgsmål, e-mail contact@ppplayer.com."
+  },
+  "nav": {
+    "features": "Funktioner",
+    "download": "Download Gratis",
+    "support": "Support",
+    "contribute": "Bidrag"
+  },
+  "footer": {
+    "desc": "En gratis, open-source musikafspiller. Ingen konto. Intet abonnement. Bare spil.",
+    "product": "Produkt",
+    "features": "Funktioner",
+    "download": "Download",
+    "platforms": "Platforme",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Socialt",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Juridisk",
+    "privacy": "Privatliv",
+    "terms": "Vilkår",
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "Se kildekode på GitHub",
+    "contribute": "Bidrag",
+    "changelog": "Ændringslog",
+    "linux": "Linux"
+  },
+  "cookie": {
+    "title": "Vi værdsætter dit privatliv",
+    "desc": "Vi bruger cookies til at analysere sidetrafik og forbedre din oplevelse. Ved at klikke på \"Accepter\", giver du samtykke til vores brug af cookies.",
+    "decline": "Afvis Alle",
+    "accept": "Accepter Alle"
+  },
+  "hero": {
+    "title1": "Musik.",
+    "title2": "Uden friktion.",
+    "desc": "En gratis, open-source musikafspiller. Ingen konto. Intet abonnement. Bare spil.",
+    "getIos": "Hent til iOS",
+    "getAndroid": "Hent til Android",
+    "getMac": "Hent til Mac",
+    "getWindows": "Hent til Windows",
+    "getLinux": "Hent til Linux",
+    "badge": "Gratis & open source",
+    "source": "Se kildekode på GitHub"
+  },
+  "discover": {
+    "title": "Find<br></br>noget der<br></br>er værd at spille."
+  },
+  "artistRadio": {
+    "title": "Uendelig lytning."
+  },
+  "goDeeper": {
+    "bgText": "FØLG",
+    "title": "Følg musikken."
+  },
+  "pressPlay": {
+    "title": "Tryk derefter bare afspil."
+  },
+  "featureGallery": {
+    "title": "Alt hvad du har brug for.",
+    "subtitle": "En smuk, indbygget oplevelse bygget til ydeevne.",
+    "searchTitle": "Find præcis hvad du vil have.",
+    "searchDesc": "Søg globalt på tværs af numre, artister og album øjeblikkeligt.",
+    "queueTitle": "Perfekt i kø.",
+    "queueDesc": "Administrer hvad der spilles næste gang med en smuk, omordnerbar kø.",
+    "favTitle": "Din musik, dine regler.",
+    "favDesc": "Byg dit personlige bibliotek med et enkelt klik. Altid der.",
+    "contextTitle": "Indbygget af design.",
+    "contextDesc": "Højreklik overalt. Smukke, kontekstbevidste indbyggede menuer."
+  },
+  "noAccount": {
+    "title": "Ingen konto.",
+    "subtitle": "Gratis & open source"
+  },
+  "platforms": {
+    "title": "Din musik. Dine enheder.",
+    "subtitle": "Smukt indbygget på macOS, Linux, Windows, Android og iOS."
+  },
+  "downloadCTA": {
+    "title": "Bare spil.",
+    "getIos": "Hent til iOS",
+    "getAndroid": "Hent til Android",
+    "getMac": "Hent til Mac",
+    "getWindows": "Hent til Windows",
+    "notAvailable": "Ikke tilgængelig endnu. I øjeblikket er kun macOS-versionen tilgængelig til download.",
+    "notAvailableTitle": "Kommer Snart",
+    "okayBtn": "Okay",
+    "getLinux": "Hent til Linux"
+  },
+  "downloadPage": {
+    "badge": "PPPlayer 1.0 er nu tilgængelig",
+    "title": "Download <gradient>PPPlayer</gradient>",
+    "subtitle": "Vælg din platform. Begynd at lytte på få sekunder.",
+    "desc": "Ingen konto påkrævet. Ingen e-mail. Ingen tilmelding. Bare musik.",
+    "windowsReqLabel": "Windows systemkrav:",
+    "windowsReqDesc": "Windows 10 eller nyere (64-bit). ~50 MB download. Ingen Microsoft Store krævet."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Almindelige <gradient>spørgsmål</gradient>",
+    "subtitle": "Alt hvad du behøver at vide om PPPlayer.",
+    "items": [
+      {
+        "q": "Er PPPlayer gratis?",
+        "a": "Ja. PPPlayer er 100% gratis. Ingen abonnementer, ingen køb i appen og ingen skjulte omkostninger."
+      },
+      {
+        "q": "Skal jeg oprette en konto?",
+        "a": "Nej. Du behøver ikke en e-mailadresse, konto eller login af nogen art. Bare download, åbn og begynd at lytte."
+      },
+      {
+        "q": "Er PPPlayer tilgængelig til iPhone?",
+        "a": "Ja. PPPlayer er tilgængelig i App Store til iPhone og iPad."
+      },
+      {
+        "q": "Er PPPlayer tilgængelig til Android?",
+        "a": "Ja. Du kan downloade PPPlayer på Google Play til Android-telefoner og -tablets."
+      },
+      {
+        "q": "Kan jeg bruge PPPlayer på Windows?",
+        "a": "Ja. PPPlayer er tilgængelig til Windows 10 og nyere som en direkte download. Ingen butik påkrævet."
+      },
+      {
+        "q": "Hvilke musikfunktioner tilbyder PPPlayer?",
+        "a": "PPPlayer inkluderer artistopdagelse, relaterede artister, artistradio, artistplaylister, genreudforskning og en smuk fuldskærmsafspiller. Det er alt sammen gratis, og der kræves ingen konto."
+      },
+      {
+        "q": "Hvordan downloader jeg PPPlayer?",
+        "a": "Tryk på downloadknappen for din platform på denne side. Download tager mindre end et minut."
+      },
+      {
+        "q": "Er der en premium version?",
+        "a": "Nej. PPPlayer er helt gratis. Alt hvad du ser er tilgængeligt uden omkostninger, uden at der kræves nogen konto."
+      }
+    ],
+    "openSourceQuestion": "Er PPPlayer open source?",
+    "openSourceAnswer": "Ja. PPPlayer er 100% open-source under MIT-licensen. Du kan bruge, studere, ændre og dele softwaren frit. Tjek vores GitHub-lager for at se kildekoden eller blive involveret."
+  },
+  "privacy": {
+    "title": "Privatlivspolitik",
+    "lastUpdated": "Sidst opdateret: April 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Oversigt",
+        "p": "PPPlayer (\"vi\", \"vores\", \"appen\") er forpligtet til at beskytte dit privatliv. Denne politik forklarer, hvilke data vi indsamler, hvorfor, og hvordan de bruges, når du bruger PPPlayer på macOS, Linux, Windows, iOS eller Android."
+      },
+      "s2": {
+        "title": "2. Ingen Konto Påkrævet",
+        "p": "PPPlayer kræver ikke, at du opretter en konto. Vi indsamler ikke dit navn, e-mailadresse eller andre personligt identificerbare oplysninger for at bruge appen."
+      },
+      "s3": {
+        "title": "3. Data Vi Indsamler",
+        "p1": "Vi kan indsamle følgende anonyme, ikke-identificerbare data:",
+        "li1": "Nedbrudsrapporter og fejllogfiler (for at forbedre appens stabilitet)",
+        "li2": "Anonyme brugsanalyser (funktionsbrug, sessionsvarighed)",
+        "li3": "Enhedstype og operativsystemversion",
+        "p2": "Vi indsamler ikke: navne, e-mails, betalingsoplysninger eller præcise placeringsdata."
+      },
+      "s4": {
+        "title": "4. Tredjepartstjenester",
+        "p": "PPPlayer kan bruge tredjepartstjenester til musikmetadata og analyse. Disse tjenester har deres egne privatlivspolitikker. Vi opfordrer dig til at gennemgå dem."
+      },
+      "s5": {
+        "title": "5. Dataopbevaring",
+        "p": "Anonyme analysedata opbevares i højst 12 måneder. Nedbrudslogfiler slettes efter 90 dage."
+      },
+      "s6": {
+        "title": "6. Dine Rettigheder",
+        "p": "Da vi ikke indsamler personoplysninger, er der ingen personlige oplysninger at få adgang til, eksportere eller slette. Hvis du har spørgsmål, bedes du kontakte os på adressen nedenfor."
+      },
+      "s7": {
+        "title": "7. Børn",
+        "p": "PPPlayer er ikke rettet mod børn under 13 år. Vi indsamler ikke bevidst data fra børn."
+      },
+      "s8": {
+        "title": "8. Ændringer",
+        "p": "Vi kan opdatere denne politik fra tid til anden. Vi noterer datoen for den seneste opdatering øverst på denne side."
+      },
+      "s9": {
+        "title": "9. Kontakt",
+        "p": "Spørgsmål om denne politik? Kontakt os på "
+      }
+    },
+    "back": "← Tilbage til PPPlayer"
+  },
+  "terms": {
+    "title": "Servicevilkår",
+    "lastUpdated": "Sidst opdateret: 11. september 2026",
+    "sections": {
+      "s1": {
+        "title": "1. Accept af Vilkår",
+        "p": "Ved at downloade eller bruge PPPlayer accepterer du disse Servicevilkår. Hvis du ikke er enig, bedes du ikke bruge appen."
+      },
+      "s2": {
+        "title": "2. Brug af Appen",
+        "p": "PPPlayer er gratis, open-source software. Brug, kopiering, ændring og distribution af softwaren er underlagt MIT-licensen i projektlageret. Når du bruger appen, accepterer du ikke at:",
+        "li1": "Fjerne ophavsrets- eller tilladelsesmeddelelser, der kræves af de gældende softwarelicenser",
+        "li2": "Bruge appen til at distribuere malware eller skadeligt indhold",
+        "li3": "Overtræde gældende love eller regler, mens du bruger appen"
+      },
+      "s3": {
+        "title": "3. Ingen Konto Påkrævet",
+        "p": "PPPlayer kræver ikke kontooprettelse. Du kan bruge alle funktioner umiddelbart efter download."
+      },
+      "s4": {
+        "title": "4. Intellektuel Ejendom",
+        "p": "PPPlayer kildekode er tilgængelig under MIT-licensen. Tredjepartsafhængigheder bevarer deres egne licenser. Musik, illustrationer og metadata forbliver underlagt deres respektive rettigheder og licenser; softwarelicensen giver ikke rettigheder til dette indhold."
+      },
+      "s5": {
+        "title": "5. Ansvarsfraskrivelse for Garantier",
+        "p": "PPPlayer leveres \"som den er\" uden garanti af nogen art, udtrykkelig eller underforstået. Vi garanterer ikke uafbrudt service, eller at appen vil være fejlfri."
+      },
+      "s6": {
+        "title": "6. Ansvarsbegrænsning",
+        "p": "I det maksimale omfang tilladt ved lov skal PPPlayer ikke være ansvarlig for indirekte, hændelige, specielle eller følgeskader, der skyldes din brug eller manglende evne til at bruge appen."
+      },
+      "s7": {
+        "title": "7. Ændringer i Vilkår",
+        "p": "Vi forbeholder os retten til at opdatere disse vilkår til enhver tid. Fortsat brug af appen efter ændringer udgør accept af de nye vilkår."
+      },
+      "s8": {
+        "title": "8. Kontakt",
+        "p": "Spørgsmål om disse vilkår? Kontakt os på "
+      }
+    },
+    "back": "← Tilbage til PPPlayer"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone & iPad",
+      "desc": "Tilgængelig i App Store til iPhone og iPad.",
+      "badge": "App Store"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Tilgængelig på Google Play til Android-telefoner og -tablets.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Direkte download til Windows 10 og nyere. Ingen butik nødvendig.",
+      "badge": "Direkte Download"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "Direkte download til macOS. Apple Silicon & Intel understøttes.",
+      "badge": "Direkte Download"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Direkte download til Linux. AppImage understøttes.",
+      "badge": "Direkte Download"
+    }
+  },
+  "changelog": {
+    "title": "Ændringslog",
+    "subtitle": "Hvad er nyt i PPPlayer.",
+    "back": "← Tilbage til PPPlayer",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "12. september 2026",
+      "desc": "Tilføjede arabiske og kinesiske lokaliseringer og rettede fejl ved ændring af størrelse på macOS.",
+      "added": "Tilføjet",
+      "fixed": "Rettet",
+      "localizationTitle": "Lokaliseringsudvidelse",
+      "localizationDesc": "Tilføjede arabisk og kinesisk (forenklet og traditionelt) lokaliseringer.",
+      "layoutTitle": "macOS Layout Fix",
+      "layoutDesc": "Rettede et problem på macOS, hvor YouTube-videospilleren flyttede sig fra midten, når der blev ændret størrelse på applikationsvinduet."
+    },
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "12. september 2026",
+      "desc": "Rettede afspilningsfejl og polerede søgebaren ved appstart.",
+      "fixed": "Rettet",
+      "snapTitle": "Søgebar fejl ved start",
+      "snapDesc": "Rettede et problem, hvor søgebaren øjeblikkeligt hoppede tilbage til startpositionen, når den blev trukket umiddelbart efter at have startet appen.",
+      "durationTitle": "Manglende varighed",
+      "durationDesc": "Rettede, at søgebaren viste en varighed på 0:00, når appen startes for første gang."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "11. september 2026",
+      "desc": "Omfattende internationalisering og lokalisering på tværs af hele appen og webstedet.",
+      "new": "Ny",
+      "langTitle": "11 Globale sprog",
+      "langDesc": "Tilføjede fuld support for spansk, fransk, tysk, portugisisk, italiensk, japansk, koreansk, kinesisk, hindi, russisk og arabisk.",
+      "pickerTitle": "Sprogvælger i appen",
+      "pickerDesc": "Tilføjede en sprogvælger i appen i menuen Indstillinger, der anvender oversættelser øjeblikkeligt uden at genstarte appen.",
+      "osTitle": "Integration på OS-niveau",
+      "osDesc": "Indfødte integrationer af sprog på OS-niveau på Android 13+ og iOS for at synkronisere appens sprog automatisk."
+    },
+    "v1_0_6": {
+      "version": "v1.0.6",
+      "date": "11. september 2026",
+      "desc": "Hotfix til friske installationer.",
+      "fixed": "Rettet",
+      "crashTitle": "Rettelse af nedbrud ved start",
+      "crashDesc": "Rettede en kritisk fejl, der fik appen til at gå ned på en tom skærm ved friske installationer på grund af en manglende miljøkonfigurationsfil."
+    },
+    "v1_0_5": {
+      "version": "v1.0.5",
+      "date": "11. september 2026",
+      "desc": "Sømløs baggrundsafspilning på macOS.",
+      "new": "Ny",
+      "fixed": "Rettet",
+      "appNapTitle": "Sømløs baggrundsafspilning",
+      "appNapDesc": "Forhindrede macOS App Nap i aggressivt at suspendere afspilleren, når den er minimeret, så køen kan fortsætte uafbrudt."
+    },
+    "v1_0_4": {
+      "version": "v1.0.4",
+      "date": "11. september 2026",
+      "desc": "Automatiserede udgivelser og kodesignering.",
+      "new": "Ny",
+      "fixed": "Rettet",
+      "ciTitle": "Automatiseret udgivelsespipeline",
+      "ciDesc": "GitHub Actions-arbejdsgang til konsekvente builds og macOS-kodesignering.",
+      "signedTitle": "Signerede macOS-udgivelser",
+      "signedDesc": "Officielle signerede og attesterede macOS-udgivelser kan nu hentes direkte på hjemmesiden.",
+      "licenseTitle": "Open Source Licens",
+      "licenseDesc": "Tilføjede MIT-licens til depotet.",
+      "submoduleFix": "Rettede konfiguration for submodule-udtjekning i CI-arbejdsgange"
+    },
+    "v1_0_3": {
+      "version": "v1.0.3",
+      "date": "10. september 2026",
+      "desc": "Baggrundsafspilning og stabilitet.",
+      "new": "Ny",
+      "improved": "Forbedret",
+      "fixed": "Rettet",
+      "hybridEngineTitle": "Hybrid afspilningsmotor",
+      "hybridEngineDesc": "Robuste evner til baggrundsbehandling og afspilning på låseskærm.",
+      "dedupTitle": "Kommando Deduplikering",
+      "dedupDesc": "Tilføjede genererings-ID'er for at forhindre overlappende og forældede mediekommandoer over WebView-broen.",
+      "queueAdvance": "Sangkøen går ikke automatisk videre til næste nummer",
+      "resumeBug": "Pause nummer genoptages uventet ved overdragelse fra forgrund til PiP eller baggrund",
+      "precision": "Nøjagtig rapportering af præcision i millisekunder for nuværende nummerposition og afspilningsvarighed",
+      "linter": "Eliminerede adskillige IDE-linterfejl og ryddede op i overflødige filer"
+    },
+    "v1_0_2": {
+      "version": "v1.0.2",
+      "date": "9. september 2026",
+      "desc": "Smartere, kontekstbaseret autospil.",
+      "autoplayContextTitle": "Kontekstbevidst Autospil",
+      "autoplayContextDesc": "Autospil prioriterer nu numre fra den nuværende kunstner før tilføjelse af relaterede kunstnere til køen.",
+      "tieredRecsTitle": "Trindelt Anbefalingsmotor",
+      "tieredRecsDesc": "Anbefalinger bruger nu strengt målkunstnerens katalog i stedet for usikker søgning efter navn."
+    },
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "9. september 2026",
+      "desc": "En bedre lytteoplevelse.",
+      "new": "Ny",
+      "improved": "Forbedret",
+      "fixed": "Rettet",
+      "autoplayTitle": "Autospil",
+      "autoplayDesc": "Musikken fortsætter med anbefalinger baseret på, hvad du lytter til.",
+      "discoverTitle": "Opdag",
+      "discoverDesc": "Find musik baseret på din lyttehistorik, foretrukne kunstnere og afspilningslister.",
+      "tooltipsTitle": "Interaktive Søgebar-Værktøjstip",
+      "tooltipsDesc": "Tilføjede dynamiske værktøjstip, der perfekt følger din musemarkør, når du holder musen over afspillerens proceslinje.",
+      "startup": "Hurtigere opstart",
+      "recovery": "Bedre genoprettelse af afspilning",
+      "macosMedia": "Forbedrede macOS mediekontroller",
+      "duplicateMedia": "Dobbelt macOS mediekontroller",
+      "stationHighlight": "Fremhævning af stationens aktive nummer",
+      "seekbarPause": "Afspilning, der pauser/stopper uventet, når man trækker i søgebaren",
+      "bottomBar": "Bundens afspillerbjælke blev gengivet helt gennemsigtig og ulæselig på macOS ved musikafspilning"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "September 2026",
+      "desc": "Den første udgivelse af PPPlayer.",
+      "spotify": "Spotify-drevet musikmetadata",
+      "youtube": "YouTube-drevet lydafspilning",
+      "playlists": "Afspilningslister, favoritter og lyttehistorik",
+      "platforms": "macOS, Windows og Linux understøttelse"
+    }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Hvordan kan vi hjælpe dig?",
+    "contactTitle": "Kontakt Os",
+    "contactDesc": "For generelle forespørgsler, partnerskaber eller spørgsmål, der ikke er egnede til GitHub, er du velkommen til at kontakte os på contact@ppplayer.com.",
+    "githubTitle": "Fællesskab & GitHub",
+    "githubDesc": "Udforsk koden, rapporter en fejl, foreslå en funktion, eller bidrag med kode og oversættelser. Slut dig til os i at bygge den ultimative open-source musikafspiller.",
+    "githubBtn": "Se på GitHub"
+  },
+  "openSource": {
+    "badge": "Gratis & open source",
+    "title": "Af fællesskabet. For fællesskabet.",
+    "desc": "PPPlayer er stolt open-source. Udforsk kodebasen, rapporter problemer, foreslå funktioner, eller bidrag med din egen kode. Hvert bidrag gør lytteoplevelsen bedre for alle.",
+    "source": "Se kildekode på GitHub",
+    "contribute": "Bidrag",
+    "issues": "Rapporter en fejl",
+    "license": "MIT licens"
+  }
+}

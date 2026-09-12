@@ -1,0 +1,417 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer | Pemutar Musik Gratis & Open-Source",
+    "homeDesc": "Pemutar musik open-source gratis. Tanpa akun. Tanpa langganan. Putar saja.",
+    "downloadTitle": "Unduh PPPlayer Gratis",
+    "downloadDesc": "Pemutar musik open-source gratis. Tanpa akun. Tanpa langganan. Putar saja.",
+    "privacyTitle": "Kebijakan Privasi",
+    "privacyDesc": "Kebijakan Privasi untuk PPPlayer: aplikasi musik gratis untuk macOS, Linux, Windows, iOS, dan Android.",
+    "termsTitle": "Persyaratan Layanan",
+    "termsDesc": "Persyaratan Layanan untuk PPPlayer: aplikasi musik gratis untuk macOS, Linux, Windows, iOS, dan Android.",
+    "supportTitle": "Dukungan - PPPlayer",
+    "supportDesc": "PPPlayer adalah proyek sumber terbuka independen. Untuk bug dan ide fitur, gunakan GitHub. Untuk pertanyaan lain, kirim email ke contact@ppplayer.com."
+  },
+  "nav": {
+    "features": "Fitur",
+    "download": "Unduh Gratis",
+    "support": "Dukungan",
+    "contribute": "Berkontribusi"
+  },
+  "footer": {
+    "desc": "Pemutar musik open-source gratis. Tanpa akun. Tanpa langganan. Putar saja.",
+    "product": "Produk",
+    "features": "Fitur",
+    "download": "Unduh",
+    "platforms": "Platform",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Sosial",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Hukum",
+    "privacy": "Privasi",
+    "terms": "Persyaratan",
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "Lihat sumber di GitHub",
+    "contribute": "Berkontribusi",
+    "changelog": "Catatan Perubahan",
+    "linux": "Linux"
+  },
+  "cookie": {
+    "title": "Kami menghargai privasi Anda",
+    "desc": "Kami menggunakan cookie untuk menganalisis lalu lintas situs dan meningkatkan pengalaman Anda. Dengan mengeklik \"Terima\", Anda menyetujui penggunaan cookie kami.",
+    "decline": "Tolak Semua",
+    "accept": "Terima Semua"
+  },
+  "hero": {
+    "title1": "Musik.",
+    "title2": "Tanpa hambatan.",
+    "desc": "Pemutar musik open-source gratis. Tanpa akun. Tanpa langganan. Putar saja.",
+    "getIos": "Dapatkan untuk iOS",
+    "getAndroid": "Dapatkan untuk Android",
+    "getMac": "Dapatkan untuk Mac",
+    "getWindows": "Dapatkan untuk Windows",
+    "getLinux": "Dapatkan untuk Linux",
+    "badge": "Gratis & open source",
+    "source": "Lihat sumber di GitHub"
+  },
+  "discover": {
+    "title": "Temukan<br></br>sesuatu<br></br>yang layak didengarkan."
+  },
+  "artistRadio": {
+    "title": "Mendengarkan tanpa henti."
+  },
+  "goDeeper": {
+    "bgText": "IKUTI",
+    "title": "Ikuti musiknya."
+  },
+  "pressPlay": {
+    "title": "Lalu, cukup dengarkan."
+  },
+  "featureGallery": {
+    "title": "Semua yang Anda butuhkan.",
+    "subtitle": "Pengalaman asli yang indah dibangun untuk performa.",
+    "searchTitle": "Temukan apa yang Anda inginkan.",
+    "searchDesc": "Cari secara global di seluruh lagu, artis, dan album secara instan.",
+    "queueTitle": "Antrean yang sempurna.",
+    "queueDesc": "Kelola apa yang diputar selanjutnya dengan antrean indah yang dapat diurutkan ulang.",
+    "favTitle": "Musik Anda, aturan Anda.",
+    "favDesc": "Bangun perpustakaan pribadi Anda dengan satu klik. Selalu ada.",
+    "contextTitle": "Desain native.",
+    "contextDesc": "Klik kanan di mana saja. Menu native yang indah dan sadar konteks."
+  },
+  "noAccount": {
+    "title": "Tanpa akun.",
+    "subtitle": "Gratis & open source"
+  },
+  "platforms": {
+    "title": "Musik Anda. Perangkat Anda.",
+    "subtitle": "Sangat native di macOS, Linux, Windows, Android, dan iOS."
+  },
+  "downloadCTA": {
+    "title": "Putar saja.",
+    "getIos": "Dapatkan untuk iOS",
+    "getAndroid": "Dapatkan untuk Android",
+    "getMac": "Dapatkan untuk Mac",
+    "getWindows": "Dapatkan untuk Windows",
+    "notAvailable": "Belum tersedia. Saat ini, hanya versi macOS yang tersedia untuk diunduh.",
+    "notAvailableTitle": "Segera Hadir",
+    "okayBtn": "Oke",
+    "getLinux": "Dapatkan untuk Linux"
+  },
+  "downloadPage": {
+    "badge": "PPPlayer 1.0 sekarang tersedia",
+    "title": "Unduh <gradient>PPPlayer</gradient>",
+    "subtitle": "Pilih platform Anda. Mulai mendengarkan dalam hitungan detik.",
+    "desc": "Tidak perlu akun. Tanpa email. Tanpa pendaftaran. Hanya musik.",
+    "windowsReqLabel": "Persyaratan sistem Windows:",
+    "windowsReqDesc": "Windows 10 atau lebih baru (64-bit). Unduhan ~50 MB. Tidak diperlukan Microsoft Store."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Pertanyaan <gradient>umum</gradient>",
+    "subtitle": "Semua yang perlu Anda ketahui tentang PPPlayer.",
+    "items": [
+      {
+        "q": "Apakah PPPlayer gratis?",
+        "a": "Ya. PPPlayer 100% gratis. Tanpa langganan, tanpa pembelian dalam aplikasi, dan tanpa biaya tersembunyi."
+      },
+      {
+        "q": "Apakah saya perlu membuat akun?",
+        "a": "Tidak. Anda tidak memerlukan alamat email, akun, atau login apa pun. Cukup unduh, buka, dan mulai mendengarkan."
+      },
+      {
+        "q": "Apakah PPPlayer tersedia untuk iPhone?",
+        "a": "Ya. PPPlayer tersedia di App Store untuk iPhone dan iPad."
+      },
+      {
+        "q": "Apakah PPPlayer tersedia untuk Android?",
+        "a": "Ya. Anda dapat mengunduh PPPlayer di Google Play untuk ponsel dan tablet Android."
+      },
+      {
+        "q": "Dapatkah saya menggunakan PPPlayer di Windows?",
+        "a": "Ya. PPPlayer tersedia untuk Windows 10 dan lebih baru sebagai unduhan langsung. Tidak diperlukan toko aplikasi."
+      },
+      {
+        "q": "Fitur musik apa yang ditawarkan PPPlayer?",
+        "a": "PPPlayer mencakup penemuan artis, artis terkait, radio artis, playlist artis, eksplorasi genre, dan pemutar layar penuh yang indah. Semuanya gratis, dan tidak diperlukan akun."
+      },
+      {
+        "q": "Bagaimana cara mengunduh PPPlayer?",
+        "a": "Ketuk tombol unduh untuk platform Anda di halaman ini. Pengunduhan memakan waktu kurang dari satu menit."
+      },
+      {
+        "q": "Apakah ada versi premium?",
+        "a": "Tidak. PPPlayer sepenuhnya gratis. Semua yang Anda lihat tersedia tanpa biaya, dan tidak perlu akun."
+      }
+    ],
+    "openSourceQuestion": "Apakah PPPlayer open source?",
+    "openSourceAnswer": "Ya. PPPlayer 100% open-source di bawah lisensi MIT. Anda dapat menggunakan, mempelajari, memodifikasi, dan membagikan perangkat lunak ini secara bebas. Kunjungi repositori GitHub kami untuk melihat kode sumber atau berkontribusi."
+  },
+  "privacy": {
+    "title": "Kebijakan Privasi",
+    "lastUpdated": "Terakhir diperbarui: April 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Ikhtisar",
+        "p": "PPPlayer (\"kami\", \"aplikasi\") berkomitmen untuk melindungi privasi Anda. Kebijakan ini menjelaskan data apa yang kami kumpulkan, alasannya, dan bagaimana data tersebut digunakan saat Anda menggunakan PPPlayer di macOS, Linux, Windows, iOS, atau Android."
+      },
+      "s2": {
+        "title": "2. Tidak Perlu Akun",
+        "p": "PPPlayer tidak mengharuskan Anda membuat akun. Kami tidak mengumpulkan nama, alamat email, atau informasi identitas pribadi apa pun dari Anda untuk menggunakan aplikasi."
+      },
+      "s3": {
+        "title": "3. Data yang Kami Kumpulkan",
+        "p1": "Kami dapat mengumpulkan data anonim yang tidak dapat diidentifikasi berikut ini:",
+        "li1": "Laporan kerusakan dan log kesalahan (untuk meningkatkan stabilitas aplikasi)",
+        "li2": "Analitik penggunaan anonim (penggunaan fitur, durasi sesi)",
+        "li3": "Jenis perangkat dan versi sistem operasi",
+        "p2": "Kami tidak mengumpulkan: nama, email, info pembayaran, atau data lokasi yang tepat."
+      },
+      "s4": {
+        "title": "4. Layanan Pihak Ketiga",
+        "p": "PPPlayer dapat menggunakan layanan pihak ketiga untuk metadata musik dan analitik. Layanan ini memiliki kebijakan privasi mereka sendiri. Kami mendorong Anda untuk meninjaunya."
+      },
+      "s5": {
+        "title": "5. Penyimpanan Data",
+        "p": "Data analitik anonim disimpan selama maksimal 12 bulan. Log kerusakan dihapus setelah 90 hari."
+      },
+      "s6": {
+        "title": "6. Hak-hak Anda",
+        "p": "Karena kami tidak mengumpulkan data pribadi, tidak ada informasi pribadi untuk diakses, diekspor, atau dihapus. Jika Anda memiliki pertanyaan, hubungi kami di alamat di bawah ini."
+      },
+      "s7": {
+        "title": "7. Anak-anak",
+        "p": "PPPlayer tidak ditujukan untuk anak di bawah usia 13 tahun. Kami tidak secara sadar mengumpulkan data dari anak-anak."
+      },
+      "s8": {
+        "title": "8. Perubahan",
+        "p": "Kami dapat memperbarui kebijakan ini dari waktu ke waktu. Kami akan mencatat tanggal pembaruan terakhir di bagian atas halaman ini."
+      },
+      "s9": {
+        "title": "9. Kontak",
+        "p": "Pertanyaan tentang kebijakan ini? Hubungi kami di "
+      }
+    },
+    "back": "← Kembali ke PPPlayer"
+  },
+  "terms": {
+    "title": "Persyaratan Layanan",
+    "lastUpdated": "Terakhir diperbarui: 11 September 2026",
+    "sections": {
+      "s1": {
+        "title": "1. Penerimaan Persyaratan",
+        "p": "Dengan mengunduh atau menggunakan PPPlayer, Anda menyetujui Persyaratan Layanan ini. Jika Anda tidak setuju, harap jangan gunakan aplikasi ini."
+      },
+      "s2": {
+        "title": "2. Penggunaan Aplikasi",
+        "p": "PPPlayer adalah perangkat lunak gratis dan open-source. Penggunaan, penyalinan, modifikasi, dan distribusi perangkat lunak diatur oleh lisensi MIT di repositori proyek. Saat menggunakan aplikasi, Anda setuju untuk tidak:",
+        "li1": "Menghapus hak cipta atau pemberitahuan izin yang diwajibkan oleh lisensi perangkat lunak yang berlaku",
+        "li2": "Menggunakan aplikasi untuk mendistribusikan malware atau konten berbahaya",
+        "li3": "Melanggar hukum atau peraturan yang berlaku saat menggunakan aplikasi"
+      },
+      "s3": {
+        "title": "3. Tidak Perlu Akun",
+        "p": "PPPlayer tidak memerlukan pembuatan akun. Anda dapat langsung menggunakan semua fitur setelah mengunduh."
+      },
+      "s4": {
+        "title": "4. Kekayaan Intelektual",
+        "p": "Kode sumber PPPlayer tersedia di bawah lisensi MIT. Dependensi pihak ketiga mempertahankan lisensi mereka sendiri. Musik, karya seni, dan metadata tetap tunduk pada hak dan lisensi masing-masing; lisensi perangkat lunak tidak memberikan hak atas konten tersebut."
+      },
+      "s5": {
+        "title": "5. Penafian Jaminan",
+        "p": "PPPlayer disediakan \"apa adanya\" tanpa jaminan apa pun, tersurat maupun tersirat. Kami tidak menjamin layanan yang tidak terganggu atau bahwa aplikasi akan bebas dari kesalahan."
+      },
+      "s6": {
+        "title": "6. Batasan Tanggung Jawab",
+        "p": "Sejauh yang diizinkan oleh hukum, PPPlayer tidak bertanggung jawab atas kerugian tidak langsung, insidental, khusus, atau konsekuensial yang diakibatkan oleh penggunaan atau ketidakmampuan Anda untuk menggunakan aplikasi."
+      },
+      "s7": {
+        "title": "7. Perubahan Persyaratan",
+        "p": "Kami berhak untuk memperbarui persyaratan ini kapan saja. Terus menggunakan aplikasi setelah perubahan merupakan penerimaan terhadap persyaratan baru."
+      },
+      "s8": {
+        "title": "8. Kontak",
+        "p": "Pertanyaan tentang persyaratan ini? Hubungi kami di "
+      }
+    },
+    "back": "← Kembali ke PPPlayer"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone & iPad",
+      "desc": "Tersedia di App Store untuk iPhone dan iPad.",
+      "badge": "App Store"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Tersedia di Google Play untuk ponsel dan tablet Android.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Unduhan langsung untuk Windows 10 dan lebih baru. Tidak butuh toko aplikasi.",
+      "badge": "Unduhan Langsung"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "Unduhan langsung untuk macOS. Mendukung Apple Silicon & Intel.",
+      "badge": "Unduhan Langsung"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Unduhan langsung untuk Linux. Format AppImage didukung.",
+      "badge": "Unduhan Langsung"
+    }
+  },
+  "changelog": {
+    "title": "Catatan Perubahan",
+    "subtitle": "Apa yang baru di PPPlayer.",
+    "back": "← Kembali ke PPPlayer",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "12 September 2026",
+      "desc": "Menambahkan lokalisasi Bahasa Arab dan Mandarin serta memperbaiki bug pengubahan ukuran di macOS.",
+      "added": "Ditambahkan",
+      "fixed": "Diperbaiki",
+      "localizationTitle": "Ekspansi Lokalisasi",
+      "localizationDesc": "Menambahkan lokalisasi Bahasa Arab dan Mandarin (Disederhanakan & Tradisional).",
+      "layoutTitle": "Perbaikan Tata Letak macOS",
+      "layoutDesc": "Memperbaiki masalah pada macOS di mana pemutar video YouTube bergeser dari tengah saat mengubah ukuran jendela aplikasi."
+    },
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "12 September 2026",
+      "desc": "Memperbaiki bug pemutaran dan menyempurnakan bilah pencarian saat memulai aplikasi.",
+      "fixed": "Diperbaiki",
+      "snapTitle": "Bug Bilah Pencarian",
+      "snapDesc": "Memperbaiki masalah di mana bilah pencarian akan langsung kembali ke posisi awal saat digeser segera setelah meluncurkan aplikasi.",
+      "durationTitle": "Durasi Hilang",
+      "durationDesc": "Memperbaiki bilah pencarian yang menampilkan durasi 0:00 saat aplikasi pertama kali diluncurkan."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "11 September 2026",
+      "desc": "Internasionalisasi dan lokalisasi komprehensif di seluruh aplikasi dan situs web.",
+      "new": "Baru",
+      "langTitle": "11 Bahasa Global",
+      "langDesc": "Menambahkan dukungan penuh untuk bahasa Spanyol, Prancis, Jerman, Portugis, Italia, Jepang, Korea, Mandarin, Hindi, Rusia, dan Arab.",
+      "pickerTitle": "Pemilih Bahasa Dalam Aplikasi",
+      "pickerDesc": "Menambahkan pemilih bahasa dalam aplikasi di menu Preferensi yang menerapkan terjemahan secara instan tanpa memulai ulang aplikasi.",
+      "osTitle": "Integrasi Tingkat OS",
+      "osDesc": "Integrasi bahasa tingkat OS bawaan pada Android 13+ dan iOS untuk menyinkronkan bahasa aplikasi secara otomatis."
+    },
+    "v1_0_6": {
+      "version": "v1.0.6",
+      "date": "11 September 2026",
+      "desc": "Perbaikan cepat untuk instalasi baru.",
+      "fixed": "Diperbaiki",
+      "crashTitle": "Perbaikan Kerusakan Saat Memulai",
+      "crashDesc": "Memperbaiki bug kritis yang menyebabkan aplikasi mogok di layar kosong pada instalasi baru karena file konfigurasi lingkungan yang hilang."
+    },
+    "v1_0_5": {
+      "version": "v1.0.5",
+      "date": "11 September 2026",
+      "desc": "Pemutaran latar belakang yang mulus di macOS.",
+      "new": "Baru",
+      "fixed": "Diperbaiki",
+      "appNapTitle": "Pemutaran Latar Belakang Tanpa Jeda",
+      "appNapDesc": "Mencegah macOS App Nap untuk menangguhkan pemutar secara agresif saat diminimalkan, memungkinkan antrean berlanjut tanpa gangguan."
+    },
+    "v1_0_4": {
+      "version": "v1.0.4",
+      "date": "11 September 2026",
+      "desc": "Rilis otomatis dan penandatanganan kode.",
+      "new": "Baru",
+      "fixed": "Diperbaiki",
+      "ciTitle": "Alur Rilis Otomatis",
+      "ciDesc": "Alur kerja GitHub Actions untuk build yang konsisten dan penandatanganan kode macOS.",
+      "signedTitle": "Rilis macOS yang Ditandatangani",
+      "signedDesc": "Rilis macOS resmi yang ditandatangani dan diaktakan kini tersedia langsung di situs web.",
+      "licenseTitle": "Lisensi Open Source",
+      "licenseDesc": "Menambahkan Lisensi MIT ke repositori.",
+      "submoduleFix": "Memperbaiki konfigurasi submodule checkout di alur kerja CI"
+    },
+    "v1_0_3": {
+      "version": "v1.0.3",
+      "date": "10 September 2026",
+      "desc": "Pemutaran latar belakang dan stabilitas.",
+      "new": "Baru",
+      "improved": "Ditingkatkan",
+      "fixed": "Diperbaiki",
+      "hybridEngineTitle": "Mesin Pemutaran Hibrida",
+      "hybridEngineDesc": "Kemampuan pemrosesan latar belakang yang kuat dan pemutaran layar kunci.",
+      "dedupTitle": "Deduplikasi Perintah",
+      "dedupDesc": "Menambahkan ID pembuatan untuk mencegah perintah media yang tumpang tindih dan kedaluwarsa melintasi jembatan WebView.",
+      "queueAdvance": "Antrean lagu tidak otomatis maju ke trek berikutnya",
+      "resumeBug": "Trek yang dijeda tiba-tiba dilanjutkan saat beralih dari latar depan ke PiP atau latar belakang",
+      "precision": "Pelaporan presisi milidetik yang akurat untuk posisi trek saat ini dan durasi pemutaran",
+      "linter": "Menghilangkan beberapa kesalahan linter IDE dan membersihkan file yang berlebihan"
+    },
+    "v1_0_2": {
+      "version": "v1.0.2",
+      "date": "9 September 2026",
+      "desc": "Putar otomatis berbasis konteks yang lebih cerdas.",
+      "autoplayContextTitle": "Putar Otomatis Sadar Konteks",
+      "autoplayContextDesc": "Putar otomatis sekarang memprioritaskan lagu dari artis saat ini sebelum menambahkan artis terkait ke antrean.",
+      "tieredRecsTitle": "Mesin Rekomendasi Bertingkat",
+      "tieredRecsDesc": "Rekomendasi sekarang secara ketat menggunakan katalog artis target alih-alih pencarian samar berdasarkan nama."
+    },
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "9 September 2026",
+      "desc": "Pengalaman mendengarkan yang lebih baik.",
+      "new": "Baru",
+      "improved": "Ditingkatkan",
+      "fixed": "Diperbaiki",
+      "autoplayTitle": "Putar Otomatis",
+      "autoplayDesc": "Musik terus berjalan dengan rekomendasi berdasarkan apa yang Anda dengarkan.",
+      "discoverTitle": "Temukan",
+      "discoverDesc": "Temukan musik berdasarkan riwayat pendengaran Anda, artis, dan playlist favorit.",
+      "tooltipsTitle": "Keterangan Alat Bilah Pencarian Interaktif",
+      "tooltipsDesc": "Menambahkan keterangan alat dinamis yang dengan sempurna mengikuti kursor mouse Anda saat mengarahkan kursor ke bilah kemajuan pemutar.",
+      "startup": "Waktu mulai yang lebih cepat",
+      "recovery": "Pemulihan pemutaran yang lebih baik",
+      "macosMedia": "Kontrol media macOS yang ditingkatkan",
+      "duplicateMedia": "Kontrol media macOS ganda",
+      "stationHighlight": "Penyorotan trek aktif stasiun",
+      "seekbarPause": "Pemutaran dijeda/berhenti tiba-tiba saat menyeret bilah pencarian",
+      "bottomBar": "Bilah pemutar bawah merender sepenuhnya transparan dan tidak dapat dibaca di macOS saat memutar musik"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "September 2026",
+      "desc": "Rilis pertama PPPlayer.",
+      "spotify": "Metadata musik bertenaga Spotify",
+      "youtube": "Pemutaran audio bertenaga YouTube",
+      "playlists": "Playlist, favorit, dan riwayat pendengaran",
+      "platforms": "Dukungan macOS, Windows, dan Linux"
+    }
+  },
+  "support": {
+    "title": "Dukungan",
+    "subtitle": "Bagaimana kami dapat membantu Anda?",
+    "contactTitle": "Hubungi Kami",
+    "contactDesc": "Untuk pertanyaan umum, kemitraan, atau pertanyaan yang tidak cocok untuk GitHub, jangan ragu untuk menghubungi kami di contact@ppplayer.com.",
+    "githubTitle": "Komunitas & GitHub",
+    "githubDesc": "Jelajahi kode, laporkan bug, sarankan fitur, atau kontribusikan kode dan terjemahan. Bergabunglah dengan kami dalam membangun pemutar musik sumber terbuka terbaik.",
+    "githubBtn": "Lihat di GitHub"
+  },
+  "openSource": {
+    "badge": "Gratis & open source",
+    "title": "Oleh komunitas. Untuk komunitas.",
+    "desc": "PPPlayer dengan bangga bersifat open-source. Jelajahi basis kode, laporkan masalah, sarankan fitur, atau kontribusikan kode Anda sendiri. Setiap kontribusi membuat pengalaman mendengarkan menjadi lebih baik untuk semua orang.",
+    "source": "Lihat sumber di GitHub",
+    "contribute": "Berkontribusi",
+    "issues": "Laporkan bug",
+    "license": "Lisensi MIT"
+  }
+}

@@ -18,7 +18,16 @@ const languages = [
   { code: 'ja', label: '日本語', flag: 'jp' },
   { code: 'ko', label: '한국어', flag: 'kr' },
   { code: 'ar', label: 'العربية', flag: 'sa' },
-  { code: 'zh', label: '中文', flag: 'cn' }
+  { code: 'zh', label: '中文', flag: 'cn' },
+  { code: 'id', label: 'Bahasa Indonesia', flag: 'id' },
+  { code: 'my', label: 'မြန်မာ', flag: 'mm' },
+  { code: 'pl', label: 'Polski', flag: 'pl' },
+  { code: 'da', label: 'Dansk', flag: 'dk' },
+  { code: 'kk', label: 'Қазақша', flag: 'kz' },
+  { code: 'cs', label: 'Čeština', flag: 'cz' },
+  { code: 'hu', label: 'Magyar', flag: 'hu' },
+  { code: 'ka', label: 'ქართული', flag: 'ge' },
+  { code: 'sv', label: 'Svenska', flag: 'se' }
 ];
 
 export function LanguageSelector() {
