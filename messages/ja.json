@@ -100,7 +100,12 @@
     "notAvailable": "まだ利用できません。現在、ダウンロード可能なのは macOS 版のみです。",
     "notAvailableTitle": "近日公開",
     "okayBtn": "OK",
-    "getLinux": "Linux 向けを取得"
+    "getLinux": "Linux 向けを取得",
+    "modalTitle": "{platform} 向けダウンロード",
+    "modalDesc": "{platform} デバイスへの PPPlayer のインストール方法を選択してください。",
+    "primaryDownload": "ダウンロード",
+    "directDownload": "直接ダウンロード",
+    "comingSoon": "近日公開"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 が利用可能になりました",

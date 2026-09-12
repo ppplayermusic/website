@@ -142,7 +142,10 @@ export const FEATURES = [
 ]
 
 
-export const getPlatformOptions = (platformId: string | null) => {
+export const getPlatformOptions = (
+  platformId: string | null,
+  t?: { primaryDownload: string; directDownload: string; comingSoon: string }
+) => {
   if (!platformId) return [];
   const p = PLATFORMS.find((p) => p.id === platformId);
   if (!p) return [];
@@ -150,8 +153,8 @@ export const getPlatformOptions = (platformId: string | null) => {
   const opts = [
     {
       id: `${p.id}-primary`,
-      name: p.badge || 'Download',
-      badge: p.isAvailable ? undefined : 'Coming Soon',
+      name: p.badge || t?.primaryDownload || 'Download',
+      badge: p.isAvailable ? undefined : (t?.comingSoon || 'Coming Soon'),
       isAvailable: p.isAvailable,
       href: p.href,
     }
@@ -160,7 +163,7 @@ export const getPlatformOptions = (platformId: string | null) => {
   if (p.secondaryHref && p.secondaryBadge) {
     opts.push({
       id: `${p.id}-secondary`,
-      name: 'Direct Download',
+      name: t?.directDownload || 'Direct Download',
       badge: p.secondaryBadge,
       isAvailable: true,
       href: p.secondaryHref,

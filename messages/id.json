@@ -100,7 +100,12 @@
     "notAvailable": "Belum tersedia. Saat ini, hanya versi macOS yang tersedia untuk diunduh.",
     "notAvailableTitle": "Segera Hadir",
     "okayBtn": "Oke",
-    "getLinux": "Dapatkan untuk Linux"
+    "getLinux": "Dapatkan untuk Linux",
+    "modalTitle": "Unduh untuk {platform}",
+    "modalDesc": "Pilih cara Anda ingin menginstal PPPlayer di perangkat {platform} Anda.",
+    "primaryDownload": "Unduh",
+    "directDownload": "Unduhan Langsung",
+    "comingSoon": "Segera Hadir"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 sekarang tersedia",

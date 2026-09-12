@@ -10,6 +10,7 @@ import { SpotlightCard } from '@/components/ui/SpotlightCard'
 
 export default function PlatformCardsSection() {
   const t = useTranslations('platformCards');
+  const tCTA = useTranslations('downloadCTA');
   const [activeModalPlatform, setActiveModalPlatform] = useState<string | null>(null);
 
   const handleDownloadClick = (platformId: string) => {
@@ -123,7 +124,7 @@ export default function PlatformCardsSection() {
                       <h3 className="text-2xl font-bold tracking-tight text-white">{platform.name}</h3>
                       {!platform.isAvailable && !platform.secondaryHref && (
                         <span className="text-[10px] uppercase tracking-wider font-semibold px-2 py-0.5 rounded-full bg-white/10 text-white/60">
-                          Soon
+                          {tCTA('comingSoon')}
                         </span>
                       )}
                     </div>
@@ -165,9 +166,13 @@ export default function PlatformCardsSection() {
       <DownloadOptionsModal 
         isOpen={!!activeModalPlatform} 
         onClose={() => setActiveModalPlatform(null)}
-        title={`Download for ${platforms.find(p => p.id === activeModalPlatform)?.name || ''}`}
-        description={`Choose how you want to install PPPlayer on your ${platforms.find(p => p.id === activeModalPlatform)?.name || ''} device.`}
-        options={getPlatformOptions(activeModalPlatform)}
+        title={tCTA('modalTitle', { platform: platforms.find(p => p.id === activeModalPlatform)?.name || '' })}
+        description={tCTA('modalDesc', { platform: platforms.find(p => p.id === activeModalPlatform)?.name || '' })}
+        options={getPlatformOptions(activeModalPlatform, {
+          primaryDownload: tCTA('primaryDownload'),
+          directDownload: tCTA('directDownload'),
+          comingSoon: tCTA('comingSoon'),
+        })}
       />
     </>
   );

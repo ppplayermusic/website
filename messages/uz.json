@@ -100,7 +100,12 @@
     "notAvailable": "Hali mavjud emas. Hozirda faqat macOS versiyasini yuklab olish mumkin.",
     "notAvailableTitle": "Tez kunda",
     "okayBtn": "Yaxshi",
-    "getLinux": "Linux uchun yuklab olish"
+    "getLinux": "Linux uchun yuklab olish",
+    "modalTitle": "{platform} uchun yuklab olish",
+    "modalDesc": "PPPlayer-ni {platform} qurilmangizga qanday o'rnatmoqchi ekanligingizni tanlang.",
+    "primaryDownload": "Yuklab olish",
+    "directDownload": "To'g'ridan-to'g'ri yuklab olish",
+    "comingSoon": "Tez orada"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 endi mavjud",

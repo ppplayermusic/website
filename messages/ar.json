@@ -100,7 +100,12 @@
     "notAvailable": "غير متوفر بعد. حالياً، يتوفر إصدار macOS فقط للتحميل.",
     "notAvailableTitle": "قريباً",
     "okayBtn": "حسناً",
-    "getLinux": "احصل عليه لـ Linux"
+    "getLinux": "احصل عليه لـ Linux",
+    "modalTitle": "تنزيل لـ {platform}",
+    "modalDesc": "اختر كيف تريد تثبيت PPPlayer على جهاز {platform} الخاص بك.",
+    "primaryDownload": "تنزيل",
+    "directDownload": "تنزيل مباشر",
+    "comingSoon": "قريباً"
   },
   "downloadPage": {
     "badge": "الإصدار 1.0 من PPPlayer متاح الآن",

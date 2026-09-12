@@ -100,7 +100,12 @@
     "notAvailable": "暂未可用。目前只有 macOS 版本可供下载。",
     "notAvailableTitle": "敬请期待",
     "okayBtn": "好的",
-    "getLinux": "获取 Linux 版"
+    "getLinux": "获取 Linux 版",
+    "modalTitle": "下载 {platform} 版",
+    "modalDesc": "选择您希望如何在您的 {platform} 设备上安装 PPPlayer。",
+    "primaryDownload": "下载",
+    "directDownload": "直接下载",
+    "comingSoon": "敬请期待"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 现已发布",

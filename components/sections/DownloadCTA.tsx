@@ -81,7 +81,7 @@ export default function DownloadCTA() {
                     {platform.name}
                     {!platform.isAvailable && !platform.secondaryHref && (
                        <span className="ml-1 text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded-sm bg-white/10 text-white/50 hidden md:inline-block">
-                         Soon
+                         {t('comingSoon')}
                        </span>
                     )}
                   </button>
@@ -186,9 +186,13 @@ export default function DownloadCTA() {
       <DownloadOptionsModal 
         isOpen={isModalOpen} 
         onClose={() => setIsModalOpen(false)}
-        title={`Download for ${activePlatform.name}`}
-        description={`Choose how you want to install PPPlayer on your ${activePlatform.name} device.`}
-        options={getPlatformOptions(activePlatform.id)}
+        title={t('modalTitle', { platform: activePlatform.name })}
+        description={t('modalDesc', { platform: activePlatform.name })}
+        options={getPlatformOptions(activePlatform.id, {
+          primaryDownload: t('primaryDownload'),
+          directDownload: t('directDownload'),
+          comingSoon: t('comingSoon'),
+        })}
       />
     </>
   )

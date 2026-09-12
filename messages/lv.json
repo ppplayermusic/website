@@ -100,7 +100,12 @@
     "notAvailable": "Not available yet. Currently, only the macOS version is available for download.",
     "notAvailableTitle": "Coming Soon",
     "okayBtn": "Okay",
-    "getLinux": "Get for Linux"
+    "getLinux": "Get for Linux",
+    "modalTitle": "Lejupielādēt {platform}",
+    "modalDesc": "Izvēlieties, kā vēlaties instalēt PPPlayer savā {platform} ierīcē.",
+    "primaryDownload": "Lejupielādēt",
+    "directDownload": "Tiešā lejupielāde",
+    "comingSoon": "Drīzumā"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 is now available",

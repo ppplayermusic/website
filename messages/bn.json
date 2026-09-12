@@ -100,7 +100,12 @@
     "notAvailable": "Not available yet. Currently, only the macOS version is available for download.",
     "notAvailableTitle": "Coming Soon",
     "okayBtn": "Okay",
-    "getLinux": "Get for Linux"
+    "getLinux": "Get for Linux",
+    "modalTitle": "{platform} এর জন্য ডাউনলোড করুন",
+    "modalDesc": "আপনি আপনার {platform} ডিভাইসে কিভাবে PPPlayer ইন্সটল করতে চান তা নির্বাচন করুন।",
+    "primaryDownload": "ডাউনলোড করুন",
+    "directDownload": "সরাসরি ডাউনলোড",
+    "comingSoon": "শীঘ্রই আসছে"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 is now available",

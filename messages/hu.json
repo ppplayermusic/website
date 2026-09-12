@@ -100,7 +100,12 @@
     "notAvailable": "Még nem elérhető. Jelenleg csak a macOS verzió tölthető le.",
     "notAvailableTitle": "Hamarosan",
     "okayBtn": "Rendben",
-    "getLinux": "Letöltés Linux-ra"
+    "getLinux": "Letöltés Linux-ra",
+    "modalTitle": "Letöltés {platform} rendszerre",
+    "modalDesc": "Válassza ki, hogyan szeretné telepíteni a PPPlayer-t a {platform} eszközére.",
+    "primaryDownload": "Letöltés",
+    "directDownload": "Közvetlen letöltés",
+    "comingSoon": "Hamarosan"
   },
   "downloadPage": {
     "badge": "A PPPlayer 1.0 már elérhető",

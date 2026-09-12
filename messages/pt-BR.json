@@ -100,7 +100,12 @@
     "notAvailable": "Ainda não disponível. Atualmente, apenas a versão para macOS está disponível para download.",
     "notAvailableTitle": "Em Breve",
     "okayBtn": "Entendi",
-    "getLinux": "Baixar para Linux"
+    "getLinux": "Baixar para Linux",
+    "modalTitle": "Baixar para {platform}",
+    "modalDesc": "Escolha como você quer instalar o PPPlayer no seu dispositivo {platform}.",
+    "primaryDownload": "Baixar",
+    "directDownload": "Download Direto",
+    "comingSoon": "Em breve"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 já está disponível",

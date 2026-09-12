@@ -100,7 +100,12 @@
     "notAvailable": "ჯერ არ არის ხელმისაწვდომი. ამჟამად ჩამოსატვირთად ხელმისაწვდომია მხოლოდ macOS-ის ვერსია.",
     "notAvailableTitle": "მალე",
     "okayBtn": "კარგი",
-    "getLinux": "მიიღეთ Linux-ისთვის"
+    "getLinux": "მიიღეთ Linux-ისთვის",
+    "modalTitle": "გადმოწერა {platform}-სთვის",
+    "modalDesc": "აირჩიეთ, როგორ გსურთ დააინსტალიროთ PPPlayer თქვენს {platform} მოწყობილობაზე.",
+    "primaryDownload": "გადმოწერა",
+    "directDownload": "პირდაპირი გადმოწერა",
+    "comingSoon": "მალე"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 უკვე ხელმისაწვდომია",

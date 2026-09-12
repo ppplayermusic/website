@@ -100,7 +100,12 @@
     "notAvailable": "Әлі қолжетімді емес. Қазіргі уақытта тек macOS нұсқасын жүктеп алуға болады.",
     "notAvailableTitle": "Жақында шығады",
     "okayBtn": "Жақсы",
-    "getLinux": "Linux үшін алу"
+    "getLinux": "Linux үшін алу",
+    "modalTitle": "{platform} үшін жүктеп алу",
+    "modalDesc": "{platform} құрылғыңызға PPPlayer қалай орнатқыңыз келетінін таңдаңыз.",
+    "primaryDownload": "Жүктеп алу",
+    "directDownload": "Тікелей жүктеп алу",
+    "comingSoon": "Жуықта"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 енді қолжетімді",

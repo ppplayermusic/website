@@ -100,7 +100,12 @@
     "notAvailable": "မရနိုင်သေးပါ။ လက်ရှိတွင် macOS ဗားရှင်းကိုသာ ဒေါင်းလုဒ်လုပ်ရန် ရနိုင်ပါသည်။",
     "notAvailableTitle": "မကြာမီ လာမည်",
     "okayBtn": "အိုကေ",
-    "getLinux": "Linux အတွက် ရယူရန်"
+    "getLinux": "Linux အတွက် ရယူရန်",
+    "modalTitle": "{platform} အတွက်ဒေါင်းလုဒ်ဆွဲပါ",
+    "modalDesc": "သင့် {platform} စက်တွင် PPPlayer ကို မည်သို့ထည့်သွင်းလိုကြောင်း ရွေးချယ်ပါ။",
+    "primaryDownload": "ဒေါင်းလုဒ်",
+    "directDownload": "တိုက်ရိုက်ဒေါင်းလုဒ်",
+    "comingSoon": "မကြာမီလာမည်"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 ကို ယခုရရှိနိုင်ပါပြီ",

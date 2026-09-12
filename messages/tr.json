@@ -100,7 +100,12 @@
     "notAvailable": "Henüz mevcut değil. Şu anda indirmek için yalnızca macOS sürümü mevcuttur.",
     "notAvailableTitle": "Yakında",
     "okayBtn": "Tamam",
-    "getLinux": "Linux için İndir"
+    "getLinux": "Linux için İndir",
+    "modalTitle": "{platform} için İndir",
+    "modalDesc": "PPPlayer'ı {platform} cihazınıza nasıl yüklemek istediğinizi seçin.",
+    "primaryDownload": "İndir",
+    "directDownload": "Doğrudan İndirme",
+    "comingSoon": "Yakında"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 artık mevcut",

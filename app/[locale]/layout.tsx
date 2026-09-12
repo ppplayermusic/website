@@ -4,6 +4,7 @@ import Script from 'next/script'
 import '../globals.css'
 import CookieBanner from '@/components/CookieBanner'
 import { Preloader } from '@/components/ui/Preloader'
+import TrustedTypesScript from '@/components/TrustedTypesScript'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -107,44 +108,28 @@ export default async function RootLayout({
     >
       <head>
         <script
+          id="schema-org"
           type="application/ld+json"
           nonce={nonce}
           suppressHydrationWarning
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "SoftwareApplication",
-              "name": "PPPlayer",
-              "operatingSystem": "Android, iOS, macOS, Windows, Linux",
-              "applicationCategory": "MultimediaApplication",
-              "offers": {
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "USD"
-              },
-              "description": "Free and open-source music player. Discover music, explore the source code, and contribute. No account or subscription required."
-            })
-          }}
-        />
-        <script
-          nonce={nonce}
-          suppressHydrationWarning
-          dangerouslySetInnerHTML={{
-            __html: `
-              if (typeof window !== 'undefined' && window.trustedTypes && window.trustedTypes.createPolicy) {
-                if (!window.trustedTypes.defaultPolicy) {
-                  window.trustedTypes.createPolicy('default', {
-                    createHTML: function(string) { return string; },
-                    createScript: function(string) { return string; },
-                    createScriptURL: function(string) { return string; }
-                  });
-                }
-              }
-            `,
-          }}
-        />
+        >
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "PPPlayer",
+            "operatingSystem": "Android, iOS, macOS, Windows, Linux",
+            "applicationCategory": "MultimediaApplication",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "description": "Free and open-source music player. Discover music, explore the source code, and contribute. No account or subscription required."
+          })}
+        </script>
       </head>
       <body className={isRTL ? notoSansArabic.className : inter.className}>
+        <TrustedTypesScript nonce={nonce} />
         <Script id="google-analytics-consent" nonce={nonce} strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];

@@ -12,6 +12,7 @@ import { DownloadOptionsModal } from '@/components/ui/DownloadOptionsModal'
 
 export default function HeroSection() {
   const t = useTranslations('hero');
+  const tCTA = useTranslations('downloadCTA');
   const [activeModalPlatform, setActiveModalPlatform] = useState<string | null>(null);
 
   const handleDownloadClick = (e: React.MouseEvent<HTMLAnchorElement>, platformId: string) => {
@@ -83,9 +84,13 @@ export default function HeroSection() {
       <DownloadOptionsModal 
         isOpen={!!activeModalPlatform} 
         onClose={() => setActiveModalPlatform(null)}
-        title={`Download for ${activePlatformData?.name || ''}`}
-        description={`Choose how you want to install PPPlayer on your ${activePlatformData?.name || ''} device.`}
-        options={getPlatformOptions(activeModalPlatform)}
+        title={tCTA('modalTitle', { platform: activePlatformData?.name || '' })}
+        description={tCTA('modalDesc', { platform: activePlatformData?.name || '' })}
+        options={getPlatformOptions(activeModalPlatform, {
+          primaryDownload: tCTA('primaryDownload'),
+          directDownload: tCTA('directDownload'),
+          comingSoon: tCTA('comingSoon'),
+        })}
       />
     </>
   )

@@ -100,7 +100,12 @@
     "notAvailable": "Zatím není k dispozici. V současné době je ke stažení k dispozici pouze verze pro macOS.",
     "notAvailableTitle": "Již brzy",
     "okayBtn": "Dobře",
-    "getLinux": "Získat pro Linux"
+    "getLinux": "Získat pro Linux",
+    "modalTitle": "Stáhnout pro {platform}",
+    "modalDesc": "Vyberte, jak chcete nainstalovat PPPlayer na vaše zařízení {platform}.",
+    "primaryDownload": "Stáhnout",
+    "directDownload": "Přímé stažení",
+    "comingSoon": "Brzy dostupné"
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 je nyní k dispozici",
