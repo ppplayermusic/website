@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer | Free & Open-Source Music Player",
+    "homeDesc": "A free, open-source music player. No account. No subscription. Just play.",
+    "downloadTitle": "Download PPPlayer Free",
+    "downloadDesc": "A free, open-source music player. No account. No subscription. Just play.",
+    "privacyTitle": "Privacy Policy",
+    "privacyDesc": "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
+    "termsTitle": "Terms of Service",
+    "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
+    "supportTitle": "Support - PPPlayer",
+    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com."
+  },
+  "nav": {
+    "features": "Features",
+    "download": "Download Free",
+    "support": "Support",
+    "contribute": "Contribute"
+  },
+  "footer": {
+    "desc": "A free, open-source music player. No account. No subscription. Just play.",
+    "product": "Product",
+    "features": "Features",
+    "download": "Download",
+    "platforms": "Platforms",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Social",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "View source on GitHub",
+    "contribute": "Contribute",
+    "changelog": "Changelog",
+    "linux": "Linux"
+  },
+  "cookie": {
+    "title": "We value your privacy",
+    "desc": "We use cookies to analyze site traffic and enhance your experience. By clicking \"Accept\", you consent to our use of cookies.",
+    "decline": "Decline All",
+    "accept": "Accept All"
+  },
+  "hero": {
+    "title1": "Music.",
+    "title2": "Without the friction.",
+    "desc": "A free, open-source music player. No account. No subscription. Just play.",
+    "getIos": "Get for iOS",
+    "getAndroid": "Get for Android",
+    "getMac": "Get for Mac",
+    "getWindows": "Get for Windows",
+    "getLinux": "Get for Linux",
+    "badge": "Free & open source",
+    "source": "View source on GitHub"
+  },
+  "discover": {
+    "title": "Find<br></br>something<br></br>worth playing."
+  },
+  "artistRadio": {
+    "title": "Endless listening."
+  },
+  "goDeeper": {
+    "bgText": "FOLLOW",
+    "title": "Follow the music."
+  },
+  "pressPlay": {
+    "title": "Then, just listen."
+  },
+  "featureGallery": {
+    "title": "Everything you need.",
+    "subtitle": "A beautiful, native experience built for performance.",
+    "searchTitle": "Find exactly what you want.",
+    "searchDesc": "Search globally across tracks, artists, and albums instantly.",
+    "queueTitle": "Perfectly queued.",
+    "queueDesc": "Manage what plays next with a beautiful, reorderable queue.",
+    "favTitle": "Your music, your rules.",
+    "favDesc": "Build your personal library with a single click. Always there.",
+    "contextTitle": "Native by design.",
+    "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus."
+  },
+  "noAccount": {
+    "title": "No account.",
+    "subtitle": "Free & open source"
+  },
+  "platforms": {
+    "title": "Your music. Your devices.",
+    "subtitle": "Beautifully native on macOS, Linux, Windows, Android, and iOS."
+  },
+  "downloadCTA": {
+    "title": "Just play.",
+    "getIos": "Get for iOS",
+    "getAndroid": "Get for Android",
+    "getMac": "Get for Mac",
+    "getWindows": "Get for Windows",
+    "notAvailable": "Not available yet. Currently, only the macOS version is available for download.",
+    "notAvailableTitle": "Coming Soon",
+    "okayBtn": "Okay",
+    "getLinux": "Get for Linux"
+  },
+  "downloadPage": {
+    "badge": "PPPlayer 1.0 is now available",
+    "title": "Download <gradient>PPPlayer</gradient>",
+    "subtitle": "Pick your platform. Start listening in seconds.",
+    "desc": "No account required. No email. No signup. Just music.",
+    "windowsReqLabel": "Windows system requirements:",
+    "windowsReqDesc": "Windows 10 or later (64-bit). ~50 MB download. No Microsoft Store required."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Common <gradient>questions</gradient>",
+    "subtitle": "Everything you need to know about PPPlayer.",
+    "items": [
+      {
+        "q": "Is PPPlayer free?",
+        "a": "Yes. PPPlayer is 100% free. No subscriptions, no in-app purchases, and no hidden costs."
+      },
+      {
+        "q": "Do I need to create an account?",
+        "a": "No. You do not need an email address, account, or login of any kind. Just download, open, and start listening."
+      },
+      {
+        "q": "Is PPPlayer available for iPhone?",
+        "a": "Yes. PPPlayer is available on the App Store for iPhone and iPad."
+      },
+      {
+        "q": "Is PPPlayer available for Android?",
+        "a": "Yes. You can download PPPlayer on Google Play for Android phones and tablets."
+      },
+      {
+        "q": "Can I use PPPlayer on Windows?",
+        "a": "Yes. PPPlayer is available for Windows 10 and later as a direct download. No store required."
+      },
+      {
+        "q": "What music features does PPPlayer offer?",
+        "a": "PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required."
+      },
+      {
+        "q": "How do I download PPPlayer?",
+        "a": "Tap the download button for your platform on this page. The download takes less than a minute."
+      },
+      {
+        "q": "Is there a premium version?",
+        "a": "No. PPPlayer is fully free. Everything you see is available at no cost, with no account needed."
+      }
+    ],
+    "openSourceQuestion": "Is PPPlayer open source?",
+    "openSourceAnswer": "Yes. PPPlayer is 100% open-source under the MIT license. You can use, study, modify, and share the software freely. Check out our GitHub repository to view the source code or get involved."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Overview",
+        "p": "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explains what data we collect, why, and how it is used when you use PPPlayer on macOS, Linux, Windows, iOS, or Android."
+      },
+      "s2": {
+        "title": "2. No Account Required",
+        "p": "PPPlayer does not require you to create an account. We do not collect your name, email address, or any personally identifiable information to use the app."
+      },
+      "s3": {
+        "title": "3. Data We Collect",
+        "p1": "We may collect the following anonymous, non-identifiable data:",
+        "li1": "Crash reports and error logs (to improve app stability)",
+        "li2": "Anonymous usage analytics (feature usage, session duration)",
+        "li3": "Device type and operating system version",
+        "p2": "We do not collect: names, emails, payment info, or precise location data."
+      },
+      "s4": {
+        "title": "4. Third-Party Services",
+        "p": "PPPlayer may use third-party services for music metadata and analytics. These services have their own privacy policies. We encourage you to review them."
+      },
+      "s5": {
+        "title": "5. Data Retention",
+        "p": "Anonymous analytics data is retained for a maximum of 12 months. Crash logs are deleted after 90 days."
+      },
+      "s6": {
+        "title": "6. Your Rights",
+        "p": "Since we do not collect personal data, there is no personal information to access, export, or delete. If you have questions, contact us at the address below."
+      },
+      "s7": {
+        "title": "7. Children",
+        "p": "PPPlayer is not directed at children under 13. We do not knowingly collect data from children."
+      },
+      "s8": {
+        "title": "8. Changes",
+        "p": "We may update this policy from time to time. We will note the date of the last update at the top of this page."
+      },
+      "s9": {
+        "title": "9. Contact",
+        "p": "Questions about this policy? Contact us at "
+      }
+    },
+    "back": "← Back to PPPlayer"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: September 11, 2026",
+    "sections": {
+      "s1": {
+        "title": "1. Acceptance of Terms",
+        "p": "By downloading or using PPPlayer, you agree to these Terms of Service. If you do not agree, please do not use the app."
+      },
+      "s2": {
+        "title": "2. Use of the App",
+        "p": "PPPlayer is free, open-source software. Use, copying, modification, and distribution of the software are governed by the MIT license in the project repository. When using the app, you agree not to:",
+        "li1": "Remove copyright or permission notices required by the applicable software licenses",
+        "li2": "Use the app to distribute malware or harmful content",
+        "li3": "Violate any applicable laws or regulations while using the app"
+      },
+      "s3": {
+        "title": "3. No Account Required",
+        "p": "PPPlayer does not require account creation. You can use all features immediately after download."
+      },
+      "s4": {
+        "title": "4. Intellectual Property",
+        "p": "PPPlayer source code is available under the MIT license. Third-party dependencies retain their own licenses. Music, artwork, and metadata remain subject to their respective rights and licenses; the software license does not grant rights to that content."
+      },
+      "s5": {
+        "title": "5. Disclaimer of Warranties",
+        "p": "PPPlayer is provided \"as is\" without warranty of any kind, express or implied. We do not guarantee uninterrupted service or that the app will be error-free."
+      },
+      "s6": {
+        "title": "6. Limitation of Liability",
+        "p": "To the maximum extent permitted by law, PPPlayer shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use or inability to use the app."
+      },
+      "s7": {
+        "title": "7. Changes to Terms",
+        "p": "We reserve the right to update these terms at any time. Continued use of the app after changes constitutes acceptance of the new terms."
+      },
+      "s8": {
+        "title": "8. Contact",
+        "p": "Questions about these terms? Reach us at "
+      }
+    },
+    "back": "← Back to PPPlayer"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone & iPad",
+      "desc": "Available on the App Store for iPhone and iPad.",
+      "badge": "App Store"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Available on Google Play for Android phones and tablets.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Direct download for Windows 10 and later. No store needed.",
+      "badge": "Direct Download"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "Direct download for macOS. Apple Silicon & Intel supported.",
+      "badge": "Direct Download"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Direct download for Linux. AppImage supported.",
+      "badge": "Direct Download"
+    }
+  },
+  "changelog": {
+    "title": "Changelog",
+    "subtitle": "What's new in PPPlayer.",
+    "back": "← Back to PPPlayer",
+    "v1_2_0": {
+      "version": "v1.2.0",
+      "date": "September 12, 2026",
+      "desc": "Expanded localization support with 10 new languages.",
+      "added": "Added",
+      "fixed": "Fixed",
+      "lang10Title": "10 New Languages",
+      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+    },
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "September 12, 2026",
+      "desc": "Added Arabic and Chinese localizations and fixed macOS resizing bugs.",
+      "added": "Added",
+      "fixed": "Fixed",
+      "localizationTitle": "Localization Expansion",
+      "localizationDesc": "Added Arabic and Chinese (Simplified & Traditional) localizations.",
+      "layoutTitle": "macOS Layout Fix",
+      "layoutDesc": "Fixed an issue on macOS where the YouTube video player would shift off-center when resizing the application window."
+    },
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "September 12, 2026",
+      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
+      "fixed": "Fixed",
+      "snapTitle": "Startup Seekbar Bug",
+      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
+      "durationTitle": "Missing Duration",
+      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "September 11, 2026",
+      "desc": "Comprehensive internationalization and localization across the entire app and website.",
+      "new": "Added",
+      "langTitle": "11 Global Languages",
+      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
+      "pickerTitle": "In-App Language Picker",
+      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
+      "osTitle": "OS-Level Integration",
+      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+    },
+    "v1_0_6": {
+      "version": "v1.0.6",
+      "date": "September 11, 2026",
+      "desc": "Hotfix for fresh installations.",
+      "fixed": "Fixed",
+      "crashTitle": "Startup Crash Fix",
+      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+    },
+    "v1_0_5": {
+      "version": "v1.0.5",
+      "date": "September 11, 2026",
+      "desc": "Seamless background playback on macOS.",
+      "new": "New",
+      "fixed": "Fixed",
+      "appNapTitle": "Gapless Background Playback",
+      "appNapDesc": "Prevented macOS App Nap from aggressively suspending the player when minimized, allowing the queue to continue uninterrupted."
+    },
+    "v1_0_4": {
+      "version": "v1.0.4",
+      "date": "September 11, 2026",
+      "desc": "Automated releases and code signing.",
+      "new": "New",
+      "fixed": "Fixed",
+      "ciTitle": "Automated Release Pipeline",
+      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
+      "signedTitle": "Signed macOS Releases",
+      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
+      "licenseTitle": "Open Source License",
+      "licenseDesc": "Added MIT License to the repository.",
+      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+    },
+    "v1_0_3": {
+      "version": "v1.0.3",
+      "date": "September 10, 2026",
+      "desc": "Background playback and stability.",
+      "new": "New",
+      "improved": "Improved",
+      "fixed": "Fixed",
+      "hybridEngineTitle": "Hybrid Playback Engine",
+      "hybridEngineDesc": "Robust background processing and lock-screen playback capabilities.",
+      "dedupTitle": "Command Deduplication",
+      "dedupDesc": "Added generation IDs to prevent overlapping and stale media commands across WebView bridge.",
+      "queueAdvance": "Song queue not automatically advancing to the next track",
+      "resumeBug": "Paused track unexpectedly resuming when handing off from foreground to PiP or background",
+      "precision": "Accurate millisecond precision reporting for current track position and playback duration",
+      "linter": "Eliminated several IDE linter errors and cleaned up redundant files"
+    },
+    "v1_0_2": {
+      "version": "v1.0.2",
+      "date": "September 9, 2026",
+      "desc": "Smarter, context-based autoplay.",
+      "autoplayContextTitle": "Context-Aware Autoplay",
+      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
+      "tieredRecsTitle": "Tiered Recommendation Engine",
+      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+    },
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "September 9, 2026",
+      "desc": "A better listening experience.",
+      "new": "New",
+      "improved": "Improved",
+      "fixed": "Fixed",
+      "autoplayTitle": "Autoplay",
+      "autoplayDesc": "Music keeps going with recommendations based on what you're listening to.",
+      "discoverTitle": "Discover",
+      "discoverDesc": "Find music based on your listening history, favorite artists and playlists.",
+      "tooltipsTitle": "Interactive Seekbar Tooltips",
+      "tooltipsDesc": "Added dynamic tooltips that perfectly follow your mouse cursor when hovering the player progress bar.",
+      "startup": "Faster startup",
+      "recovery": "Better playback recovery",
+      "macosMedia": "Improved macOS media controls",
+      "duplicateMedia": "Duplicate macOS media controls",
+      "stationHighlight": "Station active-track highlighting",
+      "seekbarPause": "Playback pausing/stopping unexpectedly when dragging the seekbar",
+      "bottomBar": "Bottom player bar rendering fully transparent and unreadable on macOS when playing music"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "September 2026",
+      "desc": "The first release of PPPlayer.",
+      "spotify": "Spotify-powered music metadata",
+      "youtube": "YouTube-powered audio playback",
+      "playlists": "Playlists, favorites and listening history",
+      "platforms": "macOS, Windows and Linux support"
+    }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "How can we help you?",
+    "contactTitle": "Contact Us",
+    "contactDesc": "For general inquiries, partnerships, or questions not suited for GitHub, feel free to reach out to us at contact@ppplayer.com.",
+    "githubTitle": "Community & GitHub",
+    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us in building the ultimate open-source music player.",
+    "githubBtn": "View on GitHub"
+  },
+  "openSource": {
+    "badge": "Free & open source",
+    "title": "By the community. For the community.",
+    "desc": "PPPlayer is proudly open-source. Explore the codebase, report issues, suggest features, or contribute your own code. Every contribution makes the listening experience better for everyone.",
+    "source": "View source on GitHub",
+    "contribute": "Contribute",
+    "issues": "Report a bug",
+    "license": "MIT license"
+  }
+}

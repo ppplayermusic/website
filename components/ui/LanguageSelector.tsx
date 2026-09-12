@@ -28,7 +28,11 @@ const languages = [
   { code: 'hu', label: 'Magyar', flag: 'hu' },
   { code: 'ka', label: 'ქართული', flag: 'ge' },
   { code: 'sv', label: 'Svenska', flag: 'se' },
-  { code: 'uz', label: 'O\'zbekcha', flag: 'uz' }
+  { code: 'uz', label: 'O\'zbekcha', flag: 'uz' },
+  { code: 'fil', label: 'Filipino', flag: 'ph' },
+  { code: 'lv', label: 'Latviešu', flag: 'lv' },
+  { code: 'bn', label: 'বাংলা', flag: 'bd' },
+  { code: 'pcm', label: 'Naija', flag: 'ng' }
 ];
 
 export function LanguageSelector() {
