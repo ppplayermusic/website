@@ -51,7 +51,7 @@ export default function Footer() {
                 </>
               )}
               <Link href="/changelog" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t('changelog')}</Link>
-              <a href={PROJECT_LINKS.organization} className="text-slate-400 hover:text-white text-sm transition-colors">{t("contribute")}</a>
+              <a href={PROJECT_LINKS.contribute} className="text-slate-400 hover:text-white text-sm transition-colors">{t("contribute")}</a>
               <Link href="/support" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{tNav("support")}</Link>
             </div>
             

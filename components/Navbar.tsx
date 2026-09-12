@@ -85,7 +85,7 @@ export default function Navbar() {
                 </Link>
               );
             })}
-            <a href={PROJECT_LINKS.organization} className="text-slate-400 hover:text-white transition-colors text-sm font-medium">{t("contribute")}</a>
+            <a href={PROJECT_LINKS.contribute} className="text-slate-400 hover:text-white transition-colors text-sm font-medium">{t("contribute")}</a>
             <LanguageSelector />
           </nav>
 
@@ -160,7 +160,7 @@ export default function Navbar() {
                     </Link>
                   );
                 })}
-                <a href={PROJECT_LINKS.organization} onClick={() => setIsOpen(false)} className="text-slate-300 hover:text-white text-lg font-medium transition-colors">{t("contribute")}</a>
+                <a href={PROJECT_LINKS.contribute} onClick={() => setIsOpen(false)} className="text-slate-300 hover:text-white text-lg font-medium transition-colors">{t("contribute")}</a>
               </nav>
               <div className="pt-4 border-t border-white/5 flex flex-col gap-6">
                 <div className="flex items-center justify-center gap-6">
