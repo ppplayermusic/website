@@ -29,7 +29,7 @@ export default function Footer() {
                 PPPlayer
               </span>
             </Link>
-            <p className="text-slate-500 text-sm max-w-xs leading-relaxed">
+            <p className="text-slate-400 text-sm max-w-xs leading-relaxed">
               {t("desc")}
             </p>
             <a href={PROJECT_LINKS.source} className="text-slate-400 hover:text-white text-sm underline underline-offset-4">{t('source')}</a>
@@ -85,7 +85,7 @@ export default function Footer() {
           {/* Gradient Divider */}
           <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
           
-          <p className="text-slate-500 text-sm">
+          <p className="text-slate-400 text-sm">
             {t("copyright", { year: new Date().getFullYear() })}
           </p>
           <div className="flex items-center gap-2">
@@ -94,7 +94,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="PPPlayer on Instagram"
-              className="p-2.5 rounded-full text-slate-500 hover:bg-white/5 hover:text-white hover:scale-110 transition-all duration-300"
+              className="p-2.5 rounded-full text-slate-400 hover:bg-white/5 hover:text-white hover:scale-110 transition-all duration-300"
             >
               {/* Instagram */}
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
@@ -108,7 +108,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="PPPlayer on LinkedIn"
-              className="p-2.5 rounded-full text-slate-500 hover:bg-white/5 hover:text-white hover:scale-110 transition-all duration-300"
+              className="p-2.5 rounded-full text-slate-400 hover:bg-white/5 hover:text-white hover:scale-110 transition-all duration-300"
             >
               {/* LinkedIn */}
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
@@ -122,7 +122,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="PPPlayer on Facebook"
-              className="p-2.5 rounded-full text-slate-500 hover:bg-white/5 hover:text-white hover:scale-110 transition-all duration-300"
+              className="p-2.5 rounded-full text-slate-400 hover:bg-white/5 hover:text-white hover:scale-110 transition-all duration-300"
             >
               {/* Facebook */}
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
@@ -134,7 +134,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="PPPlayer on GitHub"
-              className="p-2.5 rounded-full text-slate-500 hover:bg-white/5 hover:text-white hover:scale-110 transition-all duration-300"
+              className="p-2.5 rounded-full text-slate-400 hover:bg-white/5 hover:text-white hover:scale-110 transition-all duration-300"
             >
               {/* GitHub */}
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
