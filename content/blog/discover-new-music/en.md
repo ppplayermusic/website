@@ -6,7 +6,7 @@ author: "PPPlayer Team"
 category: "Discovery"
 readTime: "4"
 coverImage: "/images/blog/discover-new-music.jpg"
-isDraft: true
+isDraft: false
 ---
 
 In a world of infinite streaming choices, it's paradoxically easy to get stuck listening to the same fifty songs. Algorithms learn what you like and feed you more of the same, creating a comfortable but creatively stifling "filter bubble."

@@ -6,7 +6,7 @@ author: "PPPlayer Team"
 category: "Community"
 readTime: "5"
 coverImage: "/images/blog/open-source-music-app.jpg"
-isDraft: true
+isDraft: false
 ---
 
 When you download a typical app, you get a finished product. You can use it, but you can't see how it works, you can't change it, and you're entirely dependent on the company that made it for updates, bug fixes, and feature additions.

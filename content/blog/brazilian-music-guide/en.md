@@ -6,7 +6,7 @@ author: "PPPlayer Team"
 category: "Discovery"
 readTime: "6"
 coverImage: "/images/blog/brazilian-music-guide.jpg"
-isDraft: true
+isDraft: false
 ---
 
 Brazilian music is incredibly diverse, shaped by indigenous, African, and European influences. While Bossa Nova is famous worldwide, it represents just a fraction of the country's rich musical landscape.

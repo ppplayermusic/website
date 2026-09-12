@@ -6,7 +6,7 @@ author: "PPPlayer Team"
 category: "Community"
 readTime: "3"
 coverImage: "/images/blog/contribute-without-code.jpg"
-isDraft: true
+isDraft: false
 ---
 
 When people hear "open source," they often assume contributing means writing complex code. While programmers are vital, a project like PPPlayer relies heavily on contributions that have nothing to do with writing software.
