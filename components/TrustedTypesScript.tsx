@@ -1,8 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-
-export default function TrustedTypesScript({ nonce }: { nonce: string }) {
+export default function TrustedTypesScript({ nonce }: { nonce?: string }) {
   if (typeof window !== 'undefined') {
     return null;
   }

@@ -3,7 +3,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image';
 import {useTranslations} from 'next-intl'
-import { motion } from 'framer-motion'
 import { PROJECT_LINKS, PLATFORMS, getPlatformOptions } from '@/lib/constants'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { SpotlightButton } from '@/components/ui/SpotlightButton'
