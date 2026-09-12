@@ -276,6 +276,17 @@
     "title": "Changelog",
     "subtitle": "What's new in PPPlayer.",
     "back": "← Back to PPPlayer",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "September 12, 2026",
+      "desc": "Added Arabic and Chinese localizations and fixed macOS resizing bugs.",
+      "added": "Added",
+      "fixed": "Fixed",
+      "localizationTitle": "Localization Expansion",
+      "localizationDesc": "Added Arabic and Chinese (Simplified & Traditional) localizations.",
+      "layoutTitle": "macOS Layout Fix",
+      "layoutDesc": "Fixed an issue on macOS where the YouTube video player would shift off-center when resizing the application window."
+    },
     "v1_1_1": {
       "version": "v1.1.1",
       "date": "September 12, 2026",

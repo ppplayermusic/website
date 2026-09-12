@@ -276,6 +276,17 @@
     "title": "Changelog",
     "subtitle": "Novità di PPPlayer.",
     "back": "← Torna a PPPlayer",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "12 settembre 2026",
+      "desc": "Aggiunte localizzazioni in arabo e cinese e corretti bug di ridimensionamento su macOS.",
+      "added": "Aggiunto",
+      "fixed": "Corretto",
+      "localizationTitle": "Espansione della Localizzazione",
+      "localizationDesc": "Aggiunte localizzazioni in arabo e cinese (Semplificato e Tradizionale).",
+      "layoutTitle": "Correzione Layout macOS",
+      "layoutDesc": "Risolto un problema su macOS dove il player video di YouTube si spostava fuori centro al ridimensionamento della finestra."
+    },
     "v1_1_1": {
       "version": "v1.1.1",
       "date": "September 12, 2026",

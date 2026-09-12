@@ -276,6 +276,17 @@
     "title": "변경 로그",
     "subtitle": "PPPlayer의 새로운 기능.",
     "back": "← PPPlayer로 돌아가기",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "2026년 9월 12일",
+      "desc": "아랍어 및 중국어 현지화 추가 및 macOS 크기 조정 버그 수정.",
+      "added": "추가됨",
+      "fixed": "수정됨",
+      "localizationTitle": "현지화 확장",
+      "localizationDesc": "아랍어 및 중국어(간체 및 번체) 현지화가 추가되었습니다.",
+      "layoutTitle": "macOS 레이아웃 수정",
+      "layoutDesc": "macOS에서 응용 프로그램 창 크기를 조정할 때 YouTube 비디오 플레이어가 중심에서 벗어나는 문제를 수정했습니다."
+    },
     "v1_1_1": {
       "version": "v1.1.1",
       "date": "September 12, 2026",

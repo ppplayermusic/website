@@ -276,6 +276,17 @@
     "title": "Sürüm Notları",
     "subtitle": "PPPlayer'daki yenilikler.",
     "back": "← PPPlayer'a Dön",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "12 Eylül 2026",
+      "desc": "Arapça ve Çince yerelleştirmeleri eklendi ve macOS yeniden boyutlandırma hataları düzeltildi.",
+      "added": "Eklendi",
+      "fixed": "Düzeltildi",
+      "localizationTitle": "Yerelleştirme Genişletmesi",
+      "localizationDesc": "Arapça ve Çince (Basitleştirilmiş ve Geleneksel) yerelleştirmeleri eklendi.",
+      "layoutTitle": "macOS Düzen Düzeltmesi",
+      "layoutDesc": "macOS'te uygulama penceresi yeniden boyutlandırıldığında YouTube video oynatıcısının merkezden kayması sorunu düzeltildi."
+    },
     "v1_1_1": {
       "version": "v1.1.1",
       "date": "September 12, 2026",

@@ -276,6 +276,17 @@
     "title": "Änderungsprotokoll",
     "subtitle": "Was ist neu bei PPPlayer.",
     "back": "← Zurück zu PPPlayer",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "12. September 2026",
+      "desc": "Arabische und chinesische Lokalisierungen hinzugefügt und macOS-Größenfehler behoben.",
+      "added": "Hinzugefügt",
+      "fixed": "Behoben",
+      "localizationTitle": "Lokalisierungserweiterung",
+      "localizationDesc": "Arabische und chinesische (vereinfacht & traditionell) Lokalisierungen hinzugefügt.",
+      "layoutTitle": "macOS Layout-Fix",
+      "layoutDesc": "Behebung eines Problems unter macOS, bei dem der YouTube-Videoplayer beim Ändern der Fenstergröße verschoben wurde."
+    },
     "v1_1_1": {
       "version": "v1.1.1",
       "date": "September 12, 2026",

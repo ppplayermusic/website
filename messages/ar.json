@@ -276,6 +276,17 @@
     "title": "Changelog",
     "subtitle": "What's new in PPPlayer.",
     "back": "← Back to PPPlayer",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "12 سبتمبر 2026",
+      "desc": "تمت إضافة الترجمة العربية والصينية وإصلاح أخطاء تغيير حجم macOS.",
+      "added": "تمت الإضافة",
+      "fixed": "تم الإصلاح",
+      "localizationTitle": "توسيع اللغات",
+      "localizationDesc": "تمت إضافة الترجمة العربية والصينية (المبسطة والتقليدية).",
+      "layoutTitle": "إصلاح تخطيط macOS",
+      "layoutDesc": "تم إصلاح مشكلة في macOS حيث كان مشغل فيديو YouTube ينزاح عن المركز عند تغيير حجم نافذة التطبيق."
+    },
     "v1_1_1": {
       "version": "v1.1.1",
       "date": "September 12, 2026",

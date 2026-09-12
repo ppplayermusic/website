@@ -276,6 +276,17 @@
     "title": "Changelog",
     "subtitle": "What's new in PPPlayer.",
     "back": "← Back to PPPlayer",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "2026年9月12日",
+      "desc": "添加了阿拉伯语和中文本地化，并修复了macOS调整大小的错误。",
+      "added": "新增",
+      "fixed": "修复",
+      "localizationTitle": "本地化扩展",
+      "localizationDesc": "添加了阿拉伯语和中文（简体和繁体）本地化。",
+      "layoutTitle": "macOS布局修复",
+      "layoutDesc": "修复了在macOS上调整应用程序窗口大小时，YouTube视频播放器偏离中心的问题。"
+    },
     "v1_1_1": {
       "version": "v1.1.1",
       "date": "September 12, 2026",

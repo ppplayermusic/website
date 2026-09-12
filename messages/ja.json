@@ -276,6 +276,17 @@
     "title": "チェンジログ",
     "subtitle": "PPPlayer の最新情報。",
     "back": "← PPPlayer に戻る",
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "2026年9月12日",
+      "desc": "アラビア語と中国語のローカリゼーションを追加し、macOSのサイズ変更バグを修正しました。",
+      "added": "追加",
+      "fixed": "修正",
+      "localizationTitle": "ローカリゼーションの拡張",
+      "localizationDesc": "アラビア語と中国語（簡体字＆繁体字）のローカリゼーションを追加しました。",
+      "layoutTitle": "macOSのレイアウト修正",
+      "layoutDesc": "macOSでウィンドウのサイズを変更した際に、YouTube動画プレイヤーが中心からずれる問題を修正しました。"
+    },
     "v1_1_1": {
       "version": "v1.1.1",
       "date": "September 12, 2026",
