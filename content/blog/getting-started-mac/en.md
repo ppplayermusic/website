@@ -11,6 +11,8 @@ isDraft: false
 
 PPPlayer is built to feel right at home on macOS. With native context menus, smooth window resizing, and integration with the macOS media controller, it offers a premium experience without the premium price tag.
 
+![PPPlayer running natively on macOS](/images/blog/ppplayer-mac-app.png)
+
 ## Installation
 
 1. Visit [ppplayer.com/download](https://ppplayer.com/download) and download the macOS version.
