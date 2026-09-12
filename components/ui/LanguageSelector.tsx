@@ -85,7 +85,7 @@ export function LanguageSelector() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.15 }}
-            className="absolute end-0 mt-2 w-44 rounded-xl bg-[var(--color-bg-base)] border border-white/10 shadow-xl overflow-hidden z-50 backdrop-blur-xl"
+            className="absolute end-0 mt-2 w-44 max-h-64 overflow-y-auto rounded-xl bg-[var(--color-bg-base)] border border-white/10 shadow-xl z-50 backdrop-blur-xl"
           >
             <div className="flex flex-col py-1">
               {languages.map((lang) => (

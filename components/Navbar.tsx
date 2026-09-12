@@ -111,13 +111,16 @@ export default function Navbar() {
           </div>
 
           {/* Mobile menu button */}
-          <button
-            className="xl:hidden p-2 text-slate-400 hover:text-white transition-colors"
-            onClick={() => setIsOpen(!isOpen)}
-            aria-label="Toggle menu"
-          >
-            {isOpen ? <X size={20} /> : <Menu size={20} />}
-          </button>
+          <div className="flex xl:hidden items-center gap-2">
+            <LanguageSelector />
+            <button
+              className="p-2 text-slate-400 hover:text-white transition-colors"
+              onClick={() => setIsOpen(!isOpen)}
+              aria-label="Toggle menu"
+            >
+              {isOpen ? <X size={20} /> : <Menu size={20} />}
+            </button>
+          </div>
         </div>
       </div>
 
