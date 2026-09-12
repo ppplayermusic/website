@@ -4,17 +4,16 @@ import React, { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { motion } from 'framer-motion'
 import { Monitor, Smartphone, Apple, Laptop } from 'lucide-react'
-import { DOWNLOAD_LINKS } from '@/lib/constants'
-import { NotAvailableModal } from '@/components/ui/NotAvailableModal'
+import { DOWNLOAD_LINKS, getPlatformOptions } from '@/lib/constants'
+import { DownloadOptionsModal } from '@/components/ui/DownloadOptionsModal'
 import { SpotlightCard } from '@/components/ui/SpotlightCard'
 
 export default function PlatformCardsSection() {
   const t = useTranslations('platformCards');
-  const [showModal, setShowModal] = useState(false);
+  const [activeModalPlatform, setActiveModalPlatform] = useState<string | null>(null);
 
-  const handleNotAvailable = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    setShowModal(true);
+  const handleDownloadClick = (platformId: string) => {
+    setActiveModalPlatform(platformId);
   };
 
   const platforms = [
@@ -102,11 +101,13 @@ export default function PlatformCardsSection() {
                 >
                   {/* Primary Link Overlay - catches clicks on the whole card */}
                   <a
-                    href={platform.isAvailable ? platform.href : '#'}
-                    onClick={platform.isAvailable ? undefined : handleNotAvailable}
-                    download={platform.isAvailable ? true : undefined}
-                    className="absolute inset-0 z-0"
-                    aria-label={`Download for ${platform.name}`}
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      handleDownloadClick(platform.id);
+                    }}
+                    className="absolute inset-0 z-0 cursor-pointer"
+                    aria-label={`Download options for ${platform.name}`}
                   />
                   
                   <div className={`absolute top-0 inset-x-0 h-32 bg-gradient-to-b ${platform.gradient} opacity-50 pointer-events-none`} />
@@ -161,7 +162,13 @@ export default function PlatformCardsSection() {
         </div>
       </section>
 
-      <NotAvailableModal isOpen={showModal} onClose={() => setShowModal(false)} />
+      <DownloadOptionsModal 
+        isOpen={!!activeModalPlatform} 
+        onClose={() => setActiveModalPlatform(null)}
+        title={`Download for ${platforms.find(p => p.id === activeModalPlatform)?.name || ''}`}
+        description={`Choose how you want to install PPPlayer on your ${platforms.find(p => p.id === activeModalPlatform)?.name || ''} device.`}
+        options={getPlatformOptions(activeModalPlatform)}
+      />
     </>
   );
 }

@@ -95,7 +95,9 @@ export const PLATFORMS = [
       os: 'Android 7.0 (API 24) or newer',
       architecture: 'ARM64 / ARM / x86_64',
       memory: '2 GB RAM (Recommended)',
-    }
+    },
+    secondaryHref: DOWNLOAD_LINKS.androidApk,
+    secondaryBadge: 'APK',
   },
 ];
 
@@ -139,3 +141,31 @@ export const FEATURES = [
   },
 ]
 
+
+export const getPlatformOptions = (platformId: string | null) => {
+  if (!platformId) return [];
+  const p = PLATFORMS.find((p) => p.id === platformId);
+  if (!p) return [];
+
+  const opts = [
+    {
+      id: `${p.id}-primary`,
+      name: p.badge || 'Download',
+      badge: p.isAvailable ? undefined : 'Coming Soon',
+      isAvailable: p.isAvailable,
+      href: p.href,
+    }
+  ];
+
+  if (p.secondaryHref && p.secondaryBadge) {
+    opts.push({
+      id: `${p.id}-secondary`,
+      name: 'Direct Download',
+      badge: p.secondaryBadge,
+      isAvailable: true,
+      href: p.secondaryHref,
+    });
+  }
+
+  return opts;
+};

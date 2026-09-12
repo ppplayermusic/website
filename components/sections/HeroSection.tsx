@@ -4,27 +4,22 @@ import React, { useState } from 'react'
 import Image from 'next/image';
 import {useTranslations} from 'next-intl'
 import { motion } from 'framer-motion'
-import { DOWNLOAD_LINKS, PROJECT_LINKS } from '@/lib/constants'
+import { PROJECT_LINKS, PLATFORMS, getPlatformOptions } from '@/lib/constants'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { SpotlightButton } from '@/components/ui/SpotlightButton'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
-import { NotAvailableModal } from '@/components/ui/NotAvailableModal'
 import { DownloadOptionsModal } from '@/components/ui/DownloadOptionsModal'
 
 export default function HeroSection() {
   const t = useTranslations('hero');
-  const [showModal, setShowModal] = useState(false);
-  const [showAndroidModal, setShowAndroidModal] = useState(false);
+  const [activeModalPlatform, setActiveModalPlatform] = useState<string | null>(null);
 
-  const handleNotAvailable = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleDownloadClick = (e: React.MouseEvent<HTMLAnchorElement>, platformId: string) => {
     e.preventDefault();
-    setShowModal(true);
+    setActiveModalPlatform(platformId);
   };
 
-  const handleAndroidDownload = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    setShowAndroidModal(true);
-  };
+  const activePlatformData = activeModalPlatform ? PLATFORMS.find(p => p.id === activeModalPlatform) : null;
 
   return (
     <>
@@ -44,19 +39,19 @@ export default function HeroSection() {
             </p>
             
             <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
-              <SpotlightButton href="#" variant="light" onClick={handleNotAvailable}>
+              <SpotlightButton href="#" variant="light" onClick={(e) => handleDownloadClick(e, 'ios')}>
                 {t("getIos")}
               </SpotlightButton>
-              <SpotlightButton href="#" variant="dark" onClick={handleAndroidDownload}>
+              <SpotlightButton href="#" variant="dark" onClick={(e) => handleDownloadClick(e, 'android')}>
                 {t("getAndroid")}
               </SpotlightButton>
-              <SpotlightButton href={DOWNLOAD_LINKS.macos} variant="dark" download>
+              <SpotlightButton href="#" variant="dark" onClick={(e) => handleDownloadClick(e, 'macos')}>
                 {t("getMac")}
               </SpotlightButton>
-              <SpotlightButton href="#" variant="dark" onClick={handleNotAvailable}>
+              <SpotlightButton href="#" variant="dark" onClick={(e) => handleDownloadClick(e, 'windows')}>
                 {t("getWindows")}
               </SpotlightButton>
-              <SpotlightButton href="#" variant="dark" onClick={handleNotAvailable}>
+              <SpotlightButton href="#" variant="dark" onClick={(e) => handleDownloadClick(e, 'linux')}>
                 {t("getLinux")}
               </SpotlightButton>
             </div>
@@ -85,28 +80,12 @@ export default function HeroSection() {
         </div>
       </section>
 
-      <NotAvailableModal isOpen={showModal} onClose={() => setShowModal(false)} />
       <DownloadOptionsModal 
-        isOpen={showAndroidModal} 
-        onClose={() => setShowAndroidModal(false)}
-        title="Download for Android"
-        description="Choose how you want to install PPPlayer on your Android device."
-        options={[
-          {
-            id: 'play-store',
-            name: 'Google Play',
-            badge: 'Coming Soon',
-            isAvailable: false,
-            href: DOWNLOAD_LINKS.android,
-          },
-          {
-            id: 'apk',
-            name: 'Direct Download',
-            badge: 'APK',
-            isAvailable: true,
-            href: DOWNLOAD_LINKS.androidApk,
-          }
-        ]}
+        isOpen={!!activeModalPlatform} 
+        onClose={() => setActiveModalPlatform(null)}
+        title={`Download for ${activePlatformData?.name || ''}`}
+        description={`Choose how you want to install PPPlayer on your ${activePlatformData?.name || ''} device.`}
+        options={getPlatformOptions(activeModalPlatform)}
       />
     </>
   )

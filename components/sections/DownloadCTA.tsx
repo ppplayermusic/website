@@ -6,8 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { SpotlightButton } from '@/components/ui/SpotlightButton'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { SpotlightLogo } from '@/components/ui/SpotlightLogo'
-import { PLATFORMS, DOWNLOAD_LINKS } from '@/lib/constants'
-import { NotAvailableModal } from '@/components/ui/NotAvailableModal'
+import { PLATFORMS, getPlatformOptions } from '@/lib/constants'
 import { DownloadOptionsModal } from '@/components/ui/DownloadOptionsModal'
 import { Monitor, Smartphone, Apple, Laptop } from 'lucide-react'
 
@@ -32,12 +31,11 @@ export default function DownloadCTA() {
   const t = useTranslations('downloadCTA');
   
   const [activePlatformId, setActivePlatformId] = useState<string>('macos');
-  const [showModal, setShowModal] = useState(false);
-  const [showAndroidModal, setShowAndroidModal] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleNotAvailable = (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => {
+  const handleDownloadClick = (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => {
     e.preventDefault();
-    setShowModal(true);
+    setIsModalOpen(true);
   };
 
   const activePlatform = PLATFORMS.find(p => p.id === activePlatformId) || PLATFORMS[0];
@@ -153,18 +151,9 @@ export default function DownloadCTA() {
                   </div>
 
                   <SpotlightButton 
-                    href={activePlatform.isAvailable ? activePlatform.href : '#'} 
-                    variant={activePlatform.isAvailable || activePlatform.id === 'android' ? 'light' : 'dark'}
-                    onClick={(e) => {
-                      if (activePlatform.id === 'android') {
-                        e.preventDefault();
-                        setShowAndroidModal(true);
-                      } else if (!activePlatform.isAvailable) {
-                        e.preventDefault();
-                        setShowModal(true);
-                      }
-                    }}
-                    download={activePlatform.isAvailable ? true : undefined}
+                    href="#" 
+                    variant="light"
+                    onClick={handleDownloadClick}
                   >
                     Download for {activePlatform.name}
                   </SpotlightButton>
@@ -194,28 +183,12 @@ export default function DownloadCTA() {
         </div>
       </section>
 
-      <NotAvailableModal isOpen={showModal} onClose={() => setShowModal(false)} />
       <DownloadOptionsModal 
-        isOpen={showAndroidModal} 
-        onClose={() => setShowAndroidModal(false)}
-        title="Download for Android"
-        description="Choose how you want to install PPPlayer on your Android device."
-        options={[
-          {
-            id: 'play-store',
-            name: 'Google Play',
-            badge: 'Coming Soon',
-            isAvailable: false,
-            href: DOWNLOAD_LINKS.android,
-          },
-          {
-            id: 'apk',
-            name: 'Direct Download',
-            badge: 'APK',
-            isAvailable: true,
-            href: DOWNLOAD_LINKS.androidApk,
-          }
-        ]}
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)}
+        title={`Download for ${activePlatform.name}`}
+        description={`Choose how you want to install PPPlayer on your ${activePlatform.name} device.`}
+        options={getPlatformOptions(activePlatform.id)}
       />
     </>
   )
