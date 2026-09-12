@@ -36,7 +36,9 @@
     "terms": "Şartlar",
     "copyright": "© {year} PPPlayer Music.",
     "source": "Kodu GitHub’da görüntüle",
-    "contribute": "Katkıda bulunun"
+    "contribute": "Katkıda bulunun",
+    "changelog": "Changelog",
+    "linux": "Linux"
   },
   "cookie": {
     "title": "Gizliliğinize değer veriyoruz",
