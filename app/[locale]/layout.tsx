@@ -106,6 +106,7 @@ export default async function RootLayout({
         <script
           type="application/ld+json"
           nonce={nonce}
+          suppressHydrationWarning
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -124,6 +125,7 @@ export default async function RootLayout({
         />
         <script
           nonce={nonce}
+          suppressHydrationWarning
           dangerouslySetInnerHTML={{
             __html: `
               if (typeof window !== 'undefined' && window.trustedTypes && window.trustedTypes.createPolicy) {
