@@ -167,8 +167,8 @@ export default function DownloadCTA() {
 
           {/* Subtle Logo representation at the end */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.9, filter: 'blur(10px)' }}
-            whileInView={{ opacity: 0.15, scale: 1, filter: 'blur(0px)' }}
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 0.15, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
             className="mt-24 md:mt-32 pointer-events-none flex justify-center"

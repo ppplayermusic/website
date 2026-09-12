@@ -17,8 +17,8 @@ export default function PlatformsSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         
         <motion.div
-          initial={{ opacity: 0, y: 20, filter: 'blur(10px)' }}
-          whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="text-center mb-16 md:mb-24"
@@ -36,8 +36,8 @@ export default function PlatformsSection() {
           
           {/* Desktop Behind */}
           <motion.div
-            initial={{ opacity: 0, y: 40, scale: 0.95, filter: 'blur(10px)' }}
-            whileInView={{ opacity: 1, y: 0, scale: 1, filter: 'blur(0px)' }}
+            initial={{ opacity: 0, y: 40, scale: 0.95 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
             className="absolute top-0 w-[80%] md:w-[70%] flex items-center justify-center -translate-y-8"
@@ -55,8 +55,8 @@ export default function PlatformsSection() {
 
           {/* Android Left */}
           <motion.div
-            initial={{ opacity: 0, x: -40, y: 20, filter: 'blur(10px)' }}
-            whileInView={{ opacity: 1, x: 0, y: 0, filter: 'blur(0px)' }}
+            initial={{ opacity: 0, x: -40, y: 20 }}
+            whileInView={{ opacity: 1, x: 0, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             className="absolute left-[8%] md:left-[18%] bottom-0 w-[30%] md:w-[22%] z-10 flex items-center justify-center"
@@ -74,8 +74,8 @@ export default function PlatformsSection() {
 
           {/* iOS Right */}
           <motion.div
-            initial={{ opacity: 0, x: 40, y: 20, filter: 'blur(10px)' }}
-            whileInView={{ opacity: 1, x: 0, y: 0, filter: 'blur(0px)' }}
+            initial={{ opacity: 0, x: 40, y: 20 }}
+            whileInView={{ opacity: 1, x: 0, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
             className="absolute right-[8%] md:right-[18%] bottom-0 w-[30%] md:w-[22%] z-10 translate-y-8"

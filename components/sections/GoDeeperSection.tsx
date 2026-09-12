@@ -17,8 +17,8 @@ export default function GoDeeperSection() {
         
         {/* Oversized typography behind the UI */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.95, filter: 'blur(20px)' }}
-          whileInView={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
           className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-5 select-none"
@@ -30,8 +30,8 @@ export default function GoDeeperSection() {
 
         <div className="relative z-10 flex flex-col items-center">
           <motion.div
-            initial={{ opacity: 0, y: 30, filter: 'blur(10px)' }}
-            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="mb-16 text-center"
@@ -42,8 +42,8 @@ export default function GoDeeperSection() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 40, filter: 'blur(10px)' }}
-            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
             className="w-full max-w-5xl flex items-center justify-center relative"

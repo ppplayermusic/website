@@ -37,8 +37,8 @@ export function Preloader() {
           className="fixed inset-0 z-[10000] bg-[#020202] flex items-center justify-center"
         >
           <motion.div
-            initial={{ scale: 0.8, opacity: 0, filter: 'blur(10px)' }}
-            animate={{ scale: 1, opacity: 1, filter: 'blur(0px)' }}
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="flex flex-col items-center gap-6"
           >

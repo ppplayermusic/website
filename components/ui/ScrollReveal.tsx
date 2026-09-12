@@ -13,8 +13,8 @@ interface ScrollRevealProps {
 export function ScrollReveal({ children, delay = 0, className = "", yOffset = 40 }: ScrollRevealProps) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: yOffset, filter: 'blur(10px)' }}
-      whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+      initial={{ opacity: 0, y: yOffset }}
+      whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "0px 0px -50px 0px" }}
       transition={{ 
         duration: 0.8, 

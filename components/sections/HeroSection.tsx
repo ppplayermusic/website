@@ -65,8 +65,8 @@ export default function HeroSection() {
         {/* Enormous desktop interface, partially extending beyond the viewport */}
         <div className="w-full flex justify-center px-4 md:px-0" style={{ perspective: '2000px' }}>
           <motion.div
-            initial={{ opacity: 0, y: 150, rotateX: 15, scale: 0.9, filter: 'blur(10px)' }}
-            animate={{ opacity: 1, y: 0, rotateX: 0, scale: 1, filter: 'blur(0px)' }}
+            initial={{ opacity: 0, y: 150, rotateX: 15, scale: 0.9 }}
+            animate={{ opacity: 1, y: 0, rotateX: 0, scale: 1 }}
             transition={{ duration: 1.4, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             style={{ transformOrigin: "top center" }}
             className="w-full max-w-5xl mt-16 md:mt-24 translate-y-12 md:translate-y-24"
