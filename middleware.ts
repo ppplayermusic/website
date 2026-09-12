@@ -11,7 +11,8 @@ export default function middleware(request: NextRequest) {
     default-src 'self';
     script-src 'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline';
     style-src 'self' 'unsafe-inline';
-    img-src 'self' blob: data: https://ppplayer.com;
+    img-src 'self' blob: data: https://ppplayer.com https://flagcdn.com;
+    connect-src 'self' https://www.google-analytics.com https://www.google.com;
     font-src 'self' data:;
     object-src 'none';
     base-uri 'self';
