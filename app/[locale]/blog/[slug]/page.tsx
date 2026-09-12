@@ -91,7 +91,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
               {post.title}
             </h1>
             
-            <div className="flex items-center justify-between border-b border-white/10 pb-8">
+            <div className="flex items-center justify-between border-b border-white/10 pb-8 mb-10">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-blue-500 to-purple-500 flex items-center justify-center text-white font-bold">
                   PP
@@ -102,6 +102,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
                 </div>
               </div>
             </div>
+
+            {post.coverImage && (
+              <div className="mb-12 aspect-video rounded-3xl overflow-hidden bg-white/5 border border-white/10 relative">
+                 <img src={post.coverImage} alt={post.title} className="w-full h-full object-cover" />
+              </div>
+            )}
           </div>
 
           <div className="prose prose-invert prose-lg max-w-none prose-headings:text-white prose-a:text-blue-400 hover:prose-a:text-blue-300 prose-img:rounded-xl">

@@ -5,6 +5,7 @@ date: "2026-09-12"
 author: "PPPlayer Editorial"
 category: "Discovery"
 readTime: "7"
+coverImage: "/images/blog/beyond-the-hits-radiohead.jpg"
 isDraft: false
 ---
 

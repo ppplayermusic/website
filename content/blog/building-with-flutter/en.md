@@ -5,6 +5,7 @@ date: "2026-09-12"
 author: "Engineering"
 category: "Engineering"
 readTime: "8"
+coverImage: "/images/blog/building-with-flutter.jpg"
 isDraft: true
 ---
 

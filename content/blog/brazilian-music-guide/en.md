@@ -5,6 +5,7 @@ date: "2026-09-12"
 author: "PPPlayer Team"
 category: "Discovery"
 readTime: "6"
+coverImage: "/images/blog/brazilian-music-guide.jpg"
 isDraft: true
 ---
 

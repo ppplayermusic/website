@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { BlogPost } from '@/lib/blog';
+import { SpotlightLogo } from '@/components/ui/SpotlightLogo';
 
 export default function BlogGrid({ posts, isFallback }: { posts: BlogPost[], isFallback: boolean }) {
   const t = useTranslations('blog');
@@ -70,8 +71,16 @@ export default function BlogGrid({ posts, isFallback }: { posts: BlogPost[], isF
                 </div>
               </div>
               <div className="order-1 md:order-2 aspect-video md:aspect-[4/3] rounded-2xl bg-white/5 border border-white/10 overflow-hidden relative flex items-center justify-center">
-                 <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20" />
-                 <span className="text-6xl opacity-50">🎵</span>
+                 {featuredPost.coverImage ? (
+                   <img src={featuredPost.coverImage} alt={featuredPost.title} className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity group-hover:scale-105 duration-700" />
+                 ) : (
+                   <>
+                     <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20" />
+                     <div className="opacity-15 pointer-events-none">
+                       <SpotlightLogo src="/logo.png" alt="PPPlayer" className="w-48 h-48 md:w-64 md:h-64" imageClassName="filter grayscale mix-blend-screen" />
+                     </div>
+                   </>
+                 )}
               </div>
             </div>
           </Link>
@@ -83,9 +92,17 @@ export default function BlogGrid({ posts, isFallback }: { posts: BlogPost[], isF
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {gridPosts.map((post) => (
             <Link key={post.slug} href={`/blog/${post.slug}`} className="group flex flex-col h-full bg-white/5 rounded-2xl border border-white/10 hover:border-white/20 transition-colors overflow-hidden">
-              <div className="aspect-video bg-white/5 relative flex items-center justify-center border-b border-white/10">
-                 <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-white/10 group-hover:opacity-75 transition-opacity" />
-                 <span className="text-4xl opacity-50">🎧</span>
+              <div className="aspect-video bg-white/5 relative flex items-center justify-center border-b border-white/10 overflow-hidden">
+                 {post.coverImage ? (
+                   <img src={post.coverImage} alt={post.title} className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity group-hover:scale-105 duration-700" />
+                 ) : (
+                   <>
+                     <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-white/10 group-hover:opacity-75 transition-opacity" />
+                     <div className="opacity-15 pointer-events-none group-hover:opacity-25 transition-opacity">
+                       <SpotlightLogo src="/logo.png" alt="PPPlayer" className="w-32 h-32" imageClassName="filter grayscale mix-blend-screen" />
+                     </div>
+                   </>
+                 )}
               </div>
               <div className="p-6 flex flex-col flex-grow gap-4">
                 <div className="flex items-center gap-3 text-xs font-medium text-slate-400">
