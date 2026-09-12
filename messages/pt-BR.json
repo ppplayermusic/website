@@ -276,6 +276,36 @@
     "title": "Changelog",
     "subtitle": "O que há de novo no PPPlayer.",
     "back": "← Voltar para o PPPlayer",
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "12 de setembro de 2026",
+      "desc": "Corrigidos bugs de reprodução e polimento na barra de progresso ao iniciar o aplicativo.",
+      "fixed": "Corrigido",
+      "snapTitle": "Bug da Barra de Progresso na Inicialização",
+      "snapDesc": "Corrigido um problema onde a barra de progresso voltava instantaneamente para a posição inicial ao deslizá-la logo após iniciar o aplicativo.",
+      "durationTitle": "Duração Ausente",
+      "durationDesc": "Corrigida a barra de progresso mostrando uma duração de 0:00 quando o aplicativo é iniciado pela primeira vez."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "11 de setembro de 2026",
+      "desc": "Internacionalização e localização abrangentes em todo o aplicativo e site.",
+      "new": "Adicionado",
+      "langTitle": "11 Idiomas Globais",
+      "langDesc": "Suporte completo para espanhol, francês, alemão, português, italiano, japonês, coreano, chinês, hindi, russo e árabe.",
+      "pickerTitle": "Seletor de Idioma no Aplicativo",
+      "pickerDesc": "Adicionado um seletor de idioma no menu Preferências que aplica as traduções instantaneamente sem reiniciar o aplicativo.",
+      "osTitle": "Integração a Nível do Sistema",
+      "osDesc": "Integrações nativas de idioma no Android 13+ e iOS para sincronizar o idioma do aplicativo automaticamente."
+    },
+    "v1_0_6": {
+      "version": "v1.0.6",
+      "date": "11 de setembro de 2026",
+      "desc": "Hotfix para novas instalações.",
+      "fixed": "Corrigido",
+      "crashTitle": "Correção de Travamento",
+      "crashDesc": "Corrigido um bug crítico que causava o travamento do aplicativo em uma tela em branco em novas instalações devido a um arquivo de configuração de ambiente ausente."
+    },
     "v1_0_4": {
       "version": "v1.0.4",
       "date": "11 de setembro de 2026",

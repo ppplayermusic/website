@@ -276,6 +276,36 @@
     "title": "Registro de cambios",
     "subtitle": "Novedades en PPPlayer.",
     "back": "← Volver a PPPlayer",
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "12 de septiembre de 2026",
+      "desc": "Se corrigieron errores de reproducción y se pulió la barra de progreso al iniciar la aplicación.",
+      "fixed": "Corregido",
+      "snapTitle": "Error de la barra de progreso al inicio",
+      "snapDesc": "Se solucionó un problema por el cual la barra de progreso volvía instantáneamente a la posición inicial al deslizarla inmediatamente después de iniciar la aplicación.",
+      "durationTitle": "Duración faltante",
+      "durationDesc": "Se arregló la barra de progreso que mostraba una duración de 0:00 cuando se inicia la aplicación por primera vez."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "11 de septiembre de 2026",
+      "desc": "Internacionalización y localización integrales en toda la aplicación y sitio web.",
+      "new": "Agregado",
+      "langTitle": "11 Idiomas Globales",
+      "langDesc": "Se agregó soporte completo para español, francés, alemán, portugués, italiano, japonés, coreano, chino, hindi, ruso y árabe.",
+      "pickerTitle": "Selector de Idioma Integrado",
+      "pickerDesc": "Se agregó un selector de idioma en el menú Preferencias que aplica traducciones al instante sin reiniciar la aplicación.",
+      "osTitle": "Integración a Nivel de Sistema",
+      "osDesc": "Integraciones de idioma nativas en Android 13+ e iOS para sincronizar automáticamente el idioma de la aplicación."
+    },
+    "v1_0_6": {
+      "version": "v1.0.6",
+      "date": "11 de septiembre de 2026",
+      "desc": "Corrección rápida para nuevas instalaciones.",
+      "fixed": "Corregido",
+      "crashTitle": "Corrección de Bloqueo al Inicio",
+      "crashDesc": "Se solucionó un error crítico que causaba que la aplicación se bloqueara en una pantalla en blanco en instalaciones nuevas debido a un archivo de configuración de entorno faltante."
+    },
     "v1_0_4": {
       "version": "v1.0.4",
       "date": "11 de septiembre de 2026",

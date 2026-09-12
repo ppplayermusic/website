@@ -276,6 +276,36 @@
     "title": "チェンジログ",
     "subtitle": "PPPlayer の最新情報。",
     "back": "← PPPlayer に戻る",
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "September 12, 2026",
+      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
+      "fixed": "Fixed",
+      "snapTitle": "Startup Seekbar Bug",
+      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
+      "durationTitle": "Missing Duration",
+      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "September 11, 2026",
+      "desc": "Comprehensive internationalization and localization across the entire app and website.",
+      "new": "Added",
+      "langTitle": "11 Global Languages",
+      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
+      "pickerTitle": "In-App Language Picker",
+      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
+      "osTitle": "OS-Level Integration",
+      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+    },
+    "v1_0_6": {
+      "version": "v1.0.6",
+      "date": "September 11, 2026",
+      "desc": "Hotfix for fresh installations.",
+      "fixed": "Fixed",
+      "crashTitle": "Startup Crash Fix",
+      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+    },
     "v1_0_5": {
       "version": "v1.0.5",
       "date": "2026年9月11日",

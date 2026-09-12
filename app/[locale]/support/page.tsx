@@ -30,7 +30,11 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
         'ru': '/ru/support',
         'tr': '/tr/support',
         'fr': '/fr/support',
-        'de': '/de/support'
+        'de': '/de/support',
+        'hi': '/hi/support',
+        'it': '/it/support',
+        'ja': '/ja/support',
+        'ko': '/ko/support'
       }
     }
   };
