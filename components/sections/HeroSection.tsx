@@ -9,14 +9,21 @@ import { SpotlightText } from '@/components/ui/SpotlightText'
 import { SpotlightButton } from '@/components/ui/SpotlightButton'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 import { NotAvailableModal } from '@/components/ui/NotAvailableModal'
+import { DownloadOptionsModal } from '@/components/ui/DownloadOptionsModal'
 
 export default function HeroSection() {
   const t = useTranslations('hero');
   const [showModal, setShowModal] = useState(false);
+  const [showAndroidModal, setShowAndroidModal] = useState(false);
 
   const handleNotAvailable = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     setShowModal(true);
+  };
+
+  const handleAndroidDownload = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    setShowAndroidModal(true);
   };
 
   return (
@@ -40,7 +47,7 @@ export default function HeroSection() {
               <SpotlightButton href="#" variant="light" onClick={handleNotAvailable}>
                 {t("getIos")}
               </SpotlightButton>
-              <SpotlightButton href="#" variant="dark" onClick={handleNotAvailable}>
+              <SpotlightButton href="#" variant="dark" onClick={handleAndroidDownload}>
                 {t("getAndroid")}
               </SpotlightButton>
               <SpotlightButton href={DOWNLOAD_LINKS.macos} variant="dark" download>
@@ -79,6 +86,28 @@ export default function HeroSection() {
       </section>
 
       <NotAvailableModal isOpen={showModal} onClose={() => setShowModal(false)} />
+      <DownloadOptionsModal 
+        isOpen={showAndroidModal} 
+        onClose={() => setShowAndroidModal(false)}
+        title="Download for Android"
+        description="Choose how you want to install PPPlayer on your Android device."
+        options={[
+          {
+            id: 'play-store',
+            name: 'Google Play',
+            badge: 'Coming Soon',
+            isAvailable: false,
+            href: DOWNLOAD_LINKS.android,
+          },
+          {
+            id: 'apk',
+            name: 'Direct Download',
+            badge: 'APK',
+            isAvailable: true,
+            href: DOWNLOAD_LINKS.androidApk,
+          }
+        ]}
+      />
     </>
   )
 }

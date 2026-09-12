@@ -6,8 +6,9 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { SpotlightButton } from '@/components/ui/SpotlightButton'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { SpotlightLogo } from '@/components/ui/SpotlightLogo'
-import { PLATFORMS } from '@/lib/constants'
+import { PLATFORMS, DOWNLOAD_LINKS } from '@/lib/constants'
 import { NotAvailableModal } from '@/components/ui/NotAvailableModal'
+import { DownloadOptionsModal } from '@/components/ui/DownloadOptionsModal'
 import { Monitor, Smartphone, Apple, Laptop } from 'lucide-react'
 
 // Helper to get platform icon
@@ -32,6 +33,7 @@ export default function DownloadCTA() {
   
   const [activePlatformId, setActivePlatformId] = useState<string>('macos');
   const [showModal, setShowModal] = useState(false);
+  const [showAndroidModal, setShowAndroidModal] = useState(false);
 
   const handleNotAvailable = (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => {
     e.preventDefault();
@@ -152,8 +154,16 @@ export default function DownloadCTA() {
 
                   <SpotlightButton 
                     href={activePlatform.isAvailable ? activePlatform.href : '#'} 
-                    variant={activePlatform.isAvailable ? 'light' : 'dark'}
-                    onClick={activePlatform.isAvailable ? undefined : handleNotAvailable}
+                    variant={activePlatform.isAvailable || activePlatform.id === 'android' ? 'light' : 'dark'}
+                    onClick={(e) => {
+                      if (activePlatform.id === 'android') {
+                        e.preventDefault();
+                        setShowAndroidModal(true);
+                      } else if (!activePlatform.isAvailable) {
+                        e.preventDefault();
+                        setShowModal(true);
+                      }
+                    }}
                     download={activePlatform.isAvailable ? true : undefined}
                   >
                     Download for {activePlatform.name}
@@ -185,6 +195,28 @@ export default function DownloadCTA() {
       </section>
 
       <NotAvailableModal isOpen={showModal} onClose={() => setShowModal(false)} />
+      <DownloadOptionsModal 
+        isOpen={showAndroidModal} 
+        onClose={() => setShowAndroidModal(false)}
+        title="Download for Android"
+        description="Choose how you want to install PPPlayer on your Android device."
+        options={[
+          {
+            id: 'play-store',
+            name: 'Google Play',
+            badge: 'Coming Soon',
+            isAvailable: false,
+            href: DOWNLOAD_LINKS.android,
+          },
+          {
+            id: 'apk',
+            name: 'Direct Download',
+            badge: 'APK',
+            isAvailable: true,
+            href: DOWNLOAD_LINKS.androidApk,
+          }
+        ]}
+      />
     </>
   )
 }
