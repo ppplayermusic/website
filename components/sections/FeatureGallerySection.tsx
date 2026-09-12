@@ -1,8 +1,7 @@
-'use client'
 import Image from 'next/image';
 import React from 'react'
 import {useTranslations} from 'next-intl'
-import { motion } from 'framer-motion'
+import { FadeIn } from '@/components/ui/FadeIn'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
@@ -11,7 +10,7 @@ export default function FeatureGallerySection() {
   return (
     <section className="py-24 md:py-32 bg-[var(--color-bg-base)] text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <motion.div
+        <FadeIn
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
@@ -24,11 +23,11 @@ export default function FeatureGallerySection() {
           <p className="mt-6 text-xl text-slate-400 max-w-2xl mx-auto">
             {t("subtitle")}
           </p>
-        </motion.div>
+        </FadeIn>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
           {/* Item 1 */}
-          <motion.div
+          <FadeIn
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -39,10 +38,10 @@ export default function FeatureGallerySection() {
             </MacOSWindowFrame>
             <h3 className="text-3xl font-bold mt-8 tracking-tight">{t("searchTitle")}</h3>
             <p className="mt-3 text-lg text-slate-400">{t("searchDesc")}</p>
-          </motion.div>
+          </FadeIn>
 
           {/* Item 2 */}
-          <motion.div
+          <FadeIn
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -53,10 +52,10 @@ export default function FeatureGallerySection() {
             </MacOSWindowFrame>
             <h3 className="text-3xl font-bold mt-8 tracking-tight">{t("queueTitle")}</h3>
             <p className="mt-3 text-lg text-slate-400">{t("queueDesc")}</p>
-          </motion.div>
+          </FadeIn>
 
           {/* Item 3 */}
-          <motion.div
+          <FadeIn
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -67,10 +66,10 @@ export default function FeatureGallerySection() {
             </MacOSWindowFrame>
             <h3 className="text-3xl font-bold mt-8 tracking-tight">{t("favTitle")}</h3>
             <p className="mt-3 text-lg text-slate-400">{t("favDesc")}</p>
-          </motion.div>
+          </FadeIn>
 
           {/* Item 4 */}
-          <motion.div
+          <FadeIn
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -81,7 +80,7 @@ export default function FeatureGallerySection() {
             </MacOSWindowFrame>
             <h3 className="text-3xl font-bold mt-8 tracking-tight">{t("contextTitle")}</h3>
             <p className="mt-3 text-lg text-slate-400">{t("contextDesc")}</p>
-          </motion.div>
+          </FadeIn>
         </div>
       </div>
     </section>

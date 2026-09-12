@@ -1,11 +1,7 @@
-
-'use client'
 import Image from 'next/image';
-
-
 import React from 'react'
 import {useTranslations} from 'next-intl'
-import { motion } from 'framer-motion'
+import { FadeIn } from '@/components/ui/FadeIn'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
@@ -16,7 +12,7 @@ export default function GoDeeperSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative">
         
         {/* Oversized typography behind the UI */}
-        <motion.div
+        <FadeIn
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, margin: "-100px" }}
@@ -26,10 +22,10 @@ export default function GoDeeperSection() {
           <h2 className="text-[12rem] md:text-[20rem] font-black tracking-tighter whitespace-nowrap">
             {t("bgText")}
           </h2>
-        </motion.div>
+        </FadeIn>
 
         <div className="relative z-10 flex flex-col items-center">
-          <motion.div
+          <FadeIn
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -39,9 +35,9 @@ export default function GoDeeperSection() {
             <h2 className="text-5xl md:text-7xl font-bold tracking-tight cursor-default">
               <SpotlightText>{t("title")}</SpotlightText>
             </h2>
-          </motion.div>
+          </FadeIn>
 
-          <motion.div
+          <FadeIn
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -58,7 +54,7 @@ export default function GoDeeperSection() {
                 sizes="(max-width: 768px) 50vw, (max-width: 1024px) 100vw, 50vw"
               />
             </MacOSWindowFrame>
-          </motion.div>
+          </FadeIn>
         </div>
 
       </div>

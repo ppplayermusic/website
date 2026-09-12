@@ -1,8 +1,7 @@
-'use client'
 import Image from 'next/image';
 import React from 'react'
 import {useTranslations} from 'next-intl'
-import { motion } from 'framer-motion'
+import { FadeIn } from '@/components/ui/FadeIn'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
@@ -15,7 +14,7 @@ export default function DiscoverSection() {
         {/* Asymmetric editorial composition */}
         <div className="grid md:grid-cols-12 gap-8 md:gap-16 items-center">
           
-          <motion.div
+          <FadeIn
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -25,9 +24,9 @@ export default function DiscoverSection() {
             <h2 className="text-5xl md:text-7xl font-bold tracking-tight leading-[0.9] cursor-default">
               <SpotlightText>{t.rich("title", { br: () => <br /> })}</SpotlightText>
             </h2>
-          </motion.div>
+          </FadeIn>
           
-          <motion.div
+          <FadeIn
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -44,7 +43,7 @@ export default function DiscoverSection() {
                 sizes="(max-width: 768px) 50vw, (max-width: 1024px) 100vw, 50vw"
               />
             </MacOSWindowFrame>
-          </motion.div>
+          </FadeIn>
 
         </div>
       </div>

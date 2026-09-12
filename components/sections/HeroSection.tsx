@@ -24,12 +24,7 @@ export default function HeroSection() {
       <section className="relative pt-32 md:pt-40 pb-16 overflow-hidden flex flex-col items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full text-center z-10">
           
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="max-w-4xl mx-auto"
-          >
+          <div className="max-w-4xl mx-auto">
             <a href="#open-source" className="inline-block mb-6 text-sm font-semibold text-red-500 hover:text-red-400">{t('badge')}</a>
             <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-6 leading-[0.9] cursor-default">
               <SpotlightText className="text-white">{t("title1")}</SpotlightText><br />
@@ -59,15 +54,12 @@ export default function HeroSection() {
               </SpotlightButton>
             </div>
             <a href={PROJECT_LINKS.source} className="inline-block mt-6 text-sm text-slate-400 underline underline-offset-4 hover:text-white">{t('source')}</a>
-          </motion.div>
+          </div>
         </div>
 
         {/* Enormous desktop interface, partially extending beyond the viewport */}
         <div className="w-full flex justify-center px-4 md:px-0" style={{ perspective: '2000px' }}>
-          <motion.div
-            initial={{ opacity: 0, y: 150, rotateX: 15, scale: 0.9 }}
-            animate={{ opacity: 1, y: 0, rotateX: 0, scale: 1 }}
-            transition={{ duration: 1.4, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+          <div
             style={{ transformOrigin: "top center" }}
             className="w-full max-w-5xl mt-16 md:mt-24 translate-y-12 md:translate-y-24"
           >
@@ -78,11 +70,11 @@ export default function HeroSection() {
                 width={1920}
                 height={1080}
                 style={{ width: '100%', height: 'auto', display: 'block' }}
-                sizes="(max-width: 768px) calc(100vw - 32px), 1024px"
-                priority
+                priority={true}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
               />
             </MacOSWindowFrame>
-          </motion.div>
+          </div>
         </div>
       </section>
 

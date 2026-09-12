@@ -1,11 +1,7 @@
-
-'use client'
 import Image from 'next/image';
-
-
 import React from 'react'
 import {useTranslations} from 'next-intl'
-import { motion } from 'framer-motion'
+import { FadeIn } from '@/components/ui/FadeIn'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 
@@ -16,7 +12,7 @@ export default function ArtistRadioSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col items-center text-center">
           
-          <motion.div
+          <FadeIn
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -26,9 +22,9 @@ export default function ArtistRadioSection() {
             <h2 className="text-5xl md:text-7xl font-bold tracking-tight cursor-default">
               <SpotlightText>{t("title")}</SpotlightText>
             </h2>
-          </motion.div>
+          </FadeIn>
           
-          <motion.div
+          <FadeIn
             initial={{ opacity: 0, y: 40, scale: 0.95 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -45,7 +41,7 @@ export default function ArtistRadioSection() {
                 sizes="(max-width: 768px) 50vw, (max-width: 1024px) 100vw, 50vw"
               />
             </MacOSWindowFrame>
-          </motion.div>
+          </FadeIn>
           
         </div>
       </div>

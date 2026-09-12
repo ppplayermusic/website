@@ -1,11 +1,7 @@
-
-'use client'
 import Image from 'next/image';
-
-
 import React from 'react'
 import {useTranslations} from 'next-intl'
-import { motion } from 'framer-motion'
+import { FadeIn } from '@/components/ui/FadeIn'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 import { MacOSWindowFrame } from '@/components/ui/MacOSWindowFrame'
 import { AndroidFrame, IPhoneFrame } from '@/components/ui/DeviceFrames'
@@ -16,7 +12,7 @@ export default function PlatformsSection() {
     <section className="py-24 md:py-32 bg-[var(--color-bg-base)] text-white overflow-hidden border-t border-white/5">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         
-        <motion.div
+        <FadeIn
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
@@ -29,13 +25,13 @@ export default function PlatformsSection() {
           <p className="text-slate-400 text-lg">
             {t("subtitle")}
           </p>
-        </motion.div>
+        </FadeIn>
 
         {/* Device Composition */}
         <div className="relative w-full max-w-5xl mx-auto h-[400px] md:h-[600px] flex items-center justify-center">
           
           {/* Desktop Behind */}
-          <motion.div
+          <FadeIn
             initial={{ opacity: 0, y: 40, scale: 0.95 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -51,10 +47,10 @@ export default function PlatformsSection() {
                 style={{ width: '100%', height: 'auto', display: 'block' }}
               />
             </MacOSWindowFrame>
-          </motion.div>
+          </FadeIn>
 
           {/* Android Left */}
-          <motion.div
+          <FadeIn
             initial={{ opacity: 0, x: -40, y: 20 }}
             whileInView={{ opacity: 1, x: 0, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -70,10 +66,10 @@ export default function PlatformsSection() {
                 className="object-cover object-top"
               />
             </AndroidFrame>
-          </motion.div>
+          </FadeIn>
 
           {/* iOS Right */}
-          <motion.div
+          <FadeIn
             initial={{ opacity: 0, x: 40, y: 20 }}
             whileInView={{ opacity: 1, x: 0, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -89,7 +85,7 @@ export default function PlatformsSection() {
                 className="object-cover object-top"
               />
             </IPhoneFrame>
-          </motion.div>
+          </FadeIn>
 
         </div>
       </div>

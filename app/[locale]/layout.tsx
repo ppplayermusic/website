@@ -39,6 +39,9 @@ export const metadata: Metadata = {
     'ppplayer',
   ],
   metadataBase: new URL('https://ppplayer.com'),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     type: 'website',
     url: 'https://ppplayer.com',
