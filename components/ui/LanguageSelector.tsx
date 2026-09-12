@@ -75,14 +75,14 @@ export function LanguageSelector() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.15 }}
-            className="absolute right-0 mt-2 w-40 rounded-xl bg-[var(--color-bg-base)] border border-white/10 shadow-xl overflow-hidden z-50 backdrop-blur-xl"
+            className="absolute end-0 mt-2 w-44 rounded-xl bg-[var(--color-bg-base)] border border-white/10 shadow-xl overflow-hidden z-50 backdrop-blur-xl"
           >
             <div className="flex flex-col py-1">
               {languages.map((lang) => (
                 <button
                   key={lang.code}
                   onClick={() => onSelect(lang.code)}
-                  className={`flex items-center gap-3 px-4 py-2 text-sm transition-colors ${
+                  className={`flex items-center gap-3 px-4 py-2 text-sm transition-colors text-start ${
                     locale === lang.code
                       ? 'bg-white/10 text-white'
                       : 'text-slate-400 hover:bg-white/5 hover:text-white'
@@ -92,7 +92,7 @@ export function LanguageSelector() {
                   <img
                     src={`https://flagcdn.com/${lang.flag}.svg`}
                     alt={lang.label}
-                    className="w-4 h-4 rounded-full object-cover"
+                    className="w-4 h-4 rounded-full object-cover flex-shrink-0"
                   />
                   {lang.label}
                 </button>

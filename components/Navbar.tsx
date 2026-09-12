@@ -91,7 +91,7 @@ export default function Navbar() {
 
           {/* Desktop CTA & Socials */}
           <div className="hidden xl:flex items-center gap-4">
-            <div className="flex items-center gap-3 border-r border-white/10 pr-4">
+            <div className="flex items-center gap-3 border-e border-white/10 pe-4">
               <a href="https://www.instagram.com/ppplayermusic/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-slate-400 hover:text-white transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.75" fill="currentColor" stroke="none"/></svg>
               </a>

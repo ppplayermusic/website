@@ -1,281 +1,281 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Free & Open-Source Music Player",
-    "homeDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "downloadTitle": "Download PPPlayer Free",
-    "downloadDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDesc": "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "termsTitle": "Terms of Service",
-    "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "supportTitle": "Support - PPPlayer",
-    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com."
+    "homeTitle": "PPPlayer | مشغل موسيقى مجاني ومفتوح المصدر",
+    "homeDesc": "مشغل موسيقى مجاني ومفتوح المصدر. لا يحتاج إلى حساب. بدون اشتراك. فقط استمع.",
+    "downloadTitle": "تحميل PPPlayer مجاناً",
+    "downloadDesc": "مشغل موسيقى مجاني ومفتوح المصدر. لا يحتاج إلى حساب. بدون اشتراك. فقط استمع.",
+    "privacyTitle": "سياسة الخصوصية",
+    "privacyDesc": "سياسة الخصوصية لتطبيق PPPlayer: تطبيق موسيقى مجاني لأنظمة macOS و Linux و Windows و iOS و Android.",
+    "termsTitle": "شروط الخدمة",
+    "termsDesc": "شروط الخدمة لتطبيق PPPlayer: تطبيق موسيقى مجاني لأنظمة macOS و Linux و Windows و iOS و Android.",
+    "supportTitle": "الدعم - PPPlayer",
+    "supportDesc": "PPPlayer هو مشروع مستقل ومفتوح المصدر. للإبلاغ عن الأخطاء واقتراح الميزات، استخدم GitHub. للأسئلة الأخرى، أرسل بريداً إلكترونياً إلى contact@ppplayer.com."
   },
   "nav": {
-    "features": "Features",
-    "download": "Download Free",
-    "support": "Support",
-    "contribute": "Contribute"
+    "features": "الميزات",
+    "download": "تحميل مجاني",
+    "support": "الدعم",
+    "contribute": "المساهمة"
   },
   "footer": {
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "product": "Product",
-    "features": "Features",
-    "download": "Download",
-    "platforms": "Platforms",
+    "desc": "مشغل موسيقى مجاني ومفتوح المصدر. لا يحتاج إلى حساب. بدون اشتراك. فقط استمع.",
+    "product": "المنتج",
+    "features": "الميزات",
+    "download": "التحميل",
+    "platforms": "المنصات",
     "ios": "iOS",
     "android": "Android",
     "windows": "Windows",
-    "social": "Social",
+    "social": "التواصل الاجتماعي",
     "instagram": "Instagram",
     "linkedin": "LinkedIn",
     "facebook": "Facebook",
     "github": "GitHub",
-    "legal": "Legal",
-    "privacy": "Privacy",
-    "terms": "Terms",
+    "legal": "قانوني",
+    "privacy": "الخصوصية",
+    "terms": "الشروط",
     "copyright": "© {year} PPPlayer Music.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "changelog": "Changelog",
+    "source": "عرض المصدر على GitHub",
+    "contribute": "المساهمة",
+    "changelog": "سجل التغييرات",
     "linux": "Linux"
   },
   "cookie": {
-    "title": "We value your privacy",
-    "desc": "We use cookies to analyze site traffic and enhance your experience. By clicking \"Accept\", you consent to our use of cookies.",
-    "decline": "Decline All",
-    "accept": "Accept All"
+    "title": "نحن نقدر خصوصيتك",
+    "desc": "نحن نستخدم ملفات تعريف الارتباط لتحليل حركة المرور على الموقع وتحسين تجربتك. بالنقر على \"قبول\"، فإنك توافق على استخدامنا لملفات تعريف الارتباط.",
+    "decline": "رفض الكل",
+    "accept": "قبول الكل"
   },
   "hero": {
-    "title1": "Music.",
-    "title2": "Without the friction.",
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "getLinux": "Get for Linux",
-    "badge": "Free & open source",
-    "source": "View source on GitHub"
+    "title1": "موسيقى.",
+    "title2": "بدون قيود.",
+    "desc": "مشغل موسيقى مجاني ومفتوح المصدر. لا يحتاج إلى حساب. بدون اشتراك. فقط استمع.",
+    "getIos": "احصل عليه لـ iOS",
+    "getAndroid": "احصل عليه لـ Android",
+    "getMac": "احصل عليه لـ Mac",
+    "getWindows": "احصل عليه لـ Windows",
+    "getLinux": "احصل عليه لـ Linux",
+    "badge": "مجاني ومفتوح المصدر",
+    "source": "عرض المصدر على GitHub"
   },
   "discover": {
-    "title": "Find<br></br>something<br></br>worth playing."
+    "title": "اكتشف<br></br>شيئاً<br></br>يستحق الاستماع."
   },
   "artistRadio": {
-    "title": "Endless listening."
+    "title": "استماع لا نهاية له."
   },
   "goDeeper": {
-    "bgText": "FOLLOW",
-    "title": "Follow the music."
+    "bgText": "متابعة",
+    "title": "اتبع الموسيقى."
   },
   "pressPlay": {
-    "title": "Then, just listen."
+    "title": "ثم، فقط استمع."
   },
   "featureGallery": {
-    "title": "Everything you need.",
-    "subtitle": "A beautiful, native experience built for performance.",
-    "searchTitle": "Find exactly what you want.",
-    "searchDesc": "Search globally across tracks, artists, and albums instantly.",
-    "queueTitle": "Perfectly queued.",
-    "queueDesc": "Manage what plays next with a beautiful, reorderable queue.",
-    "favTitle": "Your music, your rules.",
-    "favDesc": "Build your personal library with a single click. Always there.",
-    "contextTitle": "Native by design.",
-    "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus."
+    "title": "كل ما تحتاجه.",
+    "subtitle": "تجربة أصلية وجميلة مصممة للأداء.",
+    "searchTitle": "اعثر على ما تريده بالضبط.",
+    "searchDesc": "ابحث عالمياً عبر المقاطع الصوتية والفنانين والألبومات على الفور.",
+    "queueTitle": "قائمة تشغيل مثالية.",
+    "queueDesc": "أدر ما سيتم تشغيله لاحقاً بقائمة تشغيل جميلة وقابلة لإعادة الترتيب.",
+    "favTitle": "موسيقاك، قواعدك.",
+    "favDesc": "ابنِ مكتبتك الشخصية بنقرة واحدة. دائماً هناك.",
+    "contextTitle": "تصميم أصلي.",
+    "contextDesc": "انقر بزر الماوس الأيمن في أي مكان. قوائم أصلية جميلة وذكية."
   },
   "noAccount": {
-    "title": "No account.",
-    "subtitle": "Free & open source"
+    "title": "بدون حساب.",
+    "subtitle": "مجاني ومفتوح المصدر"
   },
   "platforms": {
-    "title": "Your music. Your devices.",
-    "subtitle": "Beautifully native on macOS, Linux, Windows, Android, and iOS."
+    "title": "موسيقاك. أجهزتك.",
+    "subtitle": "جميل وأصلي على macOS و Linux و Windows و Android و iOS."
   },
   "downloadCTA": {
-    "title": "Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "notAvailable": "Not available yet. Currently, only the macOS version is available for download.",
-    "notAvailableTitle": "Coming Soon",
-    "okayBtn": "Okay",
-    "getLinux": "Get for Linux"
+    "title": "فقط استمع.",
+    "getIos": "احصل عليه لـ iOS",
+    "getAndroid": "احصل عليه لـ Android",
+    "getMac": "احصل عليه لـ Mac",
+    "getWindows": "احصل عليه لـ Windows",
+    "notAvailable": "غير متوفر بعد. حالياً، يتوفر إصدار macOS فقط للتحميل.",
+    "notAvailableTitle": "قريباً",
+    "okayBtn": "حسناً",
+    "getLinux": "احصل عليه لـ Linux"
   },
   "downloadPage": {
-    "badge": "PPPlayer 1.0 is now available",
-    "title": "Download <gradient>PPPlayer</gradient>",
-    "subtitle": "Pick your platform. Start listening in seconds.",
-    "desc": "No account required. No email. No signup. Just music.",
-    "windowsReqLabel": "Windows system requirements:",
-    "windowsReqDesc": "Windows 10 or later (64-bit). ~50 MB download. No Microsoft Store required."
+    "badge": "الإصدار 1.0 من PPPlayer متاح الآن",
+    "title": "تنزيل <gradient>PPPlayer</gradient>",
+    "subtitle": "اختر منصتك. ابدأ الاستماع في ثوانٍ.",
+    "desc": "لا حاجة لحساب. لا بريد إلكتروني. لا تسجيل. موسيقى فقط.",
+    "windowsReqLabel": "متطلبات نظام Windows:",
+    "windowsReqDesc": "Windows 10 أو أحدث (64-بت). تنزيل بحجم ~50 ميغابايت. لا يتطلب متجر Microsoft."
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Common <gradient>questions</gradient>",
-    "subtitle": "Everything you need to know about PPPlayer.",
+    "badge": "الأسئلة الشائعة",
+    "title": "أسئلة <gradient>شائعة</gradient>",
+    "subtitle": "كل ما تحتاج لمعرفته حول PPPlayer.",
     "items": [
       {
-        "q": "Is PPPlayer free?",
-        "a": "Yes. PPPlayer is 100% free. No subscriptions, no in-app purchases, and no hidden costs."
+        "q": "هل PPPlayer مجاني؟",
+        "a": "نعم. PPPlayer مجاني 100%. لا اشتراكات، ولا مشتريات داخل التطبيق، ولا تكاليف خفية."
       },
       {
-        "q": "Do I need to create an account?",
-        "a": "No. You do not need an email address, account, or login of any kind. Just download, open, and start listening."
+        "q": "هل أحتاج إلى إنشاء حساب؟",
+        "a": "لا. لا تحتاج إلى عنوان بريد إلكتروني أو حساب أو تسجيل دخول من أي نوع. فقط قم بالتنزيل، افتح التطبيق، وابدأ بالاستماع."
       },
       {
-        "q": "Is PPPlayer available for iPhone?",
-        "a": "Yes. PPPlayer is available on the App Store for iPhone and iPad."
+        "q": "هل يتوفر PPPlayer لأجهزة iPhone؟",
+        "a": "نعم. يتوفر PPPlayer على App Store لأجهزة iPhone و iPad."
       },
       {
-        "q": "Is PPPlayer available for Android?",
-        "a": "Yes. You can download PPPlayer on Google Play for Android phones and tablets."
+        "q": "هل يتوفر PPPlayer لأجهزة Android؟",
+        "a": "نعم. يمكنك تنزيل PPPlayer من Google Play لهواتف وأجهزة Android اللوحية."
       },
       {
-        "q": "Can I use PPPlayer on Windows?",
-        "a": "Yes. PPPlayer is available for Windows 10 and later as a direct download. No store required."
+        "q": "هل يمكنني استخدام PPPlayer على Windows؟",
+        "a": "نعم. يتوفر PPPlayer لأنظمة Windows 10 والأحدث كتنزيل مباشر. لا يتطلب المتجر."
       },
       {
-        "q": "What music features does PPPlayer offer?",
-        "a": "PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required."
+        "q": "ما هي الميزات الموسيقية التي يقدمها PPPlayer؟",
+        "a": "يشتمل PPPlayer على اكتشاف الفنانين، والفنانين ذوي الصلة، وراديو الفنان، وقوائم تشغيل الفنانين، واستكشاف الأنواع الموسيقية، ومشغل ملء الشاشة الجميل. كل هذا مجاني ولا يتطلب حساباً."
       },
       {
-        "q": "How do I download PPPlayer?",
-        "a": "Tap the download button for your platform on this page. The download takes less than a minute."
+        "q": "كيف أقوم بتنزيل PPPlayer؟",
+        "a": "اضغط على زر التنزيل المخصص لمنصتك على هذه الصفحة. التنزيل يستغرق أقل من دقيقة."
       },
       {
-        "q": "Is there a premium version?",
-        "a": "No. PPPlayer is fully free. Everything you see is available at no cost, with no account needed."
+        "q": "هل هناك نسخة مدفوعة (Premium)؟",
+        "a": "لا. PPPlayer مجاني بالكامل. كل ما تراه متاح مجاناً، دون الحاجة لحساب."
       }
     ],
-    "openSourceQuestion": "Is PPPlayer open source?",
-    "openSourceAnswer": "Yes. PPPlayer is 100% open-source under the MIT license. You can use, study, modify, and share the software freely. Check out our GitHub repository to view the source code or get involved."
+    "openSourceQuestion": "هل PPPlayer مفتوح المصدر؟",
+    "openSourceAnswer": "نعم. PPPlayer مفتوح المصدر 100% بموجب ترخيص MIT. يمكنك استخدام البرمجيات ودراستها وتعديلها ومشاركتها بحرية. راجع مستودع GitHub الخاص بنا لعرض شفرة المصدر أو للمشاركة."
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: April 2025",
+    "title": "سياسة الخصوصية",
+    "lastUpdated": "آخر تحديث: أبريل 2025",
     "sections": {
       "s1": {
-        "title": "1. Overview",
-        "p": "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explains what data we collect, why, and how it is used when you use PPPlayer on macOS, Linux, Windows, iOS, or Android."
+        "title": "1. نظرة عامة",
+        "p": "يلتزم PPPlayer (\"نحن\"، \"تطبيقنا\") بحماية خصوصيتك. توضح هذه السياسة البيانات التي نجمعها ولماذا وكيف يتم استخدامها عند استخدام PPPlayer على macOS أو Linux أو Windows أو iOS أو Android."
       },
       "s2": {
-        "title": "2. No Account Required",
-        "p": "PPPlayer does not require you to create an account. We do not collect your name, email address, or any personally identifiable information to use the app."
+        "title": "2. لا يتطلب حساباً",
+        "p": "لا يتطلب منك PPPlayer إنشاء حساب. نحن لا نجمع اسمك أو عنوان بريدك الإلكتروني أو أي معلومات تعريف شخصية لاستخدام التطبيق."
       },
       "s3": {
-        "title": "3. Data We Collect",
-        "p1": "We may collect the following anonymous, non-identifiable data:",
-        "li1": "Crash reports and error logs (to improve app stability)",
-        "li2": "Anonymous usage analytics (feature usage, session duration)",
-        "li3": "Device type and operating system version",
-        "p2": "We do not collect: names, emails, payment info, or precise location data."
+        "title": "3. البيانات التي نجمعها",
+        "p1": "قد نقوم بجمع البيانات المجهولة وغير المحددة للهوية التالية:",
+        "li1": "تقارير الأعطال وسجلات الأخطاء (لتحسين استقرار التطبيق)",
+        "li2": "تحليلات الاستخدام المجهولة (استخدام الميزات، مدة الجلسة)",
+        "li3": "نوع الجهاز وإصدار نظام التشغيل",
+        "p2": "نحن لا نجمع: الأسماء، أو البريد الإلكتروني، أو معلومات الدفع، أو بيانات الموقع الدقيقة."
       },
       "s4": {
-        "title": "4. Third-Party Services",
-        "p": "PPPlayer may use third-party services for music metadata and analytics. These services have their own privacy policies. We encourage you to review them."
+        "title": "4. خدمات الجهات الخارجية",
+        "p": "قد يستخدم PPPlayer خدمات خارجية للبيانات الوصفية للموسيقى والتحليلات. لهذه الخدمات سياسات خصوصية خاصة بها. نشجعك على مراجعتها."
       },
       "s5": {
-        "title": "5. Data Retention",
-        "p": "Anonymous analytics data is retained for a maximum of 12 months. Crash logs are deleted after 90 days."
+        "title": "5. الاحتفاظ بالبيانات",
+        "p": "يتم الاحتفاظ ببيانات التحليلات المجهولة لمدة أقصاها 12 شهراً. يتم حذف سجلات الأعطال بعد 90 يوماً."
       },
       "s6": {
-        "title": "6. Your Rights",
-        "p": "Since we do not collect personal data, there is no personal information to access, export, or delete. If you have questions, contact us at the address below."
+        "title": "6. حقوقك",
+        "p": "نظراً لأننا لا نجمع بيانات شخصية، فلا توجد معلومات شخصية للوصول إليها أو تصديرها أو حذفها. إذا كانت لديك أسئلة، اتصل بنا على العنوان أدناه."
       },
       "s7": {
-        "title": "7. Children",
-        "p": "PPPlayer is not directed at children under 13. We do not knowingly collect data from children."
+        "title": "7. الأطفال",
+        "p": "PPPlayer غير موجه للأطفال دون سن 13 عاماً. نحن لا نجمع بيانات من الأطفال عن قصد."
       },
       "s8": {
-        "title": "8. Changes",
-        "p": "We may update this policy from time to time. We will note the date of the last update at the top of this page."
+        "title": "8. التغييرات",
+        "p": "قد نقوم بتحديث هذه السياسة من وقت لآخر. سنشير إلى تاريخ آخر تحديث في أعلى هذه الصفحة."
       },
       "s9": {
-        "title": "9. Contact",
-        "p": "Questions about this policy? Contact us at "
+        "title": "9. الاتصال",
+        "p": "هل لديك أسئلة حول هذه السياسة؟ اتصل بنا على "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← العودة إلى PPPlayer"
   },
   "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated: September 11, 2026",
+    "title": "شروط الخدمة",
+    "lastUpdated": "آخر تحديث: 11 سبتمبر 2026",
     "sections": {
       "s1": {
-        "title": "1. Acceptance of Terms",
-        "p": "By downloading or using PPPlayer, you agree to these Terms of Service. If you do not agree, please do not use the app."
+        "title": "1. قبول الشروط",
+        "p": "بتنزيل أو استخدام PPPlayer، فإنك توافق على شروط الخدمة هذه. إذا كنت لا توافق، يرجى عدم استخدام التطبيق."
       },
       "s2": {
-        "title": "2. Use of the App",
-        "p": "PPPlayer is free, open-source software. Use, copying, modification, and distribution of the software are governed by the MIT license in the project repository. When using the app, you agree not to:",
-        "li1": "Remove copyright or permission notices required by the applicable software licenses",
-        "li2": "Use the app to distribute malware or harmful content",
-        "li3": "Violate any applicable laws or regulations while using the app"
+        "title": "2. استخدام التطبيق",
+        "p": "PPPlayer برنامج مجاني ومفتوح المصدر. يخضع استخدام ونسخ وتعديل وتوزيع البرنامج لترخيص MIT في مستودع المشروع. عند استخدام التطبيق، توافق على عدم:",
+        "li1": "إزالة إشعارات حقوق النشر أو التصاريح التي تتطلبها تراخيص البرامج المعمول بها",
+        "li2": "استخدام التطبيق لتوزيع البرامج الضارة أو المحتوى الضار",
+        "li3": "انتهاك أي قوانين أو لوائح معمول بها أثناء استخدام التطبيق"
       },
       "s3": {
-        "title": "3. No Account Required",
-        "p": "PPPlayer does not require account creation. You can use all features immediately after download."
+        "title": "3. لا يتطلب حساباً",
+        "p": "لا يتطلب PPPlayer إنشاء حساب. يمكنك استخدام جميع الميزات فوراً بعد التنزيل."
       },
       "s4": {
-        "title": "4. Intellectual Property",
-        "p": "PPPlayer source code is available under the MIT license. Third-party dependencies retain their own licenses. Music, artwork, and metadata remain subject to their respective rights and licenses; the software license does not grant rights to that content."
+        "title": "4. الملكية الفكرية",
+        "p": "يتوفر الكود المصدري لتطبيق PPPlayer بموجب ترخيص MIT. تحتفظ تبعيات الجهات الخارجية بتراخيصها الخاصة. تخضع الموسيقى والأعمال الفنية والبيانات الوصفية للحقوق والتراخيص الخاصة بها؛ ولا يمنح ترخيص البرنامج حقوقاً لذلك المحتوى."
       },
       "s5": {
-        "title": "5. Disclaimer of Warranties",
-        "p": "PPPlayer is provided \"as is\" without warranty of any kind, express or implied. We do not guarantee uninterrupted service or that the app will be error-free."
+        "title": "5. إخلاء المسؤولية عن الضمانات",
+        "p": "يتم توفير PPPlayer \"كما هو\" دون أي ضمان من أي نوع، صريحاً كان أو ضمنياً. نحن لا نضمن الخدمة دون انقطاع أو أن التطبيق سيكون خالياً من الأخطاء."
       },
       "s6": {
-        "title": "6. Limitation of Liability",
-        "p": "To the maximum extent permitted by law, PPPlayer shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use or inability to use the app."
+        "title": "6. تحديد المسؤولية",
+        "p": "إلى أقصى حد يسمح به القانون، لن يكون PPPlayer مسؤولاً عن أي أضرار غير مباشرة أو عرضية أو خاصة أو تبعية ناتجة عن استخدامك أو عدم قدرتك على استخدام التطبيق."
       },
       "s7": {
-        "title": "7. Changes to Terms",
-        "p": "We reserve the right to update these terms at any time. Continued use of the app after changes constitutes acceptance of the new terms."
+        "title": "7. التغييرات في الشروط",
+        "p": "نحتفظ بالحق في تحديث هذه الشروط في أي وقت. يشكل الاستخدام المستمر للتطبيق بعد التغييرات قبولاً للشروط الجديدة."
       },
       "s8": {
-        "title": "8. Contact",
-        "p": "Questions about these terms? Reach us at "
+        "title": "8. الاتصال",
+        "p": "هل لديك أسئلة حول هذه الشروط؟ تواصل معنا على "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← العودة إلى PPPlayer"
   },
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
-      "desc": "Available on the App Store for iPhone and iPad.",
+      "label": "iPhone و iPad",
+      "desc": "متوفر على App Store لأجهزة iPhone و iPad.",
       "badge": "App Store"
     },
     "android": {
       "name": "Android",
       "label": "Android",
-      "desc": "Available on Google Play for Android phones and tablets.",
+      "desc": "متوفر على Google Play لهواتف وأجهزة Android اللوحية.",
       "badge": "Google Play"
     },
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Direct download for Windows 10 and later. No store needed.",
-      "badge": "Direct Download"
+      "desc": "تنزيل مباشر لأنظمة Windows 10 والأحدث. لا يتطلب متجر.",
+      "badge": "تنزيل مباشر"
     },
     "macos": {
       "name": "macOS",
       "label": "Mac",
-      "desc": "Direct download for macOS. Apple Silicon & Intel supported.",
-      "badge": "Direct Download"
+      "desc": "تنزيل مباشر لنظام macOS. يدعم Apple Silicon و Intel.",
+      "badge": "تنزيل مباشر"
     },
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Direct download for Linux. AppImage supported.",
-      "badge": "Direct Download"
+      "desc": "تنزيل مباشر لنظام Linux. يدعم AppImage.",
+      "badge": "تنزيل مباشر"
     }
   },
   "changelog": {
-    "title": "Changelog",
-    "subtitle": "What's new in PPPlayer.",
-    "back": "← Back to PPPlayer",
+    "title": "سجل التغييرات",
+    "subtitle": "ما الجديد في PPPlayer.",
+    "back": "← العودة إلى PPPlayer",
     "v1_1_2": {
       "version": "v1.1.2",
       "date": "12 سبتمبر 2026",
@@ -289,129 +289,129 @@
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "date": "12 سبتمبر 2026",
+      "desc": "إصلاح أخطاء التشغيل وتحسين شريط التمرير عند بدء التطبيق.",
+      "fixed": "تم الإصلاح",
+      "snapTitle": "خطأ في شريط التمرير عند البدء",
+      "snapDesc": "تم إصلاح مشكلة كانت تؤدي إلى عودة شريط التمرير فوراً إلى البداية عند سحبه مباشرة بعد تشغيل التطبيق.",
+      "durationTitle": "مدة مفقودة",
+      "durationDesc": "تم إصلاح مشكلة عرض شريط التمرير لمدة 0:00 عند تشغيل التطبيق لأول مرة."
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "date": "11 سبتمبر 2026",
+      "desc": "تدويل وتوطين شامل عبر التطبيق والموقع بأكمله.",
+      "new": "إضافة جديدة",
+      "langTitle": "11 لغة عالمية",
+      "langDesc": "دعم كامل للغات: الإسبانية، الفرنسية، الألمانية، البرتغالية، الإيطالية، اليابانية، الكورية، الصينية، الهندية، الروسية، والعربية.",
+      "pickerTitle": "أداة اختيار اللغة داخل التطبيق",
+      "pickerDesc": "تمت إضافة أداة لاختيار اللغة في قائمة التفضيلات، والتي تطبق الترجمات فوراً دون الحاجة لإعادة تشغيل التطبيق.",
+      "osTitle": "تكامل على مستوى النظام",
+      "osDesc": "تكاملات للغات النظام الأصلية على Android 13+ و iOS لمزامنة لغة التطبيق تلقائياً."
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "date": "11 سبتمبر 2026",
+      "desc": "إصلاح سريع للتثبيتات الجديدة.",
+      "fixed": "تم الإصلاح",
+      "crashTitle": "إصلاح انهيار البدء",
+      "crashDesc": "إصلاح خطأ حرج كان يتسبب في انهيار التطبيق إلى شاشة فارغة في التثبيتات الجديدة بسبب فقدان ملف تهيئة البيئة."
     },
     "v1_0_5": {
       "version": "v1.0.5",
-      "date": "September 11, 2026",
-      "desc": "Seamless background playback on macOS.",
-      "new": "New",
-      "fixed": "Fixed",
-      "appNapTitle": "Gapless Background Playback",
-      "appNapDesc": "Prevented macOS App Nap from aggressively suspending the player when minimized, allowing the queue to continue uninterrupted."
+      "date": "11 سبتمبر 2026",
+      "desc": "تشغيل سلس في الخلفية على macOS.",
+      "new": "جديد",
+      "fixed": "تم الإصلاح",
+      "appNapTitle": "تشغيل متواصل في الخلفية",
+      "appNapDesc": "منع ميزة App Nap في macOS من تعليق المشغل بقوة عند تصغيره، مما يسمح لقائمة التشغيل بالاستمرار دون انقطاع."
     },
     "v1_0_4": {
       "version": "v1.0.4",
-      "date": "September 11, 2026",
-      "desc": "Automated releases and code signing.",
-      "new": "New",
-      "fixed": "Fixed",
-      "ciTitle": "Automated Release Pipeline",
-      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
-      "signedTitle": "Signed macOS Releases",
-      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
-      "licenseTitle": "Open Source License",
-      "licenseDesc": "Added MIT License to the repository.",
-      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+      "date": "11 سبتمبر 2026",
+      "desc": "تحديثات آلية وتوقيع الرموز.",
+      "new": "جديد",
+      "fixed": "تم الإصلاح",
+      "ciTitle": "مسار إطلاق آلي",
+      "ciDesc": "مسار عمل GitHub Actions لبناء الإصدارات وتوقيع التعليمات البرمجية لنظام macOS باستمرار.",
+      "signedTitle": "إصدارات macOS موقعة",
+      "signedDesc": "الإصدارات الرسمية الموقعة والموثقة لنظام macOS متاحة الآن مباشرة على الموقع.",
+      "licenseTitle": "ترخيص مفتوح المصدر",
+      "licenseDesc": "تم إضافة ترخيص MIT إلى المستودع.",
+      "submoduleFix": "تم إصلاح تكوين فحص الوحدات الفرعية في مسارات عمل CI"
     },
     "v1_0_3": {
       "version": "v1.0.3",
-      "date": "September 10, 2026",
-      "desc": "Background playback and stability.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "hybridEngineTitle": "Hybrid Playback Engine",
-      "hybridEngineDesc": "Robust background processing and lock-screen playback capabilities.",
-      "dedupTitle": "Command Deduplication",
-      "dedupDesc": "Added generation IDs to prevent overlapping and stale media commands across WebView bridge.",
-      "queueAdvance": "Song queue not automatically advancing to the next track",
-      "resumeBug": "Paused track unexpectedly resuming when handing off from foreground to PiP or background",
-      "precision": "Accurate millisecond precision reporting for current track position and playback duration",
-      "linter": "Eliminated several IDE linter errors and cleaned up redundant files"
+      "date": "10 سبتمبر 2026",
+      "desc": "التشغيل في الخلفية والاستقرار.",
+      "new": "جديد",
+      "improved": "محسّن",
+      "fixed": "تم الإصلاح",
+      "hybridEngineTitle": "محرك تشغيل هجين",
+      "hybridEngineDesc": "معالجة قوية في الخلفية وإمكانيات التشغيل على شاشة القفل.",
+      "dedupTitle": "إزالة التكرار من الأوامر",
+      "dedupDesc": "تمت إضافة معرّفات جيلية لمنع تداخل الأوامر القديمة عبر جسر WebView.",
+      "queueAdvance": "عدم تقدم قائمة التشغيل تلقائياً إلى المسار التالي",
+      "resumeBug": "استئناف مسار متوقف مؤقتاً بشكل غير متوقع عند الانتقال من الواجهة الأمامية إلى PiP أو الخلفية",
+      "precision": "الإبلاغ عن الوقت بدقة الميلي ثانية للمسار الحالي ومدة التشغيل",
+      "linter": "تم التخلص من العديد من أخطاء المحلل البرمجي لبيئة التطوير وتنظيف الملفات الزائدة"
     },
     "v1_0_2": {
       "version": "v1.0.2",
-      "date": "September 9, 2026",
-      "desc": "Smarter, context-based autoplay.",
-      "autoplayContextTitle": "Context-Aware Autoplay",
-      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
-      "tieredRecsTitle": "Tiered Recommendation Engine",
-      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+      "date": "9 سبتمبر 2026",
+      "desc": "تشغيل تلقائي أذكى يعتمد على السياق.",
+      "autoplayContextTitle": "تشغيل تلقائي يعي بالسياق",
+      "autoplayContextDesc": "أصبح التشغيل التلقائي يعطي الأولوية لمسارات الفنان الحالي قبل إضافة فنانين ذوي صلة إلى القائمة.",
+      "tieredRecsTitle": "محرك توصيات متدرج",
+      "tieredRecsDesc": "تستخدم التوصيات الآن بصرامة كتالوج الفنان المستهدف بدلاً من البحث المبهم بالاسم."
     },
     "v1_0_1": {
       "version": "v1.0.1",
-      "date": "September 9, 2026",
-      "desc": "A better listening experience.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "autoplayTitle": "Autoplay",
-      "autoplayDesc": "Music keeps going with recommendations based on what you're listening to.",
-      "discoverTitle": "Discover",
-      "discoverDesc": "Find music based on your listening history, favorite artists and playlists.",
-      "tooltipsTitle": "Interactive Seekbar Tooltips",
-      "tooltipsDesc": "Added dynamic tooltips that perfectly follow your mouse cursor when hovering the player progress bar.",
-      "startup": "Faster startup",
-      "recovery": "Better playback recovery",
-      "macosMedia": "Improved macOS media controls",
-      "duplicateMedia": "Duplicate macOS media controls",
-      "stationHighlight": "Station active-track highlighting",
-      "seekbarPause": "Playback pausing/stopping unexpectedly when dragging the seekbar",
-      "bottomBar": "Bottom player bar rendering fully transparent and unreadable on macOS when playing music"
+      "date": "9 سبتمبر 2026",
+      "desc": "تجربة استماع أفضل.",
+      "new": "جديد",
+      "improved": "محسّن",
+      "fixed": "تم الإصلاح",
+      "autoplayTitle": "تشغيل تلقائي",
+      "autoplayDesc": "الموسيقى تستمر مع توصيات تعتمد على ما تستمع إليه.",
+      "discoverTitle": "اكتشاف",
+      "discoverDesc": "اعثر على الموسيقى بناءً على سجل الاستماع الخاص بك، والفنانين المفضلين، وقوائم التشغيل.",
+      "tooltipsTitle": "تلميحات تفاعلية لشريط التمرير",
+      "tooltipsDesc": "تمت إضافة تلميحات ديناميكية تتبع مؤشر الماوس بدقة عند التمرير على شريط تقدم المشغل.",
+      "startup": "بدء تشغيل أسرع",
+      "recovery": "استرداد أفضل للتشغيل",
+      "macosMedia": "تحسين عناصر تحكم وسائط macOS",
+      "duplicateMedia": "عناصر تحكم وسائط macOS متكررة",
+      "stationHighlight": "إبراز المسار النشط للمحطة",
+      "seekbarPause": "إيقاف التشغيل أو توقفه بشكل غير متوقع عند سحب شريط التمرير",
+      "bottomBar": "عرض شريط المشغل السفلي بشكل شفاف بالكامل وغير مقروء على macOS عند تشغيل الموسيقى"
     },
     "v1_0_0": {
       "version": "v1.0.0",
-      "date": "September 2026",
-      "desc": "The first release of PPPlayer.",
-      "spotify": "Spotify-powered music metadata",
-      "youtube": "YouTube-powered audio playback",
-      "playlists": "Playlists, favorites and listening history",
-      "platforms": "macOS, Windows and Linux support"
+      "date": "سبتمبر 2026",
+      "desc": "الإصدار الأول من PPPlayer.",
+      "spotify": "بيانات وصفية للموسيقى مدعومة من Spotify",
+      "youtube": "تشغيل صوتي مدعوم من YouTube",
+      "playlists": "قوائم التشغيل، والمفضلة، وسجل الاستماع",
+      "platforms": "دعم أنظمة macOS و Windows و Linux"
     }
   },
   "support": {
-    "title": "Support",
-    "subtitle": "How can we help you?",
-    "contactTitle": "Contact Us",
-    "contactDesc": "For general inquiries, partnerships, or questions not suited for GitHub, feel free to reach out to us at contact@ppplayer.com.",
-    "githubTitle": "Community & GitHub",
-    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us in building the ultimate open-source music player.",
-    "githubBtn": "View on GitHub"
+    "title": "الدعم",
+    "subtitle": "كيف يمكننا مساعدتك؟",
+    "contactTitle": "اتصل بنا",
+    "contactDesc": "للاستفسارات العامة أو الشراكات أو الأسئلة غير المناسبة لـ GitHub، لا تتردد في التواصل معنا عبر contact@ppplayer.com.",
+    "githubTitle": "المجتمع و GitHub",
+    "githubDesc": "استكشف الكود المصدري، أبلغ عن خطأ، اقترح ميزة، أو ساهم في كتابة الكود والترجمات. انضم إلينا في بناء المشغل الموسيقي المفتوح المصدر الأفضل.",
+    "githubBtn": "عرض على GitHub"
   },
   "openSource": {
-    "badge": "Free & open source",
-    "title": "By the community. For the community.",
-    "desc": "PPPlayer is proudly open-source. Explore the codebase, report issues, suggest features, or contribute your own code. Every contribution makes the listening experience better for everyone.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "issues": "Report a bug",
-    "license": "MIT license"
+    "badge": "مجاني ومفتوح المصدر",
+    "title": "من المجتمع. ولأجل المجتمع.",
+    "desc": "يفخر PPPlayer بكونه مفتوح المصدر. استكشف قاعدة الأكواد، أبلغ عن المشكلات، اقترح الميزات، أو ساهم بالتعليمات البرمجية الخاصة بك. كل مساهمة تجعل تجربة الاستماع أفضل للجميع.",
+    "source": "عرض المصدر على GitHub",
+    "contribute": "المساهمة",
+    "issues": "الإبلاغ عن خطأ",
+    "license": "ترخيص MIT"
   }
 }

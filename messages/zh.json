@@ -1,417 +1,417 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Free & Open-Source Music Player",
-    "homeDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "downloadTitle": "Download PPPlayer Free",
-    "downloadDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDesc": "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "termsTitle": "Terms of Service",
-    "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "supportTitle": "Support - PPPlayer",
-    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com."
+    "homeTitle": "PPPlayer | 免费开源音乐播放器",
+    "homeDesc": "免费、开源的音乐播放器。无需账号。无订阅。即刻播放。",
+    "downloadTitle": "免费下载 PPPlayer",
+    "downloadDesc": "免费、开源的音乐播放器。无需账号。无订阅。即刻播放。",
+    "privacyTitle": "隐私政策",
+    "privacyDesc": "PPPlayer 的隐私政策：适用于 macOS、Linux、Windows、iOS 和 Android 的免费音乐应用。",
+    "termsTitle": "服务条款",
+    "termsDesc": "PPPlayer 的服务条款：适用于 macOS、Linux、Windows、iOS 和 Android 的免费音乐应用。",
+    "supportTitle": "支持 - PPPlayer",
+    "supportDesc": "PPPlayer 是一个独立的开源项目。如需报告错误或提出功能建议，请使用 GitHub。其他问题请发送电子邮件至 contact@ppplayer.com。"
   },
   "nav": {
-    "features": "Features",
-    "download": "Download Free",
-    "support": "Support",
-    "contribute": "Contribute"
+    "features": "功能特点",
+    "download": "免费下载",
+    "support": "支持",
+    "contribute": "参与贡献"
   },
   "footer": {
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "product": "Product",
-    "features": "Features",
-    "download": "Download",
-    "platforms": "Platforms",
+    "desc": "免费、开源的音乐播放器。无需账号。无订阅。即刻播放。",
+    "product": "产品",
+    "features": "功能特点",
+    "download": "下载",
+    "platforms": "平台",
     "ios": "iOS",
     "android": "Android",
     "windows": "Windows",
-    "social": "Social",
+    "social": "社交网络",
     "instagram": "Instagram",
     "linkedin": "LinkedIn",
     "facebook": "Facebook",
     "github": "GitHub",
-    "legal": "Legal",
-    "privacy": "Privacy",
-    "terms": "Terms",
+    "legal": "法律声明",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
     "copyright": "© {year} PPPlayer Music.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "changelog": "Changelog",
+    "source": "在 GitHub 上查看源码",
+    "contribute": "参与贡献",
+    "changelog": "更新日志",
     "linux": "Linux"
   },
   "cookie": {
-    "title": "We value your privacy",
-    "desc": "We use cookies to analyze site traffic and enhance your experience. By clicking \"Accept\", you consent to our use of cookies.",
-    "decline": "Decline All",
-    "accept": "Accept All"
+    "title": "我们尊重您的隐私",
+    "desc": "我们使用 cookie 来分析网站流量并增强您的体验。点击“接受”即表示您同意我们使用 cookie。",
+    "decline": "全部拒绝",
+    "accept": "全部接受"
   },
   "hero": {
-    "title1": "Music.",
-    "title2": "Without the friction.",
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "getLinux": "Get for Linux",
-    "badge": "Free & open source",
-    "source": "View source on GitHub"
+    "title1": "音乐.",
+    "title2": "无拘无束.",
+    "desc": "免费、开源的音乐播放器。无需账号。无订阅。即刻播放。",
+    "getIos": "获取 iOS 版",
+    "getAndroid": "获取 Android 版",
+    "getMac": "获取 Mac 版",
+    "getWindows": "获取 Windows 版",
+    "getLinux": "获取 Linux 版",
+    "badge": "免费且开源",
+    "source": "在 GitHub 上查看源码"
   },
   "discover": {
-    "title": "Find<br></br>something<br></br>worth playing."
+    "title": "发现<br></br>值得聆听的<br></br>音乐。"
   },
   "artistRadio": {
-    "title": "Endless listening."
+    "title": "无尽畅听。"
   },
   "goDeeper": {
-    "bgText": "FOLLOW",
-    "title": "Follow the music."
+    "bgText": "关注",
+    "title": "跟随音乐的脚步。"
   },
   "pressPlay": {
-    "title": "Then, just listen."
+    "title": "然后，尽情聆听。"
   },
   "featureGallery": {
-    "title": "Everything you need.",
-    "subtitle": "A beautiful, native experience built for performance.",
-    "searchTitle": "Find exactly what you want.",
-    "searchDesc": "Search globally across tracks, artists, and albums instantly.",
-    "queueTitle": "Perfectly queued.",
-    "queueDesc": "Manage what plays next with a beautiful, reorderable queue.",
-    "favTitle": "Your music, your rules.",
-    "favDesc": "Build your personal library with a single click. Always there.",
-    "contextTitle": "Native by design.",
-    "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus."
+    "title": "应有尽有。",
+    "subtitle": "为性能而构建的精美原生体验。",
+    "searchTitle": "精准搜索您想要的。",
+    "searchDesc": "瞬间在所有曲目、艺术家和专辑中进行全局搜索。",
+    "queueTitle": "完美的播放队列。",
+    "queueDesc": "使用精美且可重新排序的队列管理接下来的播放内容。",
+    "favTitle": "你的音乐，由你做主。",
+    "favDesc": "一键构建您的个人曲库。随时待命。",
+    "contextTitle": "原生设计。",
+    "contextDesc": "在任何地方右键单击。精美、智能的原生菜单。"
   },
   "noAccount": {
-    "title": "No account.",
-    "subtitle": "Free & open source"
+    "title": "无需账号。",
+    "subtitle": "免费且开源"
   },
   "platforms": {
-    "title": "Your music. Your devices.",
-    "subtitle": "Beautifully native on macOS, Linux, Windows, Android, and iOS."
+    "title": "你的音乐。你的设备。",
+    "subtitle": "在 macOS、Linux、Windows、Android 和 iOS 上体验精美的原生应用。"
   },
   "downloadCTA": {
-    "title": "Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "notAvailable": "Not available yet. Currently, only the macOS version is available for download.",
-    "notAvailableTitle": "Coming Soon",
-    "okayBtn": "Okay",
-    "getLinux": "Get for Linux"
+    "title": "即刻播放。",
+    "getIos": "获取 iOS 版",
+    "getAndroid": "获取 Android 版",
+    "getMac": "获取 Mac 版",
+    "getWindows": "获取 Windows 版",
+    "notAvailable": "暂未可用。目前只有 macOS 版本可供下载。",
+    "notAvailableTitle": "敬请期待",
+    "okayBtn": "好的",
+    "getLinux": "获取 Linux 版"
   },
   "downloadPage": {
-    "badge": "PPPlayer 1.0 is now available",
-    "title": "Download <gradient>PPPlayer</gradient>",
-    "subtitle": "Pick your platform. Start listening in seconds.",
-    "desc": "No account required. No email. No signup. Just music.",
-    "windowsReqLabel": "Windows system requirements:",
-    "windowsReqDesc": "Windows 10 or later (64-bit). ~50 MB download. No Microsoft Store required."
+    "badge": "PPPlayer 1.0 现已发布",
+    "title": "下载 <gradient>PPPlayer</gradient>",
+    "subtitle": "选择您的平台。几秒钟内开始聆听。",
+    "desc": "无需账号。无需邮箱。无需注册。只需享受音乐。",
+    "windowsReqLabel": "Windows 系统要求：",
+    "windowsReqDesc": "Windows 10 或更高版本（64 位）。下载约 50 MB。无需 Microsoft Store。"
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Common <gradient>questions</gradient>",
-    "subtitle": "Everything you need to know about PPPlayer.",
+    "badge": "常见问题",
+    "title": "常见 <gradient>问题解答</gradient>",
+    "subtitle": "您需要了解的有关 PPPlayer 的一切。",
     "items": [
       {
-        "q": "Is PPPlayer free?",
-        "a": "Yes. PPPlayer is 100% free. No subscriptions, no in-app purchases, and no hidden costs."
+        "q": "PPPlayer 是免费的吗？",
+        "a": "是的。PPPlayer 是 100% 免费的。没有订阅，没有应用内购买，也没有隐藏费用。"
       },
       {
-        "q": "Do I need to create an account?",
-        "a": "No. You do not need an email address, account, or login of any kind. Just download, open, and start listening."
+        "q": "我需要创建一个账号吗？",
+        "a": "不需要。您不需要提供电子邮件地址、账号或任何形式的登录。只需下载、打开即可开始聆听。"
       },
       {
-        "q": "Is PPPlayer available for iPhone?",
-        "a": "Yes. PPPlayer is available on the App Store for iPhone and iPad."
+        "q": "iPhone 上有 PPPlayer 吗？",
+        "a": "是的。您可以在 App Store 下载适用于 iPhone 和 iPad 的 PPPlayer。"
       },
       {
-        "q": "Is PPPlayer available for Android?",
-        "a": "Yes. You can download PPPlayer on Google Play for Android phones and tablets."
+        "q": "Android 上有 PPPlayer 吗？",
+        "a": "是的。您可以在 Google Play 下载适用于 Android 手机和平板电脑的 PPPlayer。"
       },
       {
-        "q": "Can I use PPPlayer on Windows?",
-        "a": "Yes. PPPlayer is available for Windows 10 and later as a direct download. No store required."
+        "q": "我能在 Windows 上使用 PPPlayer 吗？",
+        "a": "可以。PPPlayer 提供适用于 Windows 10 及更高版本的直接下载版本。不需要应用商店。"
       },
       {
-        "q": "What music features does PPPlayer offer?",
-        "a": "PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required."
+        "q": "PPPlayer 提供哪些音乐功能？",
+        "a": "PPPlayer 包括艺术家发现、相关艺术家、艺术家电台、艺术家播放列表、流派探索以及精美的全屏播放器。这一切都是免费的，并且不需要账号。"
       },
       {
-        "q": "How do I download PPPlayer?",
-        "a": "Tap the download button for your platform on this page. The download takes less than a minute."
+        "q": "如何下载 PPPlayer？",
+        "a": "点击本页面上针对您平台的下载按钮。下载只需不到一分钟。"
       },
       {
-        "q": "Is there a premium version?",
-        "a": "No. PPPlayer is fully free. Everything you see is available at no cost, with no account needed."
+        "q": "有高级版 (Premium) 吗？",
+        "a": "没有。PPPlayer 完全免费。您所看到的一切都可免费使用，无需账号。"
       }
     ],
-    "openSourceQuestion": "Is PPPlayer open source?",
-    "openSourceAnswer": "Yes. PPPlayer is 100% open-source under the MIT license. You can use, study, modify, and share the software freely. Check out our GitHub repository to view the source code or get involved."
+    "openSourceQuestion": "PPPlayer 是开源的吗？",
+    "openSourceAnswer": "是的。PPPlayer 在 MIT 许可证下 100% 开源。您可以自由地使用、研究、修改和分享该软件。请访问我们的 GitHub 仓库查看源代码或参与贡献。"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: April 2025",
+    "title": "隐私政策",
+    "lastUpdated": "最后更新：2025 年 4 月",
     "sections": {
       "s1": {
-        "title": "1. Overview",
-        "p": "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explains what data we collect, why, and how it is used when you use PPPlayer on macOS, Linux, Windows, iOS, or Android."
+        "title": "1. 概述",
+        "p": "PPPlayer（“我们”、“我们的”、“本应用”）致力于保护您的隐私。本政策解释了当您在 macOS、Linux、Windows、iOS 或 Android 上使用 PPPlayer 时，我们会收集哪些数据、为何收集以及如何使用这些数据。"
       },
       "s2": {
-        "title": "2. No Account Required",
-        "p": "PPPlayer does not require you to create an account. We do not collect your name, email address, or any personally identifiable information to use the app."
+        "title": "2. 无需账号",
+        "p": "PPPlayer 不要求您创建账号。我们不会收集您的姓名、电子邮件地址或任何个人身份信息来使用本应用。"
       },
       "s3": {
-        "title": "3. Data We Collect",
-        "p1": "We may collect the following anonymous, non-identifiable data:",
-        "li1": "Crash reports and error logs (to improve app stability)",
-        "li2": "Anonymous usage analytics (feature usage, session duration)",
-        "li3": "Device type and operating system version",
-        "p2": "We do not collect: names, emails, payment info, or precise location data."
+        "title": "3. 我们收集的数据",
+        "p1": "我们可能会收集以下匿名的、不可识别身份的数据：",
+        "li1": "崩溃报告和错误日志（以提高应用稳定性）",
+        "li2": "匿名使用情况分析（功能使用情况、会话时长）",
+        "li3": "设备类型和操作系统版本",
+        "p2": "我们不收集：姓名、电子邮件、付款信息或精确位置数据。"
       },
       "s4": {
-        "title": "4. Third-Party Services",
-        "p": "PPPlayer may use third-party services for music metadata and analytics. These services have their own privacy policies. We encourage you to review them."
+        "title": "4. 第三方服务",
+        "p": "PPPlayer 可能使用第三方服务来获取音乐元数据和分析。这些服务拥有自己的隐私政策。我们鼓励您查阅它们。"
       },
       "s5": {
-        "title": "5. Data Retention",
-        "p": "Anonymous analytics data is retained for a maximum of 12 months. Crash logs are deleted after 90 days."
+        "title": "5. 数据保留",
+        "p": "匿名分析数据最多保留 12 个月。崩溃日志会在 90 天后删除。"
       },
       "s6": {
-        "title": "6. Your Rights",
-        "p": "Since we do not collect personal data, there is no personal information to access, export, or delete. If you have questions, contact us at the address below."
+        "title": "6. 您的权利",
+        "p": "由于我们不收集个人数据，因此没有个人信息可供访问、导出或删除。如果您有疑问，请通过以下地址与我们联系。"
       },
       "s7": {
-        "title": "7. Children",
-        "p": "PPPlayer is not directed at children under 13. We do not knowingly collect data from children."
+        "title": "7. 儿童",
+        "p": "PPPlayer 不面向 13 岁以下的儿童。我们不会有意收集儿童的数据。"
       },
       "s8": {
-        "title": "8. Changes",
-        "p": "We may update this policy from time to time. We will note the date of the last update at the top of this page."
+        "title": "8. 变更",
+        "p": "我们可能会不时更新本政策。我们会在本页面顶部注明最后更新日期。"
       },
       "s9": {
-        "title": "9. Contact",
-        "p": "Questions about this policy? Contact us at "
+        "title": "9. 联系方式",
+        "p": "对此政策有疑问？请联系我们："
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← 返回 PPPlayer"
   },
   "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated: September 11, 2026",
+    "title": "服务条款",
+    "lastUpdated": "最后更新：2026 年 9 月 11 日",
     "sections": {
       "s1": {
-        "title": "1. Acceptance of Terms",
-        "p": "By downloading or using PPPlayer, you agree to these Terms of Service. If you do not agree, please do not use the app."
+        "title": "1. 接受条款",
+        "p": "下载或使用 PPPlayer，即表示您同意这些服务条款。如果您不同意，请勿使用本应用。"
       },
       "s2": {
-        "title": "2. Use of the App",
-        "p": "PPPlayer is free, open-source software. Use, copying, modification, and distribution of the software are governed by the MIT license in the project repository. When using the app, you agree not to:",
-        "li1": "Remove copyright or permission notices required by the applicable software licenses",
-        "li2": "Use the app to distribute malware or harmful content",
-        "li3": "Violate any applicable laws or regulations while using the app"
+        "title": "2. 应用使用",
+        "p": "PPPlayer 是免费开源软件。本软件的使用、复制、修改和分发均受项目仓库中的 MIT 许可证管辖。使用本应用时，您同意不：",
+        "li1": "删除适用软件许可证所要求的版权或许可声明",
+        "li2": "使用本应用分发恶意软件或有害内容",
+        "li3": "在使用本应用时违反任何适用的法律或法规"
       },
       "s3": {
-        "title": "3. No Account Required",
-        "p": "PPPlayer does not require account creation. You can use all features immediately after download."
+        "title": "3. 无需账号",
+        "p": "PPPlayer 不需要创建账号。您可以在下载后立即使用所有功能。"
       },
       "s4": {
-        "title": "4. Intellectual Property",
-        "p": "PPPlayer source code is available under the MIT license. Third-party dependencies retain their own licenses. Music, artwork, and metadata remain subject to their respective rights and licenses; the software license does not grant rights to that content."
+        "title": "4. 知识产权",
+        "p": "PPPlayer 源代码在 MIT 许可证下提供。第三方依赖项保留其自己的许可证。音乐、艺术作品和元数据仍然受其各自的权利和许可证约束；本软件许可证不授予这些内容的权利。"
       },
       "s5": {
-        "title": "5. Disclaimer of Warranties",
-        "p": "PPPlayer is provided \"as is\" without warranty of any kind, express or implied. We do not guarantee uninterrupted service or that the app will be error-free."
+        "title": "5. 免责声明",
+        "p": "PPPlayer 按“原样”提供，不提供任何明示或暗示的保证。我们不保证服务不中断或本应用没有错误。"
       },
       "s6": {
-        "title": "6. Limitation of Liability",
-        "p": "To the maximum extent permitted by law, PPPlayer shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use or inability to use the app."
+        "title": "6. 责任限制",
+        "p": "在法律允许的最大范围内，PPPlayer 对因您使用或无法使用本应用而造成的任何间接、偶然、特殊或后果性损害不承担任何责任。"
       },
       "s7": {
-        "title": "7. Changes to Terms",
-        "p": "We reserve the right to update these terms at any time. Continued use of the app after changes constitutes acceptance of the new terms."
+        "title": "7. 条款的变更",
+        "p": "我们保留随时更新这些条款的权利。在变更后继续使用本应用即表示接受新条款。"
       },
       "s8": {
-        "title": "8. Contact",
-        "p": "Questions about these terms? Reach us at "
+        "title": "8. 联系方式",
+        "p": "对这些条款有疑问？请联系我们："
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← 返回 PPPlayer"
   },
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
-      "desc": "Available on the App Store for iPhone and iPad.",
+      "label": "iPhone 和 iPad",
+      "desc": "适用于 iPhone 和 iPad，在 App Store 提供。",
       "badge": "App Store"
     },
     "android": {
       "name": "Android",
       "label": "Android",
-      "desc": "Available on Google Play for Android phones and tablets.",
+      "desc": "适用于 Android 手机和平板电脑，在 Google Play 提供。",
       "badge": "Google Play"
     },
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Direct download for Windows 10 and later. No store needed.",
-      "badge": "Direct Download"
+      "desc": "适用于 Windows 10 及更高版本的直接下载版本。无需应用商店。",
+      "badge": "直接下载"
     },
     "macos": {
       "name": "macOS",
       "label": "Mac",
-      "desc": "Direct download for macOS. Apple Silicon & Intel supported.",
-      "badge": "Direct Download"
+      "desc": "适用于 macOS 的直接下载版本。支持 Apple Silicon 和 Intel。",
+      "badge": "直接下载"
     },
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Direct download for Linux. AppImage supported.",
-      "badge": "Direct Download"
+      "desc": "适用于 Linux 的直接下载版本。支持 AppImage。",
+      "badge": "直接下载"
     }
   },
   "changelog": {
-    "title": "Changelog",
-    "subtitle": "What's new in PPPlayer.",
-    "back": "← Back to PPPlayer",
+    "title": "更新日志",
+    "subtitle": "PPPlayer 的最新动态。",
+    "back": "← 返回 PPPlayer",
     "v1_1_2": {
       "version": "v1.1.2",
-      "date": "2026年9月12日",
-      "desc": "添加了阿拉伯语和中文本地化，并修复了macOS调整大小的错误。",
+      "date": "2026 年 9 月 12 日",
+      "desc": "添加了阿拉伯语和中文的本地化支持，并修复了 macOS 上的调整窗口大小错误。",
       "added": "新增",
       "fixed": "修复",
-      "localizationTitle": "本地化扩展",
-      "localizationDesc": "添加了阿拉伯语和中文（简体和繁体）本地化。",
-      "layoutTitle": "macOS布局修复",
-      "layoutDesc": "修复了在macOS上调整应用程序窗口大小时，YouTube视频播放器偏离中心的问题。"
+      "localizationTitle": "语言扩展",
+      "localizationDesc": "添加了阿拉伯语和中文（简体和繁体）的本地化支持。",
+      "layoutTitle": "macOS 布局修复",
+      "layoutDesc": "修复了在 macOS 上调整应用窗口大小时 YouTube 视频播放器会偏离中心的问题。"
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "date": "2026 年 9 月 12 日",
+      "desc": "修复了播放错误，并优化了应用启动时的进度条。",
+      "fixed": "修复",
+      "snapTitle": "启动进度条错误",
+      "snapDesc": "修复了在应用启动后立即拖动进度条时，进度条会瞬间回弹到起始位置的问题。",
+      "durationTitle": "缺少总时长",
+      "durationDesc": "修复了应用首次启动时进度条显示时长为 0:00 的问题。"
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "date": "2026 年 9 月 11 日",
+      "desc": "在整个应用和网站上实现了全面的国际化和本地化支持。",
+      "new": "新增",
+      "langTitle": "11 种全球语言",
+      "langDesc": "全面支持西班牙语、法语、德语、葡萄牙语、意大利语、日语、韩语、中文、印地语、俄语和阿拉伯语。",
+      "pickerTitle": "应用内语言选择器",
+      "pickerDesc": "在偏好设置菜单中添加了应用内语言选择器，无需重启应用即可即时应用翻译。",
+      "osTitle": "操作系统级集成",
+      "osDesc": "在 Android 13+ 和 iOS 上实现了原生操作系统级语言集成，以自动同步应用的语言。"
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "date": "2026 年 9 月 11 日",
+      "desc": "针对全新安装的热修复。",
+      "fixed": "修复",
+      "crashTitle": "启动崩溃修复",
+      "crashDesc": "修复了一个严重错误，该错误导致全新安装的应用由于缺少环境配置文件而在启动时崩溃并显示空白屏幕。"
     },
     "v1_0_5": {
       "version": "v1.0.5",
-      "date": "September 11, 2026",
-      "desc": "Seamless background playback on macOS.",
-      "new": "New",
-      "fixed": "Fixed",
-      "appNapTitle": "Gapless Background Playback",
-      "appNapDesc": "Prevented macOS App Nap from aggressively suspending the player when minimized, allowing the queue to continue uninterrupted."
+      "date": "2026 年 9 月 11 日",
+      "desc": "在 macOS 上实现无缝的后台播放。",
+      "new": "新增",
+      "fixed": "修复",
+      "appNapTitle": "无缝后台播放",
+      "appNapDesc": "防止 macOS App Nap 在应用最小化时过度挂起播放器，从而允许播放列表不间断地继续播放。"
     },
     "v1_0_4": {
       "version": "v1.0.4",
-      "date": "September 11, 2026",
-      "desc": "Automated releases and code signing.",
-      "new": "New",
-      "fixed": "Fixed",
-      "ciTitle": "Automated Release Pipeline",
-      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
-      "signedTitle": "Signed macOS Releases",
-      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
-      "licenseTitle": "Open Source License",
-      "licenseDesc": "Added MIT License to the repository.",
-      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+      "date": "2026 年 9 月 11 日",
+      "desc": "自动化发布和代码签名。",
+      "new": "新增",
+      "fixed": "修复",
+      "ciTitle": "自动化发布流水线",
+      "ciDesc": "用于一致构建和 macOS 代码签名的 GitHub Actions 工作流。",
+      "signedTitle": "带有签名的 macOS 版本",
+      "signedDesc": "官方签名和公证的 macOS 版本现已直接在网站上提供。",
+      "licenseTitle": "开源许可证",
+      "licenseDesc": "向仓库添加了 MIT 许可证。",
+      "submoduleFix": "修复了 CI 工作流中的子模块检出配置"
     },
     "v1_0_3": {
       "version": "v1.0.3",
-      "date": "September 10, 2026",
-      "desc": "Background playback and stability.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "hybridEngineTitle": "Hybrid Playback Engine",
-      "hybridEngineDesc": "Robust background processing and lock-screen playback capabilities.",
-      "dedupTitle": "Command Deduplication",
-      "dedupDesc": "Added generation IDs to prevent overlapping and stale media commands across WebView bridge.",
-      "queueAdvance": "Song queue not automatically advancing to the next track",
-      "resumeBug": "Paused track unexpectedly resuming when handing off from foreground to PiP or background",
-      "precision": "Accurate millisecond precision reporting for current track position and playback duration",
-      "linter": "Eliminated several IDE linter errors and cleaned up redundant files"
+      "date": "2026 年 9 月 10 日",
+      "desc": "后台播放和稳定性改进。",
+      "new": "新增",
+      "improved": "改进",
+      "fixed": "修复",
+      "hybridEngineTitle": "混合播放引擎",
+      "hybridEngineDesc": "强大的后台处理和锁屏播放功能。",
+      "dedupTitle": "命令去重",
+      "dedupDesc": "添加了生成 ID，以防止 WebView 桥接中出现重叠和过时的媒体命令。",
+      "queueAdvance": "歌曲队列无法自动进入下一首",
+      "resumeBug": "从前台切换到画中画 (PiP) 或后台时，暂停的曲目意外恢复播放",
+      "precision": "对当前曲目位置和播放持续时间的精确到毫秒的报告",
+      "linter": "消除了几个 IDE linter 错误并清理了多余的文件"
     },
     "v1_0_2": {
       "version": "v1.0.2",
-      "date": "September 9, 2026",
-      "desc": "Smarter, context-based autoplay.",
-      "autoplayContextTitle": "Context-Aware Autoplay",
-      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
-      "tieredRecsTitle": "Tiered Recommendation Engine",
-      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+      "date": "2026 年 9 月 9 日",
+      "desc": "更智能的基于上下文的自动播放。",
+      "autoplayContextTitle": "上下文感知自动播放",
+      "autoplayContextDesc": "自动播放现在会优先播放当前艺术家的曲目，然后再将相关艺术家添加到队列中。",
+      "tieredRecsTitle": "分层推荐引擎",
+      "tieredRecsDesc": "推荐现在严格使用目标艺术家的曲库，而不是按名称进行模糊搜索。"
     },
     "v1_0_1": {
       "version": "v1.0.1",
-      "date": "September 9, 2026",
-      "desc": "A better listening experience.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "autoplayTitle": "Autoplay",
-      "autoplayDesc": "Music keeps going with recommendations based on what you're listening to.",
-      "discoverTitle": "Discover",
-      "discoverDesc": "Find music based on your listening history, favorite artists and playlists.",
-      "tooltipsTitle": "Interactive Seekbar Tooltips",
-      "tooltipsDesc": "Added dynamic tooltips that perfectly follow your mouse cursor when hovering the player progress bar.",
-      "startup": "Faster startup",
-      "recovery": "Better playback recovery",
-      "macosMedia": "Improved macOS media controls",
-      "duplicateMedia": "Duplicate macOS media controls",
-      "stationHighlight": "Station active-track highlighting",
-      "seekbarPause": "Playback pausing/stopping unexpectedly when dragging the seekbar",
-      "bottomBar": "Bottom player bar rendering fully transparent and unreadable on macOS when playing music"
+      "date": "2026 年 9 月 9 日",
+      "desc": "更好的聆听体验。",
+      "new": "新增",
+      "improved": "改进",
+      "fixed": "修复",
+      "autoplayTitle": "自动播放",
+      "autoplayDesc": "基于您的聆听内容为您推荐音乐，精彩不断。",
+      "discoverTitle": "发现",
+      "discoverDesc": "根据您的听歌历史、喜爱的艺术家和播放列表发现音乐。",
+      "tooltipsTitle": "交互式进度条工具提示",
+      "tooltipsDesc": "添加了动态工具提示，在悬停在播放器进度条上时能完美跟随您的鼠标光标。",
+      "startup": "更快的启动速度",
+      "recovery": "更好的播放恢复功能",
+      "macosMedia": "改进了 macOS 媒体控制",
+      "duplicateMedia": "重复的 macOS 媒体控制",
+      "stationHighlight": "电台当前曲目高亮显示",
+      "seekbarPause": "拖动进度条时播放意外暂停或停止",
+      "bottomBar": "在 macOS 上播放音乐时，底部播放器栏呈现完全透明且无法辨认的问题"
     },
     "v1_0_0": {
       "version": "v1.0.0",
-      "date": "September 2026",
-      "desc": "The first release of PPPlayer.",
-      "spotify": "Spotify-powered music metadata",
-      "youtube": "YouTube-powered audio playback",
-      "playlists": "Playlists, favorites and listening history",
-      "platforms": "macOS, Windows and Linux support"
+      "date": "2026 年 9 月",
+      "desc": "PPPlayer 的第一个版本发布。",
+      "spotify": "由 Spotify 提供支持的音乐元数据",
+      "youtube": "由 YouTube 提供支持的音频播放",
+      "playlists": "播放列表、收藏夹和听歌历史",
+      "platforms": "支持 macOS、Windows 和 Linux"
     }
   },
   "support": {
-    "title": "Support",
-    "subtitle": "How can we help you?",
-    "contactTitle": "Contact Us",
-    "contactDesc": "For general inquiries, partnerships, or questions not suited for GitHub, feel free to reach out to us at contact@ppplayer.com.",
-    "githubTitle": "Community & GitHub",
-    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us in building the ultimate open-source music player.",
-    "githubBtn": "View on GitHub"
+    "title": "支持",
+    "subtitle": "我们能为您提供什么帮助？",
+    "contactTitle": "联系我们",
+    "contactDesc": "一般查询、合作或不适合在 GitHub 上提出的问题，请随时通过 contact@ppplayer.com 与我们联系。",
+    "githubTitle": "社区与 GitHub",
+    "githubDesc": "探索代码，报告错误，提出功能建议，或贡献代码和翻译。加入我们，共同打造终极的开源音乐播放器。",
+    "githubBtn": "在 GitHub 上查看"
   },
   "openSource": {
-    "badge": "Free & open source",
-    "title": "By the community. For the community.",
-    "desc": "PPPlayer is proudly open-source. Explore the codebase, report issues, suggest features, or contribute your own code. Every contribution makes the listening experience better for everyone.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "issues": "Report a bug",
-    "license": "MIT license"
+    "badge": "免费且开源",
+    "title": "源于社区。服务社区。",
+    "desc": "PPPlayer 以开源为荣。探索代码库、报告问题、提出功能建议或贡献您自己的代码。您的每一次贡献都将为所有人带来更好的聆听体验。",
+    "source": "在 GitHub 上查看源码",
+    "contribute": "参与贡献",
+    "issues": "报告错误",
+    "license": "MIT 许可证"
   }
 }
