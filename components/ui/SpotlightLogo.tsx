@@ -28,6 +28,8 @@ export function SpotlightLogo({ src, alt, width, height, className, imageClassNa
     }
   };
 
+  const optimizedMaskSrc = src.startsWith('/') ? `/_next/image?url=${encodeURIComponent(src)}&w=256&q=75` : src;
+
   return (
     <div
       ref={ref}
@@ -62,11 +64,11 @@ export function SpotlightLogo({ src, alt, width, height, className, imageClassNa
           opacity: isHovered ? 1 : 0,
           transition: 'opacity 0.3s ease',
           backgroundImage: `radial-gradient(100px circle at ${mousePosition.x}px ${mousePosition.y}px, #fb7185 0%, #e11d48 30%, #9f1239 50%, transparent 100%)`,
-          WebkitMaskImage: `url(${src})`,
+          WebkitMaskImage: `url(${optimizedMaskSrc})`,
           WebkitMaskSize: 'contain',
           WebkitMaskPosition: 'center',
           WebkitMaskRepeat: 'no-repeat',
-          maskImage: `url(${src})`,
+          maskImage: `url(${optimizedMaskSrc})`,
           maskSize: 'contain',
           maskPosition: 'center',
           maskRepeat: 'no-repeat',

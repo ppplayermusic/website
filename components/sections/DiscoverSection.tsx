@@ -41,7 +41,7 @@ export default function DiscoverSection() {
                 width={1024}
                 height={576}
                 className="w-full h-auto"
-                sizes="(max-width: 768px) 100vw, 800px"
+                sizes="(max-width: 768px) calc(100vw - 32px), (max-width: 1200px) 75vw, 1024px"
               />
             </MacOSWindowFrame>
           </motion.div>
