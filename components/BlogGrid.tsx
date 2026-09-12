@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import Image from 'next/image';
 import { BlogPost } from '@/lib/blog';
 import { SpotlightLogo } from '@/components/ui/SpotlightLogo';
 
@@ -72,7 +73,7 @@ export default function BlogGrid({ posts, isFallback }: { posts: BlogPost[], isF
               </div>
               <div className="order-1 md:order-2 aspect-video md:aspect-[4/3] rounded-2xl bg-white/5 border border-white/10 overflow-hidden relative flex items-center justify-center">
                  {featuredPost.coverImage ? (
-                   <img src={featuredPost.coverImage} alt={featuredPost.title} className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity group-hover:scale-105 duration-700" />
+                   <Image src={featuredPost.coverImage} alt={featuredPost.title} fill className="object-cover opacity-80 group-hover:opacity-100 transition-opacity group-hover:scale-105 duration-700" />
                  ) : (
                    <>
                      <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20" />
@@ -94,7 +95,7 @@ export default function BlogGrid({ posts, isFallback }: { posts: BlogPost[], isF
             <Link key={post.slug} href={`/blog/${post.slug}`} className="group flex flex-col h-full bg-white/5 rounded-2xl border border-white/10 hover:border-white/20 transition-colors overflow-hidden">
               <div className="aspect-video bg-white/5 relative flex items-center justify-center border-b border-white/10 overflow-hidden">
                  {post.coverImage ? (
-                   <img src={post.coverImage} alt={post.title} className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity group-hover:scale-105 duration-700" />
+                   <Image src={post.coverImage} alt={post.title} fill className="object-cover opacity-80 group-hover:opacity-100 transition-opacity group-hover:scale-105 duration-700" />
                  ) : (
                    <>
                      <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-white/10 group-hover:opacity-75 transition-opacity" />

@@ -7,6 +7,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { getPostBySlug, getAllPosts } from '@/lib/blog';
 import { Link, routing } from '@/i18n/routing';
+import Image from 'next/image';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string, slug: string}>}) {
   const {locale, slug} = await params;
@@ -105,7 +106,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
 
             {post.coverImage && (
               <div className="mb-12 aspect-video rounded-3xl overflow-hidden bg-white/5 border border-white/10 relative">
-                 <img src={post.coverImage} alt={post.title} className="w-full h-full object-cover" />
+                 <Image src={post.coverImage} alt={post.title} fill className="object-cover" />
               </div>
             )}
           </div>
