@@ -6,7 +6,7 @@ author: "Engineering"
 category: "Engineering"
 readTime: "8"
 coverImage: "/images/blog/building-with-flutter.jpg"
-isDraft: true
+isDraft: false
 ---
 
 When deciding how to build PPPlayer, we faced a classic engineering dilemma: how do we deliver a native-feeling, high-performance music application across Android, Windows, macOS, and Linux without maintaining four completely separate codebases?
