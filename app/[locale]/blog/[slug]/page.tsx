@@ -5,8 +5,8 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { getPostBySlug } from '@/lib/blog';
-import { Link } from '@/i18n/routing';
+import { getPostBySlug, getAllPosts } from '@/lib/blog';
+import { Link, routing } from '@/i18n/routing';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string, slug: string}>}) {
   const {locale, slug} = await params;
@@ -34,9 +34,16 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
 }
 
 export function generateStaticParams() {
-  // To avoid generating every possible path, we can either do this dynamically
-  // or return an empty array and let Next.js generate them on demand.
-  return [];
+  const params: { locale: string, slug: string }[] = [];
+  
+  routing.locales.forEach((locale) => {
+    const posts = getAllPosts('en');
+    posts.forEach((post) => {
+      params.push({ locale, slug: post.slug });
+    });
+  });
+  
+  return params;
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ locale: string, slug: string }> }) {
