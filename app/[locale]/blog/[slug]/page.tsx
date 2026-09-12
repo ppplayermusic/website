@@ -75,26 +75,52 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
 
   const isAdEligible = !isFallback && !post.isDraft && ADSENSE_SUPPORTED_LOCALES.has(locale) && post.content.length > 500;
   
-  let part1 = post.content;
-  let part2 = '';
-  let part3 = '';
-
+  // Split content robustly for ad injection
+  let contentParts = [post.content];
+  
   if (isAdEligible) {
-    const match1 = post.content.match(/\n## /);
-    if (match1 && match1.index) {
-      part1 = post.content.substring(0, match1.index);
-      const remainder = post.content.substring(match1.index);
+    // Split by paragraphs (double newline)
+    const paragraphs = post.content.split(/\n\n+/);
+    
+    if (paragraphs.length >= 4) {
+      // Find a good spot for the first ad (around 30% into the article, at least after paragraph 2)
+      const targetLength1 = post.content.length * 0.3;
+      let currentLength = 0;
+      let splitIndex1 = 2; // Default to after 2nd paragraph
       
-      if (remainder.length > 3000) {
-        const match2 = remainder.substring(1500).match(/\n## /);
-        if (match2 && match2.index) {
-          part2 = remainder.substring(0, 1500 + match2.index);
-          part3 = remainder.substring(1500 + match2.index);
-        } else {
-          part2 = remainder;
+      for (let i = 0; i < paragraphs.length; i++) {
+        currentLength += paragraphs[i].length;
+        if (currentLength > targetLength1 && i >= 2) {
+          splitIndex1 = i + 1;
+          break;
         }
+      }
+      
+      // Find a good spot for the second ad (around 70% into the article, if long enough)
+      let splitIndex2 = -1;
+      if (post.content.length > 3000 && paragraphs.length >= splitIndex1 + 4) {
+        const targetLength2 = post.content.length * 0.7;
+        currentLength = 0;
+        for (let i = 0; i < paragraphs.length; i++) {
+          currentLength += paragraphs[i].length;
+          if (currentLength > targetLength2 && i >= splitIndex1 + 3) {
+            splitIndex2 = i + 1;
+            break;
+          }
+        }
+      }
+      
+      if (splitIndex2 !== -1) {
+        contentParts = [
+          paragraphs.slice(0, splitIndex1).join('\n\n'),
+          paragraphs.slice(splitIndex1, splitIndex2).join('\n\n'),
+          paragraphs.slice(splitIndex2).join('\n\n')
+        ];
       } else {
-        part2 = remainder;
+        contentParts = [
+          paragraphs.slice(0, splitIndex1).join('\n\n'),
+          paragraphs.slice(splitIndex1).join('\n\n')
+        ];
       }
     }
   }
@@ -145,15 +171,16 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
           </div>
 
           <div className="prose prose-invert prose-lg max-w-none prose-headings:text-white prose-a:text-blue-400 hover:prose-a:text-blue-300 prose-img:rounded-xl">
-            {isAdEligible && part2 ? (
+            {isAdEligible && contentParts.length > 1 ? (
               <>
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>{part1}</ReactMarkdown>
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>{contentParts[0]}</ReactMarkdown>
                 <AdUnit slotId={process.env.NEXT_PUBLIC_ADSENSE_SLOT_ID} />
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>{part2}</ReactMarkdown>
-                {part3 && (
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>{contentParts[1]}</ReactMarkdown>
+                
+                {contentParts.length > 2 && (
                   <>
                     <AdUnit slotId={process.env.NEXT_PUBLIC_ADSENSE_SLOT_ID_LONG} />
-                    <ReactMarkdown remarkPlugins={[remarkGfm]}>{part3}</ReactMarkdown>
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>{contentParts[2]}</ReactMarkdown>
                   </>
                 )}
               </>
