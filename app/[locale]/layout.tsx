@@ -71,6 +71,7 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages, setRequestLocale} from 'next-intl/server';
 import {routing} from '@/i18n/routing';
 import {notFound} from 'next/navigation';
+import { headers } from 'next/headers';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
@@ -92,6 +93,8 @@ export default async function RootLayout({
 
   setRequestLocale(locale);
   const messages = await getMessages();
+  const headersList = await headers();
+  const nonce = headersList.get('x-nonce') || undefined;
 
   return (
     <html
@@ -99,9 +102,26 @@ export default async function RootLayout({
       dir={isRTL ? 'rtl' : 'ltr'}
       className={`${inter.variable} ${notoSansArabic.variable}`}
     >
-      <head />
+      <head>
+        <script
+          nonce={nonce}
+          dangerouslySetInnerHTML={{
+            __html: `
+              if (typeof window !== 'undefined' && window.trustedTypes && window.trustedTypes.createPolicy) {
+                if (!window.trustedTypes.defaultPolicy) {
+                  window.trustedTypes.createPolicy('default', {
+                    createHTML: function(string) { return string; },
+                    createScript: function(string) { return string; },
+                    createScriptURL: function(string) { return string; }
+                  });
+                }
+              }
+            `,
+          }}
+        />
+      </head>
       <body className={isRTL ? notoSansArabic.className : inter.className}>
-        <Script id="google-analytics-consent">
+        <Script id="google-analytics-consent" nonce={nonce}>
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -114,8 +134,8 @@ export default async function RootLayout({
             });
           `}
         </Script>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BFDXCJBB35" />
-        <Script id="google-analytics">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BFDXCJBB35" nonce={nonce} />
+        <Script id="google-analytics" nonce={nonce}>
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
