@@ -55,7 +55,7 @@ export default function GoDeeperSection() {
                 width={1024}
                 height={576}
                 style={{ width: '100%', height: 'auto', display: 'block' }}
-                sizes="(max-width: 768px) 50vw, (max-width: 1200px) 50vw, 800px"
+                sizes="(max-width: 768px) 50vw, (max-width: 1024px) 100vw, 50vw"
               />
             </MacOSWindowFrame>
           </motion.div>
