@@ -13,7 +13,7 @@ export default function middleware(request: NextRequest) {
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://www.googletagmanager.com;
     img-src 'self' blob: data: https://ppplayer.com https://flagcdn.com https://www.googletagmanager.com https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://*.google.com.br https://*.google-analytics.com https://*.adtrafficquality.google https://*.analytics.google.com;
     connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.google.com https://*.adtrafficquality.google https://*.googlesyndication.com https://*.doubleclick.net;
-    font-src 'self' data:;
+    font-src 'self' data: https://fonts.gstatic.com;
     frame-src 'self' https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://*.adtrafficquality.google;
     object-src 'none';
     base-uri 'self';
