@@ -8,6 +8,12 @@ import { Cookie } from "lucide-react"
 declare global {
   interface Window {
     gtag: (...args: unknown[]) => void;
+    __tcfapi?: (command: string, version: number, callback: (tcData: { gdprApplies?: boolean; [key: string]: unknown }, success: boolean) => void) => void;
+    zaraz?: {
+      consent?: {
+        setAll: (granted: boolean) => void;
+      };
+    };
   }
 }
 
@@ -25,8 +31,8 @@ export default function CookieBanner() {
     // Delay slightly to allow Google's CMP (__tcfapi) to initialize if it's loading
     const timer = setTimeout(() => {
       // Check if Google's CMP is active and GDPR applies
-      if (typeof window !== 'undefined' && typeof (window as any).__tcfapi === 'function') {
-        (window as any).__tcfapi('getTCData', 2, (tcData: any, success: boolean) => {
+      if (typeof window !== 'undefined' && typeof window.__tcfapi === 'function') {
+        window.__tcfapi('getTCData', 2, (tcData, success) => {
           if (success && tcData.gdprApplies) {
             // Google CMP handles this user. Do NOT show our banner.
             setShow(false);
@@ -64,11 +70,11 @@ export default function CookieBanner() {
       }
     } else if (analyticsProvider === 'zaraz') {
       // Update Zaraz consent
-      if (typeof window !== "undefined" && (window as any).zaraz && (window as any).zaraz.consent) {
+      if (typeof window !== "undefined" && window.zaraz?.consent) {
         if (granted) {
-          (window as any).zaraz.consent.setAll(true);
+          window.zaraz.consent.setAll(true);
         } else {
-          (window as any).zaraz.consent.setAll(false);
+          window.zaraz.consent.setAll(false);
         }
       }
     }
