@@ -1,0 +1,499 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer | Pumbasy Rerekua Sãso & Ojepe'áva",
+    "homeDesc": "Pumbasy rerekua sãso ha ojepe'áva. Ndaipóri mba'e ojehepyme'ẽva. Ehendu reínte.",
+    "downloadTitle": "Emboguejy PPPlayer Reípe",
+    "downloadDesc": "Pumbasy rerekua sãso ha ojepe'áva. Ndaipóri mba'e ojehepyme'ẽva. Ehendu reínte.",
+    "privacyTitle": "Tembiporu Ñemimby",
+    "privacyDesc": "Tembiporu Ñemimby PPPlayer-pe guarã: pumbasy rerekua sãso macOS, Linux, Windows, iOS ha Android-pe.",
+    "termsTitle": "Tembiporu Ykeko",
+    "termsDesc": "Tembiporu Ykeko PPPlayer-pe guarã: pumbasy rerekua sãso macOS, Linux, Windows, iOS ha Android-pe.",
+    "supportTitle": "Pytyvõ - PPPlayer",
+    "supportDesc": "PPPlayer ha'e peteĩ tembiapo sãso ojepe'áva. Eiporu GitHub ojekuaa hag̃ua umi mba'e vai ha apañuãi. Ambue porandúpe, embou peteĩ ñe'ẽveve contact@ppplayer.com-pe.",
+    "blogTitle": "Blog | PPPlayer",
+    "blogDesc": "Marandu ha tembiasakue PPPlayer atyguiguápe."
+  },
+  "nav": {
+    "features": "Tembiporukuéra",
+    "download": "Emboguejy Reípe",
+    "support": "Pytyvõ",
+    "contribute": "Pytyvõ",
+    "blog": "Blog"
+  },
+  "footer": {
+    "desc": "Pumbasy rerekua sãso ha ojepe'áva. Ndaipóri mba'e ojehepyme'ẽva. Ehendu reínte.",
+    "product": "Mba'e",
+    "features": "Tembiporukuéra",
+    "download": "Emboguejy",
+    "platforms": "Tembiporu",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Redes Sociales",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Leyes",
+    "privacy": "Tembiporu Ñemimby",
+    "terms": "Tembiporu Ykeko",
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "Ehecha GitHub-pe",
+    "contribute": "Pytyvõ",
+    "changelog": "Ñemoambue",
+    "linux": "Linux",
+    "blog": "Blog"
+  },
+  "cookie": {
+    "title": "Momba'e nde rerekua sãso",
+    "desc": "Roiporu umi cookie rohecha hag̃ua mba'éichapa reiporu ore ñanduti renda. Nde reiporavóramo \"Moneĩ\", remoneĩ oréve roiporu hag̃ua.",
+    "decline": "Mbotove Paite",
+    "accept": "Moneĩ Paite"
+  },
+  "hero": {
+    "title1": "Pumbasy.",
+    "title2": "Ndaipóri jejoko.",
+    "desc": "Pumbasy rerekua sãso ha ojepe'áva. Ndaipóri mba'e ojehepyme'ẽva. Ehendu reínte.",
+    "getIos": "Emboguejy iOS-pe guarã",
+    "getAndroid": "Emboguejy Android-pe guarã",
+    "getMac": "Emboguejy Mac-pe guarã",
+    "getWindows": "Emboguejy Windows-pe guarã",
+    "getLinux": "Emboguejy Linux-pe guarã",
+    "badge": "Sãso ha ojepe'áva",
+    "source": "Ehecha GitHub-pe"
+  },
+  "discover": {
+    "title": "Ejuhu<br></br>pumbasy<br></br>iporãva."
+  },
+  "artistRadio": {
+    "title": "Ehendu opa ára."
+  },
+  "goDeeper": {
+    "bgText": "MOĨ",
+    "title": "Emoĩ pumbasy."
+  },
+  "pressPlay": {
+    "title": "Upéi, ehendu reínte."
+  },
+  "featureGallery": {
+    "title": "Opa mba'e reikotevẽva.",
+    "subtitle": "Peteĩ tembiporu iporãva ha ipya'éva.",
+    "searchTitle": "Ejuhu pe reikotevẽva.",
+    "searchDesc": "Eheka pya'e umi purahéi, puraheihára ha albúm.",
+    "queueTitle": "Tysýi hekopete.",
+    "queueDesc": "Ehecha ha emohenda umi purahéi oñembopu vove.",
+    "favTitle": "Ne pumbasy, ne rembipota.",
+    "favDesc": "Eha'ã ndete nde rerekua sãso peteĩ jepyte rupive.",
+    "contextTitle": "Tekohápe.",
+    "contextDesc": "Ejepysóva umi menú iporãva ha hekopete."
+  },
+  "noAccount": {
+    "title": "Ndaipóri ñemboheraguapy.",
+    "subtitle": "Sãso ha ojepe'áva"
+  },
+  "platforms": {
+    "title": "Ne pumbasy. Ne mba'e.",
+    "subtitle": "Iporãva macOS, Linux, Windows, Android ha iOS-pe."
+  },
+  "downloadCTA": {
+    "title": "Ehendu reínte.",
+    "getIos": "Emboguejy iOS-pe guarã",
+    "getAndroid": "Emboguejy Android-pe guarã",
+    "getMac": "Emboguejy Mac-pe guarã",
+    "getWindows": "Emboguejy Windows-pe guarã",
+    "notAvailable": "Ne'ĩra oĩ. Ko'ág̃a, macOS-pe g̃uarãnte oĩ.",
+    "notAvailableTitle": "Oúta ko'ẽrõ",
+    "okayBtn": "Oĩma",
+    "getLinux": "Emboguejy Linux-pe guarã",
+    "modalTitle": "Emboguejy {platform}-pe guarã",
+    "modalDesc": "Eiporavo mba'éichapa reipota PPPlayer ne {platform}-pe.",
+    "primaryDownload": "Emboguejy",
+    "directDownload": "Emboguejy hekopete",
+    "comingSoon": "Oúta ko'ẽrõ",
+    "cancel": "Mbotove",
+    "downloadFor": "Emboguejy {platform}-pe guarã",
+    "os": "Sistema Operativo",
+    "arch": "Arquitectura",
+    "memory": "Memoria",
+    "internet": "Internet",
+    "reqStreaming": "Oikotevẽ streaming-pe guarã",
+    "reqTitle": "{platform} Ykeko",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina térã pyahuvéva",
+        "arch": "Apple Silicon ha Intel (Universal)",
+        "mem": "4 GB RAM (Ojejeruréva)"
+      },
+      "windows": {
+        "os": "Windows 10 térã pyahuvéva (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Ojejeruréva)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 térã pyahuvéva (Oñeha'ãva)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Ojejeruréva)"
+      },
+      "ios": {
+        "os": "iOS 13.0 térã pyahuvéva",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Ojejeruréva)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) térã pyahuvéva",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Ojejeruréva)"
+      }
+    }
+  },
+  "downloadPage": {
+    "badge": "PPPlayer 1.0 oĩma",
+    "title": "Emboguejy <gradient>PPPlayer</gradient>",
+    "subtitle": "Eiporavo ne plataforma. Ehendu sapy'aite.",
+    "desc": "Ndaipóri ñemboheraguapy. Ndaipóri correo. Ndaipóri ñanduti. Pumbasýnte.",
+    "windowsReqLabel": "Windows Ykeko:",
+    "windowsReqDesc": "Windows 10 térã pyahuvéva (64-bit). ~50 MB. Ndaipóri Microsoft Store oikotevẽva."
+  },
+  "faq": {
+    "badge": "Porandu meme",
+    "title": "Porandu <gradient>meme</gradient>",
+    "subtitle": "Opa mba'e reikuaaséva PPPlayer rehe.",
+    "items": [
+      {
+        "q": "PPPlayer piko sãso?",
+        "a": "Heẽ. PPPlayer ha'e 100% sãso. Ndaipóri ñemboheraguapy, ndaipóri ojehepyme'ẽva."
+      },
+      {
+        "q": "Oikotevẽ piko ñemboheraguapy?",
+        "a": "Nahániri. Nde reikotevẽi correo, ñemboheraguapy térã ñanduti. Emboguejy, eipe'a ha ehendu."
+      },
+      {
+        "q": "Oĩ piko PPPlayer iPhone-pe?",
+        "a": "Heẽ. PPPlayer oĩ App Store-pe iPhone ha iPad-pe guarã."
+      },
+      {
+        "q": "Oĩ piko PPPlayer Android-pe?",
+        "a": "Heẽ. Ikatu emboguejy PPPlayer Google Play-pe Android teléfonos ha tabletas-pe guarã."
+      },
+      {
+        "q": "Ikatu piko aiporu PPPlayer Windows-pe?",
+        "a": "Heẽ. PPPlayer oĩ Windows 10 ha pyahuvéva-pe guarã. Ndoikotevẽi tienda."
+      },
+      {
+        "q": "Mba'e pumbasy oĩ PPPlayer-pe?",
+        "a": "PPPlayer oguereko puraheihára rerekua, radio, listas de reproducción ha hetave mba'e. Opa sãso ha ndoikotevẽi ñemboheraguapy."
+      },
+      {
+        "q": "Mba'éicha amboguejy PPPlayer?",
+        "a": "Eikutu botón emboguejy hag̃ua ne plataforma-pe ko página-pe. Pya'eterei."
+      },
+      {
+        "q": "Oĩ piko versión premium?",
+        "a": "Nahániri. PPPlayer ha'e sãso. Opa mba'e rehecha sãso, ndoikotevẽi ñemboheraguapy."
+      }
+    ],
+    "openSourceQuestion": "PPPlayer piko ojepe'áva?",
+    "openSourceAnswer": "Heẽ. PPPlayer ha'e 100% ojepe'áva MIT licencia guýpe. Ikatu eiporu, ehesa'ỹijo, eñemoambue ha eñemboja'o. Ehecha ore GitHub repositorio oikuaa hag̃ua."
+  },
+  "privacy": {
+    "title": "Tembiporu Ñemimby",
+    "lastUpdated": "Oñemoambue: Abril 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Ñe'ẽ Ypy",
+        "p": "PPPlayer oñemoĩ oñangareko hag̃ua nde ñemimby rehe. Ko tembiporu ñemimby he'i mba'e datos-pa rombyaty, mba'erã ha mba'éicha roiporu PPPlayer macOS, Linux, Windows, iOS ha Android-pe."
+      },
+      "s2": {
+        "title": "2. Ndoikotevẽi Ñemboheraguapy",
+        "p": "PPPlayer ndoikotevẽi reñemboheraguapy hag̃ua. Ndorombyatýi nde réra, correo térã mba'eveichagua datos nde rerekua."
+      },
+      "s3": {
+        "title": "3. Datos rombyatýva",
+        "p1": "Ikatu rombyaty ko'ã datos ojeikuaa'ỹva:",
+        "li1": "Crash logs ha errores (roñemboporãve hag̃ua)",
+        "li2": "Uso analítico ojeikuaa'ỹva (tembiporu ojeiporúva)",
+        "li3": "Mba'e dispositivo ha OS ojeiporúva",
+        "p2": "Ndorombyatýi: téra, correos, pagos térã ubicación exacto."
+      },
+      "s4": {
+        "title": "4. Terceros Servicios",
+        "p": "PPPlayer ikatu oiporu terceros servicios música metadata ha analíticas-pe guarã. Ko'ã servicios oguereko imba'e ñemimby políticas. Roipotá nde ehecha umíva."
+      },
+      "s5": {
+        "title": "5. Datos Ñongatu",
+        "p": "Datos analíticos ojeikuaa'ỹva oñeñongatu 12 meses peve. Crash logs oñembogue 90 días rire."
+      },
+      "s6": {
+        "title": "6. Ne Derechos",
+        "p": "Ndorombyatýi personales datos rupive, ndaipóri datos personales rehecháva, rembohasáva térã remboguéva. Reporanduse, eñe'ẽ oréve."
+      },
+      "s7": {
+        "title": "7. Mitãkuéra",
+        "p": "PPPlayer ndaha'éi mitãkuérape guarã (menores de 13). Ndorombyatýi datos mitãkuéragui."
+      },
+      "s8": {
+        "title": "8. Ñemoambue",
+        "p": "Ikatu romoambue ko política ára ha ára. Rohechaukáta ara mboyve."
+      },
+      "s9": {
+        "title": "9. Ñe'ẽ",
+        "p": "Reporanduse? Eñe'ẽ oréve ko'ápe: "
+      }
+    },
+    "back": "← Jejevy PPPlayer-pe"
+  },
+  "terms": {
+    "title": "Tembiporu Ykeko",
+    "lastUpdated": "Oñemoambue: Septiembre 11, 2026",
+    "sections": {
+      "s1": {
+        "title": "1. Tembiporu Ñemoneĩ",
+        "p": "PPPlayer remboguejy vove reñemoneĩ ko'ã Tembiporu Ykeko-pe. Ndereipotáiramo, ani eiporu ko app."
+      },
+      "s2": {
+        "title": "2. App Jeiporu",
+        "p": "PPPlayer ha'e sãso ha ojepe'áva. Ojeiporu, ojekopia, oñemoambue ha oñemboja'o MIT licencia guýpe. Eiporu vove, reñemoneĩ nderejapoimo'ãiha ko'ã mba'e:",
+        "li1": "Eipe'a copyright térã permisos",
+        "li2": "Eiporu app malware rerekua hag̃ua",
+        "li3": "Eipe'a ley ha regulaciones"
+      },
+      "s3": {
+        "title": "3. Ndoikotevẽi Ñemboheraguapy",
+        "p": "PPPlayer ndoikotevẽi ñemboheraguapy. Ikatu eiporu opa mba'e remboguejy rire."
+      },
+      "s4": {
+        "title": "4. Propiedad Intelectual",
+        "p": "PPPlayer source code oĩ MIT licencia guýpe. Terceros dependencies oguereko imba'e licencias. Música, artwork ha metadata oĩ iva licencias guýpe."
+      },
+      "s5": {
+        "title": "5. Garantías",
+        "p": "PPPlayer oje'e \"as is\" ndaipóri garantías. Ndoromongarái mba'eve."
+      },
+      "s6": {
+        "title": "6. Responsabilidad",
+        "p": "PPPlayer ndaha'éi responsable daños-pe guarã."
+      },
+      "s7": {
+        "title": "7. Ñemoambue",
+        "p": "Ikatu romoambue ko'ã Tembiporu Ykeko. Eiporu vove, reñemoneĩ umi ñemoambue rehe."
+      },
+      "s8": {
+        "title": "8. Ñe'ẽ",
+        "p": "Reporanduse? Eñe'ẽ oréve ko'ápe: "
+      }
+    },
+    "back": "← Jejevy PPPlayer-pe"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone ha iPad",
+      "desc": "Oĩ App Store-pe iPhone ha iPad-pe guarã.",
+      "badge": "App Store"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Oĩ Google Play-pe Android teléfonos ha tabletas-pe guarã.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Emboguejy Windows 10 ha pyahuvéva-pe guarã. Ndoikotevẽi tienda.",
+      "badge": "Emboguejy"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "Emboguejy macOS-pe guarã. Apple Silicon ha Intel oñepytyvõ.",
+      "badge": "Emboguejy"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Emboguejy Linux-pe guarã. AppImage oñepytyvõ.",
+      "badge": "Emboguejy"
+    }
+  },
+  "changelog": {
+    "title": "Ñemoambue",
+    "subtitle": "Mba'e pyahu PPPlayer-pe.",
+    "v1_3_0": {
+      "version": "1.3.0",
+      "date": "Septiembre 13, 2026",
+      "desc": "Ko ñemoambue oipytyvõ PPPlayer yvóra tuichahápe.",
+      "added": "Moĩ",
+      "localizationTitle": "Ñe'ẽnguéra Moĩva",
+      "localizationDesc": "Moĩma localizaciones ñe'ẽnguérape guarã."
+    },
+    "back": "← Jejevy PPPlayer-pe",
+    "v1_2_0": {
+      "version": "v1.2.0",
+      "date": "Septiembre 12, 2026",
+      "desc": "Moĩma 10 ñe'ẽnguéra.",
+      "added": "Moĩ",
+      "fixed": "Ñatõi",
+      "lang10Title": "10 Ñe'ẽnguéra Pyahu",
+      "lang10Desc": "Moĩma localizaciones ñe'ẽnguérape guarã."
+    },
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "Septiembre 12, 2026",
+      "desc": "Moĩma ñe'ẽnguéra ha ñatõi macOS apañuãi.",
+      "added": "Moĩ",
+      "fixed": "Ñatõi",
+      "localizationTitle": "Ñe'ẽnguéra Pyahu",
+      "localizationDesc": "Moĩma localizaciones ñe'ẽnguérape guarã.",
+      "layoutTitle": "macOS Ñatõi",
+      "layoutDesc": "Ñatõi macOS apañuãi."
+    },
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "Septiembre 12, 2026",
+      "desc": "Ñatõi pumbasy apañuãi.",
+      "fixed": "Ñatõi",
+      "snapTitle": "Seekbar Ñatõi",
+      "snapDesc": "Ñatõi seekbar apañuãi.",
+      "durationTitle": "Duration Ñatõi",
+      "durationDesc": "Ñatõi duration apañuãi."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "Septiembre 11, 2026",
+      "desc": "Localizaciones yvóra tuichahápe.",
+      "new": "Pyahu",
+      "langTitle": "11 Ñe'ẽnguéra",
+      "langDesc": "Moĩma 11 ñe'ẽnguéra.",
+      "pickerTitle": "In-App Language Picker",
+      "pickerDesc": "Moĩma in-app language picker.",
+      "osTitle": "OS-Level Integration",
+      "osDesc": "Moĩma OS-level integration."
+    },
+    "v1_0_6": {
+      "version": "v1.0.6",
+      "date": "Septiembre 11, 2026",
+      "desc": "Hotfix.",
+      "fixed": "Ñatõi",
+      "crashTitle": "Startup Crash Ñatõi",
+      "crashDesc": "Ñatõi startup crash."
+    },
+    "v1_0_5": {
+      "version": "v1.0.5",
+      "date": "Septiembre 11, 2026",
+      "desc": "Background pumbasy macOS-pe.",
+      "new": "Pyahu",
+      "fixed": "Ñatõi",
+      "appNapTitle": "Gapless Background Pumbasy",
+      "appNapDesc": "Moĩma gapless background pumbasy macOS-pe."
+    },
+    "v1_0_4": {
+      "version": "v1.0.4",
+      "date": "Septiembre 11, 2026",
+      "desc": "Automated releases.",
+      "new": "Pyahu",
+      "fixed": "Ñatõi",
+      "ciTitle": "Automated Release Pipeline",
+      "ciDesc": "Moĩma automated release pipeline.",
+      "signedTitle": "Signed macOS Releases",
+      "signedDesc": "Moĩma signed macOS releases.",
+      "licenseTitle": "Open Source License",
+      "licenseDesc": "Moĩma MIT License.",
+      "submoduleFix": "Ñatõi submodule."
+    },
+    "v1_0_3": {
+      "version": "v1.0.3",
+      "date": "Septiembre 10, 2026",
+      "desc": "Background pumbasy.",
+      "new": "Pyahu",
+      "improved": "Iporãve",
+      "fixed": "Ñatõi",
+      "hybridEngineTitle": "Hybrid Pumbasy Engine",
+      "hybridEngineDesc": "Moĩma hybrid pumbasy engine.",
+      "dedupTitle": "Command Deduplication",
+      "dedupDesc": "Moĩma command deduplication.",
+      "queueAdvance": "Queue Ñatõi",
+      "resumeBug": "Resume Ñatõi",
+      "precision": "Precision Ñatõi",
+      "linter": "Linter Ñatõi"
+    },
+    "v1_0_2": {
+      "version": "v1.0.2",
+      "date": "Septiembre 9, 2026",
+      "desc": "Autoplay.",
+      "autoplayContextTitle": "Context-Aware Autoplay",
+      "autoplayContextDesc": "Moĩma context-aware autoplay.",
+      "tieredRecsTitle": "Tiered Recommendation Engine",
+      "tieredRecsDesc": "Moĩma tiered recommendation engine."
+    },
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "Septiembre 9, 2026",
+      "desc": "Pumbasy porãve.",
+      "new": "Pyahu",
+      "improved": "Iporãve",
+      "fixed": "Ñatõi",
+      "autoplayTitle": "Autoplay",
+      "autoplayDesc": "Moĩma autoplay.",
+      "discoverTitle": "Ejuhu",
+      "discoverDesc": "Ejuhu pumbasy.",
+      "tooltipsTitle": "Interactive Seekbar Tooltips",
+      "tooltipsDesc": "Moĩma interactive seekbar tooltips.",
+      "startup": "Faster startup",
+      "recovery": "Better playback recovery",
+      "macosMedia": "Improved macOS media controls",
+      "duplicateMedia": "Duplicate macOS media controls",
+      "stationHighlight": "Station active-track highlighting",
+      "seekbarPause": "Seekbar Ñatõi",
+      "bottomBar": "Bottom bar Ñatõi"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "Septiembre 2026",
+      "desc": "PPPlayer ypy.",
+      "spotify": "Spotify-powered metadata",
+      "youtube": "YouTube-powered audio",
+      "playlists": "Playlists ha favorites",
+      "platforms": "macOS, Windows ha Linux"
+    }
+  },
+  "support": {
+    "title": "Pytyvõ",
+    "subtitle": "Mba'éicha roipytyvõta?",
+    "contactTitle": "Eñe'ẽ oréve",
+    "contactDesc": "Reporanduse? Eñe'ẽ oréve contact@ppplayer.com-pe.",
+    "githubTitle": "Aty ha GitHub",
+    "githubDesc": "Ehecha código, eñe'ẽ apañuãi rehe, térã epytyvõ. Eju oréve.",
+    "githubBtn": "Ehecha GitHub-pe"
+  },
+  "openSource": {
+    "badge": "Sãso ha ojepe'áva",
+    "title": "Atyguápe guarã.",
+    "desc": "PPPlayer ojepe'áva. Ehecha código, eñe'ẽ apañuãi rehe, térã epytyvõ. Opa pytyvõ iporãve.",
+    "source": "Ehecha GitHub-pe",
+    "contribute": "Pytyvõ",
+    "issues": "Eñe'ẽ apañuãi rehe",
+    "license": "MIT licencia"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Marandu ha tembiasakue PPPlayer atyguiguápe.",
+    "readMore": "Emoñe'ẽ",
+    "minRead": "ara emoñe'ẽ hag̃ua",
+    "publishedOn": "Oñemoĩ",
+    "back": "← Jejevy Blog-pe",
+    "noArticles": "Ndaipóri artículos ko ñe'ẽme.",
+    "writtenBy": "Ohai",
+    "translationUnavailable": "Ko artículo ndaipóri ne ñe'ẽme.",
+    "advertisements": "Tembiporu",
+    "categories": {
+      "all": "Opa",
+      "discovery": "Ejuhu",
+      "engineering": "Mba'e",
+      "community": "Aty",
+      "guides": "Guide",
+      "education": "Mbo'e",
+      "product": "Mba'e"
+    }
+  }
+}
