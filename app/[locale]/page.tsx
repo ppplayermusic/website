@@ -12,6 +12,7 @@ import DownloadCTA from '@/components/sections/DownloadCTA'
 import OpenSourceSection from '@/components/sections/OpenSourceSection'
 
 import {setRequestLocale} from 'next-intl/server';
+import { routing } from '@/i18n/routing';
 import {getTranslations} from 'next-intl/server';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
@@ -30,21 +31,10 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
     },
     alternates: {
       canonical: locale === 'en' ? '/' : `/${locale}`,
-      languages: {
-        'en': '/',
-        'pt-BR': '/pt-BR',
-        'es': '/es',
-        'ru': '/ru',
-        'tr': '/tr',
-        'fr': '/fr',
-        'de': '/de',
-        'hi': '/hi',
-        'it': '/it',
-        'ja': '/ja',
-        'ko': '/ko',
-        'ar': '/ar',
-        'zh': '/zh'
-      }
+            languages: routing.locales.reduce((acc, l) => {
+        acc[l] = l === 'en' ? '/' : `/${l}`;
+        return acc;
+      }, {} as Record<string, string>)
     }
   };
 }

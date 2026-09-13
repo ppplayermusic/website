@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 import {setRequestLocale, getTranslations} from 'next-intl/server';
+import { routing } from '@/i18n/routing';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   const {locale} = await params;
@@ -20,21 +21,10 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
     },
     alternates: {
       canonical: locale === 'en' ? '/changelog' : `/${locale}/changelog`,
-      languages: {
-        'en': '/changelog',
-        'pt-BR': '/pt-BR/changelog',
-        'es': '/es/changelog',
-        'ru': '/ru/changelog',
-        'tr': '/tr/changelog',
-        'fr': '/fr/changelog',
-        'de': '/de/changelog',
-        'hi': '/hi/changelog',
-        'it': '/it/changelog',
-        'ja': '/ja/changelog',
-        'ko': '/ko/changelog',
-        'ar': '/ar/changelog',
-        'zh': '/zh/changelog'
-      }
+            languages: routing.locales.reduce((acc, l) => {
+        acc[l] = l === 'en' ? '/changelog' : `/${l}/changelog`;
+        return acc;
+      }, {} as Record<string, string>)
     }
   };
 }

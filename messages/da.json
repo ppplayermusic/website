@@ -441,6 +441,7 @@
     "back": "← Tilbage til Blog",
     "noArticles": "Ingen artikler fundet for dette sprog.",
     "writtenBy": "Af",
-    "translationUnavailable": "Denne artikel er ikke tilgængelig på dit sprog."
+    "translationUnavailable": "Denne artikel er ikke tilgængelig på dit sprog.",
+    "advertisements": "Reklamer"
   }
 }

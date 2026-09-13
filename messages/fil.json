@@ -1,31 +1,31 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Free & Open-Source Music Player",
-    "homeDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "downloadTitle": "Download PPPlayer Free",
-    "downloadDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDesc": "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "termsTitle": "Terms of Service",
-    "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "supportTitle": "Support - PPPlayer",
-    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com.",
+    "homeTitle": "PPPlayer | Libre at Open-Source na Music Player",
+    "homeDesc": "Isang libre, open-source na music player. Walang account. Walang subscription. Mag-play lang.",
+    "downloadTitle": "I-download ang PPPlayer nang Libre",
+    "downloadDesc": "Isang libre, open-source na music player. Walang account. Walang subscription. Mag-play lang.",
+    "privacyTitle": "Patakaran sa Pagkapribado",
+    "privacyDesc": "Patakaran sa Pagkapribado ng PPPlayer: libreng music app para sa macOS, Linux, Windows, iOS, at Android.",
+    "termsTitle": "Mga Tuntunin ng Serbisyo",
+    "termsDesc": "Mga Tuntunin ng Serbisyo ng PPPlayer: libreng music app para sa macOS, Linux, Windows, iOS, at Android.",
+    "supportTitle": "Suporta - PPPlayer",
+    "supportDesc": "Ang PPPlayer ay isang independent, open-source na proyekto. Para sa mga bug at ideya, gamitin ang GitHub. Para sa iba pang tanong, mag-email sa contact@ppplayer.com.",
     "blogTitle": "Blog | PPPlayer",
     "blogDesc": "Mga balita, update, at kwento mula sa PPPlayer team."
   },
   "nav": {
-    "features": "Features",
-    "download": "Download Free",
-    "support": "Support",
-    "contribute": "Contribute",
+    "features": "Mga Feature",
+    "download": "I-download",
+    "support": "Suporta",
+    "contribute": "Mag-ambag",
     "blog": "Blog"
   },
   "footer": {
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "product": "Product",
-    "features": "Features",
-    "download": "Download",
-    "platforms": "Platforms",
+    "desc": "Isang libre, open-source na music player. Walang account. Walang subscription. Mag-play lang.",
+    "product": "Produkto",
+    "features": "Mga Feature",
+    "download": "I-download",
+    "platforms": "Mga Platform",
     "ios": "iOS",
     "android": "Android",
     "windows": "Windows",
@@ -35,412 +35,413 @@
     "facebook": "Facebook",
     "github": "GitHub",
     "legal": "Legal",
-    "privacy": "Privacy",
-    "terms": "Terms",
+    "privacy": "Pagkapribado",
+    "terms": "Mga Tuntunin",
     "copyright": "© {year} PPPlayer Music.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
+    "source": "Tingnan ang source sa GitHub",
+    "contribute": "Mag-ambag",
     "changelog": "Changelog",
     "linux": "Linux",
     "blog": "Blog"
   },
   "cookie": {
-    "title": "We value your privacy",
-    "desc": "We use cookies to analyze site traffic and enhance your experience. By clicking \"Accept\", you consent to our use of cookies.",
-    "decline": "Decline All",
-    "accept": "Accept All"
+    "title": "Pinapahalagahan namin ang iyong pagkapribado",
+    "desc": "Gumagamit kami ng cookies upang suriin ang trapiko sa site at mapabuti ang iyong karanasan. Sa pag-click sa \"Tanggapin\", sumasang-ayon ka sa aming paggamit ng cookies.",
+    "decline": "Tanggihan Lahat",
+    "accept": "Tanggapin Lahat"
   },
   "hero": {
-    "title1": "Music.",
-    "title2": "Without the friction.",
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "getLinux": "Get for Linux",
-    "badge": "Free & open source",
-    "source": "View source on GitHub"
+    "title1": "Musika.",
+    "title2": "Nang walang abala.",
+    "desc": "Isang libre, open-source na music player. Walang account. Walang subscription. Mag-play lang.",
+    "getIos": "Kunin para sa iOS",
+    "getAndroid": "Kunin para sa Android",
+    "getMac": "Kunin para sa Mac",
+    "getWindows": "Kunin para sa Windows",
+    "getLinux": "Kunin para sa Linux",
+    "badge": "Libre & open source",
+    "source": "Tingnan ang source sa GitHub"
   },
   "discover": {
-    "title": "Find<br></br>something<br></br>worth playing."
+    "title": "Maghanap<br></br>ng bagay na<br></br>gusto mong pakinggan."
   },
   "artistRadio": {
-    "title": "Endless listening."
+    "title": "Walang katapusang pakikinig."
   },
   "goDeeper": {
-    "bgText": "FOLLOW",
-    "title": "Follow the music."
+    "bgText": "I-FOLLOW",
+    "title": "Sundan ang musika."
   },
   "pressPlay": {
-    "title": "Then, just listen."
+    "title": "Pagkatapos, makinig lang."
   },
   "featureGallery": {
-    "title": "Everything you need.",
-    "subtitle": "A beautiful, native experience built for performance.",
-    "searchTitle": "Find exactly what you want.",
-    "searchDesc": "Search globally across tracks, artists, and albums instantly.",
-    "queueTitle": "Perfectly queued.",
-    "queueDesc": "Manage what plays next with a beautiful, reorderable queue.",
-    "favTitle": "Your music, your rules.",
-    "favDesc": "Build your personal library with a single click. Always there.",
-    "contextTitle": "Native by design.",
-    "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus."
+    "title": "Lahat ng kailangan mo.",
+    "subtitle": "Isang maganda, native na karanasan na binuo para sa performance.",
+    "searchTitle": "Hanapin ang eksaktong gusto mo.",
+    "searchDesc": "Maghanap sa buong mundo sa mga track, artist, at album nang mabilis.",
+    "queueTitle": "Perpektong nakapila.",
+    "queueDesc": "Pamahalaan kung ano ang susunod na tutugtog gamit ang isang maganda at reorderable na pila.",
+    "favTitle": "Iyong musika, iyong mga patakaran.",
+    "favDesc": "Buuin ang iyong personal na library sa isang click. Palaging nandiyan.",
+    "contextTitle": "Sadyang native ang disenyo.",
+    "contextDesc": "Mag-right-click kahit saan. Maganda, context-aware na mga native menu."
   },
   "noAccount": {
-    "title": "No account.",
-    "subtitle": "Free & open source"
+    "title": "Walang account.",
+    "subtitle": "Libre & open source"
   },
   "platforms": {
-    "title": "Your music. Your devices.",
-    "subtitle": "Beautifully native on macOS, Linux, Windows, Android, and iOS."
+    "title": "Musika mo. Mga device mo.",
+    "subtitle": "Magandang native sa macOS, Linux, Windows, Android, at iOS."
   },
   "downloadCTA": {
-    "title": "Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "notAvailable": "Not available yet. Currently, only the macOS version is available for download.",
-    "notAvailableTitle": "Coming Soon",
+    "title": "Mag-play lang.",
+    "getIos": "Kunin para sa iOS",
+    "getAndroid": "Kunin para sa Android",
+    "getMac": "Kunin para sa Mac",
+    "getWindows": "Kunin para sa Windows",
+    "notAvailable": "Hindi pa available. Sa ngayon, ang macOS version pa lang ang pwedeng ma-download.",
+    "notAvailableTitle": "Paparating Na",
     "okayBtn": "Okay",
-    "getLinux": "Get for Linux",
+    "getLinux": "Kunin para sa Linux",
     "modalTitle": "I-download para sa {platform}",
     "modalDesc": "Piliin kung paano mo gustong i-install ang PPPlayer sa iyong {platform} na device.",
     "primaryDownload": "I-download",
-    "directDownload": "Direktang Pag-download",
-    "comingSoon": "Malapit na"
+    "directDownload": "Direktang Download",
+    "comingSoon": "Paparating Na"
   },
   "downloadPage": {
-    "badge": "PPPlayer 1.0 is now available",
-    "title": "Download <gradient>PPPlayer</gradient>",
-    "subtitle": "Pick your platform. Start listening in seconds.",
-    "desc": "No account required. No email. No signup. Just music.",
-    "windowsReqLabel": "Windows system requirements:",
-    "windowsReqDesc": "Windows 10 or later (64-bit). ~50 MB download. No Microsoft Store required."
+    "badge": "Available na ang PPPlayer 1.0",
+    "title": "I-download ang <gradient>PPPlayer</gradient>",
+    "subtitle": "Piliin ang iyong platform. Magsimulang makinig sa loob ng ilang segundo.",
+    "desc": "Hindi kailangan ng account. Walang email. Walang signup. Musika lang.",
+    "windowsReqLabel": "Mga kinakailangan ng Windows system:",
+    "windowsReqDesc": "Windows 10 o mas bago (64-bit). ~50 MB download. Hindi kailangan ng Microsoft Store."
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Common <gradient>questions</gradient>",
-    "subtitle": "Everything you need to know about PPPlayer.",
+    "badge": "Mga Madalas Itanong",
+    "title": "Mga Karaniwang <gradient>tanong</gradient>",
+    "subtitle": "Lahat ng kailangan mong malaman tungkol sa PPPlayer.",
     "items": [
       {
-        "q": "Is PPPlayer free?",
-        "a": "Yes. PPPlayer is 100% free. No subscriptions, no in-app purchases, and no hidden costs."
+        "q": "Libre ba ang PPPlayer?",
+        "a": "Oo. Ang PPPlayer ay 100% libre. Walang subscription, walang in-app purchase, at walang mga nakatagong gastos."
       },
       {
-        "q": "Do I need to create an account?",
-        "a": "No. You do not need an email address, account, or login of any kind. Just download, open, and start listening."
+        "q": "Kailangan ko bang gumawa ng account?",
+        "a": "Hindi. Hindi mo kailangan ng email address, account, o kahit anong pag-login. I-download lang, buksan, at magsimulang makinig."
       },
       {
-        "q": "Is PPPlayer available for iPhone?",
-        "a": "Yes. PPPlayer is available on the App Store for iPhone and iPad."
+        "q": "Available ba ang PPPlayer para sa iPhone?",
+        "a": "Oo. Available ang PPPlayer sa App Store para sa iPhone at iPad."
       },
       {
-        "q": "Is PPPlayer available for Android?",
-        "a": "Yes. You can download PPPlayer on Google Play for Android phones and tablets."
+        "q": "Available ba ang PPPlayer para sa Android?",
+        "a": "Oo. Maaari mong i-download ang PPPlayer sa Google Play para sa mga Android phone at tablet."
       },
       {
-        "q": "Can I use PPPlayer on Windows?",
-        "a": "Yes. PPPlayer is available for Windows 10 and later as a direct download. No store required."
+        "q": "Pwede ko bang gamitin ang PPPlayer sa Windows?",
+        "a": "Oo. Available ang PPPlayer para sa Windows 10 at mas bago bilang direktang pag-download. Walang kinakailangang store."
       },
       {
-        "q": "What music features does PPPlayer offer?",
-        "a": "PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required."
+        "q": "Anong mga feature ng musika ang inaalok ng PPPlayer?",
+        "a": "Kasama sa PPPlayer ang pagtuklas ng artist, mga kaugnay na artist, artist radio, artist playlists, genre exploration, at isang magandang full-screen player. Libre ang lahat ng ito, at hindi kailangan ng account."
       },
       {
-        "q": "How do I download PPPlayer?",
-        "a": "Tap the download button for your platform on this page. The download takes less than a minute."
+        "q": "Paano ako makakapag-download ng PPPlayer?",
+        "a": "I-tap ang download button para sa iyong platform sa pahinang ito. Wala pang isang minuto ang pag-download."
       },
       {
-        "q": "Is there a premium version?",
-        "a": "No. PPPlayer is fully free. Everything you see is available at no cost, with no account needed."
+        "q": "Mayroon bang premium na bersyon?",
+        "a": "Wala. Ang PPPlayer ay ganap na libre. Ang lahat ng nakikita mo ay available nang walang bayad, na walang kinakailangang account."
       }
     ],
-    "openSourceQuestion": "Is PPPlayer open source?",
-    "openSourceAnswer": "Yes. PPPlayer is 100% open-source under the MIT license. You can use, study, modify, and share the software freely. Check out our GitHub repository to view the source code or get involved."
+    "openSourceQuestion": "Open source ba ang PPPlayer?",
+    "openSourceAnswer": "Oo. Ang PPPlayer ay 100% open-source sa ilalim ng lisensyang MIT. Maaari mong malayang gamitin, pag-aralan, baguhin, at ibahagi ang software. Tingnan ang aming GitHub repository upang makita ang source code o makibahagi."
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: April 2025",
+    "title": "Patakaran sa Pagkapribado",
+    "lastUpdated": "Huling na-update: Abril 2025",
     "sections": {
       "s1": {
-        "title": "1. Overview",
-        "p": "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explains what data we collect, why, and how it is used when you use PPPlayer on macOS, Linux, Windows, iOS, or Android."
+        "title": "1. Pangkalahatang-ideya",
+        "p": "Nakatuon ang PPPlayer (\"kami\", \"aming\", \"ang app\") na protektahan ang iyong privacy. Ipinapaliwanag ng patakarang ito kung anong data ang aming kinokolekta, bakit, at paano ito ginagamit kapag ginagamit mo ang PPPlayer sa macOS, Linux, Windows, iOS, o Android."
       },
       "s2": {
-        "title": "2. No Account Required",
-        "p": "PPPlayer does not require you to create an account. We do not collect your name, email address, or any personally identifiable information to use the app."
+        "title": "2. Walang Kinakailangang Account",
+        "p": "Hindi hinihiling ng PPPlayer na gumawa ka ng account. Hindi namin kinokolekta ang iyong pangalan, email address, o anumang impormasyong maaaring magpakilala sa iyo upang magamit ang app."
       },
       "s3": {
-        "title": "3. Data We Collect",
-        "p1": "We may collect the following anonymous, non-identifiable data:",
-        "li1": "Crash reports and error logs (to improve app stability)",
-        "li2": "Anonymous usage analytics (feature usage, session duration)",
-        "li3": "Device type and operating system version",
-        "p2": "We do not collect: names, emails, payment info, or precise location data."
+        "title": "3. Data na Kinokolekta Namin",
+        "p1": "Maaari naming kolektahin ang sumusunod na hindi nagpapakilala, hindi nakikilalang data:",
+        "li1": "Mga crash report at error log (para mapabuti ang katatagan ng app)",
+        "li2": "Anonymous usage analytics (paggamit ng feature, tagal ng session)",
+        "li3": "Uri ng device at bersyon ng operating system",
+        "p2": "Hindi kami kumokolekta ng: mga pangalan, email, impormasyon sa pagbabayad, o eksaktong data ng lokasyon."
       },
       "s4": {
-        "title": "4. Third-Party Services",
-        "p": "PPPlayer may use third-party services for music metadata and analytics. These services have their own privacy policies. We encourage you to review them."
+        "title": "4. Mga Serbisyo ng Third-Party",
+        "p": "Maaaring gumamit ang PPPlayer ng mga serbisyo ng third-party para sa music metadata at analytics. Ang mga serbisyong ito ay may kani-kanilang mga patakaran sa privacy. Hinihikayat ka naming suriin ang mga ito."
       },
       "s5": {
-        "title": "5. Data Retention",
-        "p": "Anonymous analytics data is retained for a maximum of 12 months. Crash logs are deleted after 90 days."
+        "title": "5. Pagpapanatili ng Data",
+        "p": "Ang anonymous analytics data ay pinapanatili sa maximum na 12 buwan. Ang mga crash log ay tinatanggal pagkatapos ng 90 araw."
       },
       "s6": {
-        "title": "6. Your Rights",
-        "p": "Since we do not collect personal data, there is no personal information to access, export, or delete. If you have questions, contact us at the address below."
+        "title": "6. Iyong Mga Karapatan",
+        "p": "Dahil hindi kami kumokolekta ng personal na data, walang personal na impormasyong maa-access, maa-export, o made-delete. Kung mayroon kang mga tanong, makipag-ugnayan sa amin sa address sa ibaba."
       },
       "s7": {
-        "title": "7. Children",
-        "p": "PPPlayer is not directed at children under 13. We do not knowingly collect data from children."
+        "title": "7. Mga Bata",
+        "p": "Ang PPPlayer ay hindi nakadirekta sa mga batang wala pang 13 taong gulang. Hindi namin sinasadyang kumolekta ng data mula sa mga bata."
       },
       "s8": {
-        "title": "8. Changes",
-        "p": "We may update this policy from time to time. We will note the date of the last update at the top of this page."
+        "title": "8. Mga Pagbabago",
+        "p": "Maaari naming i-update ang patakarang ito paminsan-minsan. Itatala namin ang petsa ng huling pag-update sa itaas ng pahinang ito."
       },
       "s9": {
-        "title": "9. Contact",
-        "p": "Questions about this policy? Contact us at "
+        "title": "9. Makipag-ugnayan",
+        "p": "May mga tanong tungkol sa patakarang ito? Makipag-ugnayan sa amin sa "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← Bumalik sa PPPlayer"
   },
   "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated: September 11, 2026",
+    "title": "Mga Tuntunin ng Serbisyo",
+    "lastUpdated": "Huling na-update: Setyembre 11, 2026",
     "sections": {
       "s1": {
-        "title": "1. Acceptance of Terms",
-        "p": "By downloading or using PPPlayer, you agree to these Terms of Service. If you do not agree, please do not use the app."
+        "title": "1. Pagtanggap sa mga Tuntunin",
+        "p": "Sa pag-download o paggamit ng PPPlayer, sumasang-ayon ka sa mga Tuntunin ng Serbisyo na ito. Kung hindi ka sumasang-ayon, mangyaring huwag gamitin ang app."
       },
       "s2": {
-        "title": "2. Use of the App",
-        "p": "PPPlayer is free, open-source software. Use, copying, modification, and distribution of the software are governed by the MIT license in the project repository. When using the app, you agree not to:",
-        "li1": "Remove copyright or permission notices required by the applicable software licenses",
-        "li2": "Use the app to distribute malware or harmful content",
-        "li3": "Violate any applicable laws or regulations while using the app"
+        "title": "2. Paggamit ng App",
+        "p": "Ang PPPlayer ay isang libre, open-source na software. Ang paggamit, pagkopya, pagbabago, at pamamahagi ng software ay pinamamahalaan ng lisensyang MIT sa project repository. Kapag ginagamit ang app, sumasang-ayon ka na huwag:",
+        "li1": "Alisin ang copyright o mga abiso ng pahintulot na kinakailangan ng mga naaangkop na lisensya ng software",
+        "li2": "Gamitin ang app upang mamahagi ng malware o nakakapinsalang nilalaman",
+        "li3": "Lumabag sa anumang naaangkop na mga batas o regulasyon habang ginagamit ang app"
       },
       "s3": {
-        "title": "3. No Account Required",
-        "p": "PPPlayer does not require account creation. You can use all features immediately after download."
+        "title": "3. Walang Kinakailangang Account",
+        "p": "Hindi kailangan ng PPPlayer ng paggawa ng account. Maaari mong gamitin ang lahat ng mga feature kaagad pagkatapos ma-download."
       },
       "s4": {
-        "title": "4. Intellectual Property",
-        "p": "PPPlayer source code is available under the MIT license. Third-party dependencies retain their own licenses. Music, artwork, and metadata remain subject to their respective rights and licenses; the software license does not grant rights to that content."
+        "title": "4. Intelektwal na Pag-aari",
+        "p": "Available ang PPPlayer source code sa ilalim ng lisensyang MIT. Ang mga third-party dependencies ay nananatili sa kanilang sariling mga lisensya. Ang musika, artwork, at metadata ay nananatiling napapailalim sa kani-kanilang mga karapatan at lisensya; hindi nagbibigay ang lisensya ng software ng mga karapatan sa nilalamang iyon."
       },
       "s5": {
-        "title": "5. Disclaimer of Warranties",
-        "p": "PPPlayer is provided \"as is\" without warranty of any kind, express or implied. We do not guarantee uninterrupted service or that the app will be error-free."
+        "title": "5. Pagtanggi sa mga Warranty",
+        "p": "Ibinibigay ang PPPlayer nang \"as is\" nang walang warranty ng anumang uri, malinaw o ipinahiwatig. Hindi namin ginagarantiya ang walang patid na serbisyo o na ang app ay magiging walang error."
       },
       "s6": {
-        "title": "6. Limitation of Liability",
-        "p": "To the maximum extent permitted by law, PPPlayer shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use or inability to use the app."
+        "title": "6. Limitasyon ng Pananagutan",
+        "p": "Sa pinakamataas na hangganang pinahihintulutan ng batas, ang PPPlayer ay hindi mananagot para sa anumang hindi direkta, nagkataon, espesyal, o kinahihinatnang mga pinsala na nagreresulta mula sa iyong paggamit o kawalan ng kakayahang gamitin ang app."
       },
       "s7": {
-        "title": "7. Changes to Terms",
-        "p": "We reserve the right to update these terms at any time. Continued use of the app after changes constitutes acceptance of the new terms."
+        "title": "7. Mga Pagbabago sa Mga Tuntunin",
+        "p": "Nakalaan sa amin ang karapatang i-update ang mga tuntuning ito anumang oras. Ang patuloy na paggamit ng app pagkatapos ng mga pagbabago ay bumubuo ng pagtanggap sa mga bagong tuntunin."
       },
       "s8": {
-        "title": "8. Contact",
-        "p": "Questions about these terms? Reach us at "
+        "title": "8. Makipag-ugnayan",
+        "p": "May mga tanong tungkol sa mga tuntuning ito? Abutin kami sa "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← Bumalik sa PPPlayer"
   },
   "platformCards": {
     "ios": {
       "name": "iOS",
       "label": "iPhone & iPad",
-      "desc": "Available on the App Store for iPhone and iPad.",
+      "desc": "Available sa App Store para sa iPhone at iPad.",
       "badge": "App Store"
     },
     "android": {
       "name": "Android",
       "label": "Android",
-      "desc": "Available on Google Play for Android phones and tablets.",
+      "desc": "Available sa Google Play para sa mga Android phone at tablet.",
       "badge": "Google Play"
     },
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Direct download for Windows 10 and later. No store needed.",
-      "badge": "Direct Download"
+      "desc": "Direktang pag-download para sa Windows 10 at mas bago. Walang kinakailangang store.",
+      "badge": "Direktang Download"
     },
     "macos": {
       "name": "macOS",
       "label": "Mac",
-      "desc": "Direct download for macOS. Apple Silicon & Intel supported.",
-      "badge": "Direct Download"
+      "desc": "Direktang pag-download para sa macOS. Sinusuportahan ang Apple Silicon & Intel.",
+      "badge": "Direktang Download"
     },
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Direct download for Linux. AppImage supported.",
-      "badge": "Direct Download"
+      "desc": "Direktang pag-download para sa Linux. Sinusuportahan ang AppImage.",
+      "badge": "Direktang Download"
     }
   },
   "changelog": {
     "title": "Changelog",
-    "subtitle": "What's new in PPPlayer.",
-    "back": "← Back to PPPlayer",
+    "subtitle": "Ano ang bago sa PPPlayer.",
+    "back": "← Bumalik sa PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "Setyembre 12, 2026",
+      "desc": "Pinawak ang suporta sa localization na may 10 bagong wika.",
+      "added": "Idinagdag",
+      "fixed": "Naayos",
+      "lang10Title": "10 Bagong Wika",
+      "lang10Desc": "Nagdagdag ng buong suporta para sa Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, at Uzbek."
     },
     "v1_1_2": {
       "version": "v1.1.2",
-      "date": "September 12, 2026",
-      "desc": "Added Arabic and Chinese localizations and fixed macOS resizing bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "localizationTitle": "Localization Expansion",
-      "localizationDesc": "Added Arabic and Chinese (Simplified & Traditional) localizations.",
+      "date": "Setyembre 12, 2026",
+      "desc": "Nagdagdag ng mga localization ng Arabic at Chinese at inayos ang mga macOS resizing bug.",
+      "added": "Idinagdag",
+      "fixed": "Naayos",
+      "localizationTitle": "Pagpapalawak ng Localization",
+      "localizationDesc": "Nagdagdag ng Arabic at Chinese (Simplified & Traditional) na mga localization.",
       "layoutTitle": "macOS Layout Fix",
-      "layoutDesc": "Fixed an issue on macOS where the YouTube video player would shift off-center when resizing the application window."
+      "layoutDesc": "Inayos ang isang isyu sa macOS kung saan lilipat sa gitna ang YouTube video player kapag nire-resize ang window ng application."
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
+      "date": "Setyembre 12, 2026",
+      "desc": "Inayos ang mga playback bug at pinakinis ang seekbar sa pagsisimula ng app.",
+      "fixed": "Naayos",
       "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "snapDesc": "Inayos ang isang isyu kung saan ang seek bar ay agad na babalik sa panimulang posisyon kapag ini-slide ito kaagad pagkatapos ilunsad ang app.",
+      "durationTitle": "Nawawalang Tagal",
+      "durationDesc": "Inayos ang seek bar na nagpapakita ng tagal na 0:00 kapag unang inilunsad ang app."
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "date": "Setyembre 11, 2026",
+      "desc": "Komprehensibong internasyonalisasyon at lokalisasyon sa buong app at website.",
+      "new": "Idinagdag",
+      "langTitle": "11 Global na Wika",
+      "langDesc": "Nagdagdag ng buong suporta para sa Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, at Arabic.",
+      "pickerTitle": "In-App na Tagapili ng Wika",
+      "pickerDesc": "Nagdagdag ng in-app language picker sa menu ng Mga Kagustuhan na inilalapat kaagad ang mga pagsasalin nang hindi nire-restart ang app.",
+      "osTitle": "Pagsasama ng antas ng OS",
+      "osDesc": "Native na mga integrasyon ng wika sa antas ng OS sa Android 13+ at iOS upang awtomatikong i-sync ang wika ng app."
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
+      "date": "Setyembre 11, 2026",
+      "desc": "Hotfix para sa mga bagong pag-install.",
+      "fixed": "Naayos",
       "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "crashDesc": "Inayos ang isang kritikal na bug na nagiging sanhi ng pag-crash ng app sa isang blangkong screen sa mga bagong pag-install dahil sa isang nawawalang environment configuration file."
     },
     "v1_0_5": {
       "version": "v1.0.5",
-      "date": "September 11, 2026",
-      "desc": "Seamless background playback on macOS.",
-      "new": "New",
-      "fixed": "Fixed",
+      "date": "Setyembre 11, 2026",
+      "desc": "Walang putol na background playback sa macOS.",
+      "new": "Bago",
+      "fixed": "Naayos",
       "appNapTitle": "Gapless Background Playback",
-      "appNapDesc": "Prevented macOS App Nap from aggressively suspending the player when minimized, allowing the queue to continue uninterrupted."
+      "appNapDesc": "Pinigilan ang macOS App Nap na agresibong suspindihin ang player kapag nai-minimize, na nagpapahintulot sa pila na magpatuloy nang walang patid."
     },
     "v1_0_4": {
       "version": "v1.0.4",
-      "date": "September 11, 2026",
-      "desc": "Automated releases and code signing.",
-      "new": "New",
-      "fixed": "Fixed",
+      "date": "Setyembre 11, 2026",
+      "desc": "Mga awtomatikong paglabas at pag-sign ng code.",
+      "new": "Bago",
+      "fixed": "Naayos",
       "ciTitle": "Automated Release Pipeline",
-      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
+      "ciDesc": "GitHub Actions workflow para sa magkakatugmang pagbuo at macOS code signing.",
       "signedTitle": "Signed macOS Releases",
-      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
-      "licenseTitle": "Open Source License",
-      "licenseDesc": "Added MIT License to the repository.",
-      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+      "signedDesc": "Ang mga opisyal na nilagdaan at na-notaryong paglabas ng macOS ay available na direkta sa website.",
+      "licenseTitle": "Open Source na Lisensya",
+      "licenseDesc": "Nagdagdag ng Lisensyang MIT sa repositoryo.",
+      "submoduleFix": "Naayos na configuration ng submodule checkout sa mga workflow ng CI"
     },
     "v1_0_3": {
       "version": "v1.0.3",
-      "date": "September 10, 2026",
-      "desc": "Background playback and stability.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "hybridEngineTitle": "Hybrid Playback Engine",
-      "hybridEngineDesc": "Robust background processing and lock-screen playback capabilities.",
-      "dedupTitle": "Command Deduplication",
-      "dedupDesc": "Added generation IDs to prevent overlapping and stale media commands across WebView bridge.",
-      "queueAdvance": "Song queue not automatically advancing to the next track",
-      "resumeBug": "Paused track unexpectedly resuming when handing off from foreground to PiP or background",
-      "precision": "Accurate millisecond precision reporting for current track position and playback duration",
-      "linter": "Eliminated several IDE linter errors and cleaned up redundant files"
+      "date": "Setyembre 10, 2026",
+      "desc": "Background playback at stability.",
+      "new": "Bago",
+      "improved": "Pinabuti",
+      "fixed": "Naayos",
+      "hybridEngineTitle": "Hybrid na Playback Engine",
+      "hybridEngineDesc": "Matatag na background processing at mga kakayahan sa lock-screen playback.",
+      "dedupTitle": "Pag-deduplicate ng Command",
+      "dedupDesc": "Nagdagdag ng mga generation ID upang maiwasan ang magkakapatong at lumang mga media command sa WebView bridge.",
+      "queueAdvance": "Awtomatikong umuusad ang queue ng kanta sa susunod na track",
+      "resumeBug": "Naka-pause na track na hindi inaasahang nagpapatuloy kapag ibinibigay mula sa harapan patungo sa PiP o background",
+      "precision": "Tumpak na millisecond precision na pag-uulat para sa kasalukuyang posisyon ng track at tagal ng pag-play",
+      "linter": "Inalis ang ilang mga error sa IDE linter at nilinis ang mga kalabisan na file"
     },
     "v1_0_2": {
       "version": "v1.0.2",
-      "date": "September 9, 2026",
-      "desc": "Smarter, context-based autoplay.",
-      "autoplayContextTitle": "Context-Aware Autoplay",
-      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
-      "tieredRecsTitle": "Tiered Recommendation Engine",
-      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+      "date": "Setyembre 9, 2026",
+      "desc": "Mas matalino, context-based na autoplay.",
+      "autoplayContextTitle": "Context-Aware na Autoplay",
+      "autoplayContextDesc": "Binibigyang-priyoridad na ngayon ng Autoplay ang mga track mula sa kasalukuyang artist bago magdagdag ng mga nauugnay na artist sa queue.",
+      "tieredRecsTitle": "Tiered na Rekomendasyong Engine",
+      "tieredRecsDesc": "Ang mga rekomendasyon ay mahigpit na gumagamit ngayon ng catalog ng target na artist sa halip na malabong paghahanap sa pangalan."
     },
     "v1_0_1": {
       "version": "v1.0.1",
-      "date": "September 9, 2026",
-      "desc": "A better listening experience.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
+      "date": "Setyembre 9, 2026",
+      "desc": "Isang mas mahusay na karanasan sa pakikinig.",
+      "new": "Bago",
+      "improved": "Pinabuti",
+      "fixed": "Naayos",
       "autoplayTitle": "Autoplay",
-      "autoplayDesc": "Music keeps going with recommendations based on what you're listening to.",
-      "discoverTitle": "Discover",
-      "discoverDesc": "Find music based on your listening history, favorite artists and playlists.",
-      "tooltipsTitle": "Interactive Seekbar Tooltips",
-      "tooltipsDesc": "Added dynamic tooltips that perfectly follow your mouse cursor when hovering the player progress bar.",
-      "startup": "Faster startup",
-      "recovery": "Better playback recovery",
-      "macosMedia": "Improved macOS media controls",
-      "duplicateMedia": "Duplicate macOS media controls",
-      "stationHighlight": "Station active-track highlighting",
-      "seekbarPause": "Playback pausing/stopping unexpectedly when dragging the seekbar",
-      "bottomBar": "Bottom player bar rendering fully transparent and unreadable on macOS when playing music"
+      "autoplayDesc": "Patuloy ang musika sa mga rekomendasyong nakabatay sa pinapakinggan mo.",
+      "discoverTitle": "Tumuklas",
+      "discoverDesc": "Maghanap ng musika batay sa kasaysayan ng iyong pakikinig, mga paboritong artist at mga playlist.",
+      "tooltipsTitle": "Mga Interactive na Seekbar Tooltip",
+      "tooltipsDesc": "Nagdagdag ng mga dynamic na tooltip na perpektong sumusunod sa cursor ng iyong mouse kapag nagho-hover sa player progress bar.",
+      "startup": "Mas mabilis na startup",
+      "recovery": "Mas mahusay na playback recovery",
+      "macosMedia": "Pinahusay na macOS media controls",
+      "duplicateMedia": "Dobleng macOS media controls",
+      "stationHighlight": "Pag-highlight ng aktibong track ng istasyon",
+      "seekbarPause": "Hindi inaasahang napa-pause/humihinto ang playback kapag kinakaladkad ang seekbar",
+      "bottomBar": "Buong transparent na pag-render ng ibabang player bar at hindi nababasa sa macOS kapag tumutugtog ng musika"
     },
     "v1_0_0": {
       "version": "v1.0.0",
-      "date": "September 2026",
-      "desc": "The first release of PPPlayer.",
-      "spotify": "Spotify-powered music metadata",
-      "youtube": "YouTube-powered audio playback",
-      "playlists": "Playlists, favorites and listening history",
-      "platforms": "macOS, Windows and Linux support"
+      "date": "Setyembre 2026",
+      "desc": "Ang unang paglabas ng PPPlayer.",
+      "spotify": "Music metadata na pinapagana ng Spotify",
+      "youtube": "Audio playback na pinapagana ng YouTube",
+      "playlists": "Mga playlist, paborito at kasaysayan ng pakikinig",
+      "platforms": "Suporta sa macOS, Windows at Linux"
     }
   },
   "support": {
-    "title": "Support",
-    "subtitle": "How can we help you?",
-    "contactTitle": "Contact Us",
-    "contactDesc": "For general inquiries, partnerships, or questions not suited for GitHub, feel free to reach out to us at contact@ppplayer.com.",
-    "githubTitle": "Community & GitHub",
-    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us in building the ultimate open-source music player.",
-    "githubBtn": "View on GitHub"
+    "title": "Suporta",
+    "subtitle": "Paano kami makakatulong sa iyo?",
+    "contactTitle": "Makipag-ugnayan sa Amin",
+    "contactDesc": "Para sa mga pangkalahatang katanungan, pakikipagsosyo, o mga tanong na hindi angkop para sa GitHub, huwag mag-atubiling makipag-ugnayan sa amin sa contact@ppplayer.com.",
+    "githubTitle": "Komunidad at GitHub",
+    "githubDesc": "Suriin ang code, mag-ulat ng bug, magmungkahi ng feature, o mag-ambag ng code at mga pagsasalin. Sumali sa amin sa pagbuo ng ultimate open-source na music player.",
+    "githubBtn": "Tingnan sa GitHub"
   },
   "openSource": {
-    "badge": "Free & open source",
-    "title": "By the community. For the community.",
-    "desc": "PPPlayer is proudly open-source. Explore the codebase, report issues, suggest features, or contribute your own code. Every contribution makes the listening experience better for everyone.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "issues": "Report a bug",
-    "license": "MIT license"
+    "badge": "Libre at open source",
+    "title": "Ng komunidad. Para sa komunidad.",
+    "desc": "Ipinagmamalaki ng PPPlayer na open-source ito. Suriin ang codebase, mag-ulat ng mga isyu, magmungkahi ng mga tampok, o mag-ambag ng iyong sariling code. Ang bawat kontribusyon ay ginagawang mas mahusay ang karanasan sa pakikinig para sa lahat.",
+    "source": "Tingnan ang source sa GitHub",
+    "contribute": "Mag-ambag",
+    "issues": "Mag-ulat ng bug",
+    "license": "Lisensyang MIT"
   },
   "blog": {
     "title": "Blog",
     "subtitle": "Mga balita, update, at kwento mula sa PPPlayer team.",
     "readMore": "Basahin ang artikulo",
-    "minRead": "min na pagbasa",
-    "publishedOn": "Nai-publish noong",
+    "minRead": "minuto bago basahin",
+    "publishedOn": "Na-publish noong",
     "back": "← Bumalik sa Blog",
-    "noArticles": "Walang nahanap na mga artikulo para sa wikang ito.",
+    "noArticles": "Walang nakitang artikulo para sa wikang ito.",
     "writtenBy": "Ni",
-    "translationUnavailable": "Ang artikulong ito ay hindi magagamit sa iyong wika."
+    "translationUnavailable": "Hindi available ang artikulong ito sa iyong wika.",
+    "advertisements": "Mga Advertisement"
   }
 }

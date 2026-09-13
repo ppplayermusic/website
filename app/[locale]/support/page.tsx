@@ -5,6 +5,7 @@ import FAQSection from '@/components/sections/FAQSection'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 
 import {getTranslations} from 'next-intl/server';
+import { routing } from '@/i18n/routing';
 import {setRequestLocale} from 'next-intl/server';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
@@ -23,21 +24,10 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
     },
     alternates: {
       canonical: locale === 'en' ? '/support' : `/${locale}/support`,
-      languages: {
-        'en': '/support',
-        'pt-BR': '/pt-BR/support',
-        'es': '/es/support',
-        'ru': '/ru/support',
-        'tr': '/tr/support',
-        'fr': '/fr/support',
-        'de': '/de/support',
-        'hi': '/hi/support',
-        'it': '/it/support',
-        'ja': '/ja/support',
-        'ko': '/ko/support',
-        'ar': '/ar/support',
-        'zh': '/zh/support'
-      }
+            languages: routing.locales.reduce((acc, l) => {
+        acc[l] = l === 'en' ? '/support' : `/${l}/support`;
+        return acc;
+      }, {} as Record<string, string>)
     }
   };
 }

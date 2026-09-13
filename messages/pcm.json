@@ -1,17 +1,17 @@
 {
   "metadata": {
     "homeTitle": "PPPlayer | Free & Open-Source Music Player",
-    "homeDesc": "A free, open-source music player. No account. No subscription. Just play.",
+    "homeDesc": "Free, open-source music player. No account. No subscription. Just play am.",
     "downloadTitle": "Download PPPlayer Free",
-    "downloadDesc": "A free, open-source music player. No account. No subscription. Just play.",
+    "downloadDesc": "Free, open-source music player. No account. No subscription. Just play am.",
     "privacyTitle": "Privacy Policy",
     "privacyDesc": "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
     "termsTitle": "Terms of Service",
     "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
     "supportTitle": "Support - PPPlayer",
-    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com.",
+    "supportDesc": "PPPlayer na independent, open-source project. If you get bug or new idea, use GitHub. For other questions, email contact@ppplayer.com.",
     "blogTitle": "Blog | PPPlayer",
-    "blogDesc": "News, updates, and stories from di PPPlayer team."
+    "blogDesc": "News, updates, and gist from the PPPlayer team."
   },
   "nav": {
     "features": "Features",
@@ -21,7 +21,7 @@
     "blog": "Blog"
   },
   "footer": {
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
+    "desc": "Free, open-source music player. No account. No subscription. Just play am.",
     "product": "Product",
     "features": "Features",
     "download": "Download",
@@ -46,24 +46,24 @@
   },
   "cookie": {
     "title": "We value your privacy",
-    "desc": "We use cookies to analyze site traffic and enhance your experience. By clicking \"Accept\", you consent to our use of cookies.",
+    "desc": "We dey use cookies to analyze site traffic and make your experience better. By clicking \"Accept\", you gree make we use cookies.",
     "decline": "Decline All",
     "accept": "Accept All"
   },
   "hero": {
     "title1": "Music.",
-    "title2": "Without the friction.",
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "getLinux": "Get for Linux",
+    "title2": "No stress at all.",
+    "desc": "Free, open-source music player. No account. No subscription. Just play am.",
+    "getIos": "Get am for iOS",
+    "getAndroid": "Get am for Android",
+    "getMac": "Get am for Mac",
+    "getWindows": "Get am for Windows",
+    "getLinux": "Get am for Linux",
     "badge": "Free & open source",
     "source": "View source on GitHub"
   },
   "discover": {
-    "title": "Find<br></br>something<br></br>worth playing."
+    "title": "Find<br></br>something<br></br>we fit play."
   },
   "artistRadio": {
     "title": "Endless listening."
@@ -76,14 +76,14 @@
     "title": "Then, just listen."
   },
   "featureGallery": {
-    "title": "Everything you need.",
-    "subtitle": "A beautiful, native experience built for performance.",
-    "searchTitle": "Find exactly what you want.",
-    "searchDesc": "Search globally across tracks, artists, and albums instantly.",
+    "title": "Everything wey you need.",
+    "subtitle": "Beautiful, native experience wey dem build for performance.",
+    "searchTitle": "Find exactly wetin you want.",
+    "searchDesc": "Search globally across tracks, artists, and albums sharp sharp.",
     "queueTitle": "Perfectly queued.",
-    "queueDesc": "Manage what plays next with a beautiful, reorderable queue.",
+    "queueDesc": "Manage wetin go play next with beautiful, reorderable queue.",
     "favTitle": "Your music, your rules.",
-    "favDesc": "Build your personal library with a single click. Always there.",
+    "favDesc": "Build your personal library with one click. E go always dey there.",
     "contextTitle": "Native by design.",
     "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus."
   },
@@ -96,17 +96,17 @@
     "subtitle": "Beautifully native on macOS, Linux, Windows, Android, and iOS."
   },
   "downloadCTA": {
-    "title": "Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "notAvailable": "Not available yet. Currently, only the macOS version is available for download.",
+    "title": "Just play am.",
+    "getIos": "Get am for iOS",
+    "getAndroid": "Get am for Android",
+    "getMac": "Get am for Mac",
+    "getWindows": "Get am for Windows",
+    "notAvailable": "E never ready. Currently, na only the macOS version you fit download.",
     "notAvailableTitle": "Coming Soon",
     "okayBtn": "Okay",
-    "getLinux": "Get for Linux",
+    "getLinux": "Get am for Linux",
     "modalTitle": "Download for {platform}",
-    "modalDesc": "Choose how you want to put PPPlayer inside your {platform} device.",
+    "modalDesc": "Choose how you want to install PPPlayer on your {platform} device.",
     "primaryDownload": "Download",
     "directDownload": "Direct Download",
     "comingSoon": "Coming Soon"
@@ -114,7 +114,7 @@
   "downloadPage": {
     "badge": "PPPlayer 1.0 is now available",
     "title": "Download <gradient>PPPlayer</gradient>",
-    "subtitle": "Pick your platform. Start listening in seconds.",
+    "subtitle": "Pick your platform. Start to dey listen in seconds.",
     "desc": "No account required. No email. No signup. Just music.",
     "windowsReqLabel": "Windows system requirements:",
     "windowsReqDesc": "Windows 10 or later (64-bit). ~50 MB download. No Microsoft Store required."
@@ -125,40 +125,40 @@
     "subtitle": "Everything you need to know about PPPlayer.",
     "items": [
       {
-        "q": "Is PPPlayer free?",
-        "a": "Yes. PPPlayer is 100% free. No subscriptions, no in-app purchases, and no hidden costs."
+        "q": "PPPlayer na free?",
+        "a": "Yes. PPPlayer na 100% free. No subscriptions, no in-app purchases, and no hidden costs."
       },
       {
-        "q": "Do I need to create an account?",
-        "a": "No. You do not need an email address, account, or login of any kind. Just download, open, and start listening."
+        "q": "I need to create account?",
+        "a": "No. You no need email address, account, or login of any kind. Just download, open, and start to dey listen."
       },
       {
-        "q": "Is PPPlayer available for iPhone?",
-        "a": "Yes. PPPlayer is available on the App Store for iPhone and iPad."
+        "q": "PPPlayer dey for iPhone?",
+        "a": "Yes. PPPlayer dey App Store for iPhone and iPad."
       },
       {
-        "q": "Is PPPlayer available for Android?",
-        "a": "Yes. You can download PPPlayer on Google Play for Android phones and tablets."
+        "q": "PPPlayer dey for Android?",
+        "a": "Yes. You fit download PPPlayer from Google Play for Android phones and tablets."
       },
       {
-        "q": "Can I use PPPlayer on Windows?",
-        "a": "Yes. PPPlayer is available for Windows 10 and later as a direct download. No store required."
+        "q": "I fit use PPPlayer on Windows?",
+        "a": "Yes. PPPlayer dey for Windows 10 and later as direct download. No store required."
       },
       {
-        "q": "What music features does PPPlayer offer?",
-        "a": "PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required."
+        "q": "Wetin be the music features wey PPPlayer get?",
+        "a": "PPPlayer get artist discovery, related artists, artist radio, artist playlists, genre exploration, and beautiful full-screen player. Everything na free, and no account is required."
       },
       {
-        "q": "How do I download PPPlayer?",
-        "a": "Tap the download button for your platform on this page. The download takes less than a minute."
+        "q": "How I go take download PPPlayer?",
+        "a": "Tap the download button for your platform on this page. The download no go take pass one minute."
       },
       {
-        "q": "Is there a premium version?",
-        "a": "No. PPPlayer is fully free. Everything you see is available at no cost, with no account needed."
+        "q": "Premium version dey?",
+        "a": "No. PPPlayer na fully free. Everything wey you see dey available at no cost, with no account needed."
       }
     ],
-    "openSourceQuestion": "Is PPPlayer open source?",
-    "openSourceAnswer": "Yes. PPPlayer is 100% open-source under the MIT license. You can use, study, modify, and share the software freely. Check out our GitHub repository to view the source code or get involved."
+    "openSourceQuestion": "PPPlayer na open source?",
+    "openSourceAnswer": "Yes. PPPlayer na 100% open-source under the MIT license. You fit use, study, modify, and share the software freely. Check out our GitHub repository to view the source code or get involved."
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -166,23 +166,23 @@
     "sections": {
       "s1": {
         "title": "1. Overview",
-        "p": "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explains what data we collect, why, and how it is used when you use PPPlayer on macOS, Linux, Windows, iOS, or Android."
+        "p": "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explain the data we dey collect, why we dey collect am, and how we dey use am when you use PPPlayer on macOS, Linux, Windows, iOS, or Android."
       },
       "s2": {
         "title": "2. No Account Required",
-        "p": "PPPlayer does not require you to create an account. We do not collect your name, email address, or any personally identifiable information to use the app."
+        "p": "PPPlayer no require you to create account. We no dey collect your name, email address, or any personally identifiable information to use the app."
       },
       "s3": {
         "title": "3. Data We Collect",
-        "p1": "We may collect the following anonymous, non-identifiable data:",
+        "p1": "We fit collect this anonymous, non-identifiable data:",
         "li1": "Crash reports and error logs (to improve app stability)",
         "li2": "Anonymous usage analytics (feature usage, session duration)",
         "li3": "Device type and operating system version",
-        "p2": "We do not collect: names, emails, payment info, or precise location data."
+        "p2": "We no dey collect: names, emails, payment info, or precise location data."
       },
       "s4": {
         "title": "4. Third-Party Services",
-        "p": "PPPlayer may use third-party services for music metadata and analytics. These services have their own privacy policies. We encourage you to review them."
+        "p": "PPPlayer fit use third-party services for music metadata and analytics. These services get their own privacy policies. We encourage you to review them."
       },
       "s5": {
         "title": "5. Data Retention",
@@ -190,19 +190,19 @@
       },
       "s6": {
         "title": "6. Your Rights",
-        "p": "Since we do not collect personal data, there is no personal information to access, export, or delete. If you have questions, contact us at the address below."
+        "p": "Since we no dey collect personal data, there is no personal information to access, export, or delete. If you get questions, contact us at the address below."
       },
       "s7": {
         "title": "7. Children",
-        "p": "PPPlayer is not directed at children under 13. We do not knowingly collect data from children."
+        "p": "PPPlayer no be for children under 13. We no dey knowingly collect data from children."
       },
       "s8": {
         "title": "8. Changes",
-        "p": "We may update this policy from time to time. We will note the date of the last update at the top of this page."
+        "p": "We fit update this policy from time to time. We go note the date of the last update at the top of this page."
       },
       "s9": {
         "title": "9. Contact",
-        "p": "Questions about this policy? Contact us at "
+        "p": "You get questions about this policy? Contact us at "
       }
     },
     "back": "← Back to PPPlayer"
@@ -213,30 +213,30 @@
     "sections": {
       "s1": {
         "title": "1. Acceptance of Terms",
-        "p": "By downloading or using PPPlayer, you agree to these Terms of Service. If you do not agree, please do not use the app."
+        "p": "By downloading or using PPPlayer, you agree to these Terms of Service. If you no agree, abeg no use the app."
       },
       "s2": {
         "title": "2. Use of the App",
-        "p": "PPPlayer is free, open-source software. Use, copying, modification, and distribution of the software are governed by the MIT license in the project repository. When using the app, you agree not to:",
+        "p": "PPPlayer na free, open-source software. Use, copying, modification, and distribution of the software are governed by the MIT license in the project repository. When using the app, you agree not to:",
         "li1": "Remove copyright or permission notices required by the applicable software licenses",
         "li2": "Use the app to distribute malware or harmful content",
         "li3": "Violate any applicable laws or regulations while using the app"
       },
       "s3": {
         "title": "3. No Account Required",
-        "p": "PPPlayer does not require account creation. You can use all features immediately after download."
+        "p": "PPPlayer no require account creation. You fit use all features immediately after download."
       },
       "s4": {
         "title": "4. Intellectual Property",
-        "p": "PPPlayer source code is available under the MIT license. Third-party dependencies retain their own licenses. Music, artwork, and metadata remain subject to their respective rights and licenses; the software license does not grant rights to that content."
+        "p": "PPPlayer source code dey available under the MIT license. Third-party dependencies retain their own licenses. Music, artwork, and metadata remain subject to their respective rights and licenses; the software license no grant rights to that content."
       },
       "s5": {
         "title": "5. Disclaimer of Warranties",
-        "p": "PPPlayer is provided \"as is\" without warranty of any kind, express or implied. We do not guarantee uninterrupted service or that the app will be error-free."
+        "p": "PPPlayer is provided \"as is\" without warranty of any kind, express or implied. We no guarantee uninterrupted service or that the app will be error-free."
       },
       "s6": {
         "title": "6. Limitation of Liability",
-        "p": "To the maximum extent permitted by law, PPPlayer shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use or inability to use the app."
+        "p": "To the maximum extent permitted by law, PPPlayer no go be liable for any indirect, incidental, special, or consequential damages resulting from your use or inability to use the app."
       },
       "s7": {
         "title": "7. Changes to Terms",
@@ -244,7 +244,7 @@
       },
       "s8": {
         "title": "8. Contact",
-        "p": "Questions about these terms? Reach us at "
+        "p": "You get questions about these terms? Reach us at "
       }
     },
     "back": "← Back to PPPlayer"
@@ -283,7 +283,7 @@
   },
   "changelog": {
     "title": "Changelog",
-    "subtitle": "What's new in PPPlayer.",
+    "subtitle": "Wetin be new in PPPlayer.",
     "back": "← Back to PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",
@@ -416,17 +416,17 @@
   },
   "support": {
     "title": "Support",
-    "subtitle": "How can we help you?",
+    "subtitle": "How we fit help you?",
     "contactTitle": "Contact Us",
-    "contactDesc": "For general inquiries, partnerships, or questions not suited for GitHub, feel free to reach out to us at contact@ppplayer.com.",
+    "contactDesc": "For general inquiries, partnerships, or questions wey no suit GitHub, feel free to reach out to us at contact@ppplayer.com.",
     "githubTitle": "Community & GitHub",
-    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us in building the ultimate open-source music player.",
+    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us to build the ultimate open-source music player.",
     "githubBtn": "View on GitHub"
   },
   "openSource": {
     "badge": "Free & open source",
     "title": "By the community. For the community.",
-    "desc": "PPPlayer is proudly open-source. Explore the codebase, report issues, suggest features, or contribute your own code. Every contribution makes the listening experience better for everyone.",
+    "desc": "PPPlayer na proudly open-source. Explore the codebase, report issues, suggest features, or contribute your own code. Every contribution dey make the listening experience better for everybody.",
     "source": "View source on GitHub",
     "contribute": "Contribute",
     "issues": "Report a bug",
@@ -434,13 +434,14 @@
   },
   "blog": {
     "title": "Blog",
-    "subtitle": "News, updates, and stories from di PPPlayer team.",
+    "subtitle": "News, updates, and gist from the PPPlayer team.",
     "readMore": "Read article",
     "minRead": "min read",
     "publishedOn": "Published on",
     "back": "← Back to Blog",
-    "noArticles": "No articles found for dis language.",
+    "noArticles": "We no see articles for this language.",
     "writtenBy": "By",
-    "translationUnavailable": "Dis article no dey available in your language."
+    "translationUnavailable": "This article no dey available in your language.",
+    "advertisements": "Advertisements"
   }
 }

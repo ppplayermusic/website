@@ -441,6 +441,7 @@
     "back": "← 返回博客",
     "noArticles": "未找到该语言的文章。",
     "writtenBy": "作者",
-    "translationUnavailable": "此文章不提供您的语言版本。"
+    "translationUnavailable": "此文章不提供您的语言版本。",
+    "advertisements": "广告"
   }
 }

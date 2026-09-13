@@ -441,6 +441,7 @@
     "back": "← ブログに戻る",
     "noArticles": "この言語の記事は見つかりませんでした。",
     "writtenBy": "作成者",
-    "translationUnavailable": "この記事はあなたの言語では利用できません。"
+    "translationUnavailable": "この記事はあなたの言語では利用できません。",
+    "advertisements": "広告"
   }
 }

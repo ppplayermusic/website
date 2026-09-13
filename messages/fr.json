@@ -441,6 +441,7 @@
     "back": "← Retour au Blog",
     "noArticles": "Aucun article trouvé pour cette langue.",
     "writtenBy": "Par",
-    "translationUnavailable": "Cet article n'est pas disponible dans votre langue."
+    "translationUnavailable": "Cet article n'est pas disponible dans votre langue.",
+    "advertisements": "Publicités"
   }
 }

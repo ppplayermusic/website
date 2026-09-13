@@ -441,6 +441,7 @@
     "back": "← Вернуться в блог",
     "noArticles": "Статьи для этого языка не найдены.",
     "writtenBy": "Автор",
-    "translationUnavailable": "Эта статья недоступна на вашем языке."
+    "translationUnavailable": "Эта статья недоступна на вашем языке.",
+    "advertisements": "Реклама"
   }
 }

@@ -1,446 +1,447 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Free & Open-Source Music Player",
-    "homeDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "downloadTitle": "Download PPPlayer Free",
-    "downloadDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDesc": "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "termsTitle": "Terms of Service",
-    "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "supportTitle": "Support - PPPlayer",
-    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com.",
+    "homeTitle": "PPPlayer | Bezmaksas un atvērtā koda mūzikas atskaņotājs",
+    "homeDesc": "Bezmaksas, atvērtā koda mūzikas atskaņotājs. Nav konta. Nav abonementa. Vienkārši atskaņo.",
+    "downloadTitle": "Lejupielādēt PPPlayer bez maksas",
+    "downloadDesc": "Bezmaksas, atvērtā koda mūzikas atskaņotājs. Nav konta. Nav abonementa. Vienkārši atskaņo.",
+    "privacyTitle": "Privātuma politika",
+    "privacyDesc": "PPPlayer privātuma politika: bezmaksas mūzikas lietotne macOS, Linux, Windows, iOS un Android.",
+    "termsTitle": "Pakalpojuma noteikumi",
+    "termsDesc": "PPPlayer pakalpojuma noteikumi: bezmaksas mūzikas lietotne macOS, Linux, Windows, iOS un Android.",
+    "supportTitle": "Atbalsts - PPPlayer",
+    "supportDesc": "PPPlayer ir neatkarīgs, atvērtā koda projekts. Kļūdām un jaunu funkciju idejām izmantojiet GitHub. Citiem jautājumiem rakstiet uz e-pastu contact@ppplayer.com.",
     "blogTitle": "Emuārs | PPPlayer",
-    "blogDesc": "Ziņas, atjauninājumi un stāsti no PPPlayer komandas."
+    "blogDesc": "Jaunumi, atjauninājumi un stāsti no PPPlayer komandas."
   },
   "nav": {
-    "features": "Features",
-    "download": "Download Free",
-    "support": "Support",
-    "contribute": "Contribute",
+    "features": "Funkcijas",
+    "download": "Lejupielādēt",
+    "support": "Atbalsts",
+    "contribute": "Piedalīties",
     "blog": "Emuārs"
   },
   "footer": {
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "product": "Product",
-    "features": "Features",
-    "download": "Download",
-    "platforms": "Platforms",
+    "desc": "Bezmaksas, atvērtā koda mūzikas atskaņotājs. Nav konta. Nav abonementa. Vienkārši atskaņo.",
+    "product": "Produkts",
+    "features": "Funkcijas",
+    "download": "Lejupielādēt",
+    "platforms": "Platformas",
     "ios": "iOS",
     "android": "Android",
     "windows": "Windows",
-    "social": "Social",
+    "social": "Sociālie tīkli",
     "instagram": "Instagram",
     "linkedin": "LinkedIn",
     "facebook": "Facebook",
     "github": "GitHub",
-    "legal": "Legal",
-    "privacy": "Privacy",
-    "terms": "Terms",
+    "legal": "Juridiskā informācija",
+    "privacy": "Privātums",
+    "terms": "Noteikumi",
     "copyright": "© {year} PPPlayer Music.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "changelog": "Changelog",
+    "source": "Apskatīt pirmkodu GitHub",
+    "contribute": "Piedalīties",
+    "changelog": "Izmaiņu žurnāls",
     "linux": "Linux",
     "blog": "Emuārs"
   },
   "cookie": {
-    "title": "We value your privacy",
-    "desc": "We use cookies to analyze site traffic and enhance your experience. By clicking \"Accept\", you consent to our use of cookies.",
-    "decline": "Decline All",
-    "accept": "Accept All"
+    "title": "Mēs novērtējam jūsu privātumu",
+    "desc": "Mēs izmantojam sīkfailus, lai analizētu vietnes datplūsmu un uzlabotu jūsu pieredzi. Noklikšķinot uz \"Pieņemt\", jūs piekrītat mūsu sīkfailu izmantošanai.",
+    "decline": "Noraidīt visus",
+    "accept": "Pieņemt visus"
   },
   "hero": {
-    "title1": "Music.",
-    "title2": "Without the friction.",
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "getLinux": "Get for Linux",
-    "badge": "Free & open source",
-    "source": "View source on GitHub"
+    "title1": "Mūzika.",
+    "title2": "Bez šķēršļiem.",
+    "desc": "Bezmaksas, atvērtā koda mūzikas atskaņotājs. Nav konta. Nav abonementa. Vienkārši atskaņo.",
+    "getIos": "Iegūt iOS ierīcēm",
+    "getAndroid": "Iegūt Android ierīcēm",
+    "getMac": "Iegūt Mac datoriem",
+    "getWindows": "Iegūt Windows datoriem",
+    "getLinux": "Iegūt Linux",
+    "badge": "Bezmaksas un atvērtā koda",
+    "source": "Apskatīt pirmkodu GitHub"
   },
   "discover": {
-    "title": "Find<br></br>something<br></br>worth playing."
+    "title": "Atrodi<br></br>kaut ko<br></br>klausīšanās vērtu."
   },
   "artistRadio": {
-    "title": "Endless listening."
+    "title": "Nebeidzama klausīšanās."
   },
   "goDeeper": {
-    "bgText": "FOLLOW",
-    "title": "Follow the music."
+    "bgText": "SEKOT",
+    "title": "Seko mūzikai."
   },
   "pressPlay": {
-    "title": "Then, just listen."
+    "title": "Pēc tam vienkārši klausies."
   },
   "featureGallery": {
-    "title": "Everything you need.",
-    "subtitle": "A beautiful, native experience built for performance.",
-    "searchTitle": "Find exactly what you want.",
-    "searchDesc": "Search globally across tracks, artists, and albums instantly.",
-    "queueTitle": "Perfectly queued.",
-    "queueDesc": "Manage what plays next with a beautiful, reorderable queue.",
-    "favTitle": "Your music, your rules.",
-    "favDesc": "Build your personal library with a single click. Always there.",
-    "contextTitle": "Native by design.",
-    "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus."
+    "title": "Viss, kas jums nepieciešams.",
+    "subtitle": "Skaista, vietējā pieredze, kas radīta veiktspējai.",
+    "searchTitle": "Atrodi tieši to, ko vēlies.",
+    "searchDesc": "Meklē globāli starp dziesmām, izpildītājiem un albumiem uzreiz.",
+    "queueTitle": "Lieliski sarindots.",
+    "queueDesc": "Pārvaldi to, kas skanēs tālāk, ar skaistu, pārkārtojamu rindu.",
+    "favTitle": "Tava mūzika, tavi noteikumi.",
+    "favDesc": "Izveido savu personīgo bibliotēku ar vienu klikšķi. Vienmēr pieejama.",
+    "contextTitle": "Dabisks pēc dizaina.",
+    "contextDesc": "Ar peles labo pogu noklikšķini jebkur. Skaistas, kontekstam atbilstošas vietējās izvēlnes."
   },
   "noAccount": {
-    "title": "No account.",
-    "subtitle": "Free & open source"
+    "title": "Nav konta.",
+    "subtitle": "Bezmaksas un atvērtā koda"
   },
   "platforms": {
-    "title": "Your music. Your devices.",
-    "subtitle": "Beautifully native on macOS, Linux, Windows, Android, and iOS."
+    "title": "Tava mūzika. Tavas ierīces.",
+    "subtitle": "Brīnišķīgi dabisks operētājsistēmās macOS, Linux, Windows, Android un iOS."
   },
   "downloadCTA": {
-    "title": "Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "notAvailable": "Not available yet. Currently, only the macOS version is available for download.",
-    "notAvailableTitle": "Coming Soon",
-    "okayBtn": "Okay",
-    "getLinux": "Get for Linux",
+    "title": "Vienkārši atskaņo.",
+    "getIos": "Iegūt iOS ierīcēm",
+    "getAndroid": "Iegūt Android ierīcēm",
+    "getMac": "Iegūt Mac datoriem",
+    "getWindows": "Iegūt Windows datoriem",
+    "notAvailable": "Vēl nav pieejams. Pašlaik lejupielādei ir pieejama tikai macOS versija.",
+    "notAvailableTitle": "Drīzumā",
+    "okayBtn": "Labi",
+    "getLinux": "Iegūt Linux",
     "modalTitle": "Lejupielādēt {platform}",
-    "modalDesc": "Izvēlieties, kā vēlaties instalēt PPPlayer savā {platform} ierīcē.",
+    "modalDesc": "Izvēlies, kā vēlies instalēt PPPlayer savā {platform} ierīcē.",
     "primaryDownload": "Lejupielādēt",
     "directDownload": "Tiešā lejupielāde",
     "comingSoon": "Drīzumā"
   },
   "downloadPage": {
-    "badge": "PPPlayer 1.0 is now available",
-    "title": "Download <gradient>PPPlayer</gradient>",
-    "subtitle": "Pick your platform. Start listening in seconds.",
-    "desc": "No account required. No email. No signup. Just music.",
-    "windowsReqLabel": "Windows system requirements:",
-    "windowsReqDesc": "Windows 10 or later (64-bit). ~50 MB download. No Microsoft Store required."
+    "badge": "PPPlayer 1.0 tagad ir pieejams",
+    "title": "Lejupielādēt <gradient>PPPlayer</gradient>",
+    "subtitle": "Izvēlies savu platformu. Sāc klausīties dažu sekunžu laikā.",
+    "desc": "Nav nepieciešams konts. Nav e-pasta. Nav reģistrācijas. Tikai mūzika.",
+    "windowsReqLabel": "Windows sistēmas prasības:",
+    "windowsReqDesc": "Windows 10 vai jaunāka versija (64 bitu). ~50 MB lejupielāde. Nav nepieciešams Microsoft Store."
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Common <gradient>questions</gradient>",
-    "subtitle": "Everything you need to know about PPPlayer.",
+    "badge": "Bieži uzdotie jautājumi",
+    "title": "Bieži uzdotie <gradient>jautājumi</gradient>",
+    "subtitle": "Viss, kas jums jāzina par PPPlayer.",
     "items": [
       {
-        "q": "Is PPPlayer free?",
-        "a": "Yes. PPPlayer is 100% free. No subscriptions, no in-app purchases, and no hidden costs."
+        "q": "Vai PPPlayer ir bez maksas?",
+        "a": "Jā. PPPlayer ir 100% bez maksas. Nav abonementu, nav pirkumu lietotnē un nav slēptu izmaksu."
       },
       {
-        "q": "Do I need to create an account?",
-        "a": "No. You do not need an email address, account, or login of any kind. Just download, open, and start listening."
+        "q": "Vai man ir jāizveido konts?",
+        "a": "Nē. Jums nav nepieciešama e-pasta adrese, konts vai jebkāda veida pieteikšanās. Vienkārši lejupielādējiet, atveriet un sāciet klausīties."
       },
       {
-        "q": "Is PPPlayer available for iPhone?",
-        "a": "Yes. PPPlayer is available on the App Store for iPhone and iPad."
+        "q": "Vai PPPlayer ir pieejams iPhone ierīcēm?",
+        "a": "Jā. PPPlayer ir pieejams App Store iPhone un iPad ierīcēm."
       },
       {
-        "q": "Is PPPlayer available for Android?",
-        "a": "Yes. You can download PPPlayer on Google Play for Android phones and tablets."
+        "q": "Vai PPPlayer ir pieejams Android ierīcēm?",
+        "a": "Jā. Varat lejupielādēt PPPlayer pakalpojumā Google Play Android tālruņiem un planšetdatoriem."
       },
       {
-        "q": "Can I use PPPlayer on Windows?",
-        "a": "Yes. PPPlayer is available for Windows 10 and later as a direct download. No store required."
+        "q": "Vai varu izmantot PPPlayer operētājsistēmā Windows?",
+        "a": "Jā. PPPlayer ir pieejams operētājsistēmai Windows 10 un jaunākām versijām kā tieša lejupielāde. Nav nepieciešams veikals."
       },
       {
-        "q": "What music features does PPPlayer offer?",
-        "a": "PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required."
+        "q": "Kādas mūzikas funkcijas piedāvā PPPlayer?",
+        "a": "PPPlayer ietver izpildītāju atklāšanu, saistītos izpildītājus, izpildītāju radio, izpildītāju atskaņošanas sarakstus, žanru izpēti un skaistu pilnekrāna atskaņotāju. Tas viss ir bez maksas, un konts nav nepieciešams."
       },
       {
-        "q": "How do I download PPPlayer?",
-        "a": "Tap the download button for your platform on this page. The download takes less than a minute."
+        "q": "Kā lejupielādēt PPPlayer?",
+        "a": "Šajā lapā pieskarieties lejupielādes pogai savai platformai. Lejupielāde aizņem mazāk nekā minūti."
       },
       {
-        "q": "Is there a premium version?",
-        "a": "No. PPPlayer is fully free. Everything you see is available at no cost, with no account needed."
+        "q": "Vai ir pieejama premium versija?",
+        "a": "Nē. PPPlayer ir pilnībā bez maksas. Viss redzamais ir pieejams bez maksas, bez nepieciešamības pēc konta."
       }
     ],
-    "openSourceQuestion": "Is PPPlayer open source?",
-    "openSourceAnswer": "Yes. PPPlayer is 100% open-source under the MIT license. You can use, study, modify, and share the software freely. Check out our GitHub repository to view the source code or get involved."
+    "openSourceQuestion": "Vai PPPlayer ir atvērtā koda?",
+    "openSourceAnswer": "Jā. PPPlayer ir 100% atvērtā koda saskaņā ar MIT licenci. Jūs varat brīvi izmantot, pētīt, mainīt un kopīgot programmatūru. Apskatiet mūsu GitHub repozitoriju, lai skatītu pirmkodu vai iesaistītos."
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: April 2025",
+    "title": "Privātuma politika",
+    "lastUpdated": "Pēdējo reizi atjaunināts: 2025. gada aprīlis",
     "sections": {
       "s1": {
-        "title": "1. Overview",
-        "p": "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explains what data we collect, why, and how it is used when you use PPPlayer on macOS, Linux, Windows, iOS, or Android."
+        "title": "1. Pārskats",
+        "p": "PPPlayer (\"mēs\", \"mūsu\", \"lietotne\") ir apņēmies aizsargāt jūsu privātumu. Šī politika paskaidro, kādus datus mēs apkopojam, kāpēc, un kā tie tiek izmantoti, kad izmantojat PPPlayer operētājsistēmās macOS, Linux, Windows, iOS vai Android."
       },
       "s2": {
-        "title": "2. No Account Required",
-        "p": "PPPlayer does not require you to create an account. We do not collect your name, email address, or any personally identifiable information to use the app."
+        "title": "2. Konts nav nepieciešams",
+        "p": "PPPlayer neprasa izveidot kontu. Mēs neapkopojam jūsu vārdu, e-pasta adresi vai jebkādu personu identificējošu informāciju, lai izmantotu lietotni."
       },
       "s3": {
-        "title": "3. Data We Collect",
-        "p1": "We may collect the following anonymous, non-identifiable data:",
-        "li1": "Crash reports and error logs (to improve app stability)",
-        "li2": "Anonymous usage analytics (feature usage, session duration)",
-        "li3": "Device type and operating system version",
-        "p2": "We do not collect: names, emails, payment info, or precise location data."
+        "title": "3. Mūsu apkopotie dati",
+        "p1": "Mēs varam apkopot šādus anonīmus, neidentificējamus datus:",
+        "li1": "Avāriju ziņojumi un kļūdu žurnāli (lai uzlabotu lietotnes stabilitāti)",
+        "li2": "Anonīma lietojuma analīze (funkciju izmantošana, sesijas ilgums)",
+        "li3": "Ierīces tips un operētājsistēmas versija",
+        "p2": "Mēs neapkopojam: vārdus, e-pastus, maksājumu informāciju vai precīzus atrašanās vietas datus."
       },
       "s4": {
-        "title": "4. Third-Party Services",
-        "p": "PPPlayer may use third-party services for music metadata and analytics. These services have their own privacy policies. We encourage you to review them."
+        "title": "4. Trešo pušu pakalpojumi",
+        "p": "PPPlayer var izmantot trešo pušu pakalpojumus mūzikas metadatiem un analīzei. Šiem pakalpojumiem ir sava privātuma politika. Mēs aicinām jūs tās pārskatīt."
       },
       "s5": {
-        "title": "5. Data Retention",
-        "p": "Anonymous analytics data is retained for a maximum of 12 months. Crash logs are deleted after 90 days."
+        "title": "5. Datu saglabāšana",
+        "p": "Anonīmie analītikas dati tiek saglabāti maksimāli 12 mēnešus. Avāriju žurnāli tiek dzēsti pēc 90 dienām."
       },
       "s6": {
-        "title": "6. Your Rights",
-        "p": "Since we do not collect personal data, there is no personal information to access, export, or delete. If you have questions, contact us at the address below."
+        "title": "6. Jūsu tiesības",
+        "p": "Tā kā mēs neapkopojam personas datus, nav personiskas informācijas, kurai piekļūt, to eksportēt vai dzēst. Ja jums ir jautājumi, sazinieties ar mums, izmantojot zemāk norādīto adresi."
       },
       "s7": {
-        "title": "7. Children",
-        "p": "PPPlayer is not directed at children under 13. We do not knowingly collect data from children."
+        "title": "7. Bērni",
+        "p": "PPPlayer nav paredzēts bērniem, kas jaunāki par 13 gadiem. Mēs apzināti neapkopojam datus no bērniem."
       },
       "s8": {
-        "title": "8. Changes",
-        "p": "We may update this policy from time to time. We will note the date of the last update at the top of this page."
+        "title": "8. Izmaiņas",
+        "p": "Mēs laiku pa laikam varam atjaunināt šo politiku. Pēdējās atjaunināšanas datumu mēs norādīsim šīs lapas augšdaļā."
       },
       "s9": {
-        "title": "9. Contact",
-        "p": "Questions about this policy? Contact us at "
+        "title": "9. Kontakti",
+        "p": "Vai jums ir jautājumi par šo politiku? Sazinieties ar mums, rakstot uz "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← Atpakaļ uz PPPlayer"
   },
   "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated: September 11, 2026",
+    "title": "Pakalpojuma noteikumi",
+    "lastUpdated": "Pēdējo reizi atjaunināts: 2026. gada 11. septembris",
     "sections": {
       "s1": {
-        "title": "1. Acceptance of Terms",
-        "p": "By downloading or using PPPlayer, you agree to these Terms of Service. If you do not agree, please do not use the app."
+        "title": "1. Noteikumu pieņemšana",
+        "p": "Lejupielādējot vai izmantojot PPPlayer, jūs piekrītat šiem Pakalpojuma noteikumiem. Ja nepiekrītat, lūdzu, neizmantojiet lietotni."
       },
       "s2": {
-        "title": "2. Use of the App",
-        "p": "PPPlayer is free, open-source software. Use, copying, modification, and distribution of the software are governed by the MIT license in the project repository. When using the app, you agree not to:",
-        "li1": "Remove copyright or permission notices required by the applicable software licenses",
-        "li2": "Use the app to distribute malware or harmful content",
-        "li3": "Violate any applicable laws or regulations while using the app"
+        "title": "2. Lietotnes izmantošana",
+        "p": "PPPlayer ir bezmaksas atvērtā koda programmatūra. Programmatūras izmantošanu, kopēšanu, modificēšanu un izplatīšanu regulē projekta repozitorijā esošā MIT licence. Izmantojot lietotni, jūs piekrītat:",
+        "li1": "Neizdzēst autortiesību vai atļauju paziņojumus, ko pieprasa piemērojamās programmatūras licences",
+        "li2": "Neizmantot lietotni ļaunprātīgas programmatūras vai kaitīga satura izplatīšanai",
+        "li3": "Pārkāpt nevienu piemērojamo likumu vai noteikumu lietotnes izmantošanas laikā"
       },
       "s3": {
-        "title": "3. No Account Required",
-        "p": "PPPlayer does not require account creation. You can use all features immediately after download."
+        "title": "3. Konts nav nepieciešams",
+        "p": "PPPlayer neprasa konta izveidi. Jūs varat izmantot visas funkcijas uzreiz pēc lejupielādes."
       },
       "s4": {
-        "title": "4. Intellectual Property",
-        "p": "PPPlayer source code is available under the MIT license. Third-party dependencies retain their own licenses. Music, artwork, and metadata remain subject to their respective rights and licenses; the software license does not grant rights to that content."
+        "title": "4. Intelektuālais īpašums",
+        "p": "PPPlayer pirmkods ir pieejams saskaņā ar MIT licenci. Trešo pušu atkarības saglabā savas licences. Mūzika, mākslas darbi un metadati joprojām ir pakļauti to attiecīgajām tiesībām un licencēm; programmatūras licence nepiešķir tiesības uz šo saturu."
       },
       "s5": {
-        "title": "5. Disclaimer of Warranties",
-        "p": "PPPlayer is provided \"as is\" without warranty of any kind, express or implied. We do not guarantee uninterrupted service or that the app will be error-free."
+        "title": "5. Garantiju atruna",
+        "p": "PPPlayer tiek nodrošināts \"kāds tas ir\" bez jebkādas tiešas vai netiešas garantijas. Mēs negarantējam nepārtrauktu pakalpojumu vai to, ka lietotnē nebūs kļūdu."
       },
       "s6": {
-        "title": "6. Limitation of Liability",
-        "p": "To the maximum extent permitted by law, PPPlayer shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use or inability to use the app."
+        "title": "6. Atbildības ierobežojums",
+        "p": "Ciktāl to maksimāli pieļauj likums, PPPlayer nav atbildīgs par jebkādiem netiešiem, nejaušiem, īpašiem vai izrietošiem zaudējumiem, kas radušies lietotnes izmantošanas vai neiespējamības to izmantot dēļ."
       },
       "s7": {
-        "title": "7. Changes to Terms",
-        "p": "We reserve the right to update these terms at any time. Continued use of the app after changes constitutes acceptance of the new terms."
+        "title": "7. Noteikumu izmaiņas",
+        "p": "Mēs paturam tiesības atjaunināt šos noteikumus jebkurā laikā. Lietotnes turpmāka izmantošana pēc izmaiņām nozīmē jauno noteikumu pieņemšanu."
       },
       "s8": {
-        "title": "8. Contact",
-        "p": "Questions about these terms? Reach us at "
+        "title": "8. Kontakti",
+        "p": "Vai jums ir jautājumi par šiem noteikumiem? Sazinieties ar mums, rakstot uz "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← Atpakaļ uz PPPlayer"
   },
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
-      "desc": "Available on the App Store for iPhone and iPad.",
+      "label": "iPhone un iPad",
+      "desc": "Pieejams App Store iPhone un iPad ierīcēm.",
       "badge": "App Store"
     },
     "android": {
       "name": "Android",
       "label": "Android",
-      "desc": "Available on Google Play for Android phones and tablets.",
+      "desc": "Pieejams pakalpojumā Google Play Android tālruņiem un planšetdatoriem.",
       "badge": "Google Play"
     },
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Direct download for Windows 10 and later. No store needed.",
-      "badge": "Direct Download"
+      "desc": "Tiešā lejupielāde operētājsistēmai Windows 10 un jaunākām versijām. Nav nepieciešams veikals.",
+      "badge": "Tiešā lejupielāde"
     },
     "macos": {
       "name": "macOS",
       "label": "Mac",
-      "desc": "Direct download for macOS. Apple Silicon & Intel supported.",
-      "badge": "Direct Download"
+      "desc": "Tiešā lejupielāde operētājsistēmai macOS. Tiek atbalstīts Apple Silicon un Intel.",
+      "badge": "Tiešā lejupielāde"
     },
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Direct download for Linux. AppImage supported.",
-      "badge": "Direct Download"
+      "desc": "Tiešā lejupielāde operētājsistēmai Linux. Tiek atbalstīts AppImage.",
+      "badge": "Tiešā lejupielāde"
     }
   },
   "changelog": {
-    "title": "Changelog",
-    "subtitle": "What's new in PPPlayer.",
-    "back": "← Back to PPPlayer",
+    "title": "Izmaiņu žurnāls",
+    "subtitle": "Kas jauns PPPlayer.",
+    "back": "← Atpakaļ uz PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "2026. gada 12. septembris",
+      "desc": "Paplašināts lokalizācijas atbalsts ar 10 jaunām valodām.",
+      "added": "Pievienots",
+      "fixed": "Izlabots",
+      "lang10Title": "10 jaunas valodas",
+      "lang10Desc": "Pievienots pilns atbalsts indonēziešu, birmiešu, poļu, dāņu, kazahu, čehu, ungāru, gruzīnu, zviedru un uzbeku valodām."
     },
     "v1_1_2": {
       "version": "v1.1.2",
-      "date": "September 12, 2026",
-      "desc": "Added Arabic and Chinese localizations and fixed macOS resizing bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "localizationTitle": "Localization Expansion",
-      "localizationDesc": "Added Arabic and Chinese (Simplified & Traditional) localizations.",
-      "layoutTitle": "macOS Layout Fix",
-      "layoutDesc": "Fixed an issue on macOS where the YouTube video player would shift off-center when resizing the application window."
+      "date": "2026. gada 12. septembris",
+      "desc": "Pievienotas arābu un ķīniešu lokalizācijas un izlabotas macOS logu izmēru maiņas kļūdas.",
+      "added": "Pievienots",
+      "fixed": "Izlabots",
+      "localizationTitle": "Lokalizācijas paplašināšana",
+      "localizationDesc": "Pievienotas arābu un ķīniešu (vienkāršotā un tradicionālā) lokalizācijas.",
+      "layoutTitle": "macOS izkārtojuma labojums",
+      "layoutDesc": "Izlabota problēma operētājsistēmā macOS, kurā YouTube video atskaņotājs nobīdījās no centra, mainot lietojumprogrammas loga izmēru."
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "date": "2026. gada 12. septembris",
+      "desc": "Izlabotas atskaņošanas kļūdas un uzlabota meklēšanas josla lietotnes palaišanas laikā.",
+      "fixed": "Izlabots",
+      "snapTitle": "Sāknēšanas meklēšanas joslas kļūda",
+      "snapDesc": "Izlabota problēma, kurā meklēšanas josla acumirklī atgriezās sākuma pozīcijā, to slidinot uzreiz pēc lietotnes palaišanas.",
+      "durationTitle": "Trūkst ilguma",
+      "durationDesc": "Izlabota kļūda, kad lietotni pirmo reizi palaižot, meklēšanas josla rādīja ilgumu 0:00."
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "date": "2026. gada 11. septembris",
+      "desc": "Visaptveroša internacionalizācija un lokalizācija visā lietotnē un vietnē.",
+      "new": "Pievienots",
+      "langTitle": "11 globālās valodas",
+      "langDesc": "Pievienots pilns atbalsts spāņu, franču, vācu, portugāļu, itāļu, japāņu, korejiešu, ķīniešu, hindi, krievu un arābu valodām.",
+      "pickerTitle": "Lietotnē iebūvēts valodas atlasītājs",
+      "pickerDesc": "Iestatījumu izvēlnē pievienots lietotnē iebūvēts valodas atlasītājs, kas uzreiz pielieto tulkojumus, nepārstartējot lietotni.",
+      "osTitle": "OS līmeņa integrācija",
+      "osDesc": "Vietējās OS līmeņa valodu integrācijas operētājsistēmās Android 13+ un iOS, lai automātiski sinhronizētu lietotnes valodu."
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "date": "2026. gada 11. septembris",
+      "desc": "Karstais labojums jaunām instalācijām.",
+      "fixed": "Izlabots",
+      "crashTitle": "Sāknēšanas avārijas labojums",
+      "crashDesc": "Izlabota kritiska kļūda, kuras dēļ lietotne avarēja tukšā ekrānā jaunās instalācijās trūkstoša vides konfigurācijas faila dēļ."
     },
     "v1_0_5": {
       "version": "v1.0.5",
-      "date": "September 11, 2026",
-      "desc": "Seamless background playback on macOS.",
-      "new": "New",
-      "fixed": "Fixed",
-      "appNapTitle": "Gapless Background Playback",
-      "appNapDesc": "Prevented macOS App Nap from aggressively suspending the player when minimized, allowing the queue to continue uninterrupted."
+      "date": "2026. gada 11. septembris",
+      "desc": "Vienmērīga atskaņošana fonā operētājsistēmā macOS.",
+      "new": "Jauns",
+      "fixed": "Izlabots",
+      "appNapTitle": "Fonā atskaņošana bez pārtraukumiem",
+      "appNapDesc": "Novērsta macOS App Nap agresīva atskaņotāja apturēšana, kad tas ir minimizēts, ļaujot rindai turpināt darboties bez pārtraukumiem."
     },
     "v1_0_4": {
       "version": "v1.0.4",
-      "date": "September 11, 2026",
-      "desc": "Automated releases and code signing.",
-      "new": "New",
-      "fixed": "Fixed",
-      "ciTitle": "Automated Release Pipeline",
-      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
-      "signedTitle": "Signed macOS Releases",
-      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
-      "licenseTitle": "Open Source License",
-      "licenseDesc": "Added MIT License to the repository.",
-      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+      "date": "2026. gada 11. septembris",
+      "desc": "Automatizēti laidieni un koda parakstīšana.",
+      "new": "Jauns",
+      "fixed": "Izlabots",
+      "ciTitle": "Automatizēts laidienu konveijers",
+      "ciDesc": "GitHub Actions darbplūsma konsekventiem veidojumiem un macOS koda parakstīšanai.",
+      "signedTitle": "Parakstīti macOS laidieni",
+      "signedDesc": "Oficiālie parakstītie un notariāli apstiprinātie macOS laidieni tagad pieejami tieši vietnē.",
+      "licenseTitle": "Atvērtā koda licence",
+      "licenseDesc": "Repozitorijam pievienota MIT licence.",
+      "submoduleFix": "Izlabota apakšmoduļa izrakstīšanās konfigurācija CI darbplūsmās"
     },
     "v1_0_3": {
       "version": "v1.0.3",
-      "date": "September 10, 2026",
-      "desc": "Background playback and stability.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "hybridEngineTitle": "Hybrid Playback Engine",
-      "hybridEngineDesc": "Robust background processing and lock-screen playback capabilities.",
-      "dedupTitle": "Command Deduplication",
-      "dedupDesc": "Added generation IDs to prevent overlapping and stale media commands across WebView bridge.",
-      "queueAdvance": "Song queue not automatically advancing to the next track",
-      "resumeBug": "Paused track unexpectedly resuming when handing off from foreground to PiP or background",
-      "precision": "Accurate millisecond precision reporting for current track position and playback duration",
-      "linter": "Eliminated several IDE linter errors and cleaned up redundant files"
+      "date": "2026. gada 10. septembris",
+      "desc": "Atskaņošana fonā un stabilitāte.",
+      "new": "Jauns",
+      "improved": "Uzlabots",
+      "fixed": "Izlabots",
+      "hybridEngineTitle": "Hibrīda atskaņošanas dzinējs",
+      "hybridEngineDesc": "Izturīga fona apstrāde un atskaņošanas iespējas bloķēšanas ekrānā.",
+      "dedupTitle": "Komandu dublēšanās novēršana",
+      "dedupDesc": "Pievienoti paaudžu ID, lai novērstu pārklājošos un novecojušus multivides komandu WebView tiltā.",
+      "queueAdvance": "Dziesmu rinda automātiski nepārvietojās uz nākamo dziesmu",
+      "resumeBug": "Pauzēta dziesma negaidīti atsākas, kad no priekšplāna tiek pāriets uz PiP vai fonu",
+      "precision": "Precīza milisekunžu precizitātes atskaite par pašreizējās dziesmas pozīciju un atskaņošanas ilgumu",
+      "linter": "Novērstas vairākas IDE analizatora kļūdas un iztīrīti liekie faili"
     },
     "v1_0_2": {
       "version": "v1.0.2",
-      "date": "September 9, 2026",
-      "desc": "Smarter, context-based autoplay.",
-      "autoplayContextTitle": "Context-Aware Autoplay",
-      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
-      "tieredRecsTitle": "Tiered Recommendation Engine",
-      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+      "date": "2026. gada 9. septembris",
+      "desc": "Gudrāka, uz kontekstu balstīta automātiskā atskaņošana.",
+      "autoplayContextTitle": "Kontekstuāla automātiskā atskaņošana",
+      "autoplayContextDesc": "Automātiskā atskaņošana tagad piešķir prioritāti dziesmām no pašreizējā izpildītāja pirms saistīto izpildītāju pievienošanas rindai.",
+      "tieredRecsTitle": "Daudzlīmeņu ieteikumu dzinējs",
+      "tieredRecsDesc": "Ieteikumi tagad stingri izmanto mērķa izpildītāja katalogu, nevis izplūdušu meklēšanu pēc nosaukuma."
     },
     "v1_0_1": {
       "version": "v1.0.1",
-      "date": "September 9, 2026",
-      "desc": "A better listening experience.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "autoplayTitle": "Autoplay",
-      "autoplayDesc": "Music keeps going with recommendations based on what you're listening to.",
-      "discoverTitle": "Discover",
-      "discoverDesc": "Find music based on your listening history, favorite artists and playlists.",
-      "tooltipsTitle": "Interactive Seekbar Tooltips",
-      "tooltipsDesc": "Added dynamic tooltips that perfectly follow your mouse cursor when hovering the player progress bar.",
-      "startup": "Faster startup",
-      "recovery": "Better playback recovery",
-      "macosMedia": "Improved macOS media controls",
-      "duplicateMedia": "Duplicate macOS media controls",
-      "stationHighlight": "Station active-track highlighting",
-      "seekbarPause": "Playback pausing/stopping unexpectedly when dragging the seekbar",
-      "bottomBar": "Bottom player bar rendering fully transparent and unreadable on macOS when playing music"
+      "date": "2026. gada 9. septembris",
+      "desc": "Labāka klausīšanās pieredze.",
+      "new": "Jauns",
+      "improved": "Uzlabots",
+      "fixed": "Izlabots",
+      "autoplayTitle": "Automātiskā atskaņošana",
+      "autoplayDesc": "Mūzika turpina skanēt ar ieteikumiem, pamatojoties uz to, ko klausāties.",
+      "discoverTitle": "Atklāt",
+      "discoverDesc": "Atrodi mūziku, pamatojoties uz savu klausīšanās vēsturi, iecienītākajiem izpildītājiem un atskaņošanas sarakstiem.",
+      "tooltipsTitle": "Interaktīvi meklēšanas joslas rīku padomi",
+      "tooltipsDesc": "Pievienoti dinamiski rīku padomi, kas lieliski seko jūsu peles kursoram, novietojot kursoru virs atskaņotāja progresa joslas.",
+      "startup": "Ātrāka palaišana",
+      "recovery": "Labāka atskaņošanas atkopšana",
+      "macosMedia": "Uzlabotas macOS multivides vadīklas",
+      "duplicateMedia": "Dublētas macOS multivides vadīklas",
+      "stationHighlight": "Stacijas aktīvās dziesmas izcelšana",
+      "seekbarPause": "Atskaņošana pēkšņi tiek pauzēta/apturēta, velkot meklēšanas joslu",
+      "bottomBar": "Apakšējā atskaņotāja josla kļūst pilnīgi caurspīdīga un nelasāma operētājsistēmā macOS, kad tiek atskaņota mūzika"
     },
     "v1_0_0": {
       "version": "v1.0.0",
-      "date": "September 2026",
-      "desc": "The first release of PPPlayer.",
-      "spotify": "Spotify-powered music metadata",
-      "youtube": "YouTube-powered audio playback",
-      "playlists": "Playlists, favorites and listening history",
-      "platforms": "macOS, Windows and Linux support"
+      "date": "2026. gada septembris",
+      "desc": "Pirmais PPPlayer laidiens.",
+      "spotify": "Spotify nodrošināti mūzikas metadati",
+      "youtube": "YouTube nodrošināta audio atskaņošana",
+      "playlists": "Atskaņošanas saraksti, izlase un klausīšanās vēsture",
+      "platforms": "macOS, Windows un Linux atbalsts"
     }
   },
   "support": {
-    "title": "Support",
-    "subtitle": "How can we help you?",
-    "contactTitle": "Contact Us",
-    "contactDesc": "For general inquiries, partnerships, or questions not suited for GitHub, feel free to reach out to us at contact@ppplayer.com.",
-    "githubTitle": "Community & GitHub",
-    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us in building the ultimate open-source music player.",
-    "githubBtn": "View on GitHub"
+    "title": "Atbalsts",
+    "subtitle": "Kā mēs varam jums palīdzēt?",
+    "contactTitle": "Sazinies ar mums",
+    "contactDesc": "Vispārīgiem jautājumiem, partnerībām vai jautājumiem, kas nav piemēroti GitHub, droši sazinieties ar mums pa e-pastu contact@ppplayer.com.",
+    "githubTitle": "Kopiena un GitHub",
+    "githubDesc": "Izpēti kodu, ziņo par kļūdu, iesaki funkciju vai piedalies koda un tulkojumu veidošanā. Pievienojies mums, lai izveidotu izcilāko atvērtā koda mūzikas atskaņotāju.",
+    "githubBtn": "Apskatīt GitHub"
   },
   "openSource": {
-    "badge": "Free & open source",
-    "title": "By the community. For the community.",
-    "desc": "PPPlayer is proudly open-source. Explore the codebase, report issues, suggest features, or contribute your own code. Every contribution makes the listening experience better for everyone.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "issues": "Report a bug",
-    "license": "MIT license"
+    "badge": "Bezmaksas un atvērtā koda",
+    "title": "Kopienas radīts. Kopienai.",
+    "desc": "PPPlayer ir lepns būt atvērtā koda. Izpēti kodu bāzi, ziņo par problēmām, iesaki funkcijas vai piedalies ar savu kodu. Katrs ieguldījums padara klausīšanās pieredzi labāku ikvienam.",
+    "source": "Apskatīt pirmkodu GitHub",
+    "contribute": "Piedalīties",
+    "issues": "Ziņot par kļūdu",
+    "license": "MIT licence"
   },
   "blog": {
     "title": "Emuārs",
-    "subtitle": "Ziņas, atjauninājumi un stāsti no PPPlayer komandas.",
+    "subtitle": "Jaunumi, atjauninājumi un stāsti no PPPlayer komandas.",
     "readMore": "Lasīt rakstu",
-    "minRead": "min lasīšanai",
+    "minRead": "minūšu lasījums",
     "publishedOn": "Publicēts",
     "back": "← Atpakaļ uz Emuāru",
-    "noArticles": "Šai valodai raksti nav atrasti.",
+    "noArticles": "Šai valodai nav atrasts neviens raksts.",
     "writtenBy": "Autors",
-    "translationUnavailable": "Šis raksts nav pieejams jūsu valodā."
+    "translationUnavailable": "Šis raksts nav pieejams jūsu valodā.",
+    "advertisements": "Reklāmas"
   }
 }

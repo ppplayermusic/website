@@ -1,446 +1,447 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Free & Open-Source Music Player",
-    "homeDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "downloadTitle": "Download PPPlayer Free",
-    "downloadDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDesc": "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "termsTitle": "Terms of Service",
-    "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "supportTitle": "Support - PPPlayer",
-    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com.",
+    "homeTitle": "PPPlayer | ফ্রি ও ওপেন-সোর্স মিউজিক প্লেয়ার",
+    "homeDesc": "একটি ফ্রি, ওপেন-সোর্স মিউজিক প্লেয়ার। কোনো অ্যাকাউন্ট নেই। কোনো সাবস্ক্রিপশন নেই। শুধু গান শুনুন।",
+    "downloadTitle": "PPPlayer ফ্রি ডাউনলোড করুন",
+    "downloadDesc": "একটি ফ্রি, ওপেন-সোর্স মিউজিক প্লেয়ার। কোনো অ্যাকাউন্ট নেই। কোনো সাবস্ক্রিপশন নেই। শুধু গান শুনুন।",
+    "privacyTitle": "গোপনীয়তা নীতি",
+    "privacyDesc": "PPPlayer এর গোপনীয়তা নীতি: macOS, Linux, Windows, iOS এবং Android এর জন্য ফ্রি মিউজিক অ্যাপ।",
+    "termsTitle": "পরিষেবার শর্তাবলী",
+    "termsDesc": "PPPlayer এর পরিষেবার শর্তাবলী: macOS, Linux, Windows, iOS এবং Android এর জন্য ফ্রি মিউজিক অ্যাপ।",
+    "supportTitle": "সাপোর্ট - PPPlayer",
+    "supportDesc": "PPPlayer একটি স্বাধীন, ওপেন-সোর্স প্রজেক্ট। বাগ এবং নতুন ফিচারের ধারণার জন্য GitHub ব্যবহার করুন। অন্যান্য প্রশ্নের জন্য, contact@ppplayer.com এ ইমেল করুন।",
     "blogTitle": "ব্লগ | PPPlayer",
     "blogDesc": "PPPlayer দলের খবর, আপডেট এবং গল্প।"
   },
   "nav": {
-    "features": "Features",
-    "download": "Download Free",
-    "support": "Support",
-    "contribute": "Contribute",
+    "features": "ফিচারস",
+    "download": "ফ্রি ডাউনলোড",
+    "support": "সাপোর্ট",
+    "contribute": "অবদান রাখুন",
     "blog": "ব্লগ"
   },
   "footer": {
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "product": "Product",
-    "features": "Features",
-    "download": "Download",
-    "platforms": "Platforms",
+    "desc": "একটি ফ্রি, ওপেন-সোর্স মিউজিক প্লেয়ার। কোনো অ্যাকাউন্ট নেই। কোনো সাবস্ক্রিপশন নেই। শুধু গান শুনুন।",
+    "product": "প্রোডাক্ট",
+    "features": "ফিচারস",
+    "download": "ডাউনলোড",
+    "platforms": "প্ল্যাটফর্ম",
     "ios": "iOS",
     "android": "Android",
     "windows": "Windows",
-    "social": "Social",
+    "social": "সোশ্যাল",
     "instagram": "Instagram",
     "linkedin": "LinkedIn",
     "facebook": "Facebook",
     "github": "GitHub",
-    "legal": "Legal",
-    "privacy": "Privacy",
-    "terms": "Terms",
+    "legal": "আইনি তথ্য",
+    "privacy": "গোপনীয়তা",
+    "terms": "শর্তাবলী",
     "copyright": "© {year} PPPlayer Music.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "changelog": "Changelog",
+    "source": "GitHub এ সোর্স দেখুন",
+    "contribute": "অবদান রাখুন",
+    "changelog": "চেঞ্জলগ",
     "linux": "Linux",
     "blog": "ব্লগ"
   },
   "cookie": {
-    "title": "We value your privacy",
-    "desc": "We use cookies to analyze site traffic and enhance your experience. By clicking \"Accept\", you consent to our use of cookies.",
-    "decline": "Decline All",
-    "accept": "Accept All"
+    "title": "আমরা আপনার গোপনীয়তার মূল্যায়ন করি",
+    "desc": "আমরা সাইট ট্রাফিক বিশ্লেষণ এবং আপনার অভিজ্ঞতা উন্নত করতে কুকিজ ব্যবহার করি। \"গ্রহণ করুন\" এ ক্লিক করার মাধ্যমে, আপনি আমাদের কুকিজ ব্যবহারে সম্মতি দিচ্ছেন।",
+    "decline": "সব প্রত্যাখান করুন",
+    "accept": "সব গ্রহণ করুন"
   },
   "hero": {
-    "title1": "Music.",
-    "title2": "Without the friction.",
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "getLinux": "Get for Linux",
-    "badge": "Free & open source",
-    "source": "View source on GitHub"
+    "title1": "মিউজিক।",
+    "title2": "কোনো ঝামেলা ছাড়াই।",
+    "desc": "একটি ফ্রি, ওপেন-সোর্স মিউজিক প্লেয়ার। কোনো অ্যাকাউন্ট নেই। কোনো সাবস্ক্রিপশন নেই। শুধু গান শুনুন।",
+    "getIos": "iOS এর জন্য নিন",
+    "getAndroid": "Android এর জন্য নিন",
+    "getMac": "Mac এর জন্য নিন",
+    "getWindows": "Windows এর জন্য নিন",
+    "getLinux": "Linux এর জন্য নিন",
+    "badge": "ফ্রি এবং ওপেন সোর্স",
+    "source": "GitHub এ সোর্স দেখুন"
   },
   "discover": {
-    "title": "Find<br></br>something<br></br>worth playing."
+    "title": "নতুন কিছু<br></br>খুঁজে<br></br>পান।"
   },
   "artistRadio": {
-    "title": "Endless listening."
+    "title": "অবিরাম গান শোনা।"
   },
   "goDeeper": {
-    "bgText": "FOLLOW",
-    "title": "Follow the music."
+    "bgText": "ফলো করুন",
+    "title": "মিউজিক ফলো করুন।"
   },
   "pressPlay": {
-    "title": "Then, just listen."
+    "title": "তারপর, শুধু শুনুন।"
   },
   "featureGallery": {
-    "title": "Everything you need.",
-    "subtitle": "A beautiful, native experience built for performance.",
-    "searchTitle": "Find exactly what you want.",
-    "searchDesc": "Search globally across tracks, artists, and albums instantly.",
-    "queueTitle": "Perfectly queued.",
-    "queueDesc": "Manage what plays next with a beautiful, reorderable queue.",
-    "favTitle": "Your music, your rules.",
-    "favDesc": "Build your personal library with a single click. Always there.",
-    "contextTitle": "Native by design.",
-    "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus."
+    "title": "আপনার যা কিছু প্রয়োজন।",
+    "subtitle": "পারফরম্যান্সের জন্য তৈরি একটি সুন্দর, নেটিভ অভিজ্ঞতা।",
+    "searchTitle": "আপনি ঠিক যা চান তা খুঁজুন।",
+    "searchDesc": "ট্র্যাক, শিল্পী এবং অ্যালবামে তাৎক্ষণিকভাবে বিশ্বব্যাপী অনুসন্ধান করুন।",
+    "queueTitle": "নিখুঁতভাবে সাজানো।",
+    "queueDesc": "একটি সুন্দর সারির সাথে পরবর্তীতে কী বাজবে তা পরিচালনা করুন।",
+    "favTitle": "আপনার মিউজিক, আপনার নিয়ম।",
+    "favDesc": "এক ক্লিকে আপনার নিজস্ব লাইব্রেরি তৈরি করুন। সর্বদা উপস্থিত।",
+    "contextTitle": "ডিজাইনের দিক থেকে নেটিভ।",
+    "contextDesc": "যেকোন জায়গায় ডান-ক্লিক করুন। সুন্দর, কনটেক্সট-সচেতন নেটিভ মেনু।"
   },
   "noAccount": {
-    "title": "No account.",
-    "subtitle": "Free & open source"
+    "title": "কোনো অ্যাকাউন্ট নেই।",
+    "subtitle": "ফ্রি ও ওপেন সোর্স"
   },
   "platforms": {
-    "title": "Your music. Your devices.",
-    "subtitle": "Beautifully native on macOS, Linux, Windows, Android, and iOS."
+    "title": "আপনার মিউজিক। আপনার ডিভাইস।",
+    "subtitle": "macOS, Linux, Windows, Android, এবং iOS এ সুন্দরভাবে নেটিভ।"
   },
   "downloadCTA": {
-    "title": "Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "notAvailable": "Not available yet. Currently, only the macOS version is available for download.",
-    "notAvailableTitle": "Coming Soon",
-    "okayBtn": "Okay",
-    "getLinux": "Get for Linux",
-    "modalTitle": "{platform} এর জন্য ডাউনলোড করুন",
-    "modalDesc": "আপনি আপনার {platform} ডিভাইসে কিভাবে PPPlayer ইন্সটল করতে চান তা নির্বাচন করুন।",
-    "primaryDownload": "ডাউনলোড করুন",
+    "title": "শুধু প্লে করুন।",
+    "getIos": "iOS এর জন্য নিন",
+    "getAndroid": "Android এর জন্য নিন",
+    "getMac": "Mac এর জন্য নিন",
+    "getWindows": "Windows এর জন্য নিন",
+    "notAvailable": "এখনও উপলব্ধ নয়। বর্তমানে, শুধুমাত্র macOS সংস্করণ ডাউনলোডের জন্য উপলব্ধ।",
+    "notAvailableTitle": "শীঘ্রই আসছে",
+    "okayBtn": "ঠিক আছে",
+    "getLinux": "Linux এর জন্য নিন",
+    "modalTitle": "{platform} এর জন্য ডাউনলোড",
+    "modalDesc": "আপনার {platform} ডিভাইসে PPPlayer কীভাবে ইনস্টল করতে চান তা বেছে নিন।",
+    "primaryDownload": "ডাউনলোড",
     "directDownload": "সরাসরি ডাউনলোড",
     "comingSoon": "শীঘ্রই আসছে"
   },
   "downloadPage": {
-    "badge": "PPPlayer 1.0 is now available",
-    "title": "Download <gradient>PPPlayer</gradient>",
-    "subtitle": "Pick your platform. Start listening in seconds.",
-    "desc": "No account required. No email. No signup. Just music.",
-    "windowsReqLabel": "Windows system requirements:",
-    "windowsReqDesc": "Windows 10 or later (64-bit). ~50 MB download. No Microsoft Store required."
+    "badge": "PPPlayer 1.0 এখন উপলব্ধ",
+    "title": "ডাউনলোড করুন <gradient>PPPlayer</gradient>",
+    "subtitle": "আপনার প্ল্যাটফর্ম বেছে নিন। কয়েক সেকেন্ডের মধ্যে শোনা শুরু করুন।",
+    "desc": "কোনো অ্যাকাউন্টের প্রয়োজন নেই। কোনো ইমেল নেই। কোনো সাইনআপ নেই। শুধু মিউজিক।",
+    "windowsReqLabel": "উইন্ডোজ সিস্টেমের প্রয়োজনীয়তা:",
+    "windowsReqDesc": "উইন্ডোজ 10 বা পরবর্তী (64-বিট)। ~50 MB ডাউনলোড। কোনো মাইক্রোসফ্ট স্টোরের প্রয়োজন নেই।"
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Common <gradient>questions</gradient>",
-    "subtitle": "Everything you need to know about PPPlayer.",
+    "badge": "সাধারণ জিজ্ঞাসা",
+    "title": "সাধারণ <gradient>প্রশ্নসমূহ</gradient>",
+    "subtitle": "PPPlayer সম্পর্কে আপনার যা জানা দরকার।",
     "items": [
       {
-        "q": "Is PPPlayer free?",
-        "a": "Yes. PPPlayer is 100% free. No subscriptions, no in-app purchases, and no hidden costs."
+        "q": "PPPlayer কি ফ্রি?",
+        "a": "হ্যাঁ। PPPlayer 100% ফ্রি। কোনো সাবস্ক্রিপশন, ইন-অ্যাপ কেনাকাটা বা লুকানো খরচ নেই।"
       },
       {
-        "q": "Do I need to create an account?",
-        "a": "No. You do not need an email address, account, or login of any kind. Just download, open, and start listening."
+        "q": "আমার কি একটি অ্যাকাউন্ট তৈরি করতে হবে?",
+        "a": "না। আপনার কোনো ইমেল ঠিকানা, অ্যাকাউন্ট বা লগইন এর প্রয়োজন নেই। শুধু ডাউনলোড করুন, খুলুন এবং শোনা শুরু করুন।"
       },
       {
-        "q": "Is PPPlayer available for iPhone?",
-        "a": "Yes. PPPlayer is available on the App Store for iPhone and iPad."
+        "q": "PPPlayer কি iPhone এর জন্য উপলব্ধ?",
+        "a": "হ্যাঁ। PPPlayer iPhone এবং iPad এর জন্য অ্যাপ স্টোরে উপলব্ধ।"
       },
       {
-        "q": "Is PPPlayer available for Android?",
-        "a": "Yes. You can download PPPlayer on Google Play for Android phones and tablets."
+        "q": "PPPlayer কি Android এর জন্য উপলব্ধ?",
+        "a": "হ্যাঁ। আপনি Android ফোন এবং ট্যাবলেটের জন্য Google Play থেকে PPPlayer ডাউনলোড করতে পারেন।"
       },
       {
-        "q": "Can I use PPPlayer on Windows?",
-        "a": "Yes. PPPlayer is available for Windows 10 and later as a direct download. No store required."
+        "q": "আমি কি উইন্ডোজে PPPlayer ব্যবহার করতে পারি?",
+        "a": "হ্যাঁ। PPPlayer উইন্ডোজ 10 এবং পরবর্তী সংস্করণের জন্য সরাসরি ডাউনলোড হিসেবে উপলব্ধ। কোনো স্টোরের প্রয়োজন নেই।"
       },
       {
-        "q": "What music features does PPPlayer offer?",
-        "a": "PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required."
+        "q": "PPPlayer কী কী মিউজিক ফিচার অফার করে?",
+        "a": "PPPlayer এ রয়েছে আর্টিস্ট ডিসকভারি, রিলেটেড আর্টিস্ট, আর্টিস্ট রেডিও, আর্টিস্ট প্লেলিস্ট, জেনার এক্সপ্লোরেশন এবং একটি সুন্দর ফুল-স্ক্রিন প্লেয়ার। এটি সম্পূর্ণ ফ্রি, এবং কোনো অ্যাকাউন্টের প্রয়োজন নেই।"
       },
       {
-        "q": "How do I download PPPlayer?",
-        "a": "Tap the download button for your platform on this page. The download takes less than a minute."
+        "q": "আমি কীভাবে PPPlayer ডাউনলোড করব?",
+        "a": "এই পৃষ্ঠায় আপনার প্ল্যাটফর্মের জন্য ডাউনলোড বোতামে ট্যাপ করুন। ডাউনলোড করতে এক মিনিটেরও কম সময় লাগে।"
       },
       {
-        "q": "Is there a premium version?",
-        "a": "No. PPPlayer is fully free. Everything you see is available at no cost, with no account needed."
+        "q": "এর কি কোনো প্রিমিয়াম সংস্করণ আছে?",
+        "a": "না। PPPlayer সম্পূর্ণ ফ্রি। আপনি যা দেখছেন সবই বিনামূল্যে পাওয়া যায়, কোনো অ্যাকাউন্টের প্রয়োজন নেই।"
       }
     ],
-    "openSourceQuestion": "Is PPPlayer open source?",
-    "openSourceAnswer": "Yes. PPPlayer is 100% open-source under the MIT license. You can use, study, modify, and share the software freely. Check out our GitHub repository to view the source code or get involved."
+    "openSourceQuestion": "PPPlayer কি ওপেন সোর্স?",
+    "openSourceAnswer": "হ্যাঁ। PPPlayer MIT লাইসেন্সের অধীনে 100% ওপেন-সোর্স। আপনি স্বাধীনভাবে সফ্টওয়্যারটি ব্যবহার, অধ্যয়ন, পরিবর্তন এবং শেয়ার করতে পারেন। সোর্স কোড দেখতে বা যুক্ত হতে আমাদের GitHub রিপোজিটরি দেখুন।"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: April 2025",
+    "title": "গোপনীয়তা নীতি",
+    "lastUpdated": "সর্বশেষ আপডেট: এপ্রিল 2025",
     "sections": {
       "s1": {
-        "title": "1. Overview",
-        "p": "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explains what data we collect, why, and how it is used when you use PPPlayer on macOS, Linux, Windows, iOS, or Android."
+        "title": "1. ওভারভিউ",
+        "p": "PPPlayer (\"আমরা\", \"আমাদের\", \"অ্যাপটি\") আপনার গোপনীয়তা রক্ষা করতে প্রতিশ্রুতিবদ্ধ। এই নীতি ব্যাখ্যা করে আমরা কী ডেটা সংগ্রহ করি, কেন করি এবং আপনি যখন macOS, Linux, Windows, iOS বা Android এ PPPlayer ব্যবহার করেন তখন এটি কীভাবে ব্যবহার করা হয়।"
       },
       "s2": {
-        "title": "2. No Account Required",
-        "p": "PPPlayer does not require you to create an account. We do not collect your name, email address, or any personally identifiable information to use the app."
+        "title": "2. কোনো অ্যাকাউন্টের প্রয়োজন নেই",
+        "p": "PPPlayer এ আপনার কোনো অ্যাকাউন্ট তৈরি করার প্রয়োজন নেই। অ্যাপটি ব্যবহার করার জন্য আমরা আপনার নাম, ইমেল ঠিকানা বা ব্যক্তিগতভাবে সনাক্তযোগ্য কোনো তথ্য সংগ্রহ করি না।"
       },
       "s3": {
-        "title": "3. Data We Collect",
-        "p1": "We may collect the following anonymous, non-identifiable data:",
-        "li1": "Crash reports and error logs (to improve app stability)",
-        "li2": "Anonymous usage analytics (feature usage, session duration)",
-        "li3": "Device type and operating system version",
-        "p2": "We do not collect: names, emails, payment info, or precise location data."
+        "title": "3. আমরা যে ডেটা সংগ্রহ করি",
+        "p1": "আমরা নিম্নলিখিত বেনামী, অ-সনাক্তযোগ্য ডেটা সংগ্রহ করতে পারি:",
+        "li1": "ক্র্যাশ রিপোর্ট এবং এরর লগ (অ্যাপের স্থায়িত্ব উন্নত করতে)",
+        "li2": "বেনামী ব্যবহারের ডেটা (ফিচার ব্যবহার, সেশনের সময়কাল)",
+        "li3": "ডিভাইসের ধরন এবং অপারেটিং সিস্টেম সংস্করণ",
+        "p2": "আমরা সংগ্রহ করি না: নাম, ইমেল, অর্থপ্রদানের তথ্য বা সুনির্দিষ্ট অবস্থানের ডেটা।"
       },
       "s4": {
-        "title": "4. Third-Party Services",
-        "p": "PPPlayer may use third-party services for music metadata and analytics. These services have their own privacy policies. We encourage you to review them."
+        "title": "4. তৃতীয় পক্ষের পরিষেবা",
+        "p": "PPPlayer মিউজিক মেটাডেটা এবং বিশ্লেষণের জন্য তৃতীয় পক্ষের পরিষেবা ব্যবহার করতে পারে। এই পরিষেবাগুলোর নিজস্ব গোপনীয়তা নীতি রয়েছে। আমরা আপনাকে সেগুলো পর্যালোচনা করার জন্য উৎসাহিত করি।"
       },
       "s5": {
-        "title": "5. Data Retention",
-        "p": "Anonymous analytics data is retained for a maximum of 12 months. Crash logs are deleted after 90 days."
+        "title": "5. ডেটা সংরক্ষণ",
+        "p": "বেনামী বিশ্লেষণ ডেটা সর্বোচ্চ 12 মাস ধরে রাখা হয়। ক্র্যাশ লগ 90 দিন পরে মুছে ফেলা হয়।"
       },
       "s6": {
-        "title": "6. Your Rights",
-        "p": "Since we do not collect personal data, there is no personal information to access, export, or delete. If you have questions, contact us at the address below."
+        "title": "6. আপনার অধিকার",
+        "p": "যেহেতু আমরা ব্যক্তিগত ডেটা সংগ্রহ করি মোহ, তাই অ্যাক্সেস, এক্সপোর্ট বা মুছে ফেলার জন্য কোনো ব্যক্তিগত তথ্য নেই। আপনার যদি প্রশ্ন থাকে, নিচের ঠিকানায় আমাদের সাথে যোগাযোগ করুন।"
       },
       "s7": {
-        "title": "7. Children",
-        "p": "PPPlayer is not directed at children under 13. We do not knowingly collect data from children."
+        "title": "7. শিশু",
+        "p": "PPPlayer 13 বছরের কম বয়সী শিশুদের জন্য নির্দেশিত নয়। আমরা জেনেশুনে শিশুদের থেকে ডেটা সংগ্রহ করি না।"
       },
       "s8": {
-        "title": "8. Changes",
-        "p": "We may update this policy from time to time. We will note the date of the last update at the top of this page."
+        "title": "8. পরিবর্তন",
+        "p": "আমরা সময়ে সময়ে এই নীতি আপডেট করতে পারি। আমরা এই পৃষ্ঠার শীর্ষে সর্বশেষ আপডেটের তারিখ নোট করব।"
       },
       "s9": {
-        "title": "9. Contact",
-        "p": "Questions about this policy? Contact us at "
+        "title": "9. যোগাযোগ",
+        "p": "এই নীতি সম্পর্কে প্রশ্ন আছে? আমাদের সাথে যোগাযোগ করুন "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← PPPlayer এ ফিরে যান"
   },
   "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated: September 11, 2026",
+    "title": "পরিষেবার শর্তাবলী",
+    "lastUpdated": "সর্বশেষ আপডেট: সেপ্টেম্বর 11, 2026",
     "sections": {
       "s1": {
-        "title": "1. Acceptance of Terms",
-        "p": "By downloading or using PPPlayer, you agree to these Terms of Service. If you do not agree, please do not use the app."
+        "title": "1. শর্তাবলীর স্বীকৃতি",
+        "p": "PPPlayer ডাউনলোড বা ব্যবহার করার মাধ্যমে, আপনি এই পরিষেবার শর্তাবলীতে সম্মত হচ্ছেন। আপনি যদি একমত না হন, দয়া করে অ্যাপটি ব্যবহার করবেন না।"
       },
       "s2": {
-        "title": "2. Use of the App",
-        "p": "PPPlayer is free, open-source software. Use, copying, modification, and distribution of the software are governed by the MIT license in the project repository. When using the app, you agree not to:",
-        "li1": "Remove copyright or permission notices required by the applicable software licenses",
-        "li2": "Use the app to distribute malware or harmful content",
-        "li3": "Violate any applicable laws or regulations while using the app"
+        "title": "2. অ্যাপের ব্যবহার",
+        "p": "PPPlayer ফ্রি, ওপেন-সোর্স সফ্টওয়্যার। সফ্টওয়্যারের ব্যবহার, অনুলিপি, পরিবর্তন এবং বিতরণ প্রজেক্ট রিপোজিটরিতে MIT লাইসেন্স দ্বারা পরিচালিত হয়। অ্যাপটি ব্যবহার করার সময়, আপনি নিম্নলিখিত কাজগুলো না করতে সম্মত হচ্ছেন:",
+        "li1": "প্রযোজ্য সফ্টওয়্যার লাইসেন্স দ্বারা প্রয়োজনীয় কপিরাইট বা অনুমতির নোটিশ মুছে ফেলা",
+        "li2": "ম্যালওয়্যার বা ক্ষতিকারক সামগ্রী বিতরণ করতে অ্যাপটি ব্যবহার করা",
+        "li3": "অ্যাপটি ব্যবহার করার সময় প্রযোজ্য কোনো আইন বা প্রবিধান লঙ্ঘন করা"
       },
       "s3": {
-        "title": "3. No Account Required",
-        "p": "PPPlayer does not require account creation. You can use all features immediately after download."
+        "title": "3. কোনো অ্যাকাউন্টের প্রয়োজন নেই",
+        "p": "PPPlayer এ অ্যাকাউন্ট তৈরির প্রয়োজন নেই। ডাউনলোডের পরপরই আপনি সমস্ত ফিচার ব্যবহার করতে পারেন।"
       },
       "s4": {
-        "title": "4. Intellectual Property",
-        "p": "PPPlayer source code is available under the MIT license. Third-party dependencies retain their own licenses. Music, artwork, and metadata remain subject to their respective rights and licenses; the software license does not grant rights to that content."
+        "title": "4. মেধা সম্পদ",
+        "p": "PPPlayer সোর্স কোড MIT লাইসেন্সের অধীনে উপলব্ধ। তৃতীয় পক্ষের নির্ভরতা তাদের নিজস্ব লাইসেন্স বজায় রাখে। মিউজিক, আর্টওয়ার্ক এবং মেটাডেটা তাদের নিজ নিজ অধিকার এবং লাইসেন্সের অধীন থাকে; সফ্টওয়্যার লাইসেন্স সেই বিষয়বস্তুর অধিকার প্রদান করে না।"
       },
       "s5": {
-        "title": "5. Disclaimer of Warranties",
-        "p": "PPPlayer is provided \"as is\" without warranty of any kind, express or implied. We do not guarantee uninterrupted service or that the app will be error-free."
+        "title": "5. ওয়ারেন্টির দাবিত্যাগ",
+        "p": "PPPlayer কোনো ধরনের ওয়ারেন্টি ছাড়াই \"যেমন আছে\" সেভাবে প্রদান করা হয়। আমরা নিরবচ্ছিন্ন পরিষেবার গ্যারান্টি দিই না বা অ্যাপটি ত্রুটিমুক্ত হবে এমন কোনো নিশ্চয়তা দিই না।"
       },
       "s6": {
-        "title": "6. Limitation of Liability",
-        "p": "To the maximum extent permitted by law, PPPlayer shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use or inability to use the app."
+        "title": "6. দায়বদ্ধতার সীমাবদ্ধতা",
+        "p": "আইন দ্বারা অনুমোদিত সর্বাধিক সীমা পর্যন্ত, PPPlayer আপনার অ্যাপটি ব্যবহার বা ব্যবহারে অক্ষমতার ফলে পরোক্ষ, আনুষঙ্গিক, বিশেষ বা ফলস্বরূপ ক্ষতির জন্য দায়ী থাকবে না।"
       },
       "s7": {
-        "title": "7. Changes to Terms",
-        "p": "We reserve the right to update these terms at any time. Continued use of the app after changes constitutes acceptance of the new terms."
+        "title": "7. শর্তাবলীতে পরিবর্তন",
+        "p": "যেকোনো সময় এই শর্তাবলী আপডেট করার অধিকার আমরা সংরক্ষণ করি। পরিবর্তনের পর অ্যাপের অব্যাহত ব্যবহার নতুন শর্তাবলীর স্বীকৃতি নির্দেশ করে।"
       },
       "s8": {
-        "title": "8. Contact",
-        "p": "Questions about these terms? Reach us at "
+        "title": "8. যোগাযোগ",
+        "p": "এই শর্তাবলী সম্পর্কে প্রশ্ন আছে? আমাদের সাথে যোগাযোগ করুন "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← PPPlayer এ ফিরে যান"
   },
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
-      "desc": "Available on the App Store for iPhone and iPad.",
-      "badge": "App Store"
+      "label": "iPhone এবং iPad",
+      "desc": "iPhone এবং iPad এর জন্য অ্যাপ স্টোরে উপলব্ধ।",
+      "badge": "অ্যাপ স্টোর"
     },
     "android": {
       "name": "Android",
       "label": "Android",
-      "desc": "Available on Google Play for Android phones and tablets.",
-      "badge": "Google Play"
+      "desc": "অ্যান্ড্রয়েড ফোন এবং ট্যাবলেটের জন্য Google Play তে উপলব্ধ।",
+      "badge": "গুগল প্লে"
     },
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Direct download for Windows 10 and later. No store needed.",
-      "badge": "Direct Download"
+      "desc": "উইন্ডোজ 10 এবং পরবর্তী সংস্করণের জন্য সরাসরি ডাউনলোড। কোনো স্টোরের প্রয়োজন নেই।",
+      "badge": "সরাসরি ডাউনলোড"
     },
     "macos": {
       "name": "macOS",
       "label": "Mac",
-      "desc": "Direct download for macOS. Apple Silicon & Intel supported.",
-      "badge": "Direct Download"
+      "desc": "macOS এর জন্য সরাসরি ডাউনলোড। Apple Silicon এবং Intel সমর্থিত।",
+      "badge": "সরাসরি ডাউনলোড"
     },
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Direct download for Linux. AppImage supported.",
-      "badge": "Direct Download"
+      "desc": "Linux এর জন্য সরাসরি ডাউনলোড। AppImage সমর্থিত।",
+      "badge": "সরাসরি ডাউনলোড"
     }
   },
   "changelog": {
-    "title": "Changelog",
-    "subtitle": "What's new in PPPlayer.",
-    "back": "← Back to PPPlayer",
+    "title": "চেঞ্জলগ",
+    "subtitle": "PPPlayer এ নতুন কী আছে।",
+    "back": "← PPPlayer এ ফিরে যান",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "সেপ্টেম্বর 12, 2026",
+      "desc": "10টি নতুন ভাষা সহ স্থানীয়করণ সমর্থন সম্প্রসারিত করা হয়েছে।",
+      "added": "যোগ করা হয়েছে",
+      "fixed": "সংশোধিত",
+      "lang10Title": "10টি নতুন ভাষা",
+      "lang10Desc": "ইন্দোনেশিয়ান, বর্মি, পোলিশ, ড্যানিশ, কাজাখ, চেক, হাঙ্গেরিয়ান, জর্জিয়ান, সুইডিশ এবং উজবেক ভাষার জন্য সম্পূর্ণ সমর্থন যোগ করা হয়েছে।"
     },
     "v1_1_2": {
       "version": "v1.1.2",
-      "date": "September 12, 2026",
-      "desc": "Added Arabic and Chinese localizations and fixed macOS resizing bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "localizationTitle": "Localization Expansion",
-      "localizationDesc": "Added Arabic and Chinese (Simplified & Traditional) localizations.",
-      "layoutTitle": "macOS Layout Fix",
-      "layoutDesc": "Fixed an issue on macOS where the YouTube video player would shift off-center when resizing the application window."
+      "date": "সেপ্টেম্বর 12, 2026",
+      "desc": "আরবি এবং চীনা স্থানীয়করণ যোগ করা হয়েছে এবং macOS এর রিসাইজিং বাগ ঠিক করা হয়েছে।",
+      "added": "যোগ করা হয়েছে",
+      "fixed": "সংশোধিত",
+      "localizationTitle": "স্থানীয়করণ সম্প্রসারণ",
+      "localizationDesc": "আরবি এবং চীনা (সরলীকৃত এবং ঐতিহ্যবাহী) স্থানীয়করণ যোগ করা হয়েছে।",
+      "layoutTitle": "macOS লেআউট ফিক্স",
+      "layoutDesc": "অ্যাপ্লিকেশন উইন্ডোর আকার পরিবর্তন করার সময় ইউটিউব ভিডিও প্লেয়ারটি কেন্দ্র থেকে সরে যাওয়ার একটি সমস্যা macOS এ সমাধান করা হয়েছে।"
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "date": "সেপ্টেম্বর 12, 2026",
+      "desc": "প্লেব্যাক বাগ ঠিক করা হয়েছে এবং অ্যাপ চালু হওয়ার সময় সিকবারটি উন্নত করা হয়েছে।",
+      "fixed": "সংশোধিত",
+      "snapTitle": "স্টার্টআপ সিকবার বাগ",
+      "snapDesc": "অ্যাপটি লঞ্চ করার সাথে সাথেই স্লাইড করার সময় সিকবারটি অবিলম্বে প্রারম্ভিক অবস্থানে ফিরে যাওয়ার একটি সমস্যা সমাধান করা হয়েছে।",
+      "durationTitle": "অনুপস্থিত সময়কাল",
+      "durationDesc": "অ্যাপটি প্রথম চালু হওয়ার সময় সিকবারটিতে 0:00 সময়কাল দেখানোর সমস্যাটি সমাধান করা হয়েছে।"
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "date": "সেপ্টেম্বর 11, 2026",
+      "desc": "সমগ্র অ্যাপ এবং ওয়েবসাইট জুড়ে ব্যাপক আন্তর্জাতিকীকরণ এবং স্থানীয়করণ।",
+      "new": "নতুন",
+      "langTitle": "11টি বিশ্বব্যাপী ভাষা",
+      "langDesc": "স্প্যানিশ, ফরাসি, জার্মান, পর্তুগিজ, ইতালিয়ান, জাপানি, কোরিয়ান, চীনা, হিন্দি, রাশিয়ান এবং আরবি ভাষার জন্য সম্পূর্ণ সমর্থন যোগ করা হয়েছে।",
+      "pickerTitle": "ইন-অ্যাপ ভাষা পিকার",
+      "pickerDesc": "প্রিফারেন্সেস মেনুতে একটি ইন-অ্যাপ ভাষা পিকার যোগ করা হয়েছে যা অ্যাপটি পুনরায় চালু না করেই তাৎক্ষণিকভাবে অনুবাদ প্রয়োগ করে।",
+      "osTitle": "OS-স্তরের ইন্টিগ্রেশন",
+      "osDesc": "অ্যাপের ভাষা স্বয়ংক্রিয়ভাবে সিঙ্ক করতে Android 13+ এবং iOS এ নেটিভ OS-স্তরের ভাষা সংহতকরণ।"
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "date": "সেপ্টেম্বর 11, 2026",
+      "desc": "নতুন ইনস্টলেশনের জন্য হটফিক্স।",
+      "fixed": "সংশোধিত",
+      "crashTitle": "স্টার্টআপ ক্র্যাশ ফিক্স",
+      "crashDesc": "একটি অনুপস্থিত এনভায়রনমেন্ট কনফিগারেশন ফাইলের কারণে নতুন ইনস্টলেশনে অ্যাপটি একটি ফাঁকা স্ক্রিনে ক্র্যাশ করার একটি গুরুতর বাগ সংশোধন করা হয়েছে।"
     },
     "v1_0_5": {
       "version": "v1.0.5",
-      "date": "September 11, 2026",
-      "desc": "Seamless background playback on macOS.",
-      "new": "New",
-      "fixed": "Fixed",
-      "appNapTitle": "Gapless Background Playback",
-      "appNapDesc": "Prevented macOS App Nap from aggressively suspending the player when minimized, allowing the queue to continue uninterrupted."
+      "date": "সেপ্টেম্বর 11, 2026",
+      "desc": "macOS এ মসৃণ ব্যাকগ্রাউন্ড প্লেব্যাক।",
+      "new": "নতুন",
+      "fixed": "সংশোধিত",
+      "appNapTitle": "গ্যাপলেস ব্যাকগ্রাউন্ড প্লেব্যাক",
+      "appNapDesc": "macOS অ্যাপ ন্যাপ (App Nap) কে মিনিমাইজ করার সময় প্লেয়ারকে আক্রমণাত্মকভাবে স্থগিত করা থেকে প্রতিরোধ করা হয়েছে, সারিটি নিরবচ্ছিন্নভাবে চলতে দেয়।"
     },
     "v1_0_4": {
       "version": "v1.0.4",
-      "date": "September 11, 2026",
-      "desc": "Automated releases and code signing.",
-      "new": "New",
-      "fixed": "Fixed",
-      "ciTitle": "Automated Release Pipeline",
-      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
-      "signedTitle": "Signed macOS Releases",
-      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
-      "licenseTitle": "Open Source License",
-      "licenseDesc": "Added MIT License to the repository.",
-      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+      "date": "সেপ্টেম্বর 11, 2026",
+      "desc": "স্বয়ংক্রিয় রিলিজ এবং কোড সাইনিং।",
+      "new": "নতুন",
+      "fixed": "সংশোধিত",
+      "ciTitle": "স্বয়ংক্রিয় রিলিজ পাইপলাইন",
+      "ciDesc": "সামঞ্জস্যপূর্ণ বিল্ড এবং macOS কোড সাইনিং এর জন্য GitHub অ্যাকশন ওয়ার্কফ্লো।",
+      "signedTitle": "স্বাক্ষরিত macOS রিলিজ",
+      "signedDesc": "অফিসিয়াল স্বাক্ষরিত এবং নোটারাইজড macOS রিলিজগুলি এখন সরাসরি ওয়েবসাইটে উপলব্ধ।",
+      "licenseTitle": "ওপেন সোর্স লাইসেন্স",
+      "licenseDesc": "রিপোজিটরিতে MIT লাইসেন্স যোগ করা হয়েছে।",
+      "submoduleFix": "সিআই ওয়ার্কফ্লোতে সাবমডিউল চেকআউট কনফিগারেশন সংশোধন করা হয়েছে"
     },
     "v1_0_3": {
       "version": "v1.0.3",
-      "date": "September 10, 2026",
-      "desc": "Background playback and stability.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "hybridEngineTitle": "Hybrid Playback Engine",
-      "hybridEngineDesc": "Robust background processing and lock-screen playback capabilities.",
-      "dedupTitle": "Command Deduplication",
-      "dedupDesc": "Added generation IDs to prevent overlapping and stale media commands across WebView bridge.",
-      "queueAdvance": "Song queue not automatically advancing to the next track",
-      "resumeBug": "Paused track unexpectedly resuming when handing off from foreground to PiP or background",
-      "precision": "Accurate millisecond precision reporting for current track position and playback duration",
-      "linter": "Eliminated several IDE linter errors and cleaned up redundant files"
+      "date": "সেপ্টেম্বর 10, 2026",
+      "desc": "ব্যাকগ্রাউন্ড প্লেব্যাক এবং স্থিতিশীলতা।",
+      "new": "নতুন",
+      "improved": "উন্নত",
+      "fixed": "সংশোধিত",
+      "hybridEngineTitle": "হাইব্রিড প্লেব্যাক ইঞ্জিন",
+      "hybridEngineDesc": "শক্তিশালী ব্যাকগ্রাউন্ড প্রসেসিং এবং লক-স্ক্রিন প্লেব্যাক ক্ষমতা।",
+      "dedupTitle": "কমান্ড ডিডপ্লিকেশন",
+      "dedupDesc": "ওয়েবভিউ ব্রিজে ওভারল্যাপিং এবং পুরানো মিডিয়া কমান্ডগুলি প্রতিরোধ করতে জেনারেশন আইডি যুক্ত করা হয়েছে।",
+      "queueAdvance": "গানের সারি স্বয়ংক্রিয়ভাবে পরবর্তী ট্র্যাকে অগ্রসর হচ্ছিল না",
+      "resumeBug": "ফোরগ্রাউন্ড থেকে PiP বা ব্যাকগ্রাউন্ডে হস্তান্তর করার সময় অপ্রত্যাশিতভাবে ট্র্যাক আবার শুরু হওয়া",
+      "precision": "বর্তমান ট্র্যাকের অবস্থান এবং প্লেব্যাকের সময়কালের জন্য সঠিক মিলিসেকেন্ড নির্ভুলতা রিপোর্টিং",
+      "linter": "বেশ কয়েকটি আইডিই লিন্টার ত্রুটি দূর করা হয়েছে এবং অপ্রয়োজনীয় ফাইলগুলো পরিষ্কার করা হয়েছে"
     },
     "v1_0_2": {
       "version": "v1.0.2",
-      "date": "September 9, 2026",
-      "desc": "Smarter, context-based autoplay.",
-      "autoplayContextTitle": "Context-Aware Autoplay",
-      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
-      "tieredRecsTitle": "Tiered Recommendation Engine",
-      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+      "date": "সেপ্টেম্বর 9, 2026",
+      "desc": "আরও বুদ্ধিমান, কনটেক্সট-ভিত্তিক অটোপ্লে।",
+      "autoplayContextTitle": "কনটেক্সট-সচেতন অটোপ্লে",
+      "autoplayContextDesc": "অটোপ্লে এখন সারিতে সম্পর্কিত শিল্পীদের যোগ করার আগে বর্তমান শিল্পীর ট্র্যাকগুলিকে অগ্রাধিকার দেয়।",
+      "tieredRecsTitle": "স্তরযুক্ত সুপারিশ ইঞ্জিন",
+      "tieredRecsDesc": "সুপারিশগুলো এখন নাম দ্বারা অস্পষ্ট অনুসন্ধানের পরিবর্তে কঠোরভাবে লক্ষ্য শিল্পীর ক্যাটালগ ব্যবহার করে।"
     },
     "v1_0_1": {
       "version": "v1.0.1",
-      "date": "September 9, 2026",
-      "desc": "A better listening experience.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "autoplayTitle": "Autoplay",
-      "autoplayDesc": "Music keeps going with recommendations based on what you're listening to.",
-      "discoverTitle": "Discover",
-      "discoverDesc": "Find music based on your listening history, favorite artists and playlists.",
-      "tooltipsTitle": "Interactive Seekbar Tooltips",
-      "tooltipsDesc": "Added dynamic tooltips that perfectly follow your mouse cursor when hovering the player progress bar.",
-      "startup": "Faster startup",
-      "recovery": "Better playback recovery",
-      "macosMedia": "Improved macOS media controls",
-      "duplicateMedia": "Duplicate macOS media controls",
-      "stationHighlight": "Station active-track highlighting",
-      "seekbarPause": "Playback pausing/stopping unexpectedly when dragging the seekbar",
-      "bottomBar": "Bottom player bar rendering fully transparent and unreadable on macOS when playing music"
+      "date": "সেপ্টেম্বর 9, 2026",
+      "desc": "একটি ভালো শোনার অভিজ্ঞতা।",
+      "new": "নতুন",
+      "improved": "উন্নত",
+      "fixed": "সংশোধিত",
+      "autoplayTitle": "অটোপ্লে",
+      "autoplayDesc": "আপনি যা শুনছেন তার ওপর ভিত্তি করে সুপারিশগুলির সাথে মিউজিক চলতে থাকে।",
+      "discoverTitle": "আবিষ্কার করুন",
+      "discoverDesc": "আপনার শোনার ইতিহাস, প্রিয় শিল্পী এবং প্লেলিস্টগুলির উপর ভিত্তি করে মিউজিক খুঁজুন।",
+      "tooltipsTitle": "ইন্টারেক্টিভ সিকবার টুলটিপস",
+      "tooltipsDesc": "ডাইনামিক টুলটিপ যুক্ত করা হয়েছে যা প্লেয়ার প্রগ্রেস বার হোভার করার সময় নিখুঁতভাবে আপনার মাউস কার্সার অনুসরণ করে।",
+      "startup": "দ্রুত স্টার্টআপ",
+      "recovery": "উন্নত প্লেব্যাক রিকভারি",
+      "macosMedia": "উন্নত macOS মিডিয়া কন্ট্রোল",
+      "duplicateMedia": "ডুপ্লিকেট macOS মিডিয়া কন্ট্রোল",
+      "stationHighlight": "স্টেশন অ্যাক্টিভ-ট্র্যাক হাইলাইটিং",
+      "seekbarPause": "সিকবার টেনে আনার সময় প্লেব্যাক অপ্রত্যাশিতভাবে পজ হওয়া/থেমে যাওয়া",
+      "bottomBar": "গান চালানোর সময় macOS এ নিচের প্লেয়ার বারটি সম্পূর্ণ স্বচ্ছ এবং অপঠনযোগ্য হয়ে ওঠা"
     },
     "v1_0_0": {
       "version": "v1.0.0",
-      "date": "September 2026",
-      "desc": "The first release of PPPlayer.",
-      "spotify": "Spotify-powered music metadata",
-      "youtube": "YouTube-powered audio playback",
-      "playlists": "Playlists, favorites and listening history",
-      "platforms": "macOS, Windows and Linux support"
+      "date": "সেপ্টেম্বর 2026",
+      "desc": "PPPlayer এর প্রথম প্রকাশ।",
+      "spotify": "Spotify-চালিত মিউজিক মেটাডেটা",
+      "youtube": "ইউটিউব-চালিত অডিও প্লেব্যাক",
+      "playlists": "প্লেলিস্ট, প্রিয় গান এবং শোনার ইতিহাস",
+      "platforms": "macOS, Windows এবং Linux সমর্থন"
     }
   },
   "support": {
-    "title": "Support",
-    "subtitle": "How can we help you?",
-    "contactTitle": "Contact Us",
-    "contactDesc": "For general inquiries, partnerships, or questions not suited for GitHub, feel free to reach out to us at contact@ppplayer.com.",
-    "githubTitle": "Community & GitHub",
-    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us in building the ultimate open-source music player.",
-    "githubBtn": "View on GitHub"
+    "title": "সাপোর্ট",
+    "subtitle": "আমরা কীভাবে আপনাকে সাহায্য করতে পারি?",
+    "contactTitle": "আমাদের সাথে যোগাযোগ করুন",
+    "contactDesc": "সাধারণ জিজ্ঞাসা, অংশীদারিত্ব বা গিটহাবের জন্য উপযুক্ত নয় এমন প্রশ্নের জন্য, নির্দ্বিধায় contact@ppplayer.com এ আমাদের সাথে যোগাযোগ করুন।",
+    "githubTitle": "কমিউনিটি এবং GitHub",
+    "githubDesc": "কোড এক্সপ্লোর করুন, বাগ রিপোর্ট করুন, ফিচারের পরামর্শ দিন, বা কোড এবং অনুবাদে অবদান রাখুন। চূড়ান্ত ওপেন-সোর্স মিউজিক প্লেয়ার তৈরিতে আমাদের সাথে যোগ দিন।",
+    "githubBtn": "GitHub এ দেখুন"
   },
   "openSource": {
-    "badge": "Free & open source",
-    "title": "By the community. For the community.",
-    "desc": "PPPlayer is proudly open-source. Explore the codebase, report issues, suggest features, or contribute your own code. Every contribution makes the listening experience better for everyone.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "issues": "Report a bug",
-    "license": "MIT license"
+    "badge": "ফ্রি এবং ওপেন সোর্স",
+    "title": "কমিউনিটি দ্বারা। কমিউনিটির জন্য।",
+    "desc": "PPPlayer গর্বিতভাবে ওপেন সোর্স। কোডবেস এক্সপ্লোর করুন, সমস্যার কথা জানান, ফিচারের পরামর্শ দিন বা আপনার নিজস্ব কোড অবদান রাখুন। প্রতিটি অবদান সবার শোনার অভিজ্ঞতাকে আরও ভালো করে তোলে।",
+    "source": "GitHub এ সোর্স দেখুন",
+    "contribute": "অবদান রাখুন",
+    "issues": "একটি বাগ রিপোর্ট করুন",
+    "license": "MIT লাইসেন্স"
   },
   "blog": {
     "title": "ব্লগ",
     "subtitle": "PPPlayer দলের খবর, আপডেট এবং গল্প।",
-    "readMore": "নিবন্ধ পড়ুন",
+    "readMore": "প্রবন্ধ পড়ুন",
     "minRead": "মিনিট পড়া",
     "publishedOn": "প্রকাশিত হয়েছে",
     "back": "← ব্লগে ফিরে যান",
-    "noArticles": "এই ভাষার জন্য কোন নিবন্ধ পাওয়া যায়নি।",
+    "noArticles": "এই ভাষার জন্য কোনো প্রবন্ধ পাওয়া যায়নি।",
     "writtenBy": "লিখেছেন",
-    "translationUnavailable": "এই নিবন্ধটি আপনার ভাষায় উপলব্ধ নয়।"
+    "translationUnavailable": "এই প্রবন্ধটি আপনার ভাষায় উপলব্ধ নয়।",
+    "advertisements": "বিজ্ঞাপন"
   }
 }

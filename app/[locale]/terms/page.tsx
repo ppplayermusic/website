@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 import {getTranslations} from 'next-intl/server';
+import { routing } from '@/i18n/routing';
 import {setRequestLocale} from 'next-intl/server';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
@@ -22,21 +23,10 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
     },
     alternates: {
       canonical: locale === 'en' ? '/terms' : `/${locale}/terms`,
-      languages: {
-        'en': '/terms',
-        'pt-BR': '/pt-BR/terms',
-        'es': '/es/terms',
-        'ru': '/ru/terms',
-        'tr': '/tr/terms',
-        'fr': '/fr/terms',
-        'de': '/de/terms',
-        'hi': '/hi/terms',
-        'it': '/it/terms',
-        'ja': '/ja/terms',
-        'ko': '/ko/terms',
-        'ar': '/ar/terms',
-        'zh': '/zh/terms'
-      }
+            languages: routing.locales.reduce((acc, l) => {
+        acc[l] = l === 'en' ? '/terms' : `/${l}/terms`;
+        return acc;
+      }, {} as Record<string, string>)
     }
   };
 }
@@ -110,7 +100,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
             <section>
               <h2 className="text-white text-xl font-bold mb-3">{t("sections.s8.title")}</h2>
               <p>
-                Questions about these terms? Reach us at{' '}
+                {t("sections.s8.p")}
                 <a href="mailto:contact@ppplayer.com" className="text-red-400 hover:text-red-300">
                   contact@ppplayer.com
                 </a>

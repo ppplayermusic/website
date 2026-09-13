@@ -7,6 +7,7 @@ import DownloadCTA from '@/components/sections/DownloadCTA'
 import { SpotlightText } from '@/components/ui/SpotlightText'
 
 import {getTranslations} from 'next-intl/server';
+import { routing } from '@/i18n/routing';
 import {setRequestLocale} from 'next-intl/server';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
@@ -17,21 +18,10 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
     description: t('downloadDesc'),
     alternates: {
       canonical: locale === 'en' ? '/download' : `/${locale}/download`,
-      languages: {
-        'en': '/download',
-        'pt-BR': '/pt-BR/download',
-        'es': '/es/download',
-        'ru': '/ru/download',
-        'tr': '/tr/download',
-        'fr': '/fr/download',
-        'de': '/de/download',
-        'hi': '/hi/download',
-        'it': '/it/download',
-        'ja': '/ja/download',
-        'ko': '/ko/download',
-        'ar': '/ar/download',
-        'zh': '/zh/download'
-      }
+            languages: routing.locales.reduce((acc, l) => {
+        acc[l] = l === 'en' ? '/download' : `/${l}/download`;
+        return acc;
+      }, {} as Record<string, string>)
     }
   };
 }

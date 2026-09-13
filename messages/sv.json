@@ -441,6 +441,7 @@
     "back": "← Tillbaka till Bloggen",
     "noArticles": "Inga artiklar hittades för detta språk.",
     "writtenBy": "Av",
-    "translationUnavailable": "Den här artikeln är inte tillgänglig på ditt språk."
+    "translationUnavailable": "Den här artikeln är inte tillgänglig på ditt språk.",
+    "advertisements": "Annonser"
   }
 }

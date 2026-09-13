@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 import {getTranslations} from 'next-intl/server';
+import { routing } from '@/i18n/routing';
 import {setRequestLocale} from 'next-intl/server';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
@@ -22,21 +23,10 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
     },
     alternates: {
       canonical: locale === 'en' ? '/privacy' : `/${locale}/privacy`,
-      languages: {
-        'en': '/privacy',
-        'pt-BR': '/pt-BR/privacy',
-        'es': '/es/privacy',
-        'ru': '/ru/privacy',
-        'tr': '/tr/privacy',
-        'fr': '/fr/privacy',
-        'de': '/de/privacy',
-        'hi': '/hi/privacy',
-        'it': '/it/privacy',
-        'ja': '/ja/privacy',
-        'ko': '/ko/privacy',
-        'ar': '/ar/privacy',
-        'zh': '/zh/privacy'
-      }
+            languages: routing.locales.reduce((acc, l) => {
+        acc[l] = l === 'en' ? '/privacy' : `/${l}/privacy`;
+        return acc;
+      }, {} as Record<string, string>)
     }
   };
 }
@@ -110,7 +100,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
             <section>
               <h2 className="text-white text-xl font-bold mb-3">{t("sections.s9.title")}</h2>
               <p>
-                Questions about this policy? Contact us at{' '}
+                {t("sections.s9.p")}
                 <a href="mailto:contact@ppplayer.com" className="text-red-400 hover:text-red-300">
                   contact@ppplayer.com
                 </a>
