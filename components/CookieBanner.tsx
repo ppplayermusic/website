@@ -50,14 +50,27 @@ export default function CookieBanner() {
     // Save to local storage
     localStorage.setItem("cookie_consent", granted ? "granted" : "denied")
 
-    // Update gtag consent
-    if (typeof window !== "undefined" && window.gtag) {
-      window.gtag("consent", "update", {
-        ad_storage: granted ? "granted" : "denied",
-        ad_user_data: granted ? "granted" : "denied",
-        ad_personalization: granted ? "granted" : "denied",
-        analytics_storage: granted ? "granted" : "denied",
-      })
+    const analyticsProvider = process.env.NEXT_PUBLIC_ANALYTICS_PROVIDER || 'gtm';
+
+    if (analyticsProvider === 'gtm') {
+      // Update gtag consent
+      if (typeof window !== "undefined" && window.gtag) {
+        window.gtag("consent", "update", {
+          ad_storage: granted ? "granted" : "denied",
+          ad_user_data: granted ? "granted" : "denied",
+          ad_personalization: granted ? "granted" : "denied",
+          analytics_storage: granted ? "granted" : "denied",
+        })
+      }
+    } else if (analyticsProvider === 'zaraz') {
+      // Update Zaraz consent
+      if (typeof window !== "undefined" && (window as any).zaraz && (window as any).zaraz.consent) {
+        if (granted) {
+          (window as any).zaraz.consent.setAll(true);
+        } else {
+          (window as any).zaraz.consent.setAll(false);
+        }
+      }
     }
   }
 
