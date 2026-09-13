@@ -6,10 +6,18 @@ const intlMiddleware = createMiddleware(routing);
 
 export default function middleware(request: NextRequest) {
   const nonce = Buffer.from(crypto.randomUUID()).toString('base64');
-  
+  const analyticsProvider = process.env.NEXT_PUBLIC_ANALYTICS_PROVIDER || 'gtm';
+  const isZaraz = analyticsProvider === 'zaraz';
+
+  const scriptSrc = isZaraz 
+    ? `'self' 'unsafe-eval' 'unsafe-inline' https: http:` 
+    : `'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' https: http:`;
+    
+  const trustedTypes = isZaraz ? '' : `require-trusted-types-for 'script';`;
+
   const cspHeader = `
     default-src 'self';
-    script-src 'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' https: http:;
+    script-src ${scriptSrc};
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://www.googletagmanager.com;
     img-src 'self' blob: data: https://ppplayer.com https://flagcdn.com https://www.googletagmanager.com https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://*.google.com.br https://*.google-analytics.com https://*.adtrafficquality.google https://*.analytics.google.com;
     connect-src 'self' https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://*.google.com https://*.adtrafficquality.google https://*.googlesyndication.com https://*.doubleclick.net;
@@ -19,7 +27,7 @@ export default function middleware(request: NextRequest) {
     base-uri 'self';
     form-action 'self';
     frame-ancestors 'self' https://tagassistant.google.com;
-    require-trusted-types-for 'script';
+    ${trustedTypes}
   `.replace(/\s{2,}/g, ' ').trim();
 
   request.headers.set('x-nonce', nonce);
