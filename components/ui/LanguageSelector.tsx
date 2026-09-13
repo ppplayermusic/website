@@ -32,7 +32,12 @@ const languages = [
   { code: 'fil', label: 'Filipino', flag: 'ph' },
   { code: 'lv', label: 'Latviešu', flag: 'lv' },
   { code: 'bn', label: 'বাংলা', flag: 'bd' },
-  { code: 'pcm', label: 'Naija', flag: 'ng' }
+  { code: 'pcm', label: 'Naija', flag: 'ng' },
+  { code: 'hr', label: 'Hrvatski', flag: 'hr' },
+  { code: 'ms', label: 'Bahasa Melayu', flag: 'my' },
+  { code: 'fa', label: 'فارسی', flag: 'ir' },
+  { code: 'et', label: 'Eesti', flag: 'ee' },
+  { code: 'gn', label: 'Avañe\'ẽ', flag: 'py' }
 ];
 
 export function LanguageSelector() {
