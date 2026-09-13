@@ -8,7 +8,7 @@ import { Cookie } from "lucide-react"
 declare global {
   interface Window {
     gtag: (...args: unknown[]) => void;
-    __tcfapi?: (command: string, version: number, callback: (tcData: { gdprApplies?: boolean; [key: string]: unknown }, success: boolean) => void) => void;
+    __tcfapi?: (command: string, version: number, callback: (tcData: { gdprApplies?: boolean; eventStatus?: string; purpose?: { consents: Record<number, boolean> }; [key: string]: unknown }, success: boolean) => void) => void;
     zaraz?: {
       consent?: {
         setAll: (granted: boolean) => void;
@@ -28,17 +28,36 @@ export default function CookieBanner() {
       return;
     }
 
+    const analyticsProvider = process.env.NEXT_PUBLIC_ANALYTICS_PROVIDER || 'gtm';
+
     // Delay slightly to allow Google's CMP (__tcfapi) to initialize if it's loading
     const timer = setTimeout(() => {
       // Check if Google's CMP is active and GDPR applies
       if (typeof window !== 'undefined' && typeof window.__tcfapi === 'function') {
-        window.__tcfapi('getTCData', 2, (tcData, success) => {
+        window.__tcfapi('addEventListener', 2, (tcData, success) => {
           if (success && tcData.gdprApplies) {
             // Google CMP handles this user. Do NOT show our banner.
             setShow(false);
+            
+            // BRIDGE TO ZARAZ: If using Zaraz, listen for Google CMP consent choices
+            if (analyticsProvider === 'zaraz' && window.zaraz?.consent) {
+              if (tcData.eventStatus === 'tcloaded' || tcData.eventStatus === 'useractioncomplete') {
+                // Purpose 1 is basic device storage/cookies. We use this as the primary signal.
+                const hasAnalyticsConsent = tcData.purpose?.consents?.[1];
+                
+                if (hasAnalyticsConsent) {
+                  window.zaraz.consent.setAll(true);
+                } else {
+                  window.zaraz.consent.setAll(false);
+                }
+              }
+            }
           } else {
             // GDPR doesn't apply (e.g., US user), show our banner.
-            setShow(true);
+            // Only show if it's the initial load check, not subsequent events
+            if (tcData?.eventStatus === 'tcloaded' || tcData?.eventStatus === 'cmpuishown' || !tcData?.eventStatus) {
+              setShow(true);
+            }
           }
         });
       } else {
