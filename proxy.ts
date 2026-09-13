@@ -12,13 +12,13 @@ export default function middleware(request: NextRequest) {
     script-src 'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' https: http:;
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://www.googletagmanager.com;
     img-src 'self' blob: data: https://ppplayer.com https://flagcdn.com https://www.googletagmanager.com https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://*.google.com.br https://*.google-analytics.com https://*.adtrafficquality.google https://*.analytics.google.com;
-    connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.google.com https://*.adtrafficquality.google https://*.googlesyndication.com https://*.doubleclick.net;
+    connect-src 'self' https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://*.google.com https://*.adtrafficquality.google https://*.googlesyndication.com https://*.doubleclick.net;
     font-src 'self' data: https://fonts.gstatic.com;
     frame-src 'self' https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://*.adtrafficquality.google;
     object-src 'none';
     base-uri 'self';
     form-action 'self';
-    frame-ancestors 'none';
+    frame-ancestors 'self' https://tagassistant.google.com;
     require-trusted-types-for 'script';
   `.replace(/\s{2,}/g, ' ').trim();
 
