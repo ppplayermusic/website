@@ -137,6 +137,14 @@ export default async function RootLayout({
         </script>
       </head>
       <body className={isRTL ? notoSansArabic.className : inter.className}>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5SV2DX2"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
         <TrustedTypesScript nonce={nonce} />
         <Script id="google-analytics-consent" nonce={nonce} strategy="lazyOnload">
           {`
@@ -151,14 +159,13 @@ export default async function RootLayout({
             });
           `}
         </Script>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BFDXCJBB35" nonce={nonce} strategy="lazyOnload" />
-        <Script id="google-analytics" nonce={nonce} strategy="lazyOnload">
+        <Script id="google-tag-manager" nonce={nonce} strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-BFDXCJBB35');
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5SV2DX2');
           `}
         </Script>
         <NextIntlClientProvider messages={messages}>
