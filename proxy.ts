@@ -11,8 +11,8 @@ export default function middleware(request: NextRequest) {
     default-src 'self';
     script-src 'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' https: http:;
     style-src 'self' 'unsafe-inline';
-    img-src 'self' blob: data: https://ppplayer.com https://flagcdn.com https://www.googletagmanager.com https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://*.google-analytics.com https://*.adtrafficquality.google;
-    connect-src 'self' https://www.google-analytics.com https://www.google.com https://*.adtrafficquality.google https://*.googlesyndication.com https://*.doubleclick.net;
+    img-src 'self' blob: data: https://ppplayer.com https://flagcdn.com https://www.googletagmanager.com https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://*.google-analytics.com https://*.adtrafficquality.google https://*.analytics.google.com;
+    connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.google.com https://*.adtrafficquality.google https://*.googlesyndication.com https://*.doubleclick.net;
     font-src 'self' data:;
     frame-src 'self' https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://*.adtrafficquality.google;
     object-src 'none';
