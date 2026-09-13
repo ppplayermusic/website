@@ -1,491 +1,499 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Free & Open-Source Music Player",
-    "homeDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "downloadTitle": "Download PPPlayer Free",
-    "downloadDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDesc": "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "termsTitle": "Terms of Service",
-    "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "supportTitle": "Support - PPPlayer",
-    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com.",
+    "homeTitle": "PPPlayer | Besplatan glazbeni player otvorenog koda",
+    "homeDesc": "Besplatan glazbeni player otvorenog koda. Nema računa. Nema pretplate. Samo slušajte.",
+    "downloadTitle": "Preuzmite PPPlayer besplatno",
+    "downloadDesc": "Besplatan glazbeni player otvorenog koda. Nema računa. Nema pretplate. Samo slušajte.",
+    "privacyTitle": "Pravila privatnosti",
+    "privacyDesc": "Pravila privatnosti za PPPlayer: besplatna glazbena aplikacija za macOS, Linux, Windows, iOS i Android.",
+    "termsTitle": "Uvjeti pružanja usluge",
+    "termsDesc": "Uvjeti pružanja usluge za PPPlayer: besplatna glazbena aplikacija za macOS, Linux, Windows, iOS i Android.",
+    "supportTitle": "Podrška - PPPlayer",
+    "supportDesc": "PPPlayer je neovisan projekt otvorenog koda. Za greške i ideje koristite GitHub. Za ostala pitanja pošaljite e-mail na contact@ppplayer.com.",
     "blogTitle": "Blog | PPPlayer",
-    "blogDesc": "News, updates, and stories from the PPPlayer team."
+    "blogDesc": "Vijesti, ažuriranja i priče PPPlayer tima."
   },
   "nav": {
-    "features": "Features",
-    "download": "Download Free",
-    "support": "Support",
-    "contribute": "Contribute",
+    "features": "Značajke",
+    "download": "Preuzmi besplatno",
+    "support": "Podrška",
+    "contribute": "Doprinesi",
     "blog": "Blog"
   },
   "footer": {
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "product": "Product",
-    "features": "Features",
-    "download": "Download",
-    "platforms": "Platforms",
+    "desc": "Besplatan glazbeni player otvorenog koda. Nema računa. Nema pretplate. Samo slušajte.",
+    "product": "Proizvod",
+    "features": "Značajke",
+    "download": "Preuzmi",
+    "platforms": "Platforme",
     "ios": "iOS",
     "android": "Android",
     "windows": "Windows",
-    "social": "Social",
+    "social": "Društvene mreže",
     "instagram": "Instagram",
     "linkedin": "LinkedIn",
     "facebook": "Facebook",
     "github": "GitHub",
-    "legal": "Legal",
-    "privacy": "Privacy",
-    "terms": "Terms",
+    "legal": "Pravno",
+    "privacy": "Privatnost",
+    "terms": "Uvjeti",
     "copyright": "© {year} PPPlayer Music.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "changelog": "Changelog",
+    "source": "Pogledaj kod na GitHubu",
+    "contribute": "Doprinesi",
+    "changelog": "Dnevnik promjena",
     "linux": "Linux",
     "blog": "Blog"
   },
   "cookie": {
-    "title": "We value your privacy",
-    "desc": "We use cookies to analyze site traffic and enhance your experience. By clicking \"Accept\", you consent to our use of cookies.",
-    "decline": "Decline All",
-    "accept": "Accept All"
+    "title": "Cijenimo vašu privatnost",
+    "desc": "Koristimo kolačiće za analizu prometa i poboljšanje vašeg iskustva. Klikom na \"Prihvati\", pristajete na našu upotrebu kolačića.",
+    "decline": "Odbij sve",
+    "accept": "Prihvati sve"
   },
   "hero": {
-    "title1": "Music.",
-    "title2": "Without the friction.",
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "getLinux": "Get for Linux",
-    "badge": "Free & open source",
-    "source": "View source on GitHub"
+    "title1": "Glazba.",
+    "title2": "Bez trenja.",
+    "desc": "Besplatan glazbeni player otvorenog koda. Nema računa. Nema pretplate. Samo slušajte.",
+    "getIos": "Preuzmi za iOS",
+    "getAndroid": "Preuzmi za Android",
+    "getMac": "Preuzmi za Mac",
+    "getWindows": "Preuzmi za Windows",
+    "getLinux": "Preuzmi za Linux",
+    "badge": "Besplatno i otvorenog koda",
+    "source": "Pogledaj kod na GitHubu"
   },
   "discover": {
-    "title": "Find<br></br>something<br></br>worth playing."
+    "title": "Pronađi<br></br>nešto<br></br>vrijedno slušanja."
   },
   "artistRadio": {
-    "title": "Endless listening."
+    "title": "Beskrajno slušanje."
   },
   "goDeeper": {
-    "bgText": "FOLLOW",
-    "title": "Follow the music."
+    "bgText": "PRATI",
+    "title": "Prati glazbu."
   },
   "pressPlay": {
-    "title": "Then, just listen."
+    "title": "Zatim, samo slušaj."
   },
   "featureGallery": {
-    "title": "Everything you need.",
-    "subtitle": "A beautiful, native experience built for performance.",
-    "searchTitle": "Find exactly what you want.",
-    "searchDesc": "Search globally across tracks, artists, and albums instantly.",
-    "queueTitle": "Perfectly queued.",
-    "queueDesc": "Manage what plays next with a beautiful, reorderable queue.",
-    "favTitle": "Your music, your rules.",
-    "favDesc": "Build your personal library with a single click. Always there.",
-    "contextTitle": "Native by design.",
-    "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus."
+    "title": "Sve što vam treba.",
+    "subtitle": "Prekrasno, nativno iskustvo izgrađeno za performanse.",
+    "searchTitle": "Pronađite točno ono što želite.",
+    "searchDesc": "Globalno pretražite pjesme, izvođače i albume u trenu.",
+    "queueTitle": "Savršen red čekanja.",
+    "queueDesc": "Upravljajte onim što slijedi uz prekrasan, prilagodljiv red čekanja.",
+    "favTitle": "Vaša glazba, vaša pravila.",
+    "favDesc": "Izgradite svoju osobnu biblioteku jednim klikom. Uvijek je tu.",
+    "contextTitle": "Nativno po dizajnu.",
+    "contextDesc": "Desni klik bilo gdje. Prekrasni, kontekstualni nativni izbornici."
   },
   "noAccount": {
-    "title": "No account.",
-    "subtitle": "Free & open source"
+    "title": "Nema računa.",
+    "subtitle": "Besplatno i otvorenog koda"
   },
   "platforms": {
-    "title": "Your music. Your devices.",
-    "subtitle": "Beautifully native on macOS, Linux, Windows, Android, and iOS."
+    "title": "Vaša glazba. Vaši uređaji.",
+    "subtitle": "Prekrasno nativno na macOS-u, Linuxu, Windowsima, Androidu i iOS-u."
   },
   "downloadCTA": {
-    "title": "Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "notAvailable": "Not available yet. Currently, only the macOS version is available for download.",
-    "notAvailableTitle": "Coming Soon",
-    "okayBtn": "Okay",
-    "getLinux": "Get for Linux",
-    "modalTitle": "Download for {platform}",
-    "modalDesc": "Choose how you want to install PPPlayer on your {platform} device.",
-    "primaryDownload": "Download",
-    "directDownload": "Direct Download",
-    "comingSoon": "Coming Soon",
-    "cancel": "Cancel",
-    "downloadFor": "Download for {platform}",
-    "os": "Operating System",
-    "arch": "Architecture",
-    "memory": "Memory",
+    "title": "Samo slušajte.",
+    "getIos": "Preuzmi za iOS",
+    "getAndroid": "Preuzmi za Android",
+    "getMac": "Preuzmi za Mac",
+    "getWindows": "Preuzmi za Windows",
+    "notAvailable": "Još nije dostupno. Trenutno je dostupna samo macOS verzija za preuzimanje.",
+    "notAvailableTitle": "Uskoro",
+    "okayBtn": "U redu",
+    "getLinux": "Preuzmi za Linux",
+    "modalTitle": "Preuzmi za {platform}",
+    "modalDesc": "Odaberite kako želite instalirati PPPlayer na svoj {platform} uređaj.",
+    "primaryDownload": "Preuzmi",
+    "directDownload": "Izravno preuzimanje",
+    "comingSoon": "Uskoro",
+    "cancel": "Odustani",
+    "downloadFor": "Preuzmi za {platform}",
+    "os": "Operativni sustav",
+    "arch": "Arhitektura",
+    "memory": "Memorija",
     "internet": "Internet",
-    "reqStreaming": "Required for streaming",
-    "reqTitle": "{platform} Requirements",
+    "reqStreaming": "Potrebno za streaming",
+    "reqTitle": "{platform} Zahtjevi",
     "reqs": {
       "macos": {
-        "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
-        "mem": "4 GB RAM (Recommended)"
+        "os": "macOS 10.15 Catalina ili noviji",
+        "arch": "Apple Silicon i Intel (Univerzalno)",
+        "mem": "4 GB RAM (Preporučeno)"
       },
       "windows": {
-        "os": "Windows 10 or later (64-bit)",
+        "os": "Windows 10 ili noviji (64-bitni)",
         "arch": "x64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Preporučeno)"
       },
       "linux": {
-        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "os": "Ubuntu 20.04 ili noviji (Eksperimentalno)",
         "arch": "x86_64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Preporučeno)"
       },
       "ios": {
-        "os": "iOS 13.0 or newer",
+        "os": "iOS 13.0 ili noviji",
         "arch": "ARM64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (Preporučeno)"
       },
       "android": {
-        "os": "Android 7.0 (API 24) or newer",
+        "os": "Android 7.0 (API 24) ili noviji",
         "arch": "ARM64 / ARM / x86_64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (Preporučeno)"
       }
     }
   },
   "downloadPage": {
-    "badge": "PPPlayer 1.0 is now available",
-    "title": "Download <gradient>PPPlayer</gradient>",
-    "subtitle": "Pick your platform. Start listening in seconds.",
-    "desc": "No account required. No email. No signup. Just music.",
-    "windowsReqLabel": "Windows system requirements:",
-    "windowsReqDesc": "Windows 10 or later (64-bit). ~50 MB download. No Microsoft Store required."
+    "badge": "PPPlayer 1.0 je sada dostupan",
+    "title": "Preuzmi <gradient>PPPlayer</gradient>",
+    "subtitle": "Odaberite svoju platformu. Počnite slušati u sekundi.",
+    "desc": "Nije potreban račun. Nema e-maila. Nema prijave. Samo glazba.",
+    "windowsReqLabel": "Windows sistemski zahtjevi:",
+    "windowsReqDesc": "Windows 10 ili noviji (64-bitni). ~50 MB preuzimanje. Nije potreban Microsoft Store."
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Common <gradient>questions</gradient>",
-    "subtitle": "Everything you need to know about PPPlayer.",
+    "badge": "Često postavljana pitanja",
+    "title": "Česta <gradient>pitanja</gradient>",
+    "subtitle": "Sve što trebate znati o PPPlayeru.",
     "items": [
       {
-        "q": "Is PPPlayer free?",
-        "a": "Yes. PPPlayer is 100% free. No subscriptions, no in-app purchases, and no hidden costs."
+        "q": "Je li PPPlayer besplatan?",
+        "a": "Da. PPPlayer je 100% besplatan. Nema pretplata, nema kupnji unutar aplikacije i nema skrivenih troškova."
       },
       {
-        "q": "Do I need to create an account?",
-        "a": "No. You do not need an email address, account, or login of any kind. Just download, open, and start listening."
+        "q": "Trebam li stvoriti račun?",
+        "a": "Ne. Ne trebate e-mail adresu, račun niti bilo kakvu prijavu. Samo preuzmite, otvorite i počnite slušati."
       },
       {
-        "q": "Is PPPlayer available for iPhone?",
-        "a": "Yes. PPPlayer is available on the App Store for iPhone and iPad."
+        "q": "Je li PPPlayer dostupan za iPhone?",
+        "a": "Da. PPPlayer je dostupan u App Storeu za iPhone i iPad."
       },
       {
-        "q": "Is PPPlayer available for Android?",
-        "a": "Yes. You can download PPPlayer on Google Play for Android phones and tablets."
+        "q": "Je li PPPlayer dostupan za Android?",
+        "a": "Da. PPPlayer možete preuzeti na Google Playu za Android telefone i tablete."
       },
       {
-        "q": "Can I use PPPlayer on Windows?",
-        "a": "Yes. PPPlayer is available for Windows 10 and later as a direct download. No store required."
+        "q": "Mogu li koristiti PPPlayer na Windowsima?",
+        "a": "Da. PPPlayer je dostupan za Windows 10 i novije kao izravno preuzimanje. Trgovina nije potrebna."
       },
       {
-        "q": "What music features does PPPlayer offer?",
-        "a": "PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required."
+        "q": "Koje glazbene značajke nudi PPPlayer?",
+        "a": "PPPlayer uključuje otkrivanje izvođača, povezane izvođače, radio izvođača, popise za reprodukciju izvođača, istraživanje žanrova i prekrasan player preko cijelog zaslona. Sve je besplatno i nije potreban račun."
       },
       {
-        "q": "How do I download PPPlayer?",
-        "a": "Tap the download button for your platform on this page. The download takes less than a minute."
+        "q": "Kako da preuzmem PPPlayer?",
+        "a": "Dodirnite gumb za preuzimanje za svoju platformu na ovoj stranici. Preuzimanje traje manje od minute."
       },
       {
-        "q": "Is there a premium version?",
-        "a": "No. PPPlayer is fully free. Everything you see is available at no cost, with no account needed."
+        "q": "Postoji li premium verzija?",
+        "a": "Ne. PPPlayer je potpuno besplatan. Sve što vidite dostupno je bez naknade, bez potrebe za računom."
       }
     ],
-    "openSourceQuestion": "Is PPPlayer open source?",
-    "openSourceAnswer": "Yes. PPPlayer is 100% open-source under the MIT license. You can use, study, modify, and share the software freely. Check out our GitHub repository to view the source code or get involved."
+    "openSourceQuestion": "Je li PPPlayer otvorenog koda?",
+    "openSourceAnswer": "Da. PPPlayer je 100% otvorenog koda pod MIT licencom. Softver možete slobodno koristiti, proučavati, mijenjati i dijeliti. Pogledajte naš GitHub repozitorij da biste vidjeli izvorni kod ili se uključili."
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: April 2025",
+    "title": "Pravila privatnosti",
+    "lastUpdated": "Zadnje ažuriranje: travanj 2025.",
     "sections": {
       "s1": {
-        "title": "1. Overview",
-        "p": "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explains what data we collect, why, and how it is used when you use PPPlayer on macOS, Linux, Windows, iOS, or Android."
+        "title": "1. Pregled",
+        "p": "PPPlayer (\"mi\", \"naš\", \"aplikacija\") posvećen je zaštiti vaše privatnosti. Ova pravila objašnjavaju koje podatke prikupljamo, zašto i kako se koriste kada koristite PPPlayer na macOS-u, Linuxu, Windowsima, iOS-u ili Androidu."
       },
       "s2": {
-        "title": "2. No Account Required",
-        "p": "PPPlayer does not require you to create an account. We do not collect your name, email address, or any personally identifiable information to use the app."
+        "title": "2. Račun nije potreban",
+        "p": "PPPlayer ne zahtijeva da stvorite račun. Ne prikupljamo vaše ime, adresu e-pošte niti bilo kakve osobne podatke za korištenje aplikacije."
       },
       "s3": {
-        "title": "3. Data We Collect",
-        "p1": "We may collect the following anonymous, non-identifiable data:",
-        "li1": "Crash reports and error logs (to improve app stability)",
-        "li2": "Anonymous usage analytics (feature usage, session duration)",
-        "li3": "Device type and operating system version",
-        "p2": "We do not collect: names, emails, payment info, or precise location data."
+        "title": "3. Podaci koje prikupljamo",
+        "p1": "Možemo prikupljati sljedeće anonimne podatke koji vas ne identificiraju:",
+        "li1": "Izvješća o padu aplikacije i zapise o pogreškama (radi poboljšanja stabilnosti aplikacije)",
+        "li2": "Anonimna analitika korištenja (korištenje značajki, trajanje sesije)",
+        "li3": "Vrsta uređaja i verzija operativnog sustava",
+        "p2": "Ne prikupljamo: imena, e-mailove, podatke o plaćanju ni podatke o preciznoj lokaciji."
       },
       "s4": {
-        "title": "4. Third-Party Services",
-        "p": "PPPlayer may use third-party services for music metadata and analytics. These services have their own privacy policies. We encourage you to review them."
+        "title": "4. Usluge trećih strana",
+        "p": "PPPlayer može koristiti usluge trećih strana za glazbene metapodatke i analitiku. Te usluge imaju vlastita pravila privatnosti. Potičemo vas da ih pregledate."
       },
       "s5": {
-        "title": "5. Data Retention",
-        "p": "Anonymous analytics data is retained for a maximum of 12 months. Crash logs are deleted after 90 days."
+        "title": "5. Zadržavanje podataka",
+        "p": "Podaci anonimne analitike zadržavaju se najviše 12 mjeseci. Zapisi o rušenju brišu se nakon 90 dana."
       },
       "s6": {
-        "title": "6. Your Rights",
-        "p": "Since we do not collect personal data, there is no personal information to access, export, or delete. If you have questions, contact us at the address below."
+        "title": "6. Vaša prava",
+        "p": "Budući da ne prikupljamo osobne podatke, ne postoje osobni podaci kojima biste mogli pristupiti, izvesti ih ili izbrisati. Ako imate pitanja, obratite nam se na donju adresu."
       },
       "s7": {
-        "title": "7. Children",
-        "p": "PPPlayer is not directed at children under 13. We do not knowingly collect data from children."
+        "title": "7. Djeca",
+        "p": "PPPlayer nije usmjeren na djecu mlađu od 13 godina. Svjesno ne prikupljamo podatke od djece."
       },
       "s8": {
-        "title": "8. Changes",
-        "p": "We may update this policy from time to time. We will note the date of the last update at the top of this page."
+        "title": "8. Promjene",
+        "p": "S vremena na vrijeme možemo ažurirati ova pravila. Zabilježit ćemo datum posljednjeg ažuriranja na vrhu ove stranice."
       },
       "s9": {
-        "title": "9. Contact",
-        "p": "Questions about this policy? Contact us at "
+        "title": "9. Kontakt",
+        "p": "Pitanja o ovim pravilima? Kontaktirajte nas na "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← Natrag na PPPlayer"
   },
   "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated: September 11, 2026",
+    "title": "Uvjeti pružanja usluge",
+    "lastUpdated": "Zadnje ažuriranje: 11. rujna 2026.",
     "sections": {
       "s1": {
-        "title": "1. Acceptance of Terms",
-        "p": "By downloading or using PPPlayer, you agree to these Terms of Service. If you do not agree, please do not use the app."
+        "title": "1. Prihvaćanje uvjeta",
+        "p": "Preuzimanjem ili korištenjem PPPlayera slažete se s ovim Uvjetima pružanja usluge. Ako se ne slažete, nemojte koristiti aplikaciju."
       },
       "s2": {
-        "title": "2. Use of the App",
-        "p": "PPPlayer is free, open-source software. Use, copying, modification, and distribution of the software are governed by the MIT license in the project repository. When using the app, you agree not to:",
-        "li1": "Remove copyright or permission notices required by the applicable software licenses",
-        "li2": "Use the app to distribute malware or harmful content",
-        "li3": "Violate any applicable laws or regulations while using the app"
+        "title": "2. Korištenje aplikacije",
+        "p": "PPPlayer je besplatan softver otvorenog koda. Korištenje, kopiranje, mijenjanje i distribucija softvera regulirani su MIT licencom u repozitoriju projekta. Korištenjem aplikacije slažete se da nećete:",
+        "li1": "Ukloniti obavijesti o autorskim pravima ili dozvolama koje zahtijevaju primjenjive softverske licence",
+        "li2": "Koristiti aplikaciju za distribuciju zlonamjernog softvera ili štetnog sadržaja",
+        "li3": "Kršiti bilo koje primjenjive zakone ili propise dok koristite aplikaciju"
       },
       "s3": {
-        "title": "3. No Account Required",
-        "p": "PPPlayer does not require account creation. You can use all features immediately after download."
+        "title": "3. Račun nije potreban",
+        "p": "PPPlayer ne zahtijeva stvaranje računa. Možete koristiti sve značajke odmah nakon preuzimanja."
       },
       "s4": {
-        "title": "4. Intellectual Property",
-        "p": "PPPlayer source code is available under the MIT license. Third-party dependencies retain their own licenses. Music, artwork, and metadata remain subject to their respective rights and licenses; the software license does not grant rights to that content."
+        "title": "4. Intelektualno vlasništvo",
+        "p": "Izvorni kod PPPlayera dostupan je pod MIT licencom. Ovisnosti trećih strana zadržavaju vlastite licence. Glazba, umjetnička djela i metapodaci ostaju podložni svojim odgovarajućim pravima i licencama; softverska licenca ne daje prava na taj sadržaj."
       },
       "s5": {
-        "title": "5. Disclaimer of Warranties",
-        "p": "PPPlayer is provided \"as is\" without warranty of any kind, express or implied. We do not guarantee uninterrupted service or that the app will be error-free."
+        "title": "5. Odricanje od jamstva",
+        "p": "PPPlayer se pruža \"kakav jest\" bez jamstva bilo koje vrste, izričitog ili impliciranog. Ne jamčimo neprekidnu uslugu ili da će aplikacija biti bez grešaka."
       },
       "s6": {
-        "title": "6. Limitation of Liability",
-        "p": "To the maximum extent permitted by law, PPPlayer shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use or inability to use the app."
+        "title": "6. Ograničenje odgovornosti",
+        "p": "U najvećoj mjeri dopuštenoj zakonom, PPPlayer neće biti odgovoran za bilo kakve neizravne, slučajne, posebne ili posljedične štete koje proizlaze iz vašeg korištenja ili nemogućnosti korištenja aplikacije."
       },
       "s7": {
-        "title": "7. Changes to Terms",
-        "p": "We reserve the right to update these terms at any time. Continued use of the app after changes constitutes acceptance of the new terms."
+        "title": "7. Promjene uvjeta",
+        "p": "Zadržavamo pravo ažuriranja ovih uvjeta u bilo kojem trenutku. Nastavak korištenja aplikacije nakon promjena predstavlja prihvaćanje novih uvjeta."
       },
       "s8": {
-        "title": "8. Contact",
-        "p": "Questions about these terms? Reach us at "
+        "title": "8. Kontakt",
+        "p": "Pitanja o ovim uvjetima? Obratite nam se na "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← Natrag na PPPlayer"
   },
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
-      "desc": "Available on the App Store for iPhone and iPad.",
+      "label": "iPhone i iPad",
+      "desc": "Dostupno na App Storeu za iPhone i iPad.",
       "badge": "App Store"
     },
     "android": {
       "name": "Android",
       "label": "Android",
-      "desc": "Available on Google Play for Android phones and tablets.",
+      "desc": "Dostupno na Google Playu za Android telefone i tablete.",
       "badge": "Google Play"
     },
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Direct download for Windows 10 and later. No store needed.",
-      "badge": "Direct Download"
+      "desc": "Izravno preuzimanje za Windows 10 i novije. Nije potrebna trgovina.",
+      "badge": "Izravno preuzimanje"
     },
     "macos": {
       "name": "macOS",
       "label": "Mac",
-      "desc": "Direct download for macOS. Apple Silicon & Intel supported.",
-      "badge": "Direct Download"
+      "desc": "Izravno preuzimanje za macOS. Podržani Apple Silicon i Intel.",
+      "badge": "Izravno preuzimanje"
     },
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Direct download for Linux. AppImage supported.",
-      "badge": "Direct Download"
+      "desc": "Izravno preuzimanje za Linux. Podržan AppImage.",
+      "badge": "Izravno preuzimanje"
     }
   },
   "changelog": {
-    "title": "Changelog",
-    "subtitle": "What's new in PPPlayer.",
-    "back": "← Back to PPPlayer",
+    "title": "Dnevnik promjena",
+    "subtitle": "Što je novo u PPPlayeru.",
+    "v1_3_0": {
+      "version": "1.3.0",
+      "date": "13. rujna 2026.",
+      "desc": "Ovo izdanje donosi PPPlayer još široj globalnoj publici.",
+      "added": "Dodano",
+      "localizationTitle": "Dodatni jezici",
+      "localizationDesc": "Dodane su lokalizacije za nigerijski pidžin, filipinski, latvijski, bengalski, hrvatski, malajski, perzijski i estonski."
+    },
+    "back": "← Natrag na PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "12. rujna 2026.",
+      "desc": "Proširena podrška za lokalizaciju s 10 novih jezika.",
+      "added": "Dodano",
+      "fixed": "Popravljeno",
+      "lang10Title": "10 novih jezika",
+      "lang10Desc": "Dodana potpuna podrška za indonezijski, burmanski, poljski, danski, kazaški, češki, mađarski, gruzijski, švedski i uzbečki."
     },
     "v1_1_2": {
       "version": "v1.1.2",
-      "date": "September 12, 2026",
-      "desc": "Added Arabic and Chinese localizations and fixed macOS resizing bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "localizationTitle": "Localization Expansion",
-      "localizationDesc": "Added Arabic and Chinese (Simplified & Traditional) localizations.",
-      "layoutTitle": "macOS Layout Fix",
-      "layoutDesc": "Fixed an issue on macOS where the YouTube video player would shift off-center when resizing the application window."
+      "date": "12. rujna 2026.",
+      "desc": "Dodane arapska i kineska lokalizacija te popravljeni bugovi promjene veličine na macOS-u.",
+      "added": "Dodano",
+      "fixed": "Popravljeno",
+      "localizationTitle": "Proširenje lokalizacije",
+      "localizationDesc": "Dodane arapske i kineske (pojednostavljene i tradicionalne) lokalizacije.",
+      "layoutTitle": "Popravak izgleda za macOS",
+      "layoutDesc": "Popravljen problem na macOS-u gdje bi se YouTube video player pomaknuo izvan središta pri promjeni veličine prozora aplikacije."
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "date": "12. rujna 2026.",
+      "desc": "Popravljeni bugovi reprodukcije i ispolirana traka za traženje pri pokretanju aplikacije.",
+      "fixed": "Popravljeno",
+      "snapTitle": "Bug trake za traženje pri pokretanju",
+      "snapDesc": "Popravljen problem gdje bi se traka za traženje trenutno vratila na početni položaj pri povlačenju odmah nakon pokretanja aplikacije.",
+      "durationTitle": "Nedostaje trajanje",
+      "durationDesc": "Popravljena traka za traženje koja pokazuje trajanje od 0:00 kada se aplikacija prvi put pokrene."
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "date": "11. rujna 2026.",
+      "desc": "Sveobuhvatna internacionalizacija i lokalizacija u cijeloj aplikaciji i na web stranici.",
+      "new": "Dodano",
+      "langTitle": "11 globalnih jezika",
+      "langDesc": "Dodana potpuna podrška za španjolski, francuski, njemački, portugalski, talijanski, japanski, korejski, kineski, hindski, ruski i arapski.",
+      "pickerTitle": "Birač jezika u aplikaciji",
+      "pickerDesc": "Dodan birač jezika u aplikaciji u izborniku Postavke koji odmah primjenjuje prijevode bez ponovnog pokretanja aplikacije.",
+      "osTitle": "Integracija na razini OS-a",
+      "osDesc": "Nativne integracije jezika na razini operativnog sustava na Androidu 13+ i iOS-u za automatsku sinkronizaciju jezika aplikacije."
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "date": "11. rujna 2026.",
+      "desc": "Hitni popravak za svježe instalacije.",
+      "fixed": "Popravljeno",
+      "crashTitle": "Popravak rušenja pri pokretanju",
+      "crashDesc": "Popravljen kritičan bug koji uzrokuje rušenje aplikacije na prazan zaslon na svježim instalacijama zbog nedostatka konfiguracijske datoteke okruženja."
     },
     "v1_0_5": {
       "version": "v1.0.5",
-      "date": "September 11, 2026",
-      "desc": "Seamless background playback on macOS.",
-      "new": "New",
-      "fixed": "Fixed",
-      "appNapTitle": "Gapless Background Playback",
-      "appNapDesc": "Prevented macOS App Nap from aggressively suspending the player when minimized, allowing the queue to continue uninterrupted."
+      "date": "11. rujna 2026.",
+      "desc": "Besprijekorna pozadinska reprodukcija na macOS-u.",
+      "new": "Novo",
+      "fixed": "Popravljeno",
+      "appNapTitle": "Pozadinska reprodukcija bez pauze",
+      "appNapDesc": "Spriječeno je da macOS App Nap agresivno obustavi reproduktor kada je minimiziran, dopuštajući da red čekanja nastavi bez prekida."
     },
     "v1_0_4": {
       "version": "v1.0.4",
-      "date": "September 11, 2026",
-      "desc": "Automated releases and code signing.",
-      "new": "New",
-      "fixed": "Fixed",
-      "ciTitle": "Automated Release Pipeline",
-      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
-      "signedTitle": "Signed macOS Releases",
-      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
-      "licenseTitle": "Open Source License",
-      "licenseDesc": "Added MIT License to the repository.",
-      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+      "date": "11. rujna 2026.",
+      "desc": "Automatizirana izdanja i potpisivanje koda.",
+      "new": "Novo",
+      "fixed": "Popravljeno",
+      "ciTitle": "Automatizirani cjevovod za izdanja",
+      "ciDesc": "Tijek rada GitHub Actions za dosljedne izrade i potpisivanje koda za macOS.",
+      "signedTitle": "Potpisana macOS izdanja",
+      "signedDesc": "Službena potpisana i javno ovjerena macOS izdanja sada su dostupna izravno na web stranici.",
+      "licenseTitle": "Licenca otvorenog koda",
+      "licenseDesc": "U repozitorij dodana MIT licenca.",
+      "submoduleFix": "Popravljena konfiguracija preuzimanja podmodula u tijekovima rada kontinuirane integracije"
     },
     "v1_0_3": {
       "version": "v1.0.3",
-      "date": "September 10, 2026",
-      "desc": "Background playback and stability.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "hybridEngineTitle": "Hybrid Playback Engine",
-      "hybridEngineDesc": "Robust background processing and lock-screen playback capabilities.",
-      "dedupTitle": "Command Deduplication",
-      "dedupDesc": "Added generation IDs to prevent overlapping and stale media commands across WebView bridge.",
-      "queueAdvance": "Song queue not automatically advancing to the next track",
-      "resumeBug": "Paused track unexpectedly resuming when handing off from foreground to PiP or background",
-      "precision": "Accurate millisecond precision reporting for current track position and playback duration",
-      "linter": "Eliminated several IDE linter errors and cleaned up redundant files"
+      "date": "10. rujna 2026.",
+      "desc": "Pozadinska reprodukcija i stabilnost.",
+      "new": "Novo",
+      "improved": "Poboljšano",
+      "fixed": "Popravljeno",
+      "hybridEngineTitle": "Hibridni mehanizam reprodukcije",
+      "hybridEngineDesc": "Robusna pozadinska obrada i mogućnosti reprodukcije na zaključanom zaslonu.",
+      "dedupTitle": "Uklanjanje duplikata naredbi",
+      "dedupDesc": "Dodani su generacijski ID-ovi za sprječavanje preklapanja i zastarjelih medijskih naredbi preko WebView mosta.",
+      "queueAdvance": "Red čekanja pjesama nije automatski prelazio na sljedeću pjesmu",
+      "resumeBug": "Pauzirana pjesma se neočekivano nastavila reproducirati pri prijelazu iz prvog plana u PiP ili pozadinu",
+      "precision": "Točno izvještavanje u milisekundama za trenutnu poziciju pjesme i trajanje reprodukcije",
+      "linter": "Uklonjeno je nekoliko pogrešaka lintera razvojnog okruženja i očišćene su suvišne datoteke"
     },
     "v1_0_2": {
       "version": "v1.0.2",
-      "date": "September 9, 2026",
-      "desc": "Smarter, context-based autoplay.",
-      "autoplayContextTitle": "Context-Aware Autoplay",
-      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
-      "tieredRecsTitle": "Tiered Recommendation Engine",
-      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+      "date": "9. rujna 2026.",
+      "desc": "Pametnija, kontekstualna automatska reprodukcija.",
+      "autoplayContextTitle": "Kontekstualno svjesna automatska reprodukcija",
+      "autoplayContextDesc": "Automatska reprodukcija sada daje prednost pjesmama trenutnog izvođača prije nego što u red čekanja doda povezane izvođače.",
+      "tieredRecsTitle": "Stupnjevani mehanizam za preporuke",
+      "tieredRecsDesc": "Preporuke sada strogo koriste katalog ciljanog izvođača umjesto nejasnog pretraživanja po imenu."
     },
     "v1_0_1": {
       "version": "v1.0.1",
-      "date": "September 9, 2026",
-      "desc": "A better listening experience.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "autoplayTitle": "Autoplay",
-      "autoplayDesc": "Music keeps going with recommendations based on what you're listening to.",
-      "discoverTitle": "Discover",
-      "discoverDesc": "Find music based on your listening history, favorite artists and playlists.",
-      "tooltipsTitle": "Interactive Seekbar Tooltips",
-      "tooltipsDesc": "Added dynamic tooltips that perfectly follow your mouse cursor when hovering the player progress bar.",
-      "startup": "Faster startup",
-      "recovery": "Better playback recovery",
-      "macosMedia": "Improved macOS media controls",
-      "duplicateMedia": "Duplicate macOS media controls",
-      "stationHighlight": "Station active-track highlighting",
-      "seekbarPause": "Playback pausing/stopping unexpectedly when dragging the seekbar",
-      "bottomBar": "Bottom player bar rendering fully transparent and unreadable on macOS when playing music"
+      "date": "9. rujna 2026.",
+      "desc": "Bolje iskustvo slušanja.",
+      "new": "Novo",
+      "improved": "Poboljšano",
+      "fixed": "Popravljeno",
+      "autoplayTitle": "Automatska reprodukcija",
+      "autoplayDesc": "Glazba se nastavlja s preporukama na temelju onoga što slušate.",
+      "discoverTitle": "Otkrijte",
+      "discoverDesc": "Pronađite glazbu na temelju vaše povijesti slušanja, omiljenih izvođača i popisa za reprodukciju.",
+      "tooltipsTitle": "Interaktivni oblačići trake za traženje",
+      "tooltipsDesc": "Dodani su dinamični opisi alata koji savršeno prate pokazivač vašeg miša kada prelazite preko trake napretka svirača.",
+      "startup": "Brže pokretanje",
+      "recovery": "Bolji oporavak reprodukcije",
+      "macosMedia": "Poboljšane macOS medijske kontrole",
+      "duplicateMedia": "Duple macOS medijske kontrole",
+      "stationHighlight": "Isticanje aktivne pjesme stanice",
+      "seekbarPause": "Neočekivano pauziranje/zaustavljanje reprodukcije prilikom povlačenja trake za traženje",
+      "bottomBar": "Donja traka svirača koja je bila potpuno prozirna i nečitljiva na macOS-u prilikom reprodukcije glazbe"
     },
     "v1_0_0": {
       "version": "v1.0.0",
-      "date": "September 2026",
-      "desc": "The first release of PPPlayer.",
-      "spotify": "Spotify-powered music metadata",
-      "youtube": "YouTube-powered audio playback",
-      "playlists": "Playlists, favorites and listening history",
-      "platforms": "macOS, Windows and Linux support"
+      "date": "rujan 2026.",
+      "desc": "Prvo izdanje PPPlayera.",
+      "spotify": "Glazbeni metapodaci s pogonom na Spotify",
+      "youtube": "Audio reprodukcija s pogonom na YouTube",
+      "playlists": "Popisi za reprodukciju, favoriti i povijest slušanja",
+      "platforms": "Podrška za macOS, Windows i Linux"
     }
   },
   "support": {
-    "title": "Support",
-    "subtitle": "How can we help you?",
-    "contactTitle": "Contact Us",
-    "contactDesc": "For general inquiries, partnerships, or questions not suited for GitHub, feel free to reach out to us at contact@ppplayer.com.",
-    "githubTitle": "Community & GitHub",
-    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us in building the ultimate open-source music player.",
-    "githubBtn": "View on GitHub"
+    "title": "Podrška",
+    "subtitle": "Kako vam možemo pomoći?",
+    "contactTitle": "Kontaktirajte nas",
+    "contactDesc": "Za općenite upite, partnerstva ili pitanja koja nisu prikladna za GitHub, slobodno nam se obratite na contact@ppplayer.com.",
+    "githubTitle": "Zajednica i GitHub",
+    "githubDesc": "Istražite kod, prijavite pogrešku, predložite značajku ili doprinesite kodu i prijevodima. Pridružite nam se u izgradnji vrhunskog glazbenog playera otvorenog koda.",
+    "githubBtn": "Pogledajte na GitHubu"
   },
   "openSource": {
-    "badge": "Free & open source",
-    "title": "By the community. For the community.",
-    "desc": "PPPlayer is proudly open-source. Explore the codebase, report issues, suggest features, or contribute your own code. Every contribution makes the listening experience better for everyone.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "issues": "Report a bug",
-    "license": "MIT license"
+    "badge": "Besplatno i otvorenog koda",
+    "title": "Od zajednice. Za zajednicu.",
+    "desc": "PPPlayer je s ponosom otvorenog koda. Istražite bazu koda, prijavite probleme, predložite značajke ili doprinesite vlastitim kodom. Svaki doprinos čini iskustvo slušanja boljim za sve.",
+    "source": "Pogledaj kod na GitHubu",
+    "contribute": "Doprinesi",
+    "issues": "Prijavi grešku",
+    "license": "MIT licenca"
   },
   "blog": {
     "title": "Blog",
-    "subtitle": "News, updates, and stories from the PPPlayer team.",
-    "readMore": "Read article",
-    "minRead": "min read",
-    "publishedOn": "Published on",
-    "back": "← Back to Blog",
-    "noArticles": "No articles found for this language.",
-    "writtenBy": "By",
-    "translationUnavailable": "This article is not available in your language.",
-    "advertisements": "Advertisements",
+    "subtitle": "Vijesti, ažuriranja i priče PPPlayer tima.",
+    "readMore": "Pročitaj članak",
+    "minRead": "min. čitanja",
+    "publishedOn": "Objavljeno",
+    "back": "← Natrag na Blog",
+    "noArticles": "Nisu pronađeni članci za ovaj jezik.",
+    "writtenBy": "Napisao/la",
+    "translationUnavailable": "Ovaj članak nije dostupan na vašem jeziku.",
+    "advertisements": "Oglasi",
     "categories": {
-      "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "all": "Sve",
+      "discovery": "Otkrića",
+      "engineering": "Inženjering",
+      "community": "Zajednica",
+      "guides": "Vodiči",
+      "education": "Edukacija",
+      "product": "Proizvod"
     }
   }
 }

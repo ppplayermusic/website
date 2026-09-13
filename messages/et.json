@@ -1,491 +1,499 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Free & Open-Source Music Player",
-    "homeDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "downloadTitle": "Download PPPlayer Free",
-    "downloadDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDesc": "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "termsTitle": "Terms of Service",
-    "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "supportTitle": "Support - PPPlayer",
-    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com.",
-    "blogTitle": "Blog | PPPlayer",
-    "blogDesc": "News, updates, and stories from the PPPlayer team."
+    "homeTitle": "PPPlayer | Tasuta ja avatud lähtekoodiga muusikapleier",
+    "homeDesc": "Tasuta ja avatud lähtekoodiga muusikapleier. Kontot pole vaja. Tellimust pole. Lihtsalt kuula.",
+    "downloadTitle": "Laadi PPPlayer tasuta alla",
+    "downloadDesc": "Tasuta ja avatud lähtekoodiga muusikapleier. Kontot pole vaja. Tellimust pole. Lihtsalt kuula.",
+    "privacyTitle": "Privaatsuspoliitika",
+    "privacyDesc": "PPPlayeri privaatsuspoliitika: tasuta muusikarakendus macOS-ile, Linuxile, Windowsile, iOS-ile ja Androidile.",
+    "termsTitle": "Teenusetingimused",
+    "termsDesc": "PPPlayeri teenusetingimused: tasuta muusikarakendus macOS-ile, Linuxile, Windowsile, iOS-ile ja Androidile.",
+    "supportTitle": "Tugi - PPPlayer",
+    "supportDesc": "PPPlayer on sõltumatu avatud lähtekoodiga projekt. Vigade ja ideede jaoks kasutage GitHubi. Muude küsimuste korral saatke e-kiri aadressile contact@ppplayer.com.",
+    "blogTitle": "Ajaveeb | PPPlayer",
+    "blogDesc": "Uudised, värskendused ja lood PPPlayeri meeskonnalt."
   },
   "nav": {
-    "features": "Features",
-    "download": "Download Free",
-    "support": "Support",
-    "contribute": "Contribute",
-    "blog": "Blog"
+    "features": "Funktsioonid",
+    "download": "Laadi tasuta alla",
+    "support": "Tugi",
+    "contribute": "Panusta",
+    "blog": "Ajaveeb"
   },
   "footer": {
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "product": "Product",
-    "features": "Features",
-    "download": "Download",
-    "platforms": "Platforms",
+    "desc": "Tasuta ja avatud lähtekoodiga muusikapleier. Kontot pole vaja. Tellimust pole. Lihtsalt kuula.",
+    "product": "Toode",
+    "features": "Funktsioonid",
+    "download": "Laadi alla",
+    "platforms": "Platvormid",
     "ios": "iOS",
     "android": "Android",
     "windows": "Windows",
-    "social": "Social",
+    "social": "Sotsiaalmeedia",
     "instagram": "Instagram",
     "linkedin": "LinkedIn",
     "facebook": "Facebook",
     "github": "GitHub",
-    "legal": "Legal",
-    "privacy": "Privacy",
-    "terms": "Terms",
+    "legal": "Juriidiline",
+    "privacy": "Privaatsus",
+    "terms": "Tingimused",
     "copyright": "© {year} PPPlayer Music.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "changelog": "Changelog",
+    "source": "Vaata lähtekoodi GitHubis",
+    "contribute": "Panusta",
+    "changelog": "Muudatuste logi",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Ajaveeb"
   },
   "cookie": {
-    "title": "We value your privacy",
-    "desc": "We use cookies to analyze site traffic and enhance your experience. By clicking \"Accept\", you consent to our use of cookies.",
-    "decline": "Decline All",
-    "accept": "Accept All"
+    "title": "Hindame sinu privaatsust",
+    "desc": "Kasutame küpsiseid saidi liikluse analüüsimiseks ja sinu kogemuse parandamiseks. Klõpsates nupul \"Nõustun\", nõustud meie küpsiste kasutamisega.",
+    "decline": "Keeldu kõigist",
+    "accept": "Nõustu kõigiga"
   },
   "hero": {
-    "title1": "Music.",
-    "title2": "Without the friction.",
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "getLinux": "Get for Linux",
-    "badge": "Free & open source",
-    "source": "View source on GitHub"
+    "title1": "Muusika.",
+    "title2": "Ilma hõõrdumiseta.",
+    "desc": "Tasuta ja avatud lähtekoodiga muusikapleier. Kontot pole vaja. Tellimust pole. Lihtsalt kuula.",
+    "getIos": "Hangi iOS-ile",
+    "getAndroid": "Hangi Androidile",
+    "getMac": "Hangi Macile",
+    "getWindows": "Hangi Windowsile",
+    "getLinux": "Hangi Linuxile",
+    "badge": "Tasuta ja avatud lähtekoodiga",
+    "source": "Vaata lähtekoodi GitHubis"
   },
   "discover": {
-    "title": "Find<br></br>something<br></br>worth playing."
+    "title": "Leia<br></br>midagi<br></br>kuulamisväärset."
   },
   "artistRadio": {
-    "title": "Endless listening."
+    "title": "Lõputu kuulamine."
   },
   "goDeeper": {
-    "bgText": "FOLLOW",
-    "title": "Follow the music."
+    "bgText": "JÄLGI",
+    "title": "Jälgi muusikat."
   },
   "pressPlay": {
-    "title": "Then, just listen."
+    "title": "Seejärel lihtsalt kuula."
   },
   "featureGallery": {
-    "title": "Everything you need.",
-    "subtitle": "A beautiful, native experience built for performance.",
-    "searchTitle": "Find exactly what you want.",
-    "searchDesc": "Search globally across tracks, artists, and albums instantly.",
-    "queueTitle": "Perfectly queued.",
-    "queueDesc": "Manage what plays next with a beautiful, reorderable queue.",
-    "favTitle": "Your music, your rules.",
-    "favDesc": "Build your personal library with a single click. Always there.",
-    "contextTitle": "Native by design.",
-    "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus."
+    "title": "Kõik, mida vajad.",
+    "subtitle": "Ilus, kohalik kogemus, mis on loodud jõudluse tagamiseks.",
+    "searchTitle": "Leia täpselt see, mida soovid.",
+    "searchDesc": "Otsi globaalselt lugude, esitajate ja albumite hulgast koheselt.",
+    "queueTitle": "Täiuslikult järjekorras.",
+    "queueDesc": "Halda seda, mis järgmisena esitatakse, ilusa ja ümberjärjestatava järjekorraga.",
+    "favTitle": "Sinu muusika, sinu reeglid.",
+    "favDesc": "Ehita oma isiklik raamatukogu ühe klõpsuga. Alati seal.",
+    "contextTitle": "Loomult natiivne.",
+    "contextDesc": "Paremklõpsa kõikjal. Ilusad, kontekstiteadlikud kohalikud menüüd."
   },
   "noAccount": {
-    "title": "No account.",
-    "subtitle": "Free & open source"
+    "title": "Kontot pole vaja.",
+    "subtitle": "Tasuta ja avatud lähtekoodiga"
   },
   "platforms": {
-    "title": "Your music. Your devices.",
-    "subtitle": "Beautifully native on macOS, Linux, Windows, Android, and iOS."
+    "title": "Sinu muusika. Sinu seadmed.",
+    "subtitle": "Ilusalt kohalik opsüsteemides macOS, Linux, Windows, Android ja iOS."
   },
   "downloadCTA": {
-    "title": "Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "notAvailable": "Not available yet. Currently, only the macOS version is available for download.",
-    "notAvailableTitle": "Coming Soon",
-    "okayBtn": "Okay",
-    "getLinux": "Get for Linux",
-    "modalTitle": "Download for {platform}",
-    "modalDesc": "Choose how you want to install PPPlayer on your {platform} device.",
-    "primaryDownload": "Download",
-    "directDownload": "Direct Download",
-    "comingSoon": "Coming Soon",
-    "cancel": "Cancel",
-    "downloadFor": "Download for {platform}",
-    "os": "Operating System",
-    "arch": "Architecture",
-    "memory": "Memory",
+    "title": "Lihtsalt kuula.",
+    "getIos": "Hangi iOS-ile",
+    "getAndroid": "Hangi Androidile",
+    "getMac": "Hangi Macile",
+    "getWindows": "Hangi Windowsile",
+    "notAvailable": "Pole veel saadaval. Praegu on allalaadimiseks saadaval ainult macOS-i versioon.",
+    "notAvailableTitle": "Tulekul",
+    "okayBtn": "Olgu",
+    "getLinux": "Hangi Linuxile",
+    "modalTitle": "Laadi alla platvormile {platform}",
+    "modalDesc": "Vali, kuidas soovid PPPlayeri oma {platform} seadmesse installida.",
+    "primaryDownload": "Laadi alla",
+    "directDownload": "Otsene allalaadimine",
+    "comingSoon": "Tulekul",
+    "cancel": "Tühista",
+    "downloadFor": "Laadi alla platvormile {platform}",
+    "os": "Operatsioonisüsteem",
+    "arch": "Arhitektuur",
+    "memory": "Mälu",
     "internet": "Internet",
-    "reqStreaming": "Required for streaming",
-    "reqTitle": "{platform} Requirements",
+    "reqStreaming": "Vajalik voogesituseks",
+    "reqTitle": "{platform} nõuded",
     "reqs": {
       "macos": {
-        "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
-        "mem": "4 GB RAM (Recommended)"
+        "os": "macOS 10.15 Catalina või uuem",
+        "arch": "Apple Silicon ja Intel (universaalne)",
+        "mem": "4 GB RAM (soovitatav)"
       },
       "windows": {
-        "os": "Windows 10 or later (64-bit)",
+        "os": "Windows 10 või uuem (64-bitine)",
         "arch": "x64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (soovitatav)"
       },
       "linux": {
-        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "os": "Ubuntu 20.04 või uuem (eksperimentaalne)",
         "arch": "x86_64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (soovitatav)"
       },
       "ios": {
-        "os": "iOS 13.0 or newer",
+        "os": "iOS 13.0 või uuem",
         "arch": "ARM64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (soovitatav)"
       },
       "android": {
-        "os": "Android 7.0 (API 24) or newer",
+        "os": "Android 7.0 (API 24) või uuem",
         "arch": "ARM64 / ARM / x86_64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (soovitatav)"
       }
     }
   },
   "downloadPage": {
-    "badge": "PPPlayer 1.0 is now available",
-    "title": "Download <gradient>PPPlayer</gradient>",
-    "subtitle": "Pick your platform. Start listening in seconds.",
-    "desc": "No account required. No email. No signup. Just music.",
-    "windowsReqLabel": "Windows system requirements:",
-    "windowsReqDesc": "Windows 10 or later (64-bit). ~50 MB download. No Microsoft Store required."
+    "badge": "PPPlayer 1.0 on nüüd saadaval",
+    "title": "Laadi alla <gradient>PPPlayer</gradient>",
+    "subtitle": "Vali oma platvorm. Hakka kuulama sekunditega.",
+    "desc": "Kontot pole vaja. E-posti pole. Registreerumist pole. Lihtsalt muusika.",
+    "windowsReqLabel": "Windowsi süsteeminõuded:",
+    "windowsReqDesc": "Windows 10 või uuem (64-bitine). ~50 MB allalaadimine. Microsoft Store'i pole vaja."
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Common <gradient>questions</gradient>",
-    "subtitle": "Everything you need to know about PPPlayer.",
+    "badge": "KKK",
+    "title": "Levinud <gradient>küsimused</gradient>",
+    "subtitle": "Kõik, mida pead PPPlayeri kohta teadma.",
     "items": [
       {
-        "q": "Is PPPlayer free?",
-        "a": "Yes. PPPlayer is 100% free. No subscriptions, no in-app purchases, and no hidden costs."
+        "q": "Kas PPPlayer on tasuta?",
+        "a": "Jah. PPPlayer on 100% tasuta. Tellimusi, rakendusesiseseid oste ega varjatud kulusid pole."
       },
       {
-        "q": "Do I need to create an account?",
-        "a": "No. You do not need an email address, account, or login of any kind. Just download, open, and start listening."
+        "q": "Kas ma pean looma konto?",
+        "a": "Ei. Te ei vaja e-posti aadressi, kontot ega mingit sisselogimist. Lihtsalt laadige alla, avage ja hakake kuulama."
       },
       {
-        "q": "Is PPPlayer available for iPhone?",
-        "a": "Yes. PPPlayer is available on the App Store for iPhone and iPad."
+        "q": "Kas PPPlayer on saadaval iPhone'ile?",
+        "a": "Jah. PPPlayer on saadaval App Store'is iPhone'i ja iPadi jaoks."
       },
       {
-        "q": "Is PPPlayer available for Android?",
-        "a": "Yes. You can download PPPlayer on Google Play for Android phones and tablets."
+        "q": "Kas PPPlayer on saadaval Androidile?",
+        "a": "Jah. Saate PPPlayeri alla laadida Google Playst Android-telefonidele ja tahvelarvutitele."
       },
       {
-        "q": "Can I use PPPlayer on Windows?",
-        "a": "Yes. PPPlayer is available for Windows 10 and later as a direct download. No store required."
+        "q": "Kas ma saan PPPlayerit Windowsis kasutada?",
+        "a": "Jah. PPPlayer on saadaval Windows 10 ja uuemate versioonide jaoks otsese allalaadimisena. Poodi pole vaja."
       },
       {
-        "q": "What music features does PPPlayer offer?",
-        "a": "PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required."
+        "q": "Milliseid muusikafunktsioone PPPlayer pakub?",
+        "a": "PPPlayer sisaldab esitajate avastamist, seotud esitajaid, esitaja raadiot, esitaja esitusloendeid, žanrite avastamist ja kaunist täisekraanil pleierit. Kõik see on tasuta ja kontot pole vaja."
       },
       {
-        "q": "How do I download PPPlayer?",
-        "a": "Tap the download button for your platform on this page. The download takes less than a minute."
+        "q": "Kuidas ma PPPlayeri alla laadin?",
+        "a": "Puudutage sellel lehel oma platvormi allalaadimisnuppu. Allalaadimine võtab vähem kui minuti."
       },
       {
-        "q": "Is there a premium version?",
-        "a": "No. PPPlayer is fully free. Everything you see is available at no cost, with no account needed."
+        "q": "Kas on olemas tasuline versioon?",
+        "a": "Ei. PPPlayer on täiesti tasuta. Kõik, mida näete, on saadaval tasuta, kontot pole vaja."
       }
     ],
-    "openSourceQuestion": "Is PPPlayer open source?",
-    "openSourceAnswer": "Yes. PPPlayer is 100% open-source under the MIT license. You can use, study, modify, and share the software freely. Check out our GitHub repository to view the source code or get involved."
+    "openSourceQuestion": "Kas PPPlayer on avatud lähtekoodiga?",
+    "openSourceAnswer": "Jah. PPPlayer on MIT litsentsi all 100% avatud lähtekoodiga. Saate tarkvara vabalt kasutada, uurida, muuta ja jagada. Vaadake meie GitHubi repositooriumi lähtekoodi vaatamiseks või kaasalöömiseks."
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: April 2025",
+    "title": "Privaatsuspoliitika",
+    "lastUpdated": "Viimati uuendatud: aprill 2025",
     "sections": {
       "s1": {
-        "title": "1. Overview",
-        "p": "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explains what data we collect, why, and how it is used when you use PPPlayer on macOS, Linux, Windows, iOS, or Android."
+        "title": "1. Ülevaade",
+        "p": "PPPlayer (\"meie\", \"rakendus\") on pühendunud teie privaatsuse kaitsmisele. See poliitika selgitab, milliseid andmeid me kogume, miks ja kuidas neid kasutatakse, kui kasutate PPPlayerit opsüsteemides macOS, Linux, Windows, iOS või Android."
       },
       "s2": {
-        "title": "2. No Account Required",
-        "p": "PPPlayer does not require you to create an account. We do not collect your name, email address, or any personally identifiable information to use the app."
+        "title": "2. Kontot pole vaja",
+        "p": "PPPlayer ei nõua konto loomist. Me ei kogu rakenduse kasutamiseks teie nime, e-posti aadressi ega muud isikut tuvastavat teavet."
       },
       "s3": {
-        "title": "3. Data We Collect",
-        "p1": "We may collect the following anonymous, non-identifiable data:",
-        "li1": "Crash reports and error logs (to improve app stability)",
-        "li2": "Anonymous usage analytics (feature usage, session duration)",
-        "li3": "Device type and operating system version",
-        "p2": "We do not collect: names, emails, payment info, or precise location data."
+        "title": "3. Andmed, mida me kogume",
+        "p1": "Võime koguda järgmisi anonüümseid, isikut mittetuvastavaid andmeid:",
+        "li1": "Krahhiaruanded ja vealigid (rakenduse stabiilsuse parandamiseks)",
+        "li2": "Anonüümne kasutusanalüütika (funktsioonide kasutamine, seansi kestus)",
+        "li3": "Seadme tüüp ja operatsioonisüsteemi versioon",
+        "p2": "Me ei kogu: nimesid, e-kirju, makseteavet ega täpseid asukohaandmeid."
       },
       "s4": {
-        "title": "4. Third-Party Services",
-        "p": "PPPlayer may use third-party services for music metadata and analytics. These services have their own privacy policies. We encourage you to review them."
+        "title": "4. Kolmandate osapoolte teenused",
+        "p": "PPPlayer võib kasutada muusika metaandmete ja analüütika jaoks kolmandate osapoolte teenuseid. Nendel teenustel on oma privaatsuspoliitika. Soovitame teil need üle vaadata."
       },
       "s5": {
-        "title": "5. Data Retention",
-        "p": "Anonymous analytics data is retained for a maximum of 12 months. Crash logs are deleted after 90 days."
+        "title": "5. Andmete säilitamine",
+        "p": "Anonüümseid analüütika andmeid säilitatakse maksimaalselt 12 kuud. Krahhilogid kustutatakse 90 päeva pärast."
       },
       "s6": {
-        "title": "6. Your Rights",
-        "p": "Since we do not collect personal data, there is no personal information to access, export, or delete. If you have questions, contact us at the address below."
+        "title": "6. Teie õigused",
+        "p": "Kuna me ei kogu isikuandmeid, puudub isiklik teave, millele juurde pääseda, eksportida või kustutada. Kui teil on küsimusi, võtke meiega ühendust alltoodud aadressil."
       },
       "s7": {
-        "title": "7. Children",
-        "p": "PPPlayer is not directed at children under 13. We do not knowingly collect data from children."
+        "title": "7. Lapsed",
+        "p": "PPPlayer ei ole suunatud alla 13-aastastele lastele. Me ei kogu teadlikult andmeid lastelt."
       },
       "s8": {
-        "title": "8. Changes",
-        "p": "We may update this policy from time to time. We will note the date of the last update at the top of this page."
+        "title": "8. Muudatused",
+        "p": "Võime seda poliitikat aeg-ajalt värskendada. Märgime viimase värskenduse kuupäeva selle lehe ülaosas."
       },
       "s9": {
-        "title": "9. Contact",
-        "p": "Questions about this policy? Contact us at "
+        "title": "9. Kontakt",
+        "p": "Kas teil on selle poliitika kohta küsimusi? Võtke meiega ühendust aadressil "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← Tagasi PPPlayerisse"
   },
   "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated: September 11, 2026",
+    "title": "Teenusetingimused",
+    "lastUpdated": "Viimati uuendatud: 11. september 2026",
     "sections": {
       "s1": {
-        "title": "1. Acceptance of Terms",
-        "p": "By downloading or using PPPlayer, you agree to these Terms of Service. If you do not agree, please do not use the app."
+        "title": "1. Tingimustega nõustumine",
+        "p": "PPPlayeri alla laadides või kasutades nõustute nende teenusetingimustega. Kui te ei nõustu, ärge palun rakendust kasutage."
       },
       "s2": {
-        "title": "2. Use of the App",
-        "p": "PPPlayer is free, open-source software. Use, copying, modification, and distribution of the software are governed by the MIT license in the project repository. When using the app, you agree not to:",
-        "li1": "Remove copyright or permission notices required by the applicable software licenses",
-        "li2": "Use the app to distribute malware or harmful content",
-        "li3": "Violate any applicable laws or regulations while using the app"
+        "title": "2. Rakenduse kasutamine",
+        "p": "PPPlayer on tasuta avatud lähtekoodiga tarkvara. Tarkvara kasutamist, kopeerimist, muutmist ja levitamist reguleerib projekti repositooriumis olev MIT litsents. Rakendust kasutades nõustute mitte:",
+        "li1": "Eemaldama kohaldatavate tarkvaralitsentsidega nõutud autoriõiguse või loa teatisi",
+        "li2": "Kasutama rakendust pahavara või kahjuliku sisu levitamiseks",
+        "li3": "Rikkuma rakenduse kasutamisel kehtivaid seadusi või eeskirju"
       },
       "s3": {
-        "title": "3. No Account Required",
-        "p": "PPPlayer does not require account creation. You can use all features immediately after download."
+        "title": "3. Kontot pole vaja",
+        "p": "PPPlayer ei nõua konto loomist. Kõiki funktsioone saate kasutada kohe pärast allalaadimist."
       },
       "s4": {
-        "title": "4. Intellectual Property",
-        "p": "PPPlayer source code is available under the MIT license. Third-party dependencies retain their own licenses. Music, artwork, and metadata remain subject to their respective rights and licenses; the software license does not grant rights to that content."
+        "title": "4. Intellektuaalomand",
+        "p": "PPPlayeri lähtekood on saadaval MIT litsentsi all. Kolmandate osapoolte sõltuvused säilitavad oma litsentsid. Muusika, kunstiteosed ja metaandmed jäävad alluma nende vastavatele õigustele ja litsentsidele; tarkvaralitsents ei anna sellele sisule õigusi."
       },
       "s5": {
-        "title": "5. Disclaimer of Warranties",
-        "p": "PPPlayer is provided \"as is\" without warranty of any kind, express or implied. We do not guarantee uninterrupted service or that the app will be error-free."
+        "title": "5. Garantiidest lahtiütlemine",
+        "p": "PPPlayer on saadaval \"nagu on\" ilma igasuguse otsese või kaudse garantiita. Me ei garanteeri katkematut teenust ega seda, et rakendus on veatu."
       },
       "s6": {
-        "title": "6. Limitation of Liability",
-        "p": "To the maximum extent permitted by law, PPPlayer shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use or inability to use the app."
+        "title": "6. Vastutuse piiramine",
+        "p": "Seadusega lubatud maksimaalses ulatuses ei vastuta PPPlayer rakenduse kasutamisest või kasutamise võimatusest tulenevate kaudsete, juhuslike, eriliste ega kaudsete kahjude eest."
       },
       "s7": {
-        "title": "7. Changes to Terms",
-        "p": "We reserve the right to update these terms at any time. Continued use of the app after changes constitutes acceptance of the new terms."
+        "title": "7. Tingimuste muudatused",
+        "p": "Jätame endale õiguse neid tingimusi igal ajal värskendada. Rakenduse jätkuv kasutamine pärast muudatusi kujutab endast uute tingimustega nõustumist."
       },
       "s8": {
-        "title": "8. Contact",
-        "p": "Questions about these terms? Reach us at "
+        "title": "8. Kontakt",
+        "p": "Kas teil on nende tingimuste kohta küsimusi? Võtke meiega ühendust aadressil "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← Tagasi PPPlayerisse"
   },
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
-      "desc": "Available on the App Store for iPhone and iPad.",
+      "label": "iPhone ja iPad",
+      "desc": "Saadaval App Store'is iPhone'i ja iPadi jaoks.",
       "badge": "App Store"
     },
     "android": {
       "name": "Android",
       "label": "Android",
-      "desc": "Available on Google Play for Android phones and tablets.",
+      "desc": "Saadaval Google Plays Android-telefonide ja tahvelarvutite jaoks.",
       "badge": "Google Play"
     },
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Direct download for Windows 10 and later. No store needed.",
-      "badge": "Direct Download"
+      "desc": "Otsene allalaadimine Windows 10 ja uuemate versioonide jaoks. Poodi pole vaja.",
+      "badge": "Otsene allalaadimine"
     },
     "macos": {
       "name": "macOS",
       "label": "Mac",
-      "desc": "Direct download for macOS. Apple Silicon & Intel supported.",
-      "badge": "Direct Download"
+      "desc": "Otsene allalaadimine macOS-i jaoks. Toetatud on Apple Silicon ja Intel.",
+      "badge": "Otsene allalaadimine"
     },
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Direct download for Linux. AppImage supported.",
-      "badge": "Direct Download"
+      "desc": "Otsene allalaadimine Linuxi jaoks. Toetatud on AppImage.",
+      "badge": "Otsene allalaadimine"
     }
   },
   "changelog": {
-    "title": "Changelog",
-    "subtitle": "What's new in PPPlayer.",
-    "back": "← Back to PPPlayer",
+    "title": "Muudatuste logi",
+    "subtitle": "Mis on uut PPPlayeris.",
+    "v1_3_0": {
+      "version": "1.3.0",
+      "date": "13. september 2026",
+      "desc": "See väljalase toob PPPlayeri veelgi laiema ülemaailmse publikuni.",
+      "added": "Lisatud",
+      "localizationTitle": "Täiendavad keeled",
+      "localizationDesc": "Lisatud on lokaliseerimised Nigeeria pidžini, filipiini, läti, bengali, horvaadi, malai, pärsia ja eesti keelele."
+    },
+    "back": "← Tagasi PPPlayerisse",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "12. september 2026",
+      "desc": "Laiendatud lokaliseerimise tugi 10 uue keelega.",
+      "added": "Lisatud",
+      "fixed": "Parandatud",
+      "lang10Title": "10 uut keelt",
+      "lang10Desc": "Lisatud on täielik tugi indoneesia, birma, poola, taani, kasahhi, tšehhi, ungari, gruusia, rootsi ja usbeki keelele."
     },
     "v1_1_2": {
       "version": "v1.1.2",
-      "date": "September 12, 2026",
-      "desc": "Added Arabic and Chinese localizations and fixed macOS resizing bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "localizationTitle": "Localization Expansion",
-      "localizationDesc": "Added Arabic and Chinese (Simplified & Traditional) localizations.",
-      "layoutTitle": "macOS Layout Fix",
-      "layoutDesc": "Fixed an issue on macOS where the YouTube video player would shift off-center when resizing the application window."
+      "date": "12. september 2026",
+      "desc": "Lisati araabia ja hiina lokaliseerimine ning parandati macOS-i suuruse muutmise vead.",
+      "added": "Lisatud",
+      "fixed": "Parandatud",
+      "localizationTitle": "Lokaliseerimise laiendamine",
+      "localizationDesc": "Lisatud on araabia ja hiina (lihtsustatud ja traditsioonilise) lokaliseerimine.",
+      "layoutTitle": "macOS-i paigutuse parandus",
+      "layoutDesc": "Parandatud on macOS-i probleem, mille korral YouTube'i videopleier nihkus rakenduse akna suuruse muutmisel keskelt välja."
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "date": "12. september 2026",
+      "desc": "Parandati taasesituse vead ja lihviti otsinguriba rakenduse käivitamisel.",
+      "fixed": "Parandatud",
+      "snapTitle": "Käivitamise otsinguriba viga",
+      "snapDesc": "Parandatud on probleem, mille korral otsinguriba hüppas kohe pärast rakenduse käivitamist lohistamisel koheselt algasendisse.",
+      "durationTitle": "Puuduv kestus",
+      "durationDesc": "Parandatud on otsinguriba, mis näitab rakenduse esmakordsel käivitamisel kestust 0:00."
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "date": "11. september 2026",
+      "desc": "Terviklik rahvusvahelistumine ja lokaliseerimine kogu rakenduses ja veebisaidil.",
+      "new": "Lisatud",
+      "langTitle": "11 ülemaailmset keelt",
+      "langDesc": "Lisatud on täielik tugi hispaania, prantsuse, saksa, portugali, itaalia, jaapani, korea, hiina, hindi, vene ja araabia keelele.",
+      "pickerTitle": "Rakendusesisene keelevalija",
+      "pickerDesc": "Eelistuste menüüsse on lisatud rakendusesisene keelevalija, mis rakendab tõlkeid koheselt ilma rakendust taaskäivitamata.",
+      "osTitle": "Operatsioonisüsteemi tasemel integreerimine",
+      "osDesc": "Looduslikud OS-taseme keeleintegratsioonid Android 13+ ja iOS-is rakenduse keele automaatseks sünkroonimiseks."
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "date": "11. september 2026",
+      "desc": "Kuum parandus uutele installidele.",
+      "fixed": "Parandatud",
+      "crashTitle": "Käivitamise krahhi parandus",
+      "crashDesc": "Parandati kriitiline viga, mis põhjustas rakenduse krahhi tühjal ekraanil uutel installidel puuduva keskkonna konfiguratsioonifaili tõttu."
     },
     "v1_0_5": {
       "version": "v1.0.5",
-      "date": "September 11, 2026",
-      "desc": "Seamless background playback on macOS.",
-      "new": "New",
-      "fixed": "Fixed",
-      "appNapTitle": "Gapless Background Playback",
-      "appNapDesc": "Prevented macOS App Nap from aggressively suspending the player when minimized, allowing the queue to continue uninterrupted."
+      "date": "11. september 2026",
+      "desc": "Sujuv taasesitus taustal operatsioonisüsteemis macOS.",
+      "new": "Uus",
+      "fixed": "Parandatud",
+      "appNapTitle": "Katkestusteta taasesitus taustal",
+      "appNapDesc": "Välditi seda, et macOS-i App Nap peataks pleieri agressiivselt minimeerimisel, võimaldades järjekorral katkematult jätkuda."
     },
     "v1_0_4": {
       "version": "v1.0.4",
-      "date": "September 11, 2026",
-      "desc": "Automated releases and code signing.",
-      "new": "New",
-      "fixed": "Fixed",
-      "ciTitle": "Automated Release Pipeline",
-      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
-      "signedTitle": "Signed macOS Releases",
-      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
-      "licenseTitle": "Open Source License",
-      "licenseDesc": "Added MIT License to the repository.",
-      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+      "date": "11. september 2026",
+      "desc": "Automatiseeritud väljalasked ja koodi allkirjastamine.",
+      "new": "Uus",
+      "fixed": "Parandatud",
+      "ciTitle": "Automatiseeritud väljalaske torujuhe",
+      "ciDesc": "GitHub Actionsi töövoog järjepidevateks järkudeks ja macOS-i koodi allkirjastamiseks.",
+      "signedTitle": "Allkirjastatud macOS-i väljalasked",
+      "signedDesc": "Ametlikud allkirjastatud ja notariaalselt kinnitatud macOS-i väljalasked on nüüd saadaval otse veebisaidil.",
+      "licenseTitle": "Avatud lähtekoodiga litsents",
+      "licenseDesc": "Hoidlasse lisati MIT litsents.",
+      "submoduleFix": "Parandatud alammooduli väljaregistreerimise konfiguratsioon CI töövoogudes"
     },
     "v1_0_3": {
       "version": "v1.0.3",
-      "date": "September 10, 2026",
-      "desc": "Background playback and stability.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "hybridEngineTitle": "Hybrid Playback Engine",
-      "hybridEngineDesc": "Robust background processing and lock-screen playback capabilities.",
-      "dedupTitle": "Command Deduplication",
-      "dedupDesc": "Added generation IDs to prevent overlapping and stale media commands across WebView bridge.",
-      "queueAdvance": "Song queue not automatically advancing to the next track",
-      "resumeBug": "Paused track unexpectedly resuming when handing off from foreground to PiP or background",
-      "precision": "Accurate millisecond precision reporting for current track position and playback duration",
-      "linter": "Eliminated several IDE linter errors and cleaned up redundant files"
+      "date": "10. september 2026",
+      "desc": "Taasesitus taustal ja stabiilsus.",
+      "new": "Uus",
+      "improved": "Täiustatud",
+      "fixed": "Parandatud",
+      "hybridEngineTitle": "Hübriidne taasesituse mootor",
+      "hybridEngineDesc": "Tugevad taustatöötluse ja lukustusekraanil taasesituse võimalused.",
+      "dedupTitle": "Käskude dubleerimise eemaldamine",
+      "dedupDesc": "Lisatud on põlvkonna ID-d, et vältida WebView silla kaudu kattuvaid ja vananenud meediakäske.",
+      "queueAdvance": "Lugude järjekord ei liigu automaatselt järgmise loo juurde",
+      "resumeBug": "Pausitud lugu jätkub ootamatult, kui see antakse esiplaani esituselt üle PiP-le või taustale",
+      "precision": "Praeguse loo asukoha ja taasesituse kestuse täpne millisekundi täpsusega aruandlus",
+      "linter": "Kõrvaldati mitmed IDE linteri vead ja puhastati üleliigsed failid"
     },
     "v1_0_2": {
       "version": "v1.0.2",
-      "date": "September 9, 2026",
-      "desc": "Smarter, context-based autoplay.",
-      "autoplayContextTitle": "Context-Aware Autoplay",
-      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
-      "tieredRecsTitle": "Tiered Recommendation Engine",
-      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+      "date": "9. september 2026",
+      "desc": "Nutikam ja kontekstipõhine automaatne esitamine.",
+      "autoplayContextTitle": "Kontekstiteadlik automaatne esitamine",
+      "autoplayContextDesc": "Automaatne esitamine seab nüüd prioriteediks praeguse esitaja lood, enne kui lisab järjekorda seotud esitajaid.",
+      "tieredRecsTitle": "Kihiline soovitusmootor",
+      "tieredRecsDesc": "Soovitused kasutavad nüüd nime järgi häguse otsingu asemel rangelt sihtesitaja kataloogi."
     },
     "v1_0_1": {
       "version": "v1.0.1",
-      "date": "September 9, 2026",
-      "desc": "A better listening experience.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "autoplayTitle": "Autoplay",
-      "autoplayDesc": "Music keeps going with recommendations based on what you're listening to.",
-      "discoverTitle": "Discover",
-      "discoverDesc": "Find music based on your listening history, favorite artists and playlists.",
-      "tooltipsTitle": "Interactive Seekbar Tooltips",
-      "tooltipsDesc": "Added dynamic tooltips that perfectly follow your mouse cursor when hovering the player progress bar.",
-      "startup": "Faster startup",
-      "recovery": "Better playback recovery",
-      "macosMedia": "Improved macOS media controls",
-      "duplicateMedia": "Duplicate macOS media controls",
-      "stationHighlight": "Station active-track highlighting",
-      "seekbarPause": "Playback pausing/stopping unexpectedly when dragging the seekbar",
-      "bottomBar": "Bottom player bar rendering fully transparent and unreadable on macOS when playing music"
+      "date": "9. september 2026",
+      "desc": "Parem kuulamiskogemus.",
+      "new": "Uus",
+      "improved": "Täiustatud",
+      "fixed": "Parandatud",
+      "autoplayTitle": "Automaatne esitamine",
+      "autoplayDesc": "Muusika jätkub koos soovitustega, mis põhinevad sellel, mida te kuulate.",
+      "discoverTitle": "Avastage",
+      "discoverDesc": "Otsige muusikat oma kuulamisajaloo, lemmikesitajate ja esitusloendite põhjal.",
+      "tooltipsTitle": "Otsinguriba interaktiivsed kohtspikrid",
+      "tooltipsDesc": "Lisatud dünaamilised kohtspikrid, mis järgivad pleieri edenemisriba kohal hõljutades suurepäraselt hiirekursorit.",
+      "startup": "Kiirem käivitamine",
+      "recovery": "Parem taasesituse taastamine",
+      "macosMedia": "Täiustatud macOS-i meediumijuhtelemendid",
+      "duplicateMedia": "Dubleeeritud macOS-i meediumijuhtelemendid",
+      "stationHighlight": "Jaama aktiivse loo esiletõstmine",
+      "seekbarPause": "Taasesituse ootamatu peatumine otsinguriba lohistamisel",
+      "bottomBar": "Alumine pleieririba muutub macOS-is muusika esitamisel täielikult läbipaistvaks ja loetamatuks"
     },
     "v1_0_0": {
       "version": "v1.0.0",
       "date": "September 2026",
-      "desc": "The first release of PPPlayer.",
-      "spotify": "Spotify-powered music metadata",
-      "youtube": "YouTube-powered audio playback",
-      "playlists": "Playlists, favorites and listening history",
-      "platforms": "macOS, Windows and Linux support"
+      "desc": "PPPlayeri esimene väljalase.",
+      "spotify": "Spotify toega muusika metaandmed",
+      "youtube": "YouTube'i toega heli taasesitus",
+      "playlists": "Esitusloendid, lemmikud ja kuulamisajalugu",
+      "platforms": "macOS, Windowsi ja Linuxi tugi"
     }
   },
   "support": {
-    "title": "Support",
-    "subtitle": "How can we help you?",
-    "contactTitle": "Contact Us",
-    "contactDesc": "For general inquiries, partnerships, or questions not suited for GitHub, feel free to reach out to us at contact@ppplayer.com.",
-    "githubTitle": "Community & GitHub",
-    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us in building the ultimate open-source music player.",
-    "githubBtn": "View on GitHub"
+    "title": "Tugi",
+    "subtitle": "Kuidas saame teid aidata?",
+    "contactTitle": "Võta meiega ühendust",
+    "contactDesc": "Üldiste päringute, partnerluste või küsimuste korral, mis ei sobi GitHubi jaoks, võtke meiega julgelt ühendust aadressil contact@ppplayer.com.",
+    "githubTitle": "Kogukond ja GitHub",
+    "githubDesc": "Uurige koodi, teatage veast, soovitage funktsiooni või andke oma panus koodi ja tõlgetesse. Liituge meiega parima avatud lähtekoodiga muusikapleieri ehitamisel.",
+    "githubBtn": "Vaata GitHubis"
   },
   "openSource": {
-    "badge": "Free & open source",
-    "title": "By the community. For the community.",
-    "desc": "PPPlayer is proudly open-source. Explore the codebase, report issues, suggest features, or contribute your own code. Every contribution makes the listening experience better for everyone.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "issues": "Report a bug",
-    "license": "MIT license"
+    "badge": "Tasuta ja avatud lähtekoodiga",
+    "title": "Kogukonnalt. Kogukonnale.",
+    "desc": "PPPlayer on uhkusega avatud lähtekoodiga. Uurige koodibaasi, teatage probleemidest, soovitage funktsioone või andke oma kood. Iga panus muudab kuulamiskogemuse kõigi jaoks paremaks.",
+    "source": "Vaata lähtekoodi GitHubis",
+    "contribute": "Panusta",
+    "issues": "Teavita veast",
+    "license": "MIT litsents"
   },
   "blog": {
-    "title": "Blog",
-    "subtitle": "News, updates, and stories from the PPPlayer team.",
-    "readMore": "Read article",
-    "minRead": "min read",
-    "publishedOn": "Published on",
-    "back": "← Back to Blog",
-    "noArticles": "No articles found for this language.",
-    "writtenBy": "By",
-    "translationUnavailable": "This article is not available in your language.",
-    "advertisements": "Advertisements",
+    "title": "Ajaveeb",
+    "subtitle": "Uudised, värskendused ja lood PPPlayeri meeskonnalt.",
+    "readMore": "Loe artiklit",
+    "minRead": "min lugemist",
+    "publishedOn": "Avaldatud",
+    "back": "← Tagasi ajaveebi",
+    "noArticles": "Selles keeles artikleid ei leitud.",
+    "writtenBy": "Autor:",
+    "translationUnavailable": "See artikkel pole sinu keeles saadaval.",
+    "advertisements": "Reklaamid",
     "categories": {
-      "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "all": "Kõik",
+      "discovery": "Avastus",
+      "engineering": "Tehnika",
+      "community": "Kogukond",
+      "guides": "Juhendid",
+      "education": "Haridus",
+      "product": "Toode"
     }
   }
 }

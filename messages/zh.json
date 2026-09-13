@@ -319,6 +319,14 @@
   "changelog": {
     "title": "更新日志",
     "subtitle": "PPPlayer 的最新动态。",
+    "v1_3_0": {
+      "version": "1.3.0",
+      "date": "September 13, 2026",
+      "desc": "This release brings PPPlayer to an even wider global audience.",
+      "added": "Added",
+      "localizationTitle": "Additional Languages",
+      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+    },
     "back": "← 返回 PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",

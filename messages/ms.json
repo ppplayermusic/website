@@ -1,491 +1,499 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Free & Open-Source Music Player",
-    "homeDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "downloadTitle": "Download PPPlayer Free",
-    "downloadDesc": "A free, open-source music player. No account. No subscription. Just play.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDesc": "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "termsTitle": "Terms of Service",
-    "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
-    "supportTitle": "Support - PPPlayer",
-    "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com.",
+    "homeTitle": "PPPlayer | Pemain Muzik Sumber Terbuka & Percuma",
+    "homeDesc": "Pemain muzik sumber terbuka dan percuma. Tiada akaun. Tiada langganan. Hanya main.",
+    "downloadTitle": "Muat Turun PPPlayer Percuma",
+    "downloadDesc": "Pemain muzik sumber terbuka dan percuma. Tiada akaun. Tiada langganan. Hanya main.",
+    "privacyTitle": "Dasar Privasi",
+    "privacyDesc": "Dasar Privasi untuk PPPlayer: apl muzik percuma untuk macOS, Linux, Windows, iOS, dan Android.",
+    "termsTitle": "Syarat Perkhidmatan",
+    "termsDesc": "Syarat Perkhidmatan untuk PPPlayer: apl muzik percuma untuk macOS, Linux, Windows, iOS, dan Android.",
+    "supportTitle": "Sokongan - PPPlayer",
+    "supportDesc": "PPPlayer ialah projek sumber terbuka bebas. Untuk pepijat dan idea ciri, gunakan GitHub. Untuk soalan lain, e-mel contact@ppplayer.com.",
     "blogTitle": "Blog | PPPlayer",
-    "blogDesc": "News, updates, and stories from the PPPlayer team."
+    "blogDesc": "Berita, kemas kini dan cerita dari pasukan PPPlayer."
   },
   "nav": {
-    "features": "Features",
-    "download": "Download Free",
-    "support": "Support",
-    "contribute": "Contribute",
+    "features": "Ciri-ciri",
+    "download": "Muat Turun Percuma",
+    "support": "Sokongan",
+    "contribute": "Sumbang",
     "blog": "Blog"
   },
   "footer": {
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "product": "Product",
-    "features": "Features",
-    "download": "Download",
-    "platforms": "Platforms",
+    "desc": "Pemain muzik sumber terbuka dan percuma. Tiada akaun. Tiada langganan. Hanya main.",
+    "product": "Produk",
+    "features": "Ciri-ciri",
+    "download": "Muat Turun",
+    "platforms": "Platform",
     "ios": "iOS",
     "android": "Android",
     "windows": "Windows",
-    "social": "Social",
+    "social": "Sosial",
     "instagram": "Instagram",
     "linkedin": "LinkedIn",
     "facebook": "Facebook",
     "github": "GitHub",
-    "legal": "Legal",
-    "privacy": "Privacy",
-    "terms": "Terms",
+    "legal": "Undang-undang",
+    "privacy": "Privasi",
+    "terms": "Syarat",
     "copyright": "© {year} PPPlayer Music.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "changelog": "Changelog",
+    "source": "Lihat sumber di GitHub",
+    "contribute": "Sumbang",
+    "changelog": "Log perubahan",
     "linux": "Linux",
     "blog": "Blog"
   },
   "cookie": {
-    "title": "We value your privacy",
-    "desc": "We use cookies to analyze site traffic and enhance your experience. By clicking \"Accept\", you consent to our use of cookies.",
-    "decline": "Decline All",
-    "accept": "Accept All"
+    "title": "Kami menghargai privasi anda",
+    "desc": "Kami menggunakan kuki untuk menganalisis trafik tapak dan meningkatkan pengalaman anda. Dengan mengklik \"Terima\", anda bersetuju dengan penggunaan kuki kami.",
+    "decline": "Tolak Semua",
+    "accept": "Terima Semua"
   },
   "hero": {
-    "title1": "Music.",
-    "title2": "Without the friction.",
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "getLinux": "Get for Linux",
-    "badge": "Free & open source",
-    "source": "View source on GitHub"
+    "title1": "Muzik.",
+    "title2": "Tanpa gangguan.",
+    "desc": "Pemain muzik sumber terbuka dan percuma. Tiada akaun. Tiada langganan. Hanya main.",
+    "getIos": "Dapatkan untuk iOS",
+    "getAndroid": "Dapatkan untuk Android",
+    "getMac": "Dapatkan untuk Mac",
+    "getWindows": "Dapatkan untuk Windows",
+    "getLinux": "Dapatkan untuk Linux",
+    "badge": "Percuma & sumber terbuka",
+    "source": "Lihat sumber di GitHub"
   },
   "discover": {
-    "title": "Find<br></br>something<br></br>worth playing."
+    "title": "Cari<br></br>sesuatu<br></br>yang berbaloi untuk dimainkan."
   },
   "artistRadio": {
-    "title": "Endless listening."
+    "title": "Pendengaran tanpa henti."
   },
   "goDeeper": {
-    "bgText": "FOLLOW",
-    "title": "Follow the music."
+    "bgText": "IKUTI",
+    "title": "Ikuti muzik."
   },
   "pressPlay": {
-    "title": "Then, just listen."
+    "title": "Kemudian, hanya dengar."
   },
   "featureGallery": {
-    "title": "Everything you need.",
-    "subtitle": "A beautiful, native experience built for performance.",
-    "searchTitle": "Find exactly what you want.",
-    "searchDesc": "Search globally across tracks, artists, and albums instantly.",
-    "queueTitle": "Perfectly queued.",
-    "queueDesc": "Manage what plays next with a beautiful, reorderable queue.",
-    "favTitle": "Your music, your rules.",
-    "favDesc": "Build your personal library with a single click. Always there.",
-    "contextTitle": "Native by design.",
-    "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus."
+    "title": "Semua yang anda perlukan.",
+    "subtitle": "Pengalaman asli yang indah dibina untuk prestasi.",
+    "searchTitle": "Cari apa yang anda mahukan.",
+    "searchDesc": "Cari secara global merentas lagu, artis, dan album dengan serta-merta.",
+    "queueTitle": "Beratur dengan sempurna.",
+    "queueDesc": "Urus apa yang dimainkan seterusnya dengan giliran yang indah dan boleh disusun semula.",
+    "favTitle": "Muzik anda, peraturan anda.",
+    "favDesc": "Bina pustaka peribadi anda dengan satu klik. Sentiasa ada di sana.",
+    "contextTitle": "Asli mengikut reka bentuk.",
+    "contextDesc": "Klik kanan di mana-mana sahaja. Menu asli yang indah dan peka konteks."
   },
   "noAccount": {
-    "title": "No account.",
-    "subtitle": "Free & open source"
+    "title": "Tiada akaun.",
+    "subtitle": "Percuma & sumber terbuka"
   },
   "platforms": {
-    "title": "Your music. Your devices.",
-    "subtitle": "Beautifully native on macOS, Linux, Windows, Android, and iOS."
+    "title": "Muzik anda. Peranti anda.",
+    "subtitle": "Sangat asli pada macOS, Linux, Windows, Android, dan iOS."
   },
   "downloadCTA": {
-    "title": "Just play.",
-    "getIos": "Get for iOS",
-    "getAndroid": "Get for Android",
-    "getMac": "Get for Mac",
-    "getWindows": "Get for Windows",
-    "notAvailable": "Not available yet. Currently, only the macOS version is available for download.",
-    "notAvailableTitle": "Coming Soon",
+    "title": "Hanya main.",
+    "getIos": "Dapatkan untuk iOS",
+    "getAndroid": "Dapatkan untuk Android",
+    "getMac": "Dapatkan untuk Mac",
+    "getWindows": "Dapatkan untuk Windows",
+    "notAvailable": "Belum tersedia. Buat masa ini, hanya versi macOS yang tersedia untuk dimuat turun.",
+    "notAvailableTitle": "Akan Datang",
     "okayBtn": "Okay",
-    "getLinux": "Get for Linux",
-    "modalTitle": "Download for {platform}",
-    "modalDesc": "Choose how you want to install PPPlayer on your {platform} device.",
-    "primaryDownload": "Download",
-    "directDownload": "Direct Download",
-    "comingSoon": "Coming Soon",
-    "cancel": "Cancel",
-    "downloadFor": "Download for {platform}",
-    "os": "Operating System",
-    "arch": "Architecture",
-    "memory": "Memory",
+    "getLinux": "Dapatkan untuk Linux",
+    "modalTitle": "Muat Turun untuk {platform}",
+    "modalDesc": "Pilih bagaimana anda mahu memasang PPPlayer pada peranti {platform} anda.",
+    "primaryDownload": "Muat Turun",
+    "directDownload": "Muat Turun Terus",
+    "comingSoon": "Akan Datang",
+    "cancel": "Batal",
+    "downloadFor": "Muat turun untuk {platform}",
+    "os": "Sistem Operasi",
+    "arch": "Senibina",
+    "memory": "Memori",
     "internet": "Internet",
-    "reqStreaming": "Required for streaming",
-    "reqTitle": "{platform} Requirements",
+    "reqStreaming": "Diperlukan untuk penstriman",
+    "reqTitle": "Keperluan {platform}",
     "reqs": {
       "macos": {
-        "os": "macOS 10.15 Catalina or newer",
+        "os": "macOS 10.15 Catalina atau lebih baru",
         "arch": "Apple Silicon & Intel (Universal)",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Disyorkan)"
       },
       "windows": {
-        "os": "Windows 10 or later (64-bit)",
+        "os": "Windows 10 atau lebih baru (64-bit)",
         "arch": "x64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Disyorkan)"
       },
       "linux": {
-        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "os": "Ubuntu 20.04 atau lebih baru (Eksperimen)",
         "arch": "x86_64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Disyorkan)"
       },
       "ios": {
-        "os": "iOS 13.0 or newer",
+        "os": "iOS 13.0 atau lebih baru",
         "arch": "ARM64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (Disyorkan)"
       },
       "android": {
-        "os": "Android 7.0 (API 24) or newer",
+        "os": "Android 7.0 (API 24) atau lebih baru",
         "arch": "ARM64 / ARM / x86_64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (Disyorkan)"
       }
     }
   },
   "downloadPage": {
-    "badge": "PPPlayer 1.0 is now available",
-    "title": "Download <gradient>PPPlayer</gradient>",
-    "subtitle": "Pick your platform. Start listening in seconds.",
-    "desc": "No account required. No email. No signup. Just music.",
-    "windowsReqLabel": "Windows system requirements:",
-    "windowsReqDesc": "Windows 10 or later (64-bit). ~50 MB download. No Microsoft Store required."
+    "badge": "PPPlayer 1.0 kini tersedia",
+    "title": "Muat Turun <gradient>PPPlayer</gradient>",
+    "subtitle": "Pilih platform anda. Mula mendengar dalam beberapa saat.",
+    "desc": "Tiada akaun diperlukan. Tiada e-mel. Tiada pendaftaran. Hanya muzik.",
+    "windowsReqLabel": "Keperluan sistem Windows:",
+    "windowsReqDesc": "Windows 10 atau lebih baru (64-bit). ~50 MB muat turun. Microsoft Store tidak diperlukan."
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Common <gradient>questions</gradient>",
-    "subtitle": "Everything you need to know about PPPlayer.",
+    "badge": "Soalan Lazim",
+    "title": "Soalan <gradient>lazim</gradient>",
+    "subtitle": "Segala yang anda perlu ketahui tentang PPPlayer.",
     "items": [
       {
-        "q": "Is PPPlayer free?",
-        "a": "Yes. PPPlayer is 100% free. No subscriptions, no in-app purchases, and no hidden costs."
+        "q": "Adakah PPPlayer percuma?",
+        "a": "Ya. PPPlayer adalah 100% percuma. Tiada langganan, tiada pembelian dalam apl, dan tiada kos tersembunyi."
       },
       {
-        "q": "Do I need to create an account?",
-        "a": "No. You do not need an email address, account, or login of any kind. Just download, open, and start listening."
+        "q": "Adakah saya perlu membuat akaun?",
+        "a": "Tidak. Anda tidak memerlukan alamat e-mel, akaun, atau log masuk dalam apa jua bentuk. Hanya muat turun, buka, dan mula mendengar."
       },
       {
-        "q": "Is PPPlayer available for iPhone?",
-        "a": "Yes. PPPlayer is available on the App Store for iPhone and iPad."
+        "q": "Adakah PPPlayer tersedia untuk iPhone?",
+        "a": "Ya. PPPlayer tersedia di App Store untuk iPhone dan iPad."
       },
       {
-        "q": "Is PPPlayer available for Android?",
-        "a": "Yes. You can download PPPlayer on Google Play for Android phones and tablets."
+        "q": "Adakah PPPlayer tersedia untuk Android?",
+        "a": "Ya. Anda boleh memuat turun PPPlayer di Google Play untuk telefon dan tablet Android."
       },
       {
-        "q": "Can I use PPPlayer on Windows?",
-        "a": "Yes. PPPlayer is available for Windows 10 and later as a direct download. No store required."
+        "q": "Bolehkah saya menggunakan PPPlayer di Windows?",
+        "a": "Ya. PPPlayer tersedia untuk Windows 10 dan lebih baru sebagai muat turun terus. Tiada gedung diperlukan."
       },
       {
-        "q": "What music features does PPPlayer offer?",
-        "a": "PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required."
+        "q": "Apakah ciri muzik yang ditawarkan oleh PPPlayer?",
+        "a": "PPPlayer merangkumi penemuan artis, artis berkaitan, radio artis, senarai main artis, penerokaan genre, dan pemain skrin penuh yang indah. Semuanya percuma, dan tiada akaun diperlukan."
       },
       {
-        "q": "How do I download PPPlayer?",
-        "a": "Tap the download button for your platform on this page. The download takes less than a minute."
+        "q": "Bagaimanakah cara untuk memuat turun PPPlayer?",
+        "a": "Ketik butang muat turun untuk platform anda pada halaman ini. Muat turun mengambil masa kurang dari seminit."
       },
       {
-        "q": "Is there a premium version?",
-        "a": "No. PPPlayer is fully free. Everything you see is available at no cost, with no account needed."
+        "q": "Adakah terdapat versi premium?",
+        "a": "Tidak. PPPlayer sepenuhnya percuma. Segala yang anda lihat tersedia tanpa kos, dengan tiada akaun diperlukan."
       }
     ],
-    "openSourceQuestion": "Is PPPlayer open source?",
-    "openSourceAnswer": "Yes. PPPlayer is 100% open-source under the MIT license. You can use, study, modify, and share the software freely. Check out our GitHub repository to view the source code or get involved."
+    "openSourceQuestion": "Adakah PPPlayer sumber terbuka?",
+    "openSourceAnswer": "Ya. PPPlayer adalah 100% sumber terbuka di bawah lesen MIT. Anda boleh menggunakan, mengkaji, mengubah suai dan berkongsi perisian ini secara bebas. Lihat repositori GitHub kami untuk melihat kod sumber atau melibatkan diri."
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: April 2025",
+    "title": "Dasar Privasi",
+    "lastUpdated": "Kemas kini terakhir: April 2025",
     "sections": {
       "s1": {
-        "title": "1. Overview",
-        "p": "PPPlayer (\"we\", \"our\", \"the app\") is committed to protecting your privacy. This policy explains what data we collect, why, and how it is used when you use PPPlayer on macOS, Linux, Windows, iOS, or Android."
+        "title": "1. Gambaran Keseluruhan",
+        "p": "PPPlayer (\"kami\", \"apl\") komited untuk melindungi privasi anda. Dasar ini menerangkan data yang kami kumpulkan, mengapa, dan bagaimana ia digunakan apabila anda menggunakan PPPlayer pada macOS, Linux, Windows, iOS, atau Android."
       },
       "s2": {
-        "title": "2. No Account Required",
-        "p": "PPPlayer does not require you to create an account. We do not collect your name, email address, or any personally identifiable information to use the app."
+        "title": "2. Tiada Akaun Diperlukan",
+        "p": "PPPlayer tidak menghendaki anda membuat akaun. Kami tidak mengumpulkan nama, alamat e-mel, atau sebarang maklumat peribadi yang boleh dikenal pasti untuk menggunakan apl."
       },
       "s3": {
-        "title": "3. Data We Collect",
-        "p1": "We may collect the following anonymous, non-identifiable data:",
-        "li1": "Crash reports and error logs (to improve app stability)",
-        "li2": "Anonymous usage analytics (feature usage, session duration)",
-        "li3": "Device type and operating system version",
-        "p2": "We do not collect: names, emails, payment info, or precise location data."
+        "title": "3. Data yang Kami Kumpul",
+        "p1": "Kami mungkin mengumpulkan data tanpa nama, yang tidak boleh dikenal pasti seperti berikut:",
+        "li1": "Laporan ranap dan log ralat (untuk meningkatkan kestabilan apl)",
+        "li2": "Analitik penggunaan tanpa nama (penggunaan ciri, tempoh sesi)",
+        "li3": "Jenis peranti dan versi sistem operasi",
+        "p2": "Kami tidak mengumpul: nama, e-mel, maklumat pembayaran, atau data lokasi yang tepat."
       },
       "s4": {
-        "title": "4. Third-Party Services",
-        "p": "PPPlayer may use third-party services for music metadata and analytics. These services have their own privacy policies. We encourage you to review them."
+        "title": "4. Perkhidmatan Pihak Ketiga",
+        "p": "PPPlayer mungkin menggunakan perkhidmatan pihak ketiga untuk metadata muzik dan analitik. Perkhidmatan ini mempunyai dasar privasi mereka sendiri. Kami menggalakkan anda untuk menyemaknya."
       },
       "s5": {
-        "title": "5. Data Retention",
-        "p": "Anonymous analytics data is retained for a maximum of 12 months. Crash logs are deleted after 90 days."
+        "title": "5. Pengekalan Data",
+        "p": "Data analitik tanpa nama disimpan selama maksimum 12 bulan. Log ranap dipadamkan selepas 90 hari."
       },
       "s6": {
-        "title": "6. Your Rights",
-        "p": "Since we do not collect personal data, there is no personal information to access, export, or delete. If you have questions, contact us at the address below."
+        "title": "6. Hak Anda",
+        "p": "Oleh kerana kami tidak mengumpulkan data peribadi, tiada maklumat peribadi untuk diakses, dieksport, atau dipadamkan. Jika anda mempunyai soalan, hubungi kami di alamat di bawah."
       },
       "s7": {
-        "title": "7. Children",
-        "p": "PPPlayer is not directed at children under 13. We do not knowingly collect data from children."
+        "title": "7. Kanak-kanak",
+        "p": "PPPlayer tidak ditujukan kepada kanak-kanak di bawah umur 13 tahun. Kami tidak mengumpulkan data dari kanak-kanak secara sedar."
       },
       "s8": {
-        "title": "8. Changes",
-        "p": "We may update this policy from time to time. We will note the date of the last update at the top of this page."
+        "title": "8. Perubahan",
+        "p": "Kami mungkin mengemas kini dasar ini dari semasa ke semasa. Kami akan mencatatkan tarikh kemas kini terakhir di bahagian atas halaman ini."
       },
       "s9": {
-        "title": "9. Contact",
-        "p": "Questions about this policy? Contact us at "
+        "title": "9. Kenalan",
+        "p": "Soalan mengenai dasar ini? Hubungi kami di "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← Kembali ke PPPlayer"
   },
   "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated: September 11, 2026",
+    "title": "Syarat Perkhidmatan",
+    "lastUpdated": "Kemas kini terakhir: 11 September 2026",
     "sections": {
       "s1": {
-        "title": "1. Acceptance of Terms",
-        "p": "By downloading or using PPPlayer, you agree to these Terms of Service. If you do not agree, please do not use the app."
+        "title": "1. Penerimaan Syarat",
+        "p": "Dengan memuat turun atau menggunakan PPPlayer, anda bersetuju dengan Syarat Perkhidmatan ini. Jika anda tidak bersetuju, sila jangan gunakan apl ini."
       },
       "s2": {
-        "title": "2. Use of the App",
-        "p": "PPPlayer is free, open-source software. Use, copying, modification, and distribution of the software are governed by the MIT license in the project repository. When using the app, you agree not to:",
-        "li1": "Remove copyright or permission notices required by the applicable software licenses",
-        "li2": "Use the app to distribute malware or harmful content",
-        "li3": "Violate any applicable laws or regulations while using the app"
+        "title": "2. Penggunaan Apl",
+        "p": "PPPlayer adalah perisian percuma dan sumber terbuka. Penggunaan, penyalinan, pengubahsuaian, dan pengedaran perisian ditadbir oleh lesen MIT dalam repositori projek. Apabila menggunakan apl ini, anda bersetuju untuk tidak:",
+        "li1": "Mengeluarkan notis hak cipta atau kebenaran yang dikehendaki oleh lesen perisian yang berkenaan",
+        "li2": "Menggunakan apl ini untuk mengedar perisian hasad atau kandungan yang berbahaya",
+        "li3": "Melanggar mana-mana undang-undang atau peraturan yang berkenaan semasa menggunakan apl"
       },
       "s3": {
-        "title": "3. No Account Required",
-        "p": "PPPlayer does not require account creation. You can use all features immediately after download."
+        "title": "3. Tiada Akaun Diperlukan",
+        "p": "PPPlayer tidak memerlukan penciptaan akaun. Anda boleh menggunakan semua ciri serta-merta selepas dimuat turun."
       },
       "s4": {
-        "title": "4. Intellectual Property",
-        "p": "PPPlayer source code is available under the MIT license. Third-party dependencies retain their own licenses. Music, artwork, and metadata remain subject to their respective rights and licenses; the software license does not grant rights to that content."
+        "title": "4. Harta Intelek",
+        "p": "Kod sumber PPPlayer tersedia di bawah lesen MIT. Ketergantungan pihak ketiga mengekalkan lesen mereka sendiri. Muzik, karya seni, dan metadata kekal tertakluk kepada hak dan lesen masing-masing; lesen perisian tidak memberikan hak kepada kandungan tersebut."
       },
       "s5": {
-        "title": "5. Disclaimer of Warranties",
-        "p": "PPPlayer is provided \"as is\" without warranty of any kind, express or implied. We do not guarantee uninterrupted service or that the app will be error-free."
+        "title": "5. Penafian Jaminan",
+        "p": "PPPlayer disediakan \"seadanya\" tanpa jaminan dalam apa jua bentuk, nyata atau tersirat. Kami tidak menjamin perkhidmatan tanpa gangguan atau apl ini akan bebas daripada ralat."
       },
       "s6": {
-        "title": "6. Limitation of Liability",
-        "p": "To the maximum extent permitted by law, PPPlayer shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use or inability to use the app."
+        "title": "6. Had Liabiliti",
+        "p": "Setakat yang maksimum dibenarkan oleh undang-undang, PPPlayer tidak akan bertanggungjawab terhadap sebarang kerosakan tidak langsung, sampingan, khas, atau berbangkit akibat daripada penggunaan atau ketidakmampuan anda menggunakan apl ini."
       },
       "s7": {
-        "title": "7. Changes to Terms",
-        "p": "We reserve the right to update these terms at any time. Continued use of the app after changes constitutes acceptance of the new terms."
+        "title": "7. Perubahan kepada Syarat",
+        "p": "Kami berhak mengemas kini syarat-syarat ini pada bila-bila masa. Penggunaan berterusan apl selepas perubahan membentuk penerimaan syarat-syarat baharu."
       },
       "s8": {
-        "title": "8. Contact",
-        "p": "Questions about these terms? Reach us at "
+        "title": "8. Kenalan",
+        "p": "Soalan mengenai syarat-syarat ini? Hubungi kami di "
       }
     },
-    "back": "← Back to PPPlayer"
+    "back": "← Kembali ke PPPlayer"
   },
   "platformCards": {
     "ios": {
       "name": "iOS",
       "label": "iPhone & iPad",
-      "desc": "Available on the App Store for iPhone and iPad.",
+      "desc": "Tersedia di App Store untuk iPhone dan iPad.",
       "badge": "App Store"
     },
     "android": {
       "name": "Android",
       "label": "Android",
-      "desc": "Available on Google Play for Android phones and tablets.",
+      "desc": "Tersedia di Google Play untuk telefon dan tablet Android.",
       "badge": "Google Play"
     },
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Direct download for Windows 10 and later. No store needed.",
-      "badge": "Direct Download"
+      "desc": "Muat turun terus untuk Windows 10 dan lebih baru. Tiada gedung diperlukan.",
+      "badge": "Muat Turun Terus"
     },
     "macos": {
       "name": "macOS",
       "label": "Mac",
-      "desc": "Direct download for macOS. Apple Silicon & Intel supported.",
-      "badge": "Direct Download"
+      "desc": "Muat turun terus untuk macOS. Apple Silicon & Intel disokong.",
+      "badge": "Muat Turun Terus"
     },
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Direct download for Linux. AppImage supported.",
-      "badge": "Direct Download"
+      "desc": "Muat turun terus untuk Linux. AppImage disokong.",
+      "badge": "Muat Turun Terus"
     }
   },
   "changelog": {
-    "title": "Changelog",
-    "subtitle": "What's new in PPPlayer.",
-    "back": "← Back to PPPlayer",
+    "title": "Log perubahan",
+    "subtitle": "Apa yang baharu dalam PPPlayer.",
+    "v1_3_0": {
+      "version": "1.3.0",
+      "date": "13 September 2026",
+      "desc": "Keluaran ini membawa PPPlayer kepada khalayak global yang lebih meluas.",
+      "added": "Ditambah",
+      "localizationTitle": "Bahasa Tambahan",
+      "localizationDesc": "Ditambah penyetempatan untuk Pidgin Nigeria, Filipina, Latvia, Bengali, Croatia, Melayu, Parsi dan Estonia."
+    },
+    "back": "← Kembali ke PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "12 September 2026",
+      "desc": "Sokongan penyetempatan yang diperluaskan dengan 10 bahasa baharu.",
+      "added": "Ditambah",
+      "fixed": "Dibaiki",
+      "lang10Title": "10 Bahasa Baharu",
+      "lang10Desc": "Ditambah sokongan penuh untuk bahasa Indonesia, Burma, Poland, Denmark, Kazakh, Czech, Hungary, Georgia, Sweden, dan Uzbek."
     },
     "v1_1_2": {
       "version": "v1.1.2",
-      "date": "September 12, 2026",
-      "desc": "Added Arabic and Chinese localizations and fixed macOS resizing bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "localizationTitle": "Localization Expansion",
-      "localizationDesc": "Added Arabic and Chinese (Simplified & Traditional) localizations.",
-      "layoutTitle": "macOS Layout Fix",
-      "layoutDesc": "Fixed an issue on macOS where the YouTube video player would shift off-center when resizing the application window."
+      "date": "12 September 2026",
+      "desc": "Ditambah penyetempatan Bahasa Arab dan Cina serta pepijat saiz semula macOS dibaiki.",
+      "added": "Ditambah",
+      "fixed": "Dibaiki",
+      "localizationTitle": "Pengembangan Penyetempatan",
+      "localizationDesc": "Ditambah penyetempatan bahasa Arab dan Cina (Ringkas & Tradisional).",
+      "layoutTitle": "Pembaikan Reka Letak macOS",
+      "layoutDesc": "Dibaiki isu pada macOS di mana pemain video YouTube beralih dari tengah apabila mengubah saiz tetingkap apl."
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "date": "12 September 2026",
+      "desc": "Dibaiki pepijat main balik dan digilap palang carian semasa permulaan apl.",
+      "fixed": "Dibaiki",
+      "snapTitle": "Pepijat Palang Carian Permulaan",
+      "snapDesc": "Dibaiki isu di mana palang carian akan kembali serta-merta ke kedudukan permulaan apabila menyeretnya sebaik sahaja melancarkan apl.",
+      "durationTitle": "Tempoh Hilang",
+      "durationDesc": "Dibaiki palang carian yang menunjukkan tempoh 0:00 apabila apl mula-mula dilancarkan."
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "date": "11 September 2026",
+      "desc": "Pengantarabangsaan dan penyetempatan yang komprehensif di seluruh apl dan tapak web.",
+      "new": "Ditambah",
+      "langTitle": "11 Bahasa Global",
+      "langDesc": "Ditambah sokongan penuh untuk bahasa Sepanyol, Perancis, Jerman, Portugis, Itali, Jepun, Korea, Cina, Hindi, Rusia, dan Arab.",
+      "pickerTitle": "Pemilih Bahasa Dalam Apl",
+      "pickerDesc": "Menambah pemilih bahasa dalam apl di menu Keutamaan yang menggunakan terjemahan dengan serta-merta tanpa memulakan semula apl.",
+      "osTitle": "Penyepaduan Peringkat OS",
+      "osDesc": "Integrasi bahasa peringkat sistem operasi asli pada Android 13+ dan iOS untuk menyegerakkan bahasa apl secara automatik."
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "date": "11 September 2026",
+      "desc": "Pembetulan pantas untuk pemasangan baharu.",
+      "fixed": "Dibaiki",
+      "crashTitle": "Pembaikan Ranap Permulaan",
+      "crashDesc": "Membaiki pepijat kritikal yang menyebabkan apl ranap pada skrin kosong pada pemasangan baharu kerana fail konfigurasi persekitaran yang hilang."
     },
     "v1_0_5": {
       "version": "v1.0.5",
-      "date": "September 11, 2026",
-      "desc": "Seamless background playback on macOS.",
-      "new": "New",
-      "fixed": "Fixed",
-      "appNapTitle": "Gapless Background Playback",
-      "appNapDesc": "Prevented macOS App Nap from aggressively suspending the player when minimized, allowing the queue to continue uninterrupted."
+      "date": "11 September 2026",
+      "desc": "Main balik latar belakang yang lancar pada macOS.",
+      "new": "Baharu",
+      "fixed": "Dibaiki",
+      "appNapTitle": "Main Balik Latar Belakang Tanpa Jurang",
+      "appNapDesc": "Menghalang macOS App Nap daripada menggantungkan pemain secara agresif apabila diminimumkan, membenarkan giliran diteruskan tanpa gangguan."
     },
     "v1_0_4": {
       "version": "v1.0.4",
-      "date": "September 11, 2026",
-      "desc": "Automated releases and code signing.",
-      "new": "New",
-      "fixed": "Fixed",
-      "ciTitle": "Automated Release Pipeline",
-      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
-      "signedTitle": "Signed macOS Releases",
-      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
-      "licenseTitle": "Open Source License",
-      "licenseDesc": "Added MIT License to the repository.",
-      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+      "date": "11 September 2026",
+      "desc": "Keluaran automatik dan penandatanganan kod.",
+      "new": "Baharu",
+      "fixed": "Dibaiki",
+      "ciTitle": "Talian Keluaran Berautomasi",
+      "ciDesc": "Aliran kerja Tindakan GitHub untuk binaan konsisten dan penandatanganan kod macOS.",
+      "signedTitle": "Keluaran macOS Ditandatangani",
+      "signedDesc": "Keluaran macOS rasmi yang ditandatangani dan disahkan kini tersedia terus di tapak web.",
+      "licenseTitle": "Lesen Sumber Terbuka",
+      "licenseDesc": "Lesen MIT ditambah kepada repositori.",
+      "submoduleFix": "Menetapkan konfigurasi daftar keluar submodul dalam aliran kerja CI"
     },
     "v1_0_3": {
       "version": "v1.0.3",
-      "date": "September 10, 2026",
-      "desc": "Background playback and stability.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "hybridEngineTitle": "Hybrid Playback Engine",
-      "hybridEngineDesc": "Robust background processing and lock-screen playback capabilities.",
-      "dedupTitle": "Command Deduplication",
-      "dedupDesc": "Added generation IDs to prevent overlapping and stale media commands across WebView bridge.",
-      "queueAdvance": "Song queue not automatically advancing to the next track",
-      "resumeBug": "Paused track unexpectedly resuming when handing off from foreground to PiP or background",
-      "precision": "Accurate millisecond precision reporting for current track position and playback duration",
-      "linter": "Eliminated several IDE linter errors and cleaned up redundant files"
+      "date": "10 September 2026",
+      "desc": "Main balik dan kestabilan latar belakang.",
+      "new": "Baharu",
+      "improved": "Dipertingkatkan",
+      "fixed": "Dibaiki",
+      "hybridEngineTitle": "Enjin Main Balik Hibrid",
+      "hybridEngineDesc": "Pemprosesan latar belakang yang teguh dan keupayaan main balik skrin kunci.",
+      "dedupTitle": "Nyahpenduaan Arahan",
+      "dedupDesc": "Menambahkan ID generasi untuk menghalang pertindihan dan arahan media basi merentas jambatan WebView.",
+      "queueAdvance": "Giliran lagu tidak memajukan lagu seterusnya secara automatik",
+      "resumeBug": "Lagu yang dijeda disambung secara tidak dijangka apabila diserahkan dari latar depan ke PiP atau latar belakang",
+      "precision": "Laporan ketepatan milisaat yang tepat untuk kedudukan lagu semasa dan tempoh main balik",
+      "linter": "Menghapuskan beberapa ralat linter IDE dan membersihkan fail berlebihan"
     },
     "v1_0_2": {
       "version": "v1.0.2",
-      "date": "September 9, 2026",
-      "desc": "Smarter, context-based autoplay.",
-      "autoplayContextTitle": "Context-Aware Autoplay",
-      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
-      "tieredRecsTitle": "Tiered Recommendation Engine",
-      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+      "date": "9 September 2026",
+      "desc": "Main automatik berasaskan konteks yang lebih bijak.",
+      "autoplayContextTitle": "Main Automatik Peka Konteks",
+      "autoplayContextDesc": "Main automatik kini mengutamakan lagu daripada artis semasa sebelum menambahkan artis berkaitan ke giliran.",
+      "tieredRecsTitle": "Enjin Pengesyoran Bertingkat",
+      "tieredRecsDesc": "Pengesyoran kini secara tegas menggunakan katalog artis sasaran dan bukannya mencari kabur mengikut nama."
     },
     "v1_0_1": {
       "version": "v1.0.1",
-      "date": "September 9, 2026",
-      "desc": "A better listening experience.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "autoplayTitle": "Autoplay",
-      "autoplayDesc": "Music keeps going with recommendations based on what you're listening to.",
-      "discoverTitle": "Discover",
-      "discoverDesc": "Find music based on your listening history, favorite artists and playlists.",
-      "tooltipsTitle": "Interactive Seekbar Tooltips",
-      "tooltipsDesc": "Added dynamic tooltips that perfectly follow your mouse cursor when hovering the player progress bar.",
-      "startup": "Faster startup",
-      "recovery": "Better playback recovery",
-      "macosMedia": "Improved macOS media controls",
-      "duplicateMedia": "Duplicate macOS media controls",
-      "stationHighlight": "Station active-track highlighting",
-      "seekbarPause": "Playback pausing/stopping unexpectedly when dragging the seekbar",
-      "bottomBar": "Bottom player bar rendering fully transparent and unreadable on macOS when playing music"
+      "date": "9 September 2026",
+      "desc": "Pengalaman mendengar yang lebih baik.",
+      "new": "Baharu",
+      "improved": "Dipertingkatkan",
+      "fixed": "Dibaiki",
+      "autoplayTitle": "Main Auto",
+      "autoplayDesc": "Muzik diteruskan dengan cadangan berdasarkan apa yang anda dengari.",
+      "discoverTitle": "Ketahui",
+      "discoverDesc": "Cari muzik berdasarkan sejarah pendengaran, artis kegemaran dan senarai main anda.",
+      "tooltipsTitle": "Tindihan Maklumat Palang Carian Interaktif",
+      "tooltipsDesc": "Menambah tindihan maklumat dinamik yang mengikuti kursor tetikus anda dengan sempurna apabila melayang di atas palang kemajuan pemain.",
+      "startup": "Permulaan yang lebih pantas",
+      "recovery": "Pemulihan main balik yang lebih baik",
+      "macosMedia": "Kawalan media macOS dipertingkatkan",
+      "duplicateMedia": "Kawalan media macOS pendua",
+      "stationHighlight": "Penonjolan lagu aktif stesen",
+      "seekbarPause": "Main balik dijeda/berhenti secara tidak disangka apabila menyeret bar carian",
+      "bottomBar": "Bar pemain bahagian bawah menjadi telus dan tidak dapat dibaca di macOS semasa memainkan muzik"
     },
     "v1_0_0": {
       "version": "v1.0.0",
       "date": "September 2026",
-      "desc": "The first release of PPPlayer.",
-      "spotify": "Spotify-powered music metadata",
-      "youtube": "YouTube-powered audio playback",
-      "playlists": "Playlists, favorites and listening history",
-      "platforms": "macOS, Windows and Linux support"
+      "desc": "Keluaran pertama PPPlayer.",
+      "spotify": "Metadata muzik dikuasakan Spotify",
+      "youtube": "Main balik audio dikuasakan YouTube",
+      "playlists": "Senarai main, kegemaran dan sejarah pendengaran",
+      "platforms": "Sokongan macOS, Windows dan Linux"
     }
   },
   "support": {
-    "title": "Support",
-    "subtitle": "How can we help you?",
-    "contactTitle": "Contact Us",
-    "contactDesc": "For general inquiries, partnerships, or questions not suited for GitHub, feel free to reach out to us at contact@ppplayer.com.",
-    "githubTitle": "Community & GitHub",
-    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us in building the ultimate open-source music player.",
-    "githubBtn": "View on GitHub"
+    "title": "Sokongan",
+    "subtitle": "Bagaimanakah kami boleh membantu anda?",
+    "contactTitle": "Hubungi Kami",
+    "contactDesc": "Untuk pertanyaan umum, perkongsian, atau soalan yang tidak sesuai untuk GitHub, sila hubungi kami di contact@ppplayer.com.",
+    "githubTitle": "Komuniti & GitHub",
+    "githubDesc": "Terokai kod, laporkan pepijat, cadangkan ciri atau sumbangkan kod dan terjemahan. Sertai kami dalam membina pemain muzik sumber terbuka muktamad.",
+    "githubBtn": "Lihat di GitHub"
   },
   "openSource": {
-    "badge": "Free & open source",
-    "title": "By the community. For the community.",
-    "desc": "PPPlayer is proudly open-source. Explore the codebase, report issues, suggest features, or contribute your own code. Every contribution makes the listening experience better for everyone.",
-    "source": "View source on GitHub",
-    "contribute": "Contribute",
-    "issues": "Report a bug",
-    "license": "MIT license"
+    "badge": "Percuma & sumber terbuka",
+    "title": "Oleh komuniti. Untuk komuniti.",
+    "desc": "PPPlayer berbangga menjadi sumber terbuka. Terokai pangkalan kod, laporkan isu, cadangkan ciri, atau sumbangkan kod anda sendiri. Setiap sumbangan menjadikan pengalaman mendengar lebih baik untuk semua.",
+    "source": "Lihat sumber di GitHub",
+    "contribute": "Sumbang",
+    "issues": "Laporkan pepijat",
+    "license": "Lesen MIT"
   },
   "blog": {
     "title": "Blog",
-    "subtitle": "News, updates, and stories from the PPPlayer team.",
-    "readMore": "Read article",
-    "minRead": "min read",
-    "publishedOn": "Published on",
-    "back": "← Back to Blog",
-    "noArticles": "No articles found for this language.",
-    "writtenBy": "By",
-    "translationUnavailable": "This article is not available in your language.",
-    "advertisements": "Advertisements",
+    "subtitle": "Berita, kemas kini dan cerita dari pasukan PPPlayer.",
+    "readMore": "Baca artikel",
+    "minRead": "minit bacaan",
+    "publishedOn": "Diterbitkan pada",
+    "back": "← Kembali ke Blog",
+    "noArticles": "Tiada artikel ditemui untuk bahasa ini.",
+    "writtenBy": "Oleh",
+    "translationUnavailable": "Artikel ini tidak tersedia dalam bahasa anda.",
+    "advertisements": "Iklan",
     "categories": {
-      "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "all": "Semua",
+      "discovery": "Penemuan",
+      "engineering": "Kejuruteraan",
+      "community": "Komuniti",
+      "guides": "Panduan",
+      "education": "Pendidikan",
+      "product": "Produk"
     }
   }
 }
