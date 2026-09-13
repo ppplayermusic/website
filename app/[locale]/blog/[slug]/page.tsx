@@ -8,7 +8,6 @@ import Footer from '@/components/Footer';
 import { getPostBySlug, getAllPosts } from '@/lib/blog';
 import { Link, routing } from '@/i18n/routing';
 import Image from 'next/image';
-import Script from 'next/script';
 import AdUnit from '@/components/AdUnit';
 
 const ADSENSE_SUPPORTED_LOCALES = new Set([
