@@ -14,7 +14,7 @@ export default function middleware(request: NextRequest) {
     img-src 'self' blob: data: https://ppplayer.com https://flagcdn.com https://www.googletagmanager.com https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://*.google-analytics.com;
     connect-src 'self' https://www.google-analytics.com https://www.google.com https://*.adtrafficquality.google https://*.googlesyndication.com https://*.doubleclick.net;
     font-src 'self' data:;
-    frame-src 'self' https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com;
+    frame-src 'self' https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://*.adtrafficquality.google;
     object-src 'none';
     base-uri 'self';
     form-action 'self';
