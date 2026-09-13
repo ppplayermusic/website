@@ -109,7 +109,42 @@
     "modalDesc": "{platform} デバイスへの PPPlayer のインストール方法を選択してください。",
     "primaryDownload": "ダウンロード",
     "directDownload": "直接ダウンロード",
-    "comingSoon": "近日公開"
+    "comingSoon": "近日公開",
+    "cancel": "キャンセル",
+    "downloadFor": "{platform} 版をダウンロード",
+    "os": "オペレーティングシステム",
+    "arch": "アーキテクチャ",
+    "memory": "メモリ",
+    "internet": "インターネット",
+    "reqStreaming": "ストリーミングに必要",
+    "reqTitle": "{platform} のシステム要件",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina or newer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "windows": {
+        "os": "Windows 10 or later (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "ios": {
+        "os": "iOS 13.0 or newer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recommended)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) or newer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recommended)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 が利用可能になりました",
@@ -442,6 +477,15 @@
     "noArticles": "この言語の記事は見つかりませんでした。",
     "writtenBy": "作成者",
     "translationUnavailable": "この記事はあなたの言語では利用できません。",
-    "advertisements": "広告"
+    "advertisements": "広告",
+    "categories": {
+      "all": "すべて",
+      "discovery": "発見",
+      "engineering": "エンジニアリング",
+      "community": "コミュニティ",
+      "guides": "ガイド",
+      "education": "教育",
+      "product": "プロダクト"
+    }
   }
 }

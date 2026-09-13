@@ -168,6 +168,7 @@ export default function PlatformCardsSection() {
         onClose={() => setActiveModalPlatform(null)}
         title={tCTA('modalTitle', { platform: platforms.find(p => p.id === activeModalPlatform)?.name || '' })}
         description={tCTA('modalDesc', { platform: platforms.find(p => p.id === activeModalPlatform)?.name || '' })}
+        cancelText={tCTA('cancel')}
         options={getPlatformOptions(activeModalPlatform, {
           primaryDownload: tCTA('primaryDownload'),
           directDownload: tCTA('directDownload'),

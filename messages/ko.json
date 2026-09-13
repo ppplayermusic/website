@@ -109,7 +109,42 @@
     "modalDesc": "{platform} 기기에 PPPlayer를 설치할 방법을 선택하세요.",
     "primaryDownload": "다운로드",
     "directDownload": "직접 다운로드",
-    "comingSoon": "출시 예정"
+    "comingSoon": "출시 예정",
+    "cancel": "취소",
+    "downloadFor": "{platform} 용 다운로드",
+    "os": "운영 체제",
+    "arch": "아키텍처",
+    "memory": "메모리",
+    "internet": "인터넷",
+    "reqStreaming": "스트리밍에 필요",
+    "reqTitle": "{platform} 시스템 요구 사항",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina or newer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "windows": {
+        "os": "Windows 10 or later (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "ios": {
+        "os": "iOS 13.0 or newer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recommended)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) or newer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recommended)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 출시",
@@ -442,6 +477,15 @@
     "noArticles": "이 언어로 된 기사를 찾을 수 없습니다.",
     "writtenBy": "작성자",
     "translationUnavailable": "이 기사는 귀하의 언어로 제공되지 않습니다.",
-    "advertisements": "광고"
+    "advertisements": "광고",
+    "categories": {
+      "all": "전체",
+      "discovery": "디스커버리",
+      "engineering": "엔지니어링",
+      "community": "커뮤니티",
+      "guides": "가이드",
+      "education": "교육",
+      "product": "제품"
+    }
   }
 }

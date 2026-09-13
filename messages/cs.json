@@ -109,7 +109,42 @@
     "modalDesc": "Vyberte, jak chcete nainstalovat PPPlayer na vaše zařízení {platform}.",
     "primaryDownload": "Stáhnout",
     "directDownload": "Přímé stažení",
-    "comingSoon": "Brzy dostupné"
+    "comingSoon": "Brzy dostupné",
+    "cancel": "Zrušit",
+    "downloadFor": "Stáhnout pro {platform}",
+    "os": "Operační systém",
+    "arch": "Architektura",
+    "memory": "Paměť",
+    "internet": "Internet",
+    "reqStreaming": "Vyžadováno pro streamování",
+    "reqTitle": "Požadavky na {platform}",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina or newer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "windows": {
+        "os": "Windows 10 or later (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "ios": {
+        "os": "iOS 13.0 or newer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recommended)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) or newer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recommended)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 je nyní k dispozici",
@@ -442,6 +477,15 @@
     "noArticles": "Pro tento jazyk nebyly nalezeny žádné články.",
     "writtenBy": "Od",
     "translationUnavailable": "Tento článek není k dispozici ve vašem jazyce.",
-    "advertisements": "Reklamy"
+    "advertisements": "Reklamy",
+    "categories": {
+      "all": "All",
+      "discovery": "Discovery",
+      "engineering": "Engineering",
+      "community": "Community",
+      "guides": "Guides",
+      "education": "Education",
+      "product": "Product"
+    }
   }
 }

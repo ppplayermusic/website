@@ -109,7 +109,42 @@
     "modalDesc": "Izvēlies, kā vēlies instalēt PPPlayer savā {platform} ierīcē.",
     "primaryDownload": "Lejupielādēt",
     "directDownload": "Tiešā lejupielāde",
-    "comingSoon": "Drīzumā"
+    "comingSoon": "Drīzumā",
+    "cancel": "Atcelt",
+    "downloadFor": "Lejupielādēt {platform}",
+    "os": "Operētājsistēma",
+    "arch": "Arhitektūra",
+    "memory": "Atmiņa",
+    "internet": "Internets",
+    "reqStreaming": "Nepieciešams straumēšanai",
+    "reqTitle": "{platform} prasības",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina vai jaunāka",
+        "arch": "Apple Silicon & Intel (Universāls)",
+        "mem": "4 GB RAM (Ieteicams)"
+      },
+      "windows": {
+        "os": "Windows 10 vai jaunāka (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Ieteicams)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 vai jaunāka (Eksperimentāls)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Ieteicams)"
+      },
+      "ios": {
+        "os": "iOS 13.0 vai jaunāka",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Ieteicams)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) vai jaunāka",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Ieteicams)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 tagad ir pieejams",
@@ -442,6 +477,15 @@
     "noArticles": "Šai valodai nav atrasts neviens raksts.",
     "writtenBy": "Autors",
     "translationUnavailable": "Šis raksts nav pieejams jūsu valodā.",
-    "advertisements": "Reklāmas"
+    "advertisements": "Reklāmas",
+    "categories": {
+      "all": "Visi",
+      "discovery": "Atklājumi",
+      "engineering": "Inženierija",
+      "community": "Kopiena",
+      "guides": "Ceļveži",
+      "education": "Izglītība",
+      "product": "Produkts"
+    }
   }
 }

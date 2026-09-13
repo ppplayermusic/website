@@ -29,6 +29,7 @@ const getPlatformIcon = (id: string, className?: string) => {
 
 export default function DownloadCTA() {
   const t = useTranslations('downloadCTA');
+  const tPlatform = useTranslations('platformCards');
   
   const [activePlatformId, setActivePlatformId] = useState<string>('macos');
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -103,10 +104,10 @@ export default function DownloadCTA() {
                   
                   <div className="mb-8">
                     <h3 className="text-2xl md:text-3xl font-bold tracking-tight mb-2">
-                      {activePlatform.name} Requirements
+                      {t('reqTitle', { platform: activePlatform.name })}
                     </h3>
                     <p className="text-white/50">
-                      {activePlatform.description}
+                      {tPlatform(`${activePlatform.id}.desc`)}
                     </p>
                   </div>
 
@@ -114,37 +115,37 @@ export default function DownloadCTA() {
                     
                     <div className="flex flex-col">
                       <span className="text-xs uppercase tracking-widest text-white/40 font-semibold mb-1">
-                        Operating System
+                        {t('os')}
                       </span>
                       <span className="text-white/90 font-medium text-sm">
-                        {activePlatform.requirements?.os}
+                        {t(`reqs.${activePlatform.id}.os`)}
                       </span>
                     </div>
 
                     <div className="flex flex-col">
                       <span className="text-xs uppercase tracking-widest text-white/40 font-semibold mb-1">
-                        Architecture
+                        {t('arch')}
                       </span>
                       <span className="text-white/90 font-medium text-sm">
-                        {activePlatform.requirements?.architecture}
+                        {t(`reqs.${activePlatform.id}.arch`)}
                       </span>
                     </div>
 
                     <div className="flex flex-col">
                       <span className="text-xs uppercase tracking-widest text-white/40 font-semibold mb-1">
-                        Memory
+                        {t('memory')}
                       </span>
                       <span className="text-white/90 font-medium text-sm">
-                        {activePlatform.requirements?.memory}
+                        {t(`reqs.${activePlatform.id}.mem`)}
                       </span>
                     </div>
 
                     <div className="flex flex-col">
                       <span className="text-xs uppercase tracking-widest text-white/40 font-semibold mb-1">
-                        Internet
+                        {t('internet')}
                       </span>
                       <span className="text-white/90 font-medium text-sm">
-                        Required for streaming
+                        {t('reqStreaming')}
                       </span>
                     </div>
 
@@ -155,7 +156,7 @@ export default function DownloadCTA() {
                     variant="light"
                     onClick={handleDownloadClick}
                   >
-                    Download for {activePlatform.name}
+                    {t('downloadFor', { platform: activePlatform.name })}
                   </SpotlightButton>
                   
                 </motion.div>
@@ -188,6 +189,7 @@ export default function DownloadCTA() {
         onClose={() => setIsModalOpen(false)}
         title={t('modalTitle', { platform: activePlatform.name })}
         description={t('modalDesc', { platform: activePlatform.name })}
+        cancelText={t('cancel')}
         options={getPlatformOptions(activePlatform.id, {
           primaryDownload: t('primaryDownload'),
           directDownload: t('directDownload'),

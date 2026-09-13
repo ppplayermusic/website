@@ -109,7 +109,42 @@
     "modalDesc": "আপনার {platform} ডিভাইসে PPPlayer কীভাবে ইনস্টল করতে চান তা বেছে নিন।",
     "primaryDownload": "ডাউনলোড",
     "directDownload": "সরাসরি ডাউনলোড",
-    "comingSoon": "শীঘ্রই আসছে"
+    "comingSoon": "শীঘ্রই আসছে",
+    "cancel": "বাতিল করুন",
+    "downloadFor": "{platform} এর জন্য ডাউনলোড করুন",
+    "os": "অপারেটিং সিস্টেম",
+    "arch": "আর্কিটেक्चर",
+    "memory": "মেমরি",
+    "internet": "ইন্টারনেট",
+    "reqStreaming": "স্ট্রিমিংয়ের জন্য প্রয়োজনীয়",
+    "reqTitle": "{platform} এর প্রয়োজনীয়তা",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina or newer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "windows": {
+        "os": "Windows 10 or later (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "ios": {
+        "os": "iOS 13.0 or newer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recommended)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) or newer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recommended)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 এখন উপলব্ধ",
@@ -442,6 +477,15 @@
     "noArticles": "এই ভাষার জন্য কোনো প্রবন্ধ পাওয়া যায়নি।",
     "writtenBy": "লিখেছেন",
     "translationUnavailable": "এই প্রবন্ধটি আপনার ভাষায় উপলব্ধ নয়।",
-    "advertisements": "বিজ্ঞাপন"
+    "advertisements": "বিজ্ঞাপন",
+    "categories": {
+      "all": "All",
+      "discovery": "Discovery",
+      "engineering": "Engineering",
+      "community": "Community",
+      "guides": "Guides",
+      "education": "Education",
+      "product": "Product"
+    }
   }
 }

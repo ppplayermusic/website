@@ -38,7 +38,7 @@ export default function BlogGrid({ posts, isFallback }: { posts: BlogPost[], isF
             onClick={() => setSelectedCategory(null)}
             className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${!selectedCategory ? 'bg-white text-black' : 'bg-white/5 text-slate-300 hover:bg-white/10'}`}
           >
-            All
+            {t.has('categories.all') ? t('categories.all') : 'All'}
           </button>
           {categories.map(category => (
             <button
@@ -46,7 +46,7 @@ export default function BlogGrid({ posts, isFallback }: { posts: BlogPost[], isF
               onClick={() => setSelectedCategory(category)}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${selectedCategory === category ? 'bg-white text-black' : 'bg-white/5 text-slate-300 hover:bg-white/10'}`}
             >
-              {category}
+              {t.has(`categories.${category.toLowerCase()}`) ? t(`categories.${category.toLowerCase()}`) : category}
             </button>
           ))}
         </div>
@@ -59,7 +59,7 @@ export default function BlogGrid({ posts, isFallback }: { posts: BlogPost[], isF
             <div className="grid md:grid-cols-2 gap-8 items-center bg-white/5 rounded-3xl p-6 md:p-10 border border-white/10 hover:border-white/20 transition-colors">
               <div className="order-2 md:order-1 flex flex-col gap-4">
                 <div className="flex items-center gap-3 text-xs font-medium text-slate-400">
-                  <span className="text-white bg-white/10 px-3 py-1 rounded-full">{featuredPost.category}</span>
+                  <span className="text-white bg-white/10 px-3 py-1 rounded-full">{t.has(`categories.${featuredPost.category.toLowerCase()}`) ? t(`categories.${featuredPost.category.toLowerCase()}`) : featuredPost.category}</span>
                   <span>{featuredPost.date}</span>
                   <span>•</span>
                   <span>{featuredPost.readTime} {t('minRead')}</span>
@@ -107,7 +107,7 @@ export default function BlogGrid({ posts, isFallback }: { posts: BlogPost[], isF
               </div>
               <div className="p-6 flex flex-col flex-grow gap-4">
                 <div className="flex items-center gap-3 text-xs font-medium text-slate-400">
-                  <span className="text-blue-400">{post.category}</span>
+                  <span className="text-blue-400">{t.has(`categories.${post.category.toLowerCase()}`) ? t(`categories.${post.category.toLowerCase()}`) : post.category}</span>
                   <span>•</span>
                   <span>{post.readTime} {t('minRead')}</span>
                 </div>

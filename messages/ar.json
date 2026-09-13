@@ -109,7 +109,42 @@
     "modalDesc": "اختر كيف تريد تثبيت PPPlayer على جهاز {platform} الخاص بك.",
     "primaryDownload": "تنزيل",
     "directDownload": "تنزيل مباشر",
-    "comingSoon": "قريباً"
+    "comingSoon": "قريباً",
+    "cancel": "إلغاء",
+    "downloadFor": "تنزيل لـ {platform}",
+    "os": "نظام التشغيل",
+    "arch": "البنية",
+    "memory": "الذاكرة",
+    "internet": "الإنترنت",
+    "reqStreaming": "مطلوب للبث",
+    "reqTitle": "متطلبات {platform}",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina or newer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "windows": {
+        "os": "Windows 10 or later (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "ios": {
+        "os": "iOS 13.0 or newer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recommended)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) or newer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recommended)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "الإصدار 1.0 من PPPlayer متاح الآن",
@@ -442,6 +477,15 @@
     "noArticles": "لم يتم العثور على مقالات لهذه اللغة.",
     "writtenBy": "بواسطة",
     "translationUnavailable": "هذا المقال غير متوفر بلغتك.",
-    "advertisements": "إعلانات"
+    "advertisements": "إعلانات",
+    "categories": {
+      "all": "All",
+      "discovery": "Discovery",
+      "engineering": "Engineering",
+      "community": "Community",
+      "guides": "Guides",
+      "education": "Education",
+      "product": "Product"
+    }
   }
 }

@@ -109,7 +109,42 @@
     "modalDesc": "PPPlayer'ı {platform} cihazınıza nasıl yüklemek istediğinizi seçin.",
     "primaryDownload": "İndir",
     "directDownload": "Doğrudan İndirme",
-    "comingSoon": "Yakında"
+    "comingSoon": "Yakında",
+    "cancel": "İptal",
+    "downloadFor": "{platform} için İndir",
+    "os": "İşletim Sistemi",
+    "arch": "Mimari",
+    "memory": "Bellek",
+    "internet": "İnternet",
+    "reqStreaming": "Yayın için gerekli",
+    "reqTitle": "{platform} Gereksinimleri",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina or newer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "windows": {
+        "os": "Windows 10 or later (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "ios": {
+        "os": "iOS 13.0 or newer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recommended)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) or newer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recommended)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 artık mevcut",
@@ -442,6 +477,15 @@
     "noArticles": "Bu dil için makale bulunamadı.",
     "writtenBy": "Yazan",
     "translationUnavailable": "Bu makale dilinizde mevcut değil.",
-    "advertisements": "Reklamlar"
+    "advertisements": "Reklamlar",
+    "categories": {
+      "all": "All",
+      "discovery": "Discovery",
+      "engineering": "Engineering",
+      "community": "Community",
+      "guides": "Guides",
+      "education": "Education",
+      "product": "Product"
+    }
   }
 }

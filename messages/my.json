@@ -109,7 +109,42 @@
     "modalDesc": "သင့် {platform} စက်တွင် PPPlayer ကို မည်သို့ထည့်သွင်းလိုကြောင်း ရွေးချယ်ပါ။",
     "primaryDownload": "ဒေါင်းလုဒ်",
     "directDownload": "တိုက်ရိုက်ဒေါင်းလုဒ်",
-    "comingSoon": "မကြာမီလာမည်"
+    "comingSoon": "မကြာမီလာမည်",
+    "cancel": "ပယ်ဖျက်ရန်",
+    "downloadFor": "{platform} အတွက်ဒေါင်းလုဒ်လုပ်ပါ",
+    "os": "လည်ပတ်မှုစနစ်",
+    "arch": "ဗိသုကာပညာ",
+    "memory": "မှတ်ဉာဏ်",
+    "internet": "အင်တာနက်",
+    "reqStreaming": "Streaming အတွက် လိုအပ်သည်",
+    "reqTitle": "{platform} လိုအပ်ချက်များ",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina or newer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "windows": {
+        "os": "Windows 10 or later (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "ios": {
+        "os": "iOS 13.0 or newer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recommended)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) or newer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recommended)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 ကို ယခုရရှိနိုင်ပါပြီ",
@@ -442,6 +477,15 @@
     "noArticles": "ဤဘာသာစကားအတွက် ဆောင်းပါးများ မတွေ့ပါ။",
     "writtenBy": "ရေးသားသူ",
     "translationUnavailable": "ဤဆောင်းပါးသည် သင့်ဘာသာစကားဖြင့် မရနိုင်ပါ။",
-    "advertisements": "ကြော်ငြာများ"
+    "advertisements": "ကြော်ငြာများ",
+    "categories": {
+      "all": "All",
+      "discovery": "Discovery",
+      "engineering": "Engineering",
+      "community": "Community",
+      "guides": "Guides",
+      "education": "Education",
+      "product": "Product"
+    }
   }
 }

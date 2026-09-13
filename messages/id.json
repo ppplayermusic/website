@@ -109,7 +109,42 @@
     "modalDesc": "Pilih cara Anda ingin menginstal PPPlayer di perangkat {platform} Anda.",
     "primaryDownload": "Unduh",
     "directDownload": "Unduhan Langsung",
-    "comingSoon": "Segera Hadir"
+    "comingSoon": "Segera Hadir",
+    "cancel": "Batal",
+    "downloadFor": "Unduh untuk {platform}",
+    "os": "Sistem Operasi",
+    "arch": "Arsitektur",
+    "memory": "Memori",
+    "internet": "Internet",
+    "reqStreaming": "Diperlukan untuk streaming",
+    "reqTitle": "Persyaratan {platform}",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina or newer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "windows": {
+        "os": "Windows 10 or later (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "ios": {
+        "os": "iOS 13.0 or newer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recommended)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) or newer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recommended)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 sekarang tersedia",
@@ -442,6 +477,15 @@
     "noArticles": "Tidak ada artikel yang ditemukan untuk bahasa ini.",
     "writtenBy": "Oleh",
     "translationUnavailable": "Artikel ini tidak tersedia dalam bahasa Anda.",
-    "advertisements": "Iklan"
+    "advertisements": "Iklan",
+    "categories": {
+      "all": "All",
+      "discovery": "Discovery",
+      "engineering": "Engineering",
+      "community": "Community",
+      "guides": "Guides",
+      "education": "Education",
+      "product": "Product"
+    }
   }
 }

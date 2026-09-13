@@ -109,7 +109,42 @@
     "modalDesc": "Выберите, как вы хотите установить PPPlayer на ваше устройство {platform}.",
     "primaryDownload": "Скачать",
     "directDownload": "Прямая загрузка",
-    "comingSoon": "Скоро"
+    "comingSoon": "Скоро",
+    "cancel": "Отмена",
+    "downloadFor": "Скачать для {platform}",
+    "os": "Операционная система",
+    "arch": "Архитектура",
+    "memory": "Память",
+    "internet": "Интернет",
+    "reqStreaming": "Необходимо для потоковой передачи",
+    "reqTitle": "Системные требования {platform}",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina или новее",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 ГБ ОЗУ (Рекомендуется)"
+      },
+      "windows": {
+        "os": "Windows 10 или новее (64-бит)",
+        "arch": "x64",
+        "mem": "4 ГБ ОЗУ (Рекомендуется)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 или новее (Экспериментальный)",
+        "arch": "x86_64",
+        "mem": "4 ГБ ОЗУ (Рекомендуется)"
+      },
+      "ios": {
+        "os": "iOS 13.0 или новее",
+        "arch": "ARM64",
+        "mem": "2 ГБ ОЗУ (Рекомендуется)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) или новее",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 ГБ ОЗУ (Рекомендуется)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 теперь доступен",
@@ -442,6 +477,15 @@
     "noArticles": "Статьи для этого языка не найдены.",
     "writtenBy": "Автор",
     "translationUnavailable": "Эта статья недоступна на вашем языке.",
-    "advertisements": "Реклама"
+    "advertisements": "Реклама",
+    "categories": {
+      "all": "Все",
+      "discovery": "Открытия",
+      "engineering": "Инженерия",
+      "community": "Сообщество",
+      "guides": "Руководства",
+      "education": "Образование",
+      "product": "Продукт"
+    }
   }
 }

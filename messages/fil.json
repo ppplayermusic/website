@@ -109,7 +109,42 @@
     "modalDesc": "Piliin kung paano mo gustong i-install ang PPPlayer sa iyong {platform} na device.",
     "primaryDownload": "I-download",
     "directDownload": "Direktang Download",
-    "comingSoon": "Paparating Na"
+    "comingSoon": "Paparating Na",
+    "cancel": "Kanselahin",
+    "downloadFor": "I-download para sa {platform}",
+    "os": "Operating System",
+    "arch": "Arkitektura",
+    "memory": "Memory",
+    "internet": "Internet",
+    "reqStreaming": "Kailangan para sa streaming",
+    "reqTitle": "Mga Kinakailangan sa {platform}",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina or newer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "windows": {
+        "os": "Windows 10 or later (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "ios": {
+        "os": "iOS 13.0 or newer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recommended)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) or newer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recommended)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "Available na ang PPPlayer 1.0",
@@ -442,6 +477,15 @@
     "noArticles": "Walang nakitang artikulo para sa wikang ito.",
     "writtenBy": "Ni",
     "translationUnavailable": "Hindi available ang artikulong ito sa iyong wika.",
-    "advertisements": "Mga Advertisement"
+    "advertisements": "Mga Advertisement",
+    "categories": {
+      "all": "All",
+      "discovery": "Discovery",
+      "engineering": "Engineering",
+      "community": "Community",
+      "guides": "Guides",
+      "education": "Education",
+      "product": "Product"
+    }
   }
 }

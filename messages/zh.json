@@ -109,7 +109,42 @@
     "modalDesc": "选择您希望如何在您的 {platform} 设备上安装 PPPlayer。",
     "primaryDownload": "下载",
     "directDownload": "直接下载",
-    "comingSoon": "敬请期待"
+    "comingSoon": "敬请期待",
+    "cancel": "取消",
+    "downloadFor": "下载 {platform} 版",
+    "os": "操作系统",
+    "arch": "架构",
+    "memory": "内存",
+    "internet": "网络",
+    "reqStreaming": "流媒体播放需要",
+    "reqTitle": "{platform} 系统要求",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina or newer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "windows": {
+        "os": "Windows 10 or later (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "ios": {
+        "os": "iOS 13.0 or newer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recommended)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) or newer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recommended)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 现已发布",
@@ -442,6 +477,15 @@
     "noArticles": "未找到该语言的文章。",
     "writtenBy": "作者",
     "translationUnavailable": "此文章不提供您的语言版本。",
-    "advertisements": "广告"
+    "advertisements": "广告",
+    "categories": {
+      "all": "全部",
+      "discovery": "发现",
+      "engineering": "工程",
+      "community": "社区",
+      "guides": "指南",
+      "education": "教育",
+      "product": "产品"
+    }
   }
 }

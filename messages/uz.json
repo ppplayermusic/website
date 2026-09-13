@@ -109,7 +109,42 @@
     "modalDesc": "PPPlayer-ni {platform} qurilmangizga qanday o'rnatmoqchi ekanligingizni tanlang.",
     "primaryDownload": "Yuklab olish",
     "directDownload": "To'g'ridan-to'g'ri yuklab olish",
-    "comingSoon": "Tez orada"
+    "comingSoon": "Tez orada",
+    "cancel": "Bekor qilish",
+    "downloadFor": "{platform} uchun yuklab olish",
+    "os": "Operatsion tizim",
+    "arch": "Arxitektura",
+    "memory": "Xotira",
+    "internet": "Internet",
+    "reqStreaming": "Striming uchun kerak",
+    "reqTitle": "{platform} talablari",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina or newer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "windows": {
+        "os": "Windows 10 or later (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "ios": {
+        "os": "iOS 13.0 or newer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recommended)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) or newer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recommended)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 endi mavjud",
@@ -442,6 +477,15 @@
     "noArticles": "Bu til uchun maqolalar topilmadi.",
     "writtenBy": "Muallif",
     "translationUnavailable": "Ushbu maqola sizning tilingizda mavjud emas.",
-    "advertisements": "Reklamalar"
+    "advertisements": "Reklamalar",
+    "categories": {
+      "all": "All",
+      "discovery": "Discovery",
+      "engineering": "Engineering",
+      "community": "Community",
+      "guides": "Guides",
+      "education": "Education",
+      "product": "Product"
+    }
   }
 }

@@ -109,7 +109,42 @@
     "modalDesc": "चुनें कि आप अपने {platform} डिवाइस पर PPPlayer कैसे इंस्टॉल करना चाहते हैं।",
     "primaryDownload": "डाउनलोड करें",
     "directDownload": "सीधा डाउनलोड",
-    "comingSoon": "जल्द आ रहा है"
+    "comingSoon": "जल्द आ रहा है",
+    "cancel": "रद्द करें",
+    "downloadFor": "{platform} के लिए डाउनलोड करें",
+    "os": "ऑपरेटिंग सिस्टम",
+    "arch": "आर्किटेक्चर",
+    "memory": "मेमोरी",
+    "internet": "इंटरनेट",
+    "reqStreaming": "स्ट्रीमिंग के लिए आवश्यक",
+    "reqTitle": "{platform} आवश्यकताएँ",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina or newer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "windows": {
+        "os": "Windows 10 or later (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "ios": {
+        "os": "iOS 13.0 or newer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recommended)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) or newer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recommended)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 अब उपलब्ध है",
@@ -442,6 +477,15 @@
     "noArticles": "इस भाषा के लिए कोई लेख नहीं मिला।",
     "writtenBy": "द्वारा",
     "translationUnavailable": "यह लेख आपकी भाषा में उपलब्ध नहीं है।",
-    "advertisements": "विज्ञापन"
+    "advertisements": "विज्ञापन",
+    "categories": {
+      "all": "All",
+      "discovery": "Discovery",
+      "engineering": "Engineering",
+      "community": "Community",
+      "guides": "Guides",
+      "education": "Education",
+      "product": "Product"
+    }
   }
 }

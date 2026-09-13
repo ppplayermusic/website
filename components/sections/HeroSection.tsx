@@ -85,6 +85,7 @@ export default function HeroSection() {
         onClose={() => setActiveModalPlatform(null)}
         title={tCTA('modalTitle', { platform: activePlatformData?.name || '' })}
         description={tCTA('modalDesc', { platform: activePlatformData?.name || '' })}
+        cancelText={tCTA('cancel')}
         options={getPlatformOptions(activeModalPlatform, {
           primaryDownload: tCTA('primaryDownload'),
           directDownload: tCTA('directDownload'),

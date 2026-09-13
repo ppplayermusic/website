@@ -109,7 +109,42 @@
     "modalDesc": "Válassza ki, hogyan szeretné telepíteni a PPPlayer-t a {platform} eszközére.",
     "primaryDownload": "Letöltés",
     "directDownload": "Közvetlen letöltés",
-    "comingSoon": "Hamarosan"
+    "comingSoon": "Hamarosan",
+    "cancel": "Mégse",
+    "downloadFor": "Letöltés {platform} rendszerre",
+    "os": "Operációs rendszer",
+    "arch": "Architektúra",
+    "memory": "Memória",
+    "internet": "Internet",
+    "reqStreaming": "Streaminghez szükséges",
+    "reqTitle": "{platform} rendszerkövetelmények",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina or newer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "windows": {
+        "os": "Windows 10 or later (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recommended)"
+      },
+      "ios": {
+        "os": "iOS 13.0 or newer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recommended)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) or newer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recommended)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "A PPPlayer 1.0 már elérhető",
@@ -442,6 +477,15 @@
     "noArticles": "Nem találhatók cikkek ezen a nyelven.",
     "writtenBy": "Írta",
     "translationUnavailable": "Ez a cikk nem érhető el az Ön nyelvén.",
-    "advertisements": "Hirdetések"
+    "advertisements": "Hirdetések",
+    "categories": {
+      "all": "All",
+      "discovery": "Discovery",
+      "engineering": "Engineering",
+      "community": "Community",
+      "guides": "Guides",
+      "education": "Education",
+      "product": "Product"
+    }
   }
 }

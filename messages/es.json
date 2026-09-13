@@ -109,7 +109,42 @@
     "modalDesc": "Elige cómo quieres instalar PPPlayer en tu dispositivo {platform}.",
     "primaryDownload": "Descargar",
     "directDownload": "Descarga Directa",
-    "comingSoon": "Próximamente"
+    "comingSoon": "Próximamente",
+    "cancel": "Cancelar",
+    "downloadFor": "Descargar para {platform}",
+    "os": "Sistema Operativo",
+    "arch": "Arquitectura",
+    "memory": "Memoria",
+    "internet": "Internet",
+    "reqStreaming": "Requerido para streaming",
+    "reqTitle": "Requisitos para {platform}",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina o más reciente",
+        "arch": "Apple Silicon e Intel (Universal)",
+        "mem": "4 GB RAM (Recomendado)"
+      },
+      "windows": {
+        "os": "Windows 10 o posterior (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recomendado)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 o más reciente (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recomendado)"
+      },
+      "ios": {
+        "os": "iOS 13.0 o más reciente",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recomendado)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) o más reciente",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recomendado)"
+      }
+    }
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 ya está disponible",
@@ -442,6 +477,15 @@
     "noArticles": "No se encontraron artículos para este idioma.",
     "writtenBy": "Por",
     "translationUnavailable": "Este artículo no está disponible en su idioma.",
-    "advertisements": "Anuncios"
+    "advertisements": "Anuncios",
+    "categories": {
+      "all": "Todo",
+      "discovery": "Descubrimiento",
+      "engineering": "Ingeniería",
+      "community": "Comunidad",
+      "guides": "Guías",
+      "education": "Educación",
+      "product": "Producto"
+    }
   }
 }

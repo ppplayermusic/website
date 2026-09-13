@@ -20,9 +20,10 @@ interface DownloadOptionsModalProps {
   title: string;
   description: string;
   options: DownloadOption[];
+  cancelText?: string;
 }
 
-export function DownloadOptionsModal({ isOpen, onClose, title, description, options }: DownloadOptionsModalProps) {
+export function DownloadOptionsModal({ isOpen, onClose, title, description, options, cancelText = "Cancel" }: DownloadOptionsModalProps) {
   return (
     <AnimatePresence>
       {isOpen && (
@@ -97,7 +98,7 @@ export function DownloadOptionsModal({ isOpen, onClose, title, description, opti
               onClick={onClose}
               className="w-full bg-white text-black font-semibold rounded-full py-3 hover:bg-slate-200 transition-colors"
             >
-              Cancel
+              {cancelText}
             </button>
           </motion.div>
         </motion.div>

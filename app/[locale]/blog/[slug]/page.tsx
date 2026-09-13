@@ -142,7 +142,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
             )}
 
             <div className="flex items-center gap-3 text-sm font-medium text-slate-400 mb-6">
-              <span className="text-blue-400">{post.category}</span>
+              <span className="text-blue-400">{t.has(`categories.${post.category.toLowerCase()}`) ? t(`categories.${post.category.toLowerCase()}`) : post.category}</span>
               <span>•</span>
               <span>{post.readTime} {t.has('minRead') ? t('minRead') : 'min read'}</span>
             </div>
