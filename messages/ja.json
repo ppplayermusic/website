@@ -319,6 +319,17 @@
   "changelog": {
     "title": "チェンジログ",
     "subtitle": "PPPlayer の最新情報。",
+    "v1_3_1": {
+      "version": "1.3.1",
+      "date": "September 14, 2026",
+      "desc": "Achieved 100% translation parity and fixed UI bugs.",
+      "added": "Added",
+      "fixed": "Fixed",
+      "syncTitle": "Full Localization Parity",
+      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
+      "uiTitle": "UI and Link Fixes",
+      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+    },
     "v1_3_0": {
       "version": "1.3.0",
       "date": "September 13, 2026",
