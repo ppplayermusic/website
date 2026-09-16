@@ -42,7 +42,7 @@ export default function PlatformCardsSection() {
       gradient: 'from-cyan-500/10 to-transparent',
       isAvailable: true,
       secondaryHref: '#',
-      secondaryBadge: tCTA('comingSoon'),
+      secondaryBadge: tCTA('directDownload'),
       secondaryIsAvailable: false,
     },
     {
@@ -163,7 +163,15 @@ export default function PlatformCardsSection() {
                             : 'bg-white/5 text-white/80 hover:bg-white/10 hover:text-white'
                         }`}
                       >
-                        {platform.secondaryBadge}
+                        <span className="flex items-center gap-1.5">
+                          {platform.secondaryBadge}
+                          {/* @ts-ignore */}
+                          {platform.secondaryIsAvailable === false && (
+                            <span className="text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded-sm bg-white/10 text-white/70 whitespace-nowrap">
+                              {tCTA('comingSoon')}
+                            </span>
+                          )}
+                        </span>
                         <svg className="w-4 h-4 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                         </svg>
