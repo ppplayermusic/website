@@ -40,7 +40,10 @@ export default function PlatformCardsSection() {
       href: DOWNLOAD_LINKS.windows,
       color: 'rgba(6, 182, 212, 0.1)',
       gradient: 'from-cyan-500/10 to-transparent',
-      isAvailable: false,
+      isAvailable: true,
+      secondaryHref: '#',
+      secondaryBadge: tCTA('comingSoon'),
+      secondaryIsAvailable: false,
     },
     {
       id: 'ios',
@@ -147,7 +150,18 @@ export default function PlatformCardsSection() {
                     {platform.secondaryHref && platform.secondaryBadge && (
                       <a
                         href={platform.secondaryHref}
-                        className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm font-medium text-white/80 hover:bg-white/10 hover:text-white transition-all duration-300 pointer-events-auto shadow-sm"
+                        onClick={(e) => {
+                          // @ts-ignore - inline secondaryIsAvailable property
+                          if (platform.secondaryIsAvailable === false) {
+                            e.preventDefault();
+                          }
+                        }}
+                        className={`inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 text-sm font-medium transition-all duration-300 pointer-events-auto shadow-sm ${
+                          // @ts-ignore
+                          platform.secondaryIsAvailable === false
+                            ? 'bg-white/5 text-white/50 cursor-not-allowed'
+                            : 'bg-white/5 text-white/80 hover:bg-white/10 hover:text-white'
+                        }`}
                       >
                         {platform.secondaryBadge}
                         <svg className="w-4 h-4 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
