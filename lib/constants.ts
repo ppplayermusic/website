@@ -50,7 +50,10 @@ export const PLATFORMS = [
       os: 'Windows 10 or later (64-bit)',
       architecture: 'x64',
       memory: '4 GB RAM (Recommended)',
-    }
+    },
+    secondaryHref: '#',
+    secondaryBadge: 'Direct Download',
+    secondaryIsAvailable: false,
   },
   {
     id: 'linux',
@@ -164,8 +167,8 @@ export const getPlatformOptions = (
     opts.push({
       id: `${p.id}-secondary`,
       name: t?.directDownload || 'Direct Download',
-      badge: p.secondaryBadge,
-      isAvailable: true,
+      badge: p.secondaryIsAvailable === false ? (t?.comingSoon || 'Coming Soon') : p.secondaryBadge,
+      isAvailable: p.secondaryIsAvailable !== false,
       href: p.secondaryHref,
     });
   }
