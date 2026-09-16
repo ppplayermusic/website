@@ -36,7 +36,7 @@ export default function PlatformCardsSection() {
       name: t('windows.name'),
       label: t('windows.label'),
       description: t('windows.desc'),
-      badge: t('windows.badge'),
+      badge: 'Microsoft Store',
       href: DOWNLOAD_LINKS.windows,
       color: 'rgba(6, 182, 212, 0.1)',
       gradient: 'from-cyan-500/10 to-transparent',
