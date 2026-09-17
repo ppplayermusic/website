@@ -319,6 +319,14 @@
   "changelog": {
     "title": "Log perubahan",
     "subtitle": "Apa yang baharu dalam PPPlayer.",
+    "v1_3_6": {
+      "desc": "Keluaran Android rasmi di Gedung Google Play.",
+      "added": "Ditambah",
+      "androidTitle": "Keluaran Android",
+      "androidDesc": "PPPlayer kini tersedia secara rasmi untuk peranti Android di Gedung Google Play. Muat turun hari ini dan nikmati muzik anda di mana-mana sahaja.",
+      "version": "1.3.6",
+      "date": "September 17, 2026"
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

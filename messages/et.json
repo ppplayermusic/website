@@ -319,6 +319,14 @@
   "changelog": {
     "title": "Muudatuste logi",
     "subtitle": "Mis on uut PPPlayeris.",
+    "v1_3_6": {
+      "desc": "Ametlik Androidi väljalase Google Play poes.",
+      "added": "Lisatud",
+      "androidTitle": "Androidi väljalase",
+      "androidDesc": "PPPlayer on nüüd ametlikult saadaval Androidi seadmetele Google Play poes. Laadige see täna alla ja nautige oma muusikat liikvel olles.",
+      "version": "1.3.6",
+      "date": "September 17, 2026"
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

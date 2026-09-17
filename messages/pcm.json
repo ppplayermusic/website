@@ -319,6 +319,14 @@
   "changelog": {
     "title": "Changelog",
     "subtitle": "Wetin don change for PPPlayer.",
+    "v1_3_6": {
+      "desc": "Official Android release for Google Play Store.",
+      "added": "Added",
+      "androidTitle": "Android Release",
+      "androidDesc": "PPPlayer don officially ready for Android phones for Google Play Store. Download am today make you enjoy your music anywhere you go.",
+      "version": "1.3.6",
+      "date": "September 17, 2026"
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

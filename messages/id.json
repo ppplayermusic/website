@@ -319,6 +319,14 @@
   "changelog": {
     "title": "Catatan Perubahan",
     "subtitle": "Apa yang baru di PPPlayer.",
+    "v1_3_6": {
+      "desc": "Rilis Android resmi di Google Play Store.",
+      "added": "Ditambahkan",
+      "androidTitle": "Rilis Android",
+      "androidDesc": "PPPlayer sekarang resmi tersedia untuk perangkat Android di Google Play Store. Unduh hari ini dan nikmati musik Anda di mana saja.",
+      "version": "1.3.6",
+      "date": "September 17, 2026"
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

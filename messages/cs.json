@@ -319,6 +319,14 @@
   "changelog": {
     "title": "Seznam změn",
     "subtitle": "Co je nového v PPPlayeru.",
+    "v1_3_6": {
+      "desc": "Oficiální vydání pro Android v obchodu Google Play.",
+      "added": "Přidáno",
+      "androidTitle": "Vydání pro Android",
+      "androidDesc": "PPPlayer je nyní oficiálně dostupný pro zařízení Android v obchodu Google Play. Stáhněte si jej ještě dnes a užívejte si hudbu na cestách.",
+      "version": "1.3.6",
+      "date": "September 17, 2026"
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

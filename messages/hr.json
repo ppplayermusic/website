@@ -319,6 +319,14 @@
   "changelog": {
     "title": "Dnevnik promjena",
     "subtitle": "Što je novo u PPPlayeru.",
+    "v1_3_6": {
+      "desc": "Službeno izdanje za Android u Trgovini Google Play.",
+      "added": "Dodano",
+      "androidTitle": "Izdanje za Android",
+      "androidDesc": "PPPlayer je sada službeno dostupan za Android uređaje u Trgovini Google Play. Preuzmite ga danas i uživajte u svojoj glazbi u pokretu.",
+      "version": "1.3.6",
+      "date": "September 17, 2026"
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

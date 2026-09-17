@@ -319,6 +319,14 @@
   "changelog": {
     "title": "O'zgarishlar tarixi",
     "subtitle": "PPPlayer-da nima yangiliklar.",
+    "v1_3_6": {
+      "desc": "Google Play do'konida rasmiy Android relizi.",
+      "added": "Qo'shildi",
+      "androidTitle": "Android relizi",
+      "androidDesc": "PPPlayer endi Google Play do'konida Android qurilmalari uchun rasman mavjud. Uni bugun yuklab oling va yo'lda musiqangizdan zavqlaning.",
+      "version": "1.3.6",
+      "date": "September 17, 2026"
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

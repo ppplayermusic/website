@@ -319,6 +319,14 @@
   "changelog": {
     "title": "Өзгерістер журналы",
     "subtitle": "PPPlayer-дегі жаңалықтар.",
+    "v1_3_6": {
+      "desc": "Google Play Store дүкеніндегі ресми Android шығарылымы.",
+      "added": "Қосылды",
+      "androidTitle": "Android шығарылымы",
+      "androidDesc": "PPPlayer енді Google Play Store дүкенінде Android құрылғылары үшін ресми түрде қолжетімді. Оны бүгін жүктеп алыңыз және жолда жүргенде музыкаңыздан ләззат алыңыз.",
+      "version": "1.3.6",
+      "date": "September 17, 2026"
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

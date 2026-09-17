@@ -319,6 +319,14 @@
   "changelog": {
     "title": "Changelog",
     "subtitle": "What's new in PPPlayer.",
+    "v1_3_6": {
+      "version": "1.3.6",
+      "date": "September 17, 2026",
+      "desc": "Official Android release on the Google Play Store.",
+      "added": "Added",
+      "androidTitle": "Android Release",
+      "androidDesc": "PPPlayer is now officially available for Android devices on the Google Play Store. Download it today and enjoy your music on the go."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

@@ -319,6 +319,14 @@
   "changelog": {
     "title": "ပြင်ဆင်ပြောင်းလဲမှုများ",
     "subtitle": "PPPlayer တွင် ဘာတွေအသစ်လဲ။",
+    "v1_3_6": {
+      "desc": "Google Play Store တွင် တရားဝင် Android ထွက်ရှိမှု။",
+      "added": "ထည့်သွင်းထားသည်",
+      "androidTitle": "Android ထွက်ရှိမှု",
+      "androidDesc": "PPPlayer ကို Google Play Store တွင် Android စက်ပစ္စည်းများအတွက် တရားဝင် ရရှိနိုင်ပါပြီ။ ယနေ့ ဒေါင်းလုဒ်လုပ်ပြီး သွားရင်းလာရင်း သင့်ဂီတကို ခံစားလိုက်ပါ။",
+      "version": "1.3.6",
+      "date": "September 17, 2026"
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

@@ -319,6 +319,14 @@
   "changelog": {
     "title": "Izmaiņu žurnāls",
     "subtitle": "Kas jauns PPPlayer.",
+    "v1_3_6": {
+      "desc": "Oficiālais Android laidiens Google Play veikalā.",
+      "added": "Pievienots",
+      "androidTitle": "Android laidiens",
+      "androidDesc": "PPPlayer tagad ir oficiāli pieejams Android ierīcēm Google Play veikalā. Lejupielādējiet to šodien un izbaudiet mūziku ceļā.",
+      "version": "1.3.6",
+      "date": "September 17, 2026"
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",
