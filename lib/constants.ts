@@ -14,7 +14,7 @@ export const PROJECT_LINKS = {
 // Download links: update when store listings are live
 export const DOWNLOAD_LINKS = {
   ios: 'https://apps.apple.com/app/ppplayer',
-  android: 'https://play.google.com/store/apps/details?id=com.ppplayer',
+  android: 'https://play.google.com/store/apps/details?id=com.ppplayer.app&pcampaignid=web_share',
   windows: 'https://apps.microsoft.com/store/detail/9NKNDF67BG4X?cid=DevShareMCLPCS',
   macos: 'https://github.com/ppplayermusic/app/releases/latest/download/PPPlayer-macOS.dmg',
   androidApk: 'https://github.com/ppplayermusic/app/releases/latest/download/PPPlayer-Android.apk',
@@ -93,7 +93,7 @@ export const PLATFORMS = [
     badge: 'Google Play',
     href: DOWNLOAD_LINKS.android,
     color: 'from-green-400 to-emerald-300',
-    isAvailable: false,
+    isAvailable: true,
     requirements: {
       os: 'Android 7.0 (API 24) or newer',
       architecture: 'ARM64 / ARM / x86_64',
