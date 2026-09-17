@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image';
 import {useTranslations} from 'next-intl'
 import { PROJECT_LINKS, PLATFORMS, getPlatformOptions } from '@/lib/constants'
@@ -13,6 +13,17 @@ export default function HeroSection() {
   const t = useTranslations('hero');
   const tCTA = useTranslations('downloadCTA');
   const [activeModalPlatform, setActiveModalPlatform] = useState<string | null>(null);
+  const [detectedOS, setDetectedOS] = useState<string | null>(null);
+
+  useEffect(() => {
+    const ua = navigator.userAgent.toLowerCase();
+    if (/android/.test(ua)) setDetectedOS('android');
+    else if (/iphone|ipad|ipod/.test(ua)) setDetectedOS('ios');
+    else if (/mac/.test(ua)) setDetectedOS('macos');
+    else if (/win/.test(ua)) setDetectedOS('windows');
+    else if (/linux/.test(ua)) setDetectedOS('linux');
+    else setDetectedOS('macos'); // fallback to macOS
+  }, []);
 
   const handleDownloadClick = (e: React.MouseEvent<HTMLAnchorElement>, platformId: string) => {
     e.preventDefault();
@@ -39,19 +50,19 @@ export default function HeroSection() {
             </p>
             
             <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
-              <SpotlightButton href="#" variant="light" onClick={(e) => handleDownloadClick(e, 'ios')}>
+              <SpotlightButton href="#" variant={detectedOS === 'ios' ? 'light' : 'dark'} onClick={(e) => handleDownloadClick(e, 'ios')}>
                 {t("getIos")}
               </SpotlightButton>
-              <SpotlightButton href="#" variant="dark" onClick={(e) => handleDownloadClick(e, 'android')}>
+              <SpotlightButton href="#" variant={detectedOS === 'android' ? 'light' : 'dark'} onClick={(e) => handleDownloadClick(e, 'android')}>
                 {t("getAndroid")}
               </SpotlightButton>
-              <SpotlightButton href="#" variant="dark" onClick={(e) => handleDownloadClick(e, 'macos')}>
+              <SpotlightButton href="#" variant={detectedOS === 'macos' ? 'light' : 'dark'} onClick={(e) => handleDownloadClick(e, 'macos')}>
                 {t("getMac")}
               </SpotlightButton>
-              <SpotlightButton href="#" variant="dark" onClick={(e) => handleDownloadClick(e, 'windows')}>
+              <SpotlightButton href="#" variant={detectedOS === 'windows' ? 'light' : 'dark'} onClick={(e) => handleDownloadClick(e, 'windows')}>
                 {t("getWindows")}
               </SpotlightButton>
-              <SpotlightButton href="#" variant="dark" onClick={(e) => handleDownloadClick(e, 'linux')}>
+              <SpotlightButton href="#" variant={detectedOS === 'linux' ? 'light' : 'dark'} onClick={(e) => handleDownloadClick(e, 'linux')}>
                 {t("getLinux")}
               </SpotlightButton>
             </div>
