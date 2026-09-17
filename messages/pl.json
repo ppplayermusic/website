@@ -300,8 +300,8 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Pobieranie bezpośrednie dla systemu Windows 10 i nowszych. Sklep nie jest potrzebny.",
-      "badge": "Pobieranie bezpośrednie"
+      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "badge": "Microsoft Store"
     },
     "macos": {
       "name": "macOS",

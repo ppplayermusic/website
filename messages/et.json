@@ -300,8 +300,8 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Otsene allalaadimine Windows 10 ja uuemate versioonide jaoks. Poodi pole vaja.",
-      "badge": "Otsene allalaadimine"
+      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "badge": "Microsoft Store"
     },
     "macos": {
       "name": "macOS",

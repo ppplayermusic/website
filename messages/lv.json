@@ -300,8 +300,8 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Tiešā lejupielāde operētājsistēmai Windows 10 un jaunākām versijām. Nav nepieciešams veikals.",
-      "badge": "Tiešā lejupielāde"
+      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "badge": "Microsoft Store"
     },
     "macos": {
       "name": "macOS",

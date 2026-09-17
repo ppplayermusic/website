@@ -300,8 +300,8 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Izravno preuzimanje za Windows 10 i novije. Nije potrebna trgovina.",
-      "badge": "Izravno preuzimanje"
+      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "badge": "Microsoft Store"
     },
     "macos": {
       "name": "macOS",

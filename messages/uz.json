@@ -300,8 +300,8 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Windows 10 va undan yangiroq versiyalar uchun to'g'ridan-to'g'ri yuklab olish. Do'kon kerak emas.",
-      "badge": "To'g'ridan-to'g'ri yuklab olish"
+      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "badge": "Microsoft Store"
     },
     "macos": {
       "name": "macOS",

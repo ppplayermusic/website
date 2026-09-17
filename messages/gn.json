@@ -300,8 +300,8 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Emboguejy Windows 10 ha pyahuvéva-pe guarã. Ndoikotevẽi tienda.",
-      "badge": "Emboguejy"
+      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "badge": "Microsoft Store"
     },
     "macos": {
       "name": "macOS",

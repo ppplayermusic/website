@@ -300,8 +300,8 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Windows 10 और बाद के संस्करण के लिए सीधा डाउनलोड। किसी स्टोर की आवश्यकता नहीं।",
-      "badge": "सीधा डाउनलोड"
+      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "badge": "Microsoft Store"
     },
     "macos": {
       "name": "macOS",

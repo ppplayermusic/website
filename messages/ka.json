@@ -300,8 +300,8 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "პირდაპირი ჩამოტვირთვა Windows 10 და უფრო ახალი ვერსიებისთვის. მაღაზია არ არის საჭირო.",
-      "badge": "პირდაპირი ჩამოტვირთვა"
+      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "badge": "Microsoft Store"
     },
     "macos": {
       "name": "macOS",

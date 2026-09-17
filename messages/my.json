@@ -300,8 +300,8 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Windows 10 နှင့် နောက်ပိုင်းဗားရှင်းများအတွက် တိုက်ရိုက်ဒေါင်းလုဒ်။ App Store မလိုပါ။",
-      "badge": "တိုက်ရိုက် ဒေါင်းလုဒ်"
+      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "badge": "Microsoft Store"
     },
     "macos": {
       "name": "macOS",

@@ -300,8 +300,8 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Windows 10 және одан кейінгі нұсқалары үшін тікелей жүктеп алу. Дүкен қажет емес.",
-      "badge": "Тікелей жүктеп алу"
+      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "badge": "Microsoft Store"
     },
     "macos": {
       "name": "macOS",

@@ -300,8 +300,8 @@
     "windows": {
       "name": "ویندوز",
       "label": "ویندوز ۱۰+",
-      "desc": "دانلود مستقیم برای ویندوز ۱۰ و جدیدتر. بدون نیاز به استور.",
-      "badge": "دانلود مستقیم"
+      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "badge": "Microsoft Store"
     },
     "macos": {
       "name": "مک اواس",

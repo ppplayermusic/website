@@ -300,8 +300,8 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Közvetlen letöltés Windows 10 és újabb rendszerekre. Nincs szükség áruházra.",
-      "badge": "Közvetlen letöltés"
+      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "badge": "Microsoft Store"
     },
     "macos": {
       "name": "macOS",

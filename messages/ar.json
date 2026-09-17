@@ -300,8 +300,8 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "تنزيل مباشر لأنظمة Windows 10 والأحدث. لا يتطلب متجر.",
-      "badge": "تنزيل مباشر"
+      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "badge": "Microsoft Store"
     },
     "macos": {
       "name": "macOS",
