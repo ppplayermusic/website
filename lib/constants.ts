@@ -160,6 +160,7 @@ export const getPlatformOptions = (
       badge: p.isAvailable ? undefined : (t?.comingSoon || 'Coming Soon'),
       isAvailable: p.isAvailable,
       href: p.href,
+      isExternal: p.badge?.includes('Store') || p.badge?.includes('Play'),
     }
   ];
 
@@ -170,6 +171,7 @@ export const getPlatformOptions = (
       badge: p.secondaryIsAvailable === false ? (t?.comingSoon || 'Coming Soon') : p.secondaryBadge,
       isAvailable: p.secondaryIsAvailable !== false,
       href: p.secondaryHref,
+      isExternal: false,
     });
   }
 

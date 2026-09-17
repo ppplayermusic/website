@@ -12,6 +12,7 @@ export interface DownloadOption {
   href: string;
   icon?: React.ReactNode;
   onSelect?: () => void;
+  isExternal?: boolean;
 }
 
 interface DownloadOptionsModalProps {
@@ -56,24 +57,22 @@ export function DownloadOptionsModal({ isOpen, onClose, title, description, opti
                   key={option.id}
                   href={option.isAvailable ? option.href : '#'}
                   onClick={(e) => {
-                    if (!option.isAvailable) {
-                      e.preventDefault();
-                    }
-                    if (option.onSelect) {
-                      option.onSelect();
-                    }
+                    if (!option.isAvailable) e.preventDefault();
+                    else if (option.onSelect) option.onSelect();
                   }}
-                  className={`group flex items-center gap-4 p-4 rounded-2xl border transition-all duration-300 ${
+                  className={`relative flex items-center p-4 rounded-2xl border transition-all duration-300 group ${
                     option.isAvailable 
-                      ? 'bg-white/5 border-white/10 hover:bg-white/10 hover:border-white/20' 
-                      : 'bg-white/5 border-white/5 opacity-60 cursor-default'
+                      ? 'bg-white/5 border-white/10 hover:bg-white/10 hover:border-white/20 hover:-translate-y-1' 
+                      : 'bg-white/5 border-white/5 opacity-50 cursor-not-allowed'
                   }`}
-                  download={option.isAvailable ? true : undefined}
+                  download={option.isAvailable && !option.isExternal ? true : undefined}
+                  target={option.isExternal ? "_blank" : undefined}
+                  rel={option.isExternal ? "noopener noreferrer" : undefined}
                 >
                   <div className="flex-shrink-0">
                     {option.icon || <Smartphone className="w-6 h-6 text-white/70 group-hover:text-white transition-colors" />}
                   </div>
-                  <div className="flex-grow flex flex-col items-start text-left">
+                  <div className="flex-grow flex flex-col items-start text-left ml-4">
                     <span className="text-sm font-semibold text-white/90 group-hover:text-white transition-colors">
                       {option.name}
                     </span>
@@ -85,9 +84,15 @@ export function DownloadOptionsModal({ isOpen, onClose, title, description, opti
                   </div>
                   {option.isAvailable && (
                     <div className="flex-shrink-0">
-                       <svg className="w-5 h-5 text-white/30 group-hover:text-white/70 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                       </svg>
+                      {option.isExternal ? (
+                        <svg className="w-5 h-5 text-white/30 group-hover:text-white/70 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                      ) : (
+                        <svg className="w-5 h-5 text-white/30 group-hover:text-white/70 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                      )}
                     </div>
                   )}
                 </a>

@@ -150,7 +150,7 @@ export default function PlatformCardsSection() {
                     {platform.secondaryHref && platform.secondaryBadge && (
                       <span
                         className={`inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 text-sm font-medium transition-all duration-300 pointer-events-none shadow-sm ${
-                          // @ts-ignore
+                          // @ts-expect-error
                           platform.secondaryIsAvailable === false
                             ? 'bg-white/5 text-white/50'
                             : 'bg-white/5 text-white/80 group-hover:bg-white/10 group-hover:text-white'
@@ -158,7 +158,7 @@ export default function PlatformCardsSection() {
                       >
                         <span className="flex items-center gap-1.5">
                           {platform.secondaryBadge}
-                          {/* @ts-ignore */}
+                          {/* @ts-expect-error */}
                           {platform.secondaryIsAvailable === false && (
                             <span className="text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded-sm bg-white/10 text-white/70 whitespace-nowrap">
                               {tCTA('comingSoon')}
