@@ -148,19 +148,12 @@ export default function PlatformCardsSection() {
                     </span>
                     
                     {platform.secondaryHref && platform.secondaryBadge && (
-                      <a
-                        href={platform.secondaryHref}
-                        onClick={(e) => {
-                          // @ts-ignore - inline secondaryIsAvailable property
-                          if (platform.secondaryIsAvailable === false) {
-                            e.preventDefault();
-                          }
-                        }}
-                        className={`inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 text-sm font-medium transition-all duration-300 pointer-events-auto shadow-sm ${
+                      <span
+                        className={`inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 text-sm font-medium transition-all duration-300 pointer-events-none shadow-sm ${
                           // @ts-ignore
                           platform.secondaryIsAvailable === false
-                            ? 'bg-white/5 text-white/50 cursor-not-allowed'
-                            : 'bg-white/5 text-white/80 hover:bg-white/10 hover:text-white'
+                            ? 'bg-white/5 text-white/50'
+                            : 'bg-white/5 text-white/80 group-hover:bg-white/10 group-hover:text-white'
                         }`}
                       >
                         <span className="flex items-center gap-1.5">
@@ -172,10 +165,10 @@ export default function PlatformCardsSection() {
                             </span>
                           )}
                         </span>
-                        <svg className="w-4 h-4 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                         </svg>
-                      </a>
+                      </span>
                     )}
                   </div>
                 </SpotlightCard>
