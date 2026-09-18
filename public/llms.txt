@@ -10,8 +10,9 @@ PPPlayer is a cross-platform music player app available on macOS, Android (APK),
 - **Source Code**: https://github.com/ppplayermusic/app
 - **GitHub Organization**: https://github.com/ppplayermusic
 - **License**: MIT — https://github.com/ppplayermusic/ppplayer/blob/main/LICENSE
-- **Current version**: 1.3.6
+- **Current version**: See latest release on GitHub
 - **Built with**: Flutter (Dart), targeting macOS, Windows, Android, iOS, and Linux.
+- **Detailed Documentation**: See [llms-full.txt](https://ppplayer.com/llms-full.txt) for comprehensive details on features, language support, and architecture.
 
 ## Pages
 
@@ -19,16 +20,15 @@ PPPlayer is a cross-platform music player app available on macOS, Android (APK),
 - [Download](https://ppplayer.com/download): Platform-specific download options
 - [Changelog](https://ppplayer.com/changelog): Full release history with version notes
 - [Support](https://ppplayer.com/support): Help, FAQ, and contact information
-- [Privacy Policy](https://ppplayer.com/privacy): How user data is handled (no account required, minimal data collection)
+- [Privacy Policy](https://ppplayer.com/privacy): Anonymous analytics and crash reporting; no personal data or accounts required.
 - [Terms of Service](https://ppplayer.com/terms): Usage terms
 
-## Download Links
+## Verified Download Links
 
-- **macOS**: https://github.com/ppplayermusic/app/releases/latest/download/PPPlayer-macOS.dmg
-- **Windows (Microsoft Store)**: https://apps.microsoft.com/store/detail/9NKNDF67BG4X?cid=DevShareMCLPCS
-- **Android (Google Play)**: https://play.google.com/store/apps/details?id=com.ppplayer.app&pcampaignid=web_share
-- **Android (APK)**: https://github.com/ppplayermusic/app/releases/latest/download/PPPlayer-Android.apk
-- **iOS**: https://apps.apple.com/app/ppplayer (or via TestFlight)
+- **Android (Google Play)**: https://play.google.com/store/apps/details?id=com.ppplayer.app
+- **Windows (Microsoft Store)**: https://apps.microsoft.com/store/detail/9NKNDF67BG4X
+- **Android (APK)** & **macOS**: Available via direct download on GitHub Releases
+- **iOS**: https://apps.apple.com/app/ppplayer (Configured, but pending public release)
 - **Linux**: Experimental (see download page)
 
 ## Features
@@ -47,7 +47,7 @@ PPPlayer is a cross-platform music player app available on macOS, Android (APK),
 
 ## Localization
 
-The website and app support 13 languages: English, Portuguese (Brazil), Spanish, Russian, Turkish, French, German, Hindi, Italian, Japanese, Korean, Arabic, and Chinese (Simplified).
+The website and app maintain complete structural and translation parity across 32 corresponding locales, including English, Brazilian Portuguese, Spanish, Russian, Turkish, French, German, Hindi, Italian, Japanese, Korean, Arabic, and Chinese among others. The only remaining untranslated terms are intentional cross-language branding or shared UI vocabulary. (Note: These complete translation fixes are currently in development; the published app release has limited picker options and incomplete locales).
 
 ## Optional
 

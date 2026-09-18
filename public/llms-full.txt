@@ -1,0 +1,39 @@
+# PPPlayer: Complete Product Information
+
+PPPlayer is a free, cross-platform, open-source music player designed for discovery, seamless streaming, and high-fidelity local playback.
+
+## Repositories & License
+- **App Repository**: https://github.com/ppplayermusic/app (Flutter/Dart)
+- **Website Repository**: https://github.com/ppplayermusic/website (Next.js)
+- **License**: MIT License
+- **Current Version**: See latest release on GitHub
+
+## Privacy & Account Requirements
+- **Account Requirements**: None. PPPlayer is completely free and does not require subscriptions, accounts, emails, or sign-ups to use any features.
+- **Privacy & Data Collection**: PPPlayer's privacy policy explicitly states that no personal information (names, emails, payment info, precise location) is collected. However, to improve stability, the app does collect anonymous usage analytics (feature usage, session duration), crash reports, error logs, and basic device/OS metadata.
+
+## Playback Features
+- **Core Playback**: Supports streaming, local audio playback, playlists, artist discovery, infinite artist radio, and related artists exploration.
+- **Platform Integration**: Picture-in-Picture (PiP) and system-level background playback are supported across major mobile and desktop platforms using standard OS integrations.
+
+## Supported Platforms and Availability
+- **Android**: Verified public listing on Google Play (`https://play.google.com/store/apps/details?id=com.ppplayer.app`). Direct APK downloads available via GitHub Releases.
+- **Windows**: Verified public listing on the Microsoft Store (`https://apps.microsoft.com/store/detail/9NKNDF67BG4X`).
+- **macOS**: Available via direct DMG download on GitHub Releases.
+- **Linux**: Experimental support.
+*(Note: iOS TestFlight and App Store availability claims have been removed as there are no verified public URLs).*
+
+## Localization & Language Support
+The website and the application maintain complete structural and translation parity across **32 corresponding locales** in development. The remaining untranslated terms are intentional cross-language branding (e.g., "Daily Mix", "Release Radar") or shared UI terminology. (Note: These full translation fixes are currently in development; the published app release has limited picker options and incomplete locales).
+
+### Website
+The website is explicitly configured to support **32 languages**:
+English (`en`), Arabic (`ar`), Bengali (`bn`), Czech (`cs`), Danish (`da`), German (`de`), Spanish (`es`), Estonian (`et`), Persian (`fa`), Filipino (`fil`), French (`fr`), Guarani (`gn`), Hindi (`hi`), Croatian (`hr`), Hungarian (`hu`), Indonesian (`id`), Italian (`it`), Japanese (`ja`), Georgian (`ka`), Kazakh (`kk`), Korean (`ko`), Latvian (`lv`), Malay (`ms`), Burmese (`my`), Nigerian Pidgin (`pcm`), Polish (`pl`), Brazilian Portuguese (`pt-BR`), Russian (`ru`), Swedish (`sv`), Turkish (`tr`), Uzbek (`uz`), and Chinese (`zh`).
+
+### Flutter App (Upcoming Release)
+The application generates and supports all **32 corresponding languages** at runtime:
+- **Selectable in App Settings (32 languages)**: Users can manually select any of the 32 languages (plus "System Default") from the settings menu. 
+- **Parity Note**: The app uses `pt` for Brazilian Portuguese, corresponding to the website's `pt-BR`.
+
+### Flutter App (Current Public Release)
+In the currently published versions, the app only supports 31 languages (Turkish is missing) and limits the explicit picker to 26 options. Full parity is slated for the upcoming release.
