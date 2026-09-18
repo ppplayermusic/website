@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Kitaplık ekranı iyileştirmeleri ve duyarlılık düzeltmeleri.",
+      "added": "Eklendi",
+      "fixed": "Düzeltildi",
+      "libraryTitle": "Kitaplık Ekranı Güncellemeleri",
+      "libraryDesc": "Kitaplık ekranında iyileştirmeler yapıldı ve kartlardaki duyarlılık sorunları çözüldü."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Resim İçinde Resim desteği, yerel başlangıç ekranları ve daha fazlası.",
+      "added": "Eklendi",
+      "fixed": "Düzeltildi",
+      "pipTitle": "Resim İçinde Resim Oynatma",
+      "pipDesc": "Resim İçinde Resim (PiP) oynatma ve duyarlı gezinme desteği eklendi.",
+      "splashTitle": "Yerel Başlangıç Ekranları ve Uyarlanabilir Simgeler",
+      "splashDesc": "Android, iOS ve Web için yerel başlangıç ekranları ve uyarlanabilir uygulama simgeleri eklendi.",
+      "uiTitle": "Kullanıcı Arayüzü Ayarlamaları",
+      "uiDesc": "Mini oynatıcının ekranın sağ kenarıyla düzgün hizalanması için konumu düzeltildi."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Otomatik derlemeler ve iş akışı iyileştirmeleri.",
+      "added": "Eklendi",
+      "ciTitle": "Otomatik İş Akışları",
+      "ciDesc": "Otomatik çok platformlu derlemeler için GitHub Actions sürüm iş akışları eklendi."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Sistem medya kontrolleri senkronizasyonu ve temel özellikler.",
+      "added": "Eklendi",
+      "syncTitle": "Sistem Medya Kontrolleri Senkronizasyonu",
+      "syncDesc": "Windows görev çubuğu küçük resim araç çubuğu da dahil olmak üzere oynatma durumunu sistem medya kontrolleriyle senkronize etmek için MediaSyncService sunuldu.",
+      "libraryTitle": "Kitaplık Filtreleme ve Arama",
+      "libraryDesc": "Kitaplık ekranına filtreleme, sıralama ve arama yetenekleri eklendi."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

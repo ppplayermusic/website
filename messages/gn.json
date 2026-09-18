@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Aranduka rerekua ñemoporã ha ñemyatyrõmba.",
+      "added": "Oñemoĩ",
+      "fixed": "Oñemyatyrõ",
+      "libraryTitle": "Aranduka rerekua ñemoporã",
+      "libraryDesc": "Ojejapo ñemoporã aranduka rerekua ha oñemyatyrõ tarhéta jeporu."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Ta'ãnga ta'ãngápe (PiP), ñepyrũ ra'ãnga ypykue, ha hetave mba'e.",
+      "added": "Oñemoĩ",
+      "fixed": "Oñemyatyrõ",
+      "pipTitle": "Ta'ãnga ta'ãngápe (PiP)",
+      "pipDesc": "Oñemoĩ ta'ãnga ta'ãngápe (PiP) ñembosarái ha jeheka iporãvéva.",
+      "splashTitle": "Ñepyrũ ra'ãnga ypykue ha mba'e'oka ñemboheko",
+      "splashDesc": "Oñemoĩ ñepyrũ ra'ãnga ypykue ha app mba'e'oka ñemboheko Android, iOS, ha Ñanduti pe g̃uarã.",
+      "uiTitle": "UI ñemoporã",
+      "uiDesc": "Oñemyatyrõ mba'epu michĩha rendagua oñemoĩ porã hag̃ua akatúa gotyo."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Ñemboheko ijehegui ha tembiapo ñemoporã.",
+      "added": "Oñemoĩ",
+      "ciTitle": "Tembiapo ijehegui",
+      "ciDesc": "Oñemoĩ GitHub Actions tembiapo ijehegui opaite plataforma pe g̃uarã."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Sistema mba'epu sãmbyhy ha mba'e tenondegua.",
+      "added": "Oñemoĩ",
+      "syncTitle": "Sistema mba'epu sãmbyhy ñembojoaju",
+      "syncDesc": "Oñepyrũ MediaSyncService ombojoaju hag̃ua mba'epu sistema mba'epu sãmbyhy ndive, oikehápe Windows tarea rerekua ta'ãnga michĩ.",
+      "libraryTitle": "Aranduka mboguaha ha jeheka",
+      "libraryDesc": "Oñemoĩ ñemboguaha, ñemohenda, ha jeheka aranduka rerekua pe."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

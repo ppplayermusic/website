@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Forbedringer af biblioteksskærmen og rettelser af respons.",
+      "added": "Tilføjet",
+      "fixed": "Rettet",
+      "libraryTitle": "Opdateringer til biblioteksskærmen",
+      "libraryDesc": "Implementeret forbedringer af biblioteksskærmen og løst problemer med kortenes respons."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Understøttelse af billede-i-billede, indbyggede startskærme med mere.",
+      "added": "Tilføjet",
+      "fixed": "Rettet",
+      "pipTitle": "Afspilning af billede-i-billede",
+      "pipDesc": "Tilføjet understøttelse af billede-i-billede (PiP) afspilning og responsiv navigation.",
+      "splashTitle": "Indbyggede startskærme og adaptive ikoner",
+      "splashDesc": "Tilføjet indbyggede startskærme og adaptive appikoner til Android, iOS og internettet.",
+      "uiTitle": "Justeringer af brugergrænsefladen",
+      "uiDesc": "Korrigeret positionering af miniafspilleren for at justere korrekt med højre kant af skærmen."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Automatiserede builds og forbedringer af arbejdsgange.",
+      "added": "Tilføjet",
+      "ciTitle": "Automatiserede arbejdsgange",
+      "ciDesc": "Tilføjet GitHub Actions-udgivelsesarbejdsgange til automatiserede builds på tværs af platforme."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Synkronisering af systemets mediekontrolelementer og kernefunktioner.",
+      "added": "Tilføjet",
+      "syncTitle": "Synkronisering af systemets mediekontrolelementer",
+      "syncDesc": "Introducerede MediaSyncService til at synkronisere afspilningsstatus med systemets mediekontrolelementer, herunder miniatureværktøjslinjen på Windows-proceslinjen.",
+      "libraryTitle": "Filtrering og søgning i bibliotek",
+      "libraryDesc": "Tilføjet muligheder for at filtrere, sortere og søge på biblioteksskærmen."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

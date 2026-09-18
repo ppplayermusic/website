@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Förbättringar av biblioteksskärmen och korrigeringar av respons.",
+      "added": "Tillagd",
+      "fixed": "Rättat",
+      "libraryTitle": "Uppdateringar av biblioteksskärmen",
+      "libraryDesc": "Implementerat förbättringar på biblioteksskärmen och löst problem med kortens respons."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Bild-i-bild-stöd, inbyggda startskärmar och mer.",
+      "added": "Tillagd",
+      "fixed": "Rättat",
+      "pipTitle": "Bild-i-bild-uppspelning",
+      "pipDesc": "Lade till stöd för bild-i-bild (PiP)-uppspelning och responsiv navigering.",
+      "splashTitle": "Inbyggda startskärmar och adaptiva ikoner",
+      "splashDesc": "Lade till inbyggda startskärmar och adaptiva appikoner för Android, iOS och webben.",
+      "uiTitle": "Justeringar av användargränssnittet",
+      "uiDesc": "Korrigerat placeringen av minispelaren för att anpassa den korrekt mot skärmens högra kant."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Automatiserade byggen och arbetsflödesförbättringar.",
+      "added": "Tillagd",
+      "ciTitle": "Automatiserade arbetsflöden",
+      "ciDesc": "Lade till GitHub Actions-utgivningsarbetsflöden för automatiserade plattformsoberoende byggen."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Synkronisering av systemmediakontroller och kärnfunktioner.",
+      "added": "Tillagd",
+      "syncTitle": "Synkronisering av systemmediakontroller",
+      "syncDesc": "Introducerade MediaSyncService för att synkronisera uppspelningsstatus med systemmediakontroller, inklusive verktygsfältet för miniatyrbilder i Windows-aktivitetsfältet.",
+      "libraryTitle": "Filtrering och sökning i biblioteket",
+      "libraryDesc": "Lade till filtrering, sortering och sökfunktioner på biblioteksskärmen."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

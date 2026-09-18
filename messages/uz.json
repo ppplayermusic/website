@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Kutubxona ekrani yaxshilanishlari va sezgirlik tuzatishlari.",
+      "added": "Qo'shildi",
+      "fixed": "Tuzatildi",
+      "libraryTitle": "Kutubxona ekrani yangilanishlari",
+      "libraryDesc": "Kutubxona ekranini yaxshilashlar amalga oshirildi va kartalarning sezgirligi bilan bog'liq muammolar hal qilindi."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Rasm ichida rasm yordami, mahalliy kirish ekranlari va boshqalar.",
+      "added": "Qo'shildi",
+      "fixed": "Tuzatildi",
+      "pipTitle": "Rasm ichida rasm ijrosi",
+      "pipDesc": "Rasm ichida rasm (PiP) o'ynatish va moslashuvchan navigatsiya qo'llab-quvvatlanishi qo'shildi.",
+      "splashTitle": "Mahalliy kirish ekranlari va moslashuvchan piktogrammalar",
+      "splashDesc": "Android, iOS va Veb uchun mahalliy kirish ekranlari va moslashuvchan ilova piktogrammalari qo'shildi.",
+      "uiTitle": "Foydalanuvchi interfeysini sozlash",
+      "uiDesc": "Mini-pleerning joylashuvi ekranning o'ng tomoniga to'g'ri tekislanishi uchun tuzatildi."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Avtomatlashtirilgan qurishlar va ish oqimini yaxshilash.",
+      "added": "Qo'shildi",
+      "ciTitle": "Avtomatlashtirilgan ish oqimlari",
+      "ciDesc": "Avtomatlashtirilgan ko'p platformali qurilishlar uchun GitHub Actions relizlari ish oqimlari qo'shildi."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Tizim media boshqaruvlarini sinxronlashtirish va asosiy xususiyatlar.",
+      "added": "Qo'shildi",
+      "syncTitle": "Tizim media boshqaruvini sinxronlashtirish",
+      "syncDesc": "Ijro etish holatini tizim media boshqaruvlari, shu jumladan Windows vazifalar panelining eskizlar asboblar paneli bilan sinxronlashtirish uchun MediaSyncService joriy etildi.",
+      "libraryTitle": "Kutubxonani filtrlash va qidirish",
+      "libraryDesc": "Kutubxona ekraniga filtrlash, saralash va qidirish imkoniyatlari qo'shildi."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

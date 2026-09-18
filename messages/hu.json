@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "A könyvtár képernyőjének fejlesztései és válaszidejű javítások.",
+      "added": "Hozzáadva",
+      "fixed": "Javítva",
+      "libraryTitle": "Könyvtár képernyő frissítései",
+      "libraryDesc": "A könyvtár képernyőjének fejlesztései és a kártyák válaszadási problémáinak megoldása."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Kép a képben támogatás, natív kezdőképernyők és egyebek.",
+      "added": "Hozzáadva",
+      "fixed": "Javítva",
+      "pipTitle": "Kép a képben lejátszás",
+      "pipDesc": "Kép a képben (PiP) lejátszás és reszponzív navigáció támogatása hozzáadva.",
+      "splashTitle": "Natív kezdőképernyők és adaptív ikonok",
+      "splashDesc": "Natív kezdőképernyők és adaptív alkalmazásikonok hozzáadva Androidra, iOS-re és az internetre.",
+      "uiTitle": "Felhasználói felület beállításai",
+      "uiDesc": "A mini-lejátszó pozicionálása javítva, hogy megfelelően illeszkedjen a képernyő jobb széléhez."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Automatizált buildek és munkafolyamat-fejlesztések.",
+      "added": "Hozzáadva",
+      "ciTitle": "Automatizált munkafolyamatok",
+      "ciDesc": "GitHub Actions kiadási munkafolyamatok hozzáadva az automatizált platformok közötti buildekhez."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Rendszer médiavezérlők szinkronizálása és alapvető funkciók.",
+      "added": "Hozzáadva",
+      "syncTitle": "Rendszer médiavezérlők szinkronizálása",
+      "syncDesc": "A MediaSyncService bevezetése a lejátszás állapotának a rendszer médiavezérlőivel való szinkronizálásához, beleértve a Windows tálca miniatűr eszköztárát is.",
+      "libraryTitle": "Könyvtárszűrés és keresés",
+      "libraryDesc": "Szűrési, rendezési és keresési lehetőségek hozzáadva a könyvtár képernyőhöz."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Miglioramenti alla schermata della libreria e correzioni di reattività.",
+      "added": "Aggiunto",
+      "fixed": "Risolto",
+      "libraryTitle": "Aggiornamenti della schermata della libreria",
+      "libraryDesc": "Miglioramenti implementati alla schermata della libreria e risolti problemi di reattività con le schede."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Supporto Picture-in-Picture, schermate iniziali native e altro ancora.",
+      "added": "Aggiunto",
+      "fixed": "Risolto",
+      "pipTitle": "Riproduzione Picture-in-Picture",
+      "pipDesc": "Aggiunto il supporto per la riproduzione Picture-in-Picture (PiP) e navigazione reattiva.",
+      "splashTitle": "Schermate iniziali native e icone adattive",
+      "splashDesc": "Aggiunte schermate iniziali native e icone delle app adattive per Android, iOS e Web.",
+      "uiTitle": "Regolazioni dell'interfaccia utente",
+      "uiDesc": "Corretto il posizionamento del mini-player per allinearlo correttamente con il bordo destro dello schermo."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Build automatizzate e miglioramenti del flusso di lavoro.",
+      "added": "Aggiunto",
+      "ciTitle": "Flussi di lavoro automatizzati",
+      "ciDesc": "Aggiunti i flussi di lavoro di rilascio GitHub Actions per build multipiattaforma automatizzate."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Sincronizzazione dei controlli multimediali di sistema e funzionalità principali.",
+      "added": "Aggiunto",
+      "syncTitle": "Sincronizzazione dei controlli multimediali di sistema",
+      "syncDesc": "Introdotto MediaSyncService per sincronizzare lo stato di riproduzione con i controlli multimediali di sistema, inclusa la barra degli strumenti delle miniature della barra delle applicazioni di Windows.",
+      "libraryTitle": "Filtro e ricerca della libreria",
+      "libraryDesc": "Aggiunte funzionalità di filtro, ordinamento e ricerca alla schermata della libreria."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

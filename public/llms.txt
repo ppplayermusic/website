@@ -10,13 +10,13 @@ PPPlayer is a cross-platform music player app available on macOS, Android (APK),
 - **Source Code**: https://github.com/ppplayermusic/app
 - **GitHub Organization**: https://github.com/ppplayermusic
 - **License**: MIT — https://github.com/ppplayermusic/ppplayer/blob/main/LICENSE
-- **Current version**: 1.1.2
-- **Built with**: Flutter (Dart), targeting macOS, Android, iOS, Windows
+- **Current version**: 1.3.6
+- **Built with**: Flutter (Dart), targeting macOS, Windows, Android, iOS, and Linux.
 
 ## Pages
 
 - [Home](https://ppplayer.com): Overview, features, and download links
-- [Download](https://ppplayer.com/download): Platform-specific download options (macOS DMG, Android APK, iOS TestFlight, Windows)
+- [Download](https://ppplayer.com/download): Platform-specific download options
 - [Changelog](https://ppplayer.com/changelog): Full release history with version notes
 - [Support](https://ppplayer.com/support): Help, FAQ, and contact information
 - [Privacy Policy](https://ppplayer.com/privacy): How user data is handled (no account required, minimal data collection)
@@ -25,9 +25,11 @@ PPPlayer is a cross-platform music player app available on macOS, Android (APK),
 ## Download Links
 
 - **macOS**: https://github.com/ppplayermusic/app/releases/latest/download/PPPlayer-macOS.dmg
+- **Windows (Microsoft Store)**: https://apps.microsoft.com/store/detail/9NKNDF67BG4X?cid=DevShareMCLPCS
+- **Android (Google Play)**: https://play.google.com/store/apps/details?id=com.ppplayer.app&pcampaignid=web_share
 - **Android (APK)**: https://github.com/ppplayermusic/app/releases/latest/download/PPPlayer-Android.apk
-- **iOS**: Available via TestFlight (see download page)
-- **Windows**: Available via GitHub Releases (see download page)
+- **iOS**: https://apps.apple.com/app/ppplayer (or via TestFlight)
+- **Linux**: Experimental (see download page)
 
 ## Features
 

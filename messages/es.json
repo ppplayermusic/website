@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Mejoras en la pantalla de la biblioteca y correcciones de respuesta.",
+      "added": "Añadido",
+      "fixed": "Corregido",
+      "libraryTitle": "Actualizaciones de la pantalla de la biblioteca",
+      "libraryDesc": "Se implementaron mejoras en la pantalla de la biblioteca y se resolvieron problemas de respuesta con las tarjetas."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Soporte de imagen en imagen (PiP), pantallas de inicio nativas y más.",
+      "added": "Añadido",
+      "fixed": "Corregido",
+      "pipTitle": "Reproducción en modo imagen en imagen",
+      "pipDesc": "Se agregó soporte para la reproducción de imagen en imagen (PiP) y navegación responsiva.",
+      "splashTitle": "Pantallas de inicio nativas e iconos adaptables",
+      "splashDesc": "Se agregaron pantallas de inicio nativas e íconos de aplicaciones adaptables para Android, iOS y la Web.",
+      "uiTitle": "Ajustes de la interfaz de usuario",
+      "uiDesc": "Se corrigió el posicionamiento del minirreproductor para que se alinee correctamente con el borde derecho de la pantalla."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Compilaciones automatizadas y mejoras en el flujo de trabajo.",
+      "added": "Añadido",
+      "ciTitle": "Flujos de trabajo automatizados",
+      "ciDesc": "Se agregaron flujos de trabajo de lanzamiento de GitHub Actions para compilaciones automatizadas multiplataforma."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Sincronización de controles de medios del sistema y características principales.",
+      "added": "Añadido",
+      "syncTitle": "Sincronización de controles de medios del sistema",
+      "syncDesc": "Se introdujo MediaSyncService para sincronizar el estado de reproducción con los controles de medios del sistema, incluida la barra de herramientas de miniaturas de la barra de tareas de Windows.",
+      "libraryTitle": "Filtrado y búsqueda de biblioteca",
+      "libraryDesc": "Se agregaron capacidades de filtrado, clasificación y búsqueda a la pantalla de la biblioteca."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

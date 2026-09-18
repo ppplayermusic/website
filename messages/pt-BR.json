@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Melhorias na tela da biblioteca e correções de responsividade.",
+      "added": "Adicionado",
+      "fixed": "Corrigido",
+      "libraryTitle": "Atualizações da tela da biblioteca",
+      "libraryDesc": "Melhorias implementadas na tela da biblioteca e resolução de problemas de capacidade de resposta nos cartões."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Suporte a Picture-in-Picture, telas de abertura nativas e muito mais.",
+      "added": "Adicionado",
+      "fixed": "Corrigido",
+      "pipTitle": "Reprodução de imagem em imagem (PiP)",
+      "pipDesc": "Adicionado suporte para reprodução de Picture-in-Picture (PiP) e navegação responsiva.",
+      "splashTitle": "Telas de abertura nativas e ícones adaptativos",
+      "splashDesc": "Adição de telas iniciais nativas e ícones de aplicativos adaptativos para Android, iOS e Web.",
+      "uiTitle": "Ajustes de interface de usuário",
+      "uiDesc": "Corrigido o posicionamento do mini-player para alinhar corretamente com a borda direita da tela."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Compilações automatizadas e melhorias de fluxo de trabalho.",
+      "added": "Adicionado",
+      "ciTitle": "Fluxos de trabalho automatizados",
+      "ciDesc": "Adicionados fluxos de trabalho de liberação de GitHub Actions para compilações automatizadas em várias plataformas."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Sincronização de controles de mídia do sistema e recursos principais.",
+      "added": "Adicionado",
+      "syncTitle": "Sincronização de controles de mídia do sistema",
+      "syncDesc": "Introduzido o MediaSyncService para sincronizar o status de reprodução com os controles de mídia do sistema, incluindo a barra de ferramentas de miniatura da barra de tarefas do Windows.",
+      "libraryTitle": "Filtragem e pesquisa da biblioteca",
+      "libraryDesc": "Adicionados recursos de filtragem, classificação e pesquisa à tela da biblioteca."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

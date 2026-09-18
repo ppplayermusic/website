@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Ulepszenia ekranu biblioteki i poprawki responsywności.",
+      "added": "Dodano",
+      "fixed": "Naprawiono",
+      "libraryTitle": "Aktualizacje ekranu biblioteki",
+      "libraryDesc": "Wprowadzono ulepszenia na ekranie biblioteki i rozwiązano problemy z responsywnością kart."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Obsługa obrazu w obrazie, natywne ekrany powitalne i wiele więcej.",
+      "added": "Dodano",
+      "fixed": "Naprawiono",
+      "pipTitle": "Odtwarzanie obrazu w obrazie (PiP)",
+      "pipDesc": "Dodano obsługę odtwarzania obrazu w obrazie (PiP) i responsywną nawigację.",
+      "splashTitle": "Natywne ekrany powitalne i ikony adaptacyjne",
+      "splashDesc": "Dodano natywne ekrany powitalne i adaptacyjne ikony aplikacji dla systemów Android, iOS i sieci Web.",
+      "uiTitle": "Poprawki interfejsu użytkownika",
+      "uiDesc": "Poprawiono pozycjonowanie mini-odtwarzacza, aby prawidłowo wyrównać go z prawą krawędzią ekranu."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Zautomatyzowane kompilacje i ulepszenia przepływu pracy.",
+      "added": "Dodano",
+      "ciTitle": "Zautomatyzowane przepływy pracy",
+      "ciDesc": "Dodano przepływy pracy wydawania GitHub Actions dla zautomatyzowanych kompilacji wieloplatformowych."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Synchronizacja kontroli multimediów systemowych i podstawowe funkcje.",
+      "added": "Dodano",
+      "syncTitle": "Synchronizacja kontroli multimediów systemowych",
+      "syncDesc": "Wprowadzono usługę MediaSyncService do synchronizacji stanu odtwarzania z kontrolkami multimedialnymi systemu, w tym paskiem narzędzi miniatur na pasku zadań systemu Windows.",
+      "libraryTitle": "Filtrowanie i wyszukiwanie w bibliotece",
+      "libraryDesc": "Dodano funkcje filtrowania, sortowania i wyszukiwania na ekranie biblioteki."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

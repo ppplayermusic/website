@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Améliorations de l'écran de la bibliothèque et correctifs de réactivité.",
+      "added": "Ajouté",
+      "fixed": "Corrigé",
+      "libraryTitle": "Mises à jour de l'écran de la bibliothèque",
+      "libraryDesc": "Améliorations mises en œuvre sur l'écran de la bibliothèque et résolution des problèmes de réactivité des cartes."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Prise en charge de l'incrustation d'image (PiP), écrans de démarrage natifs et plus encore.",
+      "added": "Ajouté",
+      "fixed": "Corrigé",
+      "pipTitle": "Lecture en incrustation d'image (PiP)",
+      "pipDesc": "Ajout de la prise en charge de la lecture en incrustation d'image (PiP) et d'une navigation réactive.",
+      "splashTitle": "Écrans de démarrage natifs et icônes adaptables",
+      "splashDesc": "Ajout d'écrans de démarrage natifs et d'icônes d'application adaptables pour Android, iOS et le Web.",
+      "uiTitle": "Ajustements de l'interface utilisateur",
+      "uiDesc": "Correction du positionnement du mini-lecteur pour qu'il s'aligne correctement avec le bord droit de l'écran."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Compilations automatisées et améliorations du flux de travail.",
+      "added": "Ajouté",
+      "ciTitle": "Flux de travail automatisés",
+      "ciDesc": "Ajout de flux de travail de publication GitHub Actions pour les compilations multiplateformes automatisées."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Synchronisation des contrôles multimédias du système et fonctionnalités principales.",
+      "added": "Ajouté",
+      "syncTitle": "Synchronisation des contrôles multimédias du système",
+      "syncDesc": "Introduction de MediaSyncService pour synchroniser l'état de lecture avec les contrôles multimédias du système, y compris la barre d'outils miniature de la barre des tâches Windows.",
+      "libraryTitle": "Filtrage et recherche de la bibliothèque",
+      "libraryDesc": "Ajout de capacités de filtrage, de tri et de recherche à l'écran de la bibliothèque."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

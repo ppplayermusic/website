@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Library screen beta levels and fixing for speed.",
+      "added": "Added",
+      "fixed": "Fixed",
+      "libraryTitle": "Library Screen Updates",
+      "libraryDesc": "We do better things for the library screen and fix how cards dey respond."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Picture-in-Picture support, native splash screens, and other beta things.",
+      "added": "Added",
+      "fixed": "Fixed",
+      "pipTitle": "Picture-in-Picture Playback",
+      "pipDesc": "Add support so you can watch video while doing other things and beta navigation.",
+      "splashTitle": "Native Splash Screens & Adaptive Icons",
+      "splashDesc": "Add better open screens and app icons for Android, iOS, and Web.",
+      "uiTitle": "UI Adjustments",
+      "uiDesc": "Fix how the small player dey stay so e go perfectly stay for the right side of the screen."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Automatic builds and how work flow.",
+      "added": "Added",
+      "ciTitle": "Automatic Workflows",
+      "ciDesc": "Add GitHub Actions make e dey build am automatically for all platform."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "System media controls sync and main things.",
+      "added": "Added",
+      "syncTitle": "System Media Controls Sync",
+      "syncDesc": "Bring MediaSyncService to make the play status balance with your device controls, even for Windows.",
+      "libraryTitle": "Library Filtering & Search",
+      "libraryDesc": "Add how you fit filter, sort, and search your music for library screen."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Peningkatan skrin perpustakaan dan pembaikan responsif.",
+      "added": "Ditambah",
+      "fixed": "Dibaiki",
+      "libraryTitle": "Kemas Kini Skrin Perpustakaan",
+      "libraryDesc": "Melaksanakan peningkatan pada skrin perpustakaan dan menyelesaikan masalah responsif pada kad."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Sokongan Gambar-dalam-Gambar, skrin percikan asli dan banyak lagi.",
+      "added": "Ditambah",
+      "fixed": "Dibaiki",
+      "pipTitle": "Main Balik Gambar-dalam-Gambar",
+      "pipDesc": "Menambah sokongan untuk main balik Gambar-dalam-Gambar (PiP) dan navigasi responsif.",
+      "splashTitle": "Skrin Percikan Asli & Ikon Suai",
+      "splashDesc": "Menambah skrin percikan asli dan ikon aplikasi adaptif untuk Android, iOS dan Web.",
+      "uiTitle": "Pelarasan UI",
+      "uiDesc": "Membetulkan kedudukan pemain mini agar sejajar dengan tepi kanan skrin."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Binaan automatik dan peningkatan aliran kerja.",
+      "added": "Ditambah",
+      "ciTitle": "Aliran Kerja Automatik",
+      "ciDesc": "Menambah aliran kerja keluaran GitHub Actions untuk binaan pelbagai platform automatik."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Penyegerakan kawalan media sistem dan ciri teras.",
+      "added": "Ditambah",
+      "syncTitle": "Penyegerakan Kawalan Media Sistem",
+      "syncDesc": "Memperkenalkan MediaSyncService untuk menyegerakkan status main balik dengan kawalan media sistem, termasuk bar alat lakaran kecil bar tugas Windows.",
+      "libraryTitle": "Penapisan & Pencarian Perpustakaan",
+      "libraryDesc": "Menambah keupayaan penapisan, pengisihan dan pencarian ke skrin perpustakaan."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

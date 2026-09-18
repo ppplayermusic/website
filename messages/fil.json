@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Mga pagpapabuti sa screen ng library at mga pag-aayos ng pagtugon.",
+      "added": "Idinagdag",
+      "fixed": "Inayos",
+      "libraryTitle": "Mga Update sa Screen ng Library",
+      "libraryDesc": "Ipinatupad ang mga pagpapabuti sa screen ng library at inayos ang mga isyu sa pagtugon ng mga card."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Suporta sa Picture-in-Picture, mga native splash screen, at higit pa.",
+      "added": "Idinagdag",
+      "fixed": "Inayos",
+      "pipTitle": "Pag-playback ng Picture-in-Picture",
+      "pipDesc": "Nagdagdag ng suporta para sa Picture-in-Picture (PiP) na pag-playback at tumutugon na nabigasyon.",
+      "splashTitle": "Mga Native Splash Screen at Adaptive Icon",
+      "splashDesc": "Nagdagdag ng mga native na splash screen at adaptive app icon para sa Android, iOS, at Web.",
+      "uiTitle": "Mga Pagsasaayos ng UI",
+      "uiDesc": "Itinama ang pagpoposisyon ng mini-player upang maayos na iayon sa kanang gilid ng screen."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Mga awtomatikong build at mga pagpapabuti sa workflow.",
+      "added": "Idinagdag",
+      "ciTitle": "Mga Awtomatikong Workflow",
+      "ciDesc": "Idinagdag ang mga workflow ng pag-release ng GitHub Actions para sa mga awtomatikong multi-platform na build."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Pag-sync ng mga kontrol ng media ng system at mga pangunahing tampok.",
+      "added": "Idinagdag",
+      "syncTitle": "Pagsi-sync ng Mga Kontrol ng Media ng System",
+      "syncDesc": "Ipinakilala ang MediaSyncService upang i-synchronize ang status ng playback sa mga kontrol ng media ng system, kasama ang thumbnail toolbar sa Windows taskbar.",
+      "libraryTitle": "Pag-filter at Paghahanap sa Library",
+      "libraryDesc": "Nagdagdag ng mga kakayahan sa pag-filter, pag-uuri, at paghahanap sa screen ng library."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "라이브러리 화면 개선 및 반응형 수정.",
+      "added": "추가됨",
+      "fixed": "수정됨",
+      "libraryTitle": "라이브러리 화면 업데이트",
+      "libraryDesc": "라이브러리 화면 개선을 구현하고 카드의 반응성 문제를 해결했습니다."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "PIP(Picture-in-Picture) 지원, 기본 스플래시 화면 등.",
+      "added": "추가됨",
+      "fixed": "수정됨",
+      "pipTitle": "PIP(Picture-in-Picture) 재생",
+      "pipDesc": "PIP(Picture-in-Picture) 재생 및 반응형 탐색에 대한 지원이 추가되었습니다.",
+      "splashTitle": "기본 스플래시 화면 및 적응형 아이콘",
+      "splashDesc": "Android, iOS 및 웹용 기본 스플래시 화면 및 적응형 앱 아이콘이 추가되었습니다.",
+      "uiTitle": "UI 조정",
+      "uiDesc": "화면 오른쪽 가장자리와 올바르게 정렬되도록 미니 플레이어의 위치를 수정했습니다."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "자동화된 빌드 및 워크플로 개선.",
+      "added": "추가됨",
+      "ciTitle": "자동화된 워크플로",
+      "ciDesc": "자동화된 다중 플랫폼 빌드를 위해 GitHub Actions 릴리스 워크플로가 추가되었습니다."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "시스템 미디어 컨트롤 동기화 및 핵심 기능.",
+      "added": "추가됨",
+      "syncTitle": "시스템 미디어 컨트롤 동기화",
+      "syncDesc": "Windows 작업 표시줄 썸네일 도구 모음을 포함하여 시스템 미디어 제어와 재생 상태를 동기화하기 위해 MediaSyncService를 도입했습니다.",
+      "libraryTitle": "라이브러리 필터링 및 검색",
+      "libraryDesc": "라이브러리 화면에 필터링, 정렬 및 검색 기능이 추가되었습니다."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

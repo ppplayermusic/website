@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Bibliotēkas ekrāna uzlabojumi un reaģēšanas labojumi.",
+      "added": "Pievienots",
+      "fixed": "Izlabots",
+      "libraryTitle": "Bibliotēkas ekrāna atjauninājumi",
+      "libraryDesc": "Ieviesti bibliotēkas ekrāna uzlabojumi un atrisinātas kartīšu reaģēšanas problēmas."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Attēls attēlā atbalsts, dzimtie sākuma ekrāni un daudz kas cits.",
+      "added": "Pievienots",
+      "fixed": "Izlabots",
+      "pipTitle": "Attēls attēlā atskaņošana",
+      "pipDesc": "Pievienots atbalsts attēls attēlā (PiP) atskaņošanai un atsaucīgai navigācijai.",
+      "splashTitle": "Dzimtie sākuma ekrāni un adaptīvās ikonas",
+      "splashDesc": "Pievienoti dzimtie sākuma ekrāni un adaptīvās lietotņu ikonas Android, iOS un Web.",
+      "uiTitle": "Lietotāja saskarnes pielāgojumi",
+      "uiDesc": "Izlabots mini atskaņotāja novietojums, lai to pareizi līdzinātu ar ekrāna labo malu."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Automatizēti būvējumi un darbplūsmas uzlabojumi.",
+      "added": "Pievienots",
+      "ciTitle": "Automatizētas darbplūsmas",
+      "ciDesc": "Pievienotas GitHub Actions laidiena darbplūsmas automatizētiem vairāku platformu būvējumiem."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Sistēmas multivides vadīklu sinhronizācija un pamatfunkcijas.",
+      "added": "Pievienots",
+      "syncTitle": "Sistēmas multivides vadīklu sinhronizācija",
+      "syncDesc": "Ieviests MediaSyncService, lai sinhronizētu atskaņošanas statusu ar sistēmas multivides vadīklām, tostarp Windows uzdevumjoslas sīktēlu rīkjoslu.",
+      "libraryTitle": "Bibliotēkas filtrēšana un meklēšana",
+      "libraryDesc": "Bibliotēkas ekrānam pievienotas filtrēšanas, kārtošanas un meklēšanas iespējas."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

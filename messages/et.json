@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Raamatukogu ekraani täiustused ja reageerimisvõime parandused.",
+      "added": "Lisatud",
+      "fixed": "Parandatud",
+      "libraryTitle": "Raamatukogu ekraani värskendused",
+      "libraryDesc": "Rakendati raamatukogu ekraani täiustusi ja lahendati kaartide reageerimisvõimega seotud probleemid."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Pilt pildis tugi, algupärased avakuvade pildid ja palju muud.",
+      "added": "Lisatud",
+      "fixed": "Parandatud",
+      "pipTitle": "Pilt pildis taasesitus",
+      "pipDesc": "Lisatud tugi pilt pildis (PiP) taasesitusele ja reageerivale navigeerimisele.",
+      "splashTitle": "Algupärased avakuvade pildid ja kohanduvad ikoonid",
+      "splashDesc": "Lisati algupärased avakuvade pildid ja kohanduvad rakenduste ikoonid Androidi, iOS-i ja veebi jaoks.",
+      "uiTitle": "Kasutajaliidese kohandamised",
+      "uiDesc": "Parandati mini-mängija paigutust, et see joonduks õigesti ekraani parema servaga."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Automatiseeritud ehitused ja töövoo täiustused.",
+      "added": "Lisatud",
+      "ciTitle": "Automatiseeritud töövood",
+      "ciDesc": "Lisatud GitHub Actionsi väljalaske töövood automatiseeritud platvormiüleste ehituste jaoks."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Süsteemi meediakontrollide sünkroonimine ja põhifunktsioonid.",
+      "added": "Lisatud",
+      "syncTitle": "Süsteemi meediakontrollide sünkroonimine",
+      "syncDesc": "Tutvustati MediaSyncService'i, et sünkroonida taasesituse olekut süsteemi meediakontrollidega, sealhulgas Windowsi tegumiriba pisipiltide tööriistaribaga.",
+      "libraryTitle": "Raamatukogu filtreerimine ja otsing",
+      "libraryDesc": "Raamatukogu ekraanile lisati filtreerimise, sortimise ja otsimise võimalused."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

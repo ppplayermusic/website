@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Poboljšanja zaslona biblioteke i popravci odziva.",
+      "added": "Dodano",
+      "fixed": "Popravljeno",
+      "libraryTitle": "Ažuriranja zaslona biblioteke",
+      "libraryDesc": "Implementirana poboljšanja na zaslonu biblioteke i riješeni problemi s odzivom na karticama."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Podrška za sliku u slici, nativni početni zasloni i više.",
+      "added": "Dodano",
+      "fixed": "Popravljeno",
+      "pipTitle": "Reprodukcija slika u slici",
+      "pipDesc": "Dodana podrška za reprodukciju slika u slici (PiP) i responzivnu navigaciju.",
+      "splashTitle": "Nativni početni zasloni i prilagodljive ikone",
+      "splashDesc": "Dodani su nativni početni zasloni i prilagodljive ikone aplikacija za Android, iOS i web.",
+      "uiTitle": "Prilagodbe korisničkog sučelja",
+      "uiDesc": "Ispravljeno pozicioniranje mini-playera za pravilno poravnavanje s desnim rubom zaslona."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Automatizirane međuverzije i poboljšanja tijeka rada.",
+      "added": "Dodano",
+      "ciTitle": "Automatizirani tijekovi rada",
+      "ciDesc": "Dodani su GitHub Actions tijekovi rada izdanja za automatizirane višeplatformske međuverzije."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Sinkronizacija medijskih kontrola sustava i osnovne značajke.",
+      "added": "Dodano",
+      "syncTitle": "Sinkronizacija medijskih kontrola sustava",
+      "syncDesc": "Uveden je MediaSyncService za sinkronizaciju statusa reprodukcije sa sistemskim medijskim kontrolama, uključujući alatnu traku minijatura na programskoj traci sustava Windows.",
+      "libraryTitle": "Filtriranje i pretraživanje biblioteke",
+      "libraryDesc": "Dodane su mogućnosti filtriranja, sortiranja i pretraživanja na zaslon biblioteke."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

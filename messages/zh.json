@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "库屏幕改进和响应式修复。",
+      "added": "已添加",
+      "fixed": "已修复",
+      "libraryTitle": "库屏幕更新",
+      "libraryDesc": "对库屏幕进行了改进并解决了卡片的响应问题。"
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "画中画支持、本机启动屏幕等。",
+      "added": "已添加",
+      "fixed": "已修复",
+      "pipTitle": "画中画播放",
+      "pipDesc": "添加了对画中画 (PiP) 播放和响应式导航的支持。",
+      "splashTitle": "本机启动屏幕和自适应图标",
+      "splashDesc": "为 Android、iOS 和 Web 添加了原生启动屏幕和自适应应用程序图标。",
+      "uiTitle": "用户界面调整",
+      "uiDesc": "修正了迷你播放器的定位，使其与屏幕右边缘正确对齐。"
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "自动化构建和工作流程改进。",
+      "added": "已添加",
+      "ciTitle": "自动化工作流程",
+      "ciDesc": "添加了用于自动跨平台构建的 GitHub Actions 发布工作流。"
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "系统媒体控件同步和核心功能。",
+      "added": "已添加",
+      "syncTitle": "系统媒体控件同步",
+      "syncDesc": "引入了 MediaSyncService 将播放状态与系统媒体控件（包括 Windows 任务栏缩略图工具栏）同步。",
+      "libraryTitle": "库过滤和搜索",
+      "libraryDesc": "在库屏幕中添加了过滤、排序和搜索功能。"
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

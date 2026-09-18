@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Vylepšení obrazovky knihovny a opravy odezvy.",
+      "added": "Přidáno",
+      "fixed": "Opraveno",
+      "libraryTitle": "Aktualizace obrazovky knihovny",
+      "libraryDesc": "Byla implementována vylepšení obrazovky knihovny a vyřešeny problémy s odezvou u karet."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Podpora obrazu v obraze, nativní úvodní obrazovky a další.",
+      "added": "Přidáno",
+      "fixed": "Opraveno",
+      "pipTitle": "Přehrávání obrazu v obraze (PiP)",
+      "pipDesc": "Byla přidána podpora pro přehrávání obrazu v obraze (PiP) a responzivní navigaci.",
+      "splashTitle": "Nativní úvodní obrazovky a adaptivní ikony",
+      "splashDesc": "Byly přidány nativní úvodní obrazovky a adaptivní ikony aplikací pro Android, iOS a web.",
+      "uiTitle": "Úpravy uživatelského rozhraní",
+      "uiDesc": "Byla opravena poloha mini přehrávače, aby správně lícovala s pravým okrajem obrazovky."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Automatizovaná sestavení a vylepšení pracovních postupů.",
+      "added": "Přidáno",
+      "ciTitle": "Automatizované pracovní postupy",
+      "ciDesc": "Byly přidány pracovní postupy vydání GitHub Actions pro automatizovaná sestavení pro více platforem."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Synchronizace ovládacích prvků médií systému a základní funkce.",
+      "added": "Přidáno",
+      "syncTitle": "Synchronizace ovládacích prvků médií systému",
+      "syncDesc": "Byla představena služba MediaSyncService pro synchronizaci stavu přehrávání s ovládacími prvky médií systému, včetně panelu miniatur na hlavním panelu Windows.",
+      "libraryTitle": "Filtrování a vyhledávání v knihovně",
+      "libraryDesc": "Na obrazovku knihovny byly přidány možnosti filtrování, řazení a vyhledávání."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",

@@ -327,6 +327,46 @@
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "September 16, 2026",
+      "desc": "Verbesserungen am Bibliotheksbildschirm und Behebung von Reaktionsproblemen.",
+      "added": "Hinzugefügt",
+      "fixed": "Behoben",
+      "libraryTitle": "Aktualisierungen des Bibliotheksbildschirms",
+      "libraryDesc": "Verbesserungen am Bibliotheksbildschirm implementiert und Probleme mit der Reaktionsfähigkeit von Karten behoben."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "September 15, 2026",
+      "desc": "Bild-in-Bild-Unterstützung, native Startbildschirme und mehr.",
+      "added": "Hinzugefügt",
+      "fixed": "Behoben",
+      "pipTitle": "Bild-in-Bild-Wiedergabe",
+      "pipDesc": "Unterstützung für Bild-in-Bild (PiP)-Wiedergabe und reaktionsschnelle Navigation hinzugefügt.",
+      "splashTitle": "Native Startbildschirme & Adaptive Icons",
+      "splashDesc": "Native Startbildschirme und adaptive App-Symbole für Android, iOS und Web hinzugefügt.",
+      "uiTitle": "Benutzeroberflächen-Anpassungen",
+      "uiDesc": "Positionierung des Mini-Players korrigiert, um ihn richtig am rechten Bildschirmrand auszurichten."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "September 14, 2026",
+      "desc": "Automatisierte Builds und Workflow-Verbesserungen.",
+      "added": "Hinzugefügt",
+      "ciTitle": "Automatisierte Workflows",
+      "ciDesc": "GitHub Actions Release-Workflows für automatisierte plattformübergreifende Builds hinzugefügt."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "September 14, 2026",
+      "desc": "Synchronisierung der System-Mediensteuerung und Kernfunktionen.",
+      "added": "Hinzugefügt",
+      "syncTitle": "Synchronisierung der System-Mediensteuerung",
+      "syncDesc": "MediaSyncService eingeführt, um den Wiedergabestatus mit der System-Mediensteuerung zu synchronisieren, einschließlich der Windows-Taskleisten-Miniaturansicht-Symbolleiste.",
+      "libraryTitle": "Bibliotheksfilterung & Suche",
+      "libraryDesc": "Filter-, Sortier- und Suchfunktionen zum Bibliotheksbildschirm hinzugefügt."
+    },
     "v1_3_1": {
       "version": "1.3.1",
       "date": "September 14, 2026",
