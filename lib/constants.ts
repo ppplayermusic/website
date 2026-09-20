@@ -60,8 +60,8 @@ export const PLATFORMS: PlatformConfig[] = [
     id: 'windows',
     name: 'Windows',
     label: 'Windows 10+',
-    description: 'Direct download for Windows 10 and later.',
-    badge: 'Direct Download',
+    description: 'Available on the Microsoft Store for Windows 10 and later.',
+    badge: 'Microsoft Store',
     href: DOWNLOAD_LINKS.windows,
     color: 'from-blue-400 to-cyan-300',
     isAvailable: true,
@@ -70,6 +70,9 @@ export const PLATFORMS: PlatformConfig[] = [
       architecture: 'x64',
       memory: '4 GB RAM (Recommended)',
     },
+    secondaryHref: '#',
+    secondaryBadge: 'Direct Download',
+    secondaryIsAvailable: false,
   },
   {
     id: 'linux',
@@ -105,9 +108,9 @@ export const PLATFORMS: PlatformConfig[] = [
     id: 'android',
     name: 'Android',
     label: 'Android',
-    description: 'Direct download for Android phones and tablets.',
-    badge: 'Direct Download (APK)',
-    href: DOWNLOAD_LINKS.androidApk,
+    description: 'Available on Google Play for Android phones and tablets.',
+    badge: 'Google Play',
+    href: DOWNLOAD_LINKS.android,
     color: 'from-green-400 to-emerald-300',
     isAvailable: true,
     requirements: {
@@ -115,6 +118,8 @@ export const PLATFORMS: PlatformConfig[] = [
       architecture: 'ARM64 / ARM / x86_64',
       memory: '2 GB RAM (Recommended)',
     },
+    secondaryHref: DOWNLOAD_LINKS.androidApk,
+    secondaryBadge: 'APK',
   },
 ];
 
