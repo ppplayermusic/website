@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Darmowy odtwarzacz muzyki Open-Source",
-    "homeDesc": "Darmowy, otwartoźródłowy odtwarzacz muzyki. Brak konta. Brak subskrypcji. Po prostu graj.",
+    "homeTitle": "PPPlayer | Darmowy odtwarzacz multimedialny o otwartym kodzie źródłowym",
+    "homeDesc": "Darmowy odtwarzacz multimedialny o otwartym kodzie źródłowym. Brak konta. Bez subskrypcji. Po prostu graj.",
     "downloadTitle": "Pobierz PPPlayer za darmo",
-    "downloadDesc": "Darmowy, otwartoźródłowy odtwarzacz muzyki. Brak konta. Brak subskrypcji. Po prostu graj.",
+    "downloadDesc": "Darmowy odtwarzacz multimedialny o otwartym kodzie źródłowym. Brak konta. Bez subskrypcji. Po prostu graj.",
     "privacyTitle": "Polityka prywatności",
-    "privacyDesc": "Polityka prywatności dla PPPlayer: darmowej aplikacji muzycznej dla systemów macOS, Linux, Windows, iOS i Android.",
+    "privacyDesc": "Polityka prywatności dla PPPlayer: darmowa aplikacja multimedialna na systemy macOS, Linux, Windows, iOS i Android.",
     "termsTitle": "Warunki usługi",
-    "termsDesc": "Warunki usługi dla PPPlayer: darmowej aplikacji muzycznej dla systemów macOS, Linux, Windows, iOS i Android.",
+    "termsDesc": "Warunki korzystania z usługi PPPlayer: darmowa aplikacja multimedialna na systemy macOS, Linux, Windows, iOS i Android.",
     "supportTitle": "Wsparcie - PPPlayer",
     "supportDesc": "PPPlayer to niezależny projekt open-source. Błędy i propozycje funkcji zgłaszaj na GitHubie. W innych sprawach napisz na contact@ppplayer.com.",
     "blogTitle": "Blog | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "Twoja muzyka, Twoje zasady.",
     "favDesc": "Zbuduj swoją osobistą bibliotekę jednym kliknięciem. Zawsze pod ręką.",
     "contextTitle": "Natywny z założenia.",
-    "contextDesc": "Kliknij prawym przyciskiem gdziekolwiek. Piękne, natywne menu kontekstowe."
+    "contextDesc": "Kliknij prawym przyciskiem gdziekolwiek. Piękne, natywne menu kontekstowe.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "Strumienie sieciowe",
+    "streamsDesc": "Przesyłaj strumieniowo telewizję na żywo, radio i sieciowe listy odtwarzania (M3U, PLS, XSPF) bezpośrednio w aplikacji.",
+    "videoPlaybackTitle": "Lokalne odtwarzanie wideo",
+    "videoPlaybackDesc": "Płynnie odtwarzaj lokalne pliki wideo z obsługą napisów, wyborem ścieżki dźwiękowej i trybem obrazu w obrazie."
   },
   "noAccount": {
     "title": "Brak konta.",
@@ -169,11 +175,11 @@
       },
       {
         "q": "Czy PPPlayer jest dostępny na iPhone'a?",
-        "a": "Tak. PPPlayer jest dostępny w App Store na iPhone'a i iPada."
+        "a": "PPPlayer na iOS jest obecnie w fazie rozwoju. Aktywnie pracujemy nad wydaniem w App Store."
       },
       {
         "q": "Czy PPPlayer jest dostępny na Androida?",
-        "a": "Tak. Możesz pobrać PPPlayer w Google Play na telefony i tablety z Androidem."
+        "a": "PPPlayer dla Androida jest obecnie w fazie rozwoju. Aktywnie pracujemy nad wydaniem w sklepie Google Play."
       },
       {
         "q": "Czy mogę używać PPPlayer w systemie Windows?",
@@ -181,15 +187,23 @@
       },
       {
         "q": "Jakie funkcje muzyczne oferuje PPPlayer?",
-        "a": "PPPlayer oferuje odkrywanie artystów, powiązanych artystów, radio artysty, playlisty artysty, przeglądanie gatunków oraz piękny odtwarzacz pełnoekranowy. Wszystko to jest darmowe i nie wymaga konta."
+        "a": "PPPlayer zawiera lokalne biblioteki muzyki i wideo, strumienie sieciowe, napisy, odkrywanie artystów, powiązanych artystów, radio artystów, listy odtwarzania, eksplorację gatunków i piękny odtwarzacz pełnoekranowy. Wszystko to jest bezpłatne i nie wymaga założenia konta."
       },
       {
         "q": "Jak pobrać PPPlayer?",
-        "a": "Kliknij przycisk pobierania dla swojej platformy na tej stronie. Pobieranie zajmie mniej niż minutę."
+        "a": "PPPlayer dla macOS, Linux i Windows możesz pobrać bezpośrednio z naszej strony internetowej. Wersje mobilne pojawią się wkrótce."
       },
       {
         "q": "Czy istnieje wersja premium?",
         "a": "Nie. PPPlayer jest całkowicie darmowy. Wszystko, co widzisz, jest dostępne bezpłatnie i nie wymaga konta."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer obsługuje prawie wszystkie formaty audio i wideo, w tym MP3, FLAC, MP4, MKV i AVI. Obsługuje również strumienie sieciowe i listy odtwarzania M3U/M3U8."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "W systemach Windows, macOS, Android i iOS PPPlayer działa od razu. W systemie Linux może być konieczne zainstalowanie standardowych bibliotek multimedialnych (takich jak libmpv) w zależności od dystrybucji."
       }
     ],
     "openSourceQuestion": "Czy PPPlayer to open source?",
@@ -323,7 +337,7 @@
       "desc": "Oficjalne wydanie na Androida w sklepie Google Play.",
       "added": "Dodano",
       "androidTitle": "Wydanie na Androida",
-      "androidDesc": "Aplikacja PPPlayer jest teraz oficjalnie dostępna na urządzenia z systemem Android w sklepie Google Play. Pobierz ją już dziś i ciesz się muzyką w podróży.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "youtube": "Odtwarzanie audio wspierane przez YouTube",
       "playlists": "Playlisty, ulubione i historia słuchania",
       "platforms": "Wsparcie dla macOS, Windows i Linux"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "Odtwarzanie wideo i napisy",
+      "videoDesc": "Przeprojektowany odtwarzacz wideo z dopasowaniem/wypełnieniem, skrótami klawiaturowymi, wyborem napisów i dźwięku, regulacją czasu i PiP.",
+      "streamsTitle": "Strumienie sieciowe i listy odtwarzania",
+      "streamsDesc": "Obsługa strumieni sieciowych i formatów list odtwarzania, takich jak M3U, M3U8, PLS, XSPF i ASX.",
+      "libraryTitle": "Ulepszone biblioteki lokalne",
+      "libraryDesc": "Głębokie skanowanie folderów, lokalne biblioteki wideo oraz ulepszone przeglądanie według wykonawcy, albumu i gatunku w celu odtwarzania w trybie offline."
     }
   },
   "support": {

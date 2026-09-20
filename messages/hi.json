@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | मुफ़्त और ओपन-सोर्स म्यूज़िक प्लेयर",
-    "homeDesc": "एक मुफ़्त, ओपन-सोर्स म्यूज़िक प्लेयर। कोई खाता नहीं। कोई सदस्यता नहीं। बस संगीत सुनें।",
-    "downloadTitle": "PPPlayer मुफ़्त में डाउनलोड करें",
-    "downloadDesc": "एक मुफ़्त, ओपन-सोर्स म्यूज़िक प्लेयर। कोई खाता नहीं। कोई सदस्यता नहीं। बस संगीत सुनें।",
+    "homeTitle": "PPPlayer | मुफ़्त और ओपन-सोर्स मीडिया प्लेयर",
+    "homeDesc": "एक मुफ़्त, ओपन-सोर्स मीडिया प्लेयर। कोई खाता नहीं। कोई सदस्यता नहीं। बस खेलें।",
+    "downloadTitle": "मुफ़्त में PPPlayer डाउनलोड करें",
+    "downloadDesc": "एक मुफ़्त, ओपन-सोर्स मीडिया प्लेयर। कोई खाता नहीं। कोई सदस्यता नहीं। बस खेलें।",
     "privacyTitle": "गोपनीयता नीति",
-    "privacyDesc": "PPPlayer के लिए गोपनीयता नीति: macOS, Linux, Windows, iOS और Android के लिए मुफ़्त म्यूज़िक ऐप।",
+    "privacyDesc": "PPPlayer के लिए गोपनीयता नीति: macOS, Linux, Windows, iOS और Android के लिए मुफ़्त मीडिया ऐप।",
     "termsTitle": "सेवा की शर्तें",
-    "termsDesc": "PPPlayer के लिए सेवा की शर्तें: macOS, Linux, Windows, iOS और Android के लिए मुफ़्त म्यूज़िक ऐप।",
+    "termsDesc": "PPPlayer की सेवा की शर्तें: macOS, Linux, Windows, iOS और Android के लिए मुफ़्त मीडिया ऐप।",
     "supportTitle": "सहायता - PPPlayer",
     "supportDesc": "PPPlayer एक स्वतंत्र, ओपन-सोर्स प्रोजेक्ट है। बग और फ़ीचर आइडिया के लिए, GitHub का उपयोग करें। अन्य सवालों के लिए, contact@ppplayer.com पर ईमेल करें।",
     "blogTitle": "ब्लॉग | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "आपका संगीत, आपके नियम।",
     "favDesc": "एक क्लिक से अपनी व्यक्तिगत लाइब्रेरी बनाएं। हमेशा आपके साथ।",
     "contextTitle": "डिज़ाइन द्वारा नेटिव।",
-    "contextDesc": "कहीं भी राइट-क्लिक करें। सुंदर, संदर्भ-जागरूक नेटिव मेनू।"
+    "contextDesc": "कहीं भी राइट-क्लिक करें। सुंदर, संदर्भ-जागरूक नेटिव मेनू।",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "नेटवर्क स्ट्रीम",
+    "streamsDesc": "लाइव टीवी, रेडियो और नेटवर्क प्लेलिस्ट (M3U, PLS, XSPF) सीधे ऐप के भीतर स्ट्रीम करें।",
+    "videoPlaybackTitle": "स्थानीय वीडियो प्लेबैक",
+    "videoPlaybackDesc": "सबटाइटल, ऑडियो ट्रैक चयन और पिक्चर-इन-पिक्चर मोड के समर्थन के साथ अपने स्थानीय वीडियो फ़ाइलों को निर्बाध रूप से चलाएं।"
   },
   "noAccount": {
     "title": "कोई खाता नहीं।",
@@ -169,11 +175,11 @@
       },
       {
         "q": "क्या PPPlayer iPhone के लिए उपलब्ध है?",
-        "a": "हाँ। PPPlayer iPhone और iPad के लिए App Store पर उपलब्ध है।"
+        "a": "iOS के लिए PPPlayer वर्तमान में विकास के अधीन है। हम App Store रिलीज़ पर सक्रिय रूप से काम कर रहे हैं।"
       },
       {
         "q": "क्या PPPlayer Android के लिए उपलब्ध है?",
-        "a": "हाँ। आप Android फ़ोन और टैबलेट के लिए Google Play पर PPPlayer डाउनलोड कर सकते हैं।"
+        "a": "Android के लिए PPPlayer वर्तमान में विकास के अधीन है। हम Google Play Store रिलीज़ पर सक्रिय रूप से काम कर रहे हैं।"
       },
       {
         "q": "क्या मैं Windows पर PPPlayer का उपयोग कर सकता हूँ?",
@@ -181,15 +187,23 @@
       },
       {
         "q": "PPPlayer कौन सी संगीत सुविधाएँ प्रदान करता है?",
-        "a": "PPPlayer में कलाकार खोज, संबंधित कलाकार, कलाकार रेडियो, कलाकार प्लेलिस्ट, शैली अन्वेषण और एक सुंदर पूर्ण-स्क्रीन प्लेयर शामिल हैं। यह सब मुफ़्त है, और किसी खाते की आवश्यकता नहीं है।"
+        "a": "PPPlayer में स्थानीय संगीत और वीडियो लाइब्रेरी, नेटवर्क स्ट्रीम, सबटाइटल, कलाकार की खोज, संबंधित कलाकार, कलाकार रेडियो, प्लेलिस्ट, शैली अन्वेषण और एक सुंदर पूर्ण-स्क्रीन प्लेयर शामिल है। यह सब मुफ्त है, और किसी खाते की आवश्यकता नहीं है।"
       },
       {
         "q": "मैं PPPlayer कैसे डाउनलोड करूँ?",
-        "a": "इस पृष्ठ पर अपने प्लेटफ़ॉर्म के लिए डाउनलोड बटन पर टैप करें। डाउनलोड में एक मिनट से भी कम समय लगता है।"
+        "a": "आप macOS, Linux और Windows के लिए हमारी वेबसाइट से सीधे PPPlayer डाउनलोड कर सकते हैं। मोबाइल संस्करण जल्द ही आ रहे हैं।"
       },
       {
         "q": "क्या कोई प्रीमियम संस्करण है?",
         "a": "नहीं। PPPlayer पूरी तरह से मुफ़्त है। जो कुछ भी आप देखते हैं वह बिना किसी कीमत के उपलब्ध है, और किसी खाते की आवश्यकता नहीं है।"
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer MP3, FLAC, MP4, MKV और AVI सहित लगभग सभी ऑडियो और वीडियो प्रारूपों का समर्थन करता है। यह नेटवर्क स्ट्रीम और M3U/M3U8 प्लेलिस्ट का भी समर्थन करता है।"
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "Windows, macOS, Android और iOS पर, PPPlayer तुरंत काम करता है। Linux पर, आपको अपने वितरण के आधार पर मानक मीडिया लाइब्रेरी (जैसे libmpv) स्थापित करने की आवश्यकता हो सकती है।"
       }
     ],
     "openSourceQuestion": "क्या PPPlayer ओपन सोर्स है?",
@@ -323,7 +337,7 @@
       "desc": "Google Play Store पर आधिकारिक Android रिलीज़।",
       "added": "जोड़ा गया",
       "androidTitle": "Android रिलीज़",
-      "androidDesc": "PPPlayer अब Google Play Store पर Android डिवाइस के लिए आधिकारिक तौर पर उपलब्ध है। इसे आज ही डाउनलोड करें और चलते-फिरते अपने संगीत का आनंद लें।",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "youtube": "YouTube-संचालित ऑडियो प्लेबैक",
       "playlists": "प्लेलिस्ट, पसंदीदा और सुनने का इतिहास",
       "platforms": "macOS, Windows और Linux समर्थन"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "वीडियो प्लेबैक और सबटाइटल",
+      "videoDesc": "फिट/फिल, कीबोर्ड शॉर्टकट, सबटाइटल और ऑडियो चयन, समय समायोजन और PiP के साथ फिर से डिज़ाइन किया गया वीडियो प्लेयर।",
+      "streamsTitle": "नेटवर्क स्ट्रीम और प्लेलिस्ट",
+      "streamsDesc": "नेटवर्क स्ट्रीम और M3U, M3U8, PLS, XSPF और ASX जैसे प्लेलिस्ट प्रारूपों के लिए समर्थन।",
+      "libraryTitle": "उन्नत स्थानीय लाइब्रेरी",
+      "libraryDesc": "ऑफ़लाइन प्लेबैक के लिए डीप फ़ोल्डर स्कैनिंग, स्थानीय वीडियो लाइब्रेरी और बेहतर कलाकार, एल्बम और शैली ब्राउज़िंग।"
     }
   },
   "support": {

@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Ücretsiz ve Açık Kaynaklı Müzik Çalar",
-    "homeDesc": "Ücretsiz, açık kaynaklı bir müzik çalar. Hesap yok. Abonelik yok. Sadece dinleyin.",
-    "downloadTitle": "PPPlayer'ı Ücretsiz İndir",
-    "downloadDesc": "Ücretsiz, açık kaynaklı bir müzik çalar. Hesap yok. Abonelik yok. Sadece dinleyin.",
+    "homeTitle": "PPPlayer | Ücretsiz ve Açık Kaynak Medya Oynatıcı",
+    "homeDesc": "Ücretsiz, açık kaynaklı bir medya oynatıcı. Hesap yok. Abonelik yok. Sadece oynayın.",
+    "downloadTitle": "PPPlayer'ı Ücretsiz İndirin",
+    "downloadDesc": "Ücretsiz, açık kaynaklı bir medya oynatıcı. Hesap yok. Abonelik yok. Sadece oynayın.",
     "privacyTitle": "Gizlilik Politikası",
-    "privacyDesc": "PPPlayer için Gizlilik Politikası: macOS, Linux, Windows, iOS ve Android için ücretsiz müzik uygulaması.",
+    "privacyDesc": "PPPlayer için Gizlilik Politikası: macOS, Linux, Windows, iOS ve Android için ücretsiz medya uygulaması.",
     "termsTitle": "Hizmet Şartları",
-    "termsDesc": "PPPlayer için Hizmet Şartları: macOS, Linux, Windows, iOS ve Android için ücretsiz müzik uygulaması.",
+    "termsDesc": "PPPlayer Hizmet Şartları: macOS, Linux, Windows, iOS ve Android için ücretsiz medya uygulaması.",
     "supportTitle": "Destek - PPPlayer",
     "supportDesc": "PPPlayer bağımsız, açık kaynaklı bir projedir. Hatalar ve özellik önerileri için GitHub’ı kullanın. Diğer sorularınız için contact@ppplayer.com adresine yazın.",
     "blogTitle": "Blog | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "Senin müziğin, senin kuralların.",
     "favDesc": "Kişisel kitaplığını tek tıklamayla oluştur. Her zaman orada.",
     "contextTitle": "Tasarımla yerel.",
-    "contextDesc": "Herhangi bir yere sağ tıkla. Güzel, bağlama duyarlı yerel menüler."
+    "contextDesc": "Herhangi bir yere sağ tıkla. Güzel, bağlama duyarlı yerel menüler.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "Ağ Akışları",
+    "streamsDesc": "Uygulama içinde doğrudan canlı TV, radyo ve ağ oynatma listelerini (M3U, PLS, XSPF) yayınlayın.",
+    "videoPlaybackTitle": "Yerel Video Oynatma",
+    "videoPlaybackDesc": "Altyazı desteği, ses kaydı seçimi ve Resim İçinde Resim moduyla yerel video dosyalarınızı sorunsuzca oynatın."
   },
   "noAccount": {
     "title": "Hesap yok.",
@@ -169,11 +175,11 @@
       },
       {
         "q": "PPPlayer iPhone için mevcut mu?",
-        "a": "Evet. PPPlayer, iPhone ve iPad için App Store'da mevcuttur."
+        "a": "iOS için PPPlayer şu anda geliştirilme aşamasındadır. Aktif olarak bir App Store sürümü üzerinde çalışıyoruz."
       },
       {
         "q": "PPPlayer Android için mevcut mu?",
-        "a": "Evet. PPPlayer'ı Android telefonlar ve tabletler için Google Play'den indirebilirsiniz."
+        "a": "Android için PPPlayer şu anda geliştirilme aşamasındadır. Aktif olarak bir Google Play Store sürümü üzerinde çalışıyoruz."
       },
       {
         "q": "PPPlayer'ı Windows'ta kullanabilir miyim?",
@@ -181,15 +187,23 @@
       },
       {
         "q": "PPPlayer hangi müzik özelliklerini sunuyor?",
-        "a": "PPPlayer sanatçı keşfi, ilgili sanatçılar, sanatçı radyosu, çalma listeleri, tür keşfi ve güzel bir oynatıcı içerir. Hepsi ücretsizdir ve hesap gerekmez."
+        "a": "PPPlayer yerel müzik ve video kitaplıklarını, ağ yayınlarını, altyazıları, sanatçı keşfini, ilgili sanatçıları, sanatçı radyosunu, çalma listelerini, tür keşfini ve güzel bir tam ekran oynatıcıyı içerir. Tamamen ücretsizdir ve hesaba gerek yoktur."
       },
       {
         "q": "PPPlayer'ı nasıl indirebilirim?",
-        "a": "Bu sayfadaki platformunuz için indirme düğmesine dokunun. İndirme işlemi bir dakikadan kısa sürer."
+        "a": "macOS, Linux ve Windows için PPPlayer'ı doğrudan web sitemizden indirebilirsiniz. Mobil sürümler yakında eklenecektir."
       },
       {
         "q": "Premium sürüm var mı?",
         "a": "Hayır. PPPlayer tamamen ücretsizdir. Gördüğünüz her şey ücretsiz olarak kullanılabilir."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer, MP3, FLAC, MP4, MKV ve AVI dahil olmak üzere hemen hemen tüm ses ve video formatlarını destekler. Ayrıca ağ akışlarını ve M3U/M3U8 oynatma listelerini de destekler."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "PPPlayer, Windows, macOS, Android ve iOS'ta kutudan çıktığı gibi çalışır. Linux'ta dağıtımınıza bağlı olarak standart medya kitaplıklarını (libmpv gibi) yüklemeniz gerekebilir."
       }
     ],
     "openSourceQuestion": "PPPlayer açık kaynaklı mı?",
@@ -323,7 +337,7 @@
       "desc": "Google Play Store'da resmi Android sürümü.",
       "added": "Eklendi",
       "androidTitle": "Android Sürümü",
-      "androidDesc": "PPPlayer artık Google Play Store'da Android cihazlar için resmen mevcuttur. Bugün indirin ve hareket halindeyken müziğinizin keyfini çıkarın.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "fixed": "Düzeltmeler",
       "appNapTitle": "Kesintisiz arka plan oynatma",
       "appNapDesc": "macOS App Nap’in simge durumuna küçültülen oynatıcıyı askıya alması önlenerek sıranın kesintisiz devam etmesi sağlandı."
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "Video Oynatma ve Altyazılar",
+      "videoDesc": "Sığdır/Doldur, klavye kısayolları, altyazı ve ses seçimi, zamanlama ayarlamaları ve PiP özellikli yeniden tasarlanmış video oynatıcı.",
+      "streamsTitle": "Ağ Akışları ve Oynatma Listeleri",
+      "streamsDesc": "Ağ akışları ve M3U, M3U8, PLS, XSPF ve ASX gibi oynatma listesi formatları için destek.",
+      "libraryTitle": "Gelişmiş Yerel Kütüphaneler",
+      "libraryDesc": "Çevrimdışı oynatma için derin klasör taraması, yerel video kitaplıkları ve gelişmiş sanatçı, albüm ve tür taraması."
     }
   },
   "support": {

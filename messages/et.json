@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Tasuta ja avatud lähtekoodiga muusikapleier",
-    "homeDesc": "Tasuta ja avatud lähtekoodiga muusikapleier. Kontot pole vaja. Tellimust pole. Lihtsalt kuula.",
-    "downloadTitle": "Laadi PPPlayer tasuta alla",
-    "downloadDesc": "Tasuta ja avatud lähtekoodiga muusikapleier. Kontot pole vaja. Tellimust pole. Lihtsalt kuula.",
+    "homeTitle": "PPPlayer | Tasuta avatud lähtekoodiga meediumipleier",
+    "homeDesc": "Tasuta avatud lähtekoodiga meediumipleier. Kontot pole. Tellimust pole. Lihtsalt mängi.",
+    "downloadTitle": "Laadige alla PPPlayer tasuta",
+    "downloadDesc": "Tasuta avatud lähtekoodiga meediumipleier. Kontot pole. Tellimust pole. Lihtsalt mängi.",
     "privacyTitle": "Privaatsuspoliitika",
-    "privacyDesc": "PPPlayeri privaatsuspoliitika: tasuta muusikarakendus macOS-ile, Linuxile, Windowsile, iOS-ile ja Androidile.",
+    "privacyDesc": "PPPlayeri privaatsuspoliitika: tasuta meediumirakendus macOS-i, Linuxi, Windowsi, iOS-i ja Androidi jaoks.",
     "termsTitle": "Teenusetingimused",
-    "termsDesc": "PPPlayeri teenusetingimused: tasuta muusikarakendus macOS-ile, Linuxile, Windowsile, iOS-ile ja Androidile.",
+    "termsDesc": "PPPlayeri teenusetingimused: tasuta meediumirakendus macOS-i, Linuxi, Windowsi, iOS-i ja Androidi jaoks.",
     "supportTitle": "Tugi - PPPlayer",
     "supportDesc": "PPPlayer on sõltumatu avatud lähtekoodiga projekt. Vigade ja ideede jaoks kasutage GitHubi. Muude küsimuste korral saatke e-kiri aadressile contact@ppplayer.com.",
     "blogTitle": "Ajaveeb | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "Sinu muusika, sinu reeglid.",
     "favDesc": "Ehita oma isiklik raamatukogu ühe klõpsuga. Alati seal.",
     "contextTitle": "Loomult natiivne.",
-    "contextDesc": "Paremklõpsa kõikjal. Ilusad, kontekstiteadlikud kohalikud menüüd."
+    "contextDesc": "Paremklõpsa kõikjal. Ilusad, kontekstiteadlikud kohalikud menüüd.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "Võrguvood",
+    "streamsDesc": "Voogesitage otsetelevisiooni, raadiot ja võrgu esitusloendeid (M3U, PLS, XSPF) otse rakenduses.",
+    "videoPlaybackTitle": "Kohalik video taasesitus",
+    "videoPlaybackDesc": "Esitage oma kohalikke videofaile sujuvalt koos subtiitrite toe, heliraja valiku ja Pilt-pildis režiimiga."
   },
   "noAccount": {
     "title": "Kontot pole vaja.",
@@ -169,11 +175,11 @@
       },
       {
         "q": "Kas PPPlayer on saadaval iPhone'ile?",
-        "a": "Jah. PPPlayer on saadaval App Store'is iPhone'i ja iPadi jaoks."
+        "a": "PPPlayer iOS-ile on praegu arendamisel. Töötame aktiivselt App Store'i väljalaske kallal."
       },
       {
         "q": "Kas PPPlayer on saadaval Androidile?",
-        "a": "Jah. Saate PPPlayeri alla laadida Google Playst Android-telefonidele ja tahvelarvutitele."
+        "a": "PPPlayer Androidile on praegu arendamisel. Töötame aktiivselt Google Play poe väljalaske kallal."
       },
       {
         "q": "Kas ma saan PPPlayerit Windowsis kasutada?",
@@ -181,15 +187,23 @@
       },
       {
         "q": "Milliseid muusikafunktsioone PPPlayer pakub?",
-        "a": "PPPlayer sisaldab esitajate avastamist, seotud esitajaid, esitaja raadiot, esitaja esitusloendeid, žanrite avastamist ja kaunist täisekraanil pleierit. Kõik see on tasuta ja kontot pole vaja."
+        "a": "PPPlayer sisaldab kohalikke muusika- ja videoteeke, võrguvooge, subtiitreid, artistide avastamist, seotud artiste, esitaja raadiot, esitusloendeid, žanrite uurimist ja kaunist täisekraanil pleierit. See kõik on tasuta ja kontot pole vaja."
       },
       {
         "q": "Kuidas ma PPPlayeri alla laadin?",
-        "a": "Puudutage sellel lehel oma platvormi allalaadimisnuppu. Allalaadimine võtab vähem kui minuti."
+        "a": "Saate PPPlayeri macOS-i, Linuxi ja Windowsi jaoks otse meie veebisaidilt alla laadida. Mobiiliversioonid on peagi tulemas."
       },
       {
         "q": "Kas on olemas tasuline versioon?",
         "a": "Ei. PPPlayer on täiesti tasuta. Kõik, mida näete, on saadaval tasuta, kontot pole vaja."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer toetab peaaegu kõiki heli- ja videovorminguid, sealhulgas MP3, FLAC, MP4, MKV ja AVI. Samuti toetab see võrguvooge ja M3U/M3U8 esitusloendeid."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "Windowsis, macOS-is, Androidis ja iOS-is töötab PPPlayer kohe pärast installimist. Linuxis peate võib-olla olenevalt teie distributsioonist installima standardsed meediumiteegid (nt libmpv)."
       }
     ],
     "openSourceQuestion": "Kas PPPlayer on avatud lähtekoodiga?",
@@ -323,7 +337,7 @@
       "desc": "Ametlik Androidi väljalase Google Play poes.",
       "added": "Lisatud",
       "androidTitle": "Androidi väljalase",
-      "androidDesc": "PPPlayer on nüüd ametlikult saadaval Androidi seadmetele Google Play poes. Laadige see täna alla ja nautige oma muusikat liikvel olles.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "youtube": "YouTube'i toega heli taasesitus",
       "playlists": "Esitusloendid, lemmikud ja kuulamisajalugu",
       "platforms": "macOS, Windowsi ja Linuxi tugi"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "Video taasesitus ja subtiitrid",
+      "videoDesc": "Ümberkujundatud videopleier koos sobitamise/täitmise, kiirklahvide, subtiitrite ja heli valiku, ajastuse reguleerimise ja PiP-ga.",
+      "streamsTitle": "Võrguvood ja esitusloendid",
+      "streamsDesc": "Tugi võrguvoogudele ja esitusloendi vormingutele, nagu M3U, M3U8, PLS, XSPF ja ASX.",
+      "libraryTitle": "Täiustatud kohalikud teegid",
+      "libraryDesc": "Sügav kaustade skannimine, kohalikud videoteegid ja täiustatud esitajate, albumite ja žanrite sirvimine võrguühenduseta taasesituseks."
     }
   },
   "support": {

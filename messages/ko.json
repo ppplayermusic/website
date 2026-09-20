@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | 무료 & 오픈소스 음악 플레이어",
-    "homeDesc": "무료 오픈소스 음악 플레이어. 계정 불필요. 구독 불필요. 그냥 재생하세요.",
+    "homeTitle": "PPPlayer | 무료 오픈소스 미디어 플레이어",
+    "homeDesc": "무료 오픈소스 미디어 플레이어. 계정 없음. 구독 없음. 그냥 재생하세요.",
     "downloadTitle": "PPPlayer 무료 다운로드",
-    "downloadDesc": "무료 오픈소스 음악 플레이어. 계정 불필요. 구독 불필요. 그냥 재생하세요.",
+    "downloadDesc": "무료 오픈소스 미디어 플레이어. 계정 없음. 구독 없음. 그냥 재생하세요.",
     "privacyTitle": "개인정보 처리방침",
-    "privacyDesc": "PPPlayer의 개인정보 처리방침: macOS, Linux, Windows, iOS, Android용 무료 음악 앱.",
+    "privacyDesc": "PPPlayer 개인정보 보호정책: macOS, Linux, Windows, iOS 및 Android용 무료 미디어 앱.",
     "termsTitle": "서비스 이용약관",
-    "termsDesc": "PPPlayer의 서비스 이용약관: macOS, Linux, Windows, iOS, Android용 무료 음악 앱.",
+    "termsDesc": "PPPlayer 서비스 약관: macOS, Linux, Windows, iOS 및 Android용 무료 미디어 앱.",
     "supportTitle": "지원 - PPPlayer",
     "supportDesc": "PPPlayer는 독립적인 오픈소스 프로젝트입니다. 버그 및 기능 제안은 GitHub를 이용해 주세요. 기타 문의 사항은 contact@ppplayer.com으로 이메일을 보내주세요.",
     "blogTitle": "블로그 | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "당신의 음악, 당신의 규칙.",
     "favDesc": "클릭 한 번으로 개인 라이브러리를 만드세요. 항상 거기에 있습니다.",
     "contextTitle": "디자인에 의한 네이티브.",
-    "contextDesc": "어디서나 마우스 오른쪽 버튼 클릭. 아름답고 문맥을 인식하는 네이티브 메뉴."
+    "contextDesc": "어디서나 마우스 오른쪽 버튼 클릭. 아름답고 문맥을 인식하는 네이티브 메뉴.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "네트워크 스트림",
+    "streamsDesc": "라이브 TV, 라디오 및 네트워크 재생 목록(M3U, PLS, XSPF)을 앱 내에서 직접 스트리밍합니다.",
+    "videoPlaybackTitle": "로컬 비디오 재생",
+    "videoPlaybackDesc": "자막, 오디오 트랙 선택 및 PIP 모드를 지원하여 로컬 비디오 파일을 원활하게 재생합니다."
   },
   "noAccount": {
     "title": "계정 없음.",
@@ -169,11 +175,11 @@
       },
       {
         "q": "PPPlayer는 iPhone용으로 제공되나요?",
-        "a": "네. PPPlayer는 iPhone 및 iPad용 App Store에서 이용할 수 있습니다."
+        "a": "iOS용 PPPlayer는 현재 개발 중입니다. App Store 출시를 위해 적극적으로 노력하고 있습니다."
       },
       {
         "q": "PPPlayer는 Android용으로 제공되나요?",
-        "a": "네. Android 휴대폰 및 태블릿용 Google Play에서 PPPlayer를 다운로드할 수 있습니다."
+        "a": "Android용 PPPlayer는 현재 개발 중입니다. Google Play 스토어 출시를 위해 적극적으로 노력하고 있습니다."
       },
       {
         "q": "Windows에서 PPPlayer를 사용할 수 있나요?",
@@ -181,15 +187,23 @@
       },
       {
         "q": "PPPlayer는 어떤 음악 기능을 제공하나요?",
-        "a": "PPPlayer에는 아티스트 발견, 관련 아티스트, 아티스트 라디오, 아티스트 플레이리스트, 장르 탐색 및 아름다운 전체 화면 플레이어가 포함되어 있습니다. 모두 무료이며 계정이 필요하지 않습니다."
+        "a": "PPPlayer에는 로컬 음악 및 비디오 라이브러리, 네트워크 스트림, 자막, 아티스트 검색, 관련 아티스트, 라디오, 재생 목록, 장르 탐색 및 아름다운 전체 화면 플레이어가 포함됩니다. 모두 무료이며 계정이 필요하지 않습니다."
       },
       {
         "q": "PPPlayer를 어떻게 다운로드하나요?",
-        "a": "이 페이지에서 해당 플랫폼의 다운로드 버튼을 탭하세요. 다운로드에는 1분이 채 걸리지 않습니다."
+        "a": "macOS, Linux 및 Windows용 PPPlayer를 당사 웹사이트에서 직접 다운로드할 수 있습니다. 모바일 버전도 곧 출시됩니다."
       },
       {
         "q": "프리미엄 버전이 있나요?",
         "a": "아니요. PPPlayer는 완전히 무료입니다. 보이는 모든 것을 비용 없이 이용할 수 있으며, 계정이 필요하지 않습니다."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer는 MP3, FLAC, MP4, MKV 및 AVI를 포함한 거의 모든 오디오 및 비디오 형식을 지원합니다. 네트워크 스트림 및 M3U/M3U8 재생 목록도 지원합니다."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "Windows, macOS, Android 및 iOS에서 PPPlayer는 즉시 작동합니다. Linux에서는 배포판에 따라 표준 미디어 라이브러리(예: libmpv)를 설치해야 할 수 있습니다."
       }
     ],
     "openSourceQuestion": "PPPlayer는 오픈소스인가요?",
@@ -323,7 +337,7 @@
       "desc": "Google Play 스토어에 공식 Android 출시.",
       "added": "추가됨",
       "androidTitle": "Android 출시",
-      "androidDesc": "이제 Google Play 스토어에서 Android 기기용 PPPlayer를 공식적으로 사용할 수 있습니다. 오늘 다운로드하여 어디서나 음악을 즐기세요.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "youtube": "YouTube 기반 오디오 재생",
       "playlists": "플레이리스트, 즐겨찾기 및 청취 기록",
       "platforms": "macOS, Windows, Linux 지원"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "비디오 재생 및 자막",
+      "videoDesc": "맞춤/채우기, 키보드 단축키, 자막 및 오디오 선택, 타이밍 조정 및 PIP 기능이 있는 새롭게 디자인된 비디오 플레이어.",
+      "streamsTitle": "네트워크 스트림 및 재생 목록",
+      "streamsDesc": "네트워크 스트림 및 M3U, M3U8, PLS, XSPF, ASX와 같은 재생 목록 형식 지원.",
+      "libraryTitle": "향상된 로컬 라이브러리",
+      "libraryDesc": "심층 폴더 검색, 로컬 비디오 라이브러리 및 오프라인 재생을 위한 향상된 아티스트, 앨범 및 장르 브라우징."
     }
   },
   "support": {

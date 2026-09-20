@@ -85,7 +85,11 @@
     "favTitle": "موسیقی شما، قوانین شما.",
     "favDesc": "کتابخانه شخصی خود را با یک کلیک بسازید. همیشه همانجا.",
     "contextTitle": "بومی بر اساس طراحی.",
-    "contextDesc": "در هر جایی کلیک راست کنید. منوهای بومی زیبا و آگاه به بافت."
+    "contextDesc": "در هر جایی کلیک راست کنید. منوهای بومی زیبا و آگاه به بافت.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "Network Streams.",
+    "streamsDesc": "Play M3U, PLS, XSPF, and ASX streams seamlessly."
   },
   "noAccount": {
     "title": "بدون حساب کاربری.",
@@ -190,6 +194,14 @@
       {
         "q": "آیا نسخه پریمیوم وجود دارد؟",
         "a": "خیر. PPPlayer کاملاً رایگان است. هر چیزی که می‌بینید بدون هیچ هزینه‌ای در دسترس است، با هیچ حساب کاربری مورد نیاز نیست."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer supports almost all audio and video formats, including MP3, FLAC, MP4, MKV, and AVI. It also supports network streams and M3U/M3U8 playlists."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "On Windows, macOS, Android, and iOS, PPPlayer works out of the box. On Linux, you may need to install standard media libraries (like libmpv) depending on your distribution."
       }
     ],
     "openSourceQuestion": "آیا PPPlayer متن‌باز است؟",
@@ -323,7 +335,7 @@
       "desc": "نسخه رسمی اندروید در فروشگاه Google Play.",
       "added": "اضافه شد",
       "androidTitle": "نسخه اندروید",
-      "androidDesc": "PPPlayer اکنون به طور رسمی برای دستگاه‌های اندروید در فروشگاه Google Play در دسترس است. همین امروز آن را دانلود کنید و از موسیقی خود در هر کجا لذت ببرید.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +526,18 @@
       "youtube": "پخش صدا مبتنی بر یوتیوب",
       "playlists": "لیست‌های پخش، علاقه‌مندی‌ها و تاریخچه گوش دادن",
       "platforms": "پشتیبانی از مک اواس، ویندوز و لینوکس"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "Video Playback & Subtitles",
+      "videoDesc": "Redesigned video player featuring Fit/Fill, keyboard shortcuts, subtitle and audio-track selection, timing adjustments, and Picture-in-Picture.",
+      "streamsTitle": "Network Streams & Playlists",
+      "streamsDesc": "Support for network streams and playlist formats like M3U, M3U8, PLS, XSPF, and ASX.",
+      "libraryTitle": "Enhanced Local Libraries",
+      "libraryDesc": "Deep folder scanning, local video libraries, and improved artist, album, and genre browsing for offline playback."
     }
   },
   "support": {

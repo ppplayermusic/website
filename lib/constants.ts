@@ -20,8 +20,27 @@ export const DOWNLOAD_LINKS = {
   androidApk: 'https://github.com/ppplayermusic/app/releases/latest/download/PPPlayer-Android.apk',
 }
 
+export type PlatformConfig = {
+  id: string;
+  name: string;
+  label: string;
+  description: string;
+  badge: string;
+  href: string;
+  color: string;
+  isAvailable: boolean;
+  requirements: {
+    os: string;
+    architecture: string;
+    memory: string;
+  };
+  secondaryHref?: string;
+  secondaryBadge?: string;
+  secondaryIsAvailable?: boolean;
+};
+
 // Platform data
-export const PLATFORMS = [
+export const PLATFORMS: PlatformConfig[] = [
   {
     id: 'macos',
     name: 'macOS',
@@ -41,8 +60,8 @@ export const PLATFORMS = [
     id: 'windows',
     name: 'Windows',
     label: 'Windows 10+',
-    description: 'Available on the Microsoft Store for Windows 10 and later.',
-    badge: 'Microsoft Store',
+    description: 'Direct download for Windows 10 and later.',
+    badge: 'Direct Download',
     href: DOWNLOAD_LINKS.windows,
     color: 'from-blue-400 to-cyan-300',
     isAvailable: true,
@@ -51,9 +70,6 @@ export const PLATFORMS = [
       architecture: 'x64',
       memory: '4 GB RAM (Recommended)',
     },
-    secondaryHref: '#',
-    secondaryBadge: 'Direct Download',
-    secondaryIsAvailable: false,
   },
   {
     id: 'linux',
@@ -74,8 +90,8 @@ export const PLATFORMS = [
     id: 'ios',
     name: 'iOS',
     label: 'iPhone & iPad',
-    description: 'Available on the App Store for iPhone and iPad.',
-    badge: 'App Store',
+    description: 'PPPlayer for iOS is currently in development.',
+    badge: 'Coming Soon',
     href: DOWNLOAD_LINKS.ios,
     color: 'from-slate-400 to-slate-200',
     isAvailable: false,
@@ -89,9 +105,9 @@ export const PLATFORMS = [
     id: 'android',
     name: 'Android',
     label: 'Android',
-    description: 'Available on Google Play for Android phones and tablets.',
-    badge: 'Google Play',
-    href: DOWNLOAD_LINKS.android,
+    description: 'Direct download for Android phones and tablets.',
+    badge: 'Direct Download (APK)',
+    href: DOWNLOAD_LINKS.androidApk,
     color: 'from-green-400 to-emerald-300',
     isAvailable: true,
     requirements: {
@@ -99,8 +115,6 @@ export const PLATFORMS = [
       architecture: 'ARM64 / ARM / x86_64',
       memory: '2 GB RAM (Recommended)',
     },
-    secondaryHref: DOWNLOAD_LINKS.androidApk,
-    secondaryBadge: 'APK',
   },
 ];
 

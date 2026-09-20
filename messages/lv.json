@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Bezmaksas un atvērtā koda mūzikas atskaņotājs",
-    "homeDesc": "Bezmaksas, atvērtā koda mūzikas atskaņotājs. Nav konta. Nav abonementa. Vienkārši atskaņo.",
-    "downloadTitle": "Lejupielādēt PPPlayer bez maksas",
-    "downloadDesc": "Bezmaksas, atvērtā koda mūzikas atskaņotājs. Nav konta. Nav abonementa. Vienkārši atskaņo.",
+    "homeTitle": "PPPlayer | Bezmaksas atvērtā pirmkoda multivides atskaņotājs",
+    "homeDesc": "Bezmaksas atvērtā pirmkoda multivides atskaņotājs. Nav konta. Nav abonementa. Vienkārši spēlē.",
+    "downloadTitle": "Lejupielādējiet PPPlayer bez maksas",
+    "downloadDesc": "Bezmaksas atvērtā pirmkoda multivides atskaņotājs. Nav konta. Nav abonementa. Vienkārši spēlē.",
     "privacyTitle": "Privātuma politika",
-    "privacyDesc": "PPPlayer privātuma politika: bezmaksas mūzikas lietotne macOS, Linux, Windows, iOS un Android.",
+    "privacyDesc": "PPPlayer konfidencialitātes politika: bezmaksas multivides lietotne operētājsistēmām macOS, Linux, Windows, iOS un Android.",
     "termsTitle": "Pakalpojuma noteikumi",
-    "termsDesc": "PPPlayer pakalpojuma noteikumi: bezmaksas mūzikas lietotne macOS, Linux, Windows, iOS un Android.",
+    "termsDesc": "PPPlayer pakalpojumu sniegšanas noteikumi: bezmaksas multivides lietotne operētājsistēmām macOS, Linux, Windows, iOS un Android.",
     "supportTitle": "Atbalsts - PPPlayer",
     "supportDesc": "PPPlayer ir neatkarīgs, atvērtā koda projekts. Kļūdām un jaunu funkciju idejām izmantojiet GitHub. Citiem jautājumiem rakstiet uz e-pastu contact@ppplayer.com.",
     "blogTitle": "Emuārs | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "Tava mūzika, tavi noteikumi.",
     "favDesc": "Izveido savu personīgo bibliotēku ar vienu klikšķi. Vienmēr pieejama.",
     "contextTitle": "Dabisks pēc dizaina.",
-    "contextDesc": "Ar peles labo pogu noklikšķini jebkur. Skaistas, kontekstam atbilstošas vietējās izvēlnes."
+    "contextDesc": "Ar peles labo pogu noklikšķini jebkur. Skaistas, kontekstam atbilstošas vietējās izvēlnes.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "Tīkla straumes",
+    "streamsDesc": "Straumējiet tiešraides TV, radio un tīkla atskaņošanas sarakstus (M3U, PLS, XSPF) tieši lietotnē.",
+    "videoPlaybackTitle": "Vietējā video atskaņošana",
+    "videoPlaybackDesc": "Nemanāmi atskaņojiet savus lokālos video failus ar atbalstu subtitriem, audio celiņu izvēli un režīmu Attēls attēlā."
   },
   "noAccount": {
     "title": "Nav konta.",
@@ -169,11 +175,11 @@
       },
       {
         "q": "Vai PPPlayer ir pieejams iPhone ierīcēm?",
-        "a": "Jā. PPPlayer ir pieejams App Store iPhone un iPad ierīcēm."
+        "a": "PPPlayer iOS ierīcēm pašlaik tiek izstrādāts. Mēs aktīvi strādājam pie izlaišanas App Store."
       },
       {
         "q": "Vai PPPlayer ir pieejams Android ierīcēm?",
-        "a": "Jā. Varat lejupielādēt PPPlayer pakalpojumā Google Play Android tālruņiem un planšetdatoriem."
+        "a": "PPPlayer Android ierīcēm pašlaik tiek izstrādāts. Mēs aktīvi strādājam pie izlaišanas Google Play veikalā."
       },
       {
         "q": "Vai varu izmantot PPPlayer operētājsistēmā Windows?",
@@ -181,15 +187,23 @@
       },
       {
         "q": "Kādas mūzikas funkcijas piedāvā PPPlayer?",
-        "a": "PPPlayer ietver izpildītāju atklāšanu, saistītos izpildītājus, izpildītāju radio, izpildītāju atskaņošanas sarakstus, žanru izpēti un skaistu pilnekrāna atskaņotāju. Tas viss ir bez maksas, un konts nav nepieciešams."
+        "a": "PPPlayer ietver lokālās mūzikas un video bibliotēkas, tīkla straumes, subtitrus, mākslinieku atklāšanu, saistītos māksliniekus, mākslinieku radio, atskaņošanas sarakstus, žanru izpēti un skaistu pilnekrāna atskaņotāju. Tas viss ir bez maksas, un nav nepieciešams konts."
       },
       {
         "q": "Kā lejupielādēt PPPlayer?",
-        "a": "Šajā lapā pieskarieties lejupielādes pogai savai platformai. Lejupielāde aizņem mazāk nekā minūti."
+        "a": "Varat lejupielādēt PPPlayer operētājsistēmām macOS, Linux un Windows tieši no mūsu vietnes. Mobilās versijas drīzumā."
       },
       {
         "q": "Vai ir pieejama premium versija?",
         "a": "Nē. PPPlayer ir pilnībā bez maksas. Viss redzamais ir pieejams bez maksas, bez nepieciešamības pēc konta."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer atbalsta gandrīz visus audio un video formātus, tostarp MP3, FLAC, MP4, MKV un AVI. Tas atbalsta arī tīkla straumes un M3U/M3U8 atskaņošanas sarakstus."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "Operētājsistēmās Windows, macOS, Android un iOS PPPlayer darbojas uzreiz. Operētājsistēmā Linux, iespējams, būs jāinstalē standarta multivides bibliotēkas (piemēram, libmpv) atkarībā no izplatīšanas."
       }
     ],
     "openSourceQuestion": "Vai PPPlayer ir atvērtā koda?",
@@ -323,7 +337,7 @@
       "desc": "Oficiālais Android laidiens Google Play veikalā.",
       "added": "Pievienots",
       "androidTitle": "Android laidiens",
-      "androidDesc": "PPPlayer tagad ir oficiāli pieejams Android ierīcēm Google Play veikalā. Lejupielādējiet to šodien un izbaudiet mūziku ceļā.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "youtube": "YouTube nodrošināta audio atskaņošana",
       "playlists": "Atskaņošanas saraksti, izlase un klausīšanās vēsture",
       "platforms": "macOS, Windows un Linux atbalsts"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "Video atskaņošana un subtitri",
+      "videoDesc": "Pārveidots video atskaņotājs ar Pielāgot/Aizpildīt, īsinājumtaustiņiem, subtitru un audio izvēli, laika pielāgojumiem un PiP.",
+      "streamsTitle": "Tīkla straumes un atskaņošanas saraksti",
+      "streamsDesc": "Atbalsts tīkla straumēm un atskaņošanas sarakstu formātiem, piemēram, M3U, M3U8, PLS, XSPF un ASX.",
+      "libraryTitle": "Uzlabotas lokālās bibliotēkas",
+      "libraryDesc": "Dziļa mapju skenēšana, vietējās video bibliotēkas un uzlabota mākslinieku, albumu un žanru pārlūkošana bezsaistes atskaņošanai."
     }
   },
   "support": {

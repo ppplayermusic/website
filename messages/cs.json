@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Bezplatný hudební přehrávač s otevřeným zdrojovým kódem",
-    "homeDesc": "Bezplatný hudební přehrávač s otevřeným zdrojovým kódem. Žádný účet. Žádné předplatné. Prostě hrajte.",
+    "homeTitle": "PPPlayer | Bezplatný přehrávač médií s otevřeným zdrojovým kódem",
+    "homeDesc": "Bezplatný přehrávač médií s otevřeným zdrojovým kódem. Žádný účet. Žádné předplatné. Prostě hrajte.",
     "downloadTitle": "Stáhnout PPPlayer zdarma",
-    "downloadDesc": "Bezplatný hudební přehrávač s otevřeným zdrojovým kódem. Žádný účet. Žádné předplatné. Prostě hrajte.",
+    "downloadDesc": "Bezplatný přehrávač médií s otevřeným zdrojovým kódem. Žádný účet. Žádné předplatné. Prostě hrajte.",
     "privacyTitle": "Zásady ochrany osobních údajů",
-    "privacyDesc": "Zásady ochrany osobních údajů pro PPPlayer: bezplatná hudební aplikace pro macOS, Linux, Windows, iOS a Android.",
+    "privacyDesc": "Zásady ochrany osobních údajů pro PPPlayer: bezplatná mediální aplikace pro macOS, Linux, Windows, iOS a Android.",
     "termsTitle": "Podmínky služby",
-    "termsDesc": "Podmínky služby pro PPPlayer: bezplatná hudební aplikace pro macOS, Linux, Windows, iOS a Android.",
+    "termsDesc": "Podmínky služby pro PPPlayer: bezplatná mediální aplikace pro macOS, Linux, Windows, iOS a Android.",
     "supportTitle": "Podpora - PPPlayer",
     "supportDesc": "PPPlayer je nezávislý projekt s otevřeným zdrojovým kódem. Pro chyby a nápady na funkce použijte GitHub. V případě dalších dotazů zašlete e-mail na adresu contact@ppplayer.com.",
     "blogTitle": "Blog | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "Vaše hudba, vaše pravidla.",
     "favDesc": "Vytvořte si osobní knihovnu jedním kliknutím. Vždy tam.",
     "contextTitle": "Nativní od návrhu.",
-    "contextDesc": "Klikněte pravým tlačítkem kamkoli. Krásné, kontextové nativní nabídky."
+    "contextDesc": "Klikněte pravým tlačítkem kamkoli. Krásné, kontextové nativní nabídky.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "Síťové streamy",
+    "streamsDesc": "Streamujte živé televizní vysílání, rádio a síťové seznamy skladeb (M3U, PLS, XSPF) přímo v aplikaci.",
+    "videoPlaybackTitle": "Přehrávání místního videa",
+    "videoPlaybackDesc": "Bezproblémové přehrávání místních video souborů s podporou titulků, výběru zvukové stopy a režimu Obraz v obrazu."
   },
   "noAccount": {
     "title": "Žádný účet.",
@@ -169,11 +175,11 @@
       },
       {
         "q": "Je PPPlayer k dispozici pro iPhone?",
-        "a": "Ano. PPPlayer je k dispozici v App Store pro iPhone a iPad."
+        "a": "PPPlayer pro iOS je aktuálně ve vývoji. Aktivně pracujeme na vydání v App Store."
       },
       {
         "q": "Je PPPlayer k dispozici pro Android?",
-        "a": "Ano. PPPlayer si můžete stáhnout na Google Play pro telefony a tablety s Androidem."
+        "a": "PPPlayer pro Android je aktuálně ve vývoji. Aktivně pracujeme na vydání v obchodě Google Play."
       },
       {
         "q": "Mohu použít PPPlayer ve Windows?",
@@ -181,15 +187,23 @@
       },
       {
         "q": "Jaké hudební funkce nabízí PPPlayer?",
-        "a": "PPPlayer zahrnuje objevování umělců, související umělce, rádio umělců, seznamy skladeb umělců, zkoumání žánrů a krásný přehrávač přes celou obrazovku. Vše je zdarma a není vyžadován žádný účet."
+        "a": "PPPlayer zahrnuje místní hudební a video knihovny, síťové streamy, titulky, objevování umělců, související umělce, rádio umělce, seznamy skladeb, objevování žánrů a krásný přehrávač na celou obrazovku. Je to vše zdarma a nevyžaduje se žádný účet."
       },
       {
         "q": "Jak stáhnu PPPlayer?",
-        "a": "Klepněte na tlačítko stahování pro vaši platformu na této stránce. Stažení trvá méně než minutu."
+        "a": "PPPlayer si můžete stáhnout přímo z našeho webu pro systémy macOS, Linux a Windows. Mobilní verze budou brzy k dispozici."
       },
       {
         "q": "Existuje prémiová verze?",
         "a": "Ne. PPPlayer je plně zdarma. Vše, co vidíte, je k dispozici bez jakýchkoli nákladů, bez nutnosti účtu."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer podporuje téměř všechny zvukové a video formáty, včetně MP3, FLAC, MP4, MKV a AVI. Podporuje také síťové streamy a seznamy skladeb M3U/M3U8."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "V systémech Windows, macOS, Android a iOS funguje PPPlayer ihned. V Linuxu může být nutné nainstalovat standardní mediální knihovny (jako libmpv) v závislosti na vaší distribuci."
       }
     ],
     "openSourceQuestion": "Je PPPlayer s otevřeným zdrojovým kódem?",
@@ -323,7 +337,7 @@
       "desc": "Oficiální vydání pro Android v obchodu Google Play.",
       "added": "Přidáno",
       "androidTitle": "Vydání pro Android",
-      "androidDesc": "PPPlayer je nyní oficiálně dostupný pro zařízení Android v obchodu Google Play. Stáhněte si jej ještě dnes a užívejte si hudbu na cestách.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "youtube": "Přehrávání zvuku s podporou YouTube",
       "playlists": "Seznamy skladeb, oblíbené položky a historie poslechu",
       "platforms": "Podpora pro macOS, Windows a Linux"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "Přehrávání videa a titulky",
+      "videoDesc": "Přepracovaný přehrávač videa s přizpůsobením/vyplněním, klávesovými zkratkami, výběrem titulků a zvuku, úpravami časování a PiP.",
+      "streamsTitle": "Síťové streamy a seznamy skladeb",
+      "streamsDesc": "Podpora síťových streamů a formátů seznamů skladeb jako M3U, M3U8, PLS, XSPF a ASX.",
+      "libraryTitle": "Vylepšené místní knihovny",
+      "libraryDesc": "Hluboké prohledávání složek, místní knihovny videí a vylepšené procházení umělců, alb a žánrů pro přehrávání offline."
     }
   },
   "support": {

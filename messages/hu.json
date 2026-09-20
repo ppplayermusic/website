@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Ingyenes, nyílt forráskódú zenelejátszó",
-    "homeDesc": "Ingyenes, nyílt forráskódú zenelejátszó. Nincs fiók. Nincs előfizetés. Csak játszd le.",
-    "downloadTitle": "Töltse le a PPPlayert ingyen",
-    "downloadDesc": "Ingyenes, nyílt forráskódú zenelejátszó. Nincs fiók. Nincs előfizetés. Csak játszd le.",
+    "homeTitle": "PPPlayer | Ingyenes és nyílt forráskódú médialejátszó",
+    "homeDesc": "Ingyenes, nyílt forráskódú médialejátszó. Nincs fiók. Nincs előfizetés. Csak játssz.",
+    "downloadTitle": "PPPlayer ingyenes letöltése",
+    "downloadDesc": "Ingyenes, nyílt forráskódú médialejátszó. Nincs fiók. Nincs előfizetés. Csak játssz.",
     "privacyTitle": "Adatvédelmi irányelvek",
-    "privacyDesc": "Adatvédelmi irányelvek a PPPlayerhez: ingyenes zenei alkalmazás macOS, Linux, Windows, iOS és Android rendszerre.",
+    "privacyDesc": "A PPPlayer adatvédelmi irányelvei: ingyenes médiaalkalmazás macOS, Linux, Windows, iOS és Android rendszerekre.",
     "termsTitle": "Szolgáltatási feltételek",
-    "termsDesc": "Szolgáltatási feltételek a PPPlayerhez: ingyenes zenei alkalmazás macOS, Linux, Windows, iOS és Android rendszerre.",
+    "termsDesc": "A PPPlayer szolgáltatási feltételei: ingyenes médiaalkalmazás macOS, Linux, Windows, iOS és Android rendszerekre.",
     "supportTitle": "Támogatás - PPPlayer",
     "supportDesc": "A PPPlayer egy független, nyílt forráskódú projekt. Hibák és funkcióötletek esetén használja a GitHubot. Egyéb kérdések esetén küldjön e-mailt a contact@ppplayer.com címre.",
     "blogTitle": "Blog | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "A te zenéd, a te szabályaid.",
     "favDesc": "Építsd fel személyes könyvtáradat egyetlen kattintással. Mindig ott van.",
     "contextTitle": "Dizájnra natív.",
-    "contextDesc": "Kattints jobb gombbal bárhova. Gyönyörű, környezetérzékeny natív menük."
+    "contextDesc": "Kattints jobb gombbal bárhova. Gyönyörű, környezetérzékeny natív menük.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "Hálózati streamek",
+    "streamsDesc": "Élő tévéadások, rádió és hálózati lejátszási listák (M3U, PLS, XSPF) streamelése közvetlenül az alkalmazáson belül.",
+    "videoPlaybackTitle": "Helyi videolejátszás",
+    "videoPlaybackDesc": "Zökkenőmentesen játszhatja le a helyi videofájlokat feliratozással, hangsávválasztással és Kép a képben móddal."
   },
   "noAccount": {
     "title": "Nincs fiók.",
@@ -169,11 +175,11 @@
       },
       {
         "q": "Elérhető a PPPlayer iPhone-ra?",
-        "a": "Igen. A PPPlayer elérhető az App Store-ban iPhone-ra és iPadre."
+        "a": "Az iOS-re készült PPPlayer jelenleg fejlesztés alatt áll. Aktívan dolgozunk egy App Store kiadáson."
       },
       {
         "q": "Elérhető a PPPlayer Androidra?",
-        "a": "Igen. Letöltheted a PPPlayert a Google Playről Android telefonokra és táblagépekre."
+        "a": "Az Androidra készült PPPlayer jelenleg fejlesztés alatt áll. Aktívan dolgozunk egy Google Play Áruház kiadáson."
       },
       {
         "q": "Használhatom a PPPlayert Windows rendszeren?",
@@ -181,15 +187,23 @@
       },
       {
         "q": "Milyen zenei funkciókat kínál a PPPlayer?",
-        "a": "A PPPlayer tartalmaz előadók felfedezését, kapcsolódó előadókat, előadói rádiót, előadói lejátszási listákat, műfajok felfedezését és egy gyönyörű teljes képernyős lejátszót. Mindez ingyenes, és nincs szükség fiókra."
+        "a": "A PPPlayer helyi zene- és videokönyvtárakat, hálózati streameket, feliratokat, előadó-felfedezést, kapcsolódó előadókat, előadói rádiót, lejátszási listákat, műfajfelfedezést és egy gyönyörű teljes képernyős lejátszót tartalmaz. Mindez ingyenes, és nem igényel fiókot."
       },
       {
         "q": "Hogyan tölthetem le a PPPlayert?",
-        "a": "Koppints a platformodhoz tartozó letöltés gombra ezen az oldalon. A letöltés kevesebb, mint egy percet vesz igénybe."
+        "a": "Letöltheti a PPPlayert közvetlenül a weboldalunkról macOS, Linux és Windows rendszerekre. A mobil verziók hamarosan érkeznek."
       },
       {
         "q": "Van prémium verzió?",
         "a": "Nem. A PPPlayer teljesen ingyenes. Minden, amit látsz, ingyenesen elérhető, fiók nélkül."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "A PPPlayer szinte minden hang- és videoformátumot támogat, beleértve az MP3, FLAC, MP4, MKV és AVI formátumokat. Támogatja a hálózati streameket és az M3U/M3U8 lejátszási listákat is."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "Windows, macOS, Android és iOS rendszeren a PPPlayer azonnal működik. Linuxon előfordulhat, hogy szabványos médiakönyvtárakat (például libmpv) kell telepítenie a disztribúciótól függően."
       }
     ],
     "openSourceQuestion": "Nyílt forráskódú a PPPlayer?",
@@ -323,7 +337,7 @@
       "desc": "Hivatalos Android kiadás a Google Play Áruházban.",
       "added": "Hozzáadva",
       "androidTitle": "Android kiadás",
-      "androidDesc": "A PPPlayer mostantól hivatalosan is elérhető Android-eszközökre a Google Play Áruházban. Töltsd le még ma, és élvezd a zenét útközben is.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "youtube": "YouTube-alapú hanglejátszás",
       "playlists": "Lejátszási listák, kedvencek és hallgatási előzmények",
       "platforms": "macOS, Windows és Linux támogatás"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "Videolejátszás és feliratok",
+      "videoDesc": "Újratervezett videolejátszó Illesztés/Kitöltés funkcióval, billentyűparancsokkal, felirat- és hangválasztással, időzítési beállításokkal és PiP-pel.",
+      "streamsTitle": "Hálózati streamek és lejátszási listák",
+      "streamsDesc": "Hálózati streamek és lejátszási lista formátumok, például M3U, M3U8, PLS, XSPF és ASX támogatása.",
+      "libraryTitle": "Továbbfejlesztett helyi könyvtárak",
+      "libraryDesc": "Mély mappakeresés, helyi videokönyvtárak, valamint továbbfejlesztett előadó-, album- és műfajböngészés offline lejátszáshoz."
     }
   },
   "support": {

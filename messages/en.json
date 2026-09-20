@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Free & Open-Source Music Player",
-    "homeDesc": "A free, open-source music player. No account. No subscription. Just play.",
+    "homeTitle": "PPPlayer | Free & Open-Source Media Player",
+    "homeDesc": "A free, open-source media player. No account. No subscription. Just play.",
     "downloadTitle": "Download PPPlayer Free",
-    "downloadDesc": "A free, open-source music player. No account. No subscription. Just play.",
+    "downloadDesc": "A free, open-source media player. No account. No subscription. Just play.",
     "privacyTitle": "Privacy Policy",
-    "privacyDesc": "Privacy Policy for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
+    "privacyDesc": "Privacy Policy for PPPlayer: free media app for macOS, Linux, Windows, iOS, and Android.",
     "termsTitle": "Terms of Service",
-    "termsDesc": "Terms of Service for PPPlayer: free music app for macOS, Linux, Windows, iOS, and Android.",
+    "termsDesc": "Terms of Service for PPPlayer: free media app for macOS, Linux, Windows, iOS, and Android.",
     "supportTitle": "Support - PPPlayer",
     "supportDesc": "PPPlayer is an independent, open-source project. For bugs and feature ideas, use GitHub. For other questions, email contact@ppplayer.com.",
     "blogTitle": "Blog | PPPlayer",
@@ -21,7 +21,7 @@
     "blog": "Blog"
   },
   "footer": {
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
+    "desc": "A free, open-source media player. No account. No subscription. Just play.",
     "product": "Product",
     "features": "Features",
     "download": "Download",
@@ -51,9 +51,9 @@
     "accept": "Accept All"
   },
   "hero": {
-    "title1": "Music.",
+    "title1": "Media.",
     "title2": "Without the friction.",
-    "desc": "A free, open-source music player. No account. No subscription. Just play.",
+    "desc": "A free, open-source media player. No account. No subscription. Just play.",
     "getIos": "Get for iOS",
     "getAndroid": "Get for Android",
     "getMac": "Get for Mac",
@@ -85,7 +85,11 @@
     "favTitle": "Your music, your rules.",
     "favDesc": "Build your personal library with a single click. Always there.",
     "contextTitle": "Native by design.",
-    "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus."
+    "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "Network Streams.",
+    "streamsDesc": "Play M3U, PLS, XSPF, and ASX streams seamlessly."
   },
   "noAccount": {
     "title": "No account.",
@@ -150,7 +154,7 @@
     "badge": "PPPlayer 1.0 is now available",
     "title": "Download <gradient>PPPlayer</gradient>",
     "subtitle": "Pick your platform. Start listening in seconds.",
-    "desc": "No account required. No email. No signup. Just music.",
+    "desc": "No account required. No email. No signup. Just play.",
     "windowsReqLabel": "Windows system requirements:",
     "windowsReqDesc": "Windows 10 or later (64-bit). ~50 MB download. No Microsoft Store required."
   },
@@ -169,27 +173,35 @@
       },
       {
         "q": "Is PPPlayer available for iPhone?",
-        "a": "Yes. PPPlayer is available on the App Store for iPhone and iPad."
+        "a": "PPPlayer for iOS is currently in development. We are actively working on an App Store release."
       },
       {
         "q": "Is PPPlayer available for Android?",
-        "a": "Yes. You can download PPPlayer on Google Play for Android phones and tablets."
+        "a": "PPPlayer for Android is currently in development. We are actively working on a Google Play Store release."
       },
       {
         "q": "Can I use PPPlayer on Windows?",
         "a": "Yes. PPPlayer is available for Windows 10 and later as a direct download. No store required."
       },
       {
-        "q": "What music features does PPPlayer offer?",
-        "a": "PPPlayer includes artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required."
+        "q": "What features does PPPlayer offer?",
+        "a": "PPPlayer includes local music and video libraries, network streams, subtitles, artist discovery, related artists, artist radio, artist playlists, genre exploration, and a beautiful full-screen player. It is all free, and no account is required."
       },
       {
         "q": "How do I download PPPlayer?",
-        "a": "Tap the download button for your platform on this page. The download takes less than a minute."
+        "a": "You can download PPPlayer directly from our website for macOS, Linux, and Windows. Mobile versions are coming soon."
       },
       {
         "q": "Is there a premium version?",
         "a": "No. PPPlayer is fully free. Everything you see is available at no cost, with no account needed."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer supports almost all audio and video formats, including MP3, FLAC, MP4, MKV, and AVI. It also supports network streams and M3U/M3U8 playlists."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "On Windows, macOS, Android, and iOS, PPPlayer works out of the box. On Linux, you may need to install standard media libraries (like libmpv) depending on your distribution."
       }
     ],
     "openSourceQuestion": "Is PPPlayer open source?",
@@ -325,7 +337,7 @@
       "desc": "Official Android release on the Google Play Store.",
       "added": "Added",
       "androidTitle": "Android Release",
-      "androidDesc": "PPPlayer is now officially available for Android devices on the Google Play Store. Download it today and enjoy your music on the go."
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed."
     },
     "v1_3_5": {
       "version": "1.3.5",
@@ -514,6 +526,18 @@
       "youtube": "YouTube-powered audio playback",
       "playlists": "Playlists, favorites and listening history",
       "platforms": "macOS, Windows and Linux support"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "Video Playback & Subtitles",
+      "videoDesc": "Redesigned video player featuring Fit/Fill, keyboard shortcuts, subtitle and audio-track selection, timing adjustments, and Picture-in-Picture.",
+      "streamsTitle": "Network Streams & Playlists",
+      "streamsDesc": "Support for network streams and playlist formats like M3U, M3U8, PLS, XSPF, and ASX.",
+      "libraryTitle": "Enhanced Local Libraries",
+      "libraryDesc": "Deep folder scanning, local video libraries, and improved artist, album, and genre browsing for offline playback."
     }
   },
   "support": {
@@ -522,7 +546,7 @@
     "contactTitle": "Contact Us",
     "contactDesc": "For general inquiries, partnerships, or questions not suited for GitHub, feel free to reach out to us at contact@ppplayer.com.",
     "githubTitle": "Community & GitHub",
-    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us in building the ultimate open-source music player.",
+    "githubDesc": "Explore the code, report a bug, suggest a feature, or contribute code and translations. Join us in building the ultimate open-source media player.",
     "githubBtn": "View on GitHub"
   },
   "openSource": {

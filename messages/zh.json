@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | 免费开源音乐播放器",
-    "homeDesc": "免费、开源的音乐播放器。无需账号。无订阅。即刻播放。",
+    "homeTitle": "PPPlayer | 免费且开源的媒体播放器",
+    "homeDesc": "一个免费、开源的媒体播放器。无需帐户。没有订阅。直接播放。",
     "downloadTitle": "免费下载 PPPlayer",
-    "downloadDesc": "免费、开源的音乐播放器。无需账号。无订阅。即刻播放。",
+    "downloadDesc": "一个免费、开源的媒体播放器。无需帐户。没有订阅。直接播放。",
     "privacyTitle": "隐私政策",
-    "privacyDesc": "PPPlayer 的隐私政策：适用于 macOS、Linux、Windows、iOS 和 Android 的免费音乐应用。",
+    "privacyDesc": "PPPlayer 隐私政策：适用于 macOS、Linux、Windows、iOS 和 Android 的免费媒体应用程序。",
     "termsTitle": "服务条款",
-    "termsDesc": "PPPlayer 的服务条款：适用于 macOS、Linux、Windows、iOS 和 Android 的免费音乐应用。",
+    "termsDesc": "PPPlayer 服务条款：适用于 macOS、Linux、Windows、iOS 和 Android 的免费媒体应用程序。",
     "supportTitle": "支持 - PPPlayer",
     "supportDesc": "PPPlayer 是一个独立的开源项目。如需报告错误或提出功能建议，请使用 GitHub。其他问题请发送电子邮件至 contact@ppplayer.com。",
     "blogTitle": "博客 | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "你的音乐，由你做主。",
     "favDesc": "一键构建您的个人曲库。随时待命。",
     "contextTitle": "原生设计。",
-    "contextDesc": "在任何地方右键单击。精美、智能的原生菜单。"
+    "contextDesc": "在任何地方右键单击。精美、智能的原生菜单。",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "网络串流",
+    "streamsDesc": "直接在应用程序中播放直播电视、广播和网络播放列表（M3U、PLS、XSPF）。",
+    "videoPlaybackTitle": "本地视频播放",
+    "videoPlaybackDesc": "无缝播放本地视频文件，支持字幕、音轨选择和画中画模式。"
   },
   "noAccount": {
     "title": "无需账号。",
@@ -169,11 +175,11 @@
       },
       {
         "q": "iPhone 上有 PPPlayer 吗？",
-        "a": "是的。您可以在 App Store 下载适用于 iPhone 和 iPad 的 PPPlayer。"
+        "a": "适用于 iOS 的 PPPlayer 目前正在开发中。我们正在积极准备 App Store 的发布。"
       },
       {
         "q": "Android 上有 PPPlayer 吗？",
-        "a": "是的。您可以在 Google Play 下载适用于 Android 手机和平板电脑的 PPPlayer。"
+        "a": "适用于 Android 的 PPPlayer 目前正在开发中。我们正在积极准备 Google Play 商店的发布。"
       },
       {
         "q": "我能在 Windows 上使用 PPPlayer 吗？",
@@ -181,15 +187,23 @@
       },
       {
         "q": "PPPlayer 提供哪些音乐功能？",
-        "a": "PPPlayer 包括艺术家发现、相关艺术家、艺术家电台、艺术家播放列表、流派探索以及精美的全屏播放器。这一切都是免费的，并且不需要账号。"
+        "a": "PPPlayer 包括本地音乐和视频库、网络流、字幕、艺术家发现、相关艺术家、艺术家电台、播放列表、流派探索和漂亮的无边框全屏播放器。完全免费，无需帐户。"
       },
       {
         "q": "如何下载 PPPlayer？",
-        "a": "点击本页面上针对您平台的下载按钮。下载只需不到一分钟。"
+        "a": "您可以直接从我们的网站下载适用于 macOS、Linux 和 Windows 的 PPPlayer。移动版本即将推出。"
       },
       {
         "q": "有高级版 (Premium) 吗？",
         "a": "没有。PPPlayer 完全免费。您所看到的一切都可免费使用，无需账号。"
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer 支持几乎所有的音频和视频格式，包括 MP3、FLAC、MP4、MKV 和 AVI。它还支持网络流和 M3U/M3U8 播放列表。"
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "在 Windows、macOS、Android 和 iOS 上，PPPlayer 开箱即用。在 Linux 上，您可能需要根据您的发行版安装标准媒体库（如 libmpv）。"
       }
     ],
     "openSourceQuestion": "PPPlayer 是开源的吗？",
@@ -323,7 +337,7 @@
       "desc": "Google Play 商店的官方 Android 版本。",
       "added": "已添加",
       "androidTitle": "Android 版本",
-      "androidDesc": "PPPlayer 现已在 Google Play 商店正式面向 Android 设备推出。立即下载，随时随地享受音乐。",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "youtube": "由 YouTube 提供支持的音频播放",
       "playlists": "播放列表、收藏夹和听歌历史",
       "platforms": "支持 macOS、Windows 和 Linux"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "视频播放和字幕",
+      "videoDesc": "重新设计的视频播放器，具有适合/填充、键盘快捷键、字幕和音频选择、时间调整和画中画功能。",
+      "streamsTitle": "网络串流和播放列表",
+      "streamsDesc": "支持网络流和播放列表格式，如 M3U、M3U8、PLS、XSPF 和 ASX。",
+      "libraryTitle": "增强的本地库",
+      "libraryDesc": "深度文件夹扫描、本地视频库以及改进的艺术家、专辑和流派浏览功能，用于离线播放。"
     }
   },
   "support": {

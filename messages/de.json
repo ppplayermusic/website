@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Kostenloser & Open-Source-Musikplayer",
-    "homeDesc": "Ein kostenloser Open-Source-Musikplayer. Ohne Konto. Ohne Abo. Einfach abspielen.",
-    "downloadTitle": "PPPlayer Kostenlos Herunterladen",
-    "downloadDesc": "Ein kostenloser Open-Source-Musikplayer. Ohne Konto. Ohne Abo. Einfach abspielen.",
+    "homeTitle": "PPPlayer | Kostenloser Open-Source-Mediaplayer",
+    "homeDesc": "Ein kostenloser Open-Source-Mediaplayer. Kein Konto. Kein Abonnement. Einfach abspielen.",
+    "downloadTitle": "PPPlayer kostenlos herunterladen",
+    "downloadDesc": "Ein kostenloser Open-Source-Mediaplayer. Kein Konto. Kein Abonnement. Einfach abspielen.",
     "privacyTitle": "Datenschutzrichtlinie",
-    "privacyDesc": "Datenschutzrichtlinie für PPPlayer: kostenlose Musik-App.",
+    "privacyDesc": "Datenschutzrichtlinie für PPPlayer: kostenlose Medien-App für macOS, Linux, Windows, iOS und Android.",
     "termsTitle": "Nutzungsbedingungen",
-    "termsDesc": "Nutzungsbedingungen für PPPlayer: kostenlose Musik-App.",
+    "termsDesc": "Nutzungsbedingungen für PPPlayer: kostenlose Medien-App für macOS, Linux, Windows, iOS und Android.",
     "supportTitle": "Support - PPPlayer",
     "supportDesc": "PPPlayer ist ein unabhängiges Open-Source-Projekt. Nutze GitHub für Fehlermeldungen und Funktionsvorschläge. Bei anderen Fragen schreibe an contact@ppplayer.com.",
     "blogTitle": "Blog | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "Deine Musik, deine Regeln.",
     "favDesc": "Erstelle deine eigene Mediathek mit nur einem Klick.",
     "contextTitle": "Natives Design.",
-    "contextDesc": "Klicke einfach rechts. Wunderschöne, native Kontextmenüs."
+    "contextDesc": "Klicke einfach rechts. Wunderschöne, native Kontextmenüs.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "Netzwerk-Streams",
+    "streamsDesc": "Streamen Sie Live-TV, Radio und Netzwerk-Playlists (M3U, PLS, XSPF) direkt in der App.",
+    "videoPlaybackTitle": "Lokale Videowiedergabe",
+    "videoPlaybackDesc": "Spielen Sie Ihre lokalen Videodateien nahtlos ab, mit Unterstützung für Untertitel, Audiospurauswahl und Bild-in-Bild-Modus."
   },
   "noAccount": {
     "title": "Kein Account.",
@@ -169,11 +175,11 @@
       },
       {
         "q": "Ist PPPlayer für das iPhone verfügbar?",
-        "a": "Ja. PPPlayer ist im App Store für iPhone und iPad verfügbar."
+        "a": "PPPlayer für iOS befindet sich derzeit in der Entwicklung. Wir arbeiten aktiv an einer Veröffentlichung im App Store."
       },
       {
         "q": "Ist PPPlayer für Android verfügbar?",
-        "a": "Ja. Sie können PPPlayer bei Google Play für Android-Telefone und -Tablets herunterladen."
+        "a": "PPPlayer für Android befindet sich derzeit in der Entwicklung. Wir arbeiten aktiv an einer Veröffentlichung im Google Play Store."
       },
       {
         "q": "Kann ich PPPlayer unter Windows verwenden?",
@@ -181,15 +187,23 @@
       },
       {
         "q": "Welche Musikfunktionen bietet PPPlayer?",
-        "a": "PPPlayer umfasst Künstlerentdeckung, ähnliche Künstler, Künstlerradio, Wiedergabelisten, Genre-Erkundung und einen schönen Player. Alles ist kostenlos, kein Konto erforderlich."
+        "a": "PPPlayer bietet lokale Musik- und Videobibliotheken, Netzwerk-Streams, Untertitel, Künstlerentdeckung, ähnliche Künstler, Künstlerradio, Playlists, Genre-Erkundung und einen schönen Vollbild-Player. Alles ist kostenlos, kein Konto erforderlich."
       },
       {
         "q": "Wie lade ich PPPlayer herunter?",
-        "a": "Tippen Sie auf dieser Seite auf die Download-Schaltfläche für Ihre Plattform. Der Download dauert weniger als eine Minute."
+        "a": "Sie können PPPlayer für macOS, Linux und Windows direkt von unserer Website herunterladen. Mobile Versionen folgen in Kürze."
       },
       {
         "q": "Gibt es eine Premium-Version?",
         "a": "Nein. PPPlayer ist völlig kostenlos. Alles, was Sie sehen, ist kostenlos verfügbar."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer unterstützt fast alle Audio- und Videoformate, einschließlich MP3, FLAC, MP4, MKV und AVI. Es unterstützt auch Netzwerk-Streams und M3U/M3U8-Playlists."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "Unter Windows, macOS, Android und iOS funktioniert PPPlayer sofort. Unter Linux müssen Sie je nach Distribution möglicherweise Standard-Medienbibliotheken (wie libmpv) installieren."
       }
     ],
     "openSourceQuestion": "Ist PPPlayer Open Source?",
@@ -323,7 +337,7 @@
       "desc": "Offizielle Android-Veröffentlichung im Google Play Store.",
       "added": "Hinzugefügt",
       "androidTitle": "Android-Veröffentlichung",
-      "androidDesc": "PPPlayer ist ab sofort offiziell für Android-Geräte im Google Play Store verfügbar. Lade es noch heute herunter und genieße deine Musik unterwegs.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "fixed": "Behoben",
       "appNapTitle": "Nahtlose Hintergrundwiedergabe",
       "appNapDesc": "Verhindert, dass macOS App Nap den minimierten Player anhält, damit die Warteschlange ohne Unterbrechung weiterläuft."
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "Videowiedergabe & Untertitel",
+      "videoDesc": "Überarbeiteter Videoplayer mit Anpassung, Tastenkombinationen, Untertitel- und Audioauswahl, Zeitanpassungen und Bild-in-Bild.",
+      "streamsTitle": "Netzwerk-Streams & Playlists",
+      "streamsDesc": "Unterstützung für Netzwerk-Streams und Playlist-Formate wie M3U, M3U8, PLS, XSPF und ASX.",
+      "libraryTitle": "Erweiterte lokale Bibliotheken",
+      "libraryDesc": "Tiefes Scannen von Ordnern, lokale Videobibliotheken und verbesserte Künstler-, Alben- und Genre-Navigation für die Offline-Wiedergabe."
     }
   },
   "support": {

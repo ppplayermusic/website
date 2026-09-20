@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Gratis musikspelare med öppen källkod",
-    "homeDesc": "En gratis musikspelare med öppen källkod. Inget konto. Ingen prenumeration. Bara spela.",
+    "homeTitle": "PPPlayer | Gratis och öppen källkods mediaspelare",
+    "homeDesc": "En gratis, öppen källkod mediaspelare. Inget konto. Ingen prenumeration. Spela bara.",
     "downloadTitle": "Ladda ner PPPlayer gratis",
-    "downloadDesc": "En gratis musikspelare med öppen källkod. Inget konto. Ingen prenumeration. Bara spela.",
+    "downloadDesc": "En gratis, öppen källkod mediaspelare. Inget konto. Ingen prenumeration. Spela bara.",
     "privacyTitle": "Integritetspolicy",
-    "privacyDesc": "Integritetspolicy för PPPlayer: gratis musikapp för macOS, Linux, Windows, iOS och Android.",
+    "privacyDesc": "Sekretesspolicy för PPPlayer: gratis media-app för macOS, Linux, Windows, iOS och Android.",
     "termsTitle": "Användarvillkor",
-    "termsDesc": "Användarvillkor för PPPlayer: gratis musikapp för macOS, Linux, Windows, iOS och Android.",
+    "termsDesc": "Användarvillkor för PPPlayer: gratis media-app för macOS, Linux, Windows, iOS och Android.",
     "supportTitle": "Support - PPPlayer",
     "supportDesc": "PPPlayer är ett oberoende projekt med öppen källkod. För buggar och funktionsidéer, använd GitHub. För övriga frågor, maila contact@ppplayer.com.",
     "blogTitle": "Blogg | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "Din musik, dina regler.",
     "favDesc": "Bygg ditt personliga bibliotek med ett klick. Alltid där.",
     "contextTitle": "Inbyggt genom design.",
-    "contextDesc": "Högerklicka var som helst. Vackra, kontextmedvetna inbyggda menyer."
+    "contextDesc": "Högerklicka var som helst. Vackra, kontextmedvetna inbyggda menyer.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "Nätverksströmmar",
+    "streamsDesc": "Streama live-TV, radio och nätverksspellistor (M3U, PLS, XSPF) direkt i appen.",
+    "videoPlaybackTitle": "Lokal videouppspelning",
+    "videoPlaybackDesc": "Spela upp dina lokala videofiler sömlöst med stöd för undertexter, val av ljudspår och bild-i-bild-läge."
   },
   "noAccount": {
     "title": "Inget konto.",
@@ -169,11 +175,11 @@
       },
       {
         "q": "Finns PPPlayer tillgängligt för iPhone?",
-        "a": "Ja. PPPlayer finns i App Store för iPhone och iPad."
+        "a": "PPPlayer för iOS är för närvarande under utveckling. Vi arbetar aktivt på en lansering i App Store."
       },
       {
         "q": "Finns PPPlayer tillgängligt för Android?",
-        "a": "Ja. Du kan ladda ner PPPlayer på Google Play för Android-telefoner och -surfplattor."
+        "a": "PPPlayer för Android är för närvarande under utveckling. Vi arbetar aktivt på en lansering i Google Play Store."
       },
       {
         "q": "Kan jag använda PPPlayer på Windows?",
@@ -181,15 +187,23 @@
       },
       {
         "q": "Vilka musikfunktioner erbjuder PPPlayer?",
-        "a": "PPPlayer inkluderar artistupptäckt, relaterade artister, artistradio, artistspellistor, genreutforskning och en vacker fullskärmsspelare. Det är helt gratis och inget konto krävs."
+        "a": "PPPlayer inkluderar lokala musik- och videobibliotek, nätverksströmmar, undertexter, upptäckt av artister, relaterade artister, artistradio, spellistor, utforskning av genrer och en vacker helskärmsspelare. Allt är gratis och inget konto krävs."
       },
       {
         "q": "Hur laddar jag ner PPPlayer?",
-        "a": "Tryck på nedladdningsknappen för din plattform på den här sidan. Nedladdningen tar mindre än en minut."
+        "a": "Du kan ladda ner PPPlayer direkt från vår webbplats för macOS, Linux och Windows. Mobilversioner kommer snart."
       },
       {
         "q": "Finns det en premiumversion?",
         "a": "Nej. PPPlayer är helt gratis. Allt du ser är tillgängligt utan kostnad, utan något konto som behövs."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer stöder nästan alla ljud- och videoformat, inklusive MP3, FLAC, MP4, MKV och AVI. Den stöder även nätverksströmmar och M3U/M3U8-spellistor."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "På Windows, macOS, Android och iOS fungerar PPPlayer direkt. På Linux kan du behöva installera standardmediabibliotek (som libmpv) beroende på din distribution."
       }
     ],
     "openSourceQuestion": "Är PPPlayer öppen källkod?",
@@ -323,7 +337,7 @@
       "desc": "Officiell Android-version i Google Play Butik.",
       "added": "Tillagd",
       "androidTitle": "Android-version",
-      "androidDesc": "PPPlayer är nu officiellt tillgänglig för Android-enheter i Google Play Butik. Ladda ner den idag och njut av din musik när du är på språng.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "youtube": "YouTube-driven ljuduppspelning",
       "playlists": "Spellistor, favoriter och lyssningshistorik",
       "platforms": "Stöd för macOS, Windows och Linux"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "Videouppspelning och undertexter",
+      "videoDesc": "Omdesignad videospelare med passa in/fyll ut, kortkommandon, val av undertexter och ljud, tidsjusteringar och bild-i-bild.",
+      "streamsTitle": "Nätverksströmmar och spellistor",
+      "streamsDesc": "Stöd för nätverksströmmar och spellisteformat som M3U, M3U8, PLS, XSPF och ASX.",
+      "libraryTitle": "Förbättrade lokala bibliotek",
+      "libraryDesc": "Djup mappsökning, lokala videobibliotek och förbättrad bläddring bland artister, album och genrer för offlineuppspelning."
     }
   },
   "support": {

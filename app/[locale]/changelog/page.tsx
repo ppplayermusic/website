@@ -45,11 +45,53 @@ export default async function ChangelogPage({ params }: { params: Promise<{ loca
 
           <div className="relative border-l border-white/10 ml-4 md:ml-8 space-y-24">
 
+            {/* Upcoming */}
+            <div className="relative pl-8 md:pl-16 mb-24">
+              <div className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]" />
+              <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 mb-6">
+                <h2 className="text-2xl font-bold text-white tracking-tight">{t('upcoming.version')}</h2>
+                <span className="text-slate-500 font-medium">{t('upcoming.date')}</span>
+              </div>
+              
+              <p className="text-slate-300 text-lg mb-10 leading-relaxed max-w-2xl">
+                {t('upcoming.desc')}
+              </p>
+
+              <div className="space-y-10">
+                <div>
+                  <h3 className="text-white text-xs font-semibold uppercase tracking-widest mb-5">{t('upcoming.added')}</h3>
+                  <ul className="space-y-6">
+                    <li className="flex gap-4">
+                      <span className="text-emerald-400 mt-0.5">✦</span>
+                      <div>
+                        <strong className="block text-white mb-1">{t('upcoming.videoTitle')}</strong>
+                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">{t('upcoming.videoDesc')}</span>
+                      </div>
+                    </li>
+                    <li className="flex gap-4">
+                      <span className="text-emerald-400 mt-0.5">✦</span>
+                      <div>
+                        <strong className="block text-white mb-1">{t('upcoming.streamsTitle')}</strong>
+                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">{t('upcoming.streamsDesc')}</span>
+                      </div>
+                    </li>
+                    <li className="flex gap-4">
+                      <span className="text-emerald-400 mt-0.5">✦</span>
+                      <div>
+                        <strong className="block text-white mb-1">{t('upcoming.libraryTitle')}</strong>
+                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">{t('upcoming.libraryDesc')}</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             {/* Version 1.3.6 */}
             <div className="relative pl-8 md:pl-16 mb-24">
-              <div className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.5)]" />
+              <div className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-white/20" />
               <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 mb-6">
-                <h2 className="text-2xl font-bold text-white tracking-tight">{t('v1_3_6.version')}</h2>
+                <h2 className="text-2xl font-bold text-white tracking-tight opacity-70">{t('v1_3_6.version')}</h2>
                 <span className="text-slate-500 font-medium">{t('v1_3_6.date')}</span>
               </div>
               

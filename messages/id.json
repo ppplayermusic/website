@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Pemutar Musik Gratis & Open-Source",
-    "homeDesc": "Pemutar musik open-source gratis. Tanpa akun. Tanpa langganan. Putar saja.",
+    "homeTitle": "PPPlayer | Pemutar Media Gratis & Open-Source",
+    "homeDesc": "Pemutar media sumber terbuka gratis. Tanpa akun. Tanpa berlangganan. Mainkan saja.",
     "downloadTitle": "Unduh PPPlayer Gratis",
-    "downloadDesc": "Pemutar musik open-source gratis. Tanpa akun. Tanpa langganan. Putar saja.",
+    "downloadDesc": "Pemutar media sumber terbuka gratis. Tanpa akun. Tanpa berlangganan. Mainkan saja.",
     "privacyTitle": "Kebijakan Privasi",
-    "privacyDesc": "Kebijakan Privasi untuk PPPlayer: aplikasi musik gratis untuk macOS, Linux, Windows, iOS, dan Android.",
+    "privacyDesc": "Kebijakan Privasi untuk PPPlayer: aplikasi media gratis untuk macOS, Linux, Windows, iOS, dan Android.",
     "termsTitle": "Persyaratan Layanan",
-    "termsDesc": "Persyaratan Layanan untuk PPPlayer: aplikasi musik gratis untuk macOS, Linux, Windows, iOS, dan Android.",
+    "termsDesc": "Ketentuan Layanan untuk PPPlayer: aplikasi media gratis untuk macOS, Linux, Windows, iOS, dan Android.",
     "supportTitle": "Dukungan - PPPlayer",
     "supportDesc": "PPPlayer adalah proyek sumber terbuka independen. Untuk bug dan ide fitur, gunakan GitHub. Untuk pertanyaan lain, kirim email ke contact@ppplayer.com.",
     "blogTitle": "Blog | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "Musik Anda, aturan Anda.",
     "favDesc": "Bangun perpustakaan pribadi Anda dengan satu klik. Selalu ada.",
     "contextTitle": "Desain native.",
-    "contextDesc": "Klik kanan di mana saja. Menu native yang indah dan sadar konteks."
+    "contextDesc": "Klik kanan di mana saja. Menu native yang indah dan sadar konteks.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "Aliran Jaringan",
+    "streamsDesc": "Streaming siaran TV langsung, radio, dan daftar putar jaringan (M3U, PLS, XSPF) langsung di dalam aplikasi.",
+    "videoPlaybackTitle": "Pemutaran Video Lokal",
+    "videoPlaybackDesc": "Putar file video lokal Anda dengan lancar, dengan dukungan untuk subtitle, pemilihan trek audio, dan mode Gambar-dalam-Gambar."
   },
   "noAccount": {
     "title": "Tanpa akun.",
@@ -169,11 +175,11 @@
       },
       {
         "q": "Apakah PPPlayer tersedia untuk iPhone?",
-        "a": "Ya. PPPlayer tersedia di App Store untuk iPhone dan iPad."
+        "a": "PPPlayer untuk iOS saat ini sedang dalam pengembangan. Kami sedang aktif mengerjakan rilis App Store."
       },
       {
         "q": "Apakah PPPlayer tersedia untuk Android?",
-        "a": "Ya. Anda dapat mengunduh PPPlayer di Google Play untuk ponsel dan tablet Android."
+        "a": "PPPlayer untuk Android saat ini sedang dalam pengembangan. Kami sedang aktif mengerjakan rilis Google Play Store."
       },
       {
         "q": "Dapatkah saya menggunakan PPPlayer di Windows?",
@@ -181,15 +187,23 @@
       },
       {
         "q": "Fitur musik apa yang ditawarkan PPPlayer?",
-        "a": "PPPlayer mencakup penemuan artis, artis terkait, radio artis, playlist artis, eksplorasi genre, dan pemutar layar penuh yang indah. Semuanya gratis, dan tidak diperlukan akun."
+        "a": "PPPlayer mencakup perpustakaan musik dan video lokal, aliran jaringan, subtitle, penemuan artis, artis terkait, radio artis, daftar putar, eksplorasi genre, dan pemutar layar penuh yang indah. Semuanya gratis, dan tidak diperlukan akun."
       },
       {
         "q": "Bagaimana cara mengunduh PPPlayer?",
-        "a": "Ketuk tombol unduh untuk platform Anda di halaman ini. Pengunduhan memakan waktu kurang dari satu menit."
+        "a": "Anda dapat mengunduh PPPlayer langsung dari situs web kami untuk macOS, Linux, dan Windows. Versi seluler akan segera hadir."
       },
       {
         "q": "Apakah ada versi premium?",
         "a": "Tidak. PPPlayer sepenuhnya gratis. Semua yang Anda lihat tersedia tanpa biaya, dan tidak perlu akun."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer mendukung hampir semua format audio dan video, termasuk MP3, FLAC, MP4, MKV, dan AVI. Ini juga mendukung aliran jaringan dan daftar putar M3U/M3U8."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "Di Windows, macOS, Android, dan iOS, PPPlayer langsung berfungsi. Di Linux, Anda mungkin perlu menginstal pustaka media standar (seperti libmpv) bergantung pada distribusi Anda."
       }
     ],
     "openSourceQuestion": "Apakah PPPlayer open source?",
@@ -323,7 +337,7 @@
       "desc": "Rilis Android resmi di Google Play Store.",
       "added": "Ditambahkan",
       "androidTitle": "Rilis Android",
-      "androidDesc": "PPPlayer sekarang resmi tersedia untuk perangkat Android di Google Play Store. Unduh hari ini dan nikmati musik Anda di mana saja.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "youtube": "Pemutaran audio bertenaga YouTube",
       "playlists": "Playlist, favorit, dan riwayat pendengaran",
       "platforms": "Dukungan macOS, Windows, dan Linux"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "Pemutaran Video & Subtitle",
+      "videoDesc": "Pemutar video yang didesain ulang dengan Fit/Fill, pintasan keyboard, pemilihan subtitle dan audio, penyesuaian waktu, dan PiP.",
+      "streamsTitle": "Aliran Jaringan & Daftar Putar",
+      "streamsDesc": "Dukungan untuk aliran jaringan dan format daftar putar seperti M3U, M3U8, PLS, XSPF, dan ASX.",
+      "libraryTitle": "Pustaka Lokal yang Disempurnakan",
+      "libraryDesc": "Pemindaian folder mendalam, pustaka video lokal, dan penelusuran artis, album, dan genre yang ditingkatkan untuk pemutaran offline."
     }
   },
   "support": {

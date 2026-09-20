@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | مشغل موسيقى مجاني ومفتوح المصدر",
-    "homeDesc": "مشغل موسيقى مجاني ومفتوح المصدر. لا يحتاج إلى حساب. بدون اشتراك. فقط استمع.",
-    "downloadTitle": "تحميل PPPlayer مجاناً",
-    "downloadDesc": "مشغل موسيقى مجاني ومفتوح المصدر. لا يحتاج إلى حساب. بدون اشتراك. فقط استمع.",
+    "homeTitle": "PPPlayer | مشغل وسائط مجاني ومفتوح المصدر",
+    "homeDesc": "مشغل وسائط مجاني ومفتوح المصدر. لا يوجد حساب. لا يوجد اشتراك. مجرد تشغيل.",
+    "downloadTitle": "تحميل PPPlayer مجانا",
+    "downloadDesc": "مشغل وسائط مجاني ومفتوح المصدر. لا يوجد حساب. لا يوجد اشتراك. مجرد تشغيل.",
     "privacyTitle": "سياسة الخصوصية",
-    "privacyDesc": "سياسة الخصوصية لتطبيق PPPlayer: تطبيق موسيقى مجاني لأنظمة macOS و Linux و Windows و iOS و Android.",
+    "privacyDesc": "سياسة خصوصية PPPlayer: تطبيق وسائط مجاني لأنظمة macOS و Linux و Windows و iOS و Android.",
     "termsTitle": "شروط الخدمة",
-    "termsDesc": "شروط الخدمة لتطبيق PPPlayer: تطبيق موسيقى مجاني لأنظمة macOS و Linux و Windows و iOS و Android.",
+    "termsDesc": "شروط خدمة PPPlayer: تطبيق وسائط مجاني لأنظمة macOS و Linux و Windows و iOS و Android.",
     "supportTitle": "الدعم - PPPlayer",
     "supportDesc": "PPPlayer هو مشروع مستقل ومفتوح المصدر. للإبلاغ عن الأخطاء واقتراح الميزات، استخدم GitHub. للأسئلة الأخرى، أرسل بريداً إلكترونياً إلى contact@ppplayer.com.",
     "blogTitle": "المدونة | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "موسيقاك، قواعدك.",
     "favDesc": "ابنِ مكتبتك الشخصية بنقرة واحدة. دائماً هناك.",
     "contextTitle": "تصميم أصلي.",
-    "contextDesc": "انقر بزر الماوس الأيمن في أي مكان. قوائم أصلية جميلة وذكية."
+    "contextDesc": "انقر بزر الماوس الأيمن في أي مكان. قوائم أصلية جميلة وذكية.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "بث الشبكة",
+    "streamsDesc": "قم ببث التلفزيون المباشر والراديو وقوائم تشغيل الشبكة (M3U ، PLS ، XSPF) مباشرة داخل التطبيق.",
+    "videoPlaybackTitle": "تشغيل الفيديو المحلي",
+    "videoPlaybackDesc": "قم بتشغيل مقاطع الفيديو المحلية الخاصة بك بسلاسة مع دعم الترجمة واختيار المسار الصوتي ووضع صورة داخل صورة."
   },
   "noAccount": {
     "title": "بدون حساب.",
@@ -169,11 +175,11 @@
       },
       {
         "q": "هل يتوفر PPPlayer لأجهزة iPhone؟",
-        "a": "نعم. يتوفر PPPlayer على App Store لأجهزة iPhone و iPad."
+        "a": "إن PPPlayer لنظام iOS قيد التطوير حاليًا. نحن نعمل بنشاط على إصدار لمتجر التطبيقات."
       },
       {
         "q": "هل يتوفر PPPlayer لأجهزة Android؟",
-        "a": "نعم. يمكنك تنزيل PPPlayer من Google Play لهواتف وأجهزة Android اللوحية."
+        "a": "إن PPPlayer لنظام Android قيد التطوير حاليًا. نحن نعمل بنشاط على إصدار لمتجر Google Play."
       },
       {
         "q": "هل يمكنني استخدام PPPlayer على Windows؟",
@@ -181,15 +187,23 @@
       },
       {
         "q": "ما هي الميزات الموسيقية التي يقدمها PPPlayer؟",
-        "a": "يشتمل PPPlayer على اكتشاف الفنانين، والفنانين ذوي الصلة، وراديو الفنان، وقوائم تشغيل الفنانين، واستكشاف الأنواع الموسيقية، ومشغل ملء الشاشة الجميل. كل هذا مجاني ولا يتطلب حساباً."
+        "a": "يشتمل PPPlayer على مكتبات موسيقى وفيديو محلية، وبث عبر الشبكة، وترجمات، واكتشاف فنانين، وفنانين ذوي صلة، وراديو فنان، وقوائم تشغيل، واستكشاف أنواع، ومشغل شاشة كاملة جميل. كل هذا مجاني، ولا يلزم وجود حساب."
       },
       {
         "q": "كيف أقوم بتنزيل PPPlayer؟",
-        "a": "اضغط على زر التنزيل المخصص لمنصتك على هذه الصفحة. التنزيل يستغرق أقل من دقيقة."
+        "a": "يمكنك تنزيل PPPlayer مباشرة من موقعنا على الويب لأنظمة macOS و Linux و Windows. إصدارات الهاتف المحمول قادمة قريبًا."
       },
       {
         "q": "هل هناك نسخة مدفوعة (Premium)؟",
         "a": "لا. PPPlayer مجاني بالكامل. كل ما تراه متاح مجاناً، دون الحاجة لحساب."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "يدعم PPPlayer تقريبًا جميع تنسيقات الصوت والفيديو ، بما في ذلك MP3 و FLAC و MP4 و MKV و AVI. كما أنه يدعم بث الشبكة وقوائم تشغيل M3U/M3U8."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "على أنظمة Windows و macOS و Android و iOS ، يعمل PPPlayer بمجرد التثبيت. على نظام Linux ، قد تحتاج إلى تثبيت مكتبات الوسائط القياسية (مثل libmpv) اعتمادًا على التوزيعة الخاصة بك."
       }
     ],
     "openSourceQuestion": "هل PPPlayer مفتوح المصدر؟",
@@ -323,7 +337,7 @@
       "desc": "إصدار Android الرسمي على متجر Google Play.",
       "added": "تمت الإضافة",
       "androidTitle": "إصدار Android",
-      "androidDesc": "يتوفر PPPlayer الآن رسميًا لأجهزة Android على متجر Google Play. قم بتنزيله اليوم واستمتع بموسيقاك أثناء التنقل.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "youtube": "تشغيل صوتي مدعوم من YouTube",
       "playlists": "قوائم التشغيل، والمفضلة، وسجل الاستماع",
       "platforms": "دعم أنظمة macOS و Windows و Linux"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "تشغيل الفيديو والترجمة",
+      "videoDesc": "مشغل فيديو معاد تصميمه مع ميزات الملاءمة/التعبئة، اختصارات لوحة المفاتيح، اختيار الترجمة والصوت، وتعديلات التوقيت.",
+      "streamsTitle": "بث الشبكة وقوائم التشغيل",
+      "streamsDesc": "دعم بث الشبكة وتنسيقات قوائم التشغيل مثل M3U و M3U8 و PLS و XSPF و ASX.",
+      "libraryTitle": "المكتبات المحلية المحسنة",
+      "libraryDesc": "فحص عميق للمجلدات ومكتبات فيديو محلية وتصفح محسن حسب الفنان والألبوم والنوع للتشغيل دون اتصال."
     }
   },
   "support": {

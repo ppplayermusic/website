@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | Lecteur de Musique Gratuit et Open Source",
-    "homeDesc": "Un lecteur de musique gratuit et open source. Sans compte. Sans abonnement. Lancez la lecture.",
+    "homeTitle": "PPPlayer | Lecteur multimédia gratuit et open source",
+    "homeDesc": "Un lecteur multimédia gratuit et open source. Pas de compte. Pas d'abonnement. Lisez simplement.",
     "downloadTitle": "Télécharger PPPlayer Gratuitement",
-    "downloadDesc": "Un lecteur de musique gratuit et open source. Sans compte. Sans abonnement. Lancez la lecture.",
+    "downloadDesc": "Un lecteur multimédia gratuit et open source. Pas de compte. Pas d'abonnement. Lisez simplement.",
     "privacyTitle": "Politique de Confidentialité",
-    "privacyDesc": "Politique de confidentialité de PPPlayer: application musicale gratuite.",
+    "privacyDesc": "Politique de confidentialité de PPPlayer : application multimédia gratuite pour macOS, Linux, Windows, iOS et Android.",
     "termsTitle": "Conditions d'Utilisation",
-    "termsDesc": "Conditions d'utilisation de PPPlayer: application musicale gratuite.",
+    "termsDesc": "Conditions d'utilisation de PPPlayer : application multimédia gratuite pour macOS, Linux, Windows, iOS et Android.",
     "supportTitle": "Support - PPPlayer",
     "supportDesc": "PPPlayer est un projet indépendant et open source. Utilisez GitHub pour signaler des bugs et proposer des fonctionnalités. Pour toute autre question, écrivez à contact@ppplayer.com.",
     "blogTitle": "Blog | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "Votre musique, vos règles.",
     "favDesc": "Créez votre bibliothèque personnelle en un clic. Toujours là.",
     "contextTitle": "Natif par conception.",
-    "contextDesc": "Faites un clic droit n'importe où. Menus contextuels natifs et magnifiques."
+    "contextDesc": "Faites un clic droit n'importe où. Menus contextuels natifs et magnifiques.",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "Flux réseau",
+    "streamsDesc": "Diffusez la télévision en direct, la radio et les listes de lecture réseau (M3U, PLS, XSPF) directement dans l'application.",
+    "videoPlaybackTitle": "Lecture vidéo locale",
+    "videoPlaybackDesc": "Lisez vos vidéos locales en toute fluidité avec la prise en charge des sous-titres, la sélection des pistes audio et le mode Image dans l'image."
   },
   "noAccount": {
     "title": "Pas de compte.",
@@ -169,11 +175,11 @@
       },
       {
         "q": "PPPlayer est-il disponible sur iPhone ?",
-        "a": "Oui. PPPlayer est disponible sur l'App Store pour iPhone et iPad."
+        "a": "PPPlayer pour iOS est actuellement en cours de développement. Nous travaillons activement sur une sortie sur l'App Store."
       },
       {
         "q": "PPPlayer est-il disponible sur Android ?",
-        "a": "Oui. Vous pouvez télécharger PPPlayer sur Google Play pour téléphones et tablettes Android."
+        "a": "PPPlayer pour Android est actuellement en cours de développement. Nous travaillons activement sur une sortie sur le Google Play Store."
       },
       {
         "q": "Puis-je utiliser PPPlayer sur Windows ?",
@@ -181,15 +187,23 @@
       },
       {
         "q": "Quelles fonctionnalités musicales PPPlayer propose-t-il ?",
-        "a": "PPPlayer inclut la découverte d'artistes, les artistes similaires, la radio, les playlists, l'exploration des genres et un magnifique lecteur. C'est gratuit et sans compte."
+        "a": "PPPlayer comprend des bibliothèques locales de musique et de vidéos, des flux réseau, des sous-titres, la découverte d'artistes, des artistes similaires, des radios d'artistes, des listes de lecture, l'exploration de genres et un magnifique lecteur plein écran. C'est gratuit et sans compte."
       },
       {
         "q": "Comment télécharger PPPlayer ?",
-        "a": "Appuyez sur le bouton de téléchargement de votre plateforme. Le téléchargement prend moins d'une minute."
+        "a": "Vous pouvez télécharger PPPlayer directement depuis notre site Web pour macOS, Linux et Windows. Les versions mobiles arrivent bientôt."
       },
       {
         "q": "Existe-t-il une version premium ?",
         "a": "Non. PPPlayer est entièrement gratuit. Tout ce que vous voyez est disponible sans frais."
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayer prend en charge presque tous les formats audio et vidéo, y compris MP3, FLAC, MP4, MKV et AVI. Il prend également en charge les flux réseau et les listes M3U/M3U8."
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "Sur Windows, macOS, Android et iOS, PPPlayer fonctionne immédiatement. Sur Linux, vous devrez peut-être installer des bibliothèques multimédias standard (comme libmpv) selon votre distribution."
       }
     ],
     "openSourceQuestion": "PPPlayer est-il open source ?",
@@ -323,7 +337,7 @@
       "desc": "Sortie officielle de l'application Android sur le Google Play Store.",
       "added": "Ajouté",
       "androidTitle": "Sortie Android",
-      "androidDesc": "PPPlayer est désormais officiellement disponible pour les appareils Android sur le Google Play Store. Téléchargez-le dès aujourd'hui et profitez de votre musique en déplacement.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "fixed": "Corrections",
       "appNapTitle": "Lecture continue en arrière-plan",
       "appNapDesc": "Empêche App Nap de macOS de suspendre le lecteur lorsqu’il est réduit, afin que la file de lecture continue sans interruption."
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "Lecture vidéo et sous-titres",
+      "videoDesc": "Lecteur vidéo repensé avec Ajuster/Remplir, raccourcis clavier, sélection de sous-titres et d'audio, ajustements temporels et mode Image dans l'image.",
+      "streamsTitle": "Flux et listes de lecture",
+      "streamsDesc": "Prise en charge des flux réseau et des formats de liste de lecture tels que M3U, M3U8, PLS, XSPF et ASX.",
+      "libraryTitle": "Bibliothèques locales améliorées",
+      "libraryDesc": "Analyse approfondie des dossiers, bibliothèques vidéo locales et navigation améliorée par artiste, album et genre pour une lecture hors ligne."
     }
   },
   "support": {

@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "PPPlayer | 無料でオープンソースの音楽プレイヤー",
-    "homeDesc": "無料でオープンソースの音楽プレイヤー。アカウント不要。サブスクリプション不要。ただ再生するだけ。",
-    "downloadTitle": "PPPlayer を無料でダウンロード",
-    "downloadDesc": "無料でオープンソースの音楽プレイヤー。アカウント不要。サブスクリプション不要。ただ再生するだけ。",
+    "homeTitle": "PPPlayer | 無料でオープンソースのメディアプレーヤー",
+    "homeDesc": "無料でオープンソースのメディアプレーヤー。アカウント不要。サブスクリプション不要。ただ再生するだけ。",
+    "downloadTitle": "PPPlayerを無料でダウンロード",
+    "downloadDesc": "無料でオープンソースのメディアプレーヤー。アカウント不要。サブスクリプション不要。ただ再生するだけ。",
     "privacyTitle": "プライバシーポリシー",
-    "privacyDesc": "PPPlayer のプライバシーポリシー: macOS、Linux、Windows、iOS、Android 向けの無料音楽アプリ。",
+    "privacyDesc": "PPPlayerプライバシーポリシー: macOS、Linux、Windows、iOS、Android用の無料メディアアプリ。",
     "termsTitle": "利用規約",
-    "termsDesc": "PPPlayer の利用規約: macOS、Linux、Windows、iOS、Android 向けの無料音楽アプリ。",
+    "termsDesc": "PPPlayer利用規約: macOS、Linux、Windows、iOS、Android用の無料メディアアプリ。",
     "supportTitle": "サポート - PPPlayer",
     "supportDesc": "PPPlayer は独立したオープンソースプロジェクトです。バグや機能の提案は GitHub を使用してください。その他の質問については、contact@ppplayer.com にメールしてください。",
     "blogTitle": "ブログ | PPPlayer",
@@ -85,7 +85,13 @@
     "favTitle": "あなたの音楽、あなたのルール。",
     "favDesc": "ワンクリックで個人のライブラリを構築。いつでもそこにあります。",
     "contextTitle": "デザインによるネイティブ。",
-    "contextDesc": "どこでも右クリック。美しくコンテキストを認識するネイティブメニュー。"
+    "contextDesc": "どこでも右クリック。美しくコンテキストを認識するネイティブメニュー。",
+    "videoTitle": "Advanced Video Playback.",
+    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
+    "streamsTitle": "ネットワークストリーム",
+    "streamsDesc": "ライブTV、ラジオ、ネットワークプレイリスト (M3U, PLS, XSPF) をアプリ内で直接ストリーミングします。",
+    "videoPlaybackTitle": "ローカル動画再生",
+    "videoPlaybackDesc": "字幕、オーディオトラック選択、ピクチャーインピクチャーモードをサポートし、ローカルの動画ファイルをシームレスに再生します。"
   },
   "noAccount": {
     "title": "アカウントなし。",
@@ -169,11 +175,11 @@
       },
       {
         "q": "iPhone 用の PPPlayer はありますか？",
-        "a": "はい。PPPlayer は iPhone と iPad 向けの App Store で利用できます。"
+        "a": "iOS用PPPlayerは現在開発中です。App Storeでのリリースに向けて積極的に取り組んでいます。"
       },
       {
         "q": "Android 用の PPPlayer はありますか？",
-        "a": "はい。Android スマートフォンやタブレット向けに Google Play で PPPlayer をダウンロードできます。"
+        "a": "Android用PPPlayerは現在開発中です。Google Playストアでのリリースに向けて積極的に取り組んでいます。"
       },
       {
         "q": "Windows で PPPlayer を使用できますか？",
@@ -181,15 +187,23 @@
       },
       {
         "q": "PPPlayer はどのような音楽機能を提供していますか？",
-        "a": "PPPlayer には、アーティストの発見、関連アーティスト、アーティストラジオ、アーティストプレイリスト、ジャンルの探索、美しい全画面プレイヤーが含まれています。すべて無料で、アカウントは必要ありません。"
+        "a": "PPPlayerには、ローカルの音楽・動画ライブラリ、ネットワークストリーム、字幕、アーティストの発見、関連アーティスト、ラジオ、プレイリスト、ジャンルの探索、美しいフルスクリーンプレーヤーが含まれます。すべて無料で、アカウントは必要ありません。"
       },
       {
         "q": "PPPlayer のダウンロード方法を教えてください。",
-        "a": "このページのお使いのプラットフォームのダウンロードボタンをタップしてください。ダウンロードは1分以内で完了します。"
+        "a": "当社のウェブサイトからmacOS、Linux、Windows用のPPPlayerを直接ダウンロードできます。モバイル版も近日公開予定です。"
       },
       {
         "q": "プレミアム版はありますか？",
         "a": "いいえ。PPPlayer は完全に無料です。表示されているすべてのものが無料で利用でき、アカウントは必要ありません。"
+      },
+      {
+        "q": "What media formats are supported?",
+        "a": "PPPlayerは、MP3、FLAC、MP4、MKV、AVIなど、ほぼすべてのオーディオおよびビデオ形式をサポートしています。また、ネットワークストリームとM3U / M3U8プレイリストもサポートしています。"
+      },
+      {
+        "q": "Are there any special setup requirements for video?",
+        "a": "Windows、macOS、Android、iOSでは、PPPlayerはすぐに機能します。Linuxでは、ディストリビューションに応じて標準のメディアライブラリ（libmpvなど）をインストールする必要がある場合があります。"
       }
     ],
     "openSourceQuestion": "PPPlayer はオープンソースですか？",
@@ -323,7 +337,7 @@
       "desc": "Google Play ストアでの公式 Android リリース。",
       "added": "追加",
       "androidTitle": "Android リリース",
-      "androidDesc": "PPPlayer が Google Play ストアで Android デバイス向けに正式にリリースされました。今すぐダウンロードして、外出先で音楽をお楽しみください。",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
       "version": "1.3.6",
       "date": "September 17, 2026"
     },
@@ -514,6 +528,18 @@
       "youtube": "YouTube によるオーディオ再生",
       "playlists": "プレイリスト、お気に入り、リスニング履歴",
       "platforms": "macOS、Windows、Linux のサポート"
+    },
+    "upcoming": {
+      "version": "Upcoming",
+      "date": "Coming Soon",
+      "desc": "Major additions including video playback and network streaming.",
+      "added": "Added",
+      "videoTitle": "動画再生と字幕",
+      "videoDesc": "フィット/フィル、キーボードショートカット、字幕とオーディオ選択、タイミング調整、PiPを備えた再設計された動画プレーヤー。",
+      "streamsTitle": "ネットワークストリームとプレイリスト",
+      "streamsDesc": "ネットワークストリームとM3U、M3U8、PLS、XSPF、ASXなどのプレイリスト形式のサポート。",
+      "libraryTitle": "強化されたローカルライブラリ",
+      "libraryDesc": "深いフォルダスキャン、ローカル動画ライブラリ、オフライン再生のための改善されたアーティスト、アルバム、ジャンルのブラウジング。"
     }
   },
   "support": {

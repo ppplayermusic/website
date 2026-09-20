@@ -81,6 +81,34 @@ export default function FeatureGallerySection() {
             <h3 className="text-3xl font-bold mt-8 tracking-tight">{t("contextTitle")}</h3>
             <p className="mt-3 text-lg text-slate-400">{t("contextDesc")}</p>
           </FadeIn>
+
+          {/* Item 5 */}
+          <FadeIn
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
+          >
+            <MacOSWindowFrame title="Video Playback">
+              <Image src="/images/screenshot-video.png" alt="Video Playback" width={1024} height={576} className="w-full h-auto" sizes="(max-width: 768px) 50vw, (max-width: 1024px) 100vw, 50vw" />
+            </MacOSWindowFrame>
+            <h3 className="text-3xl font-bold mt-8 tracking-tight">{t("videoTitle")}</h3>
+            <p className="mt-3 text-lg text-slate-400">{t("videoDesc")}</p>
+          </FadeIn>
+
+          {/* Item 6 */}
+          <FadeIn
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.5 }}
+          >
+            <MacOSWindowFrame title="Network Streams">
+              <Image src="/images/screenshot-streams.png" alt="Network Streams" width={1024} height={576} className="w-full h-auto" sizes="(max-width: 768px) 50vw, (max-width: 1024px) 100vw, 50vw" />
+            </MacOSWindowFrame>
+            <h3 className="text-3xl font-bold mt-8 tracking-tight">{t("streamsTitle")}</h3>
+            <p className="mt-3 text-lg text-slate-400">{t("streamsDesc")}</p>
+          </FadeIn>
         </div>
       </div>
     </section>
