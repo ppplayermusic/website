@@ -54,11 +54,11 @@
     "title1": "संगीत।",
     "title2": "बिना किसी रुकावट के।",
     "desc": "एक मुफ़्त, ओपन-सोर्स म्यूज़िक प्लेयर। कोई खाता नहीं। कोई सदस्यता नहीं। बस संगीत सुनें।",
-    "getIos": "iOS के लिए प्राप्त करें",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Android के लिए प्राप्त करें",
     "getMac": "Mac के लिए प्राप्त करें",
     "getWindows": "Windows के लिए प्राप्त करें",
-    "getLinux": "Linux के लिए प्राप्त करें",
+    "getLinux": "Linux (Experimental)",
     "badge": "मुफ़्त और ओपन-सोर्स",
     "source": "GitHub पर सोर्स देखें"
   },
@@ -79,17 +79,17 @@
     "title": "वह सब कुछ जो आपको चाहिए।",
     "subtitle": "प्रदर्शन के लिए बनाया गया एक सुंदर, नेटिव अनुभव।",
     "searchTitle": "वही खोजें जो आप चाहते हैं।",
-    "searchDesc": "ट्रैक, कलाकारों और एल्बमों को विश्व स्तर पर तुरंत खोजें।",
+    "searchDesc": "Search globally across tracks, artists, albums, and local videos instantly.",
     "queueTitle": "पूरी तरह से कतारबद्ध।",
     "queueDesc": "सुंदर, पुनर्व्यवस्थित कतार के साथ प्रबंधित करें कि आगे क्या बजता है।",
-    "favTitle": "आपका संगीत, आपके नियम।",
-    "favDesc": "एक क्लिक से अपनी व्यक्तिगत लाइब्रेरी बनाएं। हमेशा आपके साथ।",
+    "favTitle": "Your media, your rules.",
+    "favDesc": "Build your personal library with a single click. Always there.",
     "contextTitle": "डिज़ाइन द्वारा नेटिव।",
     "contextDesc": "कहीं भी राइट-क्लिक करें। सुंदर, संदर्भ-जागरूक नेटिव मेनू।",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "नेटवर्क स्ट्रीम",
-    "streamsDesc": "लाइव टीवी, रेडियो और नेटवर्क प्लेलिस्ट (M3U, PLS, XSPF) सीधे ऐप के भीतर स्ट्रीम करें।",
+    "videoTitle": "Local Video Playback.",
+    "videoDesc": "Play local video files offline with subtitles, PiP, and Fit/Fill. Format support varies by platform.",
+    "streamsTitle": "Network Streaming.",
+    "streamsDesc": "Stream M3U/PLS playlists and compatible URLs. YouTube uses an embedded player. Not all third-party videos are playable.",
     "videoPlaybackTitle": "स्थानीय वीडियो प्लेबैक",
     "videoPlaybackDesc": "सबटाइटल, ऑडियो ट्रैक चयन और पिक्चर-इन-पिक्चर मोड के समर्थन के साथ अपने स्थानीय वीडियो फ़ाइलों को निर्बाध रूप से चलाएं।"
   },
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone और iPad",
-      "desc": "iPhone और iPad के लिए App Store पर उपलब्ध है।",
-      "badge": "App Store"
+      "desc": "Coming soon to TestFlight and the App Store for iPhone and iPad.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -326,8 +326,8 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Linux के लिए सीधा डाउनलोड। AppImage समर्थित।",
-      "badge": "सीधा डाउनलोड"
+      "desc": "Experimental direct download for Linux. Hardware acceleration may vary.",
+      "badge": "Experimental"
     }
   },
   "changelog": {
@@ -550,18 +550,6 @@
       "youtube": "YouTube-संचालित ऑडियो प्लेबैक",
       "playlists": "प्लेलिस्ट, पसंदीदा और सुनने का इतिहास",
       "platforms": "macOS, Windows और Linux समर्थन"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "वीडियो प्लेबैक और सबटाइटल",
-      "videoDesc": "फिट/फिल, कीबोर्ड शॉर्टकट, सबटाइटल और ऑडियो चयन, समय समायोजन और PiP के साथ फिर से डिज़ाइन किया गया वीडियो प्लेयर।",
-      "streamsTitle": "नेटवर्क स्ट्रीम और प्लेलिस्ट",
-      "streamsDesc": "नेटवर्क स्ट्रीम और M3U, M3U8, PLS, XSPF और ASX जैसे प्लेलिस्ट प्रारूपों के लिए समर्थन।",
-      "libraryTitle": "उन्नत स्थानीय लाइब्रेरी",
-      "libraryDesc": "ऑफ़लाइन प्लेबैक के लिए डीप फ़ोल्डर स्कैनिंग, स्थानीय वीडियो लाइब्रेरी और बेहतर कलाकार, एल्बम और शैली ब्राउज़िंग।"
     }
   },
   "support": {

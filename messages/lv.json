@@ -54,11 +54,11 @@
     "title1": "Mūzika.",
     "title2": "Bez šķēršļiem.",
     "desc": "Bezmaksas, atvērtā koda mūzikas atskaņotājs. Nav konta. Nav abonementa. Vienkārši atskaņo.",
-    "getIos": "Iegūt iOS ierīcēm",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Iegūt Android ierīcēm",
     "getMac": "Iegūt Mac datoriem",
     "getWindows": "Iegūt Windows datoriem",
-    "getLinux": "Iegūt Linux",
+    "getLinux": "Linux (Experimental)",
     "badge": "Bezmaksas un atvērtā koda",
     "source": "Apskatīt pirmkodu GitHub"
   },
@@ -79,17 +79,17 @@
     "title": "Viss, kas jums nepieciešams.",
     "subtitle": "Skaista, vietējā pieredze, kas radīta veiktspējai.",
     "searchTitle": "Atrodi tieši to, ko vēlies.",
-    "searchDesc": "Meklē globāli starp dziesmām, izpildītājiem un albumiem uzreiz.",
+    "searchDesc": "Nekavējoties meklē dziesmas, izpildītājus, albumus un vietējos video visā pasaulē.",
     "queueTitle": "Lieliski sarindots.",
     "queueDesc": "Pārvaldi to, kas skanēs tālāk, ar skaistu, pārkārtojamu rindu.",
-    "favTitle": "Tava mūzika, tavi noteikumi.",
+    "favTitle": "Tavi mediji, tavi noteikumi.",
     "favDesc": "Izveido savu personīgo bibliotēku ar vienu klikšķi. Vienmēr pieejama.",
     "contextTitle": "Dabisks pēc dizaina.",
     "contextDesc": "Ar peles labo pogu noklikšķini jebkur. Skaistas, kontekstam atbilstošas vietējās izvēlnes.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Tīkla straumes",
-    "streamsDesc": "Straumējiet tiešraides TV, radio un tīkla atskaņošanas sarakstus (M3U, PLS, XSPF) tieši lietotnē.",
+    "videoTitle": "Vietējā video atskaņošana.",
+    "videoDesc": "Atskaņo vietējos video failus bezsaistē ar subtitriem, PiP un Pielāgot/Aizpildīt. Formātu atbalsts atšķiras atkarībā no platformas.",
+    "streamsTitle": "Tīkla straumēšana.",
+    "streamsDesc": "Straumē M3U/PLS atskaņošanas sarakstus un saderīgus URL. YouTube izmanto iegultu atskaņotāju. Ne visus trešo pušu video var atskaņot.",
     "videoPlaybackTitle": "Vietējā video atskaņošana",
     "videoPlaybackDesc": "Nemanāmi atskaņojiet savus lokālos video failus ar atbalstu subtitriem, audio celiņu izvēli un režīmu Attēls attēlā."
   },
@@ -198,12 +198,12 @@
         "a": "Nē. PPPlayer ir pilnībā bez maksas. Viss redzamais ir pieejams bez maksas, bez nepieciešamības pēc konta."
       },
       {
-        "q": "What media formats are supported?",
+        "q": "Kādi multivides formāti tiek atbalstīti?",
         "a": "PPPlayer atbalsta gandrīz visus audio un video formātus, tostarp MP3, FLAC, MP4, MKV un AVI. Tas atbalsta arī tīkla straumes un M3U/M3U8 atskaņošanas sarakstus."
       },
       {
-        "q": "Are there any special setup requirements for video?",
-        "a": "Operētājsistēmās Windows, macOS, Android un iOS PPPlayer darbojas uzreiz. Operētājsistēmā Linux, iespējams, būs jāinstalē standarta multivides bibliotēkas (piemēram, libmpv) atkarībā no izplatīšanas."
+        "q": "Vai video atskaņošanai ir nepieciešami īpaši iestatījumi?",
+        "a": "Operētājsistēmās Windows, macOS, Android un iOS PPPlayer darbojas uzreiz. Operētājsistēmā Linux, atkarībā no izplatīšanas, iespējams, būs jāinstalē standarta multivides bibliotēkas (piemēram, libmpv)."
       }
     ],
     "openSourceQuestion": "Vai PPPlayer ir atvērtā koda?",
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone un iPad",
-      "desc": "Pieejams App Store iPhone un iPad ierīcēm.",
-      "badge": "App Store"
+      "desc": "Drīzumā būs pieejams lietotnē TestFlight un App Store iPhone un iPad ierīcēm.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -314,7 +314,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Lejupielādējiet operētājsistēmai Windows 10 un jaunākām versijām no Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,32 +326,32 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Tiešā lejupielāde operētājsistēmai Linux. Tiek atbalstīts AppImage.",
-      "badge": "Tiešā lejupielāde"
+      "desc": "Eksperimentāla tiešā lejupielāde Linux ierīcēm. Aparatūras paātrinājums var atšķirties.",
+      "badge": "Eksperimentāls"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
-      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.",
-      "added": "Added",
-      "changed": "Changed",
-      "fixed": "Fixed",
-      "videoTitle": "Local Video Support",
-      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.",
-      "streamTitle": "Network Streaming",
-      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.",
-      "subtitleTitle": "Advanced Subtitles",
-      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.",
-      "speedTitle": "Playback Speed & Autoplay",
-      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.",
-      "exportTitle": "Media Export",
-      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.",
-      "languagesTitle": "New Languages & Genres",
-      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
-      "stabilityTitle": "Core Overhaul",
-      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+      "date": "2026. gada 20. septembris",
+      "desc": "Nozīmīgs atjauninājums, kas pārveido PPPlayer par pilnvērtīgu multivides atskaņotāju ar video un tīkla straumēšanas atbalstu.",
+      "added": "Pievienots",
+      "changed": "Mainīts",
+      "fixed": "Izlabots",
+      "videoTitle": "Vietējā video atbalsts",
+      "videoDesc": "Pilnīgs vietējās video bibliotēkas un atskaņošanas atbalsts, kas ietver video vadīklas un automātisku sīktēlu ģenerēšanu.",
+      "streamTitle": "Tīkla straumēšana",
+      "streamDesc": "Iebūvēts atbalsts tīkla straumēm ar M3U atskaņošanas sarakstu parsēšanu un tiešu URL atpazīšanu.",
+      "subtitleTitle": "Uzlaboti subtitri",
+      "subtitleDesc": "Visaptverošs subtitru atbalsts, tostarp pielāgošana, aizkaves iestatīšana un intuitīva izvēles saskarne.",
+      "speedTitle": "Atskaņošanas ātrums un automātiskā atskaņošana",
+      "speedDesc": "Pievienota pielāgojama atskaņošanas ātruma kontrole un viegli pieejama automātiskās atskaņošanas pārslēgšanas poga tieši rindas skatā.",
+      "exportTitle": "Multivides eksportēšana",
+      "exportDesc": "Nevainojami eksportējiet savus pielāgotos atskaņošanas sarakstus un atskaņošanas rindas uz savu vietējo ierīci.",
+      "languagesTitle": "Jaunas valodas un žanri",
+      "languagesDesc": "Pievienoti oficiāli turku un gvaranu valodu tulkojumi, kā arī atbalsts vietējo žanru pārlūkošanai.",
+      "stabilityTitle": "Sistēmas pārveidošana",
+      "stabilityDesc": "Pārveidota atskaņošanas dzinēja pamatarkitektūra, lai uzlabotu stabilitāti, atbalstītu pielāgotas HTTP galvenes un precīzu noildzes apstrādi."
     },
     "title": "Izmaiņu žurnāls",
     "subtitle": "Kas jauns PPPlayer.",
@@ -359,13 +359,13 @@
       "desc": "Oficiālais Android laidiens Google Play veikalā.",
       "added": "Pievienots",
       "androidTitle": "Android laidiens",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "2.0.0",
-      "date": "September 17, 2026"
+      "androidDesc": "Sākotnējais testa laidiens Android ierīcēm. Atbalsts mobilajām ierīcēm tiek aktīvi izstrādāts.",
+      "version": "1.3.6",
+      "date": "2026. gada 17. septembris"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "2026. gada 16. septembris",
       "desc": "Bibliotēkas ekrāna uzlabojumi un reaģēšanas labojumi.",
       "added": "Pievienots",
       "fixed": "Izlabots",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "2026. gada 15. septembris",
       "desc": "Attēls attēlā atbalsts, dzimtie sākuma ekrāni un daudz kas cits.",
       "added": "Pievienots",
       "fixed": "Izlabots",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "2026. gada 14. septembris",
       "desc": "Automatizēti būvējumi un darbplūsmas uzlabojumi.",
       "added": "Pievienots",
       "ciTitle": "Automatizētas darbplūsmas",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "2026. gada 14. septembris",
       "desc": "Sistēmas multivides vadīklu sinhronizācija un pamatfunkcijas.",
       "added": "Pievienots",
       "syncTitle": "Sistēmas multivides vadīklu sinhronizācija",
@@ -405,22 +405,22 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "2026. gada 14. septembris",
+      "desc": "Sasniegta 100% tulkojumu paritāte un izlabotas lietotāja saskarnes kļūdas.",
+      "added": "Pievienots",
+      "fixed": "Izlabots",
+      "syncTitle": "Pilnīga lokalizācijas paritāte",
+      "syncDesc": "Sinhronizētas tulkojumu atslēgas un pielietoti manuāli atlasīti tulkojumi visās 30 valodās.",
+      "uiTitle": "Lietotāja saskarnes un saišu labojumi",
+      "uiDesc": "Atrisinātas logrīku kļūdas Sākuma un Bibliotēkas ekrānos un izlabotas GitHub repozitorija saites dialoglodziņā Par."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "2026. gada 13. septembris",
+      "desc": "Šis izlaidums nodrošina PPPlayer vēl plašākai globālai auditorijai.",
+      "added": "Pievienots",
+      "localizationTitle": "Papildu valodas",
+      "localizationDesc": "Pievienota lokalizācija Nigērijas pidžinam, filipīniešu, latviešu, bengāļu, horvātu, malajiešu, persiešu un igauņu valodām."
     },
     "back": "← Atpakaļ uz PPPlayer",
     "v1_2_0": {
@@ -550,18 +550,6 @@
       "youtube": "YouTube nodrošināta audio atskaņošana",
       "playlists": "Atskaņošanas saraksti, izlase un klausīšanās vēsture",
       "platforms": "macOS, Windows un Linux atbalsts"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Video atskaņošana un subtitri",
-      "videoDesc": "Pārveidots video atskaņotājs ar Pielāgot/Aizpildīt, īsinājumtaustiņiem, subtitru un audio izvēli, laika pielāgojumiem un PiP.",
-      "streamsTitle": "Tīkla straumes un atskaņošanas saraksti",
-      "streamsDesc": "Atbalsts tīkla straumēm un atskaņošanas sarakstu formātiem, piemēram, M3U, M3U8, PLS, XSPF un ASX.",
-      "libraryTitle": "Uzlabotas lokālās bibliotēkas",
-      "libraryDesc": "Dziļa mapju skenēšana, vietējās video bibliotēkas un uzlabota mākslinieku, albumu un žanru pārlūkošana bezsaistes atskaņošanai."
     }
   },
   "support": {

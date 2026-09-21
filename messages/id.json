@@ -54,11 +54,11 @@
     "title1": "Musik.",
     "title2": "Tanpa hambatan.",
     "desc": "Pemutar musik open-source gratis. Tanpa akun. Tanpa langganan. Putar saja.",
-    "getIos": "Dapatkan untuk iOS",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Dapatkan untuk Android",
     "getMac": "Dapatkan untuk Mac",
     "getWindows": "Dapatkan untuk Windows",
-    "getLinux": "Dapatkan untuk Linux",
+    "getLinux": "Linux (Experimental)",
     "badge": "Gratis & open source",
     "source": "Lihat sumber di GitHub"
   },
@@ -79,17 +79,17 @@
     "title": "Semua yang Anda butuhkan.",
     "subtitle": "Pengalaman asli yang indah dibangun untuk performa.",
     "searchTitle": "Temukan apa yang Anda inginkan.",
-    "searchDesc": "Cari secara global di seluruh lagu, artis, dan album secara instan.",
+    "searchDesc": "Cari trek, artis, album, dan video lokal secara global dengan instan.",
     "queueTitle": "Antrean yang sempurna.",
     "queueDesc": "Kelola apa yang diputar selanjutnya dengan antrean indah yang dapat diurutkan ulang.",
-    "favTitle": "Musik Anda, aturan Anda.",
+    "favTitle": "Media Anda, aturan Anda.",
     "favDesc": "Bangun perpustakaan pribadi Anda dengan satu klik. Selalu ada.",
     "contextTitle": "Desain native.",
     "contextDesc": "Klik kanan di mana saja. Menu native yang indah dan sadar konteks.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Aliran Jaringan",
-    "streamsDesc": "Streaming siaran TV langsung, radio, dan daftar putar jaringan (M3U, PLS, XSPF) langsung di dalam aplikasi.",
+    "videoTitle": "Pemutaran Video Lokal.",
+    "videoDesc": "Putar file video lokal secara offline dengan subtitle, PiP, dan Fit/Fill. Dukungan format bervariasi berdasarkan platform.",
+    "streamsTitle": "Streaming Jaringan.",
+    "streamsDesc": "Streaming daftar putar M3U/PLS dan URL yang kompatibel. YouTube menggunakan pemutar tertanam. Tidak semua video pihak ketiga dapat diputar.",
     "videoPlaybackTitle": "Pemutaran Video Lokal",
     "videoPlaybackDesc": "Putar file video lokal Anda dengan lancar, dengan dukungan untuk subtitle, pemilihan trek audio, dan mode Gambar-dalam-Gambar."
   },
@@ -126,29 +126,29 @@
     "reqTitle": "Persyaratan {platform}",
     "reqs": {
       "macos": {
-        "os": "macOS 10.15 Catalina or newer",
+        "os": "macOS 10.15 Catalina atau lebih baru",
         "arch": "Apple Silicon & Intel (Universal)",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Disarankan)"
       },
       "windows": {
-        "os": "Windows 10 or later (64-bit)",
+        "os": "Windows 10 atau lebih baru (64-bit)",
         "arch": "x64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Disarankan)"
       },
       "linux": {
-        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "os": "Ubuntu 20.04 atau lebih baru (Eksperimental)",
         "arch": "x86_64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Disarankan)"
       },
       "ios": {
-        "os": "iOS 13.0 or newer",
+        "os": "iOS 13.0 atau lebih baru",
         "arch": "ARM64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (Disarankan)"
       },
       "android": {
-        "os": "Android 7.0 (API 24) or newer",
+        "os": "Android 7.0 (API 24) atau lebih baru",
         "arch": "ARM64 / ARM / x86_64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (Disarankan)"
       }
     }
   },
@@ -198,11 +198,11 @@
         "a": "Tidak. PPPlayer sepenuhnya gratis. Semua yang Anda lihat tersedia tanpa biaya, dan tidak perlu akun."
       },
       {
-        "q": "What media formats are supported?",
+        "q": "Format media apa yang didukung?",
         "a": "PPPlayer mendukung hampir semua format audio dan video, termasuk MP3, FLAC, MP4, MKV, dan AVI. Ini juga mendukung aliran jaringan dan daftar putar M3U/M3U8."
       },
       {
-        "q": "Are there any special setup requirements for video?",
+        "q": "Apakah ada persyaratan pengaturan khusus untuk video?",
         "a": "Di Windows, macOS, Android, dan iOS, PPPlayer langsung berfungsi. Di Linux, Anda mungkin perlu menginstal pustaka media standar (seperti libmpv) bergantung pada distribusi Anda."
       }
     ],
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone & iPad",
-      "desc": "Tersedia di App Store untuk iPhone dan iPad.",
-      "badge": "App Store"
+      "desc": "Segera hadir di TestFlight dan App Store untuk iPhone dan iPad.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -314,7 +314,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Unduh untuk Windows 10 dan lebih baru dari Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,32 +326,32 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Unduhan langsung untuk Linux. Format AppImage didukung.",
-      "badge": "Unduhan Langsung"
+      "desc": "Unduhan langsung eksperimental untuk Linux. Akselerasi perangkat keras dapat bervariasi.",
+      "badge": "Eksperimental"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
-      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.",
-      "added": "Added",
-      "changed": "Changed",
-      "fixed": "Fixed",
-      "videoTitle": "Local Video Support",
-      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.",
-      "streamTitle": "Network Streaming",
-      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.",
-      "subtitleTitle": "Advanced Subtitles",
-      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.",
-      "speedTitle": "Playback Speed & Autoplay",
-      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.",
-      "exportTitle": "Media Export",
-      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.",
-      "languagesTitle": "New Languages & Genres",
-      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
-      "stabilityTitle": "Core Overhaul",
-      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+      "date": "20 September 2026",
+      "desc": "Pembaruan besar-besaran yang mengubah PPPlayer menjadi pemutar media penuh dengan dukungan pemutaran video dan aliran jaringan.",
+      "added": "Ditambahkan",
+      "changed": "Diubah",
+      "fixed": "Diperbaiki",
+      "videoTitle": "Dukungan Video Lokal",
+      "videoDesc": "Dukungan perpustakaan dan pemutaran video lokal lengkap dengan kontrol video dan pembuatan thumbnail otomatis.",
+      "streamTitle": "Streaming Jaringan",
+      "streamDesc": "Dukungan asli untuk aliran jaringan dengan penguraian daftar putar M3U dan resolusi URL langsung.",
+      "subtitleTitle": "Subtitle Lanjutan",
+      "subtitleDesc": "Dukungan subtitle yang komprehensif termasuk penyesuaian, penyesuaian penundaan, dan UI pilihan yang intuitif.",
+      "speedTitle": "Kecepatan Pemutaran & Putar Otomatis",
+      "speedDesc": "Menambahkan kontrol kecepatan pemutaran fleksibel dan tombol putar otomatis yang mudah diakses langsung dalam tampilan antrean.",
+      "exportTitle": "Ekspor Media",
+      "exportDesc": "Ekspor daftar putar kustom dan antrean pemutaran Anda dengan mulus ke perangkat lokal Anda.",
+      "languagesTitle": "Bahasa & Genre Baru",
+      "languagesDesc": "Menambahkan lokalisasi bahasa Turki dan Guarani resmi, serta dukungan untuk penjelajahan genre lokal.",
+      "stabilityTitle": "Perombakan Inti",
+      "stabilityDesc": "Merombak arsitektur mesin pemutaran inti untuk meningkatkan stabilitas, header HTTP khusus, dan penanganan batas waktu yang ketat."
     },
     "title": "Catatan Perubahan",
     "subtitle": "Apa yang baru di PPPlayer.",
@@ -359,13 +359,13 @@
       "desc": "Rilis Android resmi di Google Play Store.",
       "added": "Ditambahkan",
       "androidTitle": "Rilis Android",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "Rilis uji awal untuk perangkat Android. Dukungan untuk perangkat seluler sedang dikembangkan secara aktif.",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "17 September 2026"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "16 September 2026",
       "desc": "Peningkatan layar perpustakaan dan perbaikan responsif.",
       "added": "Ditambahkan",
       "fixed": "Diperbaiki",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "15 September 2026",
       "desc": "Dukungan Gambar-dalam-Gambar, layar pembuka asli, dan banyak lagi.",
       "added": "Ditambahkan",
       "fixed": "Diperbaiki",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "14 September 2026",
       "desc": "Build otomatis dan peningkatan alur kerja.",
       "added": "Ditambahkan",
       "ciTitle": "Alur Kerja Otomatis",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "14 September 2026",
       "desc": "Sinkronisasi kontrol media sistem dan fitur inti.",
       "added": "Ditambahkan",
       "syncTitle": "Sinkronisasi Kontrol Media Sistem",
@@ -405,32 +405,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "14 September 2026",
+      "desc": "Mencapai paritas terjemahan 100% dan memperbaiki bug UI.",
+      "added": "Ditambahkan",
+      "fixed": "Diperbaiki",
+      "syncTitle": "Paritas Lokalisasi Penuh",
+      "syncDesc": "Menyinkronkan kunci terjemahan dan menerapkan terjemahan yang dikuratori secara manual di semua 30 bahasa.",
+      "uiTitle": "Perbaikan UI dan Tautan",
+      "uiDesc": "Menyelesaikan kesalahan widget const di layar Beranda dan Perpustakaan, dan memperbaiki tautan repositori GitHub di dialog Tentang."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "13 September 2026",
+      "desc": "Rilis ini menghadirkan PPPlayer ke audiens global yang lebih luas.",
+      "added": "Ditambahkan",
+      "localizationTitle": "Bahasa Tambahan",
+      "localizationDesc": "Menambahkan lokalisasi untuk Pidgin Nigeria, Filipina, Latvia, Bengali, Kroasia, Melayu, Persia, dan Estonia."
     },
     "back": "← Kembali ke PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "12 September 2026",
+      "desc": "Memperluas dukungan lokalisasi dengan 10 bahasa baru.",
+      "added": "Ditambahkan",
+      "fixed": "Diperbaiki",
+      "lang10Title": "10 Bahasa Baru",
+      "lang10Desc": "Menambahkan dukungan penuh untuk bahasa Indonesia, Burma, Polandia, Denmark, Kazakh, Ceko, Hungaria, Georgia, Swedia, dan Uzbekistan."
     },
     "v1_1_2": {
       "version": "v1.1.2",
@@ -550,18 +550,6 @@
       "youtube": "Pemutaran audio bertenaga YouTube",
       "playlists": "Playlist, favorit, dan riwayat pendengaran",
       "platforms": "Dukungan macOS, Windows, dan Linux"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Pemutaran Video & Subtitle",
-      "videoDesc": "Pemutar video yang didesain ulang dengan Fit/Fill, pintasan keyboard, pemilihan subtitle dan audio, penyesuaian waktu, dan PiP.",
-      "streamsTitle": "Aliran Jaringan & Daftar Putar",
-      "streamsDesc": "Dukungan untuk aliran jaringan dan format daftar putar seperti M3U, M3U8, PLS, XSPF, dan ASX.",
-      "libraryTitle": "Pustaka Lokal yang Disempurnakan",
-      "libraryDesc": "Pemindaian folder mendalam, pustaka video lokal, dan penelusuran artis, album, dan genre yang ditingkatkan untuk pemutaran offline."
     }
   },
   "support": {
@@ -594,13 +582,13 @@
     "translationUnavailable": "Artikel ini tidak tersedia dalam bahasa Anda.",
     "advertisements": "Iklan",
     "categories": {
-      "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "all": "Semua",
+      "discovery": "Penemuan",
+      "engineering": "Teknik",
+      "community": "Komunitas",
+      "guides": "Panduan",
+      "education": "Pendidikan",
+      "product": "Produk"
     }
   }
 }

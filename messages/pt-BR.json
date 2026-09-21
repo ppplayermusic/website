@@ -54,11 +54,11 @@
     "title1": "Música.",
     "title2": "Sem complicações.",
     "desc": "Um player de música gratuito e de código aberto. Sem conta. Sem assinatura. É só dar play.",
-    "getIos": "Baixar para iOS",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Baixar para Android",
     "getMac": "Baixar para Mac",
     "getWindows": "Baixar para Windows",
-    "getLinux": "Baixar para Linux",
+    "getLinux": "Linux (Experimental)",
     "badge": "Gratuito e de código aberto",
     "source": "Ver código no GitHub"
   },
@@ -79,17 +79,17 @@
     "title": "Tudo o que você precisa.",
     "subtitle": "Uma experiência nativa e linda, focada em performance.",
     "searchTitle": "Encontre exatamente o que quer.",
-    "searchDesc": "Busque globalmente por faixas, artistas e álbuns instantaneamente.",
+    "searchDesc": "Pesquise globalmente por faixas, artistas, álbuns e vídeos locais instantaneamente.",
     "queueTitle": "Fila perfeita.",
     "queueDesc": "Gerencie o que toca a seguir com uma fila linda e reordenável.",
-    "favTitle": "Sua música, suas regras.",
-    "favDesc": "Crie sua biblioteca pessoal com um clique. Sempre com você.",
+    "favTitle": "Sua mídia, suas regras.",
+    "favDesc": "Crie sua biblioteca pessoal com um único clique. Sempre com você.",
     "contextTitle": "Nativo por natureza.",
     "contextDesc": "Clique com o botão direito. Menus nativos lindos e contextuais.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Network Streams.",
-    "streamsDesc": "Play M3U, PLS, XSPF, and ASX streams seamlessly."
+    "videoTitle": "Reprodução de Vídeo Local.",
+    "videoDesc": "Reproduza arquivos de vídeo locais offline com legendas, PiP e Ajustar/Preencher. O suporte a formatos varia de acordo com a plataforma.",
+    "streamsTitle": "Transmissão por Rede.",
+    "streamsDesc": "Transmita playlists M3U/PLS e URLs compatíveis. O YouTube usa um player integrado. Nem todos os vídeos de terceiros são suportados."
   },
   "noAccount": {
     "title": "Sem conta.",
@@ -124,29 +124,29 @@
     "reqTitle": "Requisitos para {platform}",
     "reqs": {
       "macos": {
-        "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
-        "mem": "4 GB RAM (Recommended)"
+        "os": "macOS 10.15 Catalina ou mais recente",
+        "arch": "Apple Silicon e Intel (Universal)",
+        "mem": "4 GB RAM (Recomendado)"
       },
       "windows": {
-        "os": "Windows 10 or later (64-bit)",
+        "os": "Windows 10 ou mais recente (64-bit)",
         "arch": "x64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Recomendado)"
       },
       "linux": {
-        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "os": "Ubuntu 20.04 ou mais recente (Experimental)",
         "arch": "x86_64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Recomendado)"
       },
       "ios": {
-        "os": "iOS 13.0 or newer",
+        "os": "iOS 13.0 ou mais recente",
         "arch": "ARM64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (Recomendado)"
       },
       "android": {
-        "os": "Android 7.0 (API 24) or newer",
+        "os": "Android 7.0 (API 24) ou mais recente",
         "arch": "ARM64 / ARM / x86_64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (Recomendado)"
       }
     }
   },
@@ -196,12 +196,12 @@
         "a": "Não. O PPPlayer é totalmente gratuito. Tudo o que você vê está disponível sem custo."
       },
       {
-        "q": "What media formats are supported?",
-        "a": "PPPlayer supports almost all audio and video formats, including MP3, FLAC, MP4, MKV, and AVI. It also supports network streams and M3U/M3U8 playlists."
+        "q": "Quais formatos de mídia são suportados?",
+        "a": "O PPPlayer suporta quase todos os formatos de áudio e vídeo, incluindo MP3, FLAC, MP4, MKV e AVI. Ele também suporta transmissões de rede e listas de reprodução M3U/M3U8."
       },
       {
-        "q": "Are there any special setup requirements for video?",
-        "a": "On Windows, macOS, Android, and iOS, PPPlayer works out of the box. On Linux, you may need to install standard media libraries (like libmpv) depending on your distribution."
+        "q": "Existem requisitos especiais de configuração para vídeos?",
+        "a": "No Windows, macOS, Android e iOS, o PPPlayer funciona sem configuração adicional. No Linux, pode ser necessário instalar bibliotecas de mídia padrão (como libmpv) dependendo da sua distribuição."
       }
     ],
     "openSourceQuestion": "O PPPlayer é de código aberto?",
@@ -300,8 +300,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone e iPad",
-      "desc": "Disponível na App Store para iPhone e iPad.",
-      "badge": "App Store"
+      "desc": "Em breve no TestFlight e na App Store para iPhone e iPad.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -312,7 +312,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Baixe para Windows 10 ou superior através da Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -324,32 +324,32 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Download direto para Linux. Suporte a AppImage.",
-      "badge": "Download Direto"
+      "desc": "Download direto experimental para Linux. A aceleração de hardware pode variar.",
+      "badge": "Experimental"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
-      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.",
-      "added": "Added",
-      "changed": "Changed",
-      "fixed": "Fixed",
-      "videoTitle": "Local Video Support",
-      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.",
-      "streamTitle": "Network Streaming",
-      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.",
-      "subtitleTitle": "Advanced Subtitles",
-      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.",
-      "speedTitle": "Playback Speed & Autoplay",
-      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.",
-      "exportTitle": "Media Export",
-      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.",
-      "languagesTitle": "New Languages & Genres",
-      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
-      "stabilityTitle": "Core Overhaul",
-      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+      "date": "20 de setembro de 2026",
+      "desc": "Uma enorme atualização que transforma o PPPlayer em um reprodutor de mídia completo, com suporte a vídeo e streaming de rede.",
+      "added": "Adicionado",
+      "changed": "Modificado",
+      "fixed": "Corrigido",
+      "videoTitle": "Suporte a Vídeo Local",
+      "videoDesc": "Biblioteca de vídeo local completa e suporte à reprodução, incluindo controles de vídeo e geração automática de miniaturas.",
+      "streamTitle": "Transmissão por Rede",
+      "streamDesc": "Suporte nativo a streams de rede com análise de playlists M3U e resolução direta de URLs.",
+      "subtitleTitle": "Legendas Avançadas",
+      "subtitleDesc": "Suporte completo a legendas, incluindo personalização, ajuste de atraso e uma interface de seleção intuitiva.",
+      "speedTitle": "Velocidade de Reprodução e Autoplay",
+      "speedDesc": "Adicionados controles flexíveis de velocidade de reprodução e um botão de reprodução automática na própria visualização da fila.",
+      "exportTitle": "Exportação de Mídia",
+      "exportDesc": "Exporte suas listas de reprodução personalizadas e filas de reprodução sem esforço para o seu dispositivo.",
+      "languagesTitle": "Novos Idiomas e Gêneros",
+      "languagesDesc": "Adicionadas localizações oficiais em Turco e Guarani, assim como suporte à exploração de gêneros locais.",
+      "stabilityTitle": "Revisão do Motor Base",
+      "stabilityDesc": "A arquitetura do motor de reprodução foi revisada para melhorar a estabilidade, permitir cabeçalhos HTTP personalizados e lidar com limites de tempo restritos."
     },
     "title": "Changelog",
     "subtitle": "O que há de novo no PPPlayer.",
@@ -357,13 +357,13 @@
       "desc": "Lançamento oficial para Android na Google Play Store.",
       "added": "Adicionado",
       "androidTitle": "Lançamento para Android",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "Lançamento inicial de testes para dispositivos Android. O suporte para dispositivos móveis está sendo ativamente desenvolvido.",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "17 de setembro de 2026"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "16 de setembro de 2026",
       "desc": "Melhorias na tela da biblioteca e correções de responsividade.",
       "added": "Adicionado",
       "fixed": "Corrigido",
@@ -372,7 +372,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "15 de setembro de 2026",
       "desc": "Suporte a Picture-in-Picture, telas de abertura nativas e muito mais.",
       "added": "Adicionado",
       "fixed": "Corrigido",
@@ -385,7 +385,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "14 de setembro de 2026",
       "desc": "Compilações automatizadas e melhorias de fluxo de trabalho.",
       "added": "Adicionado",
       "ciTitle": "Fluxos de trabalho automatizados",
@@ -393,7 +393,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "14 de setembro de 2026",
       "desc": "Sincronização de controles de mídia do sistema e recursos principais.",
       "added": "Adicionado",
       "syncTitle": "Sincronização de controles de mídia do sistema",
@@ -403,32 +403,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "14 de setembro de 2026",
+      "desc": "Alcançou 100% de paridade de tradução e corrigiu bugs de interface.",
+      "added": "Adicionado",
+      "fixed": "Corrigido",
+      "syncTitle": "Paridade Total de Localização",
+      "syncDesc": "Teclas de tradução sincronizadas e traduções cuidadosamente aplicadas em todos os 30 idiomas.",
+      "uiTitle": "Correções de Interface e Links",
+      "uiDesc": "Erros corrigidos nos widgets nas telas de Início e Biblioteca, além da correção dos links para o repositório do GitHub no menu Sobre."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "13 de setembro de 2026",
+      "desc": "Esta versão traz o PPPlayer para um público global ainda maior.",
+      "added": "Adicionado",
+      "localizationTitle": "Idiomas Adicionais",
+      "localizationDesc": "Adicionadas localizações para o Pidgin Nigeriano, Filipino, Letão, Bengali, Croata, Malaio, Persa e Estoniano."
     },
     "back": "← Voltar para o PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "12 de setembro de 2026",
+      "desc": "Suporte a localização expandido com 10 novos idiomas.",
+      "added": "Adicionado",
+      "fixed": "Corrigido",
+      "lang10Title": "10 Novos Idiomas",
+      "lang10Desc": "Suporte completo adicionado para os idiomas Indonésio, Birmanês, Polonês, Dinamarquês, Cazaque, Tcheco, Húngaro, Georgiano, Sueco e Uzbeque."
     },
     "v1_1_2": {
       "version": "v1.1.2",
@@ -548,18 +548,6 @@
       "fixed": "Correções",
       "appNapTitle": "Reprodução contínua em segundo plano",
       "appNapDesc": "Impedido que o App Nap do macOS suspenda o player quando minimizado, permitindo que a fila continue sem interrupções."
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Video Playback & Subtitles",
-      "videoDesc": "Redesigned video player featuring Fit/Fill, keyboard shortcuts, subtitle and audio-track selection, timing adjustments, and Picture-in-Picture.",
-      "streamsTitle": "Network Streams & Playlists",
-      "streamsDesc": "Support for network streams and playlist formats like M3U, M3U8, PLS, XSPF, and ASX.",
-      "libraryTitle": "Enhanced Local Libraries",
-      "libraryDesc": "Deep folder scanning, local video libraries, and improved artist, album, and genre browsing for offline playback."
     }
   },
   "support": {

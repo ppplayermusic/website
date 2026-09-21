@@ -54,11 +54,11 @@
     "title1": "음악.",
     "title2": "어떠한 마찰 없이.",
     "desc": "무료 오픈소스 음악 플레이어. 계정 불필요. 구독 불필요. 그냥 재생하세요.",
-    "getIos": "iOS용 다운로드",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Android용 다운로드",
     "getMac": "Mac용 다운로드",
     "getWindows": "Windows용 다운로드",
-    "getLinux": "Linux용 다운로드",
+    "getLinux": "Linux (Experimental)",
     "badge": "무료 & 오픈소스",
     "source": "GitHub에서 소스 보기"
   },
@@ -79,17 +79,17 @@
     "title": "당신에게 필요한 모든 것.",
     "subtitle": "성능을 위해 구축된 아름다운 네이티브 경험.",
     "searchTitle": "원하는 것을 정확히 찾으세요.",
-    "searchDesc": "트랙, 아티스트, 앨범 전반에 걸쳐 전 세계적으로 즉시 검색합니다.",
+    "searchDesc": "트랙, 아티스트, 앨범 및 로컬 비디오를 전 세계적으로 즉시 검색하세요.",
     "queueTitle": "완벽한 대기열.",
     "queueDesc": "아름답고 순서를 바꿀 수 있는 대기열로 다음에 재생할 곡을 관리하세요.",
-    "favTitle": "당신의 음악, 당신의 규칙.",
-    "favDesc": "클릭 한 번으로 개인 라이브러리를 만드세요. 항상 거기에 있습니다.",
+    "favTitle": "당신의 미디어, 당신의 규칙.",
+    "favDesc": "클릭 한 번으로 개인 라이브러리를 만드세요. 언제나 그곳에 있습니다.",
     "contextTitle": "디자인에 의한 네이티브.",
     "contextDesc": "어디서나 마우스 오른쪽 버튼 클릭. 아름답고 문맥을 인식하는 네이티브 메뉴.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "네트워크 스트림",
-    "streamsDesc": "라이브 TV, 라디오 및 네트워크 재생 목록(M3U, PLS, XSPF)을 앱 내에서 직접 스트리밍합니다.",
+    "videoTitle": "로컬 비디오 재생.",
+    "videoDesc": "자막, PIP, 맞춤/채우기 기능으로 로컬 비디오 파일을 오프라인에서 재생하세요. 형식 지원은 플랫폼에 따라 다릅니다.",
+    "streamsTitle": "네트워크 스트리밍.",
+    "streamsDesc": "M3U/PLS 재생 목록과 호환되는 URL을 스트리밍하세요. YouTube는 내장 플레이어를 사용합니다. 모든 타사 비디오를 재생할 수 있는 것은 아닙니다.",
     "videoPlaybackTitle": "로컬 비디오 재생",
     "videoPlaybackDesc": "자막, 오디오 트랙 선택 및 PIP 모드를 지원하여 로컬 비디오 파일을 원활하게 재생합니다."
   },
@@ -126,29 +126,29 @@
     "reqTitle": "{platform} 시스템 요구 사항",
     "reqs": {
       "macos": {
-        "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
-        "mem": "4 GB RAM (Recommended)"
+        "os": "macOS 10.15 Catalina 이상",
+        "arch": "Apple Silicon 및 Intel (유니버설)",
+        "mem": "4 GB RAM (권장)"
       },
       "windows": {
-        "os": "Windows 10 or later (64-bit)",
+        "os": "Windows 10 이상 (64비트)",
         "arch": "x64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (권장)"
       },
       "linux": {
-        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "os": "Ubuntu 20.04 이상 (실험적)",
         "arch": "x86_64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (권장)"
       },
       "ios": {
-        "os": "iOS 13.0 or newer",
+        "os": "iOS 13.0 이상",
         "arch": "ARM64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (권장)"
       },
       "android": {
-        "os": "Android 7.0 (API 24) or newer",
+        "os": "Android 7.0 (API 24) 이상",
         "arch": "ARM64 / ARM / x86_64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (권장)"
       }
     }
   },
@@ -198,11 +198,11 @@
         "a": "아니요. PPPlayer는 완전히 무료입니다. 보이는 모든 것을 비용 없이 이용할 수 있으며, 계정이 필요하지 않습니다."
       },
       {
-        "q": "What media formats are supported?",
+        "q": "어떤 미디어 형식이 지원되나요?",
         "a": "PPPlayer는 MP3, FLAC, MP4, MKV 및 AVI를 포함한 거의 모든 오디오 및 비디오 형식을 지원합니다. 네트워크 스트림 및 M3U/M3U8 재생 목록도 지원합니다."
       },
       {
-        "q": "Are there any special setup requirements for video?",
+        "q": "비디오를 위한 특별한 설정 요구 사항이 있나요?",
         "a": "Windows, macOS, Android 및 iOS에서 PPPlayer는 즉시 작동합니다. Linux에서는 배포판에 따라 표준 미디어 라이브러리(예: libmpv)를 설치해야 할 수 있습니다."
       }
     ],
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone 및 iPad",
-      "desc": "iPhone 및 iPad용 App Store에서 다운로드할 수 있습니다.",
-      "badge": "App Store"
+      "desc": "iPhone 및 iPad용 TestFlight 및 App Store에 곧 출시될 예정입니다.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -314,7 +314,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Microsoft Store에서 Windows 10 이상용을 다운로드하세요.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,32 +326,32 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Linux용 직접 다운로드. AppImage 지원.",
-      "badge": "직접 다운로드"
+      "desc": "Linux용 실험적 직접 다운로드. 하드웨어 가속은 다를 수 있습니다.",
+      "badge": "실험적"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
-      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.",
-      "added": "Added",
-      "changed": "Changed",
-      "fixed": "Fixed",
-      "videoTitle": "Local Video Support",
-      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.",
-      "streamTitle": "Network Streaming",
-      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.",
-      "subtitleTitle": "Advanced Subtitles",
-      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.",
-      "speedTitle": "Playback Speed & Autoplay",
-      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.",
-      "exportTitle": "Media Export",
-      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.",
-      "languagesTitle": "New Languages & Genres",
-      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
-      "stabilityTitle": "Core Overhaul",
-      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+      "date": "2026년 9월 20일",
+      "desc": "비디오 및 네트워크 스트리밍 지원을 통해 PPPlayer를 완전한 미디어 플레이어로 변환하는 대규모 주요 업데이트입니다.",
+      "added": "추가됨",
+      "changed": "변경됨",
+      "fixed": "수정됨",
+      "videoTitle": "로컬 비디오 지원",
+      "videoDesc": "비디오 제어 및 자동 썸네일 생성을 특징으로 하는 완벽한 로컬 비디오 라이브러리 및 재생 지원.",
+      "streamTitle": "네트워크 스트리밍",
+      "streamDesc": "M3U 재생 목록 구문 분석 및 직접 URL 확인을 통한 네트워크 스트림에 대한 기본 지원.",
+      "subtitleTitle": "고급 자막",
+      "subtitleDesc": "사용자 지정, 지연 조정 및 직관적인 선택 UI를 포함한 포괄적인 자막 지원.",
+      "speedTitle": "재생 속도 및 자동 재생",
+      "speedDesc": "유연한 재생 속도 제어 기능과 대기열 보기에서 직접 쉽게 액세스할 수 있는 자동 재생 토글을 추가했습니다.",
+      "exportTitle": "미디어 내보내기",
+      "exportDesc": "사용자 지정 재생 목록과 재생 대기열을 로컬 기기로 원활하게 내보낼 수 있습니다.",
+      "languagesTitle": "새로운 언어 및 장르",
+      "languagesDesc": "공식 튀르키예어 및 과라니어 현지화가 추가되었으며 로컬 장르 검색 지원이 추가되었습니다.",
+      "stabilityTitle": "핵심 오버홀",
+      "stabilityDesc": "안정성, 사용자 지정 HTTP 헤더 및 엄격한 시간 초과 처리를 개선하기 위해 핵심 재생 엔진 아키텍처를 점검했습니다."
     },
     "title": "변경 로그",
     "subtitle": "PPPlayer의 새로운 기능.",
@@ -359,14 +359,14 @@
       "desc": "Google Play 스토어에 공식 Android 출시.",
       "added": "추가됨",
       "androidTitle": "Android 출시",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "2.0.0",
-      "date": "September 17, 2026"
+      "androidDesc": "Android 기기용 초기 테스트 릴리스입니다. 모바일 기기에 대한 지원이 활발히 개발 중입니다.",
+      "version": "1.3.6",
+      "date": "2026년 9월 17일"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
-      "desc": "라이브러리 화면 개선 및 반응형 수정.",
+      "date": "2026년 9월 16일",
+      "desc": "라이브러 화면 개선 및 반응형 수정.",
       "added": "추가됨",
       "fixed": "수정됨",
       "libraryTitle": "라이브러리 화면 업데이트",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "2026년 9월 15일",
       "desc": "PIP(Picture-in-Picture) 지원, 기본 스플래시 화면 등.",
       "added": "추가됨",
       "fixed": "수정됨",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "2026년 9월 14일",
       "desc": "자동화된 빌드 및 워크플로 개선.",
       "added": "추가됨",
       "ciTitle": "자동화된 워크플로",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "2026년 9월 14일",
       "desc": "시스템 미디어 컨트롤 동기화 및 핵심 기능.",
       "added": "추가됨",
       "syncTitle": "시스템 미디어 컨트롤 동기화",
@@ -405,32 +405,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "2026년 9월 14일",
+      "desc": "100% 번역 동등성을 달성하고 UI 버그를 수정했습니다.",
+      "added": "추가됨",
+      "fixed": "수정됨",
+      "syncTitle": "완벽한 현지화 동등성",
+      "syncDesc": "번역 키를 동기화하고 모든 30개 언어에 수동으로 선별된 번역을 적용했습니다.",
+      "uiTitle": "UI 및 링크 수정",
+      "uiDesc": "홈 및 라이브러리 화면의 위젯 const 오류를 해결하고 정보 대화 상자의 GitHub 저장소 링크를 수정했습니다."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "2026년 9월 13일",
+      "desc": "이번 릴리스는 PPPlayer를 더 넓은 글로벌 잠재고객에게 제공합니다.",
+      "added": "추가됨",
+      "localizationTitle": "추가 언어",
+      "localizationDesc": "나이지리아 피진어, 필리핀어, 라트비아어, 벵골어, 크로아티아어, 말레이어, 페르시아어, 에스토니아어에 대한 현지화를 추가했습니다."
     },
     "back": "← PPPlayer로 돌아가기",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "2026년 9월 12일",
+      "desc": "10개의 새로운 언어로 현지화 지원을 확장했습니다.",
+      "added": "추가됨",
+      "fixed": "수정됨",
+      "lang10Title": "10개의 새로운 언어",
+      "lang10Desc": "인도네시아어, 버마어, 폴란드어, 덴마크어, 카자흐어, 체코어, 헝가리어, 조지아어, 스웨덴어 및 우즈베크어에 대한 전면적인 지원이 추가되었습니다."
     },
     "v1_1_2": {
       "version": "v1.1.2",
@@ -445,33 +445,33 @@
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "date": "2026년 9월 12일",
+      "desc": "재생 버그를 수정하고 앱 시작 시 탐색 막대를 개선했습니다.",
+      "fixed": "수정됨",
+      "snapTitle": "시작 탐색 막대 버그",
+      "snapDesc": "앱을 시작한 직후 탐색 막대를 밀 때 탐색 막대가 시작 위치로 즉시 되돌아가는 문제를 수정했습니다.",
+      "durationTitle": "누락된 지속 시간",
+      "durationDesc": "앱을 처음 시작할 때 탐색 막대에 지속 시간이 0:00으로 표시되는 문제를 수정했습니다."
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "date": "2026년 9월 11일",
+      "desc": "앱과 웹사이트 전체에 걸친 포괄적인 국제화 및 현지화.",
+      "new": "새로운 기능",
+      "langTitle": "11개 글로벌 언어",
+      "langDesc": "스페인어, 프랑스어, 독일어, 포르투갈어, 이탈리아어, 일본어, 한국어, 중국어, 힌디어, 러시아어 및 아랍어에 대한 전면적인 지원이 추가되었습니다.",
+      "pickerTitle": "인앱 언어 선택기",
+      "pickerDesc": "앱을 다시 시작하지 않고도 번역을 즉시 적용하는 인앱 언어 선택기를 환경 설정 메뉴에 추가했습니다.",
+      "osTitle": "OS 수준 통합",
+      "osDesc": "앱의 언어를 자동으로 동기화하기 위한 Android 13 이상 및 iOS의 기본 OS 수준 언어 통합."
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "date": "2026년 9월 11일",
+      "desc": "새로운 설치를 위한 핫픽스.",
+      "fixed": "수정됨",
+      "crashTitle": "시작 충돌 수정",
+      "crashDesc": "누락된 환경 구성 파일로 인해 새로 설치할 때 앱이 빈 화면에서 충돌하는 심각한 버그를 수정했습니다."
     },
     "v1_0_5": {
       "version": "v1.0.5",
@@ -550,18 +550,6 @@
       "youtube": "YouTube 기반 오디오 재생",
       "playlists": "플레이리스트, 즐겨찾기 및 청취 기록",
       "platforms": "macOS, Windows, Linux 지원"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "비디오 재생 및 자막",
-      "videoDesc": "맞춤/채우기, 키보드 단축키, 자막 및 오디오 선택, 타이밍 조정 및 PIP 기능이 있는 새롭게 디자인된 비디오 플레이어.",
-      "streamsTitle": "네트워크 스트림 및 재생 목록",
-      "streamsDesc": "네트워크 스트림 및 M3U, M3U8, PLS, XSPF, ASX와 같은 재생 목록 형식 지원.",
-      "libraryTitle": "향상된 로컬 라이브러리",
-      "libraryDesc": "심층 폴더 검색, 로컬 비디오 라이브러리 및 오프라인 재생을 위한 향상된 아티스트, 앨범 및 장르 브라우징."
     }
   },
   "support": {

@@ -30,7 +30,6 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
 export default async function BlogIndexPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations('blog');
 
   let posts = getAllPosts(locale);
   let isFallback = false;
@@ -40,14 +39,7 @@ export default async function BlogIndexPage({ params }: { params: Promise<{ loca
       isFallback = true;
   }
   
-  // Extract specific translations we need for the client component
-  const translations = {
-    title: t.has('title') ? t('title') : 'Blog',
-    subtitle: t.has('subtitle') ? t('subtitle') : 'News, updates, and stories from the PPPlayer team.',
-    minRead: t.has('minRead') ? t('minRead') : 'min read',
-    noArticles: t.has('noArticles') ? t('noArticles') : 'No articles found.',
-    translationUnavailable: t.has('translationUnavailable') ? t('translationUnavailable') : 'This article is not available in your language.'
-  };
+
 
   return (
     <>

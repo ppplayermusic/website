@@ -54,11 +54,11 @@
     "title1": "Pumbasy.",
     "title2": "Ndaipóri jejoko.",
     "desc": "Pumbasy rerekua sãso ha ojepe'áva. Ndaipóri mba'e ojehepyme'ẽva. Ehendu reínte.",
-    "getIos": "Emboguejy iOS-pe guarã",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Emboguejy Android-pe guarã",
     "getMac": "Emboguejy Mac-pe guarã",
     "getWindows": "Emboguejy Windows-pe guarã",
-    "getLinux": "Emboguejy Linux-pe guarã",
+    "getLinux": "Linux (Experimental)",
     "badge": "Sãso ha ojepe'áva",
     "source": "Ehecha GitHub-pe"
   },
@@ -79,17 +79,17 @@
     "title": "Opa mba'e reikotevẽva.",
     "subtitle": "Peteĩ tembiporu iporãva ha ipya'éva.",
     "searchTitle": "Ejuhu pe reikotevẽva.",
-    "searchDesc": "Eheka pya'e umi purahéi, puraheihára ha albúm.",
+    "searchDesc": "Eheka pya'e umi purahéi, opurahéiva, disco ha video ñande mba'éva apytépe opaite hendápe.",
     "queueTitle": "Tysýi hekopete.",
     "queueDesc": "Ehecha ha emohenda umi purahéi oñembopu vove.",
-    "favTitle": "Ne pumbasy, ne rembipota.",
-    "favDesc": "Eha'ã ndete nde rerekua sãso peteĩ jepyte rupive.",
+    "favTitle": "Ne mba'e, nde reiporavóva.",
+    "favDesc": "Emoheñói ne aranduka ndejeheguiete peteĩ jeikutu rupive. Oĩ meméva upépe.",
     "contextTitle": "Tekohápe.",
     "contextDesc": "Ejepysóva umi menú iporãva ha hekopete.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Network Streams.",
-    "streamsDesc": "Play M3U, PLS, XSPF, and ASX streams seamlessly."
+    "videoTitle": "Video ñande mba'éva ñembopu.",
+    "videoDesc": "Ehendu video ñande mba'éva internet'ỹre subtítulo, PiP ha Fit/Fill ndive. Umi formato oikóva iñambue plataforma rupi.",
+    "streamsTitle": "Ñanduti ñembopu.",
+    "streamsDesc": "Ehendu playlist M3U/PLS ha umi URL oikóva. YouTube oiporu peteĩ reproductor ipypegua. Ndoikói opaite video pytaguáva."
   },
   "noAccount": {
     "title": "Ndaipóri ñemboheraguapy.",
@@ -134,7 +134,7 @@
         "mem": "4 GB RAM (Ojejeruréva)"
       },
       "linux": {
-        "os": "Ubuntu 20.04 térã pyahuvéva (Oñeha'ãva)",
+        "os": "Ubuntu 20.04 térã pyahuvéva (Eksperimental)",
         "arch": "x86_64",
         "mem": "4 GB RAM (Ojejeruréva)"
       },
@@ -173,11 +173,11 @@
       },
       {
         "q": "Oĩ piko PPPlayer iPhone-pe?",
-        "a": "PPPlayer for iOS is currently in development. We are actively working on an App Store release."
+        "a": "Ko'ág̃a rojapohína PPPlayer iOS-pe guarã. Romba'apohína osẽ hag̃ua App Store-pe."
       },
       {
         "q": "Oĩ piko PPPlayer Android-pe?",
-        "a": "PPPlayer for Android is currently in development. We are actively working on a Google Play Store release."
+        "a": "PPPlayer Android-pe guarã ojejapohína. Romba'apohína osẽ hag̃ua Google Play Store-pe."
       },
       {
         "q": "Ikatu piko aiporu PPPlayer Windows-pe?",
@@ -196,12 +196,12 @@
         "a": "Nahániri. PPPlayer ha'e sãso. Opa mba'e rehecha sãso, ndoikotevẽi ñemboheraguapy."
       },
       {
-        "q": "What media formats are supported?",
-        "a": "PPPlayer supports almost all audio and video formats, including MP3, FLAC, MP4, MKV, and AVI. It also supports network streams and M3U/M3U8 playlists."
+        "q": "Mba'e formato-pa oiko?",
+        "a": "PPPlayer-pe oiko haimete opa formato audio ha video pegua, umíva apytépe MP3, FLAC, MP4, MKV ha AVI. Oiko avei ñanduti ñembopu ha M3U/M3U8 playlists."
       },
       {
-        "q": "Are there any special setup requirements for video?",
-        "a": "On Windows, macOS, Android, and iOS, PPPlayer works out of the box. On Linux, you may need to install standard media libraries (like libmpv) depending on your distribution."
+        "q": "Oikotevẽ piko ñemohenda especial video-pe guarã?",
+        "a": "Windows, macOS, Android ha iOS-pe, PPPlayer oiko porãite. Linux-pe, ikatu oikotevẽ remoĩ umi librerías multimedia (ha'eháicha libmpv) ne distribución rupi."
       }
     ],
     "openSourceQuestion": "PPPlayer piko ojepe'áva?",
@@ -300,8 +300,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone ha iPad",
-      "desc": "Oĩ App Store-pe iPhone ha iPad-pe guarã.",
-      "badge": "App Store"
+      "desc": "Oúta ko'ẽrõ TestFlight ha App Store-pe iPhone ha iPad-pe guarã.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -312,7 +312,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Emboguejy Windows 10 ha pyahuvéva-pe guarã Microsoft Store guive.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -324,32 +324,32 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Emboguejy Linux-pe guarã. AppImage oñepytyvõ.",
-      "badge": "Emboguejy"
+      "desc": "Emboguejy hekopete Linux-pe guarã, ha'éva eksperimental. Aceleración hardware pegua ikatu iñambue.",
+      "badge": "Eksperimental"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
-      "desc": "Peteĩ ta'angambyry mbohasáva Vikipetã pegua ha'e peteĩ ta'angambyry mbohasáva Vikipetã pegua ha Vikipetã pegua.",
-      "added": "Ñembojoapy",
-      "changed": "Jae rambue jecuaeño",
-      "fixed": "Oñemohenda",
-      "videoTitle": "Vídeo evaluación local",
-      "videoDesc": "Ta'angambyry mbohasáva ha ta'angambyry mbohasáva [jehaijey_editar código]",
-      "streamTitle": "Ñembohykuepy (joajukuéra_editar)",
-      "streamDesc": "Puruharakuéra ko ñemohendáme he'i oikuaa oñe'ẽ M3U Playlist ha URL ñemohendáme.",
-      "subtitleTitle": "Subjuntivo (joajukuéra_editar)",
-      "subtitleDesc": "Ñepytyvõ subtítulo-pe, oikehápe ajuste de retraso, ha peteĩ UI jeporavo intuitivo.",
-      "speedTitle": "Autoevaluación y Autoevaluación",
-      "speedDesc": "Eropirã erã pohrogue árĩpehrerã árĩpehrerã árĩpehrerã.",
-      "exportTitle": "Exportación media rehegua",
-      "exportDesc": "Eropirã ĩgʉ pohrogue árĩpehrerã erã ĩgʉ pohrogue árĩpehrerã.",
-      "languagesTitle": "Ñe'ẽnguéra ha ñe'ẽnguéra pyahuJehaijey",
-      "languagesDesc": "Ombojoapy umi tenda oficial turco ha guaraníme, ha avei pytyvõ ojeguerekóva género local-pe.",
-      "stabilityTitle": "Core OverhaulEvaluación",
-      "stabilityDesc": "Omoambue arquitectura motenondeha oñemoporãve hag̃ua estabilidad, título HTTP jepokuaa, ha tiempo estricto ñemboguata."
+      "date": "20 jasyporundy 2026",
+      "desc": "Peteĩ ñemoambue tuicháva omoheñóiva PPPlayer peteĩ reproductor multimedia iporãvape, video ha ñanduti ñembopu ndive.",
+      "added": "Oñemoĩ",
+      "changed": "Oñemoambue",
+      "fixed": "Oñemyatyrõ",
+      "videoTitle": "Video ñande mba'éva ñembopu",
+      "videoDesc": "Aranduka video ñande mba'éva ha pytyvõ ñembopu controles video ha generacion automatica miniatures ndive.",
+      "streamTitle": "Ñanduti Ñembopu",
+      "streamDesc": "Pytyvõ hekopete ñanduti ñembopu reheve, M3U playlist resápe ha URL ñemohenda hekopete.",
+      "subtitleTitle": "Subtítulo iporãvéva",
+      "subtitleDesc": "Pytyvõ porã subtítulo-pe, oikehápe ñemohenda, retraso ñemohenda ha peteĩ UI jeiporavo hekopete.",
+      "speedTitle": "Velocidad ñembopu ha Autoplay",
+      "speedDesc": "Oñemoĩ controles flexibles velocidad ñembopu-pe ha peteĩ botón Autoplay oĩva porã tysýi jehechápe.",
+      "exportTitle": "Exportación multimedia",
+      "exportDesc": "Embohasa nde playlist ha tysýi ñembopu ne dispositivo-pe.",
+      "languagesTitle": "Ñe'ẽnguéra ha Géneros pyahu",
+      "languagesDesc": "Oñemoĩ localizaciones oficiales Turco ha Guaraníme, ha avei pytyvõ géneros locales-pe guarã.",
+      "stabilityTitle": "Core Ñemoporã",
+      "stabilityDesc": "Oñemoambue motor de reproducción oñemoporãve hag̃ua estabilidad, encabezados HTTP jeporupyre, ha tiempo límite ñemohenda hekopete."
     },
     "title": "Ñemoambue",
     "subtitle": "Mba'e pyahu PPPlayer-pe.",
@@ -357,13 +357,13 @@
       "desc": "Versión oficial de Android Google Play Store-pe.",
       "added": "Oñemoĩ",
       "androidTitle": "Versión de Android",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "Primer test release Android-pe guarã. Soporte para móviles ojejapohína.",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "17 jasyporundy 2026"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "16 jasyporundy 2026",
       "desc": "Aranduka rerekua ñemoporã ha ñemyatyrõmba.",
       "added": "Oñemoĩ",
       "fixed": "Oñemyatyrõ",
@@ -372,7 +372,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "15 jasyporundy 2026",
       "desc": "Ta'ãnga ta'ãngápe (PiP), ñepyrũ ra'ãnga ypykue, ha hetave mba'e.",
       "added": "Oñemoĩ",
       "fixed": "Oñemyatyrõ",
@@ -385,7 +385,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "14 jasyporundy 2026",
       "desc": "Ñemboheko ijehegui ha tembiapo ñemoporã.",
       "added": "Oñemoĩ",
       "ciTitle": "Tembiapo ijehegui",
@@ -393,7 +393,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "14 jasyporundy 2026",
       "desc": "Sistema mba'epu sãmbyhy ha mba'e tenondegua.",
       "added": "Oñemoĩ",
       "syncTitle": "Sistema mba'epu sãmbyhy ñembojoaju",
@@ -403,163 +403,151 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "14 jasyporundy 2026",
+      "desc": "Ojejapo 100% traducción ha oñemyatyrõ UI bugs.",
+      "added": "Oñemoĩ",
+      "fixed": "Oñemyatyrõ",
+      "syncTitle": "Paridad Localización Mba'e",
+      "syncDesc": "Oñesincroniza translation keys ha oñemoĩ traducciones manuales 30 ñe'ẽnguérape.",
+      "uiTitle": "UI ha Link Fixes",
+      "uiDesc": "Oñemyatyrõ widget const errors Inicio ha Biblioteca screens-pe, ha oñemyatyrõ GitHub repository links About dialog-pe."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "Septiembre 13, 2026",
+      "date": "13 jasyporundy 2026",
       "desc": "Ko ñemoambue oipytyvõ PPPlayer yvóra tuichahápe.",
-      "added": "Moĩ",
+      "added": "Oñemoĩ",
       "localizationTitle": "Ñe'ẽnguéra Moĩva",
       "localizationDesc": "Moĩma localizaciones ñe'ẽnguérape guarã."
     },
     "back": "← Jejevy PPPlayer-pe",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "Septiembre 12, 2026",
-      "desc": "Moĩma 10 ñe'ẽnguéra.",
-      "added": "Moĩ",
-      "fixed": "Ñatõi",
+      "date": "12 jasyporundy 2026",
+      "desc": "Oñemoĩ 10 ñe'ẽnguéra pyahu.",
+      "added": "Oñemoĩ",
+      "fixed": "Oñemyatyrõ",
       "lang10Title": "10 Ñe'ẽnguéra Pyahu",
-      "lang10Desc": "Moĩma localizaciones ñe'ẽnguérape guarã."
+      "lang10Desc": "Oñemoĩ localizaciones 10 ñe'ẽnguérape guarã."
     },
     "v1_1_2": {
       "version": "v1.1.2",
-      "date": "Septiembre 12, 2026",
-      "desc": "Moĩma ñe'ẽnguéra ha ñatõi macOS apañuãi.",
-      "added": "Moĩ",
-      "fixed": "Ñatõi",
+      "date": "12 jasyporundy 2026",
+      "desc": "Oñemoĩ ñe'ẽnguéra ha oñemyatyrõ macOS apañuãi.",
+      "added": "Oñemoĩ",
+      "fixed": "Oñemyatyrõ",
       "localizationTitle": "Ñe'ẽnguéra Pyahu",
-      "localizationDesc": "Moĩma localizaciones ñe'ẽnguérape guarã.",
-      "layoutTitle": "macOS Ñatõi",
-      "layoutDesc": "Ñatõi macOS apañuãi."
+      "localizationDesc": "Oñemoĩ localizaciones ñe'ẽnguérape guarã.",
+      "layoutTitle": "macOS Ñemyatyrõ",
+      "layoutDesc": "Oñemyatyrõ macOS apañuãi."
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "Septiembre 12, 2026",
-      "desc": "Ñatõi pumbasy apañuãi.",
-      "fixed": "Ñatõi",
-      "snapTitle": "Seekbar Ñatõi",
-      "snapDesc": "Ñatõi seekbar apañuãi.",
-      "durationTitle": "Duration Ñatõi",
-      "durationDesc": "Ñatõi duration apañuãi."
+      "date": "12 jasyporundy 2026",
+      "desc": "Oñemyatyrõ pumbasy apañuãi.",
+      "fixed": "Oñemyatyrõ",
+      "snapTitle": "Seekbar Ñemyatyrõ",
+      "snapDesc": "Oñemyatyrõ seekbar apañuãi.",
+      "durationTitle": "Duration Ñemyatyrõ",
+      "durationDesc": "Oñemyatyrõ duration apañuãi."
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "Septiembre 11, 2026",
+      "date": "11 jasyporundy 2026",
       "desc": "Localizaciones yvóra tuichahápe.",
       "new": "Pyahu",
       "langTitle": "11 Ñe'ẽnguéra",
-      "langDesc": "Moĩma 11 ñe'ẽnguéra.",
+      "langDesc": "Oñemoĩ 11 ñe'ẽnguéra.",
       "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Moĩma in-app language picker.",
+      "pickerDesc": "Oñemoĩ in-app language picker.",
       "osTitle": "OS-Level Integration",
-      "osDesc": "Moĩma OS-level integration."
+      "osDesc": "Oñemoĩ OS-level integration."
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "Septiembre 11, 2026",
+      "date": "11 jasyporundy 2026",
       "desc": "Hotfix.",
-      "fixed": "Ñatõi",
-      "crashTitle": "Startup Crash Ñatõi",
-      "crashDesc": "Ñatõi startup crash."
+      "fixed": "Oñemyatyrõ",
+      "crashTitle": "Startup Crash Ñemyatyrõ",
+      "crashDesc": "Oñemyatyrõ startup crash."
     },
     "v1_0_5": {
       "version": "v1.0.5",
-      "date": "Septiembre 11, 2026",
+      "date": "11 jasyporundy 2026",
       "desc": "Background pumbasy macOS-pe.",
       "new": "Pyahu",
-      "fixed": "Ñatõi",
+      "fixed": "Oñemyatyrõ",
       "appNapTitle": "Gapless Background Pumbasy",
-      "appNapDesc": "Moĩma gapless background pumbasy macOS-pe."
+      "appNapDesc": "Oñemoĩ gapless background pumbasy macOS-pe."
     },
     "v1_0_4": {
       "version": "v1.0.4",
-      "date": "Septiembre 11, 2026",
+      "date": "11 jasyporundy 2026",
       "desc": "Automated releases.",
       "new": "Pyahu",
-      "fixed": "Ñatõi",
+      "fixed": "Oñemyatyrõ",
       "ciTitle": "Automated Release Pipeline",
-      "ciDesc": "Moĩma automated release pipeline.",
+      "ciDesc": "Oñemoĩ automated release pipeline.",
       "signedTitle": "Signed macOS Releases",
-      "signedDesc": "Moĩma signed macOS releases.",
+      "signedDesc": "Oñemoĩ signed macOS releases.",
       "licenseTitle": "Open Source License",
-      "licenseDesc": "Moĩma MIT License.",
-      "submoduleFix": "Ñatõi submodule."
+      "licenseDesc": "Oñemoĩ MIT License.",
+      "submoduleFix": "Oñemyatyrõ submodule."
     },
     "v1_0_3": {
       "version": "v1.0.3",
-      "date": "Septiembre 10, 2026",
+      "date": "10 jasyporundy 2026",
       "desc": "Background pumbasy.",
       "new": "Pyahu",
       "improved": "Iporãve",
-      "fixed": "Ñatõi",
+      "fixed": "Oñemyatyrõ",
       "hybridEngineTitle": "Hybrid Pumbasy Engine",
-      "hybridEngineDesc": "Moĩma hybrid pumbasy engine.",
+      "hybridEngineDesc": "Oñemoĩ hybrid pumbasy engine.",
       "dedupTitle": "Command Deduplication",
-      "dedupDesc": "Moĩma command deduplication.",
-      "queueAdvance": "Queue Ñatõi",
-      "resumeBug": "Resume Ñatõi",
-      "precision": "Precision Ñatõi",
-      "linter": "Linter Ñatõi"
+      "dedupDesc": "Oñemoĩ command deduplication.",
+      "queueAdvance": "Queue Ñemyatyrõ",
+      "resumeBug": "Resume Ñemyatyrõ",
+      "precision": "Precision Ñemyatyrõ",
+      "linter": "Linter Ñemyatyrõ"
     },
     "v1_0_2": {
       "version": "v1.0.2",
-      "date": "Septiembre 9, 2026",
+      "date": "9 jasyporundy 2026",
       "desc": "Autoplay.",
       "autoplayContextTitle": "Context-Aware Autoplay",
-      "autoplayContextDesc": "Moĩma context-aware autoplay.",
+      "autoplayContextDesc": "Oñemoĩ context-aware autoplay.",
       "tieredRecsTitle": "Tiered Recommendation Engine",
-      "tieredRecsDesc": "Moĩma tiered recommendation engine."
+      "tieredRecsDesc": "Oñemoĩ tiered recommendation engine."
     },
     "v1_0_1": {
       "version": "v1.0.1",
-      "date": "Septiembre 9, 2026",
+      "date": "9 jasyporundy 2026",
       "desc": "Pumbasy porãve.",
       "new": "Pyahu",
       "improved": "Iporãve",
-      "fixed": "Ñatõi",
+      "fixed": "Oñemyatyrõ",
       "autoplayTitle": "Autoplay",
       "autoplayDesc": "Moĩma autoplay.",
       "discoverTitle": "Ejuhu",
       "discoverDesc": "Ejuhu pumbasy.",
       "tooltipsTitle": "Interactive Seekbar Tooltips",
       "tooltipsDesc": "Moĩma interactive seekbar tooltips.",
-      "startup": "Faster startup",
-      "recovery": "Better playback recovery",
-      "macosMedia": "Improved macOS media controls",
-      "duplicateMedia": "Duplicate macOS media controls",
+      "startup": "Oñepyrũ pya'eve",
+      "recovery": "Playback recovery iporãve",
+      "macosMedia": "macOS media controls iporãve",
+      "duplicateMedia": "macOS media controls ojejo'áva ñemyatyrõ",
       "stationHighlight": "Station active-track highlighting",
-      "seekbarPause": "Seekbar Ñatõi",
-      "bottomBar": "Bottom bar Ñatõi"
+      "seekbarPause": "Seekbar Ñemyatyrõ",
+      "bottomBar": "Bottom bar Ñemyatyrõ"
     },
     "v1_0_0": {
       "version": "v1.0.0",
-      "date": "Septiembre 2026",
+      "date": "jasyporundy 2026",
       "desc": "PPPlayer ypy.",
-      "spotify": "Spotify-powered metadata",
-      "youtube": "YouTube-powered audio",
+      "spotify": "Metadata Spotify rupive",
+      "youtube": "Audio YouTube rupive",
       "playlists": "Playlists ha favorites",
       "platforms": "macOS, Windows ha Linux"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Video Playback & Subtitles",
-      "videoDesc": "Redesigned video player featuring Fit/Fill, keyboard shortcuts, subtitle and audio-track selection, timing adjustments, and Picture-in-Picture.",
-      "streamsTitle": "Network Streams & Playlists",
-      "streamsDesc": "Support for network streams and playlist formats like M3U, M3U8, PLS, XSPF, and ASX.",
-      "libraryTitle": "Enhanced Local Libraries",
-      "libraryDesc": "Deep folder scanning, local video libraries, and improved artist, album, and genre browsing for offline playback."
     }
   },
   "support": {
@@ -596,7 +584,7 @@
       "discovery": "Ejuhu",
       "engineering": "Mba'e",
       "community": "Aty",
-      "guides": "Guide",
+      "guides": "Mbo'epy",
       "education": "Mbo'e",
       "product": "Mba'e"
     }

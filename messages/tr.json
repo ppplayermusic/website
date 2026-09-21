@@ -37,10 +37,10 @@
     "legal": "Yasal",
     "privacy": "Gizlilik",
     "terms": "Şartlar",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Müzik.",
     "source": "Kodu GitHub’da görüntüle",
     "contribute": "Katkıda bulunun",
-    "changelog": "Changelog",
+    "changelog": "Değişiklik Günlüğü",
     "linux": "Linux",
     "blog": "Blog"
   },
@@ -54,11 +54,11 @@
     "title1": "Müzik.",
     "title2": "Zorluklar olmadan.",
     "desc": "Ücretsiz, açık kaynaklı bir müzik çalar. Hesap yok. Abonelik yok. Sadece dinleyin.",
-    "getIos": "iOS İçin İndir",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Android İçin İndir",
     "getMac": "Mac İçin İndir",
     "getWindows": "Windows İçin İndir",
-    "getLinux": "Linux için İndir",
+    "getLinux": "Linux (Deneysel)",
     "badge": "Ücretsiz ve açık kaynaklı",
     "source": "Kodu GitHub’da görüntüle"
   },
@@ -79,17 +79,17 @@
     "title": "İhtiyacın olan her şey.",
     "subtitle": "Performans için oluşturulmuş, güzel, yerel bir deneyim.",
     "searchTitle": "Tam olarak istediğini bul.",
-    "searchDesc": "Şarkılar, sanatçılar ve albümler arasında anında global arama yap.",
+    "searchDesc": "Şarkılar, sanatçılar, albümler ve yerel videolar arasında anında küresel olarak arama yapın.",
     "queueTitle": "Kusursuz sıra.",
     "queueDesc": "Sıradaki parçaları güzel ve düzenlenebilir bir sırayla yönet.",
-    "favTitle": "Senin müziğin, senin kuralların.",
-    "favDesc": "Kişisel kitaplığını tek tıklamayla oluştur. Her zaman orada.",
+    "favTitle": "Senin medyan, senin kuralların.",
+    "favDesc": "Kişisel kütüphanenizi tek tıklamayla oluşturun. Her zaman burada.",
     "contextTitle": "Tasarımla yerel.",
     "contextDesc": "Herhangi bir yere sağ tıkla. Güzel, bağlama duyarlı yerel menüler.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Ağ Akışları",
-    "streamsDesc": "Uygulama içinde doğrudan canlı TV, radyo ve ağ oynatma listelerini (M3U, PLS, XSPF) yayınlayın.",
+    "videoTitle": "Yerel Video Oynatma.",
+    "videoDesc": "Altyazılı, PiP ve Sığdır/Doldur özellikleriyle yerel video dosyalarını çevrimdışı oynatın. Format desteği platforma göre değişir.",
+    "streamsTitle": "Ağ Akışı.",
+    "streamsDesc": "M3U/PLS oynatma listelerini ve uyumlu URL'leri yayınlayın. YouTube gömülü bir oynatıcı kullanır. Tüm üçüncü taraf videolar oynatılamaz.",
     "videoPlaybackTitle": "Yerel Video Oynatma",
     "videoPlaybackDesc": "Altyazı desteği, ses kaydı seçimi ve Resim İçinde Resim moduyla yerel video dosyalarınızı sorunsuzca oynatın."
   },
@@ -127,7 +127,7 @@
     "reqs": {
       "macos": {
         "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
+        "arch": "Apple Silicon ve Intel (Evrensel)",
         "mem": "4 GB RAM (Recommended)"
       },
       "windows": {
@@ -198,11 +198,11 @@
         "a": "Hayır. PPPlayer tamamen ücretsizdir. Gördüğünüz her şey ücretsiz olarak kullanılabilir."
       },
       {
-        "q": "What media formats are supported?",
+        "q": "Hangi medya formatları destekleniyor?",
         "a": "PPPlayer, MP3, FLAC, MP4, MKV ve AVI dahil olmak üzere hemen hemen tüm ses ve video formatlarını destekler. Ayrıca ağ akışlarını ve M3U/M3U8 oynatma listelerini de destekler."
       },
       {
-        "q": "Are there any special setup requirements for video?",
+        "q": "Video için özel bir kurulum gereksinimi var mı?",
         "a": "PPPlayer, Windows, macOS, Android ve iOS'ta kutudan çıktığı gibi çalışır. Linux'ta dağıtımınıza bağlı olarak standart medya kitaplıklarını (libmpv gibi) yüklemeniz gerekebilir."
       }
     ],
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone ve iPad",
-      "desc": "iPhone ve iPad için App Store'da mevcut.",
-      "badge": "App Store"
+      "desc": "Yakında iPhone ve iPad için TestFlight ve App Store'da.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -314,7 +314,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Microsoft Store'dan Windows 10 ve sonraki sürümler için indir.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,14 +326,14 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Linux için doğrudan indirme. AppImage desteklenir.",
-      "badge": "Doğrudan İndirme"
+      "desc": "Linux için deneysel doğrudan indirme. Donanım hızlandırması değişkenlik gösterebilir.",
+      "badge": "Deneysel"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
+      "date": "20 Eylül 2026",
       "desc": "PPPlayer'ı video ve ağ akışı desteğiyle tam bir medya oynatıcıya dönüştüren büyük bir güncelleme.",
       "added": "Eklenen",
       "changed": "Değiştirildi",
@@ -359,13 +359,13 @@
       "desc": "Google Play Store'da resmi Android sürümü.",
       "added": "Eklendi",
       "androidTitle": "Android Sürümü",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "Android cihazları için ilk test sürümü. Mobil cihazlar için destek aktif olarak geliştirilmektedir.",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "17 Eylül 2026"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "16 Eylül 2026",
       "desc": "Kitaplık ekranı iyileştirmeleri ve duyarlılık düzeltmeleri.",
       "added": "Eklendi",
       "fixed": "Düzeltildi",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "15 Eylül 2026",
       "desc": "Resim İçinde Resim desteği, yerel başlangıç ekranları ve daha fazlası.",
       "added": "Eklendi",
       "fixed": "Düzeltildi",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "14 Eylül 2026",
       "desc": "Otomatik derlemeler ve iş akışı iyileştirmeleri.",
       "added": "Eklendi",
       "ciTitle": "Otomatik İş Akışları",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "14 Eylül 2026",
       "desc": "Sistem medya kontrolleri senkronizasyonu ve temel özellikler.",
       "added": "Eklendi",
       "syncTitle": "Sistem Medya Kontrolleri Senkronizasyonu",
@@ -405,32 +405,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "14 Eylül 2026",
+      "desc": "%100 çeviri eşitliği sağlandı ve kullanıcı arayüzü hataları düzeltildi.",
+      "added": "Eklendi",
+      "fixed": "Sabit",
+      "syncTitle": "Tam Yerelleştirme Eşitliği",
+      "syncDesc": "Tüm 30 dil için senkronize edilmiş çeviri anahtarları ve manuel olarak hazırlanmış çeviriler uygulandı.",
+      "uiTitle": "UI ve Bağlantı Düzeltmeleri",
+      "uiDesc": "Ana Ekran ve Kütüphane ekranlarındaki sabit widget hataları çözüldü ve Hakkında iletişim kutusundaki GitHub depo bağlantıları düzeltildi."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "13 Eylül 2026",
+      "desc": "Bu sürüm, PPPlayer'ı çok daha geniş bir küresel kitleye sunuyor.",
+      "added": "Eklendi",
+      "localizationTitle": "Ek Diller",
+      "localizationDesc": "Nijerya Pidgin, Filipince, Letonca, Bengalce, Hırvatça, Malayca, Farsça ve Estonca için yerelleştirmeler eklendi."
     },
     "back": "← PPPlayer'a Dön",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "12 Eylül 2026",
+      "desc": "10 yeni dil ile genişletilmiş yerelleştirme desteği.",
+      "added": "Eklendi",
+      "fixed": "Sabit",
+      "lang10Title": "10 Yeni Dil",
+      "lang10Desc": "Endonezce, Burma dili, Lehçe, Danca, Kazakça, Çekçe, Macarca, Gürcüce, İsveççe ve Özbekçe için tam destek eklendi."
     },
     "v1_1_2": {
       "version": "v1.1.2",
@@ -445,72 +445,72 @@
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "date": "12 Eylül 2026",
+      "desc": "Oynatma hataları düzeltildi ve uygulama başlatılırken arama çubuğu geliştirildi.",
+      "fixed": "Sabit",
+      "snapTitle": "Başlangıç Seekbar Hatası",
+      "snapDesc": "Uygulamayı başlattıktan hemen sonra kaydırma çubuğunu kaydırdığınızda, çubuğun anında başlangıç konumuna geri sıçramasına neden olan bir sorun düzeltildi.",
+      "durationTitle": "Eksik Süre",
+      "durationDesc": "Uygulama ilk başlatıldığında süreyi 0:00 gösteren arama çubuğu düzeltildi."
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "date": "11 Eylül 2026",
+      "desc": "Tüm uygulama ve web sitesi genelinde kapsamlı uluslararasılaştırma ve yerelleştirme.",
+      "new": "Eklendi",
+      "langTitle": "11 Küresel Dil",
+      "langDesc": "İspanyolca, Fransızca, Almanca, Portekizce, İtalyanca, Japonca, Korece, Çince, Hintçe, Rusça ve Arapça için tam destek eklendi.",
+      "pickerTitle": "Uygulama İçi Dil Seçici",
+      "pickerDesc": "Tercihler menüsüne, uygulamayı yeniden başlatmadan çevirileri anında uygulayan bir uygulama içi dil seçici eklendi.",
+      "osTitle": "İşletim Sistemi Seviyesinde Entegrasyon",
+      "osDesc": "Uygulamanın dilini otomatik olarak senkronize etmek için Android 13+ ve iOS'ta yerel işletim sistemi düzeyinde dil entegrasyonları."
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "date": "11 Eylül 2026",
+      "desc": "Yeni kurulumlar için hızlı düzeltme.",
+      "fixed": "Sabit",
+      "crashTitle": "Başlatma Hatası Düzeltmesi",
+      "crashDesc": "Eksik bir ortam yapılandırma dosyası nedeniyle yeni kurulumlarda uygulamanın boş ekranda çökmesine neden olan kritik bir hata düzeltildi."
     },
     "v1_0_4": {
       "version": "v1.0.4",
-      "date": "September 11, 2026",
-      "desc": "Automated releases and code signing.",
+      "date": "11 Eylül 2026",
+      "desc": "Otomatik sürümler ve kod imzalama.",
       "new": "New",
-      "fixed": "Fixed",
-      "ciTitle": "Automated Release Pipeline",
-      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
-      "signedTitle": "Signed macOS Releases",
-      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
-      "licenseTitle": "Open Source License",
-      "licenseDesc": "Added MIT License to the repository.",
-      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+      "fixed": "Sabit",
+      "ciTitle": "Otomatik Yayın Boru Hattı",
+      "ciDesc": "Tutarlı derlemeler ve macOS kod imzalama için GitHub Actions iş akışı.",
+      "signedTitle": "İmzalı macOS Sürümleri",
+      "signedDesc": "Resmi olarak imzalanmış ve noter tasdikli macOS sürümleri artık doğrudan web sitesinde mevcut.",
+      "licenseTitle": "Açık Kaynak Lisansı",
+      "licenseDesc": "Depoya MIT Lisansı eklendi.",
+      "submoduleFix": "CI iş akışlarında sabit alt modül kontrol yapılandırması"
     },
     "v1_0_3": {
       "version": "v1.0.3",
-      "date": "September 10, 2026",
-      "desc": "Background playback and stability.",
+      "date": "10 Eylül 2026",
+      "desc": "Arka planda oynatma ve stabilite.",
       "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "hybridEngineTitle": "Hybrid Playback Engine",
-      "hybridEngineDesc": "Robust background processing and lock-screen playback capabilities.",
-      "dedupTitle": "Command Deduplication",
-      "dedupDesc": "Added generation IDs to prevent overlapping and stale media commands across WebView bridge.",
-      "queueAdvance": "Song queue not automatically advancing to the next track",
-      "resumeBug": "Paused track unexpectedly resuming when handing off from foreground to PiP or background",
-      "precision": "Accurate millisecond precision reporting for current track position and playback duration",
-      "linter": "Eliminated several IDE linter errors and cleaned up redundant files"
+      "improved": "Geliştirilmiş",
+      "fixed": "Sabit",
+      "hybridEngineTitle": "Hibrit Oynatma Motoru",
+      "hybridEngineDesc": "Güçlü arka plan işleme ve kilit ekranı oynatma özellikleri.",
+      "dedupTitle": "Komut Yinelenmesini Önleme",
+      "dedupDesc": "WebView köprüsü üzerinden çakışan ve eski medya komutlarını önlemek için nesil kimlikleri eklendi.",
+      "queueAdvance": "Şarkı sırası otomatik olarak bir sonraki parçaya geçmiyor",
+      "resumeBug": "Ön plandan PiP veya arka plana geçerken duraklatılmış parçanın beklenmedik şekilde devam etmesi",
+      "precision": "Mevcut parça konumu ve çalma süresi için doğru milisaniye hassasiyetinde raporlama",
+      "linter": "Birçok IDE linter hatasını giderdi ve gereksiz dosyaları temizledi"
     },
     "v1_0_2": {
       "version": "v1.0.2",
-      "date": "September 9, 2026",
-      "desc": "Smarter, context-based autoplay.",
-      "autoplayContextTitle": "Context-Aware Autoplay",
-      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
-      "tieredRecsTitle": "Tiered Recommendation Engine",
-      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+      "date": "9 Eylül 2026",
+      "desc": "Daha akıllı, bağlama dayalı otomatik oynatma.",
+      "autoplayContextTitle": "Bağlamı Algılayan Otomatik Oynatma",
+      "autoplayContextDesc": "Otomatik çalma artık kuyruk eklemeden önce mevcut sanatçının parçalarına öncelik veriyor.",
+      "tieredRecsTitle": "Katmanlı Öneri Motoru",
+      "tieredRecsDesc": "Öneriler artık isimle bulanık arama yapmak yerine doğrudan hedef sanatçının kataloğunu kullanıyor."
     },
     "v1_0_1": {
       "version": "v1.0.1",
@@ -550,18 +550,6 @@
       "fixed": "Düzeltmeler",
       "appNapTitle": "Kesintisiz arka plan oynatma",
       "appNapDesc": "macOS App Nap’in simge durumuna küçültülen oynatıcıyı askıya alması önlenerek sıranın kesintisiz devam etmesi sağlandı."
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Video Oynatma ve Altyazılar",
-      "videoDesc": "Sığdır/Doldur, klavye kısayolları, altyazı ve ses seçimi, zamanlama ayarlamaları ve PiP özellikli yeniden tasarlanmış video oynatıcı.",
-      "streamsTitle": "Ağ Akışları ve Oynatma Listeleri",
-      "streamsDesc": "Ağ akışları ve M3U, M3U8, PLS, XSPF ve ASX gibi oynatma listesi formatları için destek.",
-      "libraryTitle": "Gelişmiş Yerel Kütüphaneler",
-      "libraryDesc": "Çevrimdışı oynatma için derin klasör taraması, yerel video kitaplıkları ve gelişmiş sanatçı, albüm ve tür taraması."
     }
   },
   "support": {
@@ -595,12 +583,12 @@
     "advertisements": "Reklamlar",
     "categories": {
       "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "discovery": "Keşif",
+      "engineering": "Mühendislik",
+      "community": "Topluluk",
+      "guides": "Rehberler",
+      "education": "Eğitim",
+      "product": "Ürün"
     }
   }
 }

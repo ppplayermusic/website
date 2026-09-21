@@ -30,14 +30,14 @@
     "android": "Android",
     "windows": "Windows",
     "social": "ソーシャル",
-    "instagram": "Instagram",
+    "instagram": "インスタグラム",
     "linkedin": "LinkedIn",
-    "facebook": "Facebook",
+    "facebook": "フェイスブック",
     "github": "GitHub",
     "legal": "法的情報",
     "privacy": "プライバシー",
     "terms": "利用規約",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer ミュージック。",
     "source": "GitHub でソースを表示",
     "contribute": "貢献する",
     "changelog": "変更履歴",
@@ -54,11 +54,11 @@
     "title1": "音楽。",
     "title2": "摩擦なしで。",
     "desc": "無料でオープンソースの音楽プレイヤー。アカウント不要。サブスクリプション不要。ただ再生するだけ。",
-    "getIos": "iOS 向けを取得",
+    "getIos": "iOS（TestFlight）",
     "getAndroid": "Android 向けを取得",
     "getMac": "Mac 向けを取得",
     "getWindows": "Windows 向けを取得",
-    "getLinux": "Linux 向けを取得",
+    "getLinux": "Linux（実験的）",
     "badge": "無料でオープンソース",
     "source": "GitHub でソースを表示"
   },
@@ -69,7 +69,7 @@
     "title": "終わりのないリスニング。"
   },
   "goDeeper": {
-    "bgText": "FOLLOW",
+    "bgText": "フォロー",
     "title": "音楽をフォローする。"
   },
   "pressPlay": {
@@ -79,17 +79,17 @@
     "title": "必要なものすべて。",
     "subtitle": "パフォーマンスのために構築された、美しくネイティブな体験。",
     "searchTitle": "欲しいものを正確に見つける。",
-    "searchDesc": "トラック、アーティスト、アルバム全体をグローバルに瞬時に検索します。",
+    "searchDesc": "トラック、アーティスト、アルバム、ローカルビデオを瞬時にグローバル検索できます。",
     "queueTitle": "完璧にキューイング。",
     "queueDesc": "次に再生するものを、美しく並べ替え可能なキューで管理します。",
-    "favTitle": "あなたの音楽、あなたのルール。",
-    "favDesc": "ワンクリックで個人のライブラリを構築。いつでもそこにあります。",
+    "favTitle": "あなたのメディア、あなたのルール。",
+    "favDesc": "ワンクリックで自分のライブラリを作成。いつでもそこに。",
     "contextTitle": "デザインによるネイティブ。",
     "contextDesc": "どこでも右クリック。美しくコンテキストを認識するネイティブメニュー。",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "ネットワークストリーム",
-    "streamsDesc": "ライブTV、ラジオ、ネットワークプレイリスト (M3U, PLS, XSPF) をアプリ内で直接ストリーミングします。",
+    "videoTitle": "ローカルビデオ再生",
+    "videoDesc": "ローカルのビデオファイルをオフラインで再生し、字幕、ピクチャー・イン・ピクチャー（PiP）、およびフィット／フィルを利用できます。対応フォーマットはプラットフォームによって異なります。",
+    "streamsTitle": "ネットワークストリーミング",
+    "streamsDesc": "M3U/PLS プレイリストおよび互換性のある URL をストリーム再生します。YouTube は埋め込みプレーヤーを使用します。すべてのサードパーティの動画が再生できるわけではありません。",
     "videoPlaybackTitle": "ローカル動画再生",
     "videoPlaybackDesc": "字幕、オーディオトラック選択、ピクチャーインピクチャーモードをサポートし、ローカルの動画ファイルをシームレスに再生します。"
   },
@@ -127,7 +127,7 @@
     "reqs": {
       "macos": {
         "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
+        "arch": "Appleシリコン＆Intel（ユニバーサル）",
         "mem": "4 GB RAM (Recommended)"
       },
       "windows": {
@@ -198,11 +198,11 @@
         "a": "いいえ。PPPlayer は完全に無料です。表示されているすべてのものが無料で利用でき、アカウントは必要ありません。"
       },
       {
-        "q": "What media formats are supported?",
+        "q": "どのメディア形式がサポートされていますか？",
         "a": "PPPlayerは、MP3、FLAC、MP4、MKV、AVIなど、ほぼすべてのオーディオおよびビデオ形式をサポートしています。また、ネットワークストリームとM3U / M3U8プレイリストもサポートしています。"
       },
       {
-        "q": "Are there any special setup requirements for video?",
+        "q": "ビデオの特別な設定要件はありますか？",
         "a": "Windows、macOS、Android、iOSでは、PPPlayerはすぐに機能します。Linuxでは、ディストリビューションに応じて標準のメディアライブラリ（libmpvなど）をインストールする必要がある場合があります。"
       }
     ],
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone と iPad",
-      "desc": "iPhone と iPad 向けの App Store で利用可能。",
-      "badge": "App Store"
+      "desc": "iPhoneおよびiPad向けに、TestFlightとApp Storeでまもなく登場予定です。",
+      "badge": "テストフライト"
     },
     "android": {
       "name": "Android",
@@ -313,8 +313,8 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "label": "Windows 10以上",
+      "desc": "Microsoft Store から Windows 10 以降用をダウンロードしてください。",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,14 +326,14 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Linux 向けの直接ダウンロード。AppImage をサポート。",
-      "badge": "直接ダウンロード"
+      "desc": "Linux向けの実験的な直接ダウンロード。ハードウェアアクセラレーションは異なる場合があります。",
+      "badge": "実験的"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
+      "date": "2026年9月20日",
       "desc": "PPPlayerをビデオとネットワークストリーミングをサポートするフルメディアプレーヤーに変換する大規模なメジャーアップデート。",
       "added": "追加済み",
       "changed": "変更済み",
@@ -359,13 +359,13 @@
       "desc": "Google Play ストアでの公式 Android リリース。",
       "added": "追加",
       "androidTitle": "Android リリース",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "Androidデバイス向けの初回テストリリース。モバイルデバイスのサポートは現在積極的に開発中です。",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "2026年9月17日"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "2026年9月16日",
       "desc": "ライブラリ画面の改善とレスポンシブの修正。",
       "added": "追加",
       "fixed": "修正",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "2026年9月15日",
       "desc": "ピクチャーインピクチャーのサポート、ネイティブの起動画面など。",
       "added": "追加",
       "fixed": "修正",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "2026年9月14日",
       "desc": "自動ビルドとワークフローの改善。",
       "added": "追加",
       "ciTitle": "自動化されたワークフロー",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "2026年9月14日",
       "desc": "システムメディアコントロールの同期とコア機能。",
       "added": "追加",
       "syncTitle": "システムメディアコントロールの同期",
@@ -405,32 +405,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "2026年9月14日",
+      "desc": "翻訳の完全一致を達成し、UIのバグを修正しました。",
+      "added": "追加済み",
+      "fixed": "固定された",
+      "syncTitle": "完全なローカリゼーションの同等性",
+      "syncDesc": "30のすべての言語にわたって、翻訳キーを同期し、手動でキュレーションされた翻訳を適用しました。",
+      "uiTitle": "UIとリンクの修正",
+      "uiDesc": "ホームとライブラリの画面でのウィジェットのconstエラーを解決し、AboutダイアログのGitHubリポジトリのリンクを修正しました。"
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "2026年9月13日",
+      "desc": "このリリースにより、PPPlayerはさらに広い世界中のユーザーに届けられます。",
+      "added": "追加済み",
+      "localizationTitle": "追加の言語",
+      "localizationDesc": "ナイジェリア・ピジン語、フィリピン語、ラトビア語、ベンガル語、クロアチア語、マレー語、ペルシア語、エストニア語のローカリゼーションを追加しました。"
     },
     "back": "← PPPlayer に戻る",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "2026年9月12日",
+      "desc": "10の新しい言語でローカリゼーションのサポートを拡張しました。",
+      "added": "追加済み",
+      "fixed": "固定された",
+      "lang10Title": "10 の新しい言語",
+      "lang10Desc": "インドネシア語、ビルマ語、ポーランド語、デンマーク語、カザフ語、チェコ語、ハンガリー語、ジョージア語、スウェーデン語、ウズベク語の完全サポートを追加しました。"
     },
     "v1_1_2": {
       "version": "v1.1.2",
@@ -445,33 +445,33 @@
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "date": "2026年9月12日",
+      "desc": "再生のバグを修正し、アプリ起動時のシークバーを改善しました。",
+      "fixed": "固定された",
+      "snapTitle": "スタートアップシークバーのバグ",
+      "snapDesc": "アプリを起動した直後にシークバーをスライドすると、シークバーが即座に開始位置に戻ってしまう問題を修正しました。",
+      "durationTitle": "期間が不足しています",
+      "durationDesc": "アプリを起動したときにシークバーが 0:00 の再生時間を表示する問題を修正しました。"
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "date": "2026年9月11日",
+      "desc": "アプリ全体およびウェブサイト全体にわたる包括的な国際化とローカリゼーション。",
+      "new": "追加済み",
+      "langTitle": "11の世界言語",
+      "langDesc": "スペイン語、フランス語、ドイツ語、ポルトガル語、イタリア語、日本語、韓国語、中国語、ヒンディー語、ロシア語、アラビア語を完全にサポートするようになりました。",
+      "pickerTitle": "アプリ内言語選択",
+      "pickerDesc": "設定メニューにアプリ内言語選択機能を追加し、アプリを再起動せずに翻訳を即座に適用できるようにしました。",
+      "osTitle": "OSレベルの統合",
+      "osDesc": "Android 13以降およびiOSでのネイティブOSレベルの言語統合により、アプリの言語を自動的に同期します。"
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "date": "2026年9月11日",
+      "desc": "新規インストール用のホットフィックス。",
+      "fixed": "固定された",
+      "crashTitle": "スタートアップクラッシュ修正",
+      "crashDesc": "新規インストール時に環境設定ファイルの欠如によりアプリが空白画面でクラッシュする重大なバグを修正しました。"
     },
     "v1_0_5": {
       "version": "v1.0.5",
@@ -550,18 +550,6 @@
       "youtube": "YouTube によるオーディオ再生",
       "playlists": "プレイリスト、お気に入り、リスニング履歴",
       "platforms": "macOS、Windows、Linux のサポート"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "動画再生と字幕",
-      "videoDesc": "フィット/フィル、キーボードショートカット、字幕とオーディオ選択、タイミング調整、PiPを備えた再設計された動画プレーヤー。",
-      "streamsTitle": "ネットワークストリームとプレイリスト",
-      "streamsDesc": "ネットワークストリームとM3U、M3U8、PLS、XSPF、ASXなどのプレイリスト形式のサポート。",
-      "libraryTitle": "強化されたローカルライブラリ",
-      "libraryDesc": "深いフォルダスキャン、ローカル動画ライブラリ、オフライン再生のための改善されたアーティスト、アルバム、ジャンルのブラウジング。"
     }
   },
   "support": {

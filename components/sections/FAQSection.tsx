@@ -19,7 +19,7 @@ export default function FAQSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <p className="text-red-500 font-semibold text-sm uppercase tracking-widest mb-3">FAQ</p>
+          <p className="text-red-500 font-semibold text-sm uppercase tracking-widest mb-3">{t.has('label') ? t('label') : 'FAQ'}</p>
           <h2 className="text-4xl sm:text-5xl font-black tracking-tight mb-4 cursor-default">
             <SpotlightText>
               {t.rich("title", { gradient: (chunks) => <span className="gradient-text">{chunks}</span> })}

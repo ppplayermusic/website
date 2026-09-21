@@ -31,13 +31,13 @@
     "windows": "Windows",
     "social": "社交网络",
     "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
+    "linkedin": "领英",
+    "facebook": "脸书",
     "github": "GitHub",
     "legal": "法律声明",
     "privacy": "隐私政策",
     "terms": "服务条款",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer 音乐。",
     "source": "在 GitHub 上查看源码",
     "contribute": "参与贡献",
     "changelog": "更新日志",
@@ -54,11 +54,11 @@
     "title1": "音乐.",
     "title2": "无拘无束.",
     "desc": "免费、开源的音乐播放器。无需账号。无订阅。即刻播放。",
-    "getIos": "获取 iOS 版",
+    "getIos": "iOS（TestFlight）",
     "getAndroid": "获取 Android 版",
     "getMac": "获取 Mac 版",
     "getWindows": "获取 Windows 版",
-    "getLinux": "获取 Linux 版",
+    "getLinux": "Linux（实验性）",
     "badge": "免费且开源",
     "source": "在 GitHub 上查看源码"
   },
@@ -79,17 +79,17 @@
     "title": "应有尽有。",
     "subtitle": "为性能而构建的精美原生体验。",
     "searchTitle": "精准搜索您想要的。",
-    "searchDesc": "瞬间在所有曲目、艺术家和专辑中进行全局搜索。",
+    "searchDesc": "立即在曲目、艺术家、专辑和本地视频中进行全球搜索。",
     "queueTitle": "完美的播放队列。",
     "queueDesc": "使用精美且可重新排序的队列管理接下来的播放内容。",
-    "favTitle": "你的音乐，由你做主。",
-    "favDesc": "一键构建您的个人曲库。随时待命。",
+    "favTitle": "你的媒体，你的规则。",
+    "favDesc": "只需一键即可建立个人图书馆。随时可用。",
     "contextTitle": "原生设计。",
     "contextDesc": "在任何地方右键单击。精美、智能的原生菜单。",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "网络串流",
-    "streamsDesc": "直接在应用程序中播放直播电视、广播和网络播放列表（M3U、PLS、XSPF）。",
+    "videoTitle": "本地视频播放",
+    "videoDesc": "离线观看本地视频文件，并支持字幕、画中画以及适应/填充模式。格式支持因平台而异。",
+    "streamsTitle": "网络流媒体",
+    "streamsDesc": "流式传输 M3U/PLS 播放列表和兼容的 URL。YouTube 使用嵌入式播放器。并非所有第三方视频都可以播放。",
     "videoPlaybackTitle": "本地视频播放",
     "videoPlaybackDesc": "无缝播放本地视频文件，支持字幕、音轨选择和画中画模式。"
   },
@@ -127,7 +127,7 @@
     "reqs": {
       "macos": {
         "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
+        "arch": "苹果硅与英特尔（通用）",
         "mem": "4 GB RAM (Recommended)"
       },
       "windows": {
@@ -198,11 +198,11 @@
         "a": "没有。PPPlayer 完全免费。您所看到的一切都可免费使用，无需账号。"
       },
       {
-        "q": "What media formats are supported?",
+        "q": "支持哪些媒体格式？",
         "a": "PPPlayer 支持几乎所有的音频和视频格式，包括 MP3、FLAC、MP4、MKV 和 AVI。它还支持网络流和 M3U/M3U8 播放列表。"
       },
       {
-        "q": "Are there any special setup requirements for video?",
+        "q": "视频有任何特殊设置要求吗？",
         "a": "在 Windows、macOS、Android 和 iOS 上，PPPlayer 开箱即用。在 Linux 上，您可能需要根据您的发行版安装标准媒体库（如 libmpv）。"
       }
     ],
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone 和 iPad",
-      "desc": "适用于 iPhone 和 iPad，在 App Store 提供。",
-      "badge": "App Store"
+      "desc": "即将推出，适用于 iPhone 和 iPad 的 TestFlight 和 App Store。",
+      "badge": "测试飞行"
     },
     "android": {
       "name": "Android",
@@ -313,8 +313,8 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "label": "Windows 10及以上",
+      "desc": "从 Microsoft Store 下载适用于 Windows 10 及更高版本的版本。",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,14 +326,14 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "适用于 Linux 的直接下载版本。支持 AppImage。",
-      "badge": "直接下载"
+      "desc": "针对 Linux 的实验性直接下载。硬件加速可能有所不同。",
+      "badge": "实验性的"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
+      "date": "2026年9月20日",
       "desc": "大规模的重大更新将PPPlayer转变为支持视频和网络流的完整媒体播放器。",
       "added": "已添加",
       "changed": "已更改",
@@ -359,13 +359,13 @@
       "desc": "Google Play 商店的官方 Android 版本。",
       "added": "已添加",
       "androidTitle": "Android 版本",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "针对安卓设备的初始测试版本。移动设备支持正在积极开发中。",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "2026年9月17日"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "2026年9月16日",
       "desc": "库屏幕改进和响应式修复。",
       "added": "已添加",
       "fixed": "已修复",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "2026年9月15日",
       "desc": "画中画支持、本机启动屏幕等。",
       "added": "已添加",
       "fixed": "已修复",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "2026年9月14日",
       "desc": "自动化构建和工作流程改进。",
       "added": "已添加",
       "ciTitle": "自动化工作流程",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "2026年9月14日",
       "desc": "系统媒体控件同步和核心功能。",
       "added": "已添加",
       "syncTitle": "系统媒体控件同步",
@@ -405,32 +405,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "2026年9月14日",
+      "desc": "实现了100%的翻译一致性并修复了用户界面错误。",
+      "added": "已添加",
+      "fixed": "已修复",
+      "syncTitle": "完全本地化一致性",
+      "syncDesc": "同步了翻译键，并在所有30种语言中应用了手动整理的翻译。",
+      "uiTitle": "界面和链接修复",
+      "uiDesc": "已解决主页和库屏幕中的小部件常量错误，并修复关于对话框中的 GitHub 仓库链接。"
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "2026年9月13日",
+      "desc": "此次发布将 PPPlayer 推向了更广泛的全球受众。",
+      "added": "已添加",
+      "localizationTitle": "其他语言",
+      "localizationDesc": "已添加尼日利亚皮钦语、菲律宾语、拉脱维亚语、孟加拉语、克罗地亚语、马来语、波斯语和爱沙尼亚语的本地化内容。"
     },
     "back": "← 返回 PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "2026年9月12日",
+      "desc": "扩展本地化支持，新增 10 种语言。",
+      "added": "已添加",
+      "fixed": "已修复",
+      "lang10Title": "10 种新语言",
+      "lang10Desc": "已添加对印尼语、缅甸语、波兰语、丹麦语、哈萨克语、捷克语、匈牙利语、格鲁吉亚语、瑞典语和乌兹别克语的全面支持。"
     },
     "v1_1_2": {
       "version": "v1.1.2",
@@ -550,18 +550,6 @@
       "youtube": "由 YouTube 提供支持的音频播放",
       "playlists": "播放列表、收藏夹和听歌历史",
       "platforms": "支持 macOS、Windows 和 Linux"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "视频播放和字幕",
-      "videoDesc": "重新设计的视频播放器，具有适合/填充、键盘快捷键、字幕和音频选择、时间调整和画中画功能。",
-      "streamsTitle": "网络串流和播放列表",
-      "streamsDesc": "支持网络流和播放列表格式，如 M3U、M3U8、PLS、XSPF 和 ASX。",
-      "libraryTitle": "增强的本地库",
-      "libraryDesc": "深度文件夹扫描、本地视频库以及改进的艺术家、专辑和流派浏览功能，用于离线播放。"
     }
   },
   "support": {

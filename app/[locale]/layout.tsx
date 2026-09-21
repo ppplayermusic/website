@@ -19,7 +19,7 @@ const notoSansArabic = Noto_Sans_Arabic({
   weight: ['400', '500', '600', '700', '900'],
 })
 
-const RTL_LOCALES = new Set(['ar'])
+const RTL_LOCALES = new Set(['ar', 'fa'])
 
 export const metadata: Metadata = {
   title: {

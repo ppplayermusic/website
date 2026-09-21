@@ -54,11 +54,11 @@
     "title1": "La musique.",
     "title2": "Sans friction.",
     "desc": "Un lecteur de musique gratuit et open source. Sans compte. Sans abonnement. Lancez la lecture.",
-    "getIos": "Obtenir pour iOS",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Obtenir pour Android",
     "getMac": "Obtenir pour Mac",
     "getWindows": "Obtenir pour Windows",
-    "getLinux": "Obtenir pour Linux",
+    "getLinux": "Linux (Experimental)",
     "badge": "Gratuit et open source",
     "source": "Voir le code sur GitHub"
   },
@@ -79,17 +79,17 @@
     "title": "Tout ce dont vous avez besoin.",
     "subtitle": "Une expérience native magnifique, conçue pour la performance.",
     "searchTitle": "Trouvez exactement ce que vous voulez.",
-    "searchDesc": "Recherchez globalement parmi les titres, artistes et albums instantanément.",
+    "searchDesc": "Recherchez globalement parmi les pistes, les artistes, les albums et les vidéos locales instantanément.",
     "queueTitle": "Parfaitement mis en file d'attente.",
     "queueDesc": "Gérez ce qui suit avec une file d'attente magnifique et réorganisable.",
-    "favTitle": "Votre musique, vos règles.",
-    "favDesc": "Créez votre bibliothèque personnelle en un clic. Toujours là.",
+    "favTitle": "Vos médias, vos règles.",
+    "favDesc": "Créez votre bibliothèque personnelle en un seul clic. Toujours là.",
     "contextTitle": "Natif par conception.",
     "contextDesc": "Faites un clic droit n'importe où. Menus contextuels natifs et magnifiques.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Flux réseau",
-    "streamsDesc": "Diffusez la télévision en direct, la radio et les listes de lecture réseau (M3U, PLS, XSPF) directement dans l'application.",
+    "videoTitle": "Lecture vidéo locale.",
+    "videoDesc": "Lisez vos fichiers vidéo locaux hors ligne avec sous-titres, PiP et ajustement/remplissage. La prise en charge des formats varie selon la plateforme.",
+    "streamsTitle": "Diffusion réseau.",
+    "streamsDesc": "Diffusez des listes de lecture M3U/PLS et des URL compatibles. YouTube utilise un lecteur intégré. Toutes les vidéos tierces ne sont pas compatibles.",
     "videoPlaybackTitle": "Lecture vidéo locale",
     "videoPlaybackDesc": "Lisez vos vidéos locales en toute fluidité avec la prise en charge des sous-titres, la sélection des pistes audio et le mode Image dans l'image."
   },
@@ -198,12 +198,12 @@
         "a": "Non. PPPlayer est entièrement gratuit. Tout ce que vous voyez est disponible sans frais."
       },
       {
-        "q": "What media formats are supported?",
-        "a": "PPPlayer prend en charge presque tous les formats audio et vidéo, y compris MP3, FLAC, MP4, MKV et AVI. Il prend également en charge les flux réseau et les listes M3U/M3U8."
+        "q": "Quels formats multimédias sont pris en charge ?",
+        "a": "PPPlayer prend en charge presque tous les formats audio et vidéo, y compris MP3, FLAC, MP4, MKV et AVI. Il prend également en charge les flux réseau et les listes de lecture M3U/M3U8."
       },
       {
-        "q": "Are there any special setup requirements for video?",
-        "a": "Sur Windows, macOS, Android et iOS, PPPlayer fonctionne immédiatement. Sur Linux, vous devrez peut-être installer des bibliothèques multimédias standard (comme libmpv) selon votre distribution."
+        "q": "Y a-t-il des exigences de configuration spécifiques pour la vidéo ?",
+        "a": "Sur Windows, macOS, Android et iOS, PPPlayer fonctionne immédiatement. Sur Linux, vous devrez peut-être installer des bibliothèques multimédias standard (comme libmpv) en fonction de votre distribution."
       }
     ],
     "openSourceQuestion": "PPPlayer est-il open source ?",
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone & iPad",
-      "desc": "Disponible sur l'App Store pour iPhone et iPad.",
-      "badge": "App Store"
+      "desc": "Bientôt disponible sur TestFlight et l'App Store pour iPhone et iPad.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -314,7 +314,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Téléchargez pour Windows 10 et ultérieur depuis le Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,32 +326,32 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Téléchargement direct pour Linux. Compatible AppImage.",
-      "badge": "Téléchargement Direct"
+      "desc": "Téléchargement direct expérimental pour Linux. L'accélération matérielle peut varier.",
+      "badge": "Expérimental"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
-      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.",
-      "added": "Added",
-      "changed": "Changed",
-      "fixed": "Fixed",
-      "videoTitle": "Local Video Support",
-      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.",
-      "streamTitle": "Network Streaming",
-      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.",
-      "subtitleTitle": "Advanced Subtitles",
-      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.",
-      "speedTitle": "Playback Speed & Autoplay",
-      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.",
-      "exportTitle": "Media Export",
-      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.",
-      "languagesTitle": "New Languages & Genres",
-      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
-      "stabilityTitle": "Core Overhaul",
-      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+      "date": "20 septembre 2026",
+      "desc": "Une mise à jour majeure massive transformant PPPlayer en un lecteur multimédia complet avec prise en charge vidéo et réseau.",
+      "added": "Ajouté",
+      "changed": "Modifié",
+      "fixed": "Corrigé",
+      "videoTitle": "Prise en charge vidéo locale",
+      "videoDesc": "Bibliothèque vidéo locale complète et lecture incluant des commandes vidéo et la génération automatique de miniatures.",
+      "streamTitle": "Diffusion réseau",
+      "streamDesc": "Prise en charge native des flux réseau avec analyse des listes de lecture M3U et résolution directe d'URL.",
+      "subtitleTitle": "Sous-titres avancés",
+      "subtitleDesc": "Prise en charge complète des sous-titres, y compris la personnalisation, le réglage du délai et une interface de sélection intuitive.",
+      "speedTitle": "Vitesse de lecture & Autoplay",
+      "speedDesc": "Ajout de commandes de vitesse de lecture flexibles et d'un bouton de lecture automatique directement dans la vue de la file d'attente.",
+      "exportTitle": "Exportation de médias",
+      "exportDesc": "Exportez facilement vos listes de lecture personnalisées et vos files d'attente de lecture vers votre appareil local.",
+      "languagesTitle": "Nouvelles langues & Genres",
+      "languagesDesc": "Ajout des localisations officielles en turc et en guarani, ainsi que la prise en charge de la navigation dans les genres locaux.",
+      "stabilityTitle": "Refonte du moteur central",
+      "stabilityDesc": "Refonte de l'architecture du moteur de lecture pour une meilleure stabilité, des en-têtes HTTP personnalisés et une gestion stricte des délais d'attente."
     },
     "title": "Journal des modifications",
     "subtitle": "Quoi de neuf dans PPPlayer.",
@@ -359,13 +359,13 @@
       "desc": "Sortie officielle de l'application Android sur le Google Play Store.",
       "added": "Ajouté",
       "androidTitle": "Sortie Android",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "Version de test initiale pour les appareils Android. La prise en charge des appareils mobiles est en cours de développement actif.",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "17 septembre 2026"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "16 septembre 2026",
       "desc": "Améliorations de l'écran de la bibliothèque et correctifs de réactivité.",
       "added": "Ajouté",
       "fixed": "Corrigé",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "15 septembre 2026",
       "desc": "Prise en charge de l'incrustation d'image (PiP), écrans de démarrage natifs et plus encore.",
       "added": "Ajouté",
       "fixed": "Corrigé",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "14 septembre 2026",
       "desc": "Compilations automatisées et améliorations du flux de travail.",
       "added": "Ajouté",
       "ciTitle": "Flux de travail automatisés",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "14 septembre 2026",
       "desc": "Synchronisation des contrôles multimédias du système et fonctionnalités principales.",
       "added": "Ajouté",
       "syncTitle": "Synchronisation des contrôles multimédias du système",
@@ -405,32 +405,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "14 septembre 2026",
+      "desc": "Parité de traduction à 100 % atteinte et correction de bugs de l'interface utilisateur.",
+      "added": "Ajouté",
+      "fixed": "Corrigé",
+      "syncTitle": "Parité totale de la localisation",
+      "syncDesc": "Clés de traduction synchronisées et traductions soigneusement appliquées dans les 30 langues.",
+      "uiTitle": "Corrections de l'interface utilisateur et des liens",
+      "uiDesc": "Correction des erreurs const de widgets sur les écrans d'accueil et de bibliothèque, et correction des liens du dépôt GitHub dans la boîte de dialogue À propos."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "13 septembre 2026",
+      "desc": "Cette version apporte PPPlayer à un public mondial encore plus large.",
+      "added": "Ajouté",
+      "localizationTitle": "Langues supplémentaires",
+      "localizationDesc": "Ajout de localisations pour le pidgin nigérian, le philippin, le letton, le bengali, le croate, le malais, le persan et l'estonien."
     },
     "back": "← Retour à PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "12 septembre 2026",
+      "desc": "Prise en charge de la localisation étendue avec 10 nouvelles langues.",
+      "added": "Ajouté",
+      "fixed": "Corrigé",
+      "lang10Title": "10 Nouvelles langues",
+      "lang10Desc": "Ajout d'une prise en charge complète de l'indonésien, birman, polonais, danois, kazakh, tchèque, hongrois, géorgien, suédois et ouzbek."
     },
     "v1_1_2": {
       "version": "v1.1.2",
@@ -445,72 +445,72 @@
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "date": "12 septembre 2026",
+      "desc": "Correction des bugs de lecture et amélioration de la barre de progression au démarrage de l'application.",
+      "fixed": "Corrigé",
+      "snapTitle": "Bug de la barre de progression au démarrage",
+      "snapDesc": "Correction d'un problème où la barre de progression revenait instantanément au début lors du balayage immédiatement après le démarrage de l'application.",
+      "durationTitle": "Durée manquante",
+      "durationDesc": "Correction de la barre de progression affichant une durée de 0:00 lors du premier lancement de l'application."
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "date": "11 septembre 2026",
+      "desc": "Internationalisation et localisation complètes dans toute l'application et le site Web.",
+      "new": "Ajouté",
+      "langTitle": "11 Langues Mondiales",
+      "langDesc": "Ajout d'une prise en charge complète pour l'espagnol, le français, l'allemand, le portugais, l'italien, le japonais, le coréen, le chinois, l'hindi, le russe et l'arabe.",
+      "pickerTitle": "Sélecteur de langue intégré à l'application",
+      "pickerDesc": "Ajout d'un sélecteur de langue dans le menu Préférences qui applique les traductions instantanément sans redémarrer l'application.",
+      "osTitle": "Intégration au niveau du système d'exploitation",
+      "osDesc": "Intégrations natives de la langue au niveau du système d'exploitation sur Android 13+ et iOS pour synchroniser automatiquement la langue de l'application."
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "date": "11 septembre 2026",
+      "desc": "Correctif pour les nouvelles installations.",
+      "fixed": "Corrigé",
+      "crashTitle": "Correction du plantage au démarrage",
+      "crashDesc": "Correction d'un bug critique provoquant le plantage de l'application sur un écran vide lors de nouvelles installations en raison d'un fichier de configuration d'environnement manquant."
     },
     "v1_0_4": {
       "version": "v1.0.4",
-      "date": "September 11, 2026",
-      "desc": "Automated releases and code signing.",
-      "new": "New",
-      "fixed": "Fixed",
-      "ciTitle": "Automated Release Pipeline",
-      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
-      "signedTitle": "Signed macOS Releases",
-      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
-      "licenseTitle": "Open Source License",
-      "licenseDesc": "Added MIT License to the repository.",
-      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+      "date": "11 septembre 2026",
+      "desc": "Versions automatisées et signature de code.",
+      "new": "Nouveau",
+      "fixed": "Corrigé",
+      "ciTitle": "Pipeline de publication automatisé",
+      "ciDesc": "Flux de travail GitHub Actions pour des versions cohérentes et la signature de code macOS.",
+      "signedTitle": "Versions macOS signées",
+      "signedDesc": "Des versions macOS officielles, signées et notariées, sont désormais disponibles directement sur le site Web.",
+      "licenseTitle": "Licence Open Source",
+      "licenseDesc": "Ajout de la licence MIT au dépôt.",
+      "submoduleFix": "Correction de la configuration d'extraction de sous-modules dans les flux de travail CI"
     },
     "v1_0_3": {
       "version": "v1.0.3",
-      "date": "September 10, 2026",
-      "desc": "Background playback and stability.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "hybridEngineTitle": "Hybrid Playback Engine",
-      "hybridEngineDesc": "Robust background processing and lock-screen playback capabilities.",
-      "dedupTitle": "Command Deduplication",
-      "dedupDesc": "Added generation IDs to prevent overlapping and stale media commands across WebView bridge.",
-      "queueAdvance": "Song queue not automatically advancing to the next track",
-      "resumeBug": "Paused track unexpectedly resuming when handing off from foreground to PiP or background",
-      "precision": "Accurate millisecond precision reporting for current track position and playback duration",
-      "linter": "Eliminated several IDE linter errors and cleaned up redundant files"
+      "date": "10 septembre 2026",
+      "desc": "Lecture en arrière-plan et stabilité.",
+      "new": "Nouveau",
+      "improved": "Amélioré",
+      "fixed": "Corrigé",
+      "hybridEngineTitle": "Moteur de lecture hybride",
+      "hybridEngineDesc": "Traitement robuste en arrière-plan et capacités de lecture sur l'écran de verrouillage.",
+      "dedupTitle": "Déduplication des commandes",
+      "dedupDesc": "Ajout d'ID de génération pour empêcher le chevauchement et les commandes multimédias obsolètes via le pont WebView.",
+      "queueAdvance": "La file d'attente des chansons ne passait pas automatiquement à la piste suivante",
+      "resumeBug": "La piste en pause reprenait inopinément lors du passage du premier plan au PiP ou à l'arrière-plan",
+      "precision": "Rapports précis à la milliseconde près pour la position actuelle de la piste et la durée de lecture",
+      "linter": "Élimination de plusieurs erreurs du linter de l'IDE et nettoyage de fichiers redondants"
     },
     "v1_0_2": {
       "version": "v1.0.2",
-      "date": "September 9, 2026",
-      "desc": "Smarter, context-based autoplay.",
-      "autoplayContextTitle": "Context-Aware Autoplay",
-      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
-      "tieredRecsTitle": "Tiered Recommendation Engine",
-      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+      "date": "9 septembre 2026",
+      "desc": "Lecture automatique intelligente, basée sur le contexte.",
+      "autoplayContextTitle": "Lecture automatique contextuelle",
+      "autoplayContextDesc": "La lecture automatique donne désormais la priorité aux pistes de l'artiste actuel avant d'ajouter des artistes liés à la file d'attente.",
+      "tieredRecsTitle": "Moteur de recommandation hiérarchisé",
+      "tieredRecsDesc": "Les recommandations utilisent désormais strictement le catalogue de l'artiste cible au lieu d'une recherche approximative par nom."
     },
     "v1_0_1": {
       "version": "v1.0.1",
@@ -550,18 +550,6 @@
       "fixed": "Corrections",
       "appNapTitle": "Lecture continue en arrière-plan",
       "appNapDesc": "Empêche App Nap de macOS de suspendre le lecteur lorsqu’il est réduit, afin que la file de lecture continue sans interruption."
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Lecture vidéo et sous-titres",
-      "videoDesc": "Lecteur vidéo repensé avec Ajuster/Remplir, raccourcis clavier, sélection de sous-titres et d'audio, ajustements temporels et mode Image dans l'image.",
-      "streamsTitle": "Flux et listes de lecture",
-      "streamsDesc": "Prise en charge des flux réseau et des formats de liste de lecture tels que M3U, M3U8, PLS, XSPF et ASX.",
-      "libraryTitle": "Bibliothèques locales améliorées",
-      "libraryDesc": "Analyse approfondie des dossiers, bibliothèques vidéo locales et navigation améliorée par artiste, album et genre pour une lecture hors ligne."
     }
   },
   "support": {

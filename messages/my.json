@@ -54,11 +54,11 @@
     "title1": "တေးဂီတ။",
     "title2": "အဟန့်အတားမရှိ။",
     "desc": "အခမဲ့ဖြစ်သော open-source တေးဂီတ ပလေယာ။ အကောင့်မလိုပါ။ စာရင်းသွင်းစရာမလိုပါ။ ဖွင့်ရုံသာ။",
-    "getIos": "iOS အတွက် ရယူရန်",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Android အတွက် ရယူရန်",
     "getMac": "Mac အတွက် ရယူရန်",
     "getWindows": "Windows အတွက် ရယူရန်",
-    "getLinux": "Linux အတွက် ရယူရန်",
+    "getLinux": "Linux (Experimental)",
     "badge": "အခမဲ့ & open source",
     "source": "GitHub တွင် ကုဒ်ရင်းမြစ်ကို ကြည့်ရန်"
   },
@@ -79,17 +79,17 @@
     "title": "သင်လိုအပ်သမျှ အရာအားလုံး။",
     "subtitle": "စွမ်းဆောင်ရည်အတွက် တည်ဆောက်ထားသော လှပသည့် native အတွေ့အကြုံ။",
     "searchTitle": "သင်အလိုရှိရာကို အတိအကျရှာပါ။",
-    "searchDesc": "သီချင်းများ၊ အနုပညာရှင်များနှင့် အယ်လ်ဘမ်များတစ်လျှောက် ချက်ချင်းရှာဖွေပါ။",
+    "searchDesc": "သီချင်းများ၊ အနုပညာရှင်များ၊ အယ်လ်ဘမ်များနှင့် ဒေသတွင်းဗီဒီယိုများကို ချက်ချင်း ရှာဖွေပါ။",
     "queueTitle": "ပြီးပြည့်စုံစွာ တန်းစီထားသည်။",
     "queueDesc": "လှပပြီး ပြန်လည်စီစဉ်နိုင်သော တန်းစီစာရင်းဖြင့် နောက်ဆက်ဖွင့်မည့်အရာကို စီမံပါ။",
-    "favTitle": "သင့်တေးဂီတ၊ သင့်စည်းမျဉ်းများ။",
-    "favDesc": "သင့်ကိုယ်ပိုင် စာကြည့်တိုက်ကို ကလစ်တစ်ချက်တည်းဖြင့် တည်ဆောက်ပါ။ အမြဲတမ်းရှိနေပါသည်။",
+    "favTitle": "သင့်မီဒီယာ၊ သင့်စည်းမျဉ်းများ။",
+    "favDesc": "တစ်ချက်နှိပ်ရုံဖြင့် သင့်ကိုယ်ပိုင်စာကြည့်တိုက်ကို တည်ဆောက်ပါ။ အမြဲတမ်းရှိနေပါသည်။",
     "contextTitle": "Native ဒီဇိုင်း။",
     "contextDesc": "နေရာမရွေး ညာကလစ်နှိပ်ပါ။ လှပပြီး အခြေအနေနှင့်ကိုက်ညီသော native မီနူးများ။",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Network Streams.",
-    "streamsDesc": "Play M3U, PLS, XSPF, and ASX streams seamlessly."
+    "videoTitle": "ဒေသတွင်း ဗီဒီယို ဖွင့်ခြင်း။",
+    "videoDesc": "ဒေသတွင်း ဗီဒီယိုဖိုင်များကို စာတန်းထိုးများ၊ PiP နှင့် အံကိုက်/အပြည့်တို့ဖြင့် အော့ဖ်လိုင်းဖွင့်ပါ။ ဖော်မတ်ပံ့ပိုးမှုသည် ပလက်ဖောင်းအလိုက် ကွဲပြားပါသည်။",
+    "streamsTitle": "ကွန်ရက် လွှင့်ထုတ်ခြင်း။",
+    "streamsDesc": "M3U/PLS ဖွင့်စာရင်းများနှင့် ကိုက်ညီသော URL များကို လွှင့်ထုတ်ပါ။ YouTube သည် ထည့်သွင်းထားသော ပလေယာကို အသုံးပြုသည်။ တတိယပါတီ ဗီဒီယိုအားလုံးကို ဖွင့်၍မရပါ။"
   },
   "noAccount": {
     "title": "အကောင့်မလိုပါ။",
@@ -124,29 +124,29 @@
     "reqTitle": "{platform} လိုအပ်ချက်များ",
     "reqs": {
       "macos": {
-        "os": "macOS 10.15 Catalina or newer",
+        "os": "macOS 10.15 Catalina သို့မဟုတ် နောက်ပိုင်း",
         "arch": "Apple Silicon & Intel (Universal)",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (အကြံပြုထားသည်)"
       },
       "windows": {
-        "os": "Windows 10 or later (64-bit)",
+        "os": "Windows 10 သို့မဟုတ် နောက်ပိုင်း (64-bit)",
         "arch": "x64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (အကြံပြုထားသည်)"
       },
       "linux": {
-        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "os": "Ubuntu 20.04 သို့မဟုတ် နောက်ပိုင်း (စမ်းသပ်ဆဲ)",
         "arch": "x86_64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (အကြံပြုထားသည်)"
       },
       "ios": {
-        "os": "iOS 13.0 or newer",
+        "os": "iOS 13.0 သို့မဟုတ် နောက်ပိုင်း",
         "arch": "ARM64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (အကြံပြုထားသည်)"
       },
       "android": {
-        "os": "Android 7.0 (API 24) or newer",
+        "os": "Android 7.0 (API 24) သို့မဟုတ် နောက်ပိုင်း",
         "arch": "ARM64 / ARM / x86_64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (အကြံပြုထားသည်)"
       }
     }
   },
@@ -173,11 +173,11 @@
       },
       {
         "q": "PPPlayer ကို iPhone အတွက် ရနိုင်ပါသလား။",
-        "a": "PPPlayer for iOS is currently in development. We are actively working on an App Store release."
+        "a": "iOS အတွက် PPPlayer သည် လက်ရှိတွင် တည်ဆောက်ဆဲဖြစ်သည်။ App Store တွင် ထုတ်ဝေရန် ကျွန်ုပ်တို့ တက်ကြွစွာ လုပ်ဆောင်နေပါသည်။"
       },
       {
         "q": "PPPlayer ကို Android အတွက် ရနိုင်ပါသလား။",
-        "a": "PPPlayer for Android is currently in development. We are actively working on a Google Play Store release."
+        "a": "Android အတွက် PPPlayer သည် လက်ရှိတွင် တည်ဆောက်ဆဲဖြစ်သည်။ Google Play Store တွင် ထုတ်ဝေရန် ကျွန်ုပ်တို့ တက်ကြွစွာ လုပ်ဆောင်နေပါသည်။"
       },
       {
         "q": "PPPlayer ကို Windows တွင် အသုံးပြုနိုင်ပါသလား။",
@@ -196,12 +196,12 @@
         "a": "မရှိပါ။ PPPlayer သည် လုံးဝအခမဲ့ဖြစ်သည်။ သင်မြင်ရသမျှအရာအားလုံးကို အခကြေးငွေမပါဘဲ ရရှိနိုင်ပြီး အကောင့်မလိုပါ။"
       },
       {
-        "q": "What media formats are supported?",
-        "a": "PPPlayer supports almost all audio and video formats, including MP3, FLAC, MP4, MKV, and AVI. It also supports network streams and M3U/M3U8 playlists."
+        "q": "မည်သည့် မီဒီယာ ဖော်မတ်များကို ပံ့ပိုးပေးသနည်း။",
+        "a": "PPPlayer သည် MP3, FLAC, MP4, MKV နှင့် AVI အပါအဝင် အသံနှင့် ဗီဒီယို ဖော်မတ်အားလုံးနီးပါးကို ပံ့ပိုးပေးသည်။ ၎င်းသည် ကွန်ရက် လွှင့်ထုတ်မှုများနှင့် M3U/M3U8 ဖွင့်စာရင်းများကိုလည်း ပံ့ပိုးပေးသည်။"
       },
       {
-        "q": "Are there any special setup requirements for video?",
-        "a": "On Windows, macOS, Android, and iOS, PPPlayer works out of the box. On Linux, you may need to install standard media libraries (like libmpv) depending on your distribution."
+        "q": "ဗီဒီယိုအတွက် အထူး သတ်မှတ်ချက်များ ရှိပါသလား။",
+        "a": "Windows, macOS, Android နှင့် iOS တွင် PPPlayer သည် ချက်ချင်း အလုပ်လုပ်သည်။ Linux တွင် သင့်ဖြန့်ဝေမှုပေါ်မူတည်၍ (libmpv ကဲ့သို့သော) စံ မီဒီယာ လိုင်ဘရီများကို ထည့်သွင်းရန် လိုအပ်နိုင်သည်။"
       }
     ],
     "openSourceQuestion": "PPPlayer သည် open source ဖြစ်ပါသလား။",
@@ -300,8 +300,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone & iPad",
-      "desc": "iPhone နှင့် iPad အတွက် App Store တွင် ရနိုင်ပါသည်။",
-      "badge": "App Store"
+      "desc": "iPhone နှင့် iPad အတွက် TestFlight နှင့် App Store သို့ မကြာမီ လာမည်။",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -312,7 +312,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Windows 10 နှင့် နောက်ပိုင်းအတွက် Microsoft Store မှ ဒေါင်းလုဒ်လုပ်ပါ။",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -324,14 +324,14 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Linux အတွက် တိုက်ရိုက်ဒေါင်းလုဒ်။ AppImage ဖော်မတ်ကို ထောက်ပံ့သည်။",
-      "badge": "တိုက်ရိုက် ဒေါင်းလုဒ်"
+      "desc": "Linux အတွက် စမ်းသပ်ဆဲ တိုက်ရိုက်ဒေါင်းလုဒ်။ ဟာ့ဒ်ဝဲ အရှိန်မြှင့်တင်မှု ကွာခြားနိုင်သည်။",
+      "badge": "Experimental"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
+      "date": "စက်တင်ဘာ ၂၀၊ ၂၀၂၆",
       "desc": "ဗီဒီယိုနှင့်ကွန်ယက် streaming များထောက်ခံမှုနှင့်အတူအပြည့်အဝမီဒီယာကစားသမားအဖြစ် PPPlayer ပြောင်းလဲနေတဲ့ကြီးမားတဲ့ update ကို ။",
       "added": "ထည့်ပြီး",
       "changed": "ပြောင်းလဲထားသည်",
@@ -357,13 +357,13 @@
       "desc": "Google Play Store တွင် တရားဝင် Android ထွက်ရှိမှု။",
       "added": "ထည့်သွင်းထားသည်",
       "androidTitle": "Android ထွက်ရှိမှု",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "Android စက်များအတွက် ကနဦး စမ်းသပ် ထုတ်ဝေမှု။ မိုဘိုင်းစက်ပစ္စည်းများအတွက် ပံ့ပိုးမှုကို တက်ကြွစွာ တည်ဆောက်နေပါသည်။",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "စက်တင်ဘာ ၁၇၊ ၂၀၂၆"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "စက်တင်ဘာ ၁၆၊ ၂၀၂၆",
       "desc": "စာကြည့်တိုက် ဖန်သားပြင် တိုးတက်မှုများနှင့် တုံ့ပြန်မှု ပြုပြင်မှုများ။",
       "added": "ထည့်သွင်းထားသည်",
       "fixed": "ပြုပြင်ပြီး",
@@ -372,7 +372,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "စက်တင်ဘာ ၁၅၊ ၂၀၂၆",
       "desc": "ရုပ်ပုံ-အတွင်း-ရုပ်ပုံ ပံ့ပိုးမှု၊ မူရင်းစပလက်ရှ် ဖန်သားပြင်များနှင့် အခြားအရာများ။",
       "added": "ထည့်သွင်းထားသည်",
       "fixed": "ပြုပြင်ပြီး",
@@ -385,7 +385,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "စက်တင်ဘာ ၁၄၊ ၂၀၂၆",
       "desc": "အလိုအလျောက် တည်ဆောက်မှုများနှင့် လုပ်ငန်းအသွားအလာ တိုးတက်မှုများ။",
       "added": "ထည့်သွင်းထားသည်",
       "ciTitle": "အလိုအလျောက် အလုပ်အသွားအလာများ",
@@ -393,7 +393,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "စက်တင်ဘာ ၁၄၊ ၂၀၂၆",
       "desc": "စနစ်မီဒီယာ ထိန်းချုပ်မှု စင့်ခ်လုပ်ခြင်းနှင့် အဓိက အင်္ဂါရပ်များ။",
       "added": "ထည့်သွင်းထားသည်",
       "syncTitle": "စနစ်မီဒီယာ ထိန်းချုပ်မှု ထပ်တူပြုခြင်း",
@@ -403,32 +403,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "စက်တင်ဘာ ၁၄၊ ၂၀၂၆",
+      "desc": "100% ဘာသာပြန်ညီမျှမှုကို ရရှိခဲ့ပြီး UI ချို့ယွင်းချက်များကို ပြင်ဆင်ခဲ့သည်။",
+      "added": "ထည့်သွင်းထားသည်",
+      "fixed": "ပြုပြင်ပြီး",
+      "syncTitle": "အပြည့်အဝ ဘာသာပြန် ညီမျှမှု",
+      "syncDesc": "ဘာသာပြန်ကီးများကို ထပ်တူပြုပြီး ဘာသာစကား ၃၀ လုံးတွင် ကိုယ်တိုင်ရွေးချယ်ထားသော ဘာသာပြန်ဆိုမှုများကို အသုံးချခဲ့သည်။",
+      "uiTitle": "UI နှင့် လင့်ခ် ပြင်ဆင်မှုများ",
+      "uiDesc": "Home နှင့် Library ဖန်သားပြင်များရှိ widget const အမှားများကို ဖြေရှင်းခဲ့ပြီး About ဒိုင်ယာလော့ခ်ရှိ GitHub သိုလှောင်ခန်း လင့်ခ်များကို ပြင်ဆင်ခဲ့သည်။"
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "စက်တင်ဘာ ၁၃၊ ၂၀၂၆",
+      "desc": "ဤထုတ်ဝေမှုသည် PPPlayer ကို ပိုမိုကျယ်ပြန့်သော ကမ္ဘာလုံးဆိုင်ရာ ပရိသတ်ထံသို့ ဆောင်ကြဉ်းပေးသည်။",
+      "added": "ထည့်သွင်းထားသည်",
+      "localizationTitle": "နောက်ထပ် ဘာသာစကားများ",
+      "localizationDesc": "နိုင်ဂျီးရီးယား ပစ်ဂျင်၊ ဖိလစ်ပိုင်၊ လတ်ဗီးယား၊ ဘင်္ဂါလီ၊ ခရိုအေးရှား၊ မလေး၊ ပါရှန်းနှင့် အက်စ်တိုးနီးယားတို့အတွက် ဘာသာပြန်ဆိုမှုများကို ထည့်သွင်းထားသည်။"
     },
     "back": "← PPPlayer သို့ ပြန်သွားရန်",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "စက်တင်ဘာ ၁၂၊ ၂၀၂၆",
+      "desc": "ဘာသာစကားအသစ် ၁၀ ခုဖြင့် ဘာသာပြန် ပံ့ပိုးမှုကို ချဲ့ထွင်ခဲ့သည်။",
+      "added": "ထည့်သွင်းထားသည်",
+      "fixed": "ပြုပြင်ပြီး",
+      "lang10Title": "ဘာသာစကားသစ် ၁၀ မျိုး",
+      "lang10Desc": "အင်ဒိုနီးရှား၊ မြန်မာ၊ ပိုလန်၊ ဒိန်းမတ်၊ ကာဇတ်၊ ချက်၊ ဟန်ဂေရီ၊ ဂျော်ဂျီယာ၊ ဆွီဒင်နှင့် ဥဇဘက်တို့အတွက် အပြည့်အဝ ပံ့ပိုးမှုကို ထည့်သွင်းထားသည်။"
     },
     "v1_1_2": {
       "version": "v1.1.2",
@@ -548,18 +548,6 @@
       "youtube": "YouTube မှ ပံ့ပိုးပေးသော အသံ ဖွင့်ခြင်း",
       "playlists": "ဖွင့်စာရင်းများ၊ အကြိုက်ဆုံးများနှင့် နားဆင်မှု မှတ်တမ်း",
       "platforms": "macOS, Windows နှင့် Linux ပံ့ပိုးမှု"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Video Playback & Subtitles",
-      "videoDesc": "Redesigned video player featuring Fit/Fill, keyboard shortcuts, subtitle and audio-track selection, timing adjustments, and Picture-in-Picture.",
-      "streamsTitle": "Network Streams & Playlists",
-      "streamsDesc": "Support for network streams and playlist formats like M3U, M3U8, PLS, XSPF, and ASX.",
-      "libraryTitle": "Enhanced Local Libraries",
-      "libraryDesc": "Deep folder scanning, local video libraries, and improved artist, album, and genre browsing for offline playback."
     }
   },
   "support": {
@@ -592,13 +580,13 @@
     "translationUnavailable": "ဤဆောင်းပါးသည် သင့်ဘာသာစကားဖြင့် မရနိုင်ပါ။",
     "advertisements": "ကြော်ငြာများ",
     "categories": {
-      "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "all": "အားလုံး",
+      "discovery": "ရှာဖွေမှု",
+      "engineering": "အင်ဂျင်နီယာ",
+      "community": "အသိုင်းအဝိုင်း",
+      "guides": "လမ်းညွှန်များ",
+      "education": "ပညာရေး",
+      "product": "ထုတ်ကုန်"
     }
   }
 }

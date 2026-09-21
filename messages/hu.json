@@ -37,7 +37,7 @@
     "legal": "Jogi információk",
     "privacy": "Adatvédelem",
     "terms": "Feltételek",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Zene.",
     "source": "Forráskód megtekintése a GitHubon",
     "contribute": "Hozzájárulás",
     "changelog": "Változások naplója",
@@ -54,11 +54,11 @@
     "title1": "Zene.",
     "title2": "Zökkenőmentesen.",
     "desc": "Ingyenes, nyílt forráskódú zenelejátszó. Nincs fiók. Nincs előfizetés. Csak játszd le.",
-    "getIos": "Letöltés iOS-re",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Letöltés Androidra",
     "getMac": "Letöltés Mac-re",
     "getWindows": "Letöltés Windows-ra",
-    "getLinux": "Letöltés Linux-ra",
+    "getLinux": "Linux (Kísérleti)",
     "badge": "Ingyenes és nyílt forráskódú",
     "source": "Forráskód megtekintése a GitHubon"
   },
@@ -79,17 +79,17 @@
     "title": "Minden, amire szükséged van.",
     "subtitle": "Gyönyörű, natív élmény a teljesítményre tervezve.",
     "searchTitle": "Találd meg pontosan, amit keresel.",
-    "searchDesc": "Keress globálisan a számok, előadók és albumok között azonnal.",
+    "searchDesc": "Keresés azonnal világszerte számok, előadók, albumok és helyi videók között.",
     "queueTitle": "Tökéletes sorrend.",
     "queueDesc": "Kezeld a következők lejátszását egy gyönyörű, átrendezhető várólistával.",
-    "favTitle": "A te zenéd, a te szabályaid.",
+    "favTitle": "A te médiád, a te szabályaid.",
     "favDesc": "Építsd fel személyes könyvtáradat egyetlen kattintással. Mindig ott van.",
     "contextTitle": "Dizájnra natív.",
     "contextDesc": "Kattints jobb gombbal bárhova. Gyönyörű, környezetérzékeny natív menük.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Hálózati streamek",
-    "streamsDesc": "Élő tévéadások, rádió és hálózati lejátszási listák (M3U, PLS, XSPF) streamelése közvetlenül az alkalmazáson belül.",
+    "videoTitle": "Helyi videólejátszás.",
+    "videoDesc": "Játsszon le helyi videófájlokat offline felirattal, PiP-módban és Fit/Fill beállítással. A formátumtámogatás platformonként változik.",
+    "streamsTitle": "Hálózati streaming.",
+    "streamsDesc": "Streamelj M3U/PLS lejátszási listákat és kompatibilis URL-eket. A YouTube beágyazott lejátszót használ. Nem minden harmadik féltől származó videó játszható le.",
     "videoPlaybackTitle": "Helyi videolejátszás",
     "videoPlaybackDesc": "Zökkenőmentesen játszhatja le a helyi videofájlokat feliratozással, hangsávválasztással és Kép a képben móddal."
   },
@@ -127,7 +127,7 @@
     "reqs": {
       "macos": {
         "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
+        "arch": "Apple Silicon és Intel (Univerzális)",
         "mem": "4 GB RAM (Recommended)"
       },
       "windows": {
@@ -198,11 +198,11 @@
         "a": "Nem. A PPPlayer teljesen ingyenes. Minden, amit látsz, ingyenesen elérhető, fiók nélkül."
       },
       {
-        "q": "What media formats are supported?",
+        "q": "Milyen médi formátumokat támogat?",
         "a": "A PPPlayer szinte minden hang- és videoformátumot támogat, beleértve az MP3, FLAC, MP4, MKV és AVI formátumokat. Támogatja a hálózati streameket és az M3U/M3U8 lejátszási listákat is."
       },
       {
-        "q": "Are there any special setup requirements for video?",
+        "q": "Vannak különleges beállítási követelmények a videóhoz?",
         "a": "Windows, macOS, Android és iOS rendszeren a PPPlayer azonnal működik. Linuxon előfordulhat, hogy szabványos médiakönyvtárakat (például libmpv) kell telepítenie a disztribúciótól függően."
       }
     ],
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone és iPad",
-      "desc": "Elérhető az App Store-ban iPhone-ra és iPadre.",
-      "badge": "App Store"
+      "desc": "Hamarosan elérhető a TestFlighton és az App Store-ban iPhone-ra és iPadre.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -314,7 +314,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Töltse le Windows 10 és újabb verziókhoz a Microsoft Store-ból.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,14 +326,14 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Közvetlen letöltés Linux-ra. Az AppImage támogatott.",
-      "badge": "Közvetlen letöltés"
+      "desc": "Kísérleti közvetlen letöltés Linuxra. A hardveres gyorsítás változhat.",
+      "badge": "Kísérleti"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
+      "date": "2026. szeptember 20.",
       "desc": "Hatalmas frissítés, amely a PPPlayert teljes médialejátszóvá alakítja video- és hálózati streaming támogatással.",
       "added": "Hozzáadva ",
       "changed": "Módosítva",
@@ -359,13 +359,13 @@
       "desc": "Hivatalos Android kiadás a Google Play Áruházban.",
       "added": "Hozzáadva",
       "androidTitle": "Android kiadás",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "Kezdeti tesztverzió Android-eszközökre. A mobil eszközök támogatása aktívan fejlesztés alatt áll.",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "2026. szeptember 17."
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "2026. szeptember 16.",
       "desc": "A könyvtár képernyőjének fejlesztései és válaszidejű javítások.",
       "added": "Hozzáadva",
       "fixed": "Javítva",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "2026. szeptember 15.",
       "desc": "Kép a képben támogatás, natív kezdőképernyők és egyebek.",
       "added": "Hozzáadva",
       "fixed": "Javítva",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "2026. szeptember 14.",
       "desc": "Automatizált buildek és munkafolyamat-fejlesztések.",
       "added": "Hozzáadva",
       "ciTitle": "Automatizált munkafolyamatok",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "2026. szeptember 14.",
       "desc": "Rendszer médiavezérlők szinkronizálása és alapvető funkciók.",
       "added": "Hozzáadva",
       "syncTitle": "Rendszer médiavezérlők szinkronizálása",
@@ -405,32 +405,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "2026. szeptember 14.",
+      "desc": "Elért 100%-os fordítási egyezést és javított UI hibákat.",
+      "added": "Hozzáadva",
+      "fixed": "Javítva",
+      "syncTitle": "Teljes lokalizációs egyenérték",
+      "syncDesc": "Szinkronizált fordítási kulcsok és kézzel válogatott fordítások alkalmazása mind a 30 nyelven.",
+      "uiTitle": "UI és link javítások",
+      "uiDesc": "Megoldottam a widget konstans hibákat a Főoldal és a Könyvtár képernyőkön, valamint javítottam a GitHub tárhely linkeket a Névjegy párbeszédablakban."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "2026. szeptember 13.",
+      "desc": "Ez a kiadás a PPPlayert még szélesebb globális közönséghez juttatja el.",
+      "added": "Hozzáadva",
+      "localizationTitle": "További nyelvek",
+      "localizationDesc": "Hozzáadtuk a lokalizációkat nigériai pidgin, filippínó, lett, bengáli, horvát, maláj, perzsa és észt nyelvre."
     },
     "back": "← Vissza a PPPlayerhez",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "2026. szeptember 12.",
+      "desc": "Kiterjesztett lokalizációs támogatás 10 új nyelvvel.",
+      "added": "Hozzáadva",
+      "fixed": "Javítva",
+      "lang10Title": "10 új nyelv",
+      "lang10Desc": "Teljes támogatás hozzáadva az indonéz, burmai, lengyel, dán, kazah, cseh, magyar, grúz, svéd és üzbég nyelvhez."
     },
     "v1_1_2": {
       "version": "v1.1.2",
@@ -550,18 +550,6 @@
       "youtube": "YouTube-alapú hanglejátszás",
       "playlists": "Lejátszási listák, kedvencek és hallgatási előzmények",
       "platforms": "macOS, Windows és Linux támogatás"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Videolejátszás és feliratok",
-      "videoDesc": "Újratervezett videolejátszó Illesztés/Kitöltés funkcióval, billentyűparancsokkal, felirat- és hangválasztással, időzítési beállításokkal és PiP-pel.",
-      "streamsTitle": "Hálózati streamek és lejátszási listák",
-      "streamsDesc": "Hálózati streamek és lejátszási lista formátumok, például M3U, M3U8, PLS, XSPF és ASX támogatása.",
-      "libraryTitle": "Továbbfejlesztett helyi könyvtárak",
-      "libraryDesc": "Mély mappakeresés, helyi videokönyvtárak, valamint továbbfejlesztett előadó-, album- és műfajböngészés offline lejátszáshoz."
     }
   },
   "support": {
@@ -595,12 +583,12 @@
     "advertisements": "Hirdetések",
     "categories": {
       "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "discovery": "Felfedezés",
+      "engineering": "Mérnöki",
+      "community": "Közösség",
+      "guides": "Útmutatók",
+      "education": "Oktatás",
+      "product": "Termék"
     }
   }
 }

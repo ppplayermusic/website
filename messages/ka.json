@@ -54,11 +54,11 @@
     "title1": "მუსიკა.",
     "title2": "ყოველგვარი დაბრკოლების გარეშე.",
     "desc": "უფასო, ღია კოდის მქონე მუსიკალური პლეერი. ანგარიში არ არის საჭირო. არანაირი გამოწერა. უბრალოდ დაუკარით.",
-    "getIos": "მიიღეთ iOS-ისთვის",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "მიიღეთ Android-ისთვის",
     "getMac": "მიიღეთ Mac-ისთვის",
     "getWindows": "მიიღეთ Windows-ისთვის",
-    "getLinux": "მიიღეთ Linux-ისთვის",
+    "getLinux": "Linux (Experimental)",
     "badge": "უფასო და ღია კოდის",
     "source": "წყაროს კოდის ნახვა GitHub-ზე"
   },
@@ -79,17 +79,17 @@
     "title": "ყველაფერი რაც გჭირდებათ.",
     "subtitle": "მშვენიერი, მშობლიური გამოცდილება, რომელიც შექმნილია მუშაობისთვის.",
     "searchTitle": "იპოვეთ ზუსტად ის, რაც გსურთ.",
-    "searchDesc": "მოძებნეთ გლობალურად ტრეკები, შემსრულებლები და ალბომები მომენტალურად.",
+    "searchDesc": "ძიება გლობალურად სიმღერებში, შემსრულებლებში, ალბომებსა და ადგილობრივ ვიდეოებში მყისიერად.",
     "queueTitle": "იდეალურად დალაგებული.",
     "queueDesc": "მართეთ რისი დაკვრა მოხდება შემდეგ ლამაზი, გადალაგებადი რიგით.",
-    "favTitle": "თქვენი მუსიკა, თქვენი წესები.",
-    "favDesc": "შექმენით თქვენი პირადი ბიბლიოთეკა ერთი დაწკაპუნებით. ყოველთვის იქ არის.",
+    "favTitle": "თქვენი მედია, თქვენი წესები.",
+    "favDesc": "შექმენით თქვენი პერსონალური ბიბლიოთეკა ერთი დაწკაპუნებით. ყოველთვის თქვენთანაა.",
     "contextTitle": "დიზაინით მშობლიური.",
     "contextDesc": "დააწკაპუნეთ მარჯვენა ღილაკით ნებისმიერ ადგილას. ლამაზი, კონტექსტის მცოდნე მშობლიური მენიუები.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Network Streams.",
-    "streamsDesc": "Play M3U, PLS, XSPF, and ASX streams seamlessly."
+    "videoTitle": "ადგილობრივი ვიდეოს დაკვრა.",
+    "videoDesc": "დაუკარით ადგილობრივი ვიდეო ფაილები ხაზგარეშე, სუბტიტრებით, PiP და Fit/Fill რეჟიმებით. ფორმატების მხარდაჭერა დამოკიდებულია პლატფორმაზე.",
+    "streamsTitle": "ქსელური სტრიმინგი.",
+    "streamsDesc": "M3U/PLS დასაკრავი სიების და თავსებადი URL-ების სტრიმინგი. YouTube იყენებს ჩაშენებულ პლეერს. ყველა მესამე მხარის ვიდეოს დაკვრა არ არის შესაძლებელი."
   },
   "noAccount": {
     "title": "ანგარიში არ არის საჭირო.",
@@ -124,29 +124,29 @@
     "reqTitle": "{platform}-ის მოთხოვნები",
     "reqs": {
       "macos": {
-        "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
-        "mem": "4 GB RAM (Recommended)"
+        "os": "macOS 10.15 Catalina ან უფრო ახალი",
+        "arch": "Apple Silicon და Intel (უნივერსალური)",
+        "mem": "4 GB ოპერატიული მეხსიერება (რეკომენდებულია)"
       },
       "windows": {
-        "os": "Windows 10 or later (64-bit)",
+        "os": "Windows 10 ან უფრო ახალი (64-ბიტიანი)",
         "arch": "x64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB ოპერატიული მეხსიერება (რეკომენდებულია)"
       },
       "linux": {
-        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "os": "Ubuntu 20.04 ან უფრო ახალი (ექსპერიმენტული)",
         "arch": "x86_64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB ოპერატიული მეხსიერება (რეკომენდებულია)"
       },
       "ios": {
-        "os": "iOS 13.0 or newer",
+        "os": "iOS 13.0 ან უფრო ახალი",
         "arch": "ARM64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB ოპერატიული მეხსიერება (რეკომენდებულია)"
       },
       "android": {
-        "os": "Android 7.0 (API 24) or newer",
+        "os": "Android 7.0 (API 24) ან უფრო ახალი",
         "arch": "ARM64 / ARM / x86_64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB ოპერატიული მეხსიერება (რეკომენდებულია)"
       }
     }
   },
@@ -173,11 +173,11 @@
       },
       {
         "q": "არის თუ არა PPPlayer ხელმისაწვდომი iPhone-სთვის?",
-        "a": "PPPlayer for iOS is currently in development. We are actively working on an App Store release."
+        "a": "PPPlayer iOS-ისთვის ამჟამად დამუშავების პროცესშია. ჩვენ აქტიურად ვმუშაობთ App Store-ის გამოშვებაზე."
       },
       {
         "q": "არის თუ არა PPPlayer ხელმისაწვდომი Android-სთვის?",
-        "a": "PPPlayer for Android is currently in development. We are actively working on a Google Play Store release."
+        "a": "PPPlayer Android-ისთვის ამჟამად დამუშავების პროცესშია. ჩვენ აქტიურად ვმუშაობთ Google Play Store-ის გამოშვებაზე."
       },
       {
         "q": "შემიძლია გამოვიყენო PPPlayer Windows-ზე?",
@@ -196,12 +196,12 @@
         "a": "არა. PPPlayer სრულიად უფასოა. ყველაფერი რასაც ხედავთ, ხელმისაწვდომია უფასოდ, ანგარიშის გარეშე."
       },
       {
-        "q": "What media formats are supported?",
-        "a": "PPPlayer supports almost all audio and video formats, including MP3, FLAC, MP4, MKV, and AVI. It also supports network streams and M3U/M3U8 playlists."
+        "q": "რომელი მედია ფორმატებია მხარდაჭერილი?",
+        "a": "PPPlayer მხარს უჭერს თითქმის ყველა აუდიო და ვიდეო ფორმატს, მათ შორის MP3, FLAC, MP4, MKV და AVI. ის ასევე მხარს უჭერს ქსელურ ნაკადებს და M3U/M3U8 დასაკრავ სიებს."
       },
       {
-        "q": "Are there any special setup requirements for video?",
-        "a": "On Windows, macOS, Android, and iOS, PPPlayer works out of the box. On Linux, you may need to install standard media libraries (like libmpv) depending on your distribution."
+        "q": "არის რაიმე სპეციალური მოთხოვნები ვიდეოს დასაკრავად?",
+        "a": "Windows, macOS, Android და iOS სისტემებზე PPPlayer მუშაობს დამატებითი კონფიგურაციის გარეშე. Linux-ზე შესაძლოა დაგჭირდეთ სტანდარტული მედია ბიბლიოთეკების დაყენება (მაგალითად libmpv), თქვენი დისტრიბუციის მიხედვით."
       }
     ],
     "openSourceQuestion": "არის თუ არა PPPlayer ღია კოდის?",
@@ -300,8 +300,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone და iPad",
-      "desc": "ხელმისაწვდომია App Store-ში iPhone-ისა და iPad-სთვის.",
-      "badge": "App Store"
+      "desc": "მალე ხელმისაწვდომი იქნება TestFlight-სა და App Store-ში iPhone-სა და iPad-სთვის.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -312,7 +312,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "ჩამოტვირთეთ Windows 10 და უფრო ახალი ვერსიებისთვის Microsoft Store-დან.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -324,14 +324,14 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "პირდაპირი ჩამოტვირთვა Linux-ისთვის. მხარდაჭერილია AppImage.",
-      "badge": "პირდაპირი ჩამოტვირთვა"
+      "desc": "ექსპერიმენტული პირდაპირი ჩამოტვირთვა Linux-ისთვის. აპარატურის აჩქარება შეიძლება განსხვავდებოდეს.",
+      "badge": "Experimental"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
+      "date": "2026 წლის 20 სექტემბერი",
       "desc": "Მასიური მნიშვნელოვანი განახლება, რომელიც გარდაქმნის PPPlayer-ს სრულ მედია დამკვრელად ვიდეო და ქსელური სტრიმინგის მხარდაჭერით.",
       "added": "დამატებულია",
       "changed": "შეცვლილია",
@@ -357,13 +357,13 @@
       "desc": "ოფიციალური Android რელიზი Google Play Store-ში.",
       "added": "დამატებულია",
       "androidTitle": "Android რელიზი",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "საწყისი სატესტო ვერსია Android მოწყობილობებისთვის. მობილური მოწყობილობების მხარდაჭერა აქტიურად მუშავდება.",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "2026 წლის 17 სექტემბერი"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "2026 წლის 16 სექტემბერი",
       "desc": "ბიბლიოთეკის ეკრანის გაუმჯობესება და რესპონსივის შესწორება.",
       "added": "დამატებულია",
       "fixed": "შესწორებულია",
@@ -372,7 +372,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "2026 წლის 15 სექტემბერი",
       "desc": "სურათი-სურათში მხარდაჭერა, მშობლიური splash ეკრანები და სხვა.",
       "added": "დამატებულია",
       "fixed": "შესწორებულია",
@@ -385,7 +385,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "2026 წლის 14 სექტემბერი",
       "desc": "ავტომატიზირებული აშენებები და სამუშაო პროცესის გაუმჯობესება.",
       "added": "დამატებულია",
       "ciTitle": "ავტომატიზირებული სამუშაო პროცესები",
@@ -393,7 +393,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "2026 წლის 14 სექტემბერი",
       "desc": "სისტემის მედია კონტროლის სინქრონიზაცია და ძირითადი მახასიათებლები.",
       "added": "დამატებულია",
       "syncTitle": "სისტემის მედია კონტროლის სინქრონიზაცია",
@@ -403,32 +403,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "2026 წლის 14 სექტემბერი",
+      "desc": "მიღწეულია 100% თარგმანის პარიტეტი და გამოსწორდა UI შეცდომები.",
+      "added": "დამატებულია",
+      "fixed": "გამოსწორდა",
+      "syncTitle": "სრული ლოკალიზაციის პარიტეტი",
+      "syncDesc": "სინქრონიზებული თარგმანის გასაღებები და დამატებული ხელით შექმნილი თარგმანები ყველა 30 ენაზე.",
+      "uiTitle": "UI და ბმულების შესწორებები",
+      "uiDesc": "მოგვარდა widget const შეცდომები მთავარ და ბიბლიოთეკის ეკრანებზე და გამოსწორდა GitHub რეპოზიტორის ბმულები შესახებ დიალოგში."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "2026 წლის 13 სექტემბერი",
+      "desc": "ეს ვერსია PPPlayer-ს კიდევ უფრო ფართო გლობალურ აუდიტორიას სთავაზობს.",
+      "added": "დამატებულია",
+      "localizationTitle": "დამატებითი ენები",
+      "localizationDesc": "დაემატა ლოკალიზაციები ნიგერიული პიჯინის, ფილიპინური, ლატვიური, ბენგალური, ხორვატული, მალაიური, სპარსული და ესტონური ენებისთვის."
     },
     "back": "← უკან PPPlayer-ზე",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "2026 წლის 12 სექტემბერი",
+      "desc": "გაფართოებული ლოკალიზაციის მხარდაჭერა 10 ახალი ენით.",
+      "added": "დამატებულია",
+      "fixed": "გამოსწორდა",
+      "lang10Title": "10 ახალი ენა",
+      "lang10Desc": "დაემატა ინდონეზიური, ბირმული, პოლონური, დანიური, ყაზახური, ჩეხური, უნგრული, ქართული, შვედური და უზბეკური ენების სრული მხარდაჭერა."
     },
     "v1_1_2": {
       "version": "v1_1_2",
@@ -548,18 +548,6 @@
       "youtube": "YouTube-ზე დაფუძნებული აუდიოს დაკვრა",
       "playlists": "დასაკრავი სიები, რჩეულები და მოსმენის ისტორია",
       "platforms": "macOS, Windows და Linux-ის მხარდაჭერა"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Video Playback & Subtitles",
-      "videoDesc": "Redesigned video player featuring Fit/Fill, keyboard shortcuts, subtitle and audio-track selection, timing adjustments, and Picture-in-Picture.",
-      "streamsTitle": "Network Streams & Playlists",
-      "streamsDesc": "Support for network streams and playlist formats like M3U, M3U8, PLS, XSPF, and ASX.",
-      "libraryTitle": "Enhanced Local Libraries",
-      "libraryDesc": "Deep folder scanning, local video libraries, and improved artist, album, and genre browsing for offline playback."
     }
   },
   "support": {
@@ -592,13 +580,13 @@
     "translationUnavailable": "ეს სტატია არ არის ხელმისაწვდომი თქვენს ენაზე.",
     "advertisements": "რეკლამები",
     "categories": {
-      "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "all": "ყველა",
+      "discovery": "აღმოჩენა",
+      "engineering": "ინჟინერია",
+      "community": "საზოგადოება",
+      "guides": "სახელმძღვანელოები",
+      "education": "განათლება",
+      "product": "პროდუქტი"
     }
   }
 }

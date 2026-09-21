@@ -58,7 +58,7 @@ export default function Footer() {
             
             <div className="flex flex-col gap-3">
               <span className="text-white text-xs font-semibold uppercase tracking-widest mb-4">{t("platforms")}</span>
-              <Link href="/download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">macOS</Link>
+              <Link href="/download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t.has('macos') ? t('macos') : 'macOS'}</Link>
               <Link href="/download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("windows")}</Link>
               <Link href="/download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t('linux')}</Link>
               <Link href="/download" className="text-slate-400 hover:text-white text-sm transition-all duration-300 hover:translate-x-1 w-fit">{t("ios")}</Link>

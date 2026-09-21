@@ -54,11 +54,11 @@
     "title1": "Media.",
     "title2": "Without the friction.",
     "desc": "A free, open-source media player. No account. No subscription. Just play.",
-    "getIos": "Get for iOS",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Get for Android",
     "getMac": "Get for Mac",
     "getWindows": "Get for Windows",
-    "getLinux": "Get for Linux",
+    "getLinux": "Linux (Experimental)",
     "badge": "Free & open source",
     "source": "View source on GitHub"
   },
@@ -79,17 +79,17 @@
     "title": "Everything you need.",
     "subtitle": "A beautiful, native experience built for performance.",
     "searchTitle": "Find exactly what you want.",
-    "searchDesc": "Search globally across tracks, artists, and albums instantly.",
+    "searchDesc": "Search globally across tracks, artists, albums, and local videos instantly.",
     "queueTitle": "Perfectly queued.",
     "queueDesc": "Manage what plays next with a beautiful, reorderable queue.",
-    "favTitle": "Your music, your rules.",
+    "favTitle": "Your media, your rules.",
     "favDesc": "Build your personal library with a single click. Always there.",
     "contextTitle": "Native by design.",
     "contextDesc": "Right-click anywhere. Beautiful, context-aware native menus.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Network Streams.",
-    "streamsDesc": "Play M3U, PLS, XSPF, and ASX streams seamlessly."
+    "videoTitle": "Local Video Playback.",
+    "videoDesc": "Play local video files offline with subtitles, PiP, and Fit/Fill. Format support varies by platform.",
+    "streamsTitle": "Network Streaming.",
+    "streamsDesc": "Stream M3U/PLS playlists and compatible URLs. YouTube uses an embedded player. Not all third-party videos are playable."
   },
   "noAccount": {
     "title": "No account.",
@@ -300,8 +300,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone & iPad",
-      "desc": "Available on the App Store for iPhone and iPad.",
-      "badge": "App Store"
+      "desc": "Coming soon to TestFlight and the App Store for iPhone and iPad.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -324,8 +324,8 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Direct download for Linux. AppImage supported.",
-      "badge": "Direct Download"
+      "desc": "Experimental direct download for Linux. Hardware acceleration may vary.",
+      "badge": "Experimental"
     }
   },
   "changelog": {
@@ -548,18 +548,6 @@
       "youtube": "YouTube-powered audio playback",
       "playlists": "Playlists, favorites and listening history",
       "platforms": "macOS, Windows and Linux support"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Video Playback & Subtitles",
-      "videoDesc": "Redesigned video player featuring Fit/Fill, keyboard shortcuts, subtitle and audio-track selection, timing adjustments, and Picture-in-Picture.",
-      "streamsTitle": "Network Streams & Playlists",
-      "streamsDesc": "Support for network streams and playlist formats like M3U, M3U8, PLS, XSPF, and ASX.",
-      "libraryTitle": "Enhanced Local Libraries",
-      "libraryDesc": "Deep folder scanning, local video libraries, and improved artist, album, and genre browsing for offline playback."
     }
   },
   "support": {

@@ -54,11 +54,11 @@
     "title1": "Musik.",
     "title2": "Utan friktion.",
     "desc": "En gratis musikspelare med öppen källkod. Inget konto. Ingen prenumeration. Bara spela.",
-    "getIos": "Hämta för iOS",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Hämta för Android",
     "getMac": "Hämta för Mac",
     "getWindows": "Hämta för Windows",
-    "getLinux": "Hämta för Linux",
+    "getLinux": "Linux (Experimental)",
     "badge": "Gratis & öppen källkod",
     "source": "Visa källkod på GitHub"
   },
@@ -79,17 +79,17 @@
     "title": "Allt du behöver.",
     "subtitle": "En vacker, inbyggd upplevelse byggd för prestanda.",
     "searchTitle": "Hitta precis det du vill ha.",
-    "searchDesc": "Sök globalt över spår, artister och album direkt.",
+    "searchDesc": "Sök direkt globalt efter låtar, artister, album och lokala videor.",
     "queueTitle": "Perfekt köad.",
     "queueDesc": "Hantera vad som spelas härnäst med en vacker, omordningsbar kö.",
-    "favTitle": "Din musik, dina regler.",
-    "favDesc": "Bygg ditt personliga bibliotek med ett klick. Alltid där.",
+    "favTitle": "Din media, dina regler.",
+    "favDesc": "Bygg ditt personliga bibliotek med ett enda klick. Alltid där.",
     "contextTitle": "Inbyggt genom design.",
     "contextDesc": "Högerklicka var som helst. Vackra, kontextmedvetna inbyggda menyer.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Nätverksströmmar",
-    "streamsDesc": "Streama live-TV, radio och nätverksspellistor (M3U, PLS, XSPF) direkt i appen.",
+    "videoTitle": "Lokal videouppspelning.",
+    "videoDesc": "Spela upp lokala videofiler offline med undertexter, PiP och Anpassa/Fyll. Formatstödet varierar beroende på plattform.",
+    "streamsTitle": "Nätverksströmning.",
+    "streamsDesc": "Strömma M3U/PLS-spellistor och kompatibla URL:er. YouTube använder en inbäddad spelare. Alla videoklipp från tredje part går inte att spela upp.",
     "videoPlaybackTitle": "Lokal videouppspelning",
     "videoPlaybackDesc": "Spela upp dina lokala videofiler sömlöst med stöd för undertexter, val av ljudspår och bild-i-bild-läge."
   },
@@ -126,29 +126,29 @@
     "reqTitle": "Systemkrav för {platform}",
     "reqs": {
       "macos": {
-        "os": "macOS 10.15 Catalina or newer",
+        "os": "macOS 10.15 Catalina eller nyare",
         "arch": "Apple Silicon & Intel (Universal)",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Rekommenderas)"
       },
       "windows": {
-        "os": "Windows 10 or later (64-bit)",
+        "os": "Windows 10 eller senare (64-bitars)",
         "arch": "x64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Rekommenderas)"
       },
       "linux": {
-        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "os": "Ubuntu 20.04 eller nyare (Experimentell)",
         "arch": "x86_64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Rekommenderas)"
       },
       "ios": {
-        "os": "iOS 13.0 or newer",
+        "os": "iOS 13.0 eller nyare",
         "arch": "ARM64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (Rekommenderas)"
       },
       "android": {
-        "os": "Android 7.0 (API 24) or newer",
+        "os": "Android 7.0 (API 24) eller nyare",
         "arch": "ARM64 / ARM / x86_64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (Rekommenderas)"
       }
     }
   },
@@ -198,11 +198,11 @@
         "a": "Nej. PPPlayer är helt gratis. Allt du ser är tillgängligt utan kostnad, utan något konto som behövs."
       },
       {
-        "q": "What media formats are supported?",
+        "q": "Vilka mediaformat stöds?",
         "a": "PPPlayer stöder nästan alla ljud- och videoformat, inklusive MP3, FLAC, MP4, MKV och AVI. Den stöder även nätverksströmmar och M3U/M3U8-spellistor."
       },
       {
-        "q": "Are there any special setup requirements for video?",
+        "q": "Finns det några speciella installationskrav för video?",
         "a": "På Windows, macOS, Android och iOS fungerar PPPlayer direkt. På Linux kan du behöva installera standardmediabibliotek (som libmpv) beroende på din distribution."
       }
     ],
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone & iPad",
-      "desc": "Finns i App Store för iPhone och iPad.",
-      "badge": "App Store"
+      "desc": "Kommer snart till TestFlight och App Store för iPhone och iPad.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -314,7 +314,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Ladda ner för Windows 10 och senare från Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,32 +326,32 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Direkt nedladdning för Linux. AppImage stöds.",
-      "badge": "Direkt nedladdning"
+      "desc": "Experimentell direkt nedladdning för Linux. Hårdvaruacceleration kan variera.",
+      "badge": "Experimentell"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
-      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.",
-      "added": "Added",
-      "changed": "Changed",
-      "fixed": "Fixed",
-      "videoTitle": "Local Video Support",
-      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.",
-      "streamTitle": "Network Streaming",
-      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.",
-      "subtitleTitle": "Advanced Subtitles",
-      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.",
-      "speedTitle": "Playback Speed & Autoplay",
-      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.",
-      "exportTitle": "Media Export",
-      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.",
-      "languagesTitle": "New Languages & Genres",
-      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
-      "stabilityTitle": "Core Overhaul",
-      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+      "date": "20 september 2026",
+      "desc": "En massiv uppdatering som förvandlar PPPlayer till en fullvärdig mediaspelare med stöd för video och nätverksströmning.",
+      "added": "Tillagd",
+      "changed": "Ändrad",
+      "fixed": "Fixad",
+      "videoTitle": "Lokalt videostöd",
+      "videoDesc": "Komplett bibliotek för lokala videor och uppspelningsstöd med videokontroller och automatisk generering av miniatyrbilder.",
+      "streamTitle": "Nätverksströmning",
+      "streamDesc": "Inbyggt stöd för nätverksströmmar med tolkning av M3U-spellistor och direkt URL-upplösning.",
+      "subtitleTitle": "Avancerade undertexter",
+      "subtitleDesc": "Omfattande stöd för undertexter, inklusive anpassning, justering av fördröjning och ett intuitivt gränssnitt för val.",
+      "speedTitle": "Uppspelningshastighet och autouppspelning",
+      "speedDesc": "Lade till flexibla kontroller för uppspelningshastighet och en lättåtkomlig växel för autouppspelning direkt i kövyn.",
+      "exportTitle": "Mediaexport",
+      "exportDesc": "Exportera sömlöst dina anpassade spellistor och uppspelningsköer till din lokala enhet.",
+      "languagesTitle": "Nya språk och genrer",
+      "languagesDesc": "Lade till officiella lokaliseringar för turkiska och guarani, samt stöd för lokal genreredovisning.",
+      "stabilityTitle": "Total översyn av kärnan",
+      "stabilityDesc": "En total översyn av uppspelningsmotorns kärnarkitektur för förbättrad stabilitet, anpassade HTTP-rubriker och strikt hantering av tidsgränser."
     },
     "title": "Ändringslogg",
     "subtitle": "Vad är nytt i PPPlayer.",
@@ -359,13 +359,13 @@
       "desc": "Officiell Android-version i Google Play Butik.",
       "added": "Tillagd",
       "androidTitle": "Android-version",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "2.0.0",
-      "date": "September 17, 2026"
+      "androidDesc": "Första testversionen för Android-enheter. Stöd för mobila enheter är under aktiv utveckling.",
+      "version": "1.3.6",
+      "date": "17 september 2026"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "16 september 2026",
       "desc": "Förbättringar av biblioteksskärmen och korrigeringar av respons.",
       "added": "Tillagd",
       "fixed": "Rättat",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "15 september 2026",
       "desc": "Bild-i-bild-stöd, inbyggda startskärmar och mer.",
       "added": "Tillagd",
       "fixed": "Rättat",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "14 september 2026",
       "desc": "Automatiserade byggen och arbetsflödesförbättringar.",
       "added": "Tillagd",
       "ciTitle": "Automatiserade arbetsflöden",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "14 september 2026",
       "desc": "Synkronisering av systemmediakontroller och kärnfunktioner.",
       "added": "Tillagd",
       "syncTitle": "Synkronisering av systemmediakontroller",
@@ -405,22 +405,22 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "14 september 2026",
+      "desc": "Uppnådde 100% översättningsparitet och fixade UI-buggar.",
+      "added": "Tillagd",
+      "fixed": "Fixad",
+      "syncTitle": "Full lokaliseringsparitet",
+      "syncDesc": "Synkroniserade översättningsnycklar och tillämpade manuellt utvalda översättningar på alla 30 språk.",
+      "uiTitle": "Korrigeringar i UI och länkar",
+      "uiDesc": "Löste const-fel i widgets på hem- och biblioteksskärmarna samt korrigerade GitHub-länkar i dialogrutan Om."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "13 september 2026",
+      "desc": "Denna release gör PPPlayer tillgängligt för en ännu bredare global publik.",
+      "added": "Tillagd",
+      "localizationTitle": "Ytterligare språk",
+      "localizationDesc": "Lade till lokaliseringar för nigeriansk pidgin, filippinska, lettiska, bengali, kroatiska, malajiska, persiska och estniska."
     },
     "back": "← Tillbaka till PPPlayer",
     "v1_2_0": {
@@ -550,18 +550,6 @@
       "youtube": "YouTube-driven ljuduppspelning",
       "playlists": "Spellistor, favoriter och lyssningshistorik",
       "platforms": "Stöd för macOS, Windows och Linux"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Videouppspelning och undertexter",
-      "videoDesc": "Omdesignad videospelare med passa in/fyll ut, kortkommandon, val av undertexter och ljud, tidsjusteringar och bild-i-bild.",
-      "streamsTitle": "Nätverksströmmar och spellistor",
-      "streamsDesc": "Stöd för nätverksströmmar och spellisteformat som M3U, M3U8, PLS, XSPF och ASX.",
-      "libraryTitle": "Förbättrade lokala bibliotek",
-      "libraryDesc": "Djup mappsökning, lokala videobibliotek och förbättrad bläddring bland artister, album och genrer för offlineuppspelning."
     }
   },
   "support": {
@@ -594,13 +582,13 @@
     "translationUnavailable": "Den här artikeln är inte tillgänglig på ditt språk.",
     "advertisements": "Annonser",
     "categories": {
-      "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "all": "Alla",
+      "discovery": "Upptäckt",
+      "engineering": "Teknik",
+      "community": "Gemenskap",
+      "guides": "Guider",
+      "education": "Utbildning",
+      "product": "Produkt"
     }
   }
 }

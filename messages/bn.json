@@ -30,14 +30,14 @@
     "android": "Android",
     "windows": "Windows",
     "social": "সোশ্যাল",
-    "instagram": "Instagram",
+    "instagram": "ইনস্টাগ্রাম",
     "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "facebook": "ফেসবুক",
+    "github": "গিটহাব",
     "legal": "আইনি তথ্য",
     "privacy": "গোপনীয়তা",
     "terms": "শর্তাবলী",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} পিপিপ্লেয়ার মিউজিক।",
     "source": "GitHub এ সোর্স দেখুন",
     "contribute": "অবদান রাখুন",
     "changelog": "চেঞ্জলগ",
@@ -54,11 +54,11 @@
     "title1": "মিউজিক।",
     "title2": "কোনো ঝামেলা ছাড়াই।",
     "desc": "একটি ফ্রি, ওপেন-সোর্স মিউজিক প্লেয়ার। কোনো অ্যাকাউন্ট নেই। কোনো সাবস্ক্রিপশন নেই। শুধু গান শুনুন।",
-    "getIos": "iOS এর জন্য নিন",
+    "getIos": "আইওএস (টেস্টফ্লাইট)",
     "getAndroid": "Android এর জন্য নিন",
     "getMac": "Mac এর জন্য নিন",
     "getWindows": "Windows এর জন্য নিন",
-    "getLinux": "Linux এর জন্য নিন",
+    "getLinux": "লিনাক্স (প্রায়োগিক)",
     "badge": "ফ্রি এবং ওপেন সোর্স",
     "source": "GitHub এ সোর্স দেখুন"
   },
@@ -79,17 +79,17 @@
     "title": "আপনার যা কিছু প্রয়োজন।",
     "subtitle": "পারফরম্যান্সের জন্য তৈরি একটি সুন্দর, নেটিভ অভিজ্ঞতা।",
     "searchTitle": "আপনি ঠিক যা চান তা খুঁজুন।",
-    "searchDesc": "ট্র্যাক, শিল্পী এবং অ্যালবামে তাৎক্ষণিকভাবে বিশ্বব্যাপী অনুসন্ধান করুন।",
+    "searchDesc": "তৎক্ষণাত ট্র্যাক, শিল্পী, অ্যালবাম এবং স্থানীয় ভিডিও জুড়ে বৈশ্বিকভাবে অনুসন্ধান করুন।",
     "queueTitle": "নিখুঁতভাবে সাজানো।",
     "queueDesc": "একটি সুন্দর সারির সাথে পরবর্তীতে কী বাজবে তা পরিচালনা করুন।",
-    "favTitle": "আপনার মিউজিক, আপনার নিয়ম।",
-    "favDesc": "এক ক্লিকে আপনার নিজস্ব লাইব্রেরি তৈরি করুন। সর্বদা উপস্থিত।",
+    "favTitle": "আপনার মিডিয়া, আপনার নিয়ম।",
+    "favDesc": "একটি ক্লিকেই আপনার ব্যক্তিগত লাইব্রেরি তৈরি করুন। সবসময় পাশে।",
     "contextTitle": "ডিজাইনের দিক থেকে নেটিভ।",
     "contextDesc": "যেকোন জায়গায় ডান-ক্লিক করুন। সুন্দর, কনটেক্সট-সচেতন নেটিভ মেনু।",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Network Streams.",
-    "streamsDesc": "Play M3U, PLS, XSPF, and ASX streams seamlessly."
+    "videoTitle": "স্থানীয় ভিডিও প্লেব্যাক।",
+    "videoDesc": "স্থানীয় ভিডিও ফাইল সাবটাইটেল, PiP এবং ফিট/ফিল সহ অফলাইনে প্লে করুন। ফরম্যাট সমর্থন প্ল্যাটফর্ম অনুযায়ী ভিন্ন হতে পারে।",
+    "streamsTitle": "নেটওয়ার্ক স্ট্রিমিং।",
+    "streamsDesc": "M3U/PLS প্লেলিস্ট এবং সম্মত URL স্ট্রিম করুন। ইউটিউব একটি এমবেডেড প্লেয়ার ব্যবহার করে। সব তৃতীয়-পক্ষের ভিডিও প্লেয়েবল নয়।"
   },
   "noAccount": {
     "title": "কোনো অ্যাকাউন্ট নেই।",
@@ -125,7 +125,7 @@
     "reqs": {
       "macos": {
         "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
+        "arch": "অ্যাপল সিলিকন ও ইন্টেল (ইউনিভার্সাল)",
         "mem": "4 GB RAM (Recommended)"
       },
       "windows": {
@@ -173,11 +173,11 @@
       },
       {
         "q": "PPPlayer কি iPhone এর জন্য উপলব্ধ?",
-        "a": "PPPlayer for iOS is currently in development. We are actively working on an App Store release."
+        "a": "iOS এর জন্য PPPlayer বর্তমানে উন্নয়নের পর্যায়ে রয়েছে। আমরা অ্যাপ স্টোরে রিলিজের জন্য সক্রিয়ভাবে কাজ করছি।"
       },
       {
         "q": "PPPlayer কি Android এর জন্য উপলব্ধ?",
-        "a": "PPPlayer for Android is currently in development. We are actively working on a Google Play Store release."
+        "a": "অ্যান্ড্রয়েডের জন্য PPPlayer বর্তমানে উন্নয়নের অধীনে রয়েছে। আমরা গুগল প্লে স্টোরে মুক্তির জন্য সক্রিয়ভাবে কাজ করছি।"
       },
       {
         "q": "আমি কি উইন্ডোজে PPPlayer ব্যবহার করতে পারি?",
@@ -196,12 +196,12 @@
         "a": "না। PPPlayer সম্পূর্ণ ফ্রি। আপনি যা দেখছেন সবই বিনামূল্যে পাওয়া যায়, কোনো অ্যাকাউন্টের প্রয়োজন নেই।"
       },
       {
-        "q": "What media formats are supported?",
-        "a": "PPPlayer supports almost all audio and video formats, including MP3, FLAC, MP4, MKV, and AVI. It also supports network streams and M3U/M3U8 playlists."
+        "q": "কোন কোন মিডিয়া ফরম্যাট সমর্থিত?",
+        "a": "PPPlayer প্রায় সব ধরনের অডিও এবং ভিডিও ফরম্যাট সমর্থন করে, যার মধ্যে রয়েছে MP3, FLAC, MP4, MKV, এবং AVI। এটি নেটওয়ার্ক স্ট্রিম এবং M3U/M3U8 প্লেলিস্টও সমর্থন করে।"
       },
       {
-        "q": "Are there any special setup requirements for video?",
-        "a": "On Windows, macOS, Android, and iOS, PPPlayer works out of the box. On Linux, you may need to install standard media libraries (like libmpv) depending on your distribution."
+        "q": "ভিডিওর জন্য কোনো বিশেষ সেটআপের প্রয়োজন আছে কি?",
+        "a": "Windows, macOS, Android, এবং iOS-এ, PPPlayer বক্স থেকে কাজ করে। Linux-এ, আপনার বিতরণের উপর নির্ভর করে আপনি স্ট্যান্ডার্ড মিডিয়া লাইব্রেরি (যেমন libmpv) ইনস্টল করতে হতে পারে।"
       }
     ],
     "openSourceQuestion": "PPPlayer কি ওপেন সোর্স?",
@@ -300,8 +300,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone এবং iPad",
-      "desc": "iPhone এবং iPad এর জন্য অ্যাপ স্টোরে উপলব্ধ।",
-      "badge": "অ্যাপ স্টোর"
+      "desc": "শীঘ্রই iPhone এবং iPad-এর জন্য TestFlight এবং App Store-এ আসছে।",
+      "badge": "টেস্টফ্লাইট"
     },
     "android": {
       "name": "Android",
@@ -311,12 +311,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "label": "উইন্ডোজ ১০+",
+      "desc": "মাইক্রোসফট স্টোর থেকে উইন্ডোজ ১০ এবং পরবর্তী সংস্করণের জন্য ডাউনলোড করুন।",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "ম্যাকওএস",
       "label": "Mac",
       "desc": "macOS এর জন্য সরাসরি ডাউনলোড। Apple Silicon এবং Intel সমর্থিত।",
       "badge": "সরাসরি ডাউনলোড"
@@ -324,14 +324,14 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Linux এর জন্য সরাসরি ডাউনলোড। AppImage সমর্থিত।",
-      "badge": "সরাসরি ডাউনলোড"
+      "desc": "লিনাক্সের জন্য পরীক্ষামূলক সরাসরি ডাউনলোড। হার্ডওয়্যার ত্বরকরণ পরিবর্তিত হতে পারে।",
+      "badge": "প্রায়োগিক"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
+      "date": "২০ সেপ্টেম্বর, ২০২৬",
       "desc": "ভিডিও এবং নেটওয়ার্ক স্ট্রিমিং সমর্থন সহ পিপপ্লেয়ারকে একটি পূর্ণ মিডিয়া প্লেয়ারে রূপান্তরকারী একটি বিশাল বড় আপডেট ।",
       "added": "যুক্ত করা হয়েছে",
       "changed": "পরিবর্তিত",
@@ -357,13 +357,13 @@
       "desc": "গুগল প্লে স্টোরে অফিসিয়াল অ্যান্ড্রয়েড রিলিজ।",
       "added": "যোগ করা হয়েছে",
       "androidTitle": "অ্যান্ড্রয়েড রিলিজ",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "অ্যান্ড্রয়েড ডিভাইসগুলির জন্য প্রাথমিক পরীক্ষা রিলিজ। মোবাইল ডিভাইসের জন্য সমর্থন সক্রিয়ভাবে উন্নয়নাধীন।",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "১৭ সেপ্টেম্বর, ২০২৬"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "১৬ সেপ্টেম্বর, ২০২৬",
       "desc": "লাইব্রেরি স্ক্রিনের উন্নতি এবং প্রতিক্রিয়াশীল সমাধান।",
       "added": "যোগ করা হয়েছে",
       "fixed": "সংশোধন করা হয়েছে",
@@ -372,7 +372,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "১৫ সেপ্টেম্বর, ২০২৬",
       "desc": "পিকচার-ইন-পিকচার সমর্থন, নেটিভ স্প্ল্যাশ স্ক্রিন এবং আরও অনেক কিছু।",
       "added": "যোগ করা হয়েছে",
       "fixed": "সংশোধন করা হয়েছে",
@@ -393,7 +393,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "১৪ সেপ্টেম্বর, ২০২৬",
       "desc": "সিস্টেম মিডিয়া নিয়ন্ত্রণ সিঙ্ক এবং মূল বৈশিষ্ট্য।",
       "added": "যোগ করা হয়েছে",
       "syncTitle": "সিস্টেম মিডিয়া নিয়ন্ত্রণ সিঙ্ক্রোনাইজেশন",
@@ -403,22 +403,22 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "১৪ সেপ্টেম্বর, ২০২৬",
+      "desc": "১০০% অনুবাদ সামঞ্জস্য অর্জন করা হয়েছে এবং UI বাগগুলি ঠিক করা হয়েছে।",
+      "added": "যোগ করা হয়েছে",
+      "fixed": "স্থির",
+      "syncTitle": "পূর্ণ লোকালাইজেশন সমতা",
+      "syncDesc": "সমন্বিত অনুবাদ কী এবং সমস্ত ৩০টি ভাষায় ম্যানুয়ালি কারিগরি সংকলিত অনুবাদ প্রয়োগ করা হয়েছে।",
+      "uiTitle": "ইউআই এবং লিঙ্কের সংশোধন",
+      "uiDesc": "হোম এবং লাইব্রেরি স্ক্রিনে উইজেট কনস্ট এরর সমাধান করা হয়েছে, এবং অ্যাবাউট ডায়ালগে গিটহাব রিপোজিটরি লিঙ্ক ঠিক করা হয়েছে।"
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "১৩ সেপ্টেম্বর, ২০২৬",
+      "desc": "এই প্রকাশনা PPPlayer কে আরও বড় গ্লোবাল দর্শকের কাছে নিয়ে আসে।",
+      "added": "যোগ করা হয়েছে",
+      "localizationTitle": "অতিরিক্ত ভাষা",
+      "localizationDesc": "নাইজেরিয়ার পিজিন, ফিলিপিনো, লাতভিয়ান, বাংলা, ক্রোয়েশিয়ান, মালয়, পারসিয়ান এবং এস্তোনিয়ান ভাষার জন্য লোকালাইজেশন যোগ করা হয়েছে।"
     },
     "back": "← PPPlayer এ ফিরে যান",
     "v1_2_0": {
@@ -548,18 +548,6 @@
       "youtube": "ইউটিউব-চালিত অডিও প্লেব্যাক",
       "playlists": "প্লেলিস্ট, প্রিয় গান এবং শোনার ইতিহাস",
       "platforms": "macOS, Windows এবং Linux সমর্থন"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Video Playback & Subtitles",
-      "videoDesc": "Redesigned video player featuring Fit/Fill, keyboard shortcuts, subtitle and audio-track selection, timing adjustments, and Picture-in-Picture.",
-      "streamsTitle": "Network Streams & Playlists",
-      "streamsDesc": "Support for network streams and playlist formats like M3U, M3U8, PLS, XSPF, and ASX.",
-      "libraryTitle": "Enhanced Local Libraries",
-      "libraryDesc": "Deep folder scanning, local video libraries, and improved artist, album, and genre browsing for offline playback."
     }
   },
   "support": {
@@ -593,12 +581,12 @@
     "advertisements": "বিজ্ঞাপন",
     "categories": {
       "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "discovery": "আবিষ্কার",
+      "engineering": "ইঞ্জিনিয়ারিং",
+      "community": "কমিউনিটি",
+      "guides": "গাইডস",
+      "education": "শিক্ষা",
+      "product": "পণ্য"
     }
   }
 }

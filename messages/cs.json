@@ -54,11 +54,11 @@
     "title1": "Hudba.",
     "title2": "Bez tření.",
     "desc": "Bezplatný hudební přehrávač s otevřeným zdrojovým kódem. Žádný účet. Žádné předplatné. Prostě hrajte.",
-    "getIos": "Získat pro iOS",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Získat pro Android",
     "getMac": "Získat pro Mac",
     "getWindows": "Získat pro Windows",
-    "getLinux": "Získat pro Linux",
+    "getLinux": "Linux (Experimental)",
     "badge": "Zdarma a s otevřeným zdrojovým kódem",
     "source": "Zobrazit zdrojový kód na GitHubu"
   },
@@ -79,17 +79,17 @@
     "title": "Vše, co potřebujete.",
     "subtitle": "Krásný, nativní zážitek vytvořený pro výkon.",
     "searchTitle": "Najděte přesně to, co chcete.",
-    "searchDesc": "Okamžitě prohledávejte globálně skladby, umělce a alba.",
+    "searchDesc": "Okamžitě vyhledávejte globálně napříč skladbami, umělci, alby a místními videi.",
     "queueTitle": "Dokonale seřazené.",
     "queueDesc": "Spravujte, co se bude hrát dál, pomocí krásné, uspořádatelné fronty.",
-    "favTitle": "Vaše hudba, vaše pravidla.",
-    "favDesc": "Vytvořte si osobní knihovnu jedním kliknutím. Vždy tam.",
+    "favTitle": "Vaše média, vaše pravidla.",
+    "favDesc": "Vytvořte si osobní knihovnu jediným kliknutím. Vždy k dispozici.",
     "contextTitle": "Nativní od návrhu.",
     "contextDesc": "Klikněte pravým tlačítkem kamkoli. Krásné, kontextové nativní nabídky.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Síťové streamy",
-    "streamsDesc": "Streamujte živé televizní vysílání, rádio a síťové seznamy skladeb (M3U, PLS, XSPF) přímo v aplikaci.",
+    "videoTitle": "Přehrávání místního videa.",
+    "videoDesc": "Přehrávejte místní video soubory offline s titulky, PiP a Přizpůsobit/Vyplnit. Podpora formátů se liší podle platformy.",
+    "streamsTitle": "Síťové streamování.",
+    "streamsDesc": "Streamujte seznamy skladeb M3U/PLS a kompatibilní URL adresy. YouTube používá vestavěný přehrávač. Ne všechna videa třetích stran lze přehrát.",
     "videoPlaybackTitle": "Přehrávání místního videa",
     "videoPlaybackDesc": "Bezproblémové přehrávání místních video souborů s podporou titulků, výběru zvukové stopy a režimu Obraz v obrazu."
   },
@@ -126,29 +126,29 @@
     "reqTitle": "Požadavky na {platform}",
     "reqs": {
       "macos": {
-        "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
-        "mem": "4 GB RAM (Recommended)"
+        "os": "macOS 10.15 Catalina nebo novější",
+        "arch": "Apple Silicon a Intel (Universal)",
+        "mem": "4 GB RAM (Doporučeno)"
       },
       "windows": {
-        "os": "Windows 10 or later (64-bit)",
+        "os": "Windows 10 nebo novější (64-bit)",
         "arch": "x64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Doporučeno)"
       },
       "linux": {
-        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "os": "Ubuntu 20.04 nebo novější (Experimentální)",
         "arch": "x86_64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "4 GB RAM (Doporučeno)"
       },
       "ios": {
-        "os": "iOS 13.0 or newer",
+        "os": "iOS 13.0 nebo novější",
         "arch": "ARM64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (Doporučeno)"
       },
       "android": {
-        "os": "Android 7.0 (API 24) or newer",
+        "os": "Android 7.0 (API 24) nebo novější",
         "arch": "ARM64 / ARM / x86_64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "2 GB RAM (Doporučeno)"
       }
     }
   },
@@ -198,11 +198,11 @@
         "a": "Ne. PPPlayer je plně zdarma. Vše, co vidíte, je k dispozici bez jakýchkoli nákladů, bez nutnosti účtu."
       },
       {
-        "q": "What media formats are supported?",
+        "q": "Jaké mediální formáty jsou podporovány?",
         "a": "PPPlayer podporuje téměř všechny zvukové a video formáty, včetně MP3, FLAC, MP4, MKV a AVI. Podporuje také síťové streamy a seznamy skladeb M3U/M3U8."
       },
       {
-        "q": "Are there any special setup requirements for video?",
+        "q": "Existují nějaké speciální požadavky na nastavení pro video?",
         "a": "V systémech Windows, macOS, Android a iOS funguje PPPlayer ihned. V Linuxu může být nutné nainstalovat standardní mediální knihovny (jako libmpv) v závislosti na vaší distribuci."
       }
     ],
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone a iPad",
-      "desc": "K dispozici v App Store pro iPhone a iPad.",
-      "badge": "App Store"
+      "desc": "Brzy k dispozici v TestFlight a App Store pro iPhone a iPad.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -314,7 +314,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Stáhněte si pro Windows 10 a novější z Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,32 +326,32 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Přímé stažení pro Linux. Podporováno AppImage.",
-      "badge": "Přímé stažení"
+      "desc": "Experimentální přímé stažení pro Linux. Hardwarová akcelerace se může lišit.",
+      "badge": "Experimentální"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
-      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.",
-      "added": "Added",
-      "changed": "Changed",
-      "fixed": "Fixed",
-      "videoTitle": "Local Video Support",
-      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.",
-      "streamTitle": "Network Streaming",
-      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.",
-      "subtitleTitle": "Advanced Subtitles",
-      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.",
-      "speedTitle": "Playback Speed & Autoplay",
-      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.",
-      "exportTitle": "Media Export",
-      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.",
-      "languagesTitle": "New Languages & Genres",
-      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
-      "stabilityTitle": "Core Overhaul",
-      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+      "date": "20. září 2026",
+      "desc": "Rozsáhlá hlavní aktualizace transformující PPPlayer na plnohodnotný přehrávač médií s podporou videa a síťového streamování.",
+      "added": "Přidáno",
+      "changed": "Změněno",
+      "fixed": "Opraveno",
+      "videoTitle": "Podpora místního videa",
+      "videoDesc": "Kompletní podpora knihovny a přehrávání místního videa s ovládáním videa a automatickým generováním náhledů.",
+      "streamTitle": "Síťové streamování",
+      "streamDesc": "Nativní podpora síťových streamů s analýzou seznamů skladeb M3U a přímým rozlišením URL.",
+      "subtitleTitle": "Pokročilé titulky",
+      "subtitleDesc": "Komplexní podpora titulků včetně přizpůsobení, úpravy zpoždění a intuitivního uživatelského rozhraní pro výběr.",
+      "speedTitle": "Rychlost přehrávání a automatické přehrávání",
+      "speedDesc": "Přidány flexibilní ovládací prvky rychlosti přehrávání a snadno dostupný přepínač automatického přehrávání přímo v zobrazení fronty.",
+      "exportTitle": "Export médií",
+      "exportDesc": "Bezproblémový export vašich vlastních seznamů skladeb a front přehrávání do místního zařízení.",
+      "languagesTitle": "Nové jazyky a žánry",
+      "languagesDesc": "Byla přidána oficiální turecká a guaranijská lokalizace a podpora pro místní procházení žánrů.",
+      "stabilityTitle": "Kompletní přepracování jádra",
+      "stabilityDesc": "Přepracována architektura jádra přehrávacího enginu pro lepší stabilitu, vlastní hlavičky HTTP a přísné zpracování časových limitů."
     },
     "title": "Seznam změn",
     "subtitle": "Co je nového v PPPlayeru.",
@@ -359,13 +359,13 @@
       "desc": "Oficiální vydání pro Android v obchodu Google Play.",
       "added": "Přidáno",
       "androidTitle": "Vydání pro Android",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "2.0.0",
-      "date": "September 17, 2026"
+      "androidDesc": "Počáteční testovací verze pro zařízení se systémem Android. Podpora mobilních zařízení se aktivně vyvíjí.",
+      "version": "1.3.6",
+      "date": "17. září 2026"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "16. září 2026",
       "desc": "Vylepšení obrazovky knihovny a opravy odezvy.",
       "added": "Přidáno",
       "fixed": "Opraveno",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "15. září 2026",
       "desc": "Podpora obrazu v obraze, nativní úvodní obrazovky a další.",
       "added": "Přidáno",
       "fixed": "Opraveno",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "14. září 2026",
       "desc": "Automatizovaná sestavení a vylepšení pracovních postupů.",
       "added": "Přidáno",
       "ciTitle": "Automatizované pracovní postupy",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "14. září 2026",
       "desc": "Synchronizace ovládacích prvků médií systému a základní funkce.",
       "added": "Přidáno",
       "syncTitle": "Synchronizace ovládacích prvků médií systému",
@@ -405,32 +405,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "14. září 2026",
+      "desc": "Dosaženo 100% parity překladů a opraveny chyby uživatelského rozhraní.",
+      "added": "Přidáno",
+      "fixed": "Opraveno",
+      "syncTitle": "Úplná parita lokalizace",
+      "syncDesc": "Synchronizovány klíče překladu a aplikovány ručně vybrané překlady do všech 30 jazyků.",
+      "uiTitle": "Opravy uživatelského rozhraní a odkazů",
+      "uiDesc": "Vyřešeny chyby konstant widgetů na domovské obrazovce a obrazovce knihovny a opraveny odkazy na repozitář GitHub v dialogovém okně O aplikaci."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "13. září 2026",
+      "desc": "Tato verze přináší PPPlayer ještě širšímu globálnímu publiku.",
+      "added": "Přidáno",
+      "localizationTitle": "Další jazyky",
+      "localizationDesc": "Přidány lokalizace pro nigerijský pidgin, filipínštinu, lotyštinu, bengálštinu, chorvatštinu, malajštinu, perštinu a estonštinu."
     },
     "back": "← Zpět na PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "12. září 2026",
+      "desc": "Rozšířená podpora lokalizace o 10 nových jazyků.",
+      "added": "Přidáno",
+      "fixed": "Opraveno",
+      "lang10Title": "10 nových jazyků",
+      "lang10Desc": "Přidána plná podpora pro indonéštinu, barmštinu, polštinu, dánštinu, kazaštinu, češtinu, maďarštinu, gruzínštinu, švédštinu a uzbečtinu."
     },
     "v1_1_2": {
       "version": "v1.1.2",
@@ -550,18 +550,6 @@
       "youtube": "Přehrávání zvuku s podporou YouTube",
       "playlists": "Seznamy skladeb, oblíbené položky a historie poslechu",
       "platforms": "Podpora pro macOS, Windows a Linux"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Přehrávání videa a titulky",
-      "videoDesc": "Přepracovaný přehrávač videa s přizpůsobením/vyplněním, klávesovými zkratkami, výběrem titulků a zvuku, úpravami časování a PiP.",
-      "streamsTitle": "Síťové streamy a seznamy skladeb",
-      "streamsDesc": "Podpora síťových streamů a formátů seznamů skladeb jako M3U, M3U8, PLS, XSPF a ASX.",
-      "libraryTitle": "Vylepšené místní knihovny",
-      "libraryDesc": "Hluboké prohledávání složek, místní knihovny videí a vylepšené procházení umělců, alb a žánrů pro přehrávání offline."
     }
   },
   "support": {
@@ -594,13 +582,13 @@
     "translationUnavailable": "Tento článek není k dispozici ve vašem jazyce.",
     "advertisements": "Reklamy",
     "categories": {
-      "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "all": "Vše",
+      "discovery": "Objevování",
+      "engineering": "Inženýrství",
+      "community": "Komunita",
+      "guides": "Průvodci",
+      "education": "Vzdělávání",
+      "product": "Produkt"
     }
   }
 }

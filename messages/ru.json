@@ -54,11 +54,11 @@
     "title1": "Музыка.",
     "title2": "Без преград.",
     "desc": "Бесплатный музыкальный плеер с открытым исходным кодом. Без аккаунта. Без подписки. Просто слушайте.",
-    "getIos": "Скачать для iOS",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Скачать для Android",
     "getMac": "Скачать для Mac",
     "getWindows": "Скачать для Windows",
-    "getLinux": "Скачать для Linux",
+    "getLinux": "Linux (Experimental)",
     "badge": "Бесплатно и с открытым кодом",
     "source": "Исходный код на GitHub"
   },
@@ -79,17 +79,17 @@
     "title": "Всё, что вам нужно.",
     "subtitle": "Красивый, нативный опыт, созданный для производительности.",
     "searchTitle": "Находите именно то, что хотите.",
-    "searchDesc": "Мгновенный глобальный поиск по трекам, исполнителям и альбомам.",
+    "searchDesc": "Мгновенно ищите по всем трекам, исполнителям, альбомам и локальным видео.",
     "queueTitle": "Идеальная очередь.",
     "queueDesc": "Управляйте тем, что будет играть дальше, с красивой очередью.",
-    "favTitle": "Ваша музыка, ваши правила.",
-    "favDesc": "Создайте свою личную медиатеку в один клик. Всегда под рукой.",
+    "favTitle": "Ваши медиа, ваши правила.",
+    "favDesc": "Создайте свою личную библиотеку одним щелчком мыши. Всегда под рукой.",
     "contextTitle": "Нативный дизайн.",
     "contextDesc": "Нажмите правой кнопкой мыши. Красивые, нативные контекстные меню.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Сетевые потоки",
-    "streamsDesc": "Смотрите прямо в приложении прямые трансляции ТВ, радио и сетевые плейлисты (M3U, PLS, XSPF).",
+    "videoTitle": "Воспроизведение локального видео.",
+    "videoDesc": "Воспроизводите локальные видеофайлы в автономном режиме с субтитрами, функцией «Картинка в картинке» и подгонкой/заполнением. Поддержка форматов зависит от платформы.",
+    "streamsTitle": "Сетевая потоковая передача.",
+    "streamsDesc": "Транслируйте списки воспроизведения M3U/PLS и совместимые URL-адреса. YouTube использует встроенный проигрыватель. Не все сторонние видео можно воспроизвести.",
     "videoPlaybackTitle": "Воспроизведение локального видео",
     "videoPlaybackDesc": "Легко воспроизводите локальные видеофайлы с поддержкой субтитров, выбора звуковой дорожки и режима «Картинка в картинке»."
   },
@@ -198,12 +198,12 @@
         "a": "Нет. PPPlayer полностью бесплатен. Все, что вы видите, доступно бесплатно."
       },
       {
-        "q": "What media formats are supported?",
-        "a": "PPPlayer поддерживает практически все аудио и видео форматы, включая MP3, FLAC, MP4, MKV и AVI. Также поддерживаются сетевые потоки и плейлисты M3U/M3U8."
+        "q": "Какие медиаформаты поддерживаются?",
+        "a": "PPPlayer поддерживает практически все аудио- и видеоформаты, включая MP3, FLAC, MP4, MKV и AVI. Также поддерживаются сетевые потоки и плейлисты M3U/M3U8."
       },
       {
-        "q": "Are there any special setup requirements for video?",
-        "a": "В Windows, macOS, Android и iOS PPPlayer работает сразу после установки. В Linux вам может потребоваться установить стандартные медиабиблиотеки (например, libmpv) в зависимости от дистрибутива."
+        "q": "Существуют ли какие-либо специальные требования к настройке видео?",
+        "a": "В Windows, macOS, Android и iOS PPPlayer работает сразу после установки. В Linux может потребоваться установить стандартные медиабиблиотеки (например, libmpv) в зависимости от вашего дистрибутива."
       }
     ],
     "openSourceQuestion": "Является ли PPPlayer проектом с открытым исходным кодом?",
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone и iPad",
-      "desc": "Доступно в App Store для iPhone и iPad.",
-      "badge": "App Store"
+      "desc": "Скоро появится в TestFlight и App Store для iPhone и iPad.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -314,7 +314,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Скачайте для Windows 10 и новее из Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,18 +326,18 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Прямая загрузка для Linux. Поддержка AppImage.",
-      "badge": "Прямая загрузка"
+      "desc": "Экспериментальная прямая загрузка для Linux. Аппаратное ускорение может отличаться.",
+      "badge": "Экспериментальная"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
+      "date": "20 сентября 2026 г.",
       "desc": "Масштабное крупное обновление, превращающее PPPlayer в полноценный медиаплеер с поддержкой видео и сетевой потоковой передачи.",
       "added": "Добавлено",
-      "changed": "Дата изменения.",
-      "fixed": "Фиксированный",
+      "changed": "Изменено",
+      "fixed": "Исправлено",
       "videoTitle": "Локальная поддержка видео",
       "videoDesc": "Полная поддержка локальной видеобиблиотеки и воспроизведения с элементами управления видео и автоматической генерацией миниатюр.",
       "streamTitle": "Сетевая потоковая передача",
@@ -359,13 +359,13 @@
       "desc": "Официальный релиз для Android в Google Play Store.",
       "added": "Добавлено",
       "androidTitle": "Релиз для Android",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "Начальный тестовый выпуск для устройств Android. Поддержка мобильных устройств активно разрабатывается.",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "17 сентября 2026 г."
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "16 сентября 2026 г.",
       "desc": "Улучшения экрана библиотеки и исправления адаптивности.",
       "added": "Добавлено",
       "fixed": "Исправлено",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "15 сентября 2026 г.",
       "desc": "Поддержка «Картинка в картинке», нативные экраны заставки и многое другое.",
       "added": "Добавлено",
       "fixed": "Исправлено",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "14 сентября 2026 г.",
       "desc": "Автоматизированные сборки и улучшения рабочего процесса.",
       "added": "Добавлено",
       "ciTitle": "Автоматизированные рабочие процессы",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "14 сентября 2026 г.",
       "desc": "Синхронизация элементов управления мультимедиа системы и основные функции.",
       "added": "Добавлено",
       "syncTitle": "Синхронизация элементов управления мультимедиа системы",
@@ -405,32 +405,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "14 сентября 2026 г.",
+      "desc": "Достигнут 100% паритет перевода и исправлены ошибки интерфейса.",
+      "added": "Добавлено",
+      "fixed": "Исправлено",
+      "syncTitle": "Полный паритет локализации",
+      "syncDesc": "Синхронизированы ключи перевода и тщательно применены переводы на всех 30 языках.",
+      "uiTitle": "Исправления пользовательского интерфейса и ссылок",
+      "uiDesc": "Устранены ошибки const в виджетах на главном экране и экране библиотеки, а также исправлены ссылки на репозиторий GitHub в диалоговом окне «О программе»."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "13 сентября 2026 г.",
+      "desc": "Этот релиз делает PPPlayer доступным еще более широкой глобальной аудитории.",
+      "added": "Добавлено",
+      "localizationTitle": "Дополнительные языки",
+      "localizationDesc": "Добавлены локализации для нигерийского пиджина, филиппинского, латышского, бенгальского, хорватского, малайского, персидского и эстонского языков."
     },
     "back": "← Вернуться в PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "12 сентября 2026 г.",
+      "desc": "Расширенная поддержка локализации с добавлением 10 новых языков.",
+      "added": "Добавлено",
+      "fixed": "Исправлено",
+      "lang10Title": "10 новых языков",
+      "lang10Desc": "Добавлена полная поддержка индонезийского, бирманского, польского, датского, казахского, чешского, венгерского, грузинского, шведского и узбекского языков."
     },
     "v1_1_2": {
       "version": "v1.1.2",
@@ -445,72 +445,72 @@
     },
     "v1_1_1": {
       "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "date": "12 сентября 2026 г.",
+      "desc": "Исправлены ошибки воспроизведения и улучшена панель поиска при запуске приложения.",
+      "fixed": "Исправлено",
+      "snapTitle": "Ошибка панели поиска при запуске",
+      "snapDesc": "Исправлена проблема, из-за которой панель поиска мгновенно возвращалась в исходное положение при её перемещении сразу после запуска приложения.",
+      "durationTitle": "Отсутствует продолжительность",
+      "durationDesc": "Исправлена панель поиска, показывающая продолжительность 0:00 при первом запуске приложения."
     },
     "v1_1_0": {
       "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "date": "11 сентября 2026 г.",
+      "desc": "Полная интернационализация и локализация во всем приложении и на сайте.",
+      "new": "Добавлено",
+      "langTitle": "11 мировых языков",
+      "langDesc": "Добавлена полная поддержка испанского, французского, немецкого, португальского, итальянского, японского, корейского, китайского, хинди, русского и арабского языков.",
+      "pickerTitle": "Встроенный выбор языка",
+      "pickerDesc": "Добавлен выбор языка в меню «Настройки», который применяет переводы мгновенно без перезапуска приложения.",
+      "osTitle": "Интеграция на уровне ОС",
+      "osDesc": "Нативная интеграция языка на уровне ОС в Android 13+ и iOS для автоматической синхронизации языка приложения."
     },
     "v1_0_6": {
       "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "date": "11 сентября 2026 г.",
+      "desc": "Хотфикс для новых установок.",
+      "fixed": "Исправлено",
+      "crashTitle": "Исправление сбоя при запуске",
+      "crashDesc": "Исправлена критическая ошибка, приводившая к сбою приложения на пустом экране при новых установках из-за отсутствующего файла конфигурации среды."
     },
     "v1_0_4": {
       "version": "v1.0.4",
-      "date": "September 11, 2026",
-      "desc": "Automated releases and code signing.",
-      "new": "New",
-      "fixed": "Fixed",
-      "ciTitle": "Automated Release Pipeline",
-      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
-      "signedTitle": "Signed macOS Releases",
-      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
-      "licenseTitle": "Open Source License",
-      "licenseDesc": "Added MIT License to the repository.",
-      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+      "date": "11 сентября 2026 г.",
+      "desc": "Автоматизированные сборки и подпись кода.",
+      "new": "Новое",
+      "fixed": "Исправлено",
+      "ciTitle": "Автоматизированный конвейер выпуска",
+      "ciDesc": "Рабочий процесс GitHub Actions для последовательных сборок и подписи кода в macOS.",
+      "signedTitle": "Подписанные релизы macOS",
+      "signedDesc": "Официальные подписанные и нотариально заверенные релизы для macOS теперь доступны прямо на сайте.",
+      "licenseTitle": "Лицензия с открытым исходным кодом",
+      "licenseDesc": "В репозиторий добавлена лицензия MIT.",
+      "submoduleFix": "Исправлена конфигурация проверки подмодулей в рабочих процессах CI."
     },
     "v1_0_3": {
       "version": "v1.0.3",
-      "date": "September 10, 2026",
-      "desc": "Background playback and stability.",
-      "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "hybridEngineTitle": "Hybrid Playback Engine",
-      "hybridEngineDesc": "Robust background processing and lock-screen playback capabilities.",
-      "dedupTitle": "Command Deduplication",
-      "dedupDesc": "Added generation IDs to prevent overlapping and stale media commands across WebView bridge.",
-      "queueAdvance": "Song queue not automatically advancing to the next track",
-      "resumeBug": "Paused track unexpectedly resuming when handing off from foreground to PiP or background",
-      "precision": "Accurate millisecond precision reporting for current track position and playback duration",
-      "linter": "Eliminated several IDE linter errors and cleaned up redundant files"
+      "date": "10 сентября 2026 г.",
+      "desc": "Фоновое воспроизведение и стабильность.",
+      "new": "Новое",
+      "improved": "Улучшено",
+      "fixed": "Исправлено",
+      "hybridEngineTitle": "Гибридный движок воспроизведения",
+      "hybridEngineDesc": "Надежная фоновая обработка и возможность воспроизведения на экране блокировки.",
+      "dedupTitle": "Дедупликация команд",
+      "dedupDesc": "Добавлены идентификаторы генерации для предотвращения перекрывающихся и устаревших медиакоманд через мост WebView.",
+      "queueAdvance": "Очередь песен не переходила автоматически к следующему треку",
+      "resumeBug": "Приостановленный трек неожиданно возобновлялся при переходе с переднего плана в режим PiP или в фоновый режим",
+      "precision": "Точные отчеты с точностью до миллисекунды для текущей позиции трека и продолжительности воспроизведения",
+      "linter": "Устранены несколько ошибок линтера IDE и очищены избыточные файлы"
     },
     "v1_0_2": {
       "version": "v1.0.2",
-      "date": "September 9, 2026",
-      "desc": "Smarter, context-based autoplay.",
-      "autoplayContextTitle": "Context-Aware Autoplay",
-      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
-      "tieredRecsTitle": "Tiered Recommendation Engine",
-      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+      "date": "9 сентября 2026 г.",
+      "desc": "Более умное автовоспроизведение с учетом контекста.",
+      "autoplayContextTitle": "Контекстно-зависимое автовоспроизведение",
+      "autoplayContextDesc": "Автовоспроизведение теперь отдает приоритет трекам текущего исполнителя перед добавлением связанных исполнителей в очередь.",
+      "tieredRecsTitle": "Уровневый механизм рекомендаций",
+      "tieredRecsDesc": "В рекомендациях теперь строго используется каталог целевого исполнителя вместо нечеткого поиска по имени."
     },
     "v1_0_1": {
       "version": "v1.0.1",
@@ -550,18 +550,6 @@
       "fixed": "Исправлено",
       "appNapTitle": "Непрерывное воспроизведение в фоне",
       "appNapDesc": "Предотвращена приостановка свёрнутого плеера функцией App Nap в macOS, чтобы очередь воспроизводилась без прерываний."
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Воспроизведение видео и субтитры",
-      "videoDesc": "Обновленный видеоплеер с функциями адаптации, горячими клавишами, выбором субтитров и звука, настройками времени и PiP.",
-      "streamsTitle": "Сетевые потоки и плейлисты",
-      "streamsDesc": "Поддержка сетевых потоков и форматов плейлистов, таких как M3U, M3U8, PLS, XSPF и ASX.",
-      "libraryTitle": "Улучшенные локальные библиотеки",
-      "libraryDesc": "Глубокое сканирование папок, локальные библиотеки видео и улучшенная навигация по исполнителям, альбомам и жанрам для офлайн-прослушивания."
     }
   },
   "support": {

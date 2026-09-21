@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { getAllPosts } from '@/lib/blog';
+import { getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 
 const BASE_URL = 'https://ppplayer.com';
@@ -17,12 +18,16 @@ export async function GET(
   const posts = getAllPosts(locale);
   const localePrefix = locale === routing.defaultLocale ? '' : `/${locale}`;
   
+  const t = await getTranslations({ locale, namespace: 'blog' });
+  const description = t.has('subtitle') ? t('subtitle') : 'News, updates, and stories from the PPPlayer team.';
+  const title = t.has('title') ? t('title') : 'Blog';
+
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PPPlayer Blog (${locale})</title>
+    <title>PPPlayer ${title} (${locale})</title>
     <link>${BASE_URL}${localePrefix}/blog</link>
-    <description>News, updates, and stories from the PPPlayer team.</description>
+    <description>${description}</description>
     <language>${locale}</language>
     <atom:link href="${BASE_URL}${localePrefix}/blog/rss.xml" rel="self" type="application/rss+xml" />
     ${posts

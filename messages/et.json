@@ -54,11 +54,11 @@
     "title1": "Muusika.",
     "title2": "Ilma hõõrdumiseta.",
     "desc": "Tasuta ja avatud lähtekoodiga muusikapleier. Kontot pole vaja. Tellimust pole. Lihtsalt kuula.",
-    "getIos": "Hangi iOS-ile",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Hangi Androidile",
     "getMac": "Hangi Macile",
     "getWindows": "Hangi Windowsile",
-    "getLinux": "Hangi Linuxile",
+    "getLinux": "Linux (Experimental)",
     "badge": "Tasuta ja avatud lähtekoodiga",
     "source": "Vaata lähtekoodi GitHubis"
   },
@@ -79,17 +79,17 @@
     "title": "Kõik, mida vajad.",
     "subtitle": "Ilus, kohalik kogemus, mis on loodud jõudluse tagamiseks.",
     "searchTitle": "Leia täpselt see, mida soovid.",
-    "searchDesc": "Otsi globaalselt lugude, esitajate ja albumite hulgast koheselt.",
+    "searchDesc": "Otsi koheselt ja globaalselt lugusid, artiste, albumeid ja kohalikke videoid.",
     "queueTitle": "Täiuslikult järjekorras.",
     "queueDesc": "Halda seda, mis järgmisena esitatakse, ilusa ja ümberjärjestatava järjekorraga.",
-    "favTitle": "Sinu muusika, sinu reeglid.",
-    "favDesc": "Ehita oma isiklik raamatukogu ühe klõpsuga. Alati seal.",
+    "favTitle": "Sinu meedia, sinu reeglid.",
+    "favDesc": "Loo oma isiklik teek vaid ühe klõpsuga. Alati sinu jaoks olemas.",
     "contextTitle": "Loomult natiivne.",
     "contextDesc": "Paremklõpsa kõikjal. Ilusad, kontekstiteadlikud kohalikud menüüd.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Võrguvood",
-    "streamsDesc": "Voogesitage otsetelevisiooni, raadiot ja võrgu esitusloendeid (M3U, PLS, XSPF) otse rakenduses.",
+    "videoTitle": "Kohalik videote esitus.",
+    "videoDesc": "Esita kohalikke videofaile võrguühenduseta, koos subtiitrite, PiP ja Fit/Fill valikutega. Toetatud vormingud sõltuvad platvormist.",
+    "streamsTitle": "Võrguvoogesitus.",
+    "streamsDesc": "Voogesita M3U/PLS esitusloendeid ja ühilduvaid URL-e. YouTube kasutab manustatud pleierit. Kõik kolmandate osapoolte videod ei pruugi töötada.",
     "videoPlaybackTitle": "Kohalik video taasesitus",
     "videoPlaybackDesc": "Esitage oma kohalikke videofaile sujuvalt koos subtiitrite toe, heliraja valiku ja Pilt-pildis režiimiga."
   },
@@ -198,11 +198,11 @@
         "a": "Ei. PPPlayer on täiesti tasuta. Kõik, mida näete, on saadaval tasuta, kontot pole vaja."
       },
       {
-        "q": "What media formats are supported?",
+        "q": "Milliseid meediumivorminguid toetatakse?",
         "a": "PPPlayer toetab peaaegu kõiki heli- ja videovorminguid, sealhulgas MP3, FLAC, MP4, MKV ja AVI. Samuti toetab see võrguvooge ja M3U/M3U8 esitusloendeid."
       },
       {
-        "q": "Are there any special setup requirements for video?",
+        "q": "Kas videote esitamiseks on vaja eraldi seadistusi?",
         "a": "Windowsis, macOS-is, Androidis ja iOS-is töötab PPPlayer kohe pärast installimist. Linuxis peate võib-olla olenevalt teie distributsioonist installima standardsed meediumiteegid (nt libmpv)."
       }
     ],
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone ja iPad",
-      "desc": "Saadaval App Store'is iPhone'i ja iPadi jaoks.",
-      "badge": "App Store"
+      "desc": "Peagi saadaval TestFlightis ja App Store'is iPhone'ile ja iPadile.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -314,7 +314,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Laadige Windows 10 ja uuemate versioonide jaoks alla Microsoft Store'ist.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,32 +326,32 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Otsene allalaadimine Linuxi jaoks. Toetatud on AppImage.",
-      "badge": "Otsene allalaadimine"
+      "desc": "Eksperimentaalne otsene allalaadimine Linuxile. Riistvaraline kiirendus võib erineda.",
+      "badge": "Experimental"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
-      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.",
-      "added": "Added",
-      "changed": "Changed",
-      "fixed": "Fixed",
-      "videoTitle": "Local Video Support",
-      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.",
-      "streamTitle": "Network Streaming",
-      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.",
-      "subtitleTitle": "Advanced Subtitles",
-      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.",
-      "speedTitle": "Playback Speed & Autoplay",
-      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.",
-      "exportTitle": "Media Export",
-      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.",
-      "languagesTitle": "New Languages & Genres",
-      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
-      "stabilityTitle": "Core Overhaul",
-      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+      "date": "20. september 2026",
+      "desc": "Massiivne suur värskendus, mis muudab PPPlayeri täieõiguslikuks meediapleieriks, toetades videoid ja võrguvoogesitust.",
+      "added": "Lisatud",
+      "changed": "Muudetud",
+      "fixed": "Parandatud",
+      "videoTitle": "Kohaliku video tugi",
+      "videoDesc": "Täielik kohalike videote teek ja esituse tugi koos videote juhtnuppude ja pisipiltide automaatse genereerimisega.",
+      "streamTitle": "Võrguvoogesitus",
+      "streamDesc": "Loomulik tugi võrguvoogudele koos M3U esitusloendite sõelumise ja URL-ide otselahendamisega.",
+      "subtitleTitle": "Täiustatud subtiitrid",
+      "subtitleDesc": "Põhjalik subtiitrite tugi, sealhulgas kohandamine, viivituse reguleerimine ja intuitiivne valikuliides.",
+      "speedTitle": "Esituse kiirus ja automaatne esitus",
+      "speedDesc": "Lisatud paindlikud esituskiiruse juhtnupud ja kergesti ligipääsetav automaatse esituse lüliti otse järjekorra vaates.",
+      "exportTitle": "Meedia eksport",
+      "exportDesc": "Ekspordi sujuvalt oma kohandatud esitusloendeid ja esitusjärjekordi oma seadmesse.",
+      "languagesTitle": "Uued keeled ja žanrid",
+      "languagesDesc": "Lisati ametlikud türgi ja guaranii keeled, samuti tugi kohalike žanrite sirvimisele.",
+      "stabilityTitle": "Tuumiku uuendus",
+      "stabilityDesc": "Esitusmootori arhitektuuri täielik uuendus parema stabiilsuse, kohandatud HTTP päiste ja rangema ajalõpu haldamise tagamiseks."
     },
     "title": "Muudatuste logi",
     "subtitle": "Mis on uut PPPlayeris.",
@@ -359,9 +359,9 @@
       "desc": "Ametlik Androidi väljalase Google Play poes.",
       "added": "Lisatud",
       "androidTitle": "Androidi väljalase",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "Esmane testväljalase Androidi seadmetele. Mobiilseadmete tuge arendatakse aktiivselt.",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "17. september 2026"
     },
     "v1_3_5": {
       "version": "1.3.5",
@@ -405,14 +405,14 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "14. september 2026",
+      "desc": "Saavutati 100% tõlgete võrdsus ja parandati kasutajaliidese vead.",
+      "added": "Lisatud",
+      "fixed": "Parandatud",
+      "syncTitle": "Täielik lokaliseerimise võrdsus",
+      "syncDesc": "Sünkrooniti tõlkevõtmed ja rakendati käsitsi kureeritud tõlked kõigis 30 keeles.",
+      "uiTitle": "Kasutajaliidese ja linkide parandused",
+      "uiDesc": "Lahendati vidinate const-vead avalehel ja raamatukogu ekraanil ning parandati GitHubi repositooriumi lingid teabedialoogis."
     },
     "v1_3_0": {
       "version": "1.3.0",
@@ -550,18 +550,6 @@
       "youtube": "YouTube'i toega heli taasesitus",
       "playlists": "Esitusloendid, lemmikud ja kuulamisajalugu",
       "platforms": "macOS, Windowsi ja Linuxi tugi"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Video taasesitus ja subtiitrid",
-      "videoDesc": "Ümberkujundatud videopleier koos sobitamise/täitmise, kiirklahvide, subtiitrite ja heli valiku, ajastuse reguleerimise ja PiP-ga.",
-      "streamsTitle": "Võrguvood ja esitusloendid",
-      "streamsDesc": "Tugi võrguvoogudele ja esitusloendi vormingutele, nagu M3U, M3U8, PLS, XSPF ja ASX.",
-      "libraryTitle": "Täiustatud kohalikud teegid",
-      "libraryDesc": "Sügav kaustade skannimine, kohalikud videoteegid ja täiustatud esitajate, albumite ja žanrite sirvimine võrguühenduseta taasesituseks."
     }
   },
   "support": {

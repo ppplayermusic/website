@@ -16,13 +16,16 @@ export default function HeroSection() {
   const [detectedOS, setDetectedOS] = useState<string | null>(null);
 
   useEffect(() => {
-    const ua = navigator.userAgent.toLowerCase();
-    if (/android/.test(ua)) setDetectedOS('android');
-    else if (/iphone|ipad|ipod/.test(ua)) setDetectedOS('ios');
-    else if (/mac/.test(ua)) setDetectedOS('macos');
-    else if (/win/.test(ua)) setDetectedOS('windows');
-    else if (/linux/.test(ua)) setDetectedOS('linux');
-    else setDetectedOS('macos'); // fallback to macOS
+    const timer = setTimeout(() => {
+      const ua = navigator.userAgent.toLowerCase();
+      if (/android/.test(ua)) setDetectedOS('android');
+      else if (/iphone|ipad|ipod/.test(ua)) setDetectedOS('ios');
+      else if (/mac/.test(ua)) setDetectedOS('macos');
+      else if (/win/.test(ua)) setDetectedOS('windows');
+      else if (/linux/.test(ua)) setDetectedOS('linux');
+      else setDetectedOS('macos'); // fallback to macOS
+    }, 0);
+    return () => clearTimeout(timer);
   }, []);
 
   const handleDownloadClick = (e: React.MouseEvent<HTMLAnchorElement>, platformId: string) => {

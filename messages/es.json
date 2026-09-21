@@ -54,11 +54,11 @@
     "title1": "Música.",
     "title2": "Sin complicaciones.",
     "desc": "Un reproductor de música gratuito y de código abierto. Sin cuenta. Sin suscripción. Solo dale al play.",
-    "getIos": "Obtener para iOS",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "Obtener para Android",
     "getMac": "Obtener para Mac",
     "getWindows": "Obtener para Windows",
-    "getLinux": "Descargar para Linux",
+    "getLinux": "Linux (Experimental)",
     "badge": "Gratis y de código abierto",
     "source": "Ver código en GitHub"
   },
@@ -79,17 +79,17 @@
     "title": "Todo lo que necesitas.",
     "subtitle": "Una hermosa experiencia nativa construida para el rendimiento.",
     "searchTitle": "Encuentra exactamente lo que quieres.",
-    "searchDesc": "Busca globalmente canciones, artistas y álbumes al instante.",
+    "searchDesc": "Busca globalmente pistas, artistas, álbumes y videos locales al instante.",
     "queueTitle": "Cola perfecta.",
     "queueDesc": "Controla lo que suena a continuación con una hermosa cola reordenable.",
-    "favTitle": "Tu música, tus reglas.",
-    "favDesc": "Crea tu biblioteca personal con un solo clic. Siempre contigo.",
+    "favTitle": "Tus medios, tus reglas.",
+    "favDesc": "Crea tu biblioteca personal con un solo clic. Siempre disponible.",
     "contextTitle": "Nativo por diseño.",
     "contextDesc": "Haz clic derecho. Menús contextuales nativos y hermosos.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "Transmisiones de red",
-    "streamsDesc": "Transmite TV en vivo, radio y listas de reproducción de red (M3U, PLS, XSPF) directamente en la aplicación.",
+    "videoTitle": "Reproducción de video local.",
+    "videoDesc": "Reproduce archivos de video locales sin conexión con subtítulos, PiP y ajuste/relleno. El soporte de formatos varía según la plataforma.",
+    "streamsTitle": "Transmisión por red.",
+    "streamsDesc": "Transmite listas de reproducción M3U/PLS y URLs compatibles. YouTube usa un reproductor integrado. No todos los videos de terceros son compatibles.",
     "videoPlaybackTitle": "Reproducción de video local",
     "videoPlaybackDesc": "Reproduce tus videos locales sin problemas con soporte para subtítulos, selección de pista de audio y modo Imagen en Imagen."
   },
@@ -198,11 +198,11 @@
         "a": "No. PPPlayer es completamente gratis. Todo está disponible sin costo."
       },
       {
-        "q": "What media formats are supported?",
+        "q": "¿Qué formatos multimedia son compatibles?",
         "a": "PPPlayer admite casi todos los formatos de audio y video, incluidos MP3, FLAC, MP4, MKV y AVI. También soporta transmisiones de red y listas M3U/M3U8."
       },
       {
-        "q": "Are there any special setup requirements for video?",
+        "q": "¿Hay algún requisito de configuración especial para el video?",
         "a": "En Windows, macOS, Android e iOS, PPPlayer funciona de inmediato. En Linux, es posible que debas instalar bibliotecas multimedia estándar (como libmpv) según tu distribución."
       }
     ],
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone y iPad",
-      "desc": "Disponible en la App Store para iPhone y iPad.",
-      "badge": "App Store"
+      "desc": "Próximamente en TestFlight y App Store para iPhone y iPad.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
@@ -314,7 +314,7 @@
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "Descargar para Windows 10 y versiones posteriores desde la Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,32 +326,32 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Descarga directa para Linux. Soporte para AppImage.",
-      "badge": "Descarga Directa"
+      "desc": "Descarga directa experimental para Linux. La aceleración por hardware puede variar.",
+      "badge": "Experimental"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
-      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.",
-      "added": "Added",
-      "changed": "Changed",
-      "fixed": "Fixed",
-      "videoTitle": "Local Video Support",
-      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.",
-      "streamTitle": "Network Streaming",
-      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.",
-      "subtitleTitle": "Advanced Subtitles",
-      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.",
-      "speedTitle": "Playback Speed & Autoplay",
-      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.",
-      "exportTitle": "Media Export",
-      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.",
-      "languagesTitle": "New Languages & Genres",
-      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
-      "stabilityTitle": "Core Overhaul",
-      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+      "date": "20 de septiembre de 2026",
+      "desc": "Una gran actualización que transforma PPPlayer en un reproductor multimedia completo con soporte para video y transmisiones de red.",
+      "added": "Añadido",
+      "changed": "Cambiado",
+      "fixed": "Corregido",
+      "videoTitle": "Soporte para video local",
+      "videoDesc": "Biblioteca de video local y soporte de reproducción que incluye controles de video y generación automática de miniaturas.",
+      "streamTitle": "Transmisión de red",
+      "streamDesc": "Soporte nativo para transmisiones de red con análisis de listas de reproducción M3U y resolución directa de URL.",
+      "subtitleTitle": "Subtítulos avanzados",
+      "subtitleDesc": "Soporte integral de subtítulos, que incluye personalización, ajuste de retraso y una interfaz de selección intuitiva.",
+      "speedTitle": "Velocidad de reproducción y reproducción automática",
+      "speedDesc": "Se agregaron controles flexibles de velocidad de reproducción y un interruptor de reproducción automática de fácil acceso directamente en la vista de cola.",
+      "exportTitle": "Exportación multimedia",
+      "exportDesc": "Exporta sin problemas tus listas de reproducción personalizadas y colas de reproducción a tu dispositivo local.",
+      "languagesTitle": "Nuevos idiomas y géneros",
+      "languagesDesc": "Se agregaron traducciones oficiales al turco y guaraní, así como soporte para exploración de géneros locales.",
+      "stabilityTitle": "Revisión del motor",
+      "stabilityDesc": "Se revisó la arquitectura central del motor de reproducción para mejorar la estabilidad, encabezados HTTP personalizados y manejo estricto de tiempos de espera."
     },
     "title": "Registro de cambios",
     "subtitle": "Novedades en PPPlayer.",
@@ -359,13 +359,13 @@
       "desc": "Lanzamiento oficial para Android en Google Play Store.",
       "added": "Añadido",
       "androidTitle": "Lanzamiento para Android",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "Lanzamiento de prueba inicial para dispositivos Android. El soporte para dispositivos móviles está en desarrollo activo.",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "17 de septiembre de 2026"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "16 de septiembre de 2026",
       "desc": "Mejoras en la pantalla de la biblioteca y correcciones de respuesta.",
       "added": "Añadido",
       "fixed": "Corregido",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "15 de septiembre de 2026",
       "desc": "Soporte de imagen en imagen (PiP), pantallas de inicio nativas y más.",
       "added": "Añadido",
       "fixed": "Corregido",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "14 de septiembre de 2026",
       "desc": "Compilaciones automatizadas y mejoras en el flujo de trabajo.",
       "added": "Añadido",
       "ciTitle": "Flujos de trabajo automatizados",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "14 de septiembre de 2026",
       "desc": "Sincronización de controles de medios del sistema y características principales.",
       "added": "Añadido",
       "syncTitle": "Sincronización de controles de medios del sistema",
@@ -405,32 +405,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "14 de septiembre de 2026",
+      "desc": "Se alcanzó el 100% de paridad de traducción y se corrigieron errores de la interfaz de usuario.",
+      "added": "Añadido",
+      "fixed": "Corregido",
+      "syncTitle": "Paridad total de localización",
+      "syncDesc": "Se sincronizaron las claves de traducción y se aplicaron traducciones seleccionadas manualmente en los 30 idiomas.",
+      "uiTitle": "Correcciones de la interfaz de usuario y enlaces",
+      "uiDesc": "Se resolvieron los errores constantes de los widgets en las pantallas de Inicio y Biblioteca, y se corrigieron los enlaces del repositorio de GitHub en el cuadro de diálogo Acerca de."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "13 de septiembre de 2026",
+      "desc": "Este lanzamiento lleva PPPlayer a una audiencia global aún más amplia.",
+      "added": "Añadido",
+      "localizationTitle": "Idiomas adicionales",
+      "localizationDesc": "Se agregaron localizaciones para pidgin nigeriano, filipino, letón, bengalí, croata, malayo, persa y estonio."
     },
     "back": "← Volver a PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "12 de septiembre de 2026",
+      "desc": "Soporte de localización ampliado con 10 nuevos idiomas.",
+      "added": "Añadido",
+      "fixed": "Corregido",
+      "lang10Title": "10 Nuevos idiomas",
+      "lang10Desc": "Soporte completo agregado para indonesio, birmano, polaco, danés, kazajo, checo, húngaro, georgiano, sueco y uzbeko."
     },
     "v1_1_2": {
       "version": "v1.1.2",
@@ -550,18 +550,6 @@
       "fixed": "Correcciones",
       "appNapTitle": "Reproducción continua en segundo plano",
       "appNapDesc": "Se evitó que App Nap de macOS suspendiera el reproductor al minimizarlo, permitiendo que la cola continúe sin interrupciones."
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "Reproducción de video y subtítulos",
-      "videoDesc": "Reproductor de video rediseñado con ajuste/relleno, atajos de teclado, selección de subtítulos y audio, ajustes de tiempo y Picture-in-Picture.",
-      "streamsTitle": "Transmisiones y listas de reproducción",
-      "streamsDesc": "Soporte para transmisiones de red y formatos de lista como M3U, M3U8, PLS, XSPF y ASX.",
-      "libraryTitle": "Bibliotecas locales mejoradas",
-      "libraryDesc": "Escaneo profundo de carpetas, bibliotecas de video locales y navegación mejorada por artista, álbum y género para reproducción sin conexión."
     }
   },
   "support": {

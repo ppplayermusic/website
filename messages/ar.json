@@ -54,11 +54,11 @@
     "title1": "موسيقى.",
     "title2": "بدون قيود.",
     "desc": "مشغل موسيقى مجاني ومفتوح المصدر. لا يحتاج إلى حساب. بدون اشتراك. فقط استمع.",
-    "getIos": "احصل عليه لـ iOS",
+    "getIos": "iOS (TestFlight)",
     "getAndroid": "احصل عليه لـ Android",
     "getMac": "احصل عليه لـ Mac",
     "getWindows": "احصل عليه لـ Windows",
-    "getLinux": "احصل عليه لـ Linux",
+    "getLinux": "Linux (Experimental)",
     "badge": "مجاني ومفتوح المصدر",
     "source": "عرض المصدر على GitHub"
   },
@@ -79,17 +79,17 @@
     "title": "كل ما تحتاجه.",
     "subtitle": "تجربة أصلية وجميلة مصممة للأداء.",
     "searchTitle": "اعثر على ما تريده بالضبط.",
-    "searchDesc": "ابحث عالمياً عبر المقاطع الصوتية والفنانين والألبومات على الفور.",
+    "searchDesc": "ابحث فوراً في جميع المقاطع الصوتية والفنانين والألبومات ومقاطع الفيديو المحلية.",
     "queueTitle": "قائمة تشغيل مثالية.",
     "queueDesc": "أدر ما سيتم تشغيله لاحقاً بقائمة تشغيل جميلة وقابلة لإعادة الترتيب.",
-    "favTitle": "موسيقاك، قواعدك.",
-    "favDesc": "ابنِ مكتبتك الشخصية بنقرة واحدة. دائماً هناك.",
+    "favTitle": "وسائطك، قواعدك.",
+    "favDesc": "قم ببناء مكتبتك الشخصية بنقرة واحدة. ستكون دائماً في متناولك.",
     "contextTitle": "تصميم أصلي.",
     "contextDesc": "انقر بزر الماوس الأيمن في أي مكان. قوائم أصلية جميلة وذكية.",
-    "videoTitle": "Advanced Video Playback.",
-    "videoDesc": "Picture-in-picture, subtitle support, and Fit/Fill options.",
-    "streamsTitle": "بث الشبكة",
-    "streamsDesc": "قم ببث التلفزيون المباشر والراديو وقوائم تشغيل الشبكة (M3U ، PLS ، XSPF) مباشرة داخل التطبيق.",
+    "videoTitle": "تشغيل الفيديو المحلي.",
+    "videoDesc": "قم بتشغيل ملفات الفيديو المحلية دون اتصال بالإنترنت مع الترجمات، ووضع صورة داخل صورة، وتعديل الحجم/الملء. يختلف دعم التنسيق حسب المنصة.",
+    "streamsTitle": "بث الشبكة.",
+    "streamsDesc": "قم ببث قوائم تشغيل M3U/PLS والروابط المتوافقة. يستخدم YouTube مشغلًا مضمنًا. قد لا تكون جميع مقاطع فيديو الجهات الخارجية قابلة للتشغيل.",
     "videoPlaybackTitle": "تشغيل الفيديو المحلي",
     "videoPlaybackDesc": "قم بتشغيل مقاطع الفيديو المحلية الخاصة بك بسلاسة مع دعم الترجمة واختيار المسار الصوتي ووضع صورة داخل صورة."
   },
@@ -126,29 +126,29 @@
     "reqTitle": "متطلبات {platform}",
     "reqs": {
       "macos": {
-        "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
-        "mem": "4 GB RAM (Recommended)"
+        "os": "macOS 10.15 Catalina أو أحدث",
+        "arch": "Apple Silicon و Intel (شامل)",
+        "mem": "ذاكرة وصول عشوائي 4 جيجابايت (موصى بها)"
       },
       "windows": {
-        "os": "Windows 10 or later (64-bit)",
+        "os": "Windows 10 أو أحدث (64-بت)",
         "arch": "x64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "ذاكرة وصول عشوائي 4 جيجابايت (موصى بها)"
       },
       "linux": {
-        "os": "Ubuntu 20.04 or newer (Experimental)",
+        "os": "Ubuntu 20.04 أو أحدث (تجريبي)",
         "arch": "x86_64",
-        "mem": "4 GB RAM (Recommended)"
+        "mem": "ذاكرة وصول عشوائي 4 جيجابايت (موصى بها)"
       },
       "ios": {
-        "os": "iOS 13.0 or newer",
+        "os": "iOS 13.0 أو أحدث",
         "arch": "ARM64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "ذاكرة وصول عشوائي 2 جيجابايت (موصى بها)"
       },
       "android": {
-        "os": "Android 7.0 (API 24) or newer",
+        "os": "Android 7.0 (API 24) أو أحدث",
         "arch": "ARM64 / ARM / x86_64",
-        "mem": "2 GB RAM (Recommended)"
+        "mem": "ذاكرة وصول عشوائي 2 جيجابايت (موصى بها)"
       }
     }
   },
@@ -198,12 +198,12 @@
         "a": "لا. PPPlayer مجاني بالكامل. كل ما تراه متاح مجاناً، دون الحاجة لحساب."
       },
       {
-        "q": "What media formats are supported?",
-        "a": "يدعم PPPlayer تقريبًا جميع تنسيقات الصوت والفيديو ، بما في ذلك MP3 و FLAC و MP4 و MKV و AVI. كما أنه يدعم بث الشبكة وقوائم تشغيل M3U/M3U8."
+        "q": "ما هي تنسيقات الوسائط المدعومة؟",
+        "a": "يدعم PPPlayer تقريبًا جميع تنسيقات الصوت والفيديو، بما في ذلك MP3 و FLAC و MP4 و MKV و AVI. كما أنه يدعم البث عبر الشبكة وقوائم تشغيل M3U/M3U8."
       },
       {
-        "q": "Are there any special setup requirements for video?",
-        "a": "على أنظمة Windows و macOS و Android و iOS ، يعمل PPPlayer بمجرد التثبيت. على نظام Linux ، قد تحتاج إلى تثبيت مكتبات الوسائط القياسية (مثل libmpv) اعتمادًا على التوزيعة الخاصة بك."
+        "q": "هل توجد أي متطلبات خاصة لإعداد الفيديو؟",
+        "a": "على أنظمة Windows و macOS و Android و iOS، يعمل PPPlayer بمجرد التثبيت. على نظام Linux، قد تحتاج إلى تثبيت مكتبات الوسائط القياسية (مثل libmpv) اعتمادًا على التوزيعة الخاصة بك."
       }
     ],
     "openSourceQuestion": "هل PPPlayer مفتوح المصدر؟",
@@ -302,19 +302,19 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone و iPad",
-      "desc": "متوفر على App Store لأجهزة iPhone و iPad.",
-      "badge": "App Store"
+      "desc": "قريباً على TestFlight ومتجر App Store لأجهزة iPhone و iPad.",
+      "badge": "TestFlight"
     },
     "android": {
       "name": "Android",
       "label": "Android",
-      "desc": "متوفر على Google Play لهواتف وأجهزة Android اللوحية.",
+      "desc": "متوفر على متجر Google Play لهواتف وأجهزة Android اللوحية.",
       "badge": "Google Play"
     },
     "windows": {
       "name": "Windows",
       "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "desc": "قم بالتنزيل لنظام التشغيل Windows 10 والأحدث من متجر Microsoft.",
       "badge": "Microsoft Store"
     },
     "macos": {
@@ -326,32 +326,32 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "تنزيل مباشر لنظام Linux. يدعم AppImage.",
-      "badge": "تنزيل مباشر"
+      "desc": "تنزيل مباشر تجريبي لنظام Linux. قد يختلف تسريع الأجهزة.",
+      "badge": "تجريبي"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
-      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.",
-      "added": "Added",
-      "changed": "Changed",
-      "fixed": "Fixed",
-      "videoTitle": "Local Video Support",
-      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.",
-      "streamTitle": "Network Streaming",
-      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.",
-      "subtitleTitle": "Advanced Subtitles",
-      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.",
-      "speedTitle": "Playback Speed & Autoplay",
-      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.",
-      "exportTitle": "Media Export",
-      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.",
-      "languagesTitle": "New Languages & Genres",
-      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
-      "stabilityTitle": "Core Overhaul",
-      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+      "date": "20 سبتمبر 2026",
+      "desc": "تحديث رئيسي ضخم يحول PPPlayer إلى مشغل وسائط متكامل مع دعم تشغيل الفيديو والبث عبر الشبكة.",
+      "added": "تمت الإضافة",
+      "changed": "تم التعديل",
+      "fixed": "تم الإصلاح",
+      "videoTitle": "دعم الفيديو المحلي",
+      "videoDesc": "دعم كامل لمكتبة الفيديو المحلية والتشغيل مع عناصر تحكم في الفيديو وإنشاء تلقائي للصور المصغرة.",
+      "streamTitle": "البث عبر الشبكة",
+      "streamDesc": "دعم مدمج لبث الشبكة مع تحليل قوائم تشغيل M3U وتحليل الروابط المباشرة.",
+      "subtitleTitle": "ترجمات متقدمة",
+      "subtitleDesc": "دعم شامل للترجمات يشمل التخصيص وتعديل التأخير وواجهة مستخدم بديهية للاختيار.",
+      "speedTitle": "سرعة التشغيل والتشغيل التلقائي",
+      "speedDesc": "تمت إضافة عناصر تحكم مرنة في سرعة التشغيل ومفتاح تبديل التشغيل التلقائي يسهل الوصول إليه مباشرة في عرض قائمة الانتظار.",
+      "exportTitle": "تصدير الوسائط",
+      "exportDesc": "تصدير قوائم التشغيل المخصصة وقوائم الانتظار الخاصة بك بسهولة إلى جهازك المحلي.",
+      "languagesTitle": "لغات وأنواع جديدة",
+      "languagesDesc": "تمت إضافة ترجمات رسمية للغتين التركية والغوارانية، بالإضافة إلى دعم تصفح الأنواع المحلية.",
+      "stabilityTitle": "تحديث جذري",
+      "stabilityDesc": "إصلاح بنية محرك التشغيل الأساسي لتحسين الاستقرار، والرؤوس المخصصة لـ HTTP، ومعالجة صارمة لانتهاء الوقت."
     },
     "title": "سجل التغييرات",
     "subtitle": "ما الجديد في PPPlayer.",
@@ -359,13 +359,13 @@
       "desc": "إصدار Android الرسمي على متجر Google Play.",
       "added": "تمت الإضافة",
       "androidTitle": "إصدار Android",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "إصدار تجريبي أولي لأجهزة Android. يجري حالياً تطوير دعم الأجهزة المحمولة بشكل نشط.",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "17 سبتمبر 2026"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "16 سبتمبر 2026",
       "desc": "تحسينات على شاشة المكتبة وإصلاحات للاستجابة.",
       "added": "تمت الإضافة",
       "fixed": "تم الإصلاح",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "15 سبتمبر 2026",
       "desc": "دعم صورة داخل صورة، شاشات البداية الأصلية، والمزيد.",
       "added": "تمت الإضافة",
       "fixed": "تم الإصلاح",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "14 سبتمبر 2026",
       "desc": "بناء آلي وتحسينات على سير العمل.",
       "added": "تمت الإضافة",
       "ciTitle": "مسارات عمل آلية",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "14 سبتمبر 2026",
       "desc": "مزامنة عناصر تحكم وسائط النظام وميزات أساسية.",
       "added": "تمت الإضافة",
       "syncTitle": "مزامنة عناصر تحكم وسائط النظام",
@@ -405,32 +405,32 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "14 سبتمبر 2026",
+      "desc": "تحقيق التكافؤ الكامل في الترجمة بنسبة 100% وإصلاح أخطاء واجهة المستخدم.",
+      "added": "تمت الإضافة",
+      "fixed": "تم الإصلاح",
+      "syncTitle": "تكافؤ التوطين الكامل",
+      "syncDesc": "تمت مزامنة مفاتيح الترجمة وتطبيق الترجمات المنسقة يدوياً عبر جميع اللغات الـ 30.",
+      "uiTitle": "إصلاحات واجهة المستخدم والروابط",
+      "uiDesc": "تم حل أخطاء const في أدوات الشاشة الرئيسية وشاشة المكتبة، وإصلاح روابط مستودع GitHub في مربع حوار 'حول'."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "13 سبتمبر 2026",
+      "desc": "يجلب هذا الإصدار PPPlayer لجمهور عالمي أوسع.",
+      "added": "تمت الإضافة",
+      "localizationTitle": "لغات إضافية",
+      "localizationDesc": "تمت إضافة ترجمات للغات بيدجين النيجيرية، الفلبينية، اللاتفية، البنغالية، الكرواتية، الملايوية، الفارسية، والإستونية."
     },
     "back": "← العودة إلى PPPlayer",
     "v1_2_0": {
       "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "date": "12 سبتمبر 2026",
+      "desc": "توسيع دعم اللغات مع إضافة 10 لغات جديدة.",
+      "added": "تمت الإضافة",
+      "fixed": "تم الإصلاح",
+      "lang10Title": "10 لغات جديدة",
+      "lang10Desc": "تمت إضافة دعم كامل للغات الإندونيسية، البورمية، البولندية، الدنماركية، الكازاخستانية، التشيكية، المجرية، الجورجية، السويدية، والأوزبكية."
     },
     "v1_1_2": {
       "version": "v1.1.2",
@@ -550,18 +550,6 @@
       "youtube": "تشغيل صوتي مدعوم من YouTube",
       "playlists": "قوائم التشغيل، والمفضلة، وسجل الاستماع",
       "platforms": "دعم أنظمة macOS و Windows و Linux"
-    },
-    "upcoming": {
-      "version": "Upcoming",
-      "date": "Coming Soon",
-      "desc": "Major additions including video playback and network streaming.",
-      "added": "Added",
-      "videoTitle": "تشغيل الفيديو والترجمة",
-      "videoDesc": "مشغل فيديو معاد تصميمه مع ميزات الملاءمة/التعبئة، اختصارات لوحة المفاتيح، اختيار الترجمة والصوت، وتعديلات التوقيت.",
-      "streamsTitle": "بث الشبكة وقوائم التشغيل",
-      "streamsDesc": "دعم بث الشبكة وتنسيقات قوائم التشغيل مثل M3U و M3U8 و PLS و XSPF و ASX.",
-      "libraryTitle": "المكتبات المحلية المحسنة",
-      "libraryDesc": "فحص عميق للمجلدات ومكتبات فيديو محلية وتصفح محسن حسب الفنان والألبوم والنوع للتشغيل دون اتصال."
     }
   },
   "support": {
@@ -594,13 +582,13 @@
     "translationUnavailable": "هذا المقال غير متوفر بلغتك.",
     "advertisements": "إعلانات",
     "categories": {
-      "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "all": "الكل",
+      "discovery": "استكشاف",
+      "engineering": "هندسة",
+      "community": "المجتمع",
+      "guides": "أدلة",
+      "education": "تعليم",
+      "product": "المنتج"
     }
   }
 }
