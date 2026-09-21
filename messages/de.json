@@ -331,6 +331,28 @@
     }
   },
   "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "September 20, 2026",
+      "desc": "Ein massives großes Update, das PPPlayer in einen vollständigen Media-Player mit Video- und Netzwerk-Streaming-Unterstützung verwandelt.",
+      "added": "Hinzugefügt",
+      "changed": "geändert",
+      "fixed": "Statisch („fixed“ im Englischen)",
+      "videoTitle": "Lokaler Video-Support",
+      "videoDesc": "Vollständige lokale Videobibliothek und Wiedergabeunterstützung mit Video-Steuerelementen und automatischer Miniaturbilderzeugung.",
+      "streamTitle": "Netzwerk-Streaming",
+      "streamDesc": "Native Unterstützung für Netzwerk-Streams mit M3U-Playlist-Parsing und direkter URL-Auflösung.",
+      "subtitleTitle": "Erweiterte Untertitel",
+      "subtitleDesc": "Umfassende Untertitelunterstützung einschließlich Anpassung, Verzögerungsanpassung und einer intuitiven Auswahl-Benutzeroberfläche.",
+      "speedTitle": "Wiedergabegeschwindigkeit & Autoplay",
+      "speedDesc": "Es wurden flexible Wiedergabegeschwindigkeitssteuerungen und ein leicht zugänglicher Autoplay-Schalter direkt in der Warteschlangenansicht hinzugefügt.",
+      "exportTitle": "Export von Mediendaten",
+      "exportDesc": "Exportieren Sie Ihre benutzerdefinierten Wiedergabelisten und Wiedergabewarteschlangen nahtlos auf Ihr lokales Gerät.",
+      "languagesTitle": "Neue Sprachen & Genres",
+      "languagesDesc": "Offizielle türkische und guaranische Lokalisierungen sowie Unterstützung für lokales Genre-Browsing hinzugefügt.",
+      "stabilityTitle": "Kernüberholung",
+      "stabilityDesc": "Überarbeitung der Kern-Wiedergabe-Engine-Architektur für verbesserte Stabilität, benutzerdefinierte HTTP-Header und strikte Timeout-Handhabung."
+    },
     "title": "Änderungsprotokoll",
     "subtitle": "Was ist neu bei PPPlayer.",
     "v1_3_6": {
@@ -338,7 +360,7 @@
       "added": "Hinzugefügt",
       "androidTitle": "Android-Veröffentlichung",
       "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "1.3.6",
+      "version": "2.0.0",
       "date": "September 17, 2026"
     },
     "v1_3_5": {

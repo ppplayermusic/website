@@ -331,6 +331,28 @@
     }
   },
   "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "September 20, 2026",
+      "desc": "大规模的重大更新将PPPlayer转变为支持视频和网络流的完整媒体播放器。",
+      "added": "已添加",
+      "changed": "已更改",
+      "fixed": "固定",
+      "videoTitle": "本地视频支持",
+      "videoDesc": "完整的本地视频库和播放支持，包括视频控件和自动缩略图生成。",
+      "streamTitle": "网络流式传输",
+      "streamDesc": "通过M3U播放列表解析和直接URL解析，原生支持网络流。",
+      "subtitleTitle": "高级字幕",
+      "subtitleDesc": "全面的字幕支持，包括自定义、延迟调整和直观的选择UI。",
+      "speedTitle": "播放速度和自动播放",
+      "speedDesc": "直接在队列视图中添加了灵活的播放速度控制和易于访问的自动播放切换。",
+      "exportTitle": "媒体导出",
+      "exportDesc": "将自定义播放列表和播放队列无缝导出到本地设备。",
+      "languagesTitle": "新语言和流派",
+      "languagesDesc": "添加了官方土耳其语和瓜拉尼语本地化，以及对本地流派浏览的支持。",
+      "stabilityTitle": "核心大修",
+      "stabilityDesc": "全面改进了核心播放引擎架构，以提高稳定性、自定义HTTP标头和严格的超时处理。"
+    },
     "title": "更新日志",
     "subtitle": "PPPlayer 的最新动态。",
     "v1_3_6": {
@@ -338,7 +360,7 @@
       "added": "已添加",
       "androidTitle": "Android 版本",
       "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "1.3.6",
+      "version": "2.0.0",
       "date": "September 17, 2026"
     },
     "v1_3_5": {

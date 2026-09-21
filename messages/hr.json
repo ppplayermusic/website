@@ -329,6 +329,28 @@
     }
   },
   "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "September 20, 2026",
+      "desc": "Veliko ažuriranje koje pretvara PPPlayer u puni media player s podrškom za video i mrežni streaming.",
+      "added": "Dodano",
+      "changed": "Promijenjeno",
+      "fixed": "Popravljeno",
+      "videoTitle": "Lokalna video podrška",
+      "videoDesc": "Dovršite lokalnu videoteku i podršku za reprodukciju s kontrolama videozapisa i automatskim generiranjem minijatura.",
+      "streamTitle": "Mrežni streaming",
+      "streamDesc": "Izvorna podrška za mrežne streamove s M3U popisom za reprodukciju i izravnom razlučivošću URL-a.",
+      "subtitleTitle": "Napredni titlovi",
+      "subtitleDesc": "Sveobuhvatna podrška za titlove, uključujući prilagodbu, prilagodbu odgode i intuitivno korisničko sučelje za odabir.",
+      "speedTitle": "Brzina reprodukcije i automatska reprodukcija",
+      "speedDesc": "Dodane su fleksibilne kontrole brzine reprodukcije i lako dostupna automatska reprodukcija izravno u prikazu reda čekanja.",
+      "exportTitle": "Izvoz medija",
+      "exportDesc": "Jednostavno izvezi svoje prilagođene popise za reprodukciju i redove čekanja za reprodukciju na svoj lokalni uređaj.",
+      "languagesTitle": "New Languages & Genres",
+      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
+      "stabilityTitle": "Core Overhaul",
+      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+    },
     "title": "Dnevnik promjena",
     "subtitle": "Što je novo u PPPlayeru.",
     "v1_3_6": {
@@ -336,7 +358,7 @@
       "added": "Dodano",
       "androidTitle": "Izdanje za Android",
       "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "1.3.6",
+      "version": "2.0.0",
       "date": "September 17, 2026"
     },
     "v1_3_5": {

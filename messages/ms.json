@@ -329,6 +329,28 @@
     }
   },
   "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "September 20, 2026",
+      "desc": "Kemas kini besar-besaran yang mengubah PPPlayer menjadi pemain media penuh dengan sokongan penstriman video dan rangkaian.",
+      "added": "Ditambah",
+      "changed": "Diubah",
+      "fixed": "Tetap",
+      "videoTitle": "Sokongan Video Tempatan",
+      "videoDesc": "Lengkapkan pustaka video tempatan dan sokongan main balik yang menampilkan kawalan video dan penjanaan lakaran kecil automatik.",
+      "streamTitle": "Penstriman Rangkaian",
+      "streamDesc": "Sokongan asli untuk strim rangkaian dengan penghuraian senarai main M3U dan resolusi URL langsung.",
+      "subtitleTitle": "Sarikata Lanjutan",
+      "subtitleDesc": "Sokongan sari kata yang komprehensif termasuk penyesuaian, pelarasan kelewatan, dan UI pilihan yang intuitif.",
+      "speedTitle": "Kelajuan Main Balik & Automain",
+      "speedDesc": "Menambah kawalan kelajuan main balik fleksibel dan togol autoplay akses mudah terus dalam paparan baris gilir.",
+      "exportTitle": "Eksport Media",
+      "exportDesc": "Eksport senarai main tersuai dan baris gilir main balik anda dengan lancar ke peranti tempatan anda.",
+      "languagesTitle": "Bahasa & Genre Baharu",
+      "languagesDesc": "Menambah penyetempatan rasmi Turki dan Guarani, serta sokongan untuk pelayaran genre tempatan.",
+      "stabilityTitle": "Pembaikpulihan Teras",
+      "stabilityDesc": "Membaik pulih senibina enjin main balik teras untuk kestabilan yang lebih baik, pengepala HTTP tersuai, dan pengendalian had masa tamat yang ketat."
+    },
     "title": "Log perubahan",
     "subtitle": "Apa yang baharu dalam PPPlayer.",
     "v1_3_6": {
@@ -336,7 +358,7 @@
       "added": "Ditambah",
       "androidTitle": "Keluaran Android",
       "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "1.3.6",
+      "version": "2.0.0",
       "date": "September 17, 2026"
     },
     "v1_3_5": {

@@ -331,6 +331,28 @@
     }
   },
   "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "September 20, 2026",
+      "desc": "PPPlayer'ı video ve ağ akışı desteğiyle tam bir medya oynatıcıya dönüştüren büyük bir güncelleme.",
+      "added": "Eklenen",
+      "changed": "Değiştirildi",
+      "fixed": "Sabit",
+      "videoTitle": "Yerel Video Desteği",
+      "videoDesc": "Video kontrolleri ve otomatik küçük resim oluşturma özelliğine sahip eksiksiz yerel video kütüphanesi ve oynatma desteği.",
+      "streamTitle": "Ağ Akışı",
+      "streamDesc": "M3U oynatma listesi ayrıştırma ve doğrudan URL çözünürlüğü ile ağ akışları için yerel destek.",
+      "subtitleTitle": "Gelişmiş Altyazılar",
+      "subtitleDesc": "Özelleştirme, gecikme ayarı ve sezgisel bir seçim kullanıcı arayüzü dahil olmak üzere kapsamlı altyazı desteği.",
+      "speedTitle": "Oynatma Hızı ve Otomatik Oynatma",
+      "speedDesc": "Esnek oynatma hızı kontrolleri ve doğrudan kuyruk görünümünde kolay erişimli otomatik oynatma geçişi eklendi.",
+      "exportTitle": "Medyayı Dışa Aktar",
+      "exportDesc": "Özel oynatma listelerinizi ve oynatma kuyruklarınızı yerel cihazınıza sorunsuz bir şekilde aktarın.",
+      "languagesTitle": "Yeni Diller ve Türler",
+      "languagesDesc": "Resmi Türkçe ve Guarani yerelleştirmelerinin yanı sıra yerel türlere göz atma desteği eklendi.",
+      "stabilityTitle": "Çekirdek Revizyonu",
+      "stabilityDesc": "Geliştirilmiş kararlılık, özel http başlıkları ve sıkı zaman aşımı yönetimi için çekirdek oynatma motoru mimarisi elden geçirildi."
+    },
     "title": "Sürüm Notları",
     "subtitle": "PPPlayer'daki yenilikler.",
     "v1_3_6": {
@@ -338,7 +360,7 @@
       "added": "Eklendi",
       "androidTitle": "Android Sürümü",
       "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "1.3.6",
+      "version": "2.0.0",
       "date": "September 17, 2026"
     },
     "v1_3_5": {

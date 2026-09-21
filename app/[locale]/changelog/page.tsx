@@ -87,27 +87,75 @@ export default async function ChangelogPage({ params }: { params: Promise<{ loca
               </div>
             </div>
 
-            {/* Version 1.3.6 */}
+            {/* Version 2.0.0 */}
             <div className="relative pl-8 md:pl-16 mb-24">
               <div className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-white/20" />
               <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 mb-6">
-                <h2 className="text-2xl font-bold text-white tracking-tight opacity-70">{t('v1_3_6.version')}</h2>
-                <span className="text-slate-500 font-medium">{t('v1_3_6.date')}</span>
+                <h2 className="text-2xl font-bold text-white tracking-tight opacity-70">{t('v2_0_0.version')}</h2>
+                <span className="text-slate-500 font-medium">{t('v2_0_0.date')}</span>
               </div>
               
               <p className="text-slate-300 text-lg mb-10 leading-relaxed max-w-2xl">
-                {t('v1_3_6.desc')}
+                {t('v2_0_0.desc')}
               </p>
 
               <div className="space-y-10">
                 <div>
-                  <h3 className="text-white text-xs font-semibold uppercase tracking-widest mb-5">{t('v1_3_6.added')}</h3>
+                  <h3 className="text-white text-xs font-semibold uppercase tracking-widest mb-5">{t('v2_0_0.added')}</h3>
                   <ul className="space-y-6">
                     <li className="flex gap-4">
                       <span className="text-emerald-400 mt-0.5">✦</span>
                       <div>
-                        <strong className="block text-white mb-1">{t('v1_3_6.androidTitle')}</strong>
-                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">{t('v1_3_6.androidDesc')}</span>
+                        <strong className="block text-white mb-1">{t('v2_0_0.videoTitle')}</strong>
+                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">{t('v2_0_0.videoDesc')}</span>
+                      </div>
+                    </li>
+                    <li className="flex gap-4">
+                      <span className="text-emerald-400 mt-0.5">✦</span>
+                      <div>
+                        <strong className="block text-white mb-1">{t('v2_0_0.streamTitle')}</strong>
+                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">{t('v2_0_0.streamDesc')}</span>
+                      </div>
+                    </li>
+                    <li className="flex gap-4">
+                      <span className="text-emerald-400 mt-0.5">✦</span>
+                      <div>
+                        <strong className="block text-white mb-1">{t('v2_0_0.subtitleTitle')}</strong>
+                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">{t('v2_0_0.subtitleDesc')}</span>
+                      </div>
+                    </li>
+                    <li className="flex gap-4">
+                      <span className="text-emerald-400 mt-0.5">✦</span>
+                      <div>
+                        <strong className="block text-white mb-1">{t('v2_0_0.speedTitle')}</strong>
+                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">{t('v2_0_0.speedDesc')}</span>
+                      </div>
+                    </li>
+                    <li className="flex gap-4">
+                      <span className="text-emerald-400 mt-0.5">✦</span>
+                      <div>
+                        <strong className="block text-white mb-1">{t('v2_0_0.exportTitle')}</strong>
+                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">{t('v2_0_0.exportDesc')}</span>
+                      </div>
+                    </li>
+                    <li className="flex gap-4">
+                      <span className="text-emerald-400 mt-0.5">✦</span>
+                      <div>
+                        <strong className="block text-white mb-1">{t('v2_0_0.languagesTitle')}</strong>
+                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">{t('v2_0_0.languagesDesc')}</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-white text-xs font-semibold uppercase tracking-widest mb-5">{t('v2_0_0.changed')}</h3>
+                  <ul className="space-y-6">
+                    <li className="flex gap-4">
+                      <span className="text-blue-400 mt-0.5">◈</span>
+                      <div>
+                        <strong className="block text-white mb-1">{t('v2_0_0.stabilityTitle')}</strong>
+                        <span className="text-slate-400 text-sm leading-relaxed block max-w-lg">{t('v2_0_0.stabilityDesc')}</span>
                       </div>
                     </li>
                   </ul>

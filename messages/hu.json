@@ -331,6 +331,28 @@
     }
   },
   "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "September 20, 2026",
+      "desc": "Hatalmas frissítés, amely a PPPlayert teljes médialejátszóvá alakítja video- és hálózati streaming támogatással.",
+      "added": "Hozzáadva ",
+      "changed": "Módosítva",
+      "fixed": "Rögzített",
+      "videoTitle": "Helyi videotámogatás",
+      "videoDesc": "Teljes körű helyi videotár- és lejátszási támogatás videovezérlőkkel és automatikus miniatűrgenerálással.",
+      "streamTitle": "Hálózati adatfolyam",
+      "streamDesc": "Natív támogatás az M3U lejátszási lista elemzésével és közvetlen URL-felbontással rendelkező hálózati adatfolyamokhoz.",
+      "subtitleTitle": "Speciális feliratok",
+      "subtitleDesc": "Átfogó feliratozási támogatás, beleértve a testreszabást, a késleltetési beállítást és az intuitív felhasználói felületet.",
+      "speedTitle": "Lejátszási sebesség és automatikus lejátszás",
+      "speedDesc": "Hozzáadott rugalmas lejátszási sebességvezérlőket és egy könnyen elérhető automatikus lejátszási kapcsolót közvetlenül a várólistanézetben.",
+      "exportTitle": "Média exportálása",
+      "exportDesc": "Zökkenőmentesen exportálhatja egyéni lejátszási listáit és lejátszási sorait a helyi eszközére.",
+      "languagesTitle": "Új nyelvek és műfajok",
+      "languagesDesc": "Hozzáadtuk a hivatalos török és guarani lokalizációkat, valamint a helyi műfajböngészés támogatását.",
+      "stabilityTitle": "Mag nagyjavítása",
+      "stabilityDesc": "Felülvizsgálták a fő lejátszómotor architektúráját a jobb stabilitás, az egyéni HTTP-fejlécek és a szigorú időtúllépés-kezelés érdekében."
+    },
     "title": "Változások naplója",
     "subtitle": "Újdonságok a PPPlayerben.",
     "v1_3_6": {
@@ -338,7 +360,7 @@
       "added": "Hozzáadva",
       "androidTitle": "Android kiadás",
       "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "1.3.6",
+      "version": "2.0.0",
       "date": "September 17, 2026"
     },
     "v1_3_5": {

@@ -1,6 +1,6 @@
 # PPPlayer: Complete Product Information
 
-PPPlayer is a free, cross-platform, open-source music player designed for discovery, seamless streaming, and high-fidelity local playback.
+PPPlayer is a free, cross-platform, open-source media player designed for discovery, seamless streaming, and high-fidelity local media playback.
 
 ## Repositories & License
 - **App Repository**: https://github.com/ppplayermusic/app (Flutter/Dart)
@@ -13,7 +13,7 @@ PPPlayer is a free, cross-platform, open-source music player designed for discov
 - **Privacy & Data Collection**: PPPlayer's privacy policy explicitly states that no personal information (names, emails, payment info, precise location) is collected. However, to improve stability, the app does collect anonymous usage analytics (feature usage, session duration), crash reports, error logs, and basic device/OS metadata.
 
 ## Playback Features
-- **Core Playback**: Supports streaming, local audio playback, playlists, artist discovery, infinite artist radio, and related artists exploration.
+- **Core Playback**: Supports audio/video streaming, local media playback, subtitles, M3U network streams, playlists, artist discovery, infinite artist radio, and related artists exploration.
 - **Platform Integration**: Picture-in-Picture (PiP) and system-level background playback are supported across major mobile and desktop platforms using standard OS integrations.
 
 ## Supported Platforms and Availability

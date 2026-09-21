@@ -331,6 +331,28 @@
     }
   },
   "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "September 20, 2026",
+      "desc": "PPPlayerをビデオとネットワークストリーミングをサポートするフルメディアプレーヤーに変換する大規模なメジャーアップデート。",
+      "added": "追加済み",
+      "changed": "変更済み",
+      "fixed": "固定",
+      "videoTitle": "ローカルビデオサポート",
+      "videoDesc": "ビデオコントロールと自動サムネイル生成を備えた完全なローカルビデオライブラリと再生サポート。",
+      "streamTitle": "ネットワークストリーミング",
+      "streamDesc": "M 3 Uプレイリスト解析と直接URL解決によるネットワークストリームのネイティブサポート。",
+      "subtitleTitle": "高度な字幕",
+      "subtitleDesc": "カスタマイズ、遅延調整、直感的な選択UIを含む包括的な字幕サポート。",
+      "speedTitle": "再生速度と自動再生",
+      "speedDesc": "キュービューで直接、柔軟な再生速度コントロールと簡単にアクセスできる自動再生トグルが追加されました。",
+      "exportTitle": "メディアのエクスポート",
+      "exportDesc": "カスタムプレイリストと再生キューをローカルデバイスにシームレスにエクスポートします。",
+      "languagesTitle": "新しい言語とジャンル",
+      "languagesDesc": "トルコ語とグアラニー語の公式ローカライズを追加し、ローカルジャンルのブラウジングをサポートしました。",
+      "stabilityTitle": "コアオーバーホール",
+      "stabilityDesc": "安定性の向上、カスタムHTTPヘッダー、および厳密なタイムアウト処理のために、コア再生エンジンアーキテクチャをオーバーホールしました。"
+    },
     "title": "チェンジログ",
     "subtitle": "PPPlayer の最新情報。",
     "v1_3_6": {
@@ -338,7 +360,7 @@
       "added": "追加",
       "androidTitle": "Android リリース",
       "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "1.3.6",
+      "version": "2.0.0",
       "date": "September 17, 2026"
     },
     "v1_3_5": {

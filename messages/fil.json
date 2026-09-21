@@ -329,6 +329,28 @@
     }
   },
   "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "September 20, 2026",
+      "desc": "Ang isang napakalaking pangunahing update transforming PPPlayer sa isang buong media player na may video at network streaming support.",
+      "added": "Idinagdag",
+      "changed": "iba pang tawag sa buod",
+      "fixed": "Naisaayos",
+      "videoTitle": "Lokal na Suporta sa Video",
+      "videoDesc": "Kumpletuhin ang lokal na library ng video at suporta sa pag - playback na nagtatampok ng mga kontrol sa video at awtomatikong pagbuo ng thumbnail.",
+      "streamTitle": "Pag - stream ng Network",
+      "streamDesc": "Katutubong suporta para sa mga stream ng network na may M3U playlist parsing at direktang resolution ng URL.",
+      "subtitleTitle": "Mga Advanced na Subtitle",
+      "subtitleDesc": "Komprehensibong suporta sa subtitle kabilang ang pag - customize, pagsasaayos ng pagkaantala, at isang intuitive selection UI.",
+      "speedTitle": "Bilis ng Pag - playback at Awtomatikong Pag - play",
+      "speedDesc": "Nagdagdag ng mga kontrol sa bilis ng pag - playback na may kakayahang umangkop at isang madaling - access na autoplay toggle nang direkta sa view ng queue.",
+      "exportTitle": "I - export ang Media",
+      "exportDesc": "Walang putol na i - export ang iyong mga pasadyang playlist at mga pila ng pag - playback sa iyong lokal na device.",
+      "languagesTitle": "Mga Bagong Wika at Genre",
+      "languagesDesc": "Idinagdag opisyal na Turkish at Guarani localizations, pati na rin ang suporta para sa mga lokal na pag - browse ng genre.",
+      "stabilityTitle": "Pangunahing Pag - overhaul",
+      "stabilityDesc": "Overhauled ang core playback engine architecture para sa pinabuting katatagan, pasadyang HTTP header, at mahigpit na timeout handling."
+    },
     "title": "Changelog",
     "subtitle": "Ano ang bago sa PPPlayer.",
     "v1_3_6": {
@@ -336,7 +358,7 @@
       "added": "Idinagdag",
       "androidTitle": "Paglabas ng Android",
       "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "1.3.6",
+      "version": "2.0.0",
       "date": "September 17, 2026"
     },
     "v1_3_5": {

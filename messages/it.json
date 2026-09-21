@@ -331,6 +331,28 @@
     }
   },
   "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "September 20, 2026",
+      "desc": "Un enorme aggiornamento importante che trasforma PPPlayer in un lettore multimediale completo con supporto per streaming video e di rete.",
+      "added": "Aggiunto",
+      "changed": "Modificato",
+      "fixed": "Fisso",
+      "videoTitle": "Supporto video locale",
+      "videoDesc": "Completa libreria video locale e supporto per la riproduzione con controlli video e generazione automatica di miniature.",
+      "streamTitle": "Network Streaming (+)",
+      "streamDesc": "Supporto nativo per flussi di rete con analisi della playlist M3U e risoluzione diretta degli URL.",
+      "subtitleTitle": "Sottotitoli avanzati",
+      "subtitleDesc": "Supporto completo per i sottotitoli, inclusa la personalizzazione, la regolazione del ritardo e un'interfaccia utente di selezione intuitiva.",
+      "speedTitle": "Velocità di riproduzione e riproduzione automatica",
+      "speedDesc": "Aggiunti controlli flessibili della velocità di riproduzione e un interruttore di riproduzione automatica di facile accesso direttamente nella vista della coda.",
+      "exportTitle": "Esportazione Media",
+      "exportDesc": "Esporta senza problemi le tue playlist personalizzate e le code di riproduzione sul tuo dispositivo locale.",
+      "languagesTitle": "Nuove lingue e generi",
+      "languagesDesc": "Aggiunte localizzazioni ufficiali turche e guaranì, oltre al supporto per la navigazione di generi locali.",
+      "stabilityTitle": "Core Overhaul",
+      "stabilityDesc": "Revisione dell'architettura del motore di riproduzione principale per una maggiore stabilità, intestazioni http personalizzate e gestione rigorosa del timeout."
+    },
     "title": "Changelog",
     "subtitle": "Novità di PPPlayer.",
     "v1_3_6": {
@@ -338,7 +360,7 @@
       "added": "Aggiunto",
       "androidTitle": "Rilascio Android",
       "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "1.3.6",
+      "version": "2.0.0",
       "date": "September 17, 2026"
     },
     "v1_3_5": {

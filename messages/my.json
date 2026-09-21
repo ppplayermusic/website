@@ -329,6 +329,28 @@
     }
   },
   "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "September 20, 2026",
+      "desc": "ဗီဒီယိုနှင့်ကွန်ယက် streaming များထောက်ခံမှုနှင့်အတူအပြည့်အဝမီဒီယာကစားသမားအဖြစ် PPPlayer ပြောင်းလဲနေတဲ့ကြီးမားတဲ့ update ကို ။",
+      "added": "ထည့်ပြီး",
+      "changed": "ပြောင်းလဲထားသည်",
+      "fixed": "ပုံသေ",
+      "videoTitle": "ပြည်တွင်းဗီဒီယိုပံ့ပိုးမှု",
+      "videoDesc": "ဗီဒီယိုထိန်းချုပ်မှုနှင့်အလိုအလျောက် thumbnail ကိုမျိုးဆက် featuring ဒေသခံဗီဒီယိုစာကြည့်တိုက်နှင့်ပြန်ဖွင့်ထောက်ခံမှုအပြီးသတ် ။",
+      "streamTitle": "Network Streaming",
+      "streamDesc": "M3U playlist ကို parsing နှင့်တိုက်ရိုက် URL ကို resolution ကိုနှင့်အတူကွန်ယက်ကိုစီးများအတွက်ဇာတိထောက်ခံမှု ။",
+      "subtitleTitle": "အဆင့်မြင့် ခေါင်းစဉ်ခွဲများ",
+      "subtitleDesc": "စိတ်ကြိုက်ပြုပြင်ခြင်း ၊ နှောင့်နှေးချိန်ညှိခြင်းနှင့် အလိုအလျောက်ရွေးချယ်မှု UI အပါအဝင် ကျယ်ပြန့်သော ခေါင်းစဉ်ခွဲ ပံ့ပိုးမှု ။",
+      "speedTitle": "Playback မြန်နှုန်း & Autoplay",
+      "speedDesc": "ပြောင်းလွယ်ပြင်လွယ် playback မြန်နှုန်းထိန်းချုပ်မှုများနှင့်အလွယ်တကူ access ကို autoplay တီးဝိုင်းအမြင်အတွက်တိုက်ရိုက် toggle ထည့်ထားသည် ။",
+      "exportTitle": "မီဒီယာ တင်ပို့မှု",
+      "exportDesc": "ချောမွေ့စွာသင့်ရဲ့ထုံးစံ playlists နှင့် playback တန်းစီသင့်ရဲ့ဒေသခံ device ကိုတင်ပို့ ။",
+      "languagesTitle": "အသစ်သောဘာသာစကားများ & အမျိုးအစားများ",
+      "languagesDesc": "တရားဝင်တူရကီနှင့် Guarani တည်နေရာများဖြည့်စွက်, ထို့အပြင်ဒေသခံအမျိုးအစား browsing များအတွက်အထောက်အပံ့ ။",
+      "stabilityTitle": "အဓိက ပြုပြင်မွမ်းမံခြင်း",
+      "stabilityDesc": "တိုးမြှင့်တည်ငြိမ်မှု, ထုံးစံ HTTP ခေါင်းစဉ်များနှင့်တင်းကျပ်သောအချိန်ကုန်ကိုင်တွယ်မှုအတွက်အဓိကပြန်ဖွင့်အင်ဂျင်ဗိသုကာကိုပြန်လည်ပြင်ဆင်ခဲ့သည် ။"
+    },
     "title": "ပြင်ဆင်ပြောင်းလဲမှုများ",
     "subtitle": "PPPlayer တွင် ဘာတွေအသစ်လဲ။",
     "v1_3_6": {
@@ -336,7 +358,7 @@
       "added": "ထည့်သွင်းထားသည်",
       "androidTitle": "Android ထွက်ရှိမှု",
       "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "1.3.6",
+      "version": "2.0.0",
       "date": "September 17, 2026"
     },
     "v1_3_5": {

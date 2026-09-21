@@ -329,6 +329,28 @@
     }
   },
   "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "September 20, 2026",
+      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.",
+      "added": "Added",
+      "changed": "Changed",
+      "fixed": "Fixed",
+      "videoTitle": "Local Video Support",
+      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.",
+      "streamTitle": "Network Streaming",
+      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.",
+      "subtitleTitle": "Advanced Subtitles",
+      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.",
+      "speedTitle": "Playback Speed & Autoplay",
+      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.",
+      "exportTitle": "Media Export",
+      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.",
+      "languagesTitle": "New Languages & Genres",
+      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
+      "stabilityTitle": "Core Overhaul",
+      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+    },
     "title": "Changelog",
     "subtitle": "O que há de novo no PPPlayer.",
     "v1_3_6": {
@@ -336,7 +358,7 @@
       "added": "Adicionado",
       "androidTitle": "Lançamento para Android",
       "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "1.3.6",
+      "version": "2.0.0",
       "date": "September 17, 2026"
     },
     "v1_3_5": {

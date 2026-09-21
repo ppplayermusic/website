@@ -331,6 +331,28 @@
     }
   },
   "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "September 20, 2026",
+      "desc": "Ogromna poważna aktualizacja przekształcająca PPPlayer w odtwarzacz multimedialny z obsługą przesyłania strumieniowego wideo i sieci.",
+      "added": "Dodano",
+      "changed": "Zmieniono",
+      "fixed": "Stała",
+      "videoTitle": "Lokalne wsparcie wideo",
+      "videoDesc": "Kompletna lokalna biblioteka wideo i obsługa odtwarzania z kontrolkami wideo i automatycznym generowaniem miniatur.",
+      "streamTitle": "Streaming sieciowy",
+      "streamDesc": "Natywna obsługa strumieni sieciowych z analizowaniem list odtwarzania M3U i bezpośrednią rozdzielczością adresów URL.",
+      "subtitleTitle": "Zaawansowane napisy",
+      "subtitleDesc": "Kompleksowa obsługa napisów, w tym dostosowywanie, dostosowywanie opóźnień i intuicyjny wybór interfejsu użytkownika.",
+      "speedTitle": "Szybkość odtwarzania i autoodtwarzanie",
+      "speedDesc": "Dodano elastyczne sterowanie prędkością odtwarzania i łatwo dostępny przełącznik automatycznego odtwarzania bezpośrednio w widoku kolejki.",
+      "exportTitle": "Eksport multimediów",
+      "exportDesc": "Płynnie eksportuj swoje niestandardowe listy odtwarzania i kolejki odtwarzania do urządzenia lokalnego.",
+      "languagesTitle": "Nowe języki i gatunki",
+      "languagesDesc": "Dodano oficjalne lokalizacje w języku tureckim i guarani, a także obsługę lokalnego przeglądania gatunków.",
+      "stabilityTitle": "Naprawa rdzenia",
+      "stabilityDesc": "Ulepszono podstawową architekturę silnika odtwarzania, aby poprawić stabilność, niestandardowe nagłówki HTTP i ścisłą obsługę limitu czasu."
+    },
     "title": "Dziennik zmian",
     "subtitle": "Co nowego w PPPlayer.",
     "v1_3_6": {
@@ -338,7 +360,7 @@
       "added": "Dodano",
       "androidTitle": "Wydanie na Androida",
       "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "1.3.6",
+      "version": "2.0.0",
       "date": "September 17, 2026"
     },
     "v1_3_5": {

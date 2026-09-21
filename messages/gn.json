@@ -329,6 +329,28 @@
     }
   },
   "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "September 20, 2026",
+      "desc": "Peteĩ ta'angambyry mbohasáva Vikipetã pegua ha'e peteĩ ta'angambyry mbohasáva Vikipetã pegua ha Vikipetã pegua.",
+      "added": "Ñembojoapy",
+      "changed": "Jae rambue jecuaeño",
+      "fixed": "Oñemohenda",
+      "videoTitle": "Vídeo evaluación local",
+      "videoDesc": "Ta'angambyry mbohasáva ha ta'angambyry mbohasáva [jehaijey_editar código]",
+      "streamTitle": "Ñembohykuepy (joajukuéra_editar)",
+      "streamDesc": "Puruharakuéra ko ñemohendáme he'i oikuaa oñe'ẽ M3U Playlist ha URL ñemohendáme.",
+      "subtitleTitle": "Subjuntivo (joajukuéra_editar)",
+      "subtitleDesc": "Ñepytyvõ subtítulo-pe, oikehápe ajuste de retraso, ha peteĩ UI jeporavo intuitivo.",
+      "speedTitle": "Autoevaluación y Autoevaluación",
+      "speedDesc": "Eropirã erã pohrogue árĩpehrerã árĩpehrerã árĩpehrerã.",
+      "exportTitle": "Exportación media rehegua",
+      "exportDesc": "Eropirã ĩgʉ pohrogue árĩpehrerã erã ĩgʉ pohrogue árĩpehrerã.",
+      "languagesTitle": "Ñe'ẽnguéra ha ñe'ẽnguéra pyahuJehaijey",
+      "languagesDesc": "Ombojoapy umi tenda oficial turco ha guaraníme, ha avei pytyvõ ojeguerekóva género local-pe.",
+      "stabilityTitle": "Core OverhaulEvaluación",
+      "stabilityDesc": "Omoambue arquitectura motenondeha oñemoporãve hag̃ua estabilidad, título HTTP jepokuaa, ha tiempo estricto ñemboguata."
+    },
     "title": "Ñemoambue",
     "subtitle": "Mba'e pyahu PPPlayer-pe.",
     "v1_3_6": {
@@ -336,7 +358,7 @@
       "added": "Oñemoĩ",
       "androidTitle": "Versión de Android",
       "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
-      "version": "1.3.6",
+      "version": "2.0.0",
       "date": "September 17, 2026"
     },
     "v1_3_5": {
