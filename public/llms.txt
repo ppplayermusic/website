@@ -49,7 +49,7 @@ PPPlayer is a cross-platform media player app available on macOS, Android (APK),
 
 ## Localization
 
-The website and app maintain complete structural and translation parity across 32 corresponding locales, including English, Brazilian Portuguese, Spanish, Russian, Turkish, French, German, Hindi, Italian, Japanese, Korean, Arabic, and Chinese among others. The only remaining untranslated terms are intentional cross-language branding or shared UI vocabulary. The 32 languages are fully released and supported in the latest version of the app.
+The website and app maintain complete structural and translation parity across 38 corresponding locales, including English, Brazilian Portuguese, Spanish, Russian, Turkish, French, German, Hindi, Italian, Japanese, Korean, Arabic, and Chinese among others. The only remaining untranslated terms are intentional cross-language branding or shared UI vocabulary. The 38 languages are fully released and supported in the latest version of the app.
 
 ## Optional
 

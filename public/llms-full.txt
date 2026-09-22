@@ -24,15 +24,15 @@ PPPlayer is a free, cross-platform, open-source media player designed for discov
 *(Note: iOS TestFlight and App Store availability claims have been removed as there are no verified public URLs).*
 
 ## Localization & Language Support
-The website and the application maintain complete structural and translation parity across **32 corresponding locales**. The remaining untranslated terms are intentional cross-language branding (e.g., "Daily Mix", "Release Radar") or shared UI terminology. The 32 languages are fully released and supported in the latest version of the app.
+The website and the application maintain complete structural and translation parity across **38 corresponding locales**. The remaining untranslated terms are intentional cross-language branding (e.g., "Daily Mix", "Release Radar") or shared UI terminology. The 38 languages are fully released and supported in the latest version of the app.
 
 ### Website
-The website is explicitly configured to support **32 languages**:
-English (`en`), Arabic (`ar`), Bengali (`bn`), Czech (`cs`), Danish (`da`), German (`de`), Spanish (`es`), Estonian (`et`), Persian (`fa`), Filipino (`fil`), French (`fr`), Guarani (`gn`), Hindi (`hi`), Croatian (`hr`), Hungarian (`hu`), Indonesian (`id`), Italian (`it`), Japanese (`ja`), Georgian (`ka`), Kazakh (`kk`), Korean (`ko`), Latvian (`lv`), Malay (`ms`), Burmese (`my`), Nigerian Pidgin (`pcm`), Polish (`pl`), Brazilian Portuguese (`pt-BR`), Russian (`ru`), Swedish (`sv`), Turkish (`tr`), Uzbek (`uz`), and Chinese (`zh`).
+The website is explicitly configured to support **38 languages**:
+English (`en`), Arabic (`ar`), Bengali (`bn`), Czech (`cs`), Danish (`da`), Dutch (`nl`), German (`de`), Spanish (`es`), Estonian (`et`), Persian (`fa`), Filipino (`fil`), French (`fr`), Guarani (`gn`), Hindi (`hi`), Croatian (`hr`), Hungarian (`hu`), Indonesian (`id`), Italian (`it`), Japanese (`ja`), Georgian (`ka`), Kazakh (`kk`), Korean (`ko`), Latvian (`lv`), Malay (`ms`), Burmese (`my`), Nigerian Pidgin (`pcm`), Polish (`pl`), Brazilian Portuguese (`pt-BR`), Romanian (`ro`), Russian (`ru`), Swedish (`sv`), Thai (`th`), Turkish (`tr`), Ukrainian (`uk`), Urdu (`ur`), Uzbek (`uz`), Vietnamese (`vi`), and Chinese (`zh`).
 
 ### Flutter App (Upcoming Release)
-The application generates and supports all **32 corresponding languages** at runtime:
-- **Selectable in App Settings (32 languages)**: Users can manually select any of the 32 languages (plus "System Default") from the settings menu. 
+The application generates and supports all **38 corresponding languages** at runtime:
+- **Selectable in App Settings (38 languages)**: Users can manually select any of the 38 languages (plus "System Default") from the settings menu. 
 - **Parity Note**: The app uses `pt` for Brazilian Portuguese, corresponding to the website's `pt-BR`.
 
 
