@@ -10,7 +10,7 @@
     "termsDesc": "PPPlayer uchun foydalanish shartlari: macOS, Linux, Windows, iOS va Android uchun bepul musiqa ilovasi.",
     "supportTitle": "Yordam - PPPlayer",
     "supportDesc": "PPPlayer mustaqil, ochiq manbali loyihadir. Xatolar va yangi xususiyat g'oyalari uchun GitHub-dan foydalaning. Boshqa savollar uchun contact@ppplayer.com manziliga yozing.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "PPPlayer jamoasidan yangiliklar, yangilanishlar va hikoyalar."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "download": "Bepul yuklab olish",
     "support": "Yordam",
     "contribute": "Hissa qo'shish",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "Bepul, ochiq manbali musiqa pleyeri. Hisob yo'q. Obuna yo'q. Shunchaki tinglang.",
@@ -30,19 +30,19 @@
     "android": "Android",
     "windows": "Windows",
     "social": "Ijtimoiy tarmoqlar",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Huquqiy",
     "privacy": "Maxfiylik",
     "terms": "Shartlar",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "GitHub-da manba kodini ko'rish",
     "contribute": "Hissa qo'shish",
     "changelog": "O'zgarishlar tarixi",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Maxfiyligingizni qadrlaymiz",
@@ -54,11 +54,11 @@
     "title1": "Musiqa.",
     "title2": "To'siqlarsiz.",
     "desc": "Bepul, ochiq manbali musiqa pleyeri. Hisob yo'q. Obuna yo'q. Shunchaki tinglang.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Android uchun yuklab olish",
     "getMac": "Mac uchun yuklab olish",
     "getWindows": "Windows uchun yuklab olish",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Experimental)​",
     "badge": "Bepul va ochiq manbali",
     "source": "GitHub-da manba kodini ko'rish"
   },
@@ -119,7 +119,7 @@
     "os": "Operatsion tizim",
     "arch": "Arxitektura",
     "memory": "Xotira",
-    "internet": "Internet",
+    "internet": "Internet​",
     "reqStreaming": "Striming uchun kerak",
     "reqTitle": "{platform} talablari",
     "reqs": {
@@ -173,11 +173,11 @@
       },
       {
         "q": "PPPlayer iPhone uchun mavjudmi?",
-        "a": "PPPlayer for iOS is currently in development. We are actively working on an App Store release."
+        "a": "PPPlayer for iOS is currently in development. We are actively working on an App Store release.​"
       },
       {
         "q": "PPPlayer Android uchun mavjudmi?",
-        "a": "PPPlayer for Android is currently in development. We are actively working on a Google Play Store release."
+        "a": "PPPlayer for Android is currently in development. We are actively working on a Google Play Store release.​"
       },
       {
         "q": "PPPlayer-ni Windows-da ishlata olamanmi?",
@@ -301,7 +301,7 @@
       "name": "iOS",
       "label": "iPhone va iPad",
       "desc": "Tez orada iPhone va iPad uchun TestFlight va App Store-da.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -311,12 +311,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Microsoft Store orqali Windows 10 va undan yangiroq versiyalar uchun yuklab oling.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "macOS uchun to'g'ridan-to'g'ri yuklab olish. Apple Silicon va Intel qo'llab-quvvatlanadi.",
       "badge": "To'g'ridan-to'g'ri yuklab olish"
@@ -422,7 +422,7 @@
     },
     "back": "← PPPlayer-ga qaytish",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "2026-yil 12-sentabr",
       "desc": "10 ta yangi til bilan lokalizatsiyani kengaytirish.",
       "added": "Qo'shildi",
@@ -431,7 +431,7 @@
       "lang10Desc": "Indoneziya, Birma, Polsha, Daniya, Qozoq, Chex, Venger, Gruzin, Shved va O'zbek tillari uchun to'liq yordam qo'shildi."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "2026-yil 12-sentabr",
       "desc": "Arab va xitoycha lokalizatsiyalar qo'shildi va macOS oynasini o'lchamini o'zgartirish xatolari tuzatildi.",
       "added": "Qo'shildi",
@@ -442,7 +442,7 @@
       "layoutDesc": "Ilova oynasi o'lchami o'zgartirilganda YouTube video pleyerining markazdan siljishi muammosi hal qilindi."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "2026-yil 12-sentabr",
       "desc": "Ijro etish xatolari tuzatildi va ilova ishga tushirilganda qidiruv paneli yaxshilandi.",
       "fixed": "Tuzatildi",
@@ -452,7 +452,7 @@
       "durationDesc": "Ilova birinchi marta ishga tushirilganda qidiruv paneli 0:00 davomiyligini ko'rsatishi tuzatildi."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "2026-yil 11-sentabr",
       "desc": "Butun ilova va veb-saytda keng qamrovli xalqarolashtirish va lokalizatsiya.",
       "new": "Yangi",
@@ -464,7 +464,7 @@
       "osDesc": "Ilova tilini avtomatik ravishda sinxronlashtirish uchun Android 13+ va iOS tizimlarida mahalliy OS darajasidagi til integratsiyasi."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "2026-yil 11-sentabr",
       "desc": "Yangi o'rnatishlar uchun tezkor tuzatish.",
       "fixed": "Tuzatildi",
@@ -472,7 +472,7 @@
       "crashDesc": "Muhit konfiguratsiyasi fayli yo'qligi sababli yangi o'rnatishlarda ilovaning bo'sh ekranda qulashiga olib keladigan jiddiy xato tuzatildi."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "2026-yil 11-sentabr",
       "desc": "macOS-da uzluksiz fon ijrosi.",
       "new": "Yangi",
@@ -481,7 +481,7 @@
       "appNapDesc": "macOS App Nap-ning pleyer minimallashtirilganda uni agressiv ravishda to'xtatib qo'yishi oldi olindi, bu navbatning uzluksiz davom etishiga imkon beradi."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "2026-yil 11-sentabr",
       "desc": "Avtomatlashtirilgan relizlar va kodni imzolash.",
       "new": "Yangi",
@@ -495,7 +495,7 @@
       "submoduleFix": "CI ish oqimlarida quyi modulni tekshirish konfiguratsiyasi tuzatildi"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "2026-yil 10-sentabr",
       "desc": "Fon ijrosi va barqarorlik.",
       "new": "Yangi",
@@ -511,7 +511,7 @@
       "linter": "Bir nechta IDE linter xatolari bartaraf etildi va ortiqcha fayllar tozalandi"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "2026-yil 9-sentabr",
       "desc": "Aqlliroq, kontekstga asoslangan avtomatik ijro.",
       "autoplayContextTitle": "Kontekstni tushunadigan avtomatik ijro",
@@ -520,7 +520,7 @@
       "tieredRecsDesc": "Tavsiyalar endi ism bo'yicha noaniq qidirish o'rniga faqat maqsadli ijrochi katalogidan foydalanadi."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "2026-yil 9-sentabr",
       "desc": "Yaxshiroq tinglash tajribasi.",
       "new": "Yangi",
@@ -541,13 +541,30 @@
       "bottomBar": "Musiqa ijro etilayotganda macOS-da pastki pleyer paneli to'liq shaffof va o'qib bo'lmaydigan qilib ko'rsatildi"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "2026-yil Sentabr",
       "desc": "PPPlayer-ning birinchi relizi.",
       "spotify": "Spotify-ga asoslangan musiqa metama'lumotlari",
       "youtube": "YouTube-ga asoslangan audio ijrosi",
       "playlists": "Pleylistlar, sevimlilar va tinglash tarixi",
       "platforms": "macOS, Windows va Linux yordami"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {
@@ -569,7 +586,7 @@
     "license": "MIT litsenziyasi"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "PPPlayer jamoasidan yangiliklar, yangilanishlar va hikoyalar.",
     "readMore": "Maqolani o'qish",
     "minRead": "daq. o'qish",

@@ -30,10 +30,10 @@
     "android": "Android",
     "windows": "Windows",
     "social": "社交网络",
-    "instagram": "Instagram",
+    "instagram": "Instagram​",
     "linkedin": "领英",
     "facebook": "脸书",
-    "github": "GitHub",
+    "github": "GitHub​",
     "legal": "法律声明",
     "privacy": "隐私政策",
     "terms": "服务条款",
@@ -318,7 +318,7 @@
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "适用于 macOS 的直接下载版本。支持 Apple Silicon 和 Intel。",
       "badge": "直接下载"
@@ -424,7 +424,7 @@
     },
     "back": "← 返回 PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "2026年9月12日",
       "desc": "扩展本地化支持，新增 10 种语言。",
       "added": "已添加",
@@ -433,7 +433,7 @@
       "lang10Desc": "已添加对印尼语、缅甸语、波兰语、丹麦语、哈萨克语、捷克语、匈牙利语、格鲁吉亚语、瑞典语和乌兹别克语的全面支持。"
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "2026 年 9 月 12 日",
       "desc": "添加了阿拉伯语和中文的本地化支持，并修复了 macOS 上的调整窗口大小错误。",
       "added": "新增",
@@ -444,7 +444,7 @@
       "layoutDesc": "修复了在 macOS 上调整应用窗口大小时 YouTube 视频播放器会偏离中心的问题。"
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "2026 年 9 月 12 日",
       "desc": "修复了播放错误，并优化了应用启动时的进度条。",
       "fixed": "修复",
@@ -454,7 +454,7 @@
       "durationDesc": "修复了应用首次启动时进度条显示时长为 0:00 的问题。"
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "2026 年 9 月 11 日",
       "desc": "在整个应用和网站上实现了全面的国际化和本地化支持。",
       "new": "新增",
@@ -466,7 +466,7 @@
       "osDesc": "在 Android 13+ 和 iOS 上实现了原生操作系统级语言集成，以自动同步应用的语言。"
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "2026 年 9 月 11 日",
       "desc": "针对全新安装的热修复。",
       "fixed": "修复",
@@ -474,7 +474,7 @@
       "crashDesc": "修复了一个严重错误，该错误导致全新安装的应用由于缺少环境配置文件而在启动时崩溃并显示空白屏幕。"
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "2026 年 9 月 11 日",
       "desc": "在 macOS 上实现无缝的后台播放。",
       "new": "新增",
@@ -483,7 +483,7 @@
       "appNapDesc": "防止 macOS App Nap 在应用最小化时过度挂起播放器，从而允许播放列表不间断地继续播放。"
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "2026 年 9 月 11 日",
       "desc": "自动化发布和代码签名。",
       "new": "新增",
@@ -497,7 +497,7 @@
       "submoduleFix": "修复了 CI 工作流中的子模块检出配置"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "2026 年 9 月 10 日",
       "desc": "后台播放和稳定性改进。",
       "new": "新增",
@@ -513,7 +513,7 @@
       "linter": "消除了几个 IDE linter 错误并清理了多余的文件"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "2026 年 9 月 9 日",
       "desc": "更智能的基于上下文的自动播放。",
       "autoplayContextTitle": "上下文感知自动播放",
@@ -522,7 +522,7 @@
       "tieredRecsDesc": "推荐现在严格使用目标艺术家的曲库，而不是按名称进行模糊搜索。"
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "2026 年 9 月 9 日",
       "desc": "更好的聆听体验。",
       "new": "新增",
@@ -543,13 +543,30 @@
       "bottomBar": "在 macOS 上播放音乐时，底部播放器栏呈现完全透明且无法辨认的问题"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "2026 年 9 月",
       "desc": "PPPlayer 的第一个版本发布。",
       "spotify": "由 Spotify 提供支持的音乐元数据",
       "youtube": "由 YouTube 提供支持的音频播放",
       "playlists": "播放列表、收藏夹和听歌历史",
       "platforms": "支持 macOS、Windows 和 Linux"
+    },
+    "v2_0_1": {
+      "version": "2.0.1",
+      "date": "2026 年 9 月 21 日",
+      "desc": "日常维护和存储库清理。",
+      "changed": "改变了",
+      "cleanupTitle": "维护",
+      "cleanupDesc": "日常维护以及从存储库中删除临时调试和开发脚本以减少混乱。",
+      "added": "额外",
+      "languagesTitle": "新语言",
+      "languagesDesc": "新增对荷兰语、罗马尼亚语、泰语、乌克兰语、乌尔都语和越南语的支持。",
+      "quickPlayTitle": "快速播放",
+      "quickPlayDesc": "在艺人卡片上添加了直接播放热门曲目的功能，以及在悬停覆盖层上直接播放播放列表/专辑的功能。",
+      "socialsTitle": "社交链接",
+      "socialsDesc": "在关于对话框中添加了 Instagram、Facebook 和 LinkedIn 链接。",
+      "uiTitle": "用户界面增强",
+      "uiDesc": "重新设计的类型和搜索类别卡，具有基于哈希的动态颜色和图标。"
     }
   },
   "support": {

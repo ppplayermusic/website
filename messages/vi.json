@@ -10,7 +10,7 @@
     "termsDesc": "Điều khoản Dịch vụ của PPPlayer: ứng dụng đa phương tiện miễn phí cho macOS, Linux, Windows, iOS và Android.",
     "supportTitle": "Hỗ trợ - PPPlayer",
     "supportDesc": "PPPlayer là một dự án mã nguồn mở, độc lập. Đối với các lỗi và ý tưởng tính năng, hãy sử dụng GitHub. Đối với các câu hỏi khác, hãy gửi email tới contact@ppplayer.com.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "Tin tức, cập nhật và câu chuyện từ đội ngũ PPPlayer."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "download": "Tải miễn phí",
     "support": "Hỗ trợ",
     "contribute": "Đóng góp",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "Một trình phát đa phương tiện mã nguồn mở, miễn phí. Không cần tài khoản. Không cần đăng ký. Chỉ cần phát nhạc.",
@@ -30,10 +30,10 @@
     "android": "Android",
     "windows": "Windows",
     "social": "Mạng xã hội",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Pháp lý",
     "privacy": "Bảo mật",
     "terms": "Điều khoản",
@@ -42,7 +42,7 @@
     "contribute": "Đóng góp",
     "changelog": "Lịch sử cập nhật",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Chúng tôi coi trọng quyền riêng tư của bạn",
@@ -54,7 +54,7 @@
     "title1": "Đa phương tiện.",
     "title2": "Không bị cản trở.",
     "desc": "Một trình phát đa phương tiện mã nguồn mở, miễn phí. Không cần tài khoản. Không cần đăng ký. Chỉ cần phát nhạc.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Tải cho Android",
     "getMac": "Tải cho Mac",
     "getWindows": "Tải cho Windows",
@@ -119,7 +119,7 @@
     "os": "Hệ điều hành",
     "arch": "Kiến trúc",
     "memory": "Bộ nhớ",
-    "internet": "Internet",
+    "internet": "Internet​",
     "reqStreaming": "Yêu cầu để phát trực tuyến",
     "reqTitle": "Yêu cầu cho {platform}",
     "reqs": {
@@ -299,9 +299,9 @@
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
+      "label": "iPhone & iPad​",
       "desc": "Sắp ra mắt trên TestFlight và App Store cho iPhone và iPad.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -311,12 +311,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Tải xuống cho Windows 10 trở lên từ Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Tải xuống trực tiếp cho macOS. Hỗ trợ Apple Silicon & Intel.",
       "badge": "Tải xuống Trực tiếp"
@@ -422,7 +422,7 @@
     },
     "back": "← Quay lại PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "Ngày 12 tháng 9, 2026",
       "desc": "Mở rộng hỗ trợ bản địa hóa với 10 ngôn ngữ mới.",
       "added": "Đã thêm",
@@ -431,7 +431,7 @@
       "lang10Desc": "Đã thêm hỗ trợ đầy đủ cho tiếng Indonesia, tiếng Miến Điện, tiếng Ba Lan, tiếng Đan Mạch, tiếng Kazakh, tiếng Séc, tiếng Hungary, tiếng Gruzia, tiếng Thụy Điển và tiếng Uzbek."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "Ngày 12 tháng 9, 2026",
       "desc": "Đã thêm bản địa hóa tiếng Ả Rập, tiếng Trung và sửa lỗi thay đổi kích thước trên macOS.",
       "added": "Đã thêm",
@@ -442,7 +442,7 @@
       "layoutDesc": "Đã sửa lỗi trên macOS khi trình phát video YouTube bị lệch khỏi vị trí trung tâm khi thay đổi kích thước cửa sổ ứng dụng."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "Ngày 12 tháng 9, 2026",
       "desc": "Đã sửa lỗi phát lại và làm mịn thanh tua khi khởi động ứng dụng.",
       "fixed": "Đã sửa",
@@ -452,7 +452,7 @@
       "durationDesc": "Đã sửa lỗi thanh tua hiển thị thời lượng là 0:00 khi ứng dụng mới được khởi chạy."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "Ngày 11 tháng 9, 2026",
       "desc": "Quốc tế hóa và bản địa hóa toàn diện trên toàn bộ ứng dụng và trang web.",
       "new": "Mới",
@@ -464,7 +464,7 @@
       "osDesc": "Tích hợp ngôn ngữ nguyên bản cấp hệ điều hành trên Android 13+ và iOS để tự động đồng bộ hóa ngôn ngữ của ứng dụng."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "Ngày 11 tháng 9, 2026",
       "desc": "Bản vá nóng cho các bản cài đặt mới.",
       "fixed": "Đã sửa",
@@ -472,7 +472,7 @@
       "crashDesc": "Đã sửa lỗi nghiêm trọng khiến ứng dụng bị sập trên màn hình trống ở các bản cài đặt mới do thiếu tệp cấu hình môi trường."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "Ngày 11 tháng 9, 2026",
       "desc": "Phát lại trong nền mượt mà trên macOS.",
       "new": "Mới",
@@ -481,7 +481,7 @@
       "appNapDesc": "Ngăn chặn tính năng App Nap của macOS tạm ngưng trình phát khi bị thu nhỏ, cho phép hàng đợi tiếp tục mà không bị gián đoạn."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "Ngày 11 tháng 9, 2026",
       "desc": "Phát hành tự động và ký mã.",
       "new": "Mới",
@@ -495,7 +495,7 @@
       "submoduleFix": "Đã sửa đổi cấu hình thanh toán module phụ trong quy trình làm việc CI"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "Ngày 10 tháng 9, 2026",
       "desc": "Phát lại trong nền và độ ổn định.",
       "new": "Mới",
@@ -511,7 +511,7 @@
       "linter": "Đã loại bỏ một số lỗi linter của IDE và dọn dẹp các tệp dư thừa"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "Ngày 9 tháng 9, 2026",
       "desc": "Tự động phát thông minh hơn, theo ngữ cảnh.",
       "autoplayContextTitle": "Tự động Phát theo Ngữ cảnh",
@@ -520,7 +520,7 @@
       "tieredRecsDesc": "Đề xuất hiện nghiêm ngặt sử dụng danh mục của nghệ sĩ mục tiêu thay vì tìm kiếm tương đối theo tên."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "Ngày 9 tháng 9, 2026",
       "desc": "Một trải nghiệm nghe tốt hơn.",
       "new": "Mới",
@@ -541,13 +541,30 @@
       "bottomBar": "Thanh trình phát phía dưới hiển thị hoàn toàn trong suốt và không thể đọc được trên macOS khi phát nhạc"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "Tháng 9, 2026",
       "desc": "Bản phát hành đầu tiên của PPPlayer.",
       "spotify": "Siêu dữ liệu âm nhạc do Spotify cung cấp",
       "youtube": "Phát âm thanh do YouTube cung cấp",
       "playlists": "Danh sách phát, mục yêu thích và lịch sử nghe",
       "platforms": "Hỗ trợ macOS, Windows và Linux"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {
@@ -569,7 +586,7 @@
     "license": "Giấy phép MIT"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "Tin tức, cập nhật và câu chuyện từ đội ngũ PPPlayer.",
     "readMore": "Đọc bài viết",
     "minRead": "phút đọc",

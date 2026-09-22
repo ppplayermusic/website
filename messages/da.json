@@ -8,41 +8,41 @@
     "privacyDesc": "Privatlivspolitik for PPPlayer: gratis medieapp til macOS, Linux, Windows, iOS og Android.",
     "termsTitle": "Servicevilkår",
     "termsDesc": "Servicevilkår for PPPlayer: gratis medieapp til macOS, Linux, Windows, iOS og Android.",
-    "supportTitle": "Support - PPPlayer",
+    "supportTitle": "Support - PPPlayer​",
     "supportDesc": "PPPlayer er et uafhængigt, open-source projekt. For fejl og funktionsidéer, brug GitHub. For andre spørgsmål, e-mail contact@ppplayer.com.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "Nyheder, opdateringer og historier fra PPPlayer-teamet."
   },
   "nav": {
     "features": "Funktioner",
     "download": "Download Gratis",
-    "support": "Support",
+    "support": "Support​",
     "contribute": "Bidrag",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "En gratis, open-source musikafspiller. Ingen konto. Intet abonnement. Bare spil.",
     "product": "Produkt",
     "features": "Funktioner",
-    "download": "Download",
+    "download": "Download​",
     "platforms": "Platforme",
     "ios": "iOS",
     "android": "Android",
     "windows": "Windows",
     "social": "Socialt",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Juridisk",
     "privacy": "Privatliv",
     "terms": "Vilkår",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "Se kildekode på GitHub",
     "contribute": "Bidrag",
     "changelog": "Ændringslog",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Vi værdsætter dit privatliv",
@@ -54,11 +54,11 @@
     "title1": "Musik.",
     "title2": "Uden friktion.",
     "desc": "En gratis, open-source musikafspiller. Ingen konto. Intet abonnement. Bare spil.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Hent til Android",
     "getMac": "Hent til Mac",
     "getWindows": "Hent til Windows",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Experimental)​",
     "badge": "Gratis & open source",
     "source": "Se kildekode på GitHub"
   },
@@ -109,11 +109,11 @@
     "getWindows": "Hent til Windows",
     "notAvailable": "Ikke tilgængelig endnu. I øjeblikket er kun macOS-versionen tilgængelig til download.",
     "notAvailableTitle": "Kommer Snart",
-    "okayBtn": "Okay",
+    "okayBtn": "Okay​",
     "getLinux": "Hent til Linux",
     "modalTitle": "Download til {platform}",
     "modalDesc": "Vælg, hvordan du vil installere PPPlayer på din {platform}-enhed.",
-    "primaryDownload": "Download",
+    "primaryDownload": "Download​",
     "directDownload": "Direkte download",
     "comingSoon": "Kommer snart",
     "cancel": "Annuller",
@@ -121,7 +121,7 @@
     "os": "Styresystem",
     "arch": "Arkitektur",
     "memory": "Hukommelse",
-    "internet": "Internet",
+    "internet": "Internet​",
     "reqStreaming": "Kræves til streaming",
     "reqTitle": "Krav til {platform}",
     "reqs": {
@@ -154,7 +154,7 @@
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 er nu tilgængelig",
-    "title": "Download <gradient>PPPlayer</gradient>",
+    "title": "Download <gradient>PPPlayer</gradient>​",
     "subtitle": "Vælg din platform. Begynd at lytte på få sekunder.",
     "desc": "Ingen konto påkrævet. Ingen e-mail. Ingen tilmelding. Bare musik.",
     "windowsReqLabel": "Windows systemkrav:",
@@ -301,9 +301,9 @@
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
+      "label": "iPhone & iPad​",
       "desc": "Kommer snart til TestFlight og App Store for iPhone og iPad.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -313,12 +313,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Download til Windows 10 og nyere fra Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Direkte download til macOS. Apple Silicon og Intel understøttes.",
       "badge": "Direkte Download"
@@ -424,7 +424,7 @@
     },
     "back": "← Tilbage til PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "12. september 2026",
       "desc": "Udvidet lokaliseringsunderstøttelse med 10 nye sprog.",
       "added": "Tilføjet",
@@ -433,18 +433,18 @@
       "lang10Desc": "Tilføjet fuld support for indonesisk, burmesisk, polsk, dansk, kasakhisk, tjekkisk, ungarsk, georgisk, svensk og usbekisk."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12. september 2026",
       "desc": "Tilføjede arabiske og kinesiske lokaliseringer og rettede fejl ved ændring af størrelse på macOS.",
       "added": "Tilføjet",
       "fixed": "Rettet",
       "localizationTitle": "Lokaliseringsudvidelse",
       "localizationDesc": "Tilføjede arabisk og kinesisk (forenklet og traditionelt) lokaliseringer.",
-      "layoutTitle": "macOS Layout Fix",
+      "layoutTitle": "macOS Layout Fix​",
       "layoutDesc": "Rettede et problem på macOS, hvor YouTube-videospilleren flyttede sig fra midten, når der blev ændret størrelse på applikationsvinduet."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "12. september 2026",
       "desc": "Rettede afspilningsfejl og polerede søgebaren ved appstart.",
       "fixed": "Rettet",
@@ -454,7 +454,7 @@
       "durationDesc": "Rettede, at søgebaren viste en varighed på 0:00, når appen startes for første gang."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "11. september 2026",
       "desc": "Omfattende internationalisering og lokalisering på tværs af hele appen og webstedet.",
       "new": "Ny",
@@ -466,7 +466,7 @@
       "osDesc": "Indfødte integrationer af sprog på OS-niveau på Android 13+ og iOS for at synkronisere appens sprog automatisk."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "11. september 2026",
       "desc": "Hotfix til friske installationer.",
       "fixed": "Rettet",
@@ -474,7 +474,7 @@
       "crashDesc": "Rettede en kritisk fejl, der fik appen til at gå ned på en tom skærm ved friske installationer på grund af en manglende miljøkonfigurationsfil."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "11. september 2026",
       "desc": "Sømløs baggrundsafspilning på macOS.",
       "new": "Ny",
@@ -483,7 +483,7 @@
       "appNapDesc": "Forhindrede macOS App Nap i aggressivt at suspendere afspilleren, når den er minimeret, så køen kan fortsætte uafbrudt."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "11. september 2026",
       "desc": "Automatiserede udgivelser og kodesignering.",
       "new": "Ny",
@@ -497,7 +497,7 @@
       "submoduleFix": "Rettede konfiguration for submodule-udtjekning i CI-arbejdsgange"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "10. september 2026",
       "desc": "Baggrundsafspilning og stabilitet.",
       "new": "Ny",
@@ -513,7 +513,7 @@
       "linter": "Eliminerede adskillige IDE-linterfejl og ryddede op i overflødige filer"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "9. september 2026",
       "desc": "Smartere, kontekstbaseret autospil.",
       "autoplayContextTitle": "Kontekstbevidst Autospil",
@@ -522,7 +522,7 @@
       "tieredRecsDesc": "Anbefalinger bruger nu strengt målkunstnerens katalog i stedet for usikker søgning efter navn."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "9. september 2026",
       "desc": "En bedre lytteoplevelse.",
       "new": "Ny",
@@ -543,17 +543,34 @@
       "bottomBar": "Bundens afspillerbjælke blev gengivet helt gennemsigtig og ulæselig på macOS ved musikafspilning"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
-      "date": "September 2026",
+      "version": "v1.0.0​",
+      "date": "September 2026​",
       "desc": "Den første udgivelse af PPPlayer.",
       "spotify": "Spotify-drevet musikmetadata",
       "youtube": "YouTube-drevet lydafspilning",
       "playlists": "Afspilningslister, favoritter og lyttehistorik",
       "platforms": "macOS, Windows og Linux understøttelse"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {
-    "title": "Support",
+    "title": "Support​",
     "subtitle": "Hvordan kan vi hjælpe dig?",
     "contactTitle": "Kontakt Os",
     "contactDesc": "For generelle forespørgsler, partnerskaber eller spørgsmål, der ikke er egnede til GitHub, er du velkommen til at kontakte os på contact@ppplayer.com.",
@@ -571,7 +588,7 @@
     "license": "MIT licens"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "Nyheder, opdateringer og historier fra PPPlayer-teamet.",
     "readMore": "Læs artikel",
     "minRead": "min læsning",
@@ -586,7 +603,7 @@
       "discovery": "Opdagelse",
       "engineering": "Teknik",
       "community": "Fællesskab",
-      "guides": "Guides",
+      "guides": "Guides​",
       "education": "Uddannelse",
       "product": "Produkt"
     }

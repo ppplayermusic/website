@@ -30,14 +30,14 @@
     "android": "Android",
     "windows": "Windows",
     "social": "सोशल",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "कानूनी",
     "privacy": "गोपनीयता",
     "terms": "शर्तें",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "GitHub पर सोर्स देखें",
     "contribute": "योगदान करें",
     "changelog": "परिवर्तन लॉग",
@@ -54,11 +54,11 @@
     "title1": "संगीत।",
     "title2": "बिना किसी रुकावट के।",
     "desc": "एक मुफ़्त, ओपन-सोर्स म्यूज़िक प्लेयर। कोई खाता नहीं। कोई सदस्यता नहीं। बस संगीत सुनें।",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Android के लिए प्राप्त करें",
     "getMac": "Mac के लिए प्राप्त करें",
     "getWindows": "Windows के लिए प्राप्त करें",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Experimental)​",
     "badge": "मुफ़्त और ओपन-सोर्स",
     "source": "GitHub पर सोर्स देखें"
   },
@@ -79,17 +79,17 @@
     "title": "वह सब कुछ जो आपको चाहिए।",
     "subtitle": "प्रदर्शन के लिए बनाया गया एक सुंदर, नेटिव अनुभव।",
     "searchTitle": "वही खोजें जो आप चाहते हैं।",
-    "searchDesc": "Search globally across tracks, artists, albums, and local videos instantly.",
+    "searchDesc": "Search globally across tracks, artists, albums, and local videos instantly.​",
     "queueTitle": "पूरी तरह से कतारबद्ध।",
     "queueDesc": "सुंदर, पुनर्व्यवस्थित कतार के साथ प्रबंधित करें कि आगे क्या बजता है।",
-    "favTitle": "Your media, your rules.",
-    "favDesc": "Build your personal library with a single click. Always there.",
+    "favTitle": "Your media, your rules.​",
+    "favDesc": "Build your personal library with a single click. Always there.​",
     "contextTitle": "डिज़ाइन द्वारा नेटिव।",
     "contextDesc": "कहीं भी राइट-क्लिक करें। सुंदर, संदर्भ-जागरूक नेटिव मेनू।",
-    "videoTitle": "Local Video Playback.",
-    "videoDesc": "Play local video files offline with subtitles, PiP, and Fit/Fill. Format support varies by platform.",
-    "streamsTitle": "Network Streaming.",
-    "streamsDesc": "Stream M3U/PLS playlists and compatible URLs. YouTube uses an embedded player. Not all third-party videos are playable.",
+    "videoTitle": "Local Video Playback.​",
+    "videoDesc": "Play local video files offline with subtitles, PiP, and Fit/Fill. Format support varies by platform.​",
+    "streamsTitle": "Network Streaming.​",
+    "streamsDesc": "Stream M3U/PLS playlists and compatible URLs. YouTube uses an embedded player. Not all third-party videos are playable.​",
     "videoPlaybackTitle": "स्थानीय वीडियो प्लेबैक",
     "videoPlaybackDesc": "सबटाइटल, ऑडियो ट्रैक चयन और पिक्चर-इन-पिक्चर मोड के समर्थन के साथ अपने स्थानीय वीडियो फ़ाइलों को निर्बाध रूप से चलाएं।"
   },
@@ -127,7 +127,7 @@
     "reqs": {
       "macos": {
         "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
+        "arch": "Apple Silicon & Intel (Universal)​",
         "mem": "4 GB RAM (Recommended)"
       },
       "windows": {
@@ -198,11 +198,11 @@
         "a": "नहीं। PPPlayer पूरी तरह से मुफ़्त है। जो कुछ भी आप देखते हैं वह बिना किसी कीमत के उपलब्ध है, और किसी खाते की आवश्यकता नहीं है।"
       },
       {
-        "q": "What media formats are supported?",
+        "q": "What media formats are supported?​",
         "a": "PPPlayer MP3, FLAC, MP4, MKV और AVI सहित लगभग सभी ऑडियो और वीडियो प्रारूपों का समर्थन करता है। यह नेटवर्क स्ट्रीम और M3U/M3U8 प्लेलिस्ट का भी समर्थन करता है।"
       },
       {
-        "q": "Are there any special setup requirements for video?",
+        "q": "Are there any special setup requirements for video?​",
         "a": "Windows, macOS, Android और iOS पर, PPPlayer तुरंत काम करता है। Linux पर, आपको अपने वितरण के आधार पर मानक मीडिया लाइब्रेरी (जैसे libmpv) स्थापित करने की आवश्यकता हो सकती है।"
       }
     ],
@@ -302,8 +302,8 @@
     "ios": {
       "name": "iOS",
       "label": "iPhone और iPad",
-      "desc": "Coming soon to TestFlight and the App Store for iPhone and iPad.",
-      "badge": "TestFlight"
+      "desc": "Coming soon to TestFlight and the App Store for iPhone and iPad.​",
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -313,12 +313,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "label": "Windows 10+​",
+      "desc": "Download for Windows 10 and later from the Microsoft Store.​",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "macOS के लिए सीधा डाउनलोड। Apple Silicon और Intel समर्थित।",
       "badge": "सीधा डाउनलोड"
@@ -326,32 +326,32 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Experimental direct download for Linux. Hardware acceleration may vary.",
-      "badge": "Experimental"
+      "desc": "Experimental direct download for Linux. Hardware acceleration may vary.​",
+      "badge": "Experimental​"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
-      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.",
-      "added": "Added",
-      "changed": "Changed",
-      "fixed": "Fixed",
-      "videoTitle": "Local Video Support",
-      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.",
-      "streamTitle": "Network Streaming",
-      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.",
-      "subtitleTitle": "Advanced Subtitles",
-      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.",
-      "speedTitle": "Playback Speed & Autoplay",
-      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.",
-      "exportTitle": "Media Export",
-      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.",
-      "languagesTitle": "New Languages & Genres",
-      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
-      "stabilityTitle": "Core Overhaul",
-      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+      "date": "September 20, 2026​",
+      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "fixed": "Fixed​",
+      "videoTitle": "Local Video Support​",
+      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.​",
+      "streamTitle": "Network Streaming​",
+      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.​",
+      "subtitleTitle": "Advanced Subtitles​",
+      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.​",
+      "speedTitle": "Playback Speed & Autoplay​",
+      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.​",
+      "exportTitle": "Media Export​",
+      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.​",
+      "languagesTitle": "New Languages & Genres​",
+      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.​",
+      "stabilityTitle": "Core Overhaul​",
+      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling.​"
     },
     "title": "चेंजलॉग",
     "subtitle": "PPPlayer में नया क्या है।",
@@ -359,13 +359,13 @@
       "desc": "Google Play Store पर आधिकारिक Android रिलीज़।",
       "added": "जोड़ा गया",
       "androidTitle": "Android रिलीज़",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.​",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "September 17, 2026​"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "September 16, 2026​",
       "desc": "लाइब्रेरी स्क्रीन में सुधार और उत्तरदायी फिक्स।",
       "added": "जोड़ा गया",
       "fixed": "ठीक किया गया",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "September 15, 2026​",
       "desc": "पिक्चर-इन-पिक्चर समर्थन, मूल स्प्लैश स्क्रीन, और बहुत कुछ।",
       "added": "जोड़ा गया",
       "fixed": "ठीक किया गया",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "September 14, 2026​",
       "desc": "स्वचालित बिल्ड और वर्कफ़्लो सुधार।",
       "added": "जोड़ा गया",
       "ciTitle": "स्वचालित वर्कफ़्लो",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "September 14, 2026​",
       "desc": "सिस्टम मीडिया कंट्रोल सिंक और मुख्य विशेषताएं।",
       "added": "जोड़ा गया",
       "syncTitle": "सिस्टम मीडिया कंट्रोल सिंक",
@@ -405,35 +405,35 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "September 14, 2026​",
+      "desc": "Achieved 100% translation parity and fixed UI bugs.​",
+      "added": "Added​",
+      "fixed": "Fixed​",
+      "syncTitle": "Full Localization Parity​",
+      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.​",
+      "uiTitle": "UI and Link Fixes​",
+      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog.​"
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "September 13, 2026​",
+      "desc": "This release brings PPPlayer to an even wider global audience.​",
+      "added": "Added​",
+      "localizationTitle": "Additional Languages​",
+      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian.​"
     },
     "back": "← PPPlayer पर वापस जाएँ",
     "v1_2_0": {
-      "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "version": "v1.2.0​",
+      "date": "September 12, 2026​",
+      "desc": "Expanded localization support with 10 new languages.​",
+      "added": "Added​",
+      "fixed": "Fixed​",
+      "lang10Title": "10 New Languages​",
+      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek.​"
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12 सितंबर 2026",
       "desc": "अरबी और चीनी स्थानीयकरण जोड़े गए और macOS का आकार बदलने वाले बग्स को ठीक किया गया।",
       "added": "जोड़ा गया",
@@ -444,37 +444,37 @@
       "layoutDesc": "macOS पर एक समस्या को ठीक किया गया जहाँ एप्लिकेशन विंडो का आकार बदलने पर YouTube वीडियो प्लेयर केंद्र से हट जाता था।"
     },
     "v1_1_1": {
-      "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "version": "v1.1.1​",
+      "date": "September 12, 2026​",
+      "desc": "Fixed playback bugs and polished the seekbar on app startup.​",
+      "fixed": "Fixed​",
+      "snapTitle": "Startup Seekbar Bug​",
+      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.​",
+      "durationTitle": "Missing Duration​",
+      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched.​"
     },
     "v1_1_0": {
-      "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "version": "v1.1.0​",
+      "date": "September 11, 2026​",
+      "desc": "Comprehensive internationalization and localization across the entire app and website.​",
+      "new": "Added​",
+      "langTitle": "11 Global Languages​",
+      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.​",
+      "pickerTitle": "In-App Language Picker​",
+      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.​",
+      "osTitle": "OS-Level Integration​",
+      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically.​"
     },
     "v1_0_6": {
-      "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "version": "v1.0.6​",
+      "date": "September 11, 2026​",
+      "desc": "Hotfix for fresh installations.​",
+      "fixed": "Fixed​",
+      "crashTitle": "Startup Crash Fix​",
+      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file.​"
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "11 सितंबर 2026",
       "desc": "macOS पर निर्बाध बैकग्राउंड प्लेबैक।",
       "new": "नया",
@@ -483,7 +483,7 @@
       "appNapDesc": "कम किए जाने पर macOS ऐप नैप को प्लेयर को आक्रामक रूप से निलंबित करने से रोका, जिससे कतार बिना किसी रुकावट के जारी रह सके।"
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "11 सितंबर 2026",
       "desc": "स्वचालित रिलीज़ और कोड साइनिंग।",
       "new": "नया",
@@ -497,7 +497,7 @@
       "submoduleFix": "CI वर्कफ़्लो में सबमॉड्यूल चेकआउट कॉन्फ़िगरेशन को ठीक किया गया"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "10 सितंबर 2026",
       "desc": "बैकग्राउंड प्लेबैक और स्थिरता।",
       "new": "नया",
@@ -513,7 +513,7 @@
       "linter": "कई IDE लिंटर त्रुटियों को समाप्त किया और अनावश्यक फ़ाइलों को साफ़ किया"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "9 सितंबर 2026",
       "desc": "स्मार्ट, संदर्भ-आधारित ऑटोप्ले।",
       "autoplayContextTitle": "संदर्भ-जागरूक ऑटोप्ले",
@@ -522,7 +522,7 @@
       "tieredRecsDesc": "सिफ़ारिशें अब नाम से अस्पष्ट खोज करने के बजाय लक्षित कलाकार की सूची का सख्ती से उपयोग करती हैं।"
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "9 सितंबर 2026",
       "desc": "एक बेहतर सुनने का अनुभव।",
       "new": "नया",
@@ -543,13 +543,30 @@
       "bottomBar": "संगीत चलाते समय macOS पर नीचे प्लेयर बार पूरी तरह से पारदर्शी और अपठनीय प्रतिपादन"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "सितंबर 2026",
       "desc": "PPPlayer की पहली रिलीज़।",
       "spotify": "Spotify-संचालित संगीत मेटाडेटा",
       "youtube": "YouTube-संचालित ऑडियो प्लेबैक",
       "playlists": "प्लेलिस्ट, पसंदीदा और सुनने का इतिहास",
       "platforms": "macOS, Windows और Linux समर्थन"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {
@@ -583,12 +600,12 @@
     "advertisements": "विज्ञापन",
     "categories": {
       "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "discovery": "Discovery​",
+      "engineering": "Engineering​",
+      "community": "Community​",
+      "guides": "Guides​",
+      "education": "Education​",
+      "product": "Product​"
     }
   }
 }

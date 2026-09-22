@@ -10,7 +10,7 @@
     "termsDesc": "PPPlayer Hizmet Şartları: macOS, Linux, Windows, iOS ve Android için ücretsiz medya uygulaması.",
     "supportTitle": "Destek - PPPlayer",
     "supportDesc": "PPPlayer bağımsız, açık kaynaklı bir projedir. Hatalar ve özellik önerileri için GitHub’ı kullanın. Diğer sorularınız için contact@ppplayer.com adresine yazın.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "PPPlayer ekibinden haberler, güncellemeler ve hikayeler."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "download": "Ücretsiz İndir",
     "support": "Destek",
     "contribute": "Katkıda bulunun",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "Ücretsiz, açık kaynaklı bir müzik çalar. Hesap yok. Abonelik yok. Sadece dinleyin.",
@@ -30,10 +30,10 @@
     "android": "Android",
     "windows": "Windows",
     "social": "Sosyal Medya",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Yasal",
     "privacy": "Gizlilik",
     "terms": "Şartlar",
@@ -42,7 +42,7 @@
     "contribute": "Katkıda bulunun",
     "changelog": "Değişiklik Günlüğü",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Gizliliğinize değer veriyoruz",
@@ -54,7 +54,7 @@
     "title1": "Müzik.",
     "title2": "Zorluklar olmadan.",
     "desc": "Ücretsiz, açık kaynaklı bir müzik çalar. Hesap yok. Abonelik yok. Sadece dinleyin.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Android İçin İndir",
     "getMac": "Mac İçin İndir",
     "getWindows": "Windows İçin İndir",
@@ -303,7 +303,7 @@
       "name": "iOS",
       "label": "iPhone ve iPad",
       "desc": "Yakında iPhone ve iPad için TestFlight ve App Store'da.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -313,12 +313,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Microsoft Store'dan Windows 10 ve sonraki sürümler için indir.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "macOS için doğrudan indirme. Apple Silicon ve Intel desteklenir.",
       "badge": "Doğrudan İndirme"
@@ -424,7 +424,7 @@
     },
     "back": "← PPPlayer'a Dön",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "12 Eylül 2026",
       "desc": "10 yeni dil ile genişletilmiş yerelleştirme desteği.",
       "added": "Eklendi",
@@ -433,7 +433,7 @@
       "lang10Desc": "Endonezce, Burma dili, Lehçe, Danca, Kazakça, Çekçe, Macarca, Gürcüce, İsveççe ve Özbekçe için tam destek eklendi."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12 Eylül 2026",
       "desc": "Arapça ve Çince yerelleştirmeleri eklendi ve macOS yeniden boyutlandırma hataları düzeltildi.",
       "added": "Eklendi",
@@ -444,7 +444,7 @@
       "layoutDesc": "macOS'te uygulama penceresi yeniden boyutlandırıldığında YouTube video oynatıcısının merkezden kayması sorunu düzeltildi."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "12 Eylül 2026",
       "desc": "Oynatma hataları düzeltildi ve uygulama başlatılırken arama çubuğu geliştirildi.",
       "fixed": "Sabit",
@@ -454,7 +454,7 @@
       "durationDesc": "Uygulama ilk başlatıldığında süreyi 0:00 gösteren arama çubuğu düzeltildi."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "11 Eylül 2026",
       "desc": "Tüm uygulama ve web sitesi genelinde kapsamlı uluslararasılaştırma ve yerelleştirme.",
       "new": "Eklendi",
@@ -466,7 +466,7 @@
       "osDesc": "Uygulamanın dilini otomatik olarak senkronize etmek için Android 13+ ve iOS'ta yerel işletim sistemi düzeyinde dil entegrasyonları."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "11 Eylül 2026",
       "desc": "Yeni kurulumlar için hızlı düzeltme.",
       "fixed": "Sabit",
@@ -474,7 +474,7 @@
       "crashDesc": "Eksik bir ortam yapılandırma dosyası nedeniyle yeni kurulumlarda uygulamanın boş ekranda çökmesine neden olan kritik bir hata düzeltildi."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "11 Eylül 2026",
       "desc": "Otomatik sürümler ve kod imzalama.",
       "new": "New",
@@ -488,7 +488,7 @@
       "submoduleFix": "CI iş akışlarında sabit alt modül kontrol yapılandırması"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "10 Eylül 2026",
       "desc": "Arka planda oynatma ve stabilite.",
       "new": "New",
@@ -504,7 +504,7 @@
       "linter": "Birçok IDE linter hatasını giderdi ve gereksiz dosyaları temizledi"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "9 Eylül 2026",
       "desc": "Daha akıllı, bağlama dayalı otomatik oynatma.",
       "autoplayContextTitle": "Bağlamı Algılayan Otomatik Oynatma",
@@ -513,7 +513,7 @@
       "tieredRecsDesc": "Öneriler artık isimle bulanık arama yapmak yerine doğrudan hedef sanatçının kataloğunu kullanıyor."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "9 Eylül 2026",
       "desc": "Daha iyi bir dinleme deneyimi.",
       "new": "Yeni",
@@ -534,7 +534,7 @@
       "bottomBar": "Müzik çalarken macOS'ta alt oynatıcı çubuğunun tamamen şeffaf ve okunamaz hale gelmesi"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "Eylül 2026",
       "desc": "PPPlayer'ın ilk sürümü.",
       "spotify": "Spotify destekli müzik meta verileri",
@@ -543,13 +543,30 @@
       "platforms": "macOS, Windows ve Linux desteği"
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "11 Eylül 2026",
       "desc": "macOS’ta kesintisiz arka plan oynatma.",
       "new": "Yenilikler",
       "fixed": "Düzeltmeler",
       "appNapTitle": "Kesintisiz arka plan oynatma",
       "appNapDesc": "macOS App Nap’in simge durumuna küçültülen oynatıcıyı askıya alması önlenerek sıranın kesintisiz devam etmesi sağlandı."
+    },
+    "v2_0_1": {
+      "version": "2.0.1",
+      "date": "21 Eylül 2026",
+      "desc": "Rutin bakım ve depo temizliği.",
+      "changed": "Değiştirildi",
+      "cleanupTitle": "Bakım",
+      "cleanupDesc": "Depodaki karmaşayı azaltmak için geçici hata ayıklama ve geliştirme betiklerinin rutin bakımı ve kaldırılması.",
+      "added": "Eklendi",
+      "languagesTitle": "Yeni Diller",
+      "languagesDesc": "Hollandaca, Romence, Tayca, Ukraynaca, Urduca ve Vietnamca için destek eklendi.",
+      "quickPlayTitle": "Hızlı Oynatma",
+      "quickPlayDesc": "Sanatçı kartlarında doğrudan en popüler parçaları çalma ve üzerine gelme katmanlarında doğrudan çalma listesi/album çalma eklendi.",
+      "socialsTitle": "Sosyal Bağlantılar",
+      "socialsDesc": "Hakkında iletişim kutusuna Instagram, Facebook ve LinkedIn bağlantıları eklendi.",
+      "uiTitle": "Kullanıcı Arayüzü İyileştirmeleri",
+      "uiDesc": "Dinamik karma tabanlı renkler ve simgelerle yeniden tasarlanmış tür ve arama kategori kartları."
     }
   },
   "support": {
@@ -571,7 +588,7 @@
     "license": "MIT lisansı"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "PPPlayer ekibinden haberler, güncellemeler ve hikayeler.",
     "readMore": "Makaleyi oku",
     "minRead": "dk okuma",

@@ -10,7 +10,7 @@
     "termsDesc": "Syarat Perkhidmatan untuk PPPlayer: apl muzik percuma untuk macOS, Linux, Windows, iOS, dan Android.",
     "supportTitle": "Sokongan - PPPlayer",
     "supportDesc": "PPPlayer ialah projek sumber terbuka bebas. Untuk pepijat dan idea ciri, gunakan GitHub. Untuk soalan lain, e-mel contact@ppplayer.com.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "Berita, kemas kini dan cerita dari pasukan PPPlayer."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "download": "Muat Turun Percuma",
     "support": "Sokongan",
     "contribute": "Sumbang",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "Pemain muzik sumber terbuka dan percuma. Tiada akaun. Tiada langganan. Hanya main.",
@@ -30,10 +30,10 @@
     "android": "Android",
     "windows": "Windows",
     "social": "Sosial",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Undang-undang",
     "privacy": "Privasi",
     "terms": "Syarat",
@@ -42,7 +42,7 @@
     "contribute": "Sumbang",
     "changelog": "Log perubahan",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Kami menghargai privasi anda",
@@ -54,7 +54,7 @@
     "title1": "Muzik.",
     "title2": "Tanpa gangguan.",
     "desc": "Pemain muzik sumber terbuka dan percuma. Tiada akaun. Tiada langganan. Hanya main.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Dapatkan untuk Android",
     "getMac": "Dapatkan untuk Mac",
     "getWindows": "Dapatkan untuk Windows",
@@ -119,13 +119,13 @@
     "os": "Sistem Operasi",
     "arch": "Senibina",
     "memory": "Memori",
-    "internet": "Internet",
+    "internet": "Internet​",
     "reqStreaming": "Diperlukan untuk penstriman",
     "reqTitle": "Keperluan {platform}",
     "reqs": {
       "macos": {
         "os": "macOS 10.15 Catalina atau lebih baru",
-        "arch": "Apple Silicon & Intel (Universal)",
+        "arch": "Apple Silicon & Intel (Universal)​",
         "mem": "4 GB RAM (Disyorkan)"
       },
       "windows": {
@@ -299,7 +299,7 @@
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
+      "label": "iPhone & iPad​",
       "desc": "Akan hadir tidak lama lagi di TestFlight dan App Store untuk iPhone dan iPad.",
       "badge": "UjianTerbang"
     },
@@ -311,12 +311,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Muat turun untuk Windows 10 dan seterusnya dari Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Muat turun terus untuk macOS. Apple Silicon & Intel disokong.",
       "badge": "Muat Turun Terus"
@@ -422,7 +422,7 @@
     },
     "back": "← Kembali ke PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "12 September 2026",
       "desc": "Sokongan penyetempatan yang diperluaskan dengan 10 bahasa baharu.",
       "added": "Ditambah",
@@ -431,7 +431,7 @@
       "lang10Desc": "Ditambah sokongan penuh untuk bahasa Indonesia, Burma, Poland, Denmark, Kazakh, Czech, Hungary, Georgia, Sweden, dan Uzbek."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12 September 2026",
       "desc": "Ditambah penyetempatan Bahasa Arab dan Cina serta pepijat saiz semula macOS dibaiki.",
       "added": "Ditambah",
@@ -442,7 +442,7 @@
       "layoutDesc": "Dibaiki isu pada macOS di mana pemain video YouTube beralih dari tengah apabila mengubah saiz tetingkap apl."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "12 September 2026",
       "desc": "Dibaiki pepijat main balik dan digilap palang carian semasa permulaan apl.",
       "fixed": "Dibaiki",
@@ -452,7 +452,7 @@
       "durationDesc": "Dibaiki palang carian yang menunjukkan tempoh 0:00 apabila apl mula-mula dilancarkan."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "11 September 2026",
       "desc": "Pengantarabangsaan dan penyetempatan yang komprehensif di seluruh apl dan tapak web.",
       "new": "Ditambah",
@@ -464,7 +464,7 @@
       "osDesc": "Integrasi bahasa peringkat sistem operasi asli pada Android 13+ dan iOS untuk menyegerakkan bahasa apl secara automatik."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "11 September 2026",
       "desc": "Pembetulan pantas untuk pemasangan baharu.",
       "fixed": "Dibaiki",
@@ -472,7 +472,7 @@
       "crashDesc": "Membaiki pepijat kritikal yang menyebabkan apl ranap pada skrin kosong pada pemasangan baharu kerana fail konfigurasi persekitaran yang hilang."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "11 September 2026",
       "desc": "Main balik latar belakang yang lancar pada macOS.",
       "new": "Baharu",
@@ -481,7 +481,7 @@
       "appNapDesc": "Menghalang macOS App Nap daripada menggantungkan pemain secara agresif apabila diminimumkan, membenarkan giliran diteruskan tanpa gangguan."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "11 September 2026",
       "desc": "Keluaran automatik dan penandatanganan kod.",
       "new": "Baharu",
@@ -495,7 +495,7 @@
       "submoduleFix": "Menetapkan konfigurasi daftar keluar submodul dalam aliran kerja CI"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "10 September 2026",
       "desc": "Main balik dan kestabilan latar belakang.",
       "new": "Baharu",
@@ -511,7 +511,7 @@
       "linter": "Menghapuskan beberapa ralat linter IDE dan membersihkan fail berlebihan"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "9 September 2026",
       "desc": "Main automatik berasaskan konteks yang lebih bijak.",
       "autoplayContextTitle": "Main Automatik Peka Konteks",
@@ -520,7 +520,7 @@
       "tieredRecsDesc": "Pengesyoran kini secara tegas menggunakan katalog artis sasaran dan bukannya mencari kabur mengikut nama."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "9 September 2026",
       "desc": "Pengalaman mendengar yang lebih baik.",
       "new": "Baharu",
@@ -541,13 +541,30 @@
       "bottomBar": "Bar pemain bahagian bawah menjadi telus dan tidak dapat dibaca di macOS semasa memainkan muzik"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
-      "date": "September 2026",
+      "version": "v1.0.0​",
+      "date": "September 2026​",
       "desc": "Keluaran pertama PPPlayer.",
       "spotify": "Metadata muzik dikuasakan Spotify",
       "youtube": "Main balik audio dikuasakan YouTube",
       "playlists": "Senarai main, kegemaran dan sejarah pendengaran",
       "platforms": "Sokongan macOS, Windows dan Linux"
+    },
+    "v2_0_1": {
+      "version": "2.0.1",
+      "date": "21 September 2026",
+      "desc": "Penyelenggaraan rutin dan pembersihan repositori.",
+      "changed": "Telah berubah",
+      "cleanupTitle": "Penyelenggaraan",
+      "cleanupDesc": "Penyelenggaraan rutin dan penghapusan skrip debugging dan pembangunan sementara dari repositori untuk mengurangkan kekacauan.",
+      "added": "Ditambah",
+      "languagesTitle": "Bahasa Baharu",
+      "languagesDesc": "Menambah sokongan untuk Belanda, Romania, Thai, Ukraine, Urdu, dan Vietnam.",
+      "quickPlayTitle": "Main Balik Pantas",
+      "quickPlayDesc": "Menambah main balik lagu teratas secara langsung pada kad artis, dan main balik senarai main/album secara langsung pada lapisan timbul ketika melayang.",
+      "socialsTitle": "Pautan Sosial",
+      "socialsDesc": "Menambah pautan Instagram, Facebook, dan LinkedIn ke dialog tentang.",
+      "uiTitle": "Peningkatan UI",
+      "uiDesc": "Kad genre dan kategori carian yang direka semula dengan warna dan ikon berasaskan hash yang dinamik."
     }
   },
   "support": {
@@ -569,7 +586,7 @@
     "license": "Lesen MIT"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "Berita, kemas kini dan cerita dari pasukan PPPlayer.",
     "readMore": "Baca artikel",
     "minRead": "minit bacaan",

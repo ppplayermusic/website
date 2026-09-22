@@ -30,14 +30,14 @@
     "android": "Android",
     "windows": "Windows",
     "social": "소셜",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "법적 정보",
     "privacy": "개인정보 처리방침",
     "terms": "이용약관",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "GitHub에서 소스 보기",
     "contribute": "기여하기",
     "changelog": "변경 로그",
@@ -54,11 +54,11 @@
     "title1": "음악.",
     "title2": "어떠한 마찰 없이.",
     "desc": "무료 오픈소스 음악 플레이어. 계정 불필요. 구독 불필요. 그냥 재생하세요.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Android용 다운로드",
     "getMac": "Mac용 다운로드",
     "getWindows": "Windows용 다운로드",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Experimental)​",
     "badge": "무료 & 오픈소스",
     "source": "GitHub에서 소스 보기"
   },
@@ -69,7 +69,7 @@
     "title": "끝없는 청취."
   },
   "goDeeper": {
-    "bgText": "FOLLOW",
+    "bgText": "FOLLOW​",
     "title": "음악을 팔로우하세요."
   },
   "pressPlay": {
@@ -303,7 +303,7 @@
       "name": "iOS",
       "label": "iPhone 및 iPad",
       "desc": "iPhone 및 iPad용 TestFlight 및 App Store에 곧 출시될 예정입니다.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -313,12 +313,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Microsoft Store에서 Windows 10 이상용을 다운로드하세요.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "macOS용 직접 다운로드. Apple Silicon 및 Intel 지원.",
       "badge": "직접 다운로드"
@@ -424,7 +424,7 @@
     },
     "back": "← PPPlayer로 돌아가기",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "2026년 9월 12일",
       "desc": "10개의 새로운 언어로 현지화 지원을 확장했습니다.",
       "added": "추가됨",
@@ -433,7 +433,7 @@
       "lang10Desc": "인도네시아어, 버마어, 폴란드어, 덴마크어, 카자흐어, 체코어, 헝가리어, 조지아어, 스웨덴어 및 우즈베크어에 대한 전면적인 지원이 추가되었습니다."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "2026년 9월 12일",
       "desc": "아랍어 및 중국어 현지화 추가 및 macOS 크기 조정 버그 수정.",
       "added": "추가됨",
@@ -444,7 +444,7 @@
       "layoutDesc": "macOS에서 응용 프로그램 창 크기를 조정할 때 YouTube 비디오 플레이어가 중심에서 벗어나는 문제를 수정했습니다."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "2026년 9월 12일",
       "desc": "재생 버그를 수정하고 앱 시작 시 탐색 막대를 개선했습니다.",
       "fixed": "수정됨",
@@ -454,7 +454,7 @@
       "durationDesc": "앱을 처음 시작할 때 탐색 막대에 지속 시간이 0:00으로 표시되는 문제를 수정했습니다."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "2026년 9월 11일",
       "desc": "앱과 웹사이트 전체에 걸친 포괄적인 국제화 및 현지화.",
       "new": "새로운 기능",
@@ -466,7 +466,7 @@
       "osDesc": "앱의 언어를 자동으로 동기화하기 위한 Android 13 이상 및 iOS의 기본 OS 수준 언어 통합."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "2026년 9월 11일",
       "desc": "새로운 설치를 위한 핫픽스.",
       "fixed": "수정됨",
@@ -474,7 +474,7 @@
       "crashDesc": "누락된 환경 구성 파일로 인해 새로 설치할 때 앱이 빈 화면에서 충돌하는 심각한 버그를 수정했습니다."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "2026년 9월 11일",
       "desc": "macOS에서 끊김 없는 백그라운드 재생.",
       "new": "새로운 기능",
@@ -483,7 +483,7 @@
       "appNapDesc": "최소화될 때 macOS App Nap이 플레이어를 공격적으로 일시 중단하는 것을 방지하여 대기열이 중단 없이 계속되도록 했습니다."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "2026년 9월 11일",
       "desc": "자동화된 릴리스 및 코드 서명.",
       "new": "새로운 기능",
@@ -497,7 +497,7 @@
       "submoduleFix": "CI 워크플로의 하위 모듈 체크아웃 구성 수정"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "2026년 9월 10일",
       "desc": "백그라운드 재생 및 안정성.",
       "new": "새로운 기능",
@@ -513,7 +513,7 @@
       "linter": "여러 IDE linter 오류를 제거하고 중복 파일을 정리했습니다."
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "2026년 9월 9일",
       "desc": "더 스마트하고 컨텍스트 기반의 자동 재생.",
       "autoplayContextTitle": "컨텍스트 인식 자동 재생",
@@ -522,7 +522,7 @@
       "tieredRecsDesc": "이제 추천 기능은 이름으로 퍼지 검색을 수행하는 대신 타겟 아티스트의 카탈로그를 엄격하게 사용합니다."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "2026년 9월 9일",
       "desc": "더 나은 청취 경험.",
       "new": "새로운 기능",
@@ -543,13 +543,30 @@
       "bottomBar": "음악을 재생할 때 macOS에서 하단 플레이어 표시줄이 완전히 투명해져 읽을 수 없는 문제 수정"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "2026년 9월",
       "desc": "PPPlayer의 첫 번째 릴리스.",
       "spotify": "Spotify 기반 음악 메타데이터",
       "youtube": "YouTube 기반 오디오 재생",
       "playlists": "플레이리스트, 즐겨찾기 및 청취 기록",
       "platforms": "macOS, Windows, Linux 지원"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {

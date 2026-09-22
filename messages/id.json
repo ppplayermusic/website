@@ -10,7 +10,7 @@
     "termsDesc": "Ketentuan Layanan untuk PPPlayer: aplikasi media gratis untuk macOS, Linux, Windows, iOS, dan Android.",
     "supportTitle": "Dukungan - PPPlayer",
     "supportDesc": "PPPlayer adalah proyek sumber terbuka independen. Untuk bug dan ide fitur, gunakan GitHub. Untuk pertanyaan lain, kirim email ke contact@ppplayer.com.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "Berita, pembaruan, dan cerita dari tim PPPlayer."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "download": "Unduh Gratis",
     "support": "Dukungan",
     "contribute": "Berkontribusi",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "Pemutar musik open-source gratis. Tanpa akun. Tanpa langganan. Putar saja.",
@@ -30,19 +30,19 @@
     "android": "Android",
     "windows": "Windows",
     "social": "Sosial",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Hukum",
     "privacy": "Privasi",
     "terms": "Persyaratan",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "Lihat sumber di GitHub",
     "contribute": "Berkontribusi",
     "changelog": "Catatan Perubahan",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Kami menghargai privasi Anda",
@@ -54,11 +54,11 @@
     "title1": "Musik.",
     "title2": "Tanpa hambatan.",
     "desc": "Pemutar musik open-source gratis. Tanpa akun. Tanpa langganan. Putar saja.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Dapatkan untuk Android",
     "getMac": "Dapatkan untuk Mac",
     "getWindows": "Dapatkan untuk Windows",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Experimental)​",
     "badge": "Gratis & open source",
     "source": "Lihat sumber di GitHub"
   },
@@ -121,13 +121,13 @@
     "os": "Sistem Operasi",
     "arch": "Arsitektur",
     "memory": "Memori",
-    "internet": "Internet",
+    "internet": "Internet​",
     "reqStreaming": "Diperlukan untuk streaming",
     "reqTitle": "Persyaratan {platform}",
     "reqs": {
       "macos": {
         "os": "macOS 10.15 Catalina atau lebih baru",
-        "arch": "Apple Silicon & Intel (Universal)",
+        "arch": "Apple Silicon & Intel (Universal)​",
         "mem": "4 GB RAM (Disarankan)"
       },
       "windows": {
@@ -301,9 +301,9 @@
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
+      "label": "iPhone & iPad​",
       "desc": "Segera hadir di TestFlight dan App Store untuk iPhone dan iPad.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -313,12 +313,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Unduh untuk Windows 10 dan lebih baru dari Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Unduhan langsung untuk macOS. Mendukung Apple Silicon & Intel.",
       "badge": "Unduhan Langsung"
@@ -424,7 +424,7 @@
     },
     "back": "← Kembali ke PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "12 September 2026",
       "desc": "Memperluas dukungan lokalisasi dengan 10 bahasa baru.",
       "added": "Ditambahkan",
@@ -433,7 +433,7 @@
       "lang10Desc": "Menambahkan dukungan penuh untuk bahasa Indonesia, Burma, Polandia, Denmark, Kazakh, Ceko, Hungaria, Georgia, Swedia, dan Uzbekistan."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12 September 2026",
       "desc": "Menambahkan lokalisasi Bahasa Arab dan Mandarin serta memperbaiki bug pengubahan ukuran di macOS.",
       "added": "Ditambahkan",
@@ -444,7 +444,7 @@
       "layoutDesc": "Memperbaiki masalah pada macOS di mana pemutar video YouTube bergeser dari tengah saat mengubah ukuran jendela aplikasi."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "12 September 2026",
       "desc": "Memperbaiki bug pemutaran dan menyempurnakan bilah pencarian saat memulai aplikasi.",
       "fixed": "Diperbaiki",
@@ -454,7 +454,7 @@
       "durationDesc": "Memperbaiki bilah pencarian yang menampilkan durasi 0:00 saat aplikasi pertama kali diluncurkan."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "11 September 2026",
       "desc": "Internasionalisasi dan lokalisasi komprehensif di seluruh aplikasi dan situs web.",
       "new": "Baru",
@@ -466,7 +466,7 @@
       "osDesc": "Integrasi bahasa tingkat OS bawaan pada Android 13+ dan iOS untuk menyinkronkan bahasa aplikasi secara otomatis."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "11 September 2026",
       "desc": "Perbaikan cepat untuk instalasi baru.",
       "fixed": "Diperbaiki",
@@ -474,7 +474,7 @@
       "crashDesc": "Memperbaiki bug kritis yang menyebabkan aplikasi mogok di layar kosong pada instalasi baru karena file konfigurasi lingkungan yang hilang."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "11 September 2026",
       "desc": "Pemutaran latar belakang yang mulus di macOS.",
       "new": "Baru",
@@ -483,7 +483,7 @@
       "appNapDesc": "Mencegah macOS App Nap untuk menangguhkan pemutar secara agresif saat diminimalkan, memungkinkan antrean berlanjut tanpa gangguan."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "11 September 2026",
       "desc": "Rilis otomatis dan penandatanganan kode.",
       "new": "Baru",
@@ -497,7 +497,7 @@
       "submoduleFix": "Memperbaiki konfigurasi submodule checkout di alur kerja CI"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "10 September 2026",
       "desc": "Pemutaran latar belakang dan stabilitas.",
       "new": "Baru",
@@ -513,7 +513,7 @@
       "linter": "Menghilangkan beberapa kesalahan linter IDE dan membersihkan file yang berlebihan"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "9 September 2026",
       "desc": "Putar otomatis berbasis konteks yang lebih cerdas.",
       "autoplayContextTitle": "Putar Otomatis Sadar Konteks",
@@ -522,7 +522,7 @@
       "tieredRecsDesc": "Rekomendasi sekarang secara ketat menggunakan katalog artis target alih-alih pencarian samar berdasarkan nama."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "9 September 2026",
       "desc": "Pengalaman mendengarkan yang lebih baik.",
       "new": "Baru",
@@ -543,13 +543,30 @@
       "bottomBar": "Bilah pemutar bawah merender sepenuhnya transparan dan tidak dapat dibaca di macOS saat memutar musik"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
-      "date": "September 2026",
+      "version": "v1.0.0​",
+      "date": "September 2026​",
       "desc": "Rilis pertama PPPlayer.",
       "spotify": "Metadata musik bertenaga Spotify",
       "youtube": "Pemutaran audio bertenaga YouTube",
       "playlists": "Playlist, favorit, dan riwayat pendengaran",
       "platforms": "Dukungan macOS, Windows, dan Linux"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {
@@ -571,7 +588,7 @@
     "license": "Lisensi MIT"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "Berita, pembaruan, dan cerita dari tim PPPlayer.",
     "readMore": "Baca artikel",
     "minRead": "mnt membaca",

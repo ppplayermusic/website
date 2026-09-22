@@ -10,7 +10,7 @@
     "termsDesc": "Mga Tuntunin ng Serbisyo ng PPPlayer: libreng media app para sa macOS, Linux, Windows, iOS, at Android.",
     "supportTitle": "Suporta - PPPlayer",
     "supportDesc": "Ang PPPlayer ay isang independent, open-source na proyekto. Para sa mga bug at ideya, gamitin ang GitHub. Para sa iba pang tanong, mag-email sa contact@ppplayer.com.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "Mga balita, update, at kwento mula sa PPPlayer team."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "download": "I-download",
     "support": "Suporta",
     "contribute": "Mag-ambag",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "Isang libre, open-source na media player. Walang account. Walang subscription. Mag-play lang.",
@@ -29,20 +29,20 @@
     "ios": "iOS",
     "android": "Android",
     "windows": "Windows",
-    "social": "Social",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
-    "legal": "Legal",
+    "social": "Sosyal",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
+    "legal": "Legal​",
     "privacy": "Pagkapribado",
     "terms": "Mga Tuntunin",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "Tingnan ang source sa GitHub",
     "contribute": "Mag-ambag",
-    "changelog": "Changelog",
+    "changelog": "Changelog​",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Pinapahalagahan namin ang iyong pagkapribado",
@@ -54,11 +54,11 @@
     "title1": "Musika.",
     "title2": "Nang walang abala.",
     "desc": "Isang libre, open-source na media player. Walang account. Walang subscription. Mag-play lang.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Kunin para sa Android",
     "getMac": "Kunin para sa Mac",
     "getWindows": "Kunin para sa Windows",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Eksperimento)",
     "badge": "Libre & open source",
     "source": "Tingnan ang source sa GitHub"
   },
@@ -88,7 +88,7 @@
     "contextDesc": "Mag-right-click kahit saan. Maganda, context-aware na mga native menu.",
     "videoTitle": "Pag-playback ng Lokal na Video.",
     "videoDesc": "Mag-play ng mga lokal na video file nang offline nang may mga subtitle, PiP, at Fit/Fill. Iba-iba ang suporta sa format depende sa platform.",
-    "streamsTitle": "Network Streaming.",
+    "streamsTitle": "Pag-stream ng Network.",
     "streamsDesc": "Mag-stream ng mga M3U/PLS playlist at compatible na mga URL. Gumagamit ang YouTube ng naka-embed na player. Hindi lahat ng third-party na video ay maaaring i-play."
   },
   "noAccount": {
@@ -107,7 +107,7 @@
     "getWindows": "Kunin para sa Windows",
     "notAvailable": "Hindi pa available. Sa ngayon, ang macOS version pa lang ang pwedeng ma-download.",
     "notAvailableTitle": "Paparating Na",
-    "okayBtn": "Okay",
+    "okayBtn": "Okay​",
     "getLinux": "Kunin para sa Linux",
     "modalTitle": "I-download para sa {platform}",
     "modalDesc": "Piliin kung paano mo gustong i-install ang PPPlayer sa iyong {platform} na device.",
@@ -116,16 +116,16 @@
     "comingSoon": "Paparating Na",
     "cancel": "Kanselahin",
     "downloadFor": "I-download para sa {platform}",
-    "os": "Operating System",
+    "os": "Operating System​",
     "arch": "Arkitektura",
-    "memory": "Memory",
-    "internet": "Internet",
+    "memory": "Alaala",
+    "internet": "Internet​",
     "reqStreaming": "Kailangan para sa streaming",
     "reqTitle": "Mga Kinakailangan sa {platform}",
     "reqs": {
       "macos": {
         "os": "macOS 10.15 Catalina o mas bago",
-        "arch": "Apple Silicon & Intel (Universal)",
+        "arch": "Apple Silicon o Intel (Universal)",
         "mem": "4 GB RAM (Inirerekomenda)"
       },
       "windows": {
@@ -299,9 +299,9 @@
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
+      "label": "iPhone at iPad",
       "desc": "Paparating na sa TestFlight at App Store para sa iPhone at iPad.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -311,12 +311,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "I-download para sa Windows 10 at mas bago mula sa Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Direktang pag-download para sa macOS. Sinusuportahan ang Apple Silicon & Intel.",
       "badge": "Direktang Download"
@@ -325,7 +325,7 @@
       "name": "Linux",
       "label": "Linux",
       "desc": "Experimental na direktang pag-download para sa Linux. Maaaring mag-iba ang hardware acceleration.",
-      "badge": "Experimental"
+      "badge": "Pang-eksperimento"
     }
   },
   "changelog": {
@@ -351,7 +351,7 @@
       "stabilityTitle": "Pangunahing Pag - overhaul",
       "stabilityDesc": "Overhauled ang core playback engine architecture para sa pinabuting katatagan, pasadyang HTTP header, at mahigpit na timeout handling."
     },
-    "title": "Changelog",
+    "title": "Changelog​",
     "subtitle": "Ano ang bago sa PPPlayer.",
     "v1_3_6": {
       "desc": "Opisyal na paglabas ng Android sa Google Play Store.",
@@ -422,7 +422,7 @@
     },
     "back": "← Bumalik sa PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "Setyembre 12, 2026",
       "desc": "Pinawak ang suporta sa localization na may 10 bagong wika.",
       "added": "Idinagdag",
@@ -431,28 +431,28 @@
       "lang10Desc": "Nagdagdag ng buong suporta para sa Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, at Uzbek."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "Setyembre 12, 2026",
       "desc": "Nagdagdag ng mga localization ng Arabic at Chinese at inayos ang mga macOS resizing bug.",
       "added": "Idinagdag",
       "fixed": "Naayos",
       "localizationTitle": "Pagpapalawak ng Localization",
       "localizationDesc": "Nagdagdag ng Arabic at Chinese (Simplified & Traditional) na mga localization.",
-      "layoutTitle": "macOS Layout Fix",
+      "layoutTitle": "Pag-aayos ng Layout ng macOS",
       "layoutDesc": "Inayos ang isang isyu sa macOS kung saan lilipat sa gitna ang YouTube video player kapag nire-resize ang window ng application."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "Setyembre 12, 2026",
       "desc": "Inayos ang mga playback bug at pinakinis ang seekbar sa pagsisimula ng app.",
       "fixed": "Naayos",
-      "snapTitle": "Startup Seekbar Bug",
+      "snapTitle": "Startup Seekbar Bug​",
       "snapDesc": "Inayos ang isang isyu kung saan ang seek bar ay agad na babalik sa panimulang posisyon kapag ini-slide ito kaagad pagkatapos ilunsad ang app.",
       "durationTitle": "Nawawalang Tagal",
       "durationDesc": "Inayos ang seek bar na nagpapakita ng tagal na 0:00 kapag unang inilunsad ang app."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "Setyembre 11, 2026",
       "desc": "Komprehensibong internasyonalisasyon at lokalisasyon sa buong app at website.",
       "new": "Idinagdag",
@@ -464,38 +464,38 @@
       "osDesc": "Native na mga integrasyon ng wika sa antas ng OS sa Android 13+ at iOS upang awtomatikong i-sync ang wika ng app."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "Setyembre 11, 2026",
       "desc": "Hotfix para sa mga bagong pag-install.",
       "fixed": "Naayos",
-      "crashTitle": "Startup Crash Fix",
+      "crashTitle": "Startup Crash Fix​",
       "crashDesc": "Inayos ang isang kritikal na bug na nagiging sanhi ng pag-crash ng app sa isang blangkong screen sa mga bagong pag-install dahil sa isang nawawalang environment configuration file."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "Setyembre 11, 2026",
       "desc": "Walang putol na background playback sa macOS.",
       "new": "Bago",
       "fixed": "Naayos",
-      "appNapTitle": "Gapless Background Playback",
+      "appNapTitle": "Walang Gap na Pag-playback sa Background",
       "appNapDesc": "Pinigilan ang macOS App Nap na agresibong suspindihin ang player kapag nai-minimize, na nagpapahintulot sa pila na magpatuloy nang walang patid."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "Setyembre 11, 2026",
       "desc": "Mga awtomatikong paglabas at pag-sign ng code.",
       "new": "Bago",
       "fixed": "Naayos",
-      "ciTitle": "Automated Release Pipeline",
+      "ciTitle": "Automated Release Pipeline​",
       "ciDesc": "GitHub Actions workflow para sa magkakatugmang pagbuo at macOS code signing.",
-      "signedTitle": "Signed macOS Releases",
+      "signedTitle": "Mga nilagdaang macOS Releases",
       "signedDesc": "Ang mga opisyal na nilagdaan at na-notaryong paglabas ng macOS ay available na direkta sa website.",
       "licenseTitle": "Open Source na Lisensya",
       "licenseDesc": "Nagdagdag ng Lisensyang MIT sa repositoryo.",
       "submoduleFix": "Naayos na configuration ng submodule checkout sa mga workflow ng CI"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "Setyembre 10, 2026",
       "desc": "Background playback at stability.",
       "new": "Bago",
@@ -511,7 +511,7 @@
       "linter": "Inalis ang ilang mga error sa IDE linter at nilinis ang mga kalabisan na file"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "Setyembre 9, 2026",
       "desc": "Mas matalino, context-based na autoplay.",
       "autoplayContextTitle": "Context-Aware na Autoplay",
@@ -520,13 +520,13 @@
       "tieredRecsDesc": "Ang mga rekomendasyon ay mahigpit na gumagamit ngayon ng catalog ng target na artist sa halip na malabong paghahanap sa pangalan."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "Setyembre 9, 2026",
       "desc": "Isang mas mahusay na karanasan sa pakikinig.",
       "new": "Bago",
       "improved": "Pinabuti",
       "fixed": "Naayos",
-      "autoplayTitle": "Autoplay",
+      "autoplayTitle": "Autoplay​",
       "autoplayDesc": "Patuloy ang musika sa mga rekomendasyong nakabatay sa pinapakinggan mo.",
       "discoverTitle": "Tumuklas",
       "discoverDesc": "Maghanap ng musika batay sa kasaysayan ng iyong pakikinig, mga paboritong artist at mga playlist.",
@@ -541,13 +541,30 @@
       "bottomBar": "Buong transparent na pag-render ng ibabang player bar at hindi nababasa sa macOS kapag tumutugtog ng musika"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "Setyembre 2026",
       "desc": "Ang unang paglabas ng PPPlayer.",
       "spotify": "Music metadata na pinapagana ng Spotify",
       "youtube": "Audio playback na pinapagana ng YouTube",
       "playlists": "Mga playlist, paborito at kasaysayan ng pakikinig",
       "platforms": "Suporta sa macOS, Windows at Linux"
+    },
+    "v2_0_1": {
+      "version": "2.0.1",
+      "date": "Setyembre 21, 2026",
+      "desc": "Regular na pagpapanatili at paglilinis ng imbakan.",
+      "changed": "Nagbago",
+      "cleanupTitle": "Pagpapanatili",
+      "cleanupDesc": "Regular na pagpapanatili at pag-alis ng pansamantalang pag-debug at pag-develop ng mga script mula sa repository upang mabawasan ang kalat.",
+      "added": "Idinagdag",
+      "languagesTitle": "Mga Bagong Wika",
+      "languagesDesc": "Nagdagdag ng suporta para sa Dutch, Romanian, Thai, Ukrainian, Urdu, at Vietnamese.",
+      "quickPlayTitle": "Mabilis na Pag-playback",
+      "quickPlayDesc": "Nagdagdag ng direktang pag-playback ng mga nangungunang track sa mga card ng artist, at direktang pag-playback ng playlist/album sa mga overlay ng hover.",
+      "socialsTitle": "Mga Social Link",
+      "socialsDesc": "Nagdagdag ng mga link ng Instagram, Facebook, at LinkedIn sa dialog tungkol sa.",
+      "uiTitle": "Mga Pagpapahusay ng UI",
+      "uiDesc": "Muling idisenyo ang genre at mga card ng kategorya ng paghahanap na may mga dynamic na kulay at icon na batay sa hash."
     }
   },
   "support": {
@@ -569,7 +586,7 @@
     "license": "Lisensyang MIT"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "Mga balita, update, at kwento mula sa PPPlayer team.",
     "readMore": "Basahin ang artikulo",
     "minRead": "minuto bago basahin",
@@ -582,7 +599,7 @@
     "categories": {
       "all": "Lahat",
       "discovery": "Pagtuklas",
-      "engineering": "Engineering",
+      "engineering": "Engineering​",
       "community": "Komunidad",
       "guides": "Mga Gabay",
       "education": "Edukasyon",

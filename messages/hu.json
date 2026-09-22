@@ -10,7 +10,7 @@
     "termsDesc": "A PPPlayer szolgáltatási feltételei: ingyenes médiaalkalmazás macOS, Linux, Windows, iOS és Android rendszerekre.",
     "supportTitle": "Támogatás - PPPlayer",
     "supportDesc": "A PPPlayer egy független, nyílt forráskódú projekt. Hibák és funkcióötletek esetén használja a GitHubot. Egyéb kérdések esetén küldjön e-mailt a contact@ppplayer.com címre.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "Hírek, frissítések és történetek a PPPlayer csapatától."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "download": "Ingyenes letöltés",
     "support": "Támogatás",
     "contribute": "Hozzájárulás",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "Ingyenes, nyílt forráskódú zenelejátszó. Nincs fiók. Nincs előfizetés. Csak játszd le.",
@@ -30,10 +30,10 @@
     "android": "Android",
     "windows": "Windows",
     "social": "Közösségi média",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Jogi információk",
     "privacy": "Adatvédelem",
     "terms": "Feltételek",
@@ -42,7 +42,7 @@
     "contribute": "Hozzájárulás",
     "changelog": "Változások naplója",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Értékeljük az adatait",
@@ -54,7 +54,7 @@
     "title1": "Zene.",
     "title2": "Zökkenőmentesen.",
     "desc": "Ingyenes, nyílt forráskódú zenelejátszó. Nincs fiók. Nincs előfizetés. Csak játszd le.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Letöltés Androidra",
     "getMac": "Letöltés Mac-re",
     "getWindows": "Letöltés Windows-ra",
@@ -121,7 +121,7 @@
     "os": "Operációs rendszer",
     "arch": "Architektúra",
     "memory": "Memória",
-    "internet": "Internet",
+    "internet": "Internet​",
     "reqStreaming": "Streaminghez szükséges",
     "reqTitle": "{platform} rendszerkövetelmények",
     "reqs": {
@@ -303,7 +303,7 @@
       "name": "iOS",
       "label": "iPhone és iPad",
       "desc": "Hamarosan elérhető a TestFlighton és az App Store-ban iPhone-ra és iPadre.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -313,12 +313,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Töltse le Windows 10 és újabb verziókhoz a Microsoft Store-ból.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Közvetlen letöltés macOS-re. Az Apple Silicon és az Intel támogatott.",
       "badge": "Közvetlen letöltés"
@@ -424,7 +424,7 @@
     },
     "back": "← Vissza a PPPlayerhez",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "2026. szeptember 12.",
       "desc": "Kiterjesztett lokalizációs támogatás 10 új nyelvvel.",
       "added": "Hozzáadva",
@@ -433,7 +433,7 @@
       "lang10Desc": "Teljes támogatás hozzáadva az indonéz, burmai, lengyel, dán, kazah, cseh, magyar, grúz, svéd és üzbég nyelvhez."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "2026. szeptember 12.",
       "desc": "Arab és kínai honosítások hozzáadva, valamint macOS átméretezési hibák javítva.",
       "added": "Hozzáadva",
@@ -444,7 +444,7 @@
       "layoutDesc": "Javítottunk egy problémát a macOS rendszerben, ahol a YouTube videó lejátszó elcsúszott a középpontból az alkalmazás ablakának átméretezésekor."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "2026. szeptember 12.",
       "desc": "Lejátszási hibák javítva és a keresősáv csiszolása az alkalmazás indításakor.",
       "fixed": "Javítva",
@@ -454,7 +454,7 @@
       "durationDesc": "Javítottuk, hogy a keresősáv 0:00 időtartamot mutatott az alkalmazás első indításakor."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "2026. szeptember 11.",
       "desc": "Átfogó nemzetköziesítés és honosítás az egész alkalmazásban és a weboldalon.",
       "new": "Új",
@@ -550,6 +550,23 @@
       "youtube": "YouTube-alapú hanglejátszás",
       "playlists": "Lejátszási listák, kedvencek és hallgatási előzmények",
       "platforms": "macOS, Windows és Linux támogatás"
+    },
+    "v2_0_1": {
+      "version": "2.0.1",
+      "date": "2026. szeptember 21.",
+      "desc": "Rendszeres karbantartás és adattár tisztítása.",
+      "changed": "Megváltozott",
+      "cleanupTitle": "Karbantartás",
+      "cleanupDesc": "Rendszeres karbantartás és ideiglenes hibakeresési és fejlesztési szkriptek eltávolítása a tárolóból a rendetlenség csökkentése érdekében.",
+      "added": "Hozzáadva",
+      "languagesTitle": "Új nyelvek",
+      "languagesDesc": "Hozzáadott támogatás a holland, román, thai, ukrán, urdu és vietnami nyelvekhez.",
+      "quickPlayTitle": "Gyors lejátszás",
+      "quickPlayDesc": "Hozzáadva a közvetlen top dalok lejátszása az előadói kártyákon, valamint a közvetlen lejátszási lista/albumelejátszás az lebegő rétegeken.",
+      "socialsTitle": "Közösségi linkek",
+      "socialsDesc": "Hozzáadtam az Instagram, Facebook és LinkedIn linkeket a névjegy párbeszédablakhoz.",
+      "uiTitle": "Felhasználói felület fejlesztések",
+      "uiDesc": "Újratervezett műfaj- és keresési kategóriakártyák dinamikus, hash-alapú színekkel és ikonokkal."
     }
   },
   "support": {
@@ -571,7 +588,7 @@
     "license": "MIT licenc"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "Hírek, frissítések és történetek a PPPlayer csapatától.",
     "readMore": "Cikk elolvasása",
     "minRead": "perc olvasás",

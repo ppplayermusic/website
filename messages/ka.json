@@ -30,14 +30,14 @@
     "android": "Android",
     "windows": "Windows",
     "social": "სოციალური ქსელები",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "ინსტაგრამი",
+    "linkedin": "LinkedIn​",
+    "facebook": "ფეისბუქი",
+    "github": "GitHub​",
     "legal": "იურიდიული",
     "privacy": "კონფიდენციალურობა",
     "terms": "პირობები",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer მუსიკა.",
     "source": "წყაროს კოდის ნახვა GitHub-ზე",
     "contribute": "წვლილის შეტანა",
     "changelog": "ცვლილებების ჟურნალი",
@@ -54,11 +54,11 @@
     "title1": "მუსიკა.",
     "title2": "ყოველგვარი დაბრკოლების გარეშე.",
     "desc": "უფასო, ღია კოდის მქონე მუსიკალური პლეერი. ანგარიში არ არის საჭირო. არანაირი გამოწერა. უბრალოდ დაუკარით.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (ტესტფლაითი)",
     "getAndroid": "მიიღეთ Android-ისთვის",
     "getMac": "მიიღეთ Mac-ისთვის",
     "getWindows": "მიიღეთ Windows-ისთვის",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "ლინუქსი (ექსპერიმენტული)",
     "badge": "უფასო და ღია კოდის",
     "source": "წყაროს კოდის ნახვა GitHub-ზე"
   },
@@ -301,7 +301,7 @@
       "name": "iOS",
       "label": "iPhone და iPad",
       "desc": "მალე ხელმისაწვდომი იქნება TestFlight-სა და App Store-ში iPhone-სა და iPad-სთვის.",
-      "badge": "TestFlight"
+      "badge": "ტესტფლაითი"
     },
     "android": {
       "name": "Android",
@@ -311,12 +311,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "ჩამოტვირთეთ Windows 10 და უფრო ახალი ვერსიებისთვის Microsoft Store-დან.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "პირდაპირი ჩამოტვირთვა macOS-ისთვის. მხარდაჭერილია Apple Silicon და Intel.",
       "badge": "პირდაპირი ჩამოტვირთვა"
@@ -325,7 +325,7 @@
       "name": "Linux",
       "label": "Linux",
       "desc": "ექსპერიმენტული პირდაპირი ჩამოტვირთვა Linux-ისთვის. აპარატურის აჩქარება შეიძლება განსხვავდებოდეს.",
-      "badge": "Experimental"
+      "badge": "ექსპერიმენტული"
     }
   },
   "changelog": {
@@ -422,7 +422,7 @@
     },
     "back": "← უკან PPPlayer-ზე",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "2026 წლის 12 სექტემბერი",
       "desc": "გაფართოებული ლოკალიზაციის მხარდაჭერა 10 ახალი ენით.",
       "added": "დამატებულია",
@@ -548,6 +548,23 @@
       "youtube": "YouTube-ზე დაფუძნებული აუდიოს დაკვრა",
       "playlists": "დასაკრავი სიები, რჩეულები და მოსმენის ისტორია",
       "platforms": "macOS, Windows და Linux-ის მხარდაჭერა"
+    },
+    "v2_0_1": {
+      "version": "2.0.1",
+      "date": "21 სექტემბერი, 2026",
+      "desc": "განახლება ტექნიკური მომსახურებისა და ფუნქციების მიმართულებით, რომელიც მოაქვს ახალ ენებს, სწრაფი დაკვების მოქმედებებს და გაუმჯობესებულ UI დიზაინებს.",
+      "added": "დამატებული",
+      "changed": "შეცვლილ",
+      "languagesTitle": "ახალი ენები",
+      "languagesDesc": " დამატებულია მხარდაჭერა ჰოლანდურ, რუმინულ, ტაი, უკრაინულ, ურდუ და ვიეტნამურ ენებზე.",
+      "quickPlayTitle": "სწრაფი წაკითხვა",
+      "quickPlayDesc": "დაემატა პირდაპირი პოპულარული ტრეკების აღინიშნება არტისტის ბარათებზე და პირდაპირი პლეილისტის/ალბომის აღინიშნება ანტრაქტებზე მაუსის გადაადგილებისას.",
+      "socialsTitle": "სოციალური კავშირები",
+      "socialsDesc": "დაამატა Instagram-ის, Facebook-ის და LinkedIn-ის ბმულები შესახებ დიალოგში.",
+      "uiTitle": "UI გაუმჯობესებები",
+      "uiDesc": "გადაექცა ჟანრისა და საძიებო კატეგორიის ბარათები დინამიური ჰეშზე დაფუძნებული ფერებითა და იკონებით.",
+      "cleanupTitle": "მხარდაჭერა",
+      "cleanupDesc": "რეგულარული ტექნიკური მომსახურება და დროებითი დებაგირების და განვითარების სკრიპტების რეპოზიტორიიდან მოშორება ბართი შემცირების მიზნით."
     }
   },
   "support": {

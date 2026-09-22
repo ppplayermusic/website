@@ -10,7 +10,7 @@
     "termsDesc": "Podmínky služby pro PPPlayer: bezplatná mediální aplikace pro macOS, Linux, Windows, iOS a Android.",
     "supportTitle": "Podpora - PPPlayer",
     "supportDesc": "PPPlayer je nezávislý projekt s otevřeným zdrojovým kódem. Pro chyby a nápady na funkce použijte GitHub. V případě dalších dotazů zašlete e-mail na adresu contact@ppplayer.com.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "Novinky, aktualizace a příběhy od týmu PPPlayer."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "download": "Stáhnout zdarma",
     "support": "Podpora",
     "contribute": "Přispět",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "Bezplatný hudební přehrávač s otevřeným zdrojovým kódem. Žádný účet. Žádné předplatné. Prostě hrajte.",
@@ -30,19 +30,19 @@
     "android": "Android",
     "windows": "Windows",
     "social": "Sociální sítě",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Právní",
     "privacy": "Soukromí",
     "terms": "Podmínky",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "Zobrazit zdrojový kód na GitHubu",
     "contribute": "Přispět",
     "changelog": "Seznam změn",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Ceníme si vašeho soukromí",
@@ -54,11 +54,11 @@
     "title1": "Hudba.",
     "title2": "Bez tření.",
     "desc": "Bezplatný hudební přehrávač s otevřeným zdrojovým kódem. Žádný účet. Žádné předplatné. Prostě hrajte.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Získat pro Android",
     "getMac": "Získat pro Mac",
     "getWindows": "Získat pro Windows",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Experimental)​",
     "badge": "Zdarma a s otevřeným zdrojovým kódem",
     "source": "Zobrazit zdrojový kód na GitHubu"
   },
@@ -121,7 +121,7 @@
     "os": "Operační systém",
     "arch": "Architektura",
     "memory": "Paměť",
-    "internet": "Internet",
+    "internet": "Internet​",
     "reqStreaming": "Vyžadováno pro streamování",
     "reqTitle": "Požadavky na {platform}",
     "reqs": {
@@ -303,7 +303,7 @@
       "name": "iOS",
       "label": "iPhone a iPad",
       "desc": "Brzy k dispozici v TestFlight a App Store pro iPhone a iPad.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -313,12 +313,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Stáhněte si pro Windows 10 a novější z Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Přímé stažení pro macOS. Podporováno Apple Silicon a Intel.",
       "badge": "Přímé stažení"
@@ -424,7 +424,7 @@
     },
     "back": "← Zpět na PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "12. září 2026",
       "desc": "Rozšířená podpora lokalizace o 10 nových jazyků.",
       "added": "Přidáno",
@@ -433,7 +433,7 @@
       "lang10Desc": "Přidána plná podpora pro indonéštinu, barmštinu, polštinu, dánštinu, kazaštinu, češtinu, maďarštinu, gruzínštinu, švédštinu a uzbečtinu."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12. září 2026",
       "desc": "Přidána arabská a čínská lokalizace a opraveny chyby při změně velikosti v macOS.",
       "added": "Přidáno",
@@ -444,7 +444,7 @@
       "layoutDesc": "Opraven problém v systému macOS, kdy se přehrávač videa YouTube posunul mimo střed při změně velikosti okna aplikace."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "12. září 2026",
       "desc": "Opraveny chyby přehrávání a vylepšen vyhledávací panel při spuštění aplikace.",
       "fixed": "Opraveno",
@@ -454,7 +454,7 @@
       "durationDesc": "Opraveno zobrazení doby trvání 0:00 ve vyhledávacím panelu při prvním spuštění aplikace."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "11. září 2026",
       "desc": "Komplexní internacionalizace a lokalizace v celé aplikaci a na webu.",
       "new": "Nové",
@@ -466,7 +466,7 @@
       "osDesc": "Nativní integrace jazyků na úrovni operačního systému v Androidu 13+ a iOS pro automatickou synchronizaci jazyka aplikace."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "11. září 2026",
       "desc": "Hotfix pro nové instalace.",
       "fixed": "Opraveno",
@@ -474,7 +474,7 @@
       "crashDesc": "Opravena kritická chyba, která způsobovala selhání aplikace na prázdné obrazovce při nových instalacích kvůli chybějícímu konfiguračnímu souboru prostředí."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "11. září 2026",
       "desc": "Plynulé přehrávání na pozadí v macOS.",
       "new": "Nové",
@@ -483,7 +483,7 @@
       "appNapDesc": "Zabráněno agresivnímu pozastavení přehrávače systémem macOS App Nap, když je minimalizován, což umožňuje frontě pokračovat bez přerušení."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "11. září 2026",
       "desc": "Automatizovaná vydání a podepisování kódu.",
       "new": "Nové",
@@ -497,7 +497,7 @@
       "submoduleFix": "Opravena konfigurace pokladny podmodulů v pracovních postupech CI"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "10. září 2026",
       "desc": "Přehrávání na pozadí a stabilita.",
       "new": "Nové",
@@ -513,7 +513,7 @@
       "linter": "Odstraněno několik chyb linteru IDE a vyčištěny nadbytečné soubory"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "9. září 2026",
       "desc": "Chytřejší automatické přehrávání založené na kontextu.",
       "autoplayContextTitle": "Kontextové automatické přehrávání",
@@ -522,7 +522,7 @@
       "tieredRecsDesc": "Doporučení nyní striktně používají katalog cílového umělce namísto nepřesného vyhledávání podle jména."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "9. září 2026",
       "desc": "Lepší zážitek z poslechu.",
       "new": "Nové",
@@ -543,13 +543,30 @@
       "bottomBar": "Spodní lišta přehrávače se v systému macOS při přehrávání hudby vykreslovala jako plně průhledná a nečitelná"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "Září 2026",
       "desc": "První vydání PPPlayeru.",
       "spotify": "Hudební metadata využívající Spotify",
       "youtube": "Přehrávání zvuku s podporou YouTube",
       "playlists": "Seznamy skladeb, oblíbené položky a historie poslechu",
       "platforms": "Podpora pro macOS, Windows a Linux"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {
@@ -571,7 +588,7 @@
     "license": "MIT licence"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "Novinky, aktualizace a příběhy od týmu PPPlayer.",
     "readMore": "Číst článek",
     "minRead": "min čtení",

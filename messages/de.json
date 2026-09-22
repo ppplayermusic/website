@@ -8,17 +8,17 @@
     "privacyDesc": "Datenschutzrichtlinie für PPPlayer: kostenlose Medien-App für macOS, Linux, Windows, iOS und Android.",
     "termsTitle": "Nutzungsbedingungen",
     "termsDesc": "Nutzungsbedingungen für PPPlayer: kostenlose Medien-App für macOS, Linux, Windows, iOS und Android.",
-    "supportTitle": "Support - PPPlayer",
+    "supportTitle": "Support - PPPlayer​",
     "supportDesc": "PPPlayer ist ein unabhängiges Open-Source-Projekt. Nutze GitHub für Fehlermeldungen und Funktionsvorschläge. Bei anderen Fragen schreibe an contact@ppplayer.com.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "Neuigkeiten, Updates und Geschichten vom PPPlayer-Team."
   },
   "nav": {
     "features": "Funktionen",
     "download": "Kostenlos Laden",
-    "support": "Support",
+    "support": "Unterstützen",
     "contribute": "Mitwirken",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "Ein kostenloser Open-Source-Musikplayer. Ohne Konto. Ohne Abo. Einfach abspielen.",
@@ -30,19 +30,19 @@
     "android": "Android",
     "windows": "Windows",
     "social": "Soziales",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Rechtliches",
     "privacy": "Datenschutz",
     "terms": "Bedingungen",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Musik.",
     "source": "Quellcode auf GitHub",
     "contribute": "Mitwirken",
     "changelog": "Änderungsprotokoll",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Wir respektieren Ihre Privatsphäre",
@@ -54,11 +54,11 @@
     "title1": "Musik.",
     "title2": "Ohne Hürden.",
     "desc": "Ein kostenloser Open-Source-Musikplayer. Ohne Konto. Ohne Abo. Einfach abspielen.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Für Android laden",
     "getMac": "Für Mac laden",
     "getWindows": "Für Windows laden",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Experimentell)",
     "badge": "Kostenlos und Open Source",
     "source": "Quellcode auf GitHub"
   },
@@ -79,17 +79,17 @@
     "title": "Alles, was du brauchst.",
     "subtitle": "Ein natives Erlebnis, gebaut für Performance.",
     "searchTitle": "Finde genau, was du suchst.",
-    "searchDesc": "Search globally across tracks, artists, albums, and local videos instantly.",
+    "searchDesc": "Durchsuchen Sie sofort global Tracks, Künstler, Alben und lokale Videos.",
     "queueTitle": "Perfekt in der Warteschlange.",
     "queueDesc": "Verwalte mit einer schönen Warteschlange, was als nächstes läuft.",
-    "favTitle": "Your media, your rules.",
-    "favDesc": "Build your personal library with a single click. Always there.",
+    "favTitle": "Deine Medien, deine Regeln.",
+    "favDesc": "Bauen Sie Ihre persönliche Bibliothek mit einem einzigen Klick auf. Immer da.",
     "contextTitle": "Natives Design.",
     "contextDesc": "Klicke einfach rechts. Wunderschöne, native Kontextmenüs.",
-    "videoTitle": "Local Video Playback.",
-    "videoDesc": "Play local video files offline with subtitles, PiP, and Fit/Fill. Format support varies by platform.",
-    "streamsTitle": "Network Streaming.",
-    "streamsDesc": "Stream M3U/PLS playlists and compatible URLs. YouTube uses an embedded player. Not all third-party videos are playable.",
+    "videoTitle": "Lokale Videowiedergabe.",
+    "videoDesc": "Spielen Sie lokale Videodateien offline mit Untertiteln, PiP und Fit/Fill. Die Formatunterstützung variiert je nach Plattform.",
+    "streamsTitle": "Netzwerk-Streaming.",
+    "streamsDesc": "Streamen Sie M3U/PLS-Playlisten und kompatible URLs. YouTube verwendet einen eingebetteten Player. Nicht alle Videos von Drittanbietern sind abspielbar.",
     "videoPlaybackTitle": "Lokale Videowiedergabe",
     "videoPlaybackDesc": "Spielen Sie Ihre lokalen Videodateien nahtlos ab, mit Unterstützung für Untertitel, Audiospurauswahl und Bild-in-Bild-Modus."
   },
@@ -121,13 +121,13 @@
     "os": "Betriebssystem",
     "arch": "Architektur",
     "memory": "Speicher",
-    "internet": "Internet",
+    "internet": "Internet​",
     "reqStreaming": "Erforderlich für Streaming",
     "reqTitle": "Systemanforderungen für {platform}",
     "reqs": {
       "macos": {
         "os": "macOS 10.15 Catalina oder neuer",
-        "arch": "Apple Silicon & Intel (Universal)",
+        "arch": "Apple Silicon & Intel (Universal)​",
         "mem": "4 GB RAM (Empfohlen)"
       },
       "windows": {
@@ -198,11 +198,11 @@
         "a": "Nein. PPPlayer ist völlig kostenlos. Alles, was Sie sehen, ist kostenlos verfügbar."
       },
       {
-        "q": "What media formats are supported?",
+        "q": "Welche Medienformate werden unterstützt?",
         "a": "PPPlayer unterstützt fast alle Audio- und Videoformate, einschließlich MP3, FLAC, MP4, MKV und AVI. Es unterstützt auch Netzwerk-Streams und M3U/M3U8-Playlists."
       },
       {
-        "q": "Are there any special setup requirements for video?",
+        "q": "Gibt es besondere Einrichtungsvoraussetzungen für Video?",
         "a": "Unter Windows, macOS, Android und iOS funktioniert PPPlayer sofort. Unter Linux müssen Sie je nach Distribution möglicherweise Standard-Medienbibliotheken (wie libmpv) installieren."
       }
     ],
@@ -301,9 +301,9 @@
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
-      "desc": "Coming soon to TestFlight and the App Store for iPhone and iPad.",
-      "badge": "TestFlight"
+      "label": "iPhone & iPad​",
+      "desc": "Demnächst auf TestFlight und im App Store für iPhone und iPad verfügbar.",
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -313,12 +313,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "label": "Windows 10+​",
+      "desc": "Herunterladen für Windows 10 und später aus dem Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Direkter Download für macOS. Unterstützt Apple Silicon & Intel.",
       "badge": "Direkter Download"
@@ -326,14 +326,14 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Experimental direct download for Linux. Hardware acceleration may vary.",
-      "badge": "Experimental"
+      "desc": "Experimenteller Direktdownload für Linux. Die Hardwarebeschleunigung kann variieren.",
+      "badge": "Experimentell"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
+      "date": "20. September 2026",
       "desc": "Ein massives großes Update, das PPPlayer in einen vollständigen Media-Player mit Video- und Netzwerk-Streaming-Unterstützung verwandelt.",
       "added": "Hinzugefügt",
       "changed": "geändert",
@@ -359,13 +359,13 @@
       "desc": "Offizielle Android-Veröffentlichung im Google Play Store.",
       "added": "Hinzugefügt",
       "androidTitle": "Android-Veröffentlichung",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "androidDesc": "Erste Testversion für Android-Geräte. Die Unterstützung für mobile Geräte wird aktiv entwickelt.",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "17. September 2026"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "16. September 2026",
       "desc": "Verbesserungen am Bibliotheksbildschirm und Behebung von Reaktionsproblemen.",
       "added": "Hinzugefügt",
       "fixed": "Behoben",
@@ -374,7 +374,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "15. September 2026",
       "desc": "Bild-in-Bild-Unterstützung, native Startbildschirme und mehr.",
       "added": "Hinzugefügt",
       "fixed": "Behoben",
@@ -387,7 +387,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "14. September 2026",
       "desc": "Automatisierte Builds und Workflow-Verbesserungen.",
       "added": "Hinzugefügt",
       "ciTitle": "Automatisierte Workflows",
@@ -395,7 +395,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "14. September 2026",
       "desc": "Synchronisierung der System-Mediensteuerung und Kernfunktionen.",
       "added": "Hinzugefügt",
       "syncTitle": "Synchronisierung der System-Mediensteuerung",
@@ -405,35 +405,35 @@
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "14. September 2026",
+      "desc": "100 % Übersetzungsgleichheit erreicht und UI-Fehler behoben.",
+      "added": "Hinzugefügt",
+      "fixed": "Repariert",
+      "syncTitle": "Vollständige Lokalisierungsparität",
+      "syncDesc": "Synchronisierte Übersetzungsschlüssel und manuell kuratierte Übersetzungen in allen 30 Sprachen angewendet.",
+      "uiTitle": "UI- und Link-Korrekturen",
+      "uiDesc": "Behebte konstante Widget-Fehler auf den Start- und Bibliotheksbildschirmen und korrigierte GitHub-Repository-Links im Info-Dialog."
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "13. September 2026",
+      "desc": "Diese Veröffentlichung bringt PPPlayer einem noch größeren weltweiten Publikum näher.",
+      "added": "Hinzugefügt",
+      "localizationTitle": "Zusätzliche Sprachen",
+      "localizationDesc": "Lokalisierungen für Nigerianisches Pidgin, Filipino, Lettisch, Bengalisch, Kroatisch, Malaiisch, Persisch und Estnisch hinzugefügt."
     },
     "back": "← Zurück zu PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "version": "v1.2.0​",
+      "date": "12. September 2026",
+      "desc": "Erweiterte Lokalisierungsunterstützung mit 10 neuen Sprachen.",
+      "added": "Hinzugefügt",
+      "fixed": "Repariert",
+      "lang10Title": "10 neue Sprachen",
+      "lang10Desc": "Vollständige Unterstützung für Indonesisch, Burmesisch, Polnisch, Dänisch, Kasachisch, Tschechisch, Ungarisch, Georgisch, Schwedisch und Usbekisch hinzugefügt."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12. September 2026",
       "desc": "Arabische und chinesische Lokalisierungen hinzugefügt und macOS-Größenfehler behoben.",
       "added": "Hinzugefügt",
@@ -444,76 +444,76 @@
       "layoutDesc": "Behebung eines Problems unter macOS, bei dem der YouTube-Videoplayer beim Ändern der Fenstergröße verschoben wurde."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
-      "date": "September 12, 2026",
-      "desc": "Fixed playback bugs and polished the seekbar on app startup.",
-      "fixed": "Fixed",
-      "snapTitle": "Startup Seekbar Bug",
-      "snapDesc": "Fixed an issue where the seek bar would instantly snap back to the start position when sliding it immediately after launching the app.",
-      "durationTitle": "Missing Duration",
-      "durationDesc": "Fixed the seek bar showing a duration of 0:00 when the app is first launched."
+      "version": "v1.1.1​",
+      "date": "12. September 2026",
+      "desc": "Behob Wiedergabefehler und überarbeitete die Suchleiste beim Start der App.",
+      "fixed": "Festgelegt",
+      "snapTitle": "Startup-Suchleiste-Fehler",
+      "snapDesc": "Ein Problem behoben, bei dem die Suchleiste sofort an die Startposition zurückspringen würde, wenn man sie direkt nach dem Starten der App verschiebt.",
+      "durationTitle": "Fehlende Dauer",
+      "durationDesc": "Behoben, dass die Fortschrittsleiste beim ersten Start der App eine Dauer von 0:00 anzeigt."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
-      "date": "September 11, 2026",
-      "desc": "Comprehensive internationalization and localization across the entire app and website.",
-      "new": "Added",
-      "langTitle": "11 Global Languages",
-      "langDesc": "Added full support for Spanish, French, German, Portuguese, Italian, Japanese, Korean, Chinese, Hindi, Russian, and Arabic.",
-      "pickerTitle": "In-App Language Picker",
-      "pickerDesc": "Added an in-app language picker in the Preferences menu that applies translations instantly without restarting the app.",
-      "osTitle": "OS-Level Integration",
-      "osDesc": "Native OS-level language integrations on Android 13+ and iOS to sync the app's language automatically."
+      "version": "v1.1.0​",
+      "date": "11. September 2026",
+      "desc": "Umfassende Internationalisierung und Lokalisierung über die gesamte App und Website hinweg.",
+      "new": "Hinzugefügt",
+      "langTitle": "11 Globale Sprachen",
+      "langDesc": "Vollständige Unterstützung für Spanisch, Französisch, Deutsch, Portugiesisch, Italienisch, Japanisch, Koreanisch, Chinesisch, Hindi, Russisch und Arabisch hinzugefügt.",
+      "pickerTitle": "In-App-Sprachauswahl",
+      "pickerDesc": "Einen Sprachwähler in der App im Menü Einstellungen hinzugefügt, der Übersetzungen sofort anwendet, ohne die App neu starten zu müssen.",
+      "osTitle": "Betriebssystem-Ebene Integration",
+      "osDesc": "Native OS-Integration auf Sprachebene auf Android 13+ und iOS, um die Sprache der App automatisch zu synchronisieren."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
-      "date": "September 11, 2026",
-      "desc": "Hotfix for fresh installations.",
-      "fixed": "Fixed",
-      "crashTitle": "Startup Crash Fix",
-      "crashDesc": "Fixed a critical bug causing the app to crash on a blank screen on fresh installations due to a missing environment configuration file."
+      "version": "v1.0.6​",
+      "date": "11. September 2026",
+      "desc": "Hotfix für Neuinstallationen.",
+      "fixed": "Festgelegt",
+      "crashTitle": "Startup-Absturzbehebung",
+      "crashDesc": "Ein kritischer Fehler wurde behoben, der dazu führte, dass die App bei frischen Installationen aufgrund einer fehlenden Umgebungs-Konfigurationsdatei auf einem leeren Bildschirm abstürzte."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
-      "date": "September 11, 2026",
-      "desc": "Automated releases and code signing.",
+      "version": "v1.0.4​",
+      "date": "11. September 2026",
+      "desc": "Automatisierte Veröffentlichungen und Code-Signierung.",
       "new": "New",
-      "fixed": "Fixed",
-      "ciTitle": "Automated Release Pipeline",
-      "ciDesc": "GitHub Actions workflow for consistent builds and macOS code signing.",
-      "signedTitle": "Signed macOS Releases",
-      "signedDesc": "Official signed and notarized macOS releases now available directly on the website.",
-      "licenseTitle": "Open Source License",
-      "licenseDesc": "Added MIT License to the repository.",
-      "submoduleFix": "Fixed submodule checkout configuration in CI workflows"
+      "fixed": "Repariert",
+      "ciTitle": "Automatisierte Release-Pipeline",
+      "ciDesc": "GitHub Actions-Workflow für konsistente Builds und macOS-Code-Signierung.",
+      "signedTitle": "Signierte macOS-Versionen",
+      "signedDesc": "Offizielle unterschriebene und notariell beglaubigte macOS-Versionen jetzt direkt auf der Website verfügbar.",
+      "licenseTitle": "Open-Source-Lizenz",
+      "licenseDesc": "MIT-Lizenz zum Repository hinzugefügt.",
+      "submoduleFix": "Festgelegte Submodul-Checkout-Konfiguration in CI-Workflows"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
-      "date": "September 10, 2026",
-      "desc": "Background playback and stability.",
+      "version": "v1.0.3​",
+      "date": "10. September 2026",
+      "desc": "Hintergrundwiedergabe und Stabilität.",
       "new": "New",
-      "improved": "Improved",
-      "fixed": "Fixed",
-      "hybridEngineTitle": "Hybrid Playback Engine",
-      "hybridEngineDesc": "Robust background processing and lock-screen playback capabilities.",
-      "dedupTitle": "Command Deduplication",
-      "dedupDesc": "Added generation IDs to prevent overlapping and stale media commands across WebView bridge.",
-      "queueAdvance": "Song queue not automatically advancing to the next track",
-      "resumeBug": "Paused track unexpectedly resuming when handing off from foreground to PiP or background",
-      "precision": "Accurate millisecond precision reporting for current track position and playback duration",
-      "linter": "Eliminated several IDE linter errors and cleaned up redundant files"
+      "improved": "Verbessert",
+      "fixed": "Festgelegt",
+      "hybridEngineTitle": "Hybrider Wiedergabe-Engine",
+      "hybridEngineDesc": "Robuste Hintergrundverarbeitung und Sperrbildschirm-Wiedergabefunktionen.",
+      "dedupTitle": "Befehls-Deduplizierung",
+      "dedupDesc": "Generations-IDs hinzugefügt, um überlappende und veraltete Medienbefehle über die WebView-Brücke zu verhindern.",
+      "queueAdvance": "Warteschlange der Lieder wird nicht automatisch zum nächsten Titel weitergeschaltet",
+      "resumeBug": "Angehaltener Titel wird unerwartet fortgesetzt, wenn er vom Vordergrund auf PiP oder den Hintergrund übergeben wird",
+      "precision": "Genaues Meldergebnis in Millisekundenpräzision für aktuelle Titelposition und Wiedergabedauer",
+      "linter": "Mehrere IDE-Linter-Fehler beseitigt und redundante Dateien bereinigt"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
-      "date": "September 9, 2026",
-      "desc": "Smarter, context-based autoplay.",
-      "autoplayContextTitle": "Context-Aware Autoplay",
-      "autoplayContextDesc": "Autoplay now prioritizes tracks from the current artist before adding related artists to the queue.",
-      "tieredRecsTitle": "Tiered Recommendation Engine",
-      "tieredRecsDesc": "Recommendations now strictly use the target artist's catalog instead of fuzzy searching by name."
+      "version": "v1.0.2​",
+      "date": "9. September 2026",
+      "desc": "Intelligenteres, kontextbasiertes Autoplay.",
+      "autoplayContextTitle": "Kontextsensitives Autoplay",
+      "autoplayContextDesc": "Autoplay priorisiert jetzt zuerst Tracks des aktuellen Künstlers, bevor verwandte Künstler zur Warteschlange hinzugefügt werden.",
+      "tieredRecsTitle": "Gestufte Empfehlungssystem",
+      "tieredRecsDesc": "Empfehlungen verwenden jetzt strikt den Katalog des Zielkünstlers, anstatt unscharf nach dem Namen zu suchen."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "9. September 2026",
       "desc": "Ein besseres Hörerlebnis.",
       "new": "Neu",
@@ -534,8 +534,8 @@
       "bottomBar": "Die untere Player-Leiste wurde auf macOS bei der Musikwiedergabe vollständig transparent und unlesbar"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
-      "date": "September 2026",
+      "version": "v1.0.0​",
+      "date": "September 2026​",
       "desc": "Die erste Veröffentlichung von PPPlayer.",
       "spotify": "Musik-Metadaten unterstützt von Spotify",
       "youtube": "Audiowiedergabe unterstützt von YouTube",
@@ -543,21 +543,38 @@
       "platforms": "Unterstützung für macOS, Windows und Linux"
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "11. September 2026",
       "desc": "Nahtlose Hintergrundwiedergabe unter macOS.",
       "new": "Neu",
       "fixed": "Behoben",
       "appNapTitle": "Nahtlose Hintergrundwiedergabe",
       "appNapDesc": "Verhindert, dass macOS App Nap den minimierten Player anhält, damit die Warteschlange ohne Unterbrechung weiterläuft."
+    },
+    "v2_0_1": {
+      "version": "2.0.1",
+      "date": "21. September 2026",
+      "desc": "Routinewartung und Bereinigungen des Repositories.",
+      "changed": "Geändert",
+      "cleanupTitle": "Wartung",
+      "cleanupDesc": "Routinewartung und Entfernung temporärer Debugging- und Entwicklungsskripte aus dem Repository, um Unordnung zu reduzieren.",
+      "added": "Hinzugefügt",
+      "languagesTitle": "Neue Sprachen",
+      "languagesDesc": "Unterstützung für Niederländisch, Rumänisch, Thailändisch, Ukrainisch, Urdu und Vietnamesisch hinzugefügt.",
+      "quickPlayTitle": "Schnelle Wiedergabe",
+      "quickPlayDesc": "Direkte Wiedergabe der Top-Titel auf Künstlerkarten hinzugefügt und direkte Wiedergabe von Playlists/Alben auf Hover-Overlays.",
+      "socialsTitle": "Soziale Links",
+      "socialsDesc": "Instagram-, Facebook- und LinkedIn-Links zum Info-Dialog hinzugefügt.",
+      "uiTitle": "UI-Verbesserungen",
+      "uiDesc": "Neugestaltete Genre- und Suchkategorie-Karten mit dynamischen, hash-basierten Farben und Symbolen."
     }
   },
   "support": {
-    "title": "Support",
+    "title": "Unterstützen",
     "subtitle": "Wie können wir Ihnen helfen?",
     "contactTitle": "Kontaktiere uns",
     "contactDesc": "Für allgemeine Anfragen, Partnerschaften oder Fragen, die nicht für GitHub geeignet sind, kontaktiere uns gerne unter contact@ppplayer.com.",
-    "githubTitle": "Community & GitHub",
+    "githubTitle": "Community & GitHub​",
     "githubDesc": "Erkunde den Code, melde einen Fehler, schlage eine Funktion vor oder trage Code und Übersetzungen bei. Mach mit und baue mit uns den ultimativen Open-Source-Musikplayer.",
     "githubBtn": "Auf GitHub ansehen"
   },
@@ -571,7 +588,7 @@
     "license": "MIT-Lizenz"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "Neuigkeiten, Updates und Geschichten vom PPPlayer-Team.",
     "readMore": "Artikel lesen",
     "minRead": "Min. Lesezeit",

@@ -10,7 +10,7 @@
     "termsDesc": "Uvjeti pružanja usluge za PPPlayer: besplatna glazbena aplikacija za macOS, Linux, Windows, iOS i Android.",
     "supportTitle": "Podrška - PPPlayer",
     "supportDesc": "PPPlayer je neovisan projekt otvorenog koda. Za greške i ideje koristite GitHub. Za ostala pitanja pošaljite e-mail na contact@ppplayer.com.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "Vijesti, ažuriranja i priče PPPlayer tima."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "download": "Preuzmi besplatno",
     "support": "Podrška",
     "contribute": "Doprinesi",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "Besplatan glazbeni player otvorenog koda. Nema računa. Nema pretplate. Samo slušajte.",
@@ -30,19 +30,19 @@
     "android": "Android",
     "windows": "Windows",
     "social": "Društvene mreže",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Pravno",
     "privacy": "Privatnost",
     "terms": "Uvjeti",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "Pogledaj kod na GitHubu",
     "contribute": "Doprinesi",
     "changelog": "Dnevnik promjena",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Cijenimo vašu privatnost",
@@ -54,11 +54,11 @@
     "title1": "Glazba.",
     "title2": "Bez trenja.",
     "desc": "Besplatan glazbeni player otvorenog koda. Nema računa. Nema pretplate. Samo slušajte.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Preuzmi za Android",
     "getMac": "Preuzmi za Mac",
     "getWindows": "Preuzmi za Windows",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Experimental)​",
     "badge": "Besplatno i otvorenog koda",
     "source": "Pogledaj kod na GitHubu"
   },
@@ -119,7 +119,7 @@
     "os": "Operativni sustav",
     "arch": "Arhitektura",
     "memory": "Memorija",
-    "internet": "Internet",
+    "internet": "Internet​",
     "reqStreaming": "Potrebno za streaming",
     "reqTitle": "{platform} Zahtjevi",
     "reqs": {
@@ -301,7 +301,7 @@
       "name": "iOS",
       "label": "iPhone i iPad",
       "desc": "Uskoro na TestFlightu i App Storeu za iPhone i iPad.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -311,12 +311,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Preuzmite za Windows 10 i novije verzije s Microsoft Storea.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Izravno preuzimanje za macOS. Podržani Apple Silicon i Intel.",
       "badge": "Izravno preuzimanje"
@@ -325,7 +325,7 @@
       "name": "Linux",
       "label": "Linux",
       "desc": "Eksperimentalno izravno preuzimanje za Linux. Hardversko ubrzanje može varirati.",
-      "badge": "Experimental"
+      "badge": "Experimental​"
     }
   },
   "changelog": {
@@ -363,7 +363,7 @@
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "September 16, 2026​",
       "desc": "Poboljšanja zaslona biblioteke i popravci odziva.",
       "added": "Dodano",
       "fixed": "Popravljeno",
@@ -372,7 +372,7 @@
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "September 15, 2026​",
       "desc": "Podrška za sliku u slici, nativni početni zasloni i više.",
       "added": "Dodano",
       "fixed": "Popravljeno",
@@ -385,7 +385,7 @@
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "September 14, 2026​",
       "desc": "Automatizirane međuverzije i poboljšanja tijeka rada.",
       "added": "Dodano",
       "ciTitle": "Automatizirani tijekovi rada",
@@ -393,7 +393,7 @@
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "September 14, 2026​",
       "desc": "Sinkronizacija medijskih kontrola sustava i osnovne značajke.",
       "added": "Dodano",
       "syncTitle": "Sinkronizacija medijskih kontrola sustava",
@@ -422,7 +422,7 @@
     },
     "back": "← Natrag na PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "12. rujna 2026.",
       "desc": "Proširena podrška za lokalizaciju s 10 novih jezika.",
       "added": "Dodano",
@@ -431,7 +431,7 @@
       "lang10Desc": "Dodana potpuna podrška za indonezijski, burmanski, poljski, danski, kazaški, češki, mađarski, gruzijski, švedski i uzbečki."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12. rujna 2026.",
       "desc": "Dodane arapska i kineska lokalizacija te popravljeni bugovi promjene veličine na macOS-u.",
       "added": "Dodano",
@@ -442,7 +442,7 @@
       "layoutDesc": "Popravljen problem na macOS-u gdje bi se YouTube video player pomaknuo izvan središta pri promjeni veličine prozora aplikacije."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "12. rujna 2026.",
       "desc": "Popravljeni bugovi reprodukcije i ispolirana traka za traženje pri pokretanju aplikacije.",
       "fixed": "Popravljeno",
@@ -452,7 +452,7 @@
       "durationDesc": "Popravljena traka za traženje koja pokazuje trajanje od 0:00 kada se aplikacija prvi put pokrene."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "11. rujna 2026.",
       "desc": "Sveobuhvatna internacionalizacija i lokalizacija u cijeloj aplikaciji i na web stranici.",
       "new": "Dodano",
@@ -464,7 +464,7 @@
       "osDesc": "Nativne integracije jezika na razini operativnog sustava na Androidu 13+ i iOS-u za automatsku sinkronizaciju jezika aplikacije."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "11. rujna 2026.",
       "desc": "Hitni popravak za svježe instalacije.",
       "fixed": "Popravljeno",
@@ -472,7 +472,7 @@
       "crashDesc": "Popravljen kritičan bug koji uzrokuje rušenje aplikacije na prazan zaslon na svježim instalacijama zbog nedostatka konfiguracijske datoteke okruženja."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "11. rujna 2026.",
       "desc": "Besprijekorna pozadinska reprodukcija na macOS-u.",
       "new": "Novo",
@@ -481,7 +481,7 @@
       "appNapDesc": "Spriječeno je da macOS App Nap agresivno obustavi reproduktor kada je minimiziran, dopuštajući da red čekanja nastavi bez prekida."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "11. rujna 2026.",
       "desc": "Automatizirana izdanja i potpisivanje koda.",
       "new": "Novo",
@@ -495,7 +495,7 @@
       "submoduleFix": "Popravljena konfiguracija preuzimanja podmodula u tijekovima rada kontinuirane integracije"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "10. rujna 2026.",
       "desc": "Pozadinska reprodukcija i stabilnost.",
       "new": "Novo",
@@ -511,7 +511,7 @@
       "linter": "Uklonjeno je nekoliko pogrešaka lintera razvojnog okruženja i očišćene su suvišne datoteke"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "9. rujna 2026.",
       "desc": "Pametnija, kontekstualna automatska reprodukcija.",
       "autoplayContextTitle": "Kontekstualno svjesna automatska reprodukcija",
@@ -520,7 +520,7 @@
       "tieredRecsDesc": "Preporuke sada strogo koriste katalog ciljanog izvođača umjesto nejasnog pretraživanja po imenu."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "9. rujna 2026.",
       "desc": "Bolje iskustvo slušanja.",
       "new": "Novo",
@@ -541,13 +541,30 @@
       "bottomBar": "Donja traka svirača koja je bila potpuno prozirna i nečitljiva na macOS-u prilikom reprodukcije glazbe"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "rujan 2026.",
       "desc": "Prvo izdanje PPPlayera.",
       "spotify": "Glazbeni metapodaci s pogonom na Spotify",
       "youtube": "Audio reprodukcija s pogonom na YouTube",
       "playlists": "Popisi za reprodukciju, favoriti i povijest slušanja",
       "platforms": "Podrška za macOS, Windows i Linux"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {
@@ -569,7 +586,7 @@
     "license": "MIT licenca"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "Vijesti, ažuriranja i priče PPPlayer tima.",
     "readMore": "Pročitaj članak",
     "minRead": "min. čitanja",

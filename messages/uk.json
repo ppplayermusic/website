@@ -30,14 +30,14 @@
     "android": "Android",
     "windows": "Windows",
     "social": "Соціальні мережі",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Юридична інформація",
     "privacy": "Конфіденційність",
     "terms": "Умови",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "Переглянути вихідний код на GitHub",
     "contribute": "Зробити внесок",
     "changelog": "Список змін",
@@ -54,7 +54,7 @@
     "title1": "Медіа.",
     "title2": "Без перешкод.",
     "desc": "Безкоштовний медіаплеєр з відкритим вихідним кодом. Без облікового запису. Без підписки. Просто слухайте.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Завантажити для Android",
     "getMac": "Завантажити для Mac",
     "getWindows": "Завантажити для Windows",
@@ -301,7 +301,7 @@
       "name": "iOS",
       "label": "iPhone та iPad",
       "desc": "Незабаром з'явиться в TestFlight та App Store для iPhone та iPad.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -311,12 +311,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Завантажте для Windows 10 та новіших версій з Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Пряме завантаження для macOS. Підтримуються Apple Silicon та Intel.",
       "badge": "Пряме завантаження"
@@ -422,7 +422,7 @@
     },
     "back": "← Назад до PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "12 вересня 2026",
       "desc": "Розширено підтримку локалізації за допомогою 10 нових мов.",
       "added": "Додано",
@@ -431,7 +431,7 @@
       "lang10Desc": "Додано повну підтримку індонезійської, бірманської, польської, данської, казахської, чеської, угорської, грузинської, шведської та узбецької мов."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12 вересня 2026",
       "desc": "Додано арабську та китайську локалізації, а також виправлено помилки зміни розміру на macOS.",
       "added": "Додано",
@@ -442,7 +442,7 @@
       "layoutDesc": "Виправлено проблему в macOS, через яку відеоплеєр YouTube зміщувався від центру під час зміни розміру вікна програми."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "12 вересня 2026",
       "desc": "Виправлено помилки відтворення та вдосконалено повзунок пошуку під час запуску програми.",
       "fixed": "Виправлено",
@@ -452,7 +452,7 @@
       "durationDesc": "Виправлено помилку, через яку повзунок пошуку відображав тривалість 0:00 під час першого запуску програми."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "11 вересня 2026",
       "desc": "Повна інтернаціоналізація та локалізація у всьому додатку та на веб-сайті.",
       "new": "Додано",
@@ -548,6 +548,23 @@
       "youtube": "Відтворення аудіо за допомогою YouTube",
       "playlists": "Списки відтворення, вибране та історія прослуховувань",
       "platforms": "Підтримка macOS, Windows та Linux"
+    },
+    "v2_0_1": {
+      "version": "2.0.1",
+      "date": "September 21, 2026​",
+      "desc": "Routine maintenance and repository cleanup.",
+      "changed": "Changed​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​",
+      "added": "Added​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​"
     }
   },
   "support": {

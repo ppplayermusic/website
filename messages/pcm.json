@@ -4,62 +4,62 @@
     "homeDesc": "Music player wey dey free and open source. You no need account or subscription. Just play am.",
     "downloadTitle": "Download PPPlayer for Free",
     "downloadDesc": "Music player wey dey free and open source. You no need account or subscription. Just play am.",
-    "privacyTitle": "Privacy Policy",
+    "privacyTitle": "Privacy Policy​",
     "privacyDesc": "Privacy Policy for PPPlayer: media app wey dey free for macOS, Linux, Windows, iOS, and Android.",
-    "termsTitle": "Terms of Service",
+    "termsTitle": "Terms of Service​",
     "termsDesc": "Terms of Service for PPPlayer: media app wey dey free for macOS, Linux, Windows, iOS, and Android.",
-    "supportTitle": "Support - PPPlayer",
+    "supportTitle": "Support - PPPlayer​",
     "supportDesc": "PPPlayer na independent, open-source project. Report bugs and suggest new features for GitHub. For other questions, email contact@ppplayer.com.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "News, updates, and gist from the PPPlayer team."
   },
   "nav": {
-    "features": "Features",
+    "features": "Features​",
     "download": "Download for Free",
-    "support": "Support",
-    "contribute": "Contribute",
-    "blog": "Blog"
+    "support": "Support​",
+    "contribute": "Contribute​",
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "Music player wey dey free and open source. You no need account or subscription. Just play am.",
-    "product": "Product",
-    "features": "Features",
-    "download": "Download",
-    "platforms": "Platforms",
+    "product": "Product​",
+    "features": "Features​",
+    "download": "Download​",
+    "platforms": "Platforms​",
     "ios": "iOS",
     "android": "Android",
     "windows": "Windows",
-    "social": "Social",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
-    "legal": "Legal",
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "copyright": "© {year} PPPlayer Music.",
+    "social": "Social​",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
+    "legal": "Legal​",
+    "privacy": "Privacy​",
+    "terms": "Terms​",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "See the source code for GitHub",
-    "contribute": "Contribute",
-    "changelog": "Changelog",
+    "contribute": "Contribute​",
+    "changelog": "Changelog​",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Your privacy matter to us",
     "desc": "We dey use cookies to check site traffic and make your experience better. If you click \"Accept All\", you agree make we use cookies.",
     "decline": "Reject All",
-    "accept": "Accept All"
+    "accept": "Accept All​"
   },
   "hero": {
-    "title1": "Media.",
+    "title1": "Media.​",
     "title2": "No stress at all.",
     "desc": "Music player wey dey free and open source. You no need account or subscription. Just play am.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Get am for Android",
     "getMac": "Get am for Mac",
     "getWindows": "Get am for Windows",
-    "getLinux": "Linux (Experimental)",
-    "badge": "Free & open source",
+    "getLinux": "Linux (Experimental)​",
+    "badge": "Free & open source​",
     "source": "See the source code for GitHub"
   },
   "discover": {
@@ -69,34 +69,34 @@
     "title": "Music wey no dey finish."
   },
   "goDeeper": {
-    "bgText": "FOLLOW",
-    "title": "Follow the music."
+    "bgText": "FOLLOW​",
+    "title": "Follow the music.​"
   },
   "pressPlay": {
-    "title": "Then, just listen."
+    "title": "Then, just listen.​"
   },
   "featureGallery": {
     "title": "Everything wey you need.",
     "subtitle": "Fine app wey fit your device and wey we build to work fast.",
     "searchTitle": "Find exactly wetin you want.",
-    "searchDesc": "Search globally across tracks, artists, albums, and local videos instantly.",
+    "searchDesc": "Search globally across tracks, artists, albums, and local videos instantly.​",
     "queueTitle": "Your songs, in order.",
     "queueDesc": "Choose wetin go play next and arrange the songs for your queue as you like.",
-    "favTitle": "Your media, your rules.",
-    "favDesc": "Build your personal library with a single click. Always there.",
+    "favTitle": "Your media, your rules.​",
+    "favDesc": "Build your personal library with a single click. Always there.​",
     "contextTitle": "Built to fit your device.",
     "contextDesc": "Right-click anywhere to see clear menus wey match your device and make sense.",
-    "videoTitle": "Local Video Playback.",
-    "videoDesc": "Play local video files offline with subtitles, PiP, and Fit/Fill. Format support varies by platform.",
-    "streamsTitle": "Network Streaming.",
-    "streamsDesc": "Stream M3U/PLS playlists and compatible URLs. YouTube uses an embedded player. Not all third-party videos are playable."
+    "videoTitle": "Local Video Playback.​",
+    "videoDesc": "Play local video files offline with subtitles, PiP, and Fit/Fill. Format support varies by platform.​",
+    "streamsTitle": "Network Streaming.​",
+    "streamsDesc": "Stream M3U/PLS playlists and compatible URLs. YouTube uses an embedded player. Not all third-party videos are playable.​"
   },
   "noAccount": {
     "title": "You no need account.",
-    "subtitle": "Free & open source"
+    "subtitle": "Free & open source​"
   },
   "platforms": {
-    "title": "Your music. Your devices.",
+    "title": "Your music. Your devices.​",
     "subtitle": "E dey work for macOS, Linux, Windows, Android, and iOS."
   },
   "downloadCTA": {
@@ -107,25 +107,25 @@
     "getWindows": "Get am for Windows",
     "notAvailable": "This download option never ready. Check the download page for the options wey dey available.",
     "notAvailableTitle": "E Go Soon Ready",
-    "okayBtn": "Okay",
+    "okayBtn": "Okay​",
     "getLinux": "Get am for Linux",
-    "modalTitle": "Download for {platform}",
+    "modalTitle": "Download for {platform}​",
     "modalDesc": "Choose how you wan install PPPlayer for your {platform} device.",
-    "primaryDownload": "Download",
+    "primaryDownload": "Download​",
     "directDownload": "Download Directly",
     "comingSoon": "E Go Soon Ready",
-    "cancel": "Cancel",
-    "downloadFor": "Download for {platform}",
-    "os": "Operating System",
-    "arch": "Architecture",
-    "memory": "Memory",
-    "internet": "Internet",
+    "cancel": "Cancel​",
+    "downloadFor": "Download for {platform}​",
+    "os": "Operating System​",
+    "arch": "Architecture​",
+    "memory": "Memory​",
+    "internet": "Internet​",
     "reqStreaming": "You need am for streaming",
     "reqTitle": "Wetin your {platform} need",
     "reqs": {
       "macos": {
         "os": "macOS 10.15 Catalina or newer",
-        "arch": "Apple Silicon & Intel (Universal)",
+        "arch": "Apple Silicon & Intel (Universal)​",
         "mem": "4 GB RAM (Recommended)"
       },
       "windows": {
@@ -152,7 +152,7 @@
   },
   "downloadPage": {
     "badge": "PPPlayer 1.0 don land",
-    "title": "Download <gradient>PPPlayer</gradient>",
+    "title": "Download <gradient>PPPlayer</gradient>​",
     "subtitle": "Choose your platform and start to listen straight away.",
     "desc": "You no need account, email, or signup. Na just music.",
     "windowsReqLabel": "Wetin your Windows computer need:",
@@ -160,7 +160,7 @@
   },
   "faq": {
     "badge": "FAQ",
-    "title": "Common <gradient>questions</gradient>",
+    "title": "Common <gradient>questions</gradient>​",
     "subtitle": "Everything wey you need to know about PPPlayer.",
     "items": [
       {
@@ -173,11 +173,11 @@
       },
       {
         "q": "PPPlayer dey for iPhone?",
-        "a": "PPPlayer for iOS is currently in development. We are actively working on an App Store release."
+        "a": "PPPlayer for iOS is currently in development. We are actively working on an App Store release.​"
       },
       {
         "q": "PPPlayer dey for Android?",
-        "a": "PPPlayer for Android is currently in development. We are actively working on a Google Play Store release."
+        "a": "PPPlayer for Android is currently in development. We are actively working on a Google Play Store release.​"
       },
       {
         "q": "I fit use PPPlayer for Windows?",
@@ -189,26 +189,26 @@
       },
       {
         "q": "How I go take download PPPlayer?",
-        "a": "You can download PPPlayer directly from our website for macOS, Linux, and Windows. Mobile versions are coming soon."
+        "a": "You can download PPPlayer directly from our website for macOS, Linux, and Windows. Mobile versions are coming soon.​"
       },
       {
         "q": "Premium version dey?",
         "a": "No. PPPlayer dey completely free. You fit use all the features without paying or opening account."
       },
       {
-        "q": "What media formats are supported?",
-        "a": "PPPlayer supports almost all audio and video formats, including MP3, FLAC, MP4, MKV, and AVI. It also supports network streams and M3U/M3U8 playlists."
+        "q": "What media formats are supported?​",
+        "a": "PPPlayer supports almost all audio and video formats, including MP3, FLAC, MP4, MKV, and AVI. It also supports network streams and M3U/M3U8 playlists.​"
       },
       {
-        "q": "Are there any special setup requirements for video?",
-        "a": "On Windows, macOS, Android, and iOS, PPPlayer works out of the box. On Linux, you may need to install standard media libraries (like libmpv) depending on your distribution."
+        "q": "Are there any special setup requirements for video?​",
+        "a": "On Windows, macOS, Android, and iOS, PPPlayer works out of the box. On Linux, you may need to install standard media libraries (like libmpv) depending on your distribution.​"
       }
     ],
     "openSourceQuestion": "PPPlayer na open source?",
     "openSourceAnswer": "Yes. PPPlayer na open-source software under the MIT license. You fit use, study, change, and share the software as the license allow. Visit our GitHub repository to see the source code or contribute."
   },
   "privacy": {
-    "title": "Privacy Policy",
+    "title": "Privacy Policy​",
     "lastUpdated": "Last update: April 2025",
     "sections": {
       "s1": {
@@ -236,11 +236,11 @@
         "p": "We no dey keep anonymous analytics data for more than 12 months. We dey delete crash logs after 90 days."
       },
       "s6": {
-        "title": "6. Your Rights",
+        "title": "6. Your Rights​",
         "p": "Since we no dey collect personal data, no personal information dey for you to access, export, or delete. If you get questions, contact us through the address below."
       },
       "s7": {
-        "title": "7. Children",
+        "title": "7. Children​",
         "p": "PPPlayer no be for children wey never reach 13 years. We no dey knowingly collect data from children."
       },
       "s8": {
@@ -248,14 +248,14 @@
         "p": "We fit update this policy anytime. We go put the date of the latest update for the top of this page."
       },
       "s9": {
-        "title": "9. Contact",
+        "title": "9. Contact​",
         "p": "You get questions about this policy? Contact us for "
       }
     },
     "back": "← Go Back to PPPlayer"
   },
   "terms": {
-    "title": "Terms of Service",
+    "title": "Terms of Service​",
     "lastUpdated": "Last update: September 11, 2026",
     "sections": {
       "s1": {
@@ -274,23 +274,23 @@
         "p": "You no need to open account to use PPPlayer. Once you download the app, you fit start to use all the features."
       },
       "s4": {
-        "title": "4. Intellectual Property",
+        "title": "4. Intellectual Property​",
         "p": "PPPlayer source code dey available under the MIT license. Third-party dependencies get their own licenses. Music, artwork, and metadata still belong to their owners. The software license no give you rights to that content."
       },
       "s5": {
-        "title": "5. Disclaimer of Warranties",
+        "title": "5. Disclaimer of Warranties​",
         "p": "We dey provide PPPlayer \"as is\", without any warranty, whether express or implied. We no promise say the service go always work or say the app no go get errors."
       },
       "s6": {
-        "title": "6. Limitation of Liability",
+        "title": "6. Limitation of Liability​",
         "p": "To the extent wey the law allow, PPPlayer no go dey liable for any indirect, incidental, special, or consequential damages wey happen because you use the app or you no fit use am."
       },
       "s7": {
-        "title": "7. Changes to Terms",
+        "title": "7. Changes to Terms​",
         "p": "We fit update these terms anytime. If you continue to use the app after we change the terms, e mean say you agree to the new terms."
       },
       "s8": {
-        "title": "8. Contact",
+        "title": "8. Contact​",
         "p": "You get questions about these terms? Contact us for "
       }
     },
@@ -299,9 +299,9 @@
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
-      "desc": "Coming soon to TestFlight and the App Store for iPhone and iPad.",
-      "badge": "TestFlight"
+      "label": "iPhone & iPad​",
+      "desc": "Coming soon to TestFlight and the App Store for iPhone and iPad.​",
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -311,12 +311,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
-      "desc": "Download for Windows 10 and later from the Microsoft Store.",
+      "label": "Windows 10+​",
+      "desc": "Download for Windows 10 and later from the Microsoft Store.​",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Download am directly for macOS. E dey support Apple Silicon and Intel Macs.",
       "badge": "Download Directly"
@@ -324,115 +324,115 @@
     "linux": {
       "name": "Linux",
       "label": "Linux",
-      "desc": "Experimental direct download for Linux. Hardware acceleration may vary.",
-      "badge": "Experimental"
+      "desc": "Experimental direct download for Linux. Hardware acceleration may vary.​",
+      "badge": "Experimental​"
     }
   },
   "changelog": {
     "v2_0_0": {
       "version": "2.0.0",
-      "date": "September 20, 2026",
-      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.",
-      "added": "Added",
-      "changed": "Changed",
-      "fixed": "Fixed",
-      "videoTitle": "Local Video Support",
-      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.",
-      "streamTitle": "Network Streaming",
-      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.",
-      "subtitleTitle": "Advanced Subtitles",
-      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.",
-      "speedTitle": "Playback Speed & Autoplay",
-      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.",
-      "exportTitle": "Media Export",
-      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.",
-      "languagesTitle": "New Languages & Genres",
-      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.",
-      "stabilityTitle": "Core Overhaul",
-      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling."
+      "date": "September 20, 2026​",
+      "desc": "A massive major update transforming PPPlayer into a full media player with video and network streaming support.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "fixed": "Fixed​",
+      "videoTitle": "Local Video Support​",
+      "videoDesc": "Complete local video library and playback support featuring video controls and automatic thumbnail generation.​",
+      "streamTitle": "Network Streaming​",
+      "streamDesc": "Native support for network streams with M3U playlist parsing and direct URL resolution.​",
+      "subtitleTitle": "Advanced Subtitles​",
+      "subtitleDesc": "Comprehensive subtitle support including customization, delay adjustment, and an intuitive selection UI.​",
+      "speedTitle": "Playback Speed & Autoplay​",
+      "speedDesc": "Added flexible playback speed controls and an easy-access autoplay toggle directly in the queue view.​",
+      "exportTitle": "Media Export​",
+      "exportDesc": "Seamlessly export your custom playlists and playback queues to your local device.​",
+      "languagesTitle": "New Languages & Genres​",
+      "languagesDesc": "Added official Turkish and Guarani localizations, as well as support for local genre browsing.​",
+      "stabilityTitle": "Core Overhaul​",
+      "stabilityDesc": "Overhauled the core playback engine architecture for improved stability, custom HTTP headers, and strict timeout handling.​"
     },
-    "title": "Changelog",
+    "title": "Changelog​",
     "subtitle": "Wetin don change for PPPlayer.",
     "v1_3_6": {
       "desc": "Official Android release for Google Play Store.",
-      "added": "Added",
-      "androidTitle": "Android Release",
-      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.",
+      "added": "Added​",
+      "androidTitle": "Android Release​",
+      "androidDesc": "Initial test release for Android devices. Support for mobile devices is actively being developed.​",
       "version": "2.0.0",
-      "date": "September 17, 2026"
+      "date": "September 17, 2026​"
     },
     "v1_3_5": {
       "version": "1.3.5",
-      "date": "September 16, 2026",
+      "date": "September 16, 2026​",
       "desc": "Library screen beta levels and fixing for speed.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "libraryTitle": "Library Screen Updates",
+      "added": "Added​",
+      "fixed": "Fixed​",
+      "libraryTitle": "Library Screen Updates​",
       "libraryDesc": "We do better things for the library screen and fix how cards dey respond."
     },
     "v1_3_4": {
       "version": "1.3.4",
-      "date": "September 15, 2026",
+      "date": "September 15, 2026​",
       "desc": "Picture-in-Picture support, native splash screens, and other beta things.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "pipTitle": "Picture-in-Picture Playback",
+      "added": "Added​",
+      "fixed": "Fixed​",
+      "pipTitle": "Picture-in-Picture Playback​",
       "pipDesc": "Add support so you can watch video while doing other things and beta navigation.",
-      "splashTitle": "Native Splash Screens & Adaptive Icons",
+      "splashTitle": "Native Splash Screens & Adaptive Icons​",
       "splashDesc": "Add better open screens and app icons for Android, iOS, and Web.",
-      "uiTitle": "UI Adjustments",
+      "uiTitle": "UI Adjustments​",
       "uiDesc": "Fix how the small player dey stay so e go perfectly stay for the right side of the screen."
     },
     "v1_3_3": {
       "version": "1.3.3",
-      "date": "September 14, 2026",
+      "date": "September 14, 2026​",
       "desc": "Automatic builds and how work flow.",
-      "added": "Added",
+      "added": "Added​",
       "ciTitle": "Automatic Workflows",
       "ciDesc": "Add GitHub Actions make e dey build am automatically for all platform."
     },
     "v1_3_2": {
       "version": "1.3.2",
-      "date": "September 14, 2026",
+      "date": "September 14, 2026​",
       "desc": "System media controls sync and main things.",
-      "added": "Added",
+      "added": "Added​",
       "syncTitle": "System Media Controls Sync",
       "syncDesc": "Bring MediaSyncService to make the play status balance with your device controls, even for Windows.",
-      "libraryTitle": "Library Filtering & Search",
+      "libraryTitle": "Library Filtering & Search​",
       "libraryDesc": "Add how you fit filter, sort, and search your music for library screen."
     },
     "v1_3_1": {
       "version": "1.3.1",
-      "date": "September 14, 2026",
-      "desc": "Achieved 100% translation parity and fixed UI bugs.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "syncTitle": "Full Localization Parity",
-      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.",
-      "uiTitle": "UI and Link Fixes",
-      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog."
+      "date": "September 14, 2026​",
+      "desc": "Achieved 100% translation parity and fixed UI bugs.​",
+      "added": "Added​",
+      "fixed": "Fixed​",
+      "syncTitle": "Full Localization Parity​",
+      "syncDesc": "Synchronized translation keys and applied manually curated translations across all 30 languages.​",
+      "uiTitle": "UI and Link Fixes​",
+      "uiDesc": "Resolved widget const errors in the Home and Library screens, and fixed GitHub repository links in the About dialog.​"
     },
     "v1_3_0": {
       "version": "1.3.0",
-      "date": "September 13, 2026",
-      "desc": "This release brings PPPlayer to an even wider global audience.",
-      "added": "Added",
-      "localizationTitle": "Additional Languages",
-      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian."
+      "date": "September 13, 2026​",
+      "desc": "This release brings PPPlayer to an even wider global audience.​",
+      "added": "Added​",
+      "localizationTitle": "Additional Languages​",
+      "localizationDesc": "Added localizations for Nigerian Pidgin, Filipino, Latvian, Bengali, Croatian, Malay, Persian, and Estonian.​"
     },
     "back": "← Go Back to PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
-      "date": "September 12, 2026",
+      "version": "v1.2.0​",
+      "date": "September 12, 2026​",
       "desc": "We don add support for 10 more languages.",
       "added": "Wetin We Add",
       "fixed": "Wetin We Fix",
-      "lang10Title": "10 New Languages",
+      "lang10Title": "10 New Languages​",
       "lang10Desc": "We don add full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
-      "date": "September 12, 2026",
+      "version": "v1.1.2​",
+      "date": "September 12, 2026​",
       "desc": "We don add Arabic and Chinese translations and fix bugs wey dey happen when you resize the macOS app window.",
       "added": "Wetin We Add",
       "fixed": "Wetin We Fix",
@@ -442,8 +442,8 @@
       "layoutDesc": "We don fix the issue wey dey make the YouTube video player shift away from the centre when you resize the app window for macOS."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
-      "date": "September 12, 2026",
+      "version": "v1.1.1​",
+      "date": "September 12, 2026​",
       "desc": "We don fix playback bugs and improve how the seek bar dey work when you open the app.",
       "fixed": "Wetin We Fix",
       "snapTitle": "Seek Bar Bug When App Start",
@@ -452,8 +452,8 @@
       "durationDesc": "We don fix the issue wey dey make the seek bar show 0:00 as the song duration when you first open the app."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
-      "date": "September 11, 2026",
+      "version": "v1.1.0​",
+      "date": "September 11, 2026​",
       "desc": "The whole app and website now get support for different languages.",
       "new": "New",
       "langTitle": "11 Languages from Around the World",
@@ -464,16 +464,16 @@
       "osDesc": "For Android 13+ and iOS, the app fit automatically follow the language wey you choose for am in your device settings."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
-      "date": "September 11, 2026",
+      "version": "v1.0.6​",
+      "date": "September 11, 2026​",
       "desc": "Quick fix for people wey just install the app.",
       "fixed": "Wetin We Fix",
       "crashTitle": "Fix for Crash When App Start",
       "crashDesc": "We don fix serious bug wey dey make newly installed apps crash with blank screen because one environment configuration file no dey."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
-      "date": "September 11, 2026",
+      "version": "v1.0.5​",
+      "date": "September 11, 2026​",
       "desc": "Music fit continue to play smoothly for background on macOS.",
       "new": "New",
       "fixed": "Wetin We Fix",
@@ -481,8 +481,8 @@
       "appNapDesc": "We don stop macOS App Nap from suspending the player when you minimise the app, so the songs for your queue fit continue to play."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
-      "date": "September 11, 2026",
+      "version": "v1.0.4​",
+      "date": "September 11, 2026​",
       "desc": "App releases and code signing now dey run automatically.",
       "new": "New",
       "fixed": "Wetin We Fix",
@@ -490,18 +490,18 @@
       "ciDesc": "We don add GitHub Actions workflow to build the app consistently and sign the macOS releases.",
       "signedTitle": "Signed Releases for macOS",
       "signedDesc": "Official macOS releases wey we don sign and notarize now dey available directly from the website.",
-      "licenseTitle": "Open Source License",
+      "licenseTitle": "Open Source License​",
       "licenseDesc": "We don add MIT License to the repository.",
       "submoduleFix": "We don fix the submodule checkout settings for the CI workflows."
     },
     "v1_0_3": {
-      "version": "v1.0.3",
-      "date": "September 10, 2026",
+      "version": "v1.0.3​",
+      "date": "September 10, 2026​",
       "desc": "Better background playback and app stability.",
       "new": "New",
       "improved": "Wetin We Improve",
       "fixed": "Wetin We Fix",
-      "hybridEngineTitle": "Hybrid Playback Engine",
+      "hybridEngineTitle": "Hybrid Playback Engine​",
       "hybridEngineDesc": "The playback engine fit handle background tasks and keep music playing when your screen dey locked.",
       "dedupTitle": "Prevent Duplicate Commands",
       "dedupDesc": "We don add generation IDs to stop media commands from overlapping and prevent old commands from running through the WebView bridge.",
@@ -511,8 +511,8 @@
       "linter": "We don fix several IDE linter errors and remove files wey we no need."
     },
     "v1_0_2": {
-      "version": "v1.0.2",
-      "date": "September 9, 2026",
+      "version": "v1.0.2​",
+      "date": "September 9, 2026​",
       "desc": "Smarter autoplay wey follow wetin you dey listen to.",
       "autoplayContextTitle": "Autoplay Wey Follow Your Listening Context",
       "autoplayContextDesc": "Autoplay now dey choose songs from the current artist first before e add songs from related artists to the queue.",
@@ -520,15 +520,15 @@
       "tieredRecsDesc": "The recommendation system now dey use the selected artist's catalogue directly, instead of searching for names wey just look similar."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
-      "date": "September 9, 2026",
+      "version": "v1.0.1​",
+      "date": "September 9, 2026​",
       "desc": "Better experience when you dey listen to music.",
       "new": "New",
       "improved": "Wetin We Improve",
       "fixed": "Wetin We Fix",
-      "autoplayTitle": "Autoplay",
+      "autoplayTitle": "Autoplay​",
       "autoplayDesc": "Music go continue with song suggestions based on wetin you dey listen to.",
-      "discoverTitle": "Discover",
+      "discoverTitle": "Discover​",
       "discoverDesc": "Find music based on wetin you don listen to before, your favourite artists, and your playlists.",
       "tooltipsTitle": "Hints Wey Follow the Seek Bar",
       "tooltipsDesc": "We don add tooltips wey follow your mouse pointer when you move am over the player progress bar.",
@@ -541,35 +541,52 @@
       "bottomBar": "We don fix the issue wey dey make the bottom player bar transparent and hard to read when music dey play for macOS."
     },
     "v1_0_0": {
-      "version": "v1.0.0",
-      "date": "September 2026",
+      "version": "v1.0.0​",
+      "date": "September 2026​",
       "desc": "The first version of PPPlayer don land.",
       "spotify": "Music metadata from Spotify",
       "youtube": "Audio playback through YouTube",
       "playlists": "Playlists, favourites, and history of wetin you don listen to",
       "platforms": "Support for macOS, Windows, and Linux"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {
-    "title": "Support",
+    "title": "Support​",
     "subtitle": "How we fit help you?",
-    "contactTitle": "Contact Us",
+    "contactTitle": "Contact Us​",
     "contactDesc": "For general questions, partnerships, or anything wey no fit GitHub, email us for contact@ppplayer.com.",
-    "githubTitle": "Community & GitHub",
+    "githubTitle": "Community & GitHub​",
     "githubDesc": "Check the code, report bugs, suggest features, or help with code and translations. Join us make we build a better open-source media player together.",
     "githubBtn": "See Am for GitHub"
   },
   "openSource": {
-    "badge": "Free & open source",
+    "badge": "Free & open source​",
     "title": "Na the community build am. Na for everybody.",
     "desc": "We dey proud say PPPlayer na open-source project. Check the code, report problems, suggest features, or contribute your own code. Every contribution dey make the listening experience better for everybody.",
     "source": "See the source code for GitHub",
-    "contribute": "Contribute",
+    "contribute": "Contribute​",
     "issues": "Report a Bug",
-    "license": "MIT license"
+    "license": "MIT license​"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "News, updates, and gist from the PPPlayer team.",
     "readMore": "Read the Article",
     "minRead": "min to read",
@@ -578,15 +595,15 @@
     "noArticles": "No articles dey for this language yet.",
     "writtenBy": "By",
     "translationUnavailable": "This article never dey available for your language.",
-    "advertisements": "Advertisements",
+    "advertisements": "Advertisements​",
     "categories": {
       "all": "All",
-      "discovery": "Discovery",
-      "engineering": "Engineering",
-      "community": "Community",
-      "guides": "Guides",
-      "education": "Education",
-      "product": "Product"
+      "discovery": "Discovery​",
+      "engineering": "Engineering​",
+      "community": "Community​",
+      "guides": "Guides​",
+      "education": "Education​",
+      "product": "Product​"
     }
   }
 }

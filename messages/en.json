@@ -329,6 +329,23 @@
     }
   },
   "changelog": {
+    "v2_0_1": {
+      "version": "2.0.1",
+      "date": "September 21, 2026",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.",
+      "added": "Added",
+      "changed": "Changed",
+      "languagesTitle": "New Languages",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.",
+      "quickPlayTitle": "Quick Playback",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.",
+      "socialsTitle": "Social Links",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.",
+      "uiTitle": "UI Enhancements",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.",
+      "cleanupTitle": "Maintenance",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter."
+    },
     "v2_0_0": {
       "version": "2.0.0",
       "date": "September 20, 2026",

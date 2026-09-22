@@ -30,14 +30,14 @@
     "android": "Android",
     "windows": "Windows",
     "social": "Sociālie tīkli",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Juridiskā informācija",
     "privacy": "Privātums",
     "terms": "Noteikumi",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "Apskatīt pirmkodu GitHub",
     "contribute": "Piedalīties",
     "changelog": "Izmaiņu žurnāls",
@@ -54,11 +54,11 @@
     "title1": "Mūzika.",
     "title2": "Bez šķēršļiem.",
     "desc": "Bezmaksas, atvērtā koda mūzikas atskaņotājs. Nav konta. Nav abonementa. Vienkārši atskaņo.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Iegūt Android ierīcēm",
     "getMac": "Iegūt Mac datoriem",
     "getWindows": "Iegūt Windows datoriem",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Experimental)​",
     "badge": "Bezmaksas un atvērtā koda",
     "source": "Apskatīt pirmkodu GitHub"
   },
@@ -303,7 +303,7 @@
       "name": "iOS",
       "label": "iPhone un iPad",
       "desc": "Drīzumā būs pieejams lietotnē TestFlight un App Store iPhone un iPad ierīcēm.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -313,12 +313,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Lejupielādējiet operētājsistēmai Windows 10 un jaunākām versijām no Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Tiešā lejupielāde operētājsistēmai macOS. Tiek atbalstīts Apple Silicon un Intel.",
       "badge": "Tiešā lejupielāde"
@@ -424,7 +424,7 @@
     },
     "back": "← Atpakaļ uz PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "2026. gada 12. septembris",
       "desc": "Paplašināts lokalizācijas atbalsts ar 10 jaunām valodām.",
       "added": "Pievienots",
@@ -433,7 +433,7 @@
       "lang10Desc": "Pievienots pilns atbalsts indonēziešu, birmiešu, poļu, dāņu, kazahu, čehu, ungāru, gruzīnu, zviedru un uzbeku valodām."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "2026. gada 12. septembris",
       "desc": "Pievienotas arābu un ķīniešu lokalizācijas un izlabotas macOS logu izmēru maiņas kļūdas.",
       "added": "Pievienots",
@@ -444,7 +444,7 @@
       "layoutDesc": "Izlabota problēma operētājsistēmā macOS, kurā YouTube video atskaņotājs nobīdījās no centra, mainot lietojumprogrammas loga izmēru."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "2026. gada 12. septembris",
       "desc": "Izlabotas atskaņošanas kļūdas un uzlabota meklēšanas josla lietotnes palaišanas laikā.",
       "fixed": "Izlabots",
@@ -454,7 +454,7 @@
       "durationDesc": "Izlabota kļūda, kad lietotni pirmo reizi palaižot, meklēšanas josla rādīja ilgumu 0:00."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "2026. gada 11. septembris",
       "desc": "Visaptveroša internacionalizācija un lokalizācija visā lietotnē un vietnē.",
       "new": "Pievienots",
@@ -466,7 +466,7 @@
       "osDesc": "Vietējās OS līmeņa valodu integrācijas operētājsistēmās Android 13+ un iOS, lai automātiski sinhronizētu lietotnes valodu."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "2026. gada 11. septembris",
       "desc": "Karstais labojums jaunām instalācijām.",
       "fixed": "Izlabots",
@@ -474,7 +474,7 @@
       "crashDesc": "Izlabota kritiska kļūda, kuras dēļ lietotne avarēja tukšā ekrānā jaunās instalācijās trūkstoša vides konfigurācijas faila dēļ."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "2026. gada 11. septembris",
       "desc": "Vienmērīga atskaņošana fonā operētājsistēmā macOS.",
       "new": "Jauns",
@@ -483,7 +483,7 @@
       "appNapDesc": "Novērsta macOS App Nap agresīva atskaņotāja apturēšana, kad tas ir minimizēts, ļaujot rindai turpināt darboties bez pārtraukumiem."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "2026. gada 11. septembris",
       "desc": "Automatizēti laidieni un koda parakstīšana.",
       "new": "Jauns",
@@ -497,7 +497,7 @@
       "submoduleFix": "Izlabota apakšmoduļa izrakstīšanās konfigurācija CI darbplūsmās"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "2026. gada 10. septembris",
       "desc": "Atskaņošana fonā un stabilitāte.",
       "new": "Jauns",
@@ -513,7 +513,7 @@
       "linter": "Novērstas vairākas IDE analizatora kļūdas un iztīrīti liekie faili"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "2026. gada 9. septembris",
       "desc": "Gudrāka, uz kontekstu balstīta automātiskā atskaņošana.",
       "autoplayContextTitle": "Kontekstuāla automātiskā atskaņošana",
@@ -522,7 +522,7 @@
       "tieredRecsDesc": "Ieteikumi tagad stingri izmanto mērķa izpildītāja katalogu, nevis izplūdušu meklēšanu pēc nosaukuma."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "2026. gada 9. septembris",
       "desc": "Labāka klausīšanās pieredze.",
       "new": "Jauns",
@@ -543,13 +543,30 @@
       "bottomBar": "Apakšējā atskaņotāja josla kļūst pilnīgi caurspīdīga un nelasāma operētājsistēmā macOS, kad tiek atskaņota mūzika"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "2026. gada septembris",
       "desc": "Pirmais PPPlayer laidiens.",
       "spotify": "Spotify nodrošināti mūzikas metadati",
       "youtube": "YouTube nodrošināta audio atskaņošana",
       "playlists": "Atskaņošanas saraksti, izlase un klausīšanās vēsture",
       "platforms": "macOS, Windows un Linux atbalsts"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {

@@ -8,7 +8,7 @@
     "privacyDesc": "Sekretesspolicy för PPPlayer: gratis media-app för macOS, Linux, Windows, iOS och Android.",
     "termsTitle": "Användarvillkor",
     "termsDesc": "Användarvillkor för PPPlayer: gratis media-app för macOS, Linux, Windows, iOS och Android.",
-    "supportTitle": "Support - PPPlayer",
+    "supportTitle": "Support - PPPlayer​",
     "supportDesc": "PPPlayer är ett oberoende projekt med öppen källkod. För buggar och funktionsidéer, använd GitHub. För övriga frågor, maila contact@ppplayer.com.",
     "blogTitle": "Blogg | PPPlayer",
     "blogDesc": "Nyheter, uppdateringar och berättelser från PPPlayer-teamet."
@@ -16,7 +16,7 @@
   "nav": {
     "features": "Funktioner",
     "download": "Ladda ner gratis",
-    "support": "Support",
+    "support": "Support​",
     "contribute": "Bidra",
     "blog": "Blogg"
   },
@@ -30,14 +30,14 @@
     "android": "Android",
     "windows": "Windows",
     "social": "Socialt",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Juridiskt",
     "privacy": "Integritet",
     "terms": "Villkor",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "Visa källkod på GitHub",
     "contribute": "Bidra",
     "changelog": "Ändringslogg",
@@ -54,11 +54,11 @@
     "title1": "Musik.",
     "title2": "Utan friktion.",
     "desc": "En gratis musikspelare med öppen källkod. Inget konto. Ingen prenumeration. Bara spela.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Hämta för Android",
     "getMac": "Hämta för Mac",
     "getWindows": "Hämta för Windows",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Experimental)​",
     "badge": "Gratis & öppen källkod",
     "source": "Visa källkod på GitHub"
   },
@@ -121,13 +121,13 @@
     "os": "Operativsystem",
     "arch": "Arkitektur",
     "memory": "Minne",
-    "internet": "Internet",
+    "internet": "Internet​",
     "reqStreaming": "Krävs för streaming",
     "reqTitle": "Systemkrav för {platform}",
     "reqs": {
       "macos": {
         "os": "macOS 10.15 Catalina eller nyare",
-        "arch": "Apple Silicon & Intel (Universal)",
+        "arch": "Apple Silicon & Intel (Universal)​",
         "mem": "4 GB RAM (Rekommenderas)"
       },
       "windows": {
@@ -301,9 +301,9 @@
   "platformCards": {
     "ios": {
       "name": "iOS",
-      "label": "iPhone & iPad",
+      "label": "iPhone & iPad​",
       "desc": "Kommer snart till TestFlight och App Store för iPhone och iPad.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -313,12 +313,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Ladda ner för Windows 10 och senare från Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Direkt nedladdning för macOS. Apple Silicon och Intel stöds.",
       "badge": "Direkt nedladdning"
@@ -424,16 +424,16 @@
     },
     "back": "← Tillbaka till PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
-      "date": "September 12, 2026",
-      "desc": "Expanded localization support with 10 new languages.",
-      "added": "Added",
-      "fixed": "Fixed",
-      "lang10Title": "10 New Languages",
-      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek."
+      "version": "v1.2.0​",
+      "date": "September 12, 2026​",
+      "desc": "Expanded localization support with 10 new languages.​",
+      "added": "Added​",
+      "fixed": "Fixed​",
+      "lang10Title": "10 New Languages​",
+      "lang10Desc": "Added full support for Indonesian, Burmese, Polish, Danish, Kazakh, Czech, Hungarian, Georgian, Swedish, and Uzbek.​"
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12 september 2026",
       "desc": "Lade till arabiska och kinesiska lokaliseringar och åtgärdade buggar för storleksändring av macOS.",
       "added": "Tillagd",
@@ -444,7 +444,7 @@
       "layoutDesc": "Åtgärdade ett problem på macOS där YouTube-videospelaren skiftade från mitten när man ändrade storlek på programfönstret."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "12 september 2026",
       "desc": "Åtgärdade uppspelningsfel och polerade sökfältet vid appstart.",
       "fixed": "Fixad",
@@ -454,7 +454,7 @@
       "durationDesc": "Fixade att sökfältet visade en varaktighet på 0:00 när appen startas för första gången."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "11 september 2026",
       "desc": "Omfattande internationalisering och lokalisering över hela appen och webbplatsen.",
       "new": "Ny",
@@ -466,7 +466,7 @@
       "osDesc": "Inbyggda språkintegrationer på operativsystemsnivå på Android 13+ och iOS för att automatiskt synkronisera appens språk."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "11 september 2026",
       "desc": "Snabbkorrigering för nya installationer.",
       "fixed": "Fixad",
@@ -474,7 +474,7 @@
       "crashDesc": "Åtgärdade en kritisk bugg som fick appen att krascha på en tom skärm vid nya installationer på grund av en saknad miljökonfigurationsfil."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "11 september 2026",
       "desc": "Sömlös bakgrundsuppspelning på macOS.",
       "new": "Ny",
@@ -483,7 +483,7 @@
       "appNapDesc": "Förhindrade macOS App Nap från att aggressivt stänga av spelaren när den var minimerad, vilket gör att kön kan fortsätta oavbrutet."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "11 september 2026",
       "desc": "Automatiserade releaser och kodsignering.",
       "new": "Ny",
@@ -497,7 +497,7 @@
       "submoduleFix": "Åtgärdade konfiguration för utcheckning av undermoduler i CI-arbetsflöden"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "10 september 2026",
       "desc": "Bakgrundsuppspelning och stabilitet.",
       "new": "Ny",
@@ -513,7 +513,7 @@
       "linter": "Eliminerade flera IDE-linterfel och rensade upp redundanta filer"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "9 september 2026",
       "desc": "Smartare, kontextbaserad autouppspelning.",
       "autoplayContextTitle": "Kontextmedveten Autouppspelning",
@@ -522,7 +522,7 @@
       "tieredRecsDesc": "Rekommendationer använder nu strikt målartistens katalog istället för suddig sökning efter namn."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "9 september 2026",
       "desc": "En bättre lyssningsupplevelse.",
       "new": "Ny",
@@ -543,17 +543,34 @@
       "bottomBar": "Spelarens nedre fält renderades helt transparent och oläsbart på macOS när du spelade musik"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
-      "date": "September 2026",
+      "version": "v1.0.0​",
+      "date": "September 2026​",
       "desc": "Den första utgåvan av PPPlayer.",
       "spotify": "Spotify-driven musikmetadata",
       "youtube": "YouTube-driven ljuduppspelning",
       "playlists": "Spellistor, favoriter och lyssningshistorik",
       "platforms": "Stöd för macOS, Windows och Linux"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {
-    "title": "Support",
+    "title": "Support​",
     "subtitle": "Hur kan vi hjälpa dig?",
     "contactTitle": "Kontakta oss",
     "contactDesc": "För allmänna förfrågningar, partnerskap eller frågor som inte passar för GitHub är du välkommen att kontakta oss på contact@ppplayer.com.",

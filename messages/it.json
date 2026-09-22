@@ -10,7 +10,7 @@
     "termsDesc": "Termini di servizio di PPPlayer: app multimediale gratuita per macOS, Linux, Windows, iOS e Android.",
     "supportTitle": "Supporto - PPPlayer",
     "supportDesc": "PPPlayer è un progetto indipendente e open source. Per bug e idee per nuove funzionalità, usa GitHub. Per altre domande, scrivi a contact@ppplayer.com.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "Notizie, aggiornamenti e storie dal team di PPPlayer."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "download": "Scarica Gratis",
     "support": "Supporto",
     "contribute": "Contribuisci",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "Un lettore musicale gratuito e open source. Nessun account. Nessun abbonamento. Ascolta e basta.",
@@ -29,20 +29,20 @@
     "ios": "iOS",
     "android": "Android",
     "windows": "Windows",
-    "social": "Social",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "social": "Social​",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Legale",
-    "privacy": "Privacy",
+    "privacy": "Privacy​",
     "terms": "Termini",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "Visualizza codice su GitHub",
     "contribute": "Contribuisci",
     "changelog": "Registro delle modifiche",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Teniamo alla tua privacy",
@@ -54,11 +54,11 @@
     "title1": "Musica.",
     "title2": "Senza frizioni.",
     "desc": "Un lettore musicale gratuito e open source. Nessun account. Nessun abbonamento. Ascolta e basta.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Scarica per Android",
     "getMac": "Scarica per Mac",
     "getWindows": "Scarica per Windows",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Experimental)​",
     "badge": "Gratuito e open source",
     "source": "Visualizza codice su GitHub"
   },
@@ -109,7 +109,7 @@
     "getWindows": "Scarica per Windows",
     "notAvailable": "Non ancora disponibile. Attualmente è disponibile solo la versione per macOS.",
     "notAvailableTitle": "In Arrivo",
-    "okayBtn": "Okay",
+    "okayBtn": "Okay​",
     "getLinux": "Scarica per Linux",
     "modalTitle": "Scarica per {platform}",
     "modalDesc": "Scegli come vuoi installare PPPlayer sul tuo dispositivo {platform}.",
@@ -121,7 +121,7 @@
     "os": "Sistema Operativo",
     "arch": "Architettura",
     "memory": "Memoria",
-    "internet": "Internet",
+    "internet": "Internet​",
     "reqStreaming": "Richiesto per lo streaming",
     "reqTitle": "Requisiti per {platform}",
     "reqs": {
@@ -303,7 +303,7 @@
       "name": "iOS",
       "label": "iPhone e iPad",
       "desc": "Prossimamente su TestFlight e sull'App Store per iPhone e iPad.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -313,12 +313,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Scarica per Windows 10 e versioni successive dal Microsoft Store.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Download diretto per macOS. Supporto per Apple Silicon e Intel.",
       "badge": "Download Diretto"
@@ -353,7 +353,7 @@
       "stabilityTitle": "Nuova Architettura di Sistema",
       "stabilityDesc": "Revisione dell'architettura del motore di riproduzione principale per una maggiore stabilità, intestazioni http personalizzate e gestione rigorosa del timeout."
     },
-    "title": "Changelog",
+    "title": "Changelog​",
     "subtitle": "Novità di PPPlayer.",
     "v1_3_6": {
       "desc": "Rilascio ufficiale per Android sul Google Play Store.",
@@ -424,7 +424,7 @@
     },
     "back": "← Torna a PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "12 Settembre 2026",
       "desc": "Supporto di localizzazione ampliato con 10 nuove lingue.",
       "added": "Aggiunto",
@@ -433,7 +433,7 @@
       "lang10Desc": "Aggiunto il supporto completo per Indonesiano, Birmano, Polacco, Danese, Kazako, Ceco, Ungherese, Georgiano, Svedese e Uzbeco."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12 settembre 2026",
       "desc": "Aggiunte localizzazioni in arabo e cinese e corretti bug di ridimensionamento su macOS.",
       "added": "Aggiunto",
@@ -444,7 +444,7 @@
       "layoutDesc": "Risolto un problema su macOS dove il player video di YouTube si spostava fuori centro al ridimensionamento della finestra."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "12 Settembre 2026",
       "desc": "Risolti i bug di riproduzione e perfezionata la barra di avanzamento all'avvio dell'app.",
       "fixed": "Risolto",
@@ -454,7 +454,7 @@
       "durationDesc": "Risolto il problema per cui la barra di avanzamento mostrava una durata di 0:00 al primo avvio dell'app."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "11 Settembre 2026",
       "desc": "Internazionalizzazione e localizzazione complete per l'intera app e il sito web.",
       "new": "Aggiunto",
@@ -466,7 +466,7 @@
       "osDesc": "Integrazioni linguistiche native a livello di sistema operativo su Android 13+ e iOS per sincronizzare automaticamente la lingua dell'app."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "11 Settembre 2026",
       "desc": "Risoluzione rapida per nuove installazioni.",
       "fixed": "Risolto",
@@ -474,7 +474,7 @@
       "crashDesc": "Risolto un bug critico che causava l'arresto anomalo dell'app con una schermata vuota su nuove installazioni a causa di un file di configurazione dell'ambiente mancante."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "11 Settembre 2026",
       "desc": "Riproduzione in background senza interruzioni su macOS.",
       "new": "Nuovo",
@@ -483,7 +483,7 @@
       "appNapDesc": "Impedito ad App Nap di macOS di sospendere in modo aggressivo il lettore quando ridotto a icona, consentendo alla coda di continuare senza interruzioni."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "11 Settembre 2026",
       "desc": "Rilasci automatizzati e firma del codice.",
       "new": "Nuovo",
@@ -497,7 +497,7 @@
       "submoduleFix": "Risolta configurazione di checkout del sottomodulo nei flussi di lavoro CI"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "10 Settembre 2026",
       "desc": "Riproduzione in background e stabilità.",
       "new": "Nuovo",
@@ -513,7 +513,7 @@
       "linter": "Eliminati vari errori del linter IDE e ripuliti i file ridondanti"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "9 Settembre 2026",
       "desc": "Autoplay intelligente basato sul contesto.",
       "autoplayContextTitle": "Autoplay Sensibile al Contesto",
@@ -522,13 +522,13 @@
       "tieredRecsDesc": "Le raccomandazioni ora usano rigorosamente il catalogo dell'artista di destinazione invece di cercare approssimativamente per nome."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "9 Settembre 2026",
       "desc": "Un'esperienza di ascolto migliore.",
       "new": "Nuovo",
       "improved": "Migliorato",
       "fixed": "Risolto",
-      "autoplayTitle": "Autoplay",
+      "autoplayTitle": "Autoplay​",
       "autoplayDesc": "La musica continua con raccomandazioni basate su ciò che stai ascoltando.",
       "discoverTitle": "Scopri",
       "discoverDesc": "Trova musica in base alla tua cronologia di ascolto, agli artisti e alle playlist preferiti.",
@@ -543,13 +543,30 @@
       "bottomBar": "Barra del lettore in basso completamente trasparente e illeggibile su macOS durante la riproduzione"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "Settembre 2026",
       "desc": "La prima release di PPPlayer.",
       "spotify": "Metadati musicali basati su Spotify",
       "youtube": "Riproduzione audio basata su YouTube",
       "playlists": "Playlist, preferiti e cronologia degli ascolti",
       "platforms": "Supporto per macOS, Windows e Linux"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {
@@ -571,7 +588,7 @@
     "license": "Licenza MIT"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "Notizie, aggiornamenti e storie dal team di PPPlayer.",
     "readMore": "Leggi l'articolo",
     "minRead": "min di lettura",

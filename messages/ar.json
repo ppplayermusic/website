@@ -30,14 +30,14 @@
     "android": "Android",
     "windows": "Windows",
     "social": "التواصل الاجتماعي",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "قانوني",
     "privacy": "الخصوصية",
     "terms": "الشروط",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "عرض المصدر على GitHub",
     "contribute": "المساهمة",
     "changelog": "سجل التغييرات",
@@ -54,11 +54,11 @@
     "title1": "موسيقى.",
     "title2": "بدون قيود.",
     "desc": "مشغل موسيقى مجاني ومفتوح المصدر. لا يحتاج إلى حساب. بدون اشتراك. فقط استمع.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "احصل عليه لـ Android",
     "getMac": "احصل عليه لـ Mac",
     "getWindows": "احصل عليه لـ Windows",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Experimental)​",
     "badge": "مجاني ومفتوح المصدر",
     "source": "عرض المصدر على GitHub"
   },
@@ -303,7 +303,7 @@
       "name": "iOS",
       "label": "iPhone و iPad",
       "desc": "قريباً على TestFlight ومتجر App Store لأجهزة iPhone و iPad.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -313,12 +313,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "قم بالتنزيل لنظام التشغيل Windows 10 والأحدث من متجر Microsoft.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "تنزيل مباشر لنظام macOS. يدعم Apple Silicon و Intel.",
       "badge": "تنزيل مباشر"
@@ -424,7 +424,7 @@
     },
     "back": "← العودة إلى PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "12 سبتمبر 2026",
       "desc": "توسيع دعم اللغات مع إضافة 10 لغات جديدة.",
       "added": "تمت الإضافة",
@@ -433,7 +433,7 @@
       "lang10Desc": "تمت إضافة دعم كامل للغات الإندونيسية، البورمية، البولندية، الدنماركية، الكازاخستانية، التشيكية، المجرية، الجورجية، السويدية، والأوزبكية."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12 سبتمبر 2026",
       "desc": "تمت إضافة الترجمة العربية والصينية وإصلاح أخطاء تغيير حجم macOS.",
       "added": "تمت الإضافة",
@@ -444,7 +444,7 @@
       "layoutDesc": "تم إصلاح مشكلة في macOS حيث كان مشغل فيديو YouTube ينزاح عن المركز عند تغيير حجم نافذة التطبيق."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "12 سبتمبر 2026",
       "desc": "إصلاح أخطاء التشغيل وتحسين شريط التمرير عند بدء التطبيق.",
       "fixed": "تم الإصلاح",
@@ -454,7 +454,7 @@
       "durationDesc": "تم إصلاح مشكلة عرض شريط التمرير لمدة 0:00 عند تشغيل التطبيق لأول مرة."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "11 سبتمبر 2026",
       "desc": "تدويل وتوطين شامل عبر التطبيق والموقع بأكمله.",
       "new": "إضافة جديدة",
@@ -466,7 +466,7 @@
       "osDesc": "تكاملات للغات النظام الأصلية على Android 13+ و iOS لمزامنة لغة التطبيق تلقائياً."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "11 سبتمبر 2026",
       "desc": "إصلاح سريع للتثبيتات الجديدة.",
       "fixed": "تم الإصلاح",
@@ -474,7 +474,7 @@
       "crashDesc": "إصلاح خطأ حرج كان يتسبب في انهيار التطبيق إلى شاشة فارغة في التثبيتات الجديدة بسبب فقدان ملف تهيئة البيئة."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "11 سبتمبر 2026",
       "desc": "تشغيل سلس في الخلفية على macOS.",
       "new": "جديد",
@@ -483,7 +483,7 @@
       "appNapDesc": "منع ميزة App Nap في macOS من تعليق المشغل بقوة عند تصغيره، مما يسمح لقائمة التشغيل بالاستمرار دون انقطاع."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "11 سبتمبر 2026",
       "desc": "تحديثات آلية وتوقيع الرموز.",
       "new": "جديد",
@@ -497,7 +497,7 @@
       "submoduleFix": "تم إصلاح تكوين فحص الوحدات الفرعية في مسارات عمل CI"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "10 سبتمبر 2026",
       "desc": "التشغيل في الخلفية والاستقرار.",
       "new": "جديد",
@@ -513,7 +513,7 @@
       "linter": "تم التخلص من العديد من أخطاء المحلل البرمجي لبيئة التطوير وتنظيف الملفات الزائدة"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "9 سبتمبر 2026",
       "desc": "تشغيل تلقائي أذكى يعتمد على السياق.",
       "autoplayContextTitle": "تشغيل تلقائي يعي بالسياق",
@@ -522,7 +522,7 @@
       "tieredRecsDesc": "تستخدم التوصيات الآن بصرامة كتالوج الفنان المستهدف بدلاً من البحث المبهم بالاسم."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "9 سبتمبر 2026",
       "desc": "تجربة استماع أفضل.",
       "new": "جديد",
@@ -543,13 +543,30 @@
       "bottomBar": "عرض شريط المشغل السفلي بشكل شفاف بالكامل وغير مقروء على macOS عند تشغيل الموسيقى"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "سبتمبر 2026",
       "desc": "الإصدار الأول من PPPlayer.",
       "spotify": "بيانات وصفية للموسيقى مدعومة من Spotify",
       "youtube": "تشغيل صوتي مدعوم من YouTube",
       "playlists": "قوائم التشغيل، والمفضلة، وسجل الاستماع",
       "platforms": "دعم أنظمة macOS و Windows و Linux"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {

@@ -30,14 +30,14 @@
     "android": "Android",
     "windows": "Windows",
     "social": "โซเชียล",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "กฎหมาย",
     "privacy": "ความเป็นส่วนตัว",
     "terms": "ข้อกำหนด",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "ดูซอร์สโค้ดบน GitHub",
     "contribute": "มีส่วนร่วม",
     "changelog": "บันทึกการเปลี่ยนแปลง",
@@ -54,7 +54,7 @@
     "title1": "สื่อบันเทิง.",
     "title2": "โดยไม่มีอุปสรรค.",
     "desc": "โปรแกรมเล่นสื่อฟรีและเป็นโอเพนซอร์ส ไม่มีบัญชี ไม่ต้องสมัครสมาชิก แค่เล่นเพลง",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "โหลดสำหรับ Android",
     "getMac": "โหลดสำหรับ Mac",
     "getWindows": "โหลดสำหรับ Windows",
@@ -125,7 +125,7 @@
     "reqs": {
       "macos": {
         "os": "macOS 10.15 Catalina หรือใหม่กว่า",
-        "arch": "Apple Silicon & Intel (Universal)",
+        "arch": "Apple Silicon & Intel (Universal)​",
         "mem": "RAM 4 GB (แนะนำ)"
       },
       "windows": {
@@ -301,7 +301,7 @@
       "name": "iOS",
       "label": "iPhone และ iPad",
       "desc": "เตรียมพบกับ TestFlight และ App Store สำหรับ iPhone และ iPad ในเร็ว ๆ นี้",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -316,7 +316,7 @@
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "ดาวน์โหลดโดยตรงสำหรับ macOS รองรับ Apple Silicon และ Intel",
       "badge": "ดาวน์โหลดโดยตรง"
@@ -422,7 +422,7 @@
     },
     "back": "← กลับไปยัง PPPlayer",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "12 กันยายน 2026",
       "desc": "ขยายการรองรับภาษามากยิ่งขึ้นด้วยภาษาใหม่ 10 ภาษา",
       "added": "เพิ่ม",
@@ -431,7 +431,7 @@
       "lang10Desc": "เพิ่มการรองรับภาษาอย่างเต็มรูปแบบ สำหรับภาษาอินโดนีเซีย, พม่า, โปแลนด์, เดนมาร์ก, คาซัค, เช็ก, ฮังการี, จอร์เจีย, สวีเดน, และอุซเบก"
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12 กันยายน 2026",
       "desc": "เพิ่มคำแปลภาษาอาหรับและภาษาจีน และแก้ไขข้อบกพร่องเกี่ยวกับการปรับขนาดแอปพลิเคชันบน macOS",
       "added": "เพิ่ม",
@@ -442,7 +442,7 @@
       "layoutDesc": "แก้ไขปัญหาใน macOS ที่หน้าต่างวิดีโอ YouTube จะเลื่อนออกจากจุดกึ่งกลางเมื่อปรับขนาดหน้าต่างของแอปพลิเคชัน"
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "12 กันยายน 2026",
       "desc": "แก้ไขบักในการเล่นและขัดเกลาแถบค้นหา (seekbar) เมื่อเปิดแอปขึ้นมา",
       "fixed": "แก้ไขข้อผิดพลาด",
@@ -452,7 +452,7 @@
       "durationDesc": "แก้ไขแถบค้นหาที่แสดงระยะเวลาเป็น 0:00 เมื่อเปิดแอปเป็นครั้งแรก"
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "11 กันยายน 2026",
       "desc": "การแปลภาษาและการรองรับภาษาครอบคลุมทั้งตัวแอปและเว็บไซต์",
       "new": "เพิ่ม",
@@ -464,7 +464,7 @@
       "osDesc": "การผสมผสานภาษาระดับโอเอสแบบเนทีฟบน Android 13+ และ iOS เพื่อซิงค์ภาษาของแอปให้ทำงานโดยอัตโนมัติ"
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "11 กันยายน 2026",
       "desc": "การอัปเดตแบบ Hotfix สำหรับการติดตั้งใหม่",
       "fixed": "แก้ไขข้อผิดพลาด",
@@ -472,7 +472,7 @@
       "crashDesc": "แก้ไขปัญหาสำคัญที่ทำให้แอปเกิดข้อขัดข้องและแสดงเป็นหน้าจอว่างเปล่า (Blank screen) ในเครื่องที่ติดตั้งแอปใหม่ เนื่องจากการขาดหายไปของไฟล์การตั้งค่า (Environment configuration file)"
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "11 กันยายน 2026",
       "desc": "การเล่นในพื้นหลังบน macOS ทำได้อย่างราบรื่น",
       "new": "ใหม่",
@@ -481,7 +481,7 @@
       "appNapDesc": "ป้องกันไม่ให้ macOS App Nap หยุดการทำงานของตัวเล่นสื่อ (Player) ขณะซ่อนแอปพลิเคชัน (Minimized) ทำให้คิวเล่นเพลงต่อเนื่องโดยไม่มีการสะดุด"
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "11 กันยายน 2026",
       "desc": "การเผยแพร่อัตโนมัติและระบบลงลายเซ็นในโค้ด",
       "new": "ใหม่",
@@ -495,7 +495,7 @@
       "submoduleFix": "แก้ไขปัญหาโครงสร้าง submodule ใน CI workflows (Continuous Integration)"
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "10 กันยายน 2026",
       "desc": "การทำงานของระบบเล่นเบื้องหลังและความเสถียร",
       "new": "ใหม่",
@@ -511,7 +511,7 @@
       "linter": "แก้ไขข้อผิดพลาดที่เกิดจากการใช้เครื่องมือ linter ใน IDE (Integrated Development Environment) ออกและปรับปรุงการใช้งานของตัวระบบและนำการรวมกันที่ไม่ได้ใช้งานออกจากชุดการคำนวณของโครงสร้างทั้งหมด"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "9 กันยายน 2026",
       "desc": "การเล่นอัตโนมัติที่ชาญฉลาดและตรงบริบทมากยิ่งขึ้น",
       "autoplayContextTitle": "การเล่นอัตโนมัติตามบริบทที่ละเอียดมากขึ้น",
@@ -520,7 +520,7 @@
       "tieredRecsDesc": "คำแนะนำเพลงจะใช้ฐานข้อมูล (Catalog) ของศิลปินอย่างเข้มงวด แทนที่จะสืบค้นจากชื่อหรือคำใกล้เคียงเพียงอย่างเดียว"
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "9 กันยายน 2026",
       "desc": "ประสบการณ์การฟังที่ดีกว่าเดิม",
       "new": "ใหม่",
@@ -541,13 +541,30 @@
       "bottomBar": "แถบช่องว่างที่ไม่โปร่งแสงแสดงอย่างผิดรูปแบบที่บนการเปิดเพลง"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "กันยายน 2026",
       "desc": "การออกเปิดตัวรุ่นแรกของระบบแอปบน PPPlayer",
       "spotify": "เนื้อหาดนตรีที่มีมาตรฐานเชื่อมโยงการแสดงผลบน Spotify",
       "youtube": "เพิ่มคุณสมบัติด้านระดับการเผยแพร่วีดีโอผ่านบนเนื้อหาของ YouTube",
       "playlists": "สร้างเนื้อหาส่วนตัวเพื่อบันทึกสิ่งที่ได้รับและบันทึกช่วงเวลาการแสดงที่ผ่านไปแล้วอย่างแม่นยำ",
       "platforms": "สนับสนุนครอบคลุมบนระบบ Windows Linux และ macOS"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {

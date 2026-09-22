@@ -422,7 +422,7 @@
     },
     "back": "← واپس پی پی پلیئر پر",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "ستمبر 12، 2026",
       "desc": "10 نئی زبانوں کے ساتھ لوکلائزیشن سپورٹ کو وسعت دی گئی۔",
       "added": "شامل کیا گیا",
@@ -431,7 +431,7 @@
       "lang10Desc": "انڈونیشیائی، برمی، پولش، ڈینش، قازق، چیک، ہنگری، جارجیائی، سویڈش، اور ازبک کے لیے مکمل سپورٹ شامل کی گئی۔"
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "ستمبر 12، 2026",
       "desc": "عربی اور چینی لوکلائزیشنز شامل کی گئیں اور میک او ایس ری سائزنگ بگز کو درست کیا گیا۔",
       "added": "شامل کیا گیا",
@@ -442,7 +442,7 @@
       "layoutDesc": "میک او ایس پر ایک مسئلہ حل کیا گیا جہاں ایپ ونڈو کا سائز تبدیل کرنے پر یوٹیوب ویڈیو پلیئر مرکز سے ہٹ جاتا تھا۔"
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "ستمبر 12، 2026",
       "desc": "پلے بیک بگز کو درست کیا گیا اور ایپ سٹارٹ اپ پر سیک بار کو بہتر بنایا گیا۔",
       "fixed": "درست کیا گیا",
@@ -452,7 +452,7 @@
       "durationDesc": "ایپ کے پہلی بار لانچ ہونے پر سیک بار کے 0:00 کا دورانیہ دکھانے کو درست کیا گیا۔"
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "ستمبر 11، 2026",
       "desc": "پوری ایپ اور ویب سائٹ میں جامع بین الاقوامیت اور لوکلائزیشن۔",
       "new": "شامل کیا گیا",
@@ -548,6 +548,23 @@
       "youtube": "یوٹیوب سے چلنے والا آڈیو پلے بیک",
       "playlists": "پلے لسٹس، فیورٹس اور سننے کی ہسٹری",
       "platforms": "میک او ایس، ونڈوز اور لینکس کی سپورٹ"
+    },
+    "v2_0_1": {
+      "version": "2.0.1",
+      "date": "September 21, 2026​",
+      "desc": "Routine maintenance and repository cleanup.",
+      "changed": "Changed​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​",
+      "added": "Added​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​"
     }
   },
   "support": {

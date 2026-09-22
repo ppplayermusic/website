@@ -10,7 +10,7 @@
     "termsDesc": "Tembiporu Ykeko PPPlayer-pe guarã: pumbasy rerekua sãso macOS, Linux, Windows, iOS ha Android-pe.",
     "supportTitle": "Pytyvõ - PPPlayer",
     "supportDesc": "PPPlayer ha'e peteĩ tembiapo sãso ojepe'áva. Eiporu GitHub ojekuaa hag̃ua umi mba'e vai ha apañuãi. Ambue porandúpe, embou peteĩ ñe'ẽveve contact@ppplayer.com-pe.",
-    "blogTitle": "Blog | PPPlayer",
+    "blogTitle": "Blog | PPPlayer​",
     "blogDesc": "Marandu ha tembiasakue PPPlayer atyguiguápe."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "download": "Emboguejy Reípe",
     "support": "Pytyvõ",
     "contribute": "Pytyvõ",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "footer": {
     "desc": "Pumbasy rerekua sãso ha ojepe'áva. Ndaipóri mba'e ojehepyme'ẽva. Ehendu reínte.",
@@ -30,19 +30,19 @@
     "android": "Android",
     "windows": "Windows",
     "social": "Redes Sociales",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn",
-    "facebook": "Facebook",
-    "github": "GitHub",
+    "instagram": "Instagram​",
+    "linkedin": "LinkedIn​",
+    "facebook": "Facebook​",
+    "github": "GitHub​",
     "legal": "Leyes",
     "privacy": "Tembiporu Ñemimby",
     "terms": "Tembiporu Ykeko",
-    "copyright": "© {year} PPPlayer Music.",
+    "copyright": "© {year} PPPlayer Music.​",
     "source": "Ehecha GitHub-pe",
     "contribute": "Pytyvõ",
     "changelog": "Ñemoambue",
     "linux": "Linux",
-    "blog": "Blog"
+    "blog": "Blog​"
   },
   "cookie": {
     "title": "Momba'e nde rerekua sãso",
@@ -54,11 +54,11 @@
     "title1": "Pumbasy.",
     "title2": "Ndaipóri jejoko.",
     "desc": "Pumbasy rerekua sãso ha ojepe'áva. Ndaipóri mba'e ojehepyme'ẽva. Ehendu reínte.",
-    "getIos": "iOS (TestFlight)",
+    "getIos": "iOS (TestFlight)​",
     "getAndroid": "Emboguejy Android-pe guarã",
     "getMac": "Emboguejy Mac-pe guarã",
     "getWindows": "Emboguejy Windows-pe guarã",
-    "getLinux": "Linux (Experimental)",
+    "getLinux": "Linux (Experimental)​",
     "badge": "Sãso ha ojepe'áva",
     "source": "Ehecha GitHub-pe"
   },
@@ -119,7 +119,7 @@
     "os": "Sistema Operativo",
     "arch": "Arquitectura",
     "memory": "Memoria",
-    "internet": "Internet",
+    "internet": "Internet​",
     "reqStreaming": "Oikotevẽ streaming-pe guarã",
     "reqTitle": "{platform} Ykeko",
     "reqs": {
@@ -301,7 +301,7 @@
       "name": "iOS",
       "label": "iPhone ha iPad",
       "desc": "Oúta ko'ẽrõ TestFlight ha App Store-pe iPhone ha iPad-pe guarã.",
-      "badge": "TestFlight"
+      "badge": "TestFlight​"
     },
     "android": {
       "name": "Android",
@@ -311,12 +311,12 @@
     },
     "windows": {
       "name": "Windows",
-      "label": "Windows 10+",
+      "label": "Windows 10+​",
       "desc": "Emboguejy Windows 10 ha pyahuvéva-pe guarã Microsoft Store guive.",
       "badge": "Microsoft Store"
     },
     "macos": {
-      "name": "macOS",
+      "name": "macOS​",
       "label": "Mac",
       "desc": "Emboguejy macOS-pe guarã. Apple Silicon ha Intel oñepytyvõ.",
       "badge": "Emboguejy"
@@ -422,7 +422,7 @@
     },
     "back": "← Jejevy PPPlayer-pe",
     "v1_2_0": {
-      "version": "v1.2.0",
+      "version": "v1.2.0​",
       "date": "12 jasyporundy 2026",
       "desc": "Oñemoĩ 10 ñe'ẽnguéra pyahu.",
       "added": "Oñemoĩ",
@@ -431,7 +431,7 @@
       "lang10Desc": "Oñemoĩ localizaciones 10 ñe'ẽnguérape guarã."
     },
     "v1_1_2": {
-      "version": "v1.1.2",
+      "version": "v1.1.2​",
       "date": "12 jasyporundy 2026",
       "desc": "Oñemoĩ ñe'ẽnguéra ha oñemyatyrõ macOS apañuãi.",
       "added": "Oñemoĩ",
@@ -442,7 +442,7 @@
       "layoutDesc": "Oñemyatyrõ macOS apañuãi."
     },
     "v1_1_1": {
-      "version": "v1.1.1",
+      "version": "v1.1.1​",
       "date": "12 jasyporundy 2026",
       "desc": "Oñemyatyrõ pumbasy apañuãi.",
       "fixed": "Oñemyatyrõ",
@@ -452,19 +452,19 @@
       "durationDesc": "Oñemyatyrõ duration apañuãi."
     },
     "v1_1_0": {
-      "version": "v1.1.0",
+      "version": "v1.1.0​",
       "date": "11 jasyporundy 2026",
       "desc": "Localizaciones yvóra tuichahápe.",
       "new": "Pyahu",
       "langTitle": "11 Ñe'ẽnguéra",
       "langDesc": "Oñemoĩ 11 ñe'ẽnguéra.",
-      "pickerTitle": "In-App Language Picker",
+      "pickerTitle": "In-App Language Picker​",
       "pickerDesc": "Oñemoĩ in-app language picker.",
-      "osTitle": "OS-Level Integration",
+      "osTitle": "OS-Level Integration​",
       "osDesc": "Oñemoĩ OS-level integration."
     },
     "v1_0_6": {
-      "version": "v1.0.6",
+      "version": "v1.0.6​",
       "date": "11 jasyporundy 2026",
       "desc": "Hotfix.",
       "fixed": "Oñemyatyrõ",
@@ -472,7 +472,7 @@
       "crashDesc": "Oñemyatyrõ startup crash."
     },
     "v1_0_5": {
-      "version": "v1.0.5",
+      "version": "v1.0.5​",
       "date": "11 jasyporundy 2026",
       "desc": "Background pumbasy macOS-pe.",
       "new": "Pyahu",
@@ -481,21 +481,21 @@
       "appNapDesc": "Oñemoĩ gapless background pumbasy macOS-pe."
     },
     "v1_0_4": {
-      "version": "v1.0.4",
+      "version": "v1.0.4​",
       "date": "11 jasyporundy 2026",
       "desc": "Automated releases.",
       "new": "Pyahu",
       "fixed": "Oñemyatyrõ",
-      "ciTitle": "Automated Release Pipeline",
+      "ciTitle": "Automated Release Pipeline​",
       "ciDesc": "Oñemoĩ automated release pipeline.",
-      "signedTitle": "Signed macOS Releases",
+      "signedTitle": "Signed macOS Releases​",
       "signedDesc": "Oñemoĩ signed macOS releases.",
-      "licenseTitle": "Open Source License",
+      "licenseTitle": "Open Source License​",
       "licenseDesc": "Oñemoĩ MIT License.",
       "submoduleFix": "Oñemyatyrõ submodule."
     },
     "v1_0_3": {
-      "version": "v1.0.3",
+      "version": "v1.0.3​",
       "date": "10 jasyporundy 2026",
       "desc": "Background pumbasy.",
       "new": "Pyahu",
@@ -503,7 +503,7 @@
       "fixed": "Oñemyatyrõ",
       "hybridEngineTitle": "Hybrid Pumbasy Engine",
       "hybridEngineDesc": "Oñemoĩ hybrid pumbasy engine.",
-      "dedupTitle": "Command Deduplication",
+      "dedupTitle": "Command Deduplication​",
       "dedupDesc": "Oñemoĩ command deduplication.",
       "queueAdvance": "Queue Ñemyatyrõ",
       "resumeBug": "Resume Ñemyatyrõ",
@@ -511,43 +511,60 @@
       "linter": "Linter Ñemyatyrõ"
     },
     "v1_0_2": {
-      "version": "v1.0.2",
+      "version": "v1.0.2​",
       "date": "9 jasyporundy 2026",
       "desc": "Autoplay.",
-      "autoplayContextTitle": "Context-Aware Autoplay",
+      "autoplayContextTitle": "Context-Aware Autoplay​",
       "autoplayContextDesc": "Oñemoĩ context-aware autoplay.",
-      "tieredRecsTitle": "Tiered Recommendation Engine",
+      "tieredRecsTitle": "Tiered Recommendation Engine​",
       "tieredRecsDesc": "Oñemoĩ tiered recommendation engine."
     },
     "v1_0_1": {
-      "version": "v1.0.1",
+      "version": "v1.0.1​",
       "date": "9 jasyporundy 2026",
       "desc": "Pumbasy porãve.",
       "new": "Pyahu",
       "improved": "Iporãve",
       "fixed": "Oñemyatyrõ",
-      "autoplayTitle": "Autoplay",
+      "autoplayTitle": "Autoplay​",
       "autoplayDesc": "Moĩma autoplay.",
       "discoverTitle": "Ejuhu",
       "discoverDesc": "Ejuhu pumbasy.",
-      "tooltipsTitle": "Interactive Seekbar Tooltips",
+      "tooltipsTitle": "Interactive Seekbar Tooltips​",
       "tooltipsDesc": "Moĩma interactive seekbar tooltips.",
       "startup": "Oñepyrũ pya'eve",
       "recovery": "Playback recovery iporãve",
       "macosMedia": "macOS media controls iporãve",
       "duplicateMedia": "macOS media controls ojejo'áva ñemyatyrõ",
-      "stationHighlight": "Station active-track highlighting",
+      "stationHighlight": "Station active-track highlighting​",
       "seekbarPause": "Seekbar Ñemyatyrõ",
       "bottomBar": "Bottom bar Ñemyatyrõ"
     },
     "v1_0_0": {
-      "version": "v1.0.0",
+      "version": "v1.0.0​",
       "date": "jasyporundy 2026",
       "desc": "PPPlayer ypy.",
       "spotify": "Metadata Spotify rupive",
       "youtube": "Audio YouTube rupive",
       "playlists": "Playlists ha favorites",
       "platforms": "macOS, Windows ha Linux"
+    },
+    "v2_0_1": {
+      "version": "2.0.1​",
+      "date": "September 21, 2026​",
+      "desc": "A maintenance and feature release bringing new languages, quick playback actions, and improved UI designs.​",
+      "added": "Added​",
+      "changed": "Changed​",
+      "languagesTitle": "New Languages​",
+      "languagesDesc": "Added support for Dutch, Romanian, Thai, Ukrainian, Urdu, and Vietnamese.​",
+      "quickPlayTitle": "Quick Playback​",
+      "quickPlayDesc": "Added direct top tracks playback on artist cards, and direct playlist/album playback on hover overlays.​",
+      "socialsTitle": "Social Links​",
+      "socialsDesc": "Added Instagram, Facebook, and LinkedIn links to the about dialog.​",
+      "uiTitle": "UI Enhancements​",
+      "uiDesc": "Redesigned genre and search category cards with dynamic hash-based colors and icons.​",
+      "cleanupTitle": "Maintenance​",
+      "cleanupDesc": "Routine maintenance and removal of temporary debugging and development scripts from the repository to reduce clutter.​"
     }
   },
   "support": {
@@ -569,7 +586,7 @@
     "license": "MIT licencia"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Blog​",
     "subtitle": "Marandu ha tembiasakue PPPlayer atyguiguápe.",
     "readMore": "Emoñe'ẽ",
     "minRead": "ara emoñe'ẽ hag̃ua",
