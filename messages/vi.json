@@ -1,0 +1,592 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer | Trình phát Đa phương tiện Mã nguồn Mở & Miễn phí",
+    "homeDesc": "Một trình phát đa phương tiện mã nguồn mở, miễn phí. Không cần tài khoản. Không cần đăng ký. Chỉ cần phát nhạc.",
+    "downloadTitle": "Tải PPPlayer Miễn phí",
+    "downloadDesc": "Một trình phát đa phương tiện mã nguồn mở, miễn phí. Không cần tài khoản. Không cần đăng ký. Chỉ cần phát nhạc.",
+    "privacyTitle": "Chính sách Bảo mật",
+    "privacyDesc": "Chính sách Bảo mật của PPPlayer: ứng dụng đa phương tiện miễn phí cho macOS, Linux, Windows, iOS và Android.",
+    "termsTitle": "Điều khoản Dịch vụ",
+    "termsDesc": "Điều khoản Dịch vụ của PPPlayer: ứng dụng đa phương tiện miễn phí cho macOS, Linux, Windows, iOS và Android.",
+    "supportTitle": "Hỗ trợ - PPPlayer",
+    "supportDesc": "PPPlayer là một dự án mã nguồn mở, độc lập. Đối với các lỗi và ý tưởng tính năng, hãy sử dụng GitHub. Đối với các câu hỏi khác, hãy gửi email tới contact@ppplayer.com.",
+    "blogTitle": "Blog | PPPlayer",
+    "blogDesc": "Tin tức, cập nhật và câu chuyện từ đội ngũ PPPlayer."
+  },
+  "nav": {
+    "features": "Tính năng",
+    "download": "Tải miễn phí",
+    "support": "Hỗ trợ",
+    "contribute": "Đóng góp",
+    "blog": "Blog"
+  },
+  "footer": {
+    "desc": "Một trình phát đa phương tiện mã nguồn mở, miễn phí. Không cần tài khoản. Không cần đăng ký. Chỉ cần phát nhạc.",
+    "product": "Sản phẩm",
+    "features": "Tính năng",
+    "download": "Tải xuống",
+    "platforms": "Nền tảng",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Mạng xã hội",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Pháp lý",
+    "privacy": "Bảo mật",
+    "terms": "Điều khoản",
+    "copyright": "© {year} Âm nhạc PPPlayer.",
+    "source": "Xem mã nguồn trên GitHub",
+    "contribute": "Đóng góp",
+    "changelog": "Lịch sử cập nhật",
+    "linux": "Linux",
+    "blog": "Blog"
+  },
+  "cookie": {
+    "title": "Chúng tôi coi trọng quyền riêng tư của bạn",
+    "desc": "Chúng tôi sử dụng cookie để phân tích lưu lượng truy cập trang web và nâng cao trải nghiệm của bạn. Bằng cách nhấp vào \"Chấp nhận\", bạn đồng ý với việc chúng tôi sử dụng cookie.",
+    "decline": "Từ chối tất cả",
+    "accept": "Chấp nhận tất cả"
+  },
+  "hero": {
+    "title1": "Đa phương tiện.",
+    "title2": "Không bị cản trở.",
+    "desc": "Một trình phát đa phương tiện mã nguồn mở, miễn phí. Không cần tài khoản. Không cần đăng ký. Chỉ cần phát nhạc.",
+    "getIos": "iOS (TestFlight)",
+    "getAndroid": "Tải cho Android",
+    "getMac": "Tải cho Mac",
+    "getWindows": "Tải cho Windows",
+    "getLinux": "Linux (Thử nghiệm)",
+    "badge": "Mã nguồn mở & miễn phí",
+    "source": "Xem mã nguồn trên GitHub"
+  },
+  "discover": {
+    "title": "Tìm kiếm<br></br>thứ gì đó<br></br>đáng để nghe."
+  },
+  "artistRadio": {
+    "title": "Nghe bất tận."
+  },
+  "goDeeper": {
+    "bgText": "THEO DÕI",
+    "title": "Theo dõi âm nhạc."
+  },
+  "pressPlay": {
+    "title": "Sau đó, chỉ cần lắng nghe."
+  },
+  "featureGallery": {
+    "title": "Mọi thứ bạn cần.",
+    "subtitle": "Một trải nghiệm gốc đẹp mắt được xây dựng để đạt hiệu suất cao.",
+    "searchTitle": "Tìm chính xác những gì bạn muốn.",
+    "searchDesc": "Tìm kiếm trên toàn cầu các bài hát, nghệ sĩ, album và video cục bộ một cách tức thì.",
+    "queueTitle": "Hàng đợi hoàn hảo.",
+    "queueDesc": "Quản lý những gì sẽ phát tiếp theo với một hàng đợi đẹp mắt, có thể sắp xếp lại.",
+    "favTitle": "Phương tiện của bạn, quy tắc của bạn.",
+    "favDesc": "Xây dựng thư viện cá nhân của bạn với một cú nhấp chuột. Luôn ở đó.",
+    "contextTitle": "Thiết kế gốc.",
+    "contextDesc": "Nhấp chuột phải ở bất cứ đâu. Các menu gốc nhận biết ngữ cảnh đẹp mắt.",
+    "videoTitle": "Phát Video Cục bộ.",
+    "videoDesc": "Phát các tệp video cục bộ ngoại tuyến với phụ đề, PiP, và Phù hợp/Lấp đầy. Hỗ trợ định dạng tùy thuộc vào nền tảng.",
+    "streamsTitle": "Phát Trực tuyến qua Mạng.",
+    "streamsDesc": "Phát danh sách phát M3U/PLS và các URL tương thích. YouTube sử dụng trình phát nhúng. Không phải tất cả video của bên thứ ba đều có thể phát được."
+  },
+  "noAccount": {
+    "title": "Không cần tài khoản.",
+    "subtitle": "Mã nguồn mở & miễn phí"
+  },
+  "platforms": {
+    "title": "Âm nhạc của bạn. Thiết bị của bạn.",
+    "subtitle": "Hoạt động nguyên bản và đẹp mắt trên macOS, Linux, Windows, Android và iOS."
+  },
+  "downloadCTA": {
+    "title": "Chỉ cần phát nhạc.",
+    "getIos": "Tải cho iOS",
+    "getAndroid": "Tải cho Android",
+    "getMac": "Tải cho Mac",
+    "getWindows": "Tải cho Windows",
+    "notAvailable": "Chưa có sẵn. Hiện tại, chỉ phiên bản macOS mới có thể tải xuống.",
+    "notAvailableTitle": "Sắp ra mắt",
+    "okayBtn": "Đồng ý",
+    "getLinux": "Tải cho Linux",
+    "modalTitle": "Tải xuống cho {platform}",
+    "modalDesc": "Chọn cách bạn muốn cài đặt PPPlayer trên thiết bị {platform} của bạn.",
+    "primaryDownload": "Tải xuống",
+    "directDownload": "Tải xuống Trực tiếp",
+    "comingSoon": "Sắp ra mắt",
+    "cancel": "Hủy",
+    "downloadFor": "Tải xuống cho {platform}",
+    "os": "Hệ điều hành",
+    "arch": "Kiến trúc",
+    "memory": "Bộ nhớ",
+    "internet": "Internet",
+    "reqStreaming": "Yêu cầu để phát trực tuyến",
+    "reqTitle": "Yêu cầu cho {platform}",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina hoặc mới hơn",
+        "arch": "Apple Silicon & Intel (Đa năng)",
+        "mem": "RAM 4 GB (Được khuyến nghị)"
+      },
+      "windows": {
+        "os": "Windows 10 trở lên (64-bit)",
+        "arch": "x64",
+        "mem": "RAM 4 GB (Được khuyến nghị)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 hoặc mới hơn (Thử nghiệm)",
+        "arch": "x86_64",
+        "mem": "RAM 4 GB (Được khuyến nghị)"
+      },
+      "ios": {
+        "os": "iOS 13.0 hoặc mới hơn",
+        "arch": "ARM64",
+        "mem": "RAM 2 GB (Được khuyến nghị)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) hoặc mới hơn",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "RAM 2 GB (Được khuyến nghị)"
+      }
+    }
+  },
+  "downloadPage": {
+    "badge": "PPPlayer 1.0 đã ra mắt",
+    "title": "Tải xuống <gradient>PPPlayer</gradient>",
+    "subtitle": "Chọn nền tảng của bạn. Bắt đầu nghe nhạc trong vài giây.",
+    "desc": "Không yêu cầu tài khoản. Không email. Không cần đăng ký. Chỉ cần phát nhạc.",
+    "windowsReqLabel": "Yêu cầu hệ thống Windows:",
+    "windowsReqDesc": "Windows 10 trở lên (64-bit). Tải xuống ~50 MB. Không yêu cầu Microsoft Store."
+  },
+  "faq": {
+    "badge": "Câu hỏi thường gặp",
+    "title": "Các <gradient>câu hỏi</gradient> chung",
+    "subtitle": "Mọi thứ bạn cần biết về PPPlayer.",
+    "items": [
+      {
+        "q": "PPPlayer có miễn phí không?",
+        "a": "Có. PPPlayer hoàn toàn miễn phí. Không có đăng ký, không mua hàng trong ứng dụng, và không có chi phí ẩn."
+      },
+      {
+        "q": "Tôi có cần tạo tài khoản không?",
+        "a": "Không. Bạn không cần địa chỉ email, tài khoản hoặc bất kỳ hình thức đăng nhập nào. Chỉ cần tải xuống, mở và bắt đầu nghe."
+      },
+      {
+        "q": "PPPlayer có sẵn cho iPhone không?",
+        "a": "PPPlayer cho iOS hiện đang được phát triển. Chúng tôi đang tích cực làm việc để phát hành trên App Store."
+      },
+      {
+        "q": "PPPlayer có sẵn cho Android không?",
+        "a": "PPPlayer cho Android hiện đang được phát triển. Chúng tôi đang tích cực làm việc để phát hành trên Google Play Store."
+      },
+      {
+        "q": "Tôi có thể sử dụng PPPlayer trên Windows không?",
+        "a": "Có. PPPlayer có sẵn cho Windows 10 trở lên dưới dạng tải xuống trực tiếp. Không yêu cầu cửa hàng ứng dụng."
+      },
+      {
+        "q": "PPPlayer cung cấp những tính năng gì?",
+        "a": "PPPlayer bao gồm thư viện nhạc và video cục bộ, phát trực tuyến qua mạng, phụ đề, khám phá nghệ sĩ, nghệ sĩ liên quan, radio nghệ sĩ, danh sách phát nghệ sĩ, khám phá thể loại và trình phát toàn màn hình đẹp mắt. Tất cả đều miễn phí và không cần tài khoản."
+      },
+      {
+        "q": "Làm cách nào để tải PPPlayer?",
+        "a": "Bạn có thể tải PPPlayer trực tiếp từ trang web của chúng tôi cho macOS, Linux và Windows. Phiên bản di động sẽ sớm ra mắt."
+      },
+      {
+        "q": "Có phiên bản cao cấp (premium) không?",
+        "a": "Không. PPPlayer hoàn toàn miễn phí. Mọi thứ bạn thấy đều có sẵn miễn phí, không cần tài khoản."
+      },
+      {
+        "q": "Các định dạng phương tiện nào được hỗ trợ?",
+        "a": "PPPlayer hỗ trợ hầu hết tất cả các định dạng âm thanh và video, bao gồm MP3, FLAC, MP4, MKV và AVI. Nó cũng hỗ trợ luồng mạng và danh sách phát M3U/M3U8."
+      },
+      {
+        "q": "Có bất kỳ yêu cầu thiết lập đặc biệt nào đối với video không?",
+        "a": "Trên Windows, macOS, Android và iOS, PPPlayer hoạt động ngay sau khi cài đặt. Trên Linux, bạn có thể cần cài đặt các thư viện đa phương tiện tiêu chuẩn (như libmpv) tùy thuộc vào bản phân phối của bạn."
+      }
+    ],
+    "openSourceQuestion": "PPPlayer có phải là mã nguồn mở không?",
+    "openSourceAnswer": "Có. PPPlayer là phần mềm mã nguồn mở 100% theo giấy phép MIT. Bạn có thể sử dụng, nghiên cứu, sửa đổi và chia sẻ phần mềm một cách tự do. Hãy xem kho lưu trữ GitHub của chúng tôi để xem mã nguồn hoặc tham gia đóng góp."
+  },
+  "privacy": {
+    "title": "Chính sách Bảo mật",
+    "lastUpdated": "Cập nhật lần cuối: Tháng 4, 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Tổng quan",
+        "p": "PPPlayer (\"chúng tôi\", \"của chúng tôi\", \"ứng dụng\") cam kết bảo vệ quyền riêng tư của bạn. Chính sách này giải thích dữ liệu nào chúng tôi thu thập, tại sao và nó được sử dụng như thế nào khi bạn sử dụng PPPlayer trên macOS, Linux, Windows, iOS hoặc Android."
+      },
+      "s2": {
+        "title": "2. Không Yêu cầu Tài khoản",
+        "p": "PPPlayer không yêu cầu bạn tạo tài khoản. Chúng tôi không thu thập tên, địa chỉ email hoặc bất kỳ thông tin nhận dạng cá nhân nào để sử dụng ứng dụng."
+      },
+      "s3": {
+        "title": "3. Dữ liệu Chúng tôi Thu thập",
+        "p1": "Chúng tôi có thể thu thập các dữ liệu ẩn danh, không thể nhận dạng sau:",
+        "li1": "Báo cáo lỗi và nhật ký sự cố (để cải thiện độ ổn định của ứng dụng)",
+        "li2": "Phân tích sử dụng ẩn danh (sử dụng tính năng, thời lượng phiên)",
+        "li3": "Loại thiết bị và phiên bản hệ điều hành",
+        "p2": "Chúng tôi không thu thập: tên, email, thông tin thanh toán hoặc dữ liệu vị trí chính xác."
+      },
+      "s4": {
+        "title": "4. Dịch vụ Bên thứ ba",
+        "p": "PPPlayer có thể sử dụng dịch vụ của bên thứ ba cho siêu dữ liệu âm nhạc và phân tích. Các dịch vụ này có chính sách bảo mật riêng của họ. Chúng tôi khuyến khích bạn xem lại chúng."
+      },
+      "s5": {
+        "title": "5. Lưu giữ Dữ liệu",
+        "p": "Dữ liệu phân tích ẩn danh được lưu giữ trong tối đa 12 tháng. Nhật ký lỗi sẽ bị xóa sau 90 ngày."
+      },
+      "s6": {
+        "title": "6. Quyền của Bạn",
+        "p": "Vì chúng tôi không thu thập dữ liệu cá nhân, nên không có thông tin cá nhân nào để truy cập, xuất hoặc xóa. Nếu bạn có thắc mắc, hãy liên hệ với chúng tôi theo địa chỉ bên dưới."
+      },
+      "s7": {
+        "title": "7. Trẻ em",
+        "p": "PPPlayer không hướng tới trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập dữ liệu từ trẻ em."
+      },
+      "s8": {
+        "title": "8. Những Thay đổi",
+        "p": "Chúng tôi có thể cập nhật chính sách này theo thời gian. Chúng tôi sẽ ghi nhận ngày cập nhật cuối cùng ở đầu trang này."
+      },
+      "s9": {
+        "title": "9. Liên hệ",
+        "p": "Bạn có câu hỏi về chính sách này? Liên hệ với chúng tôi tại "
+      }
+    },
+    "back": "← Quay lại PPPlayer"
+  },
+  "terms": {
+    "title": "Điều khoản Dịch vụ",
+    "lastUpdated": "Cập nhật lần cuối: Ngày 11 tháng 9, 2026",
+    "sections": {
+      "s1": {
+        "title": "1. Chấp nhận Điều khoản",
+        "p": "Bằng cách tải xuống hoặc sử dụng PPPlayer, bạn đồng ý với các Điều khoản Dịch vụ này. Nếu bạn không đồng ý, vui lòng không sử dụng ứng dụng."
+      },
+      "s2": {
+        "title": "2. Sử dụng Ứng dụng",
+        "p": "PPPlayer là phần mềm mã nguồn mở, miễn phí. Việc sử dụng, sao chép, sửa đổi và phân phối phần mềm được điều chỉnh bởi giấy phép MIT trong kho lưu trữ dự án. Khi sử dụng ứng dụng, bạn đồng ý không:",
+        "li1": "Xóa thông báo bản quyền hoặc quyền hạn được yêu cầu bởi các giấy phép phần mềm hiện hành",
+        "li2": "Sử dụng ứng dụng để phân phối phần mềm độc hại hoặc nội dung có hại",
+        "li3": "Vi phạm bất kỳ luật hoặc quy định hiện hành nào khi sử dụng ứng dụng"
+      },
+      "s3": {
+        "title": "3. Không Yêu cầu Tài khoản",
+        "p": "PPPlayer không yêu cầu tạo tài khoản. Bạn có thể sử dụng tất cả các tính năng ngay sau khi tải xuống."
+      },
+      "s4": {
+        "title": "4. Sở hữu Trí tuệ",
+        "p": "Mã nguồn PPPlayer có sẵn theo giấy phép MIT. Các phần phụ thuộc của bên thứ ba giữ lại giấy phép riêng của họ. Âm nhạc, tác phẩm nghệ thuật và siêu dữ liệu vẫn tuân theo các quyền và giấy phép tương ứng của chúng; giấy phép phần mềm không cấp quyền đối với nội dung đó."
+      },
+      "s5": {
+        "title": "5. Từ chối Bảo đảm",
+        "p": "PPPlayer được cung cấp \"như hiện trạng\" mà không có bất kỳ loại bảo hành nào, rõ ràng hay ngụ ý. Chúng tôi không đảm bảo dịch vụ không bị gián đoạn hoặc ứng dụng sẽ không có lỗi."
+      },
+      "s6": {
+        "title": "6. Giới hạn Trách nhiệm",
+        "p": "Trong phạm vi tối đa được pháp luật cho phép, PPPlayer sẽ không chịu trách nhiệm cho bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt hoặc do hậu quả nào phát sinh từ việc bạn sử dụng hoặc không thể sử dụng ứng dụng."
+      },
+      "s7": {
+        "title": "7. Thay đổi Điều khoản",
+        "p": "Chúng tôi có quyền cập nhật các điều khoản này bất cứ lúc nào. Việc tiếp tục sử dụng ứng dụng sau khi có thay đổi đồng nghĩa với việc chấp nhận các điều khoản mới."
+      },
+      "s8": {
+        "title": "8. Liên hệ",
+        "p": "Bạn có câu hỏi về các điều khoản này? Hãy liên hệ với chúng tôi tại "
+      }
+    },
+    "back": "← Quay lại PPPlayer"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone & iPad",
+      "desc": "Sắp ra mắt trên TestFlight và App Store cho iPhone và iPad.",
+      "badge": "TestFlight"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Có sẵn trên Google Play cho điện thoại và máy tính bảng Android.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Tải xuống cho Windows 10 trở lên từ Microsoft Store.",
+      "badge": "Microsoft Store"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "Tải xuống trực tiếp cho macOS. Hỗ trợ Apple Silicon & Intel.",
+      "badge": "Tải xuống Trực tiếp"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Tải xuống trực tiếp thử nghiệm cho Linux. Tăng tốc phần cứng có thể khác nhau.",
+      "badge": "Thử nghiệm"
+    }
+  },
+  "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "Ngày 20 tháng 9, 2026",
+      "desc": "Một bản cập nhật lớn biến PPPlayer thành một trình phát đa phương tiện đầy đủ với tính năng hỗ trợ video và phát trực tuyến qua mạng.",
+      "added": "Đã thêm",
+      "changed": "Đã thay đổi",
+      "fixed": "Đã sửa",
+      "videoTitle": "Hỗ trợ Video Cục bộ",
+      "videoDesc": "Hỗ trợ phát lại và thư viện video cục bộ hoàn chỉnh với các nút điều khiển video và tự động tạo hình thu nhỏ.",
+      "streamTitle": "Phát Trực tuyến qua Mạng",
+      "streamDesc": "Hỗ trợ gốc cho các luồng mạng với khả năng phân tích danh sách phát M3U và phân giải URL trực tiếp.",
+      "subtitleTitle": "Phụ đề Nâng cao",
+      "subtitleDesc": "Hỗ trợ phụ đề toàn diện bao gồm tùy chỉnh, điều chỉnh độ trễ và giao diện lựa chọn trực quan.",
+      "speedTitle": "Tốc độ Phát & Phát tự động",
+      "speedDesc": "Đã thêm các điều khiển tốc độ phát linh hoạt và nút chuyển đổi tự động phát dễ truy cập ngay trong chế độ xem hàng đợi.",
+      "exportTitle": "Xuất Phương tiện",
+      "exportDesc": "Xuất danh sách phát tùy chỉnh và hàng đợi phát lại của bạn một cách liền mạch sang thiết bị cục bộ.",
+      "languagesTitle": "Ngôn ngữ Mới & Thể loại",
+      "languagesDesc": "Đã thêm bản địa hóa chính thức bằng tiếng Thổ Nhĩ Kỳ và tiếng Guarani, cũng như hỗ trợ duyệt qua các thể loại cục bộ.",
+      "stabilityTitle": "Đại tu Cốt lõi",
+      "stabilityDesc": "Đã đại tu kiến trúc lõi của công cụ phát lại để cải thiện độ ổn định, hỗ trợ header HTTP tùy chỉnh và xử lý thời gian chờ nghiêm ngặt."
+    },
+    "title": "Lịch sử cập nhật",
+    "subtitle": "Có gì mới trong PPPlayer.",
+    "v1_3_6": {
+      "version": "2.0.0",
+      "date": "Ngày 17 tháng 9, 2026",
+      "desc": "Bản phát hành chính thức cho Android trên Google Play Store.",
+      "added": "Đã thêm",
+      "androidTitle": "Bản phát hành Android",
+      "androidDesc": "Bản phát hành thử nghiệm ban đầu cho thiết bị Android. Hỗ trợ cho thiết bị di động đang được phát triển tích cực."
+    },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "Ngày 16 tháng 9, 2026",
+      "desc": "Cải tiến màn hình thư viện và sửa lỗi bố cục.",
+      "added": "Đã thêm",
+      "fixed": "Đã sửa",
+      "libraryTitle": "Cập nhật Màn hình Thư viện",
+      "libraryDesc": "Triển khai các cải tiến cho màn hình thư viện và giải quyết vấn đề hiển thị với các thẻ."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "Ngày 15 tháng 9, 2026",
+      "desc": "Hỗ trợ Picture-in-Picture, màn hình chờ gốc và hơn thế nữa.",
+      "added": "Đã thêm",
+      "fixed": "Đã sửa",
+      "pipTitle": "Phát lại Hình-trong-Hình (PiP)",
+      "pipDesc": "Đã thêm hỗ trợ cho chế độ phát lại Hình-trong-Hình (PiP) và điều hướng đáp ứng.",
+      "splashTitle": "Màn hình Chờ Gốc & Biểu tượng Thích ứng",
+      "splashDesc": "Đã thêm màn hình chờ gốc và biểu tượng ứng dụng thích ứng cho Android, iOS và Web.",
+      "uiTitle": "Điều chỉnh Giao diện",
+      "uiDesc": "Đã sửa lỗi định vị trình phát thu nhỏ để căn lề phải màn hình cho chính xác."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "Ngày 14 tháng 9, 2026",
+      "desc": "Cải tiến quy trình xây dựng tự động.",
+      "added": "Đã thêm",
+      "ciTitle": "Quy trình Tự động",
+      "ciDesc": "Đã thêm quy trình phát hành GitHub Actions để xây dựng tự động cho nhiều nền tảng."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "Ngày 14 tháng 9, 2026",
+      "desc": "Đồng bộ điều khiển phương tiện hệ thống và các tính năng cốt lõi.",
+      "added": "Đã thêm",
+      "syncTitle": "Đồng bộ Điều khiển Phương tiện Hệ thống",
+      "syncDesc": "Đã giới thiệu MediaSyncService để đồng bộ trạng thái phát lại với điều khiển phương tiện hệ thống, bao gồm thanh công cụ hình thu nhỏ trên thanh tác vụ Windows.",
+      "libraryTitle": "Lọc & Tìm kiếm Thư viện",
+      "libraryDesc": "Đã thêm khả năng lọc, sắp xếp và tìm kiếm vào màn hình thư viện."
+    },
+    "v1_3_1": {
+      "version": "1.3.1",
+      "date": "Ngày 14 tháng 9, 2026",
+      "desc": "Hoàn thành 100% bản dịch và sửa lỗi UI.",
+      "added": "Đã thêm",
+      "fixed": "Đã sửa",
+      "syncTitle": "Bản dịch Đầy đủ",
+      "syncDesc": "Đồng bộ hóa các khóa dịch thuật và áp dụng các bản dịch được hiệu đính thủ công trên tất cả 30 ngôn ngữ.",
+      "uiTitle": "Sửa lỗi UI và Liên kết",
+      "uiDesc": "Đã giải quyết các lỗi const widget trong Màn hình chính và Thư viện, và sửa các liên kết kho lưu trữ GitHub trong hộp thoại Giới thiệu."
+    },
+    "v1_3_0": {
+      "version": "1.3.0",
+      "date": "Ngày 13 tháng 9, 2026",
+      "desc": "Bản phát hành này đưa PPPlayer đến với nhiều người dùng toàn cầu hơn.",
+      "added": "Đã thêm",
+      "localizationTitle": "Ngôn ngữ Bổ sung",
+      "localizationDesc": "Đã thêm bản địa hóa cho tiếng Pidgin Nigeria, tiếng Filipino, tiếng Latvia, tiếng Bengal, tiếng Croatia, tiếng Mã Lai, tiếng Ba Tư và tiếng Estonia."
+    },
+    "back": "← Quay lại PPPlayer",
+    "v1_2_0": {
+      "version": "v1.2.0",
+      "date": "Ngày 12 tháng 9, 2026",
+      "desc": "Mở rộng hỗ trợ bản địa hóa với 10 ngôn ngữ mới.",
+      "added": "Đã thêm",
+      "fixed": "Đã sửa",
+      "lang10Title": "10 Ngôn ngữ Mới",
+      "lang10Desc": "Đã thêm hỗ trợ đầy đủ cho tiếng Indonesia, tiếng Miến Điện, tiếng Ba Lan, tiếng Đan Mạch, tiếng Kazakh, tiếng Séc, tiếng Hungary, tiếng Gruzia, tiếng Thụy Điển và tiếng Uzbek."
+    },
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "Ngày 12 tháng 9, 2026",
+      "desc": "Đã thêm bản địa hóa tiếng Ả Rập, tiếng Trung và sửa lỗi thay đổi kích thước trên macOS.",
+      "added": "Đã thêm",
+      "fixed": "Đã sửa",
+      "localizationTitle": "Mở rộng Bản địa hóa",
+      "localizationDesc": "Đã thêm bản địa hóa cho tiếng Ả Rập và tiếng Trung (Giản thể & Phồn thể).",
+      "layoutTitle": "Sửa lỗi Bố cục macOS",
+      "layoutDesc": "Đã sửa lỗi trên macOS khi trình phát video YouTube bị lệch khỏi vị trí trung tâm khi thay đổi kích thước cửa sổ ứng dụng."
+    },
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "Ngày 12 tháng 9, 2026",
+      "desc": "Đã sửa lỗi phát lại và làm mịn thanh tua khi khởi động ứng dụng.",
+      "fixed": "Đã sửa",
+      "snapTitle": "Lỗi Thanh tua khi Khởi động",
+      "snapDesc": "Đã sửa lỗi thanh tua ngay lập tức quay về vị trí bắt đầu khi trượt ngay sau khi khởi chạy ứng dụng.",
+      "durationTitle": "Thiếu Thời lượng",
+      "durationDesc": "Đã sửa lỗi thanh tua hiển thị thời lượng là 0:00 khi ứng dụng mới được khởi chạy."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "Ngày 11 tháng 9, 2026",
+      "desc": "Quốc tế hóa và bản địa hóa toàn diện trên toàn bộ ứng dụng và trang web.",
+      "new": "Mới",
+      "langTitle": "11 Ngôn ngữ Toàn cầu",
+      "langDesc": "Đã thêm hỗ trợ đầy đủ cho tiếng Tây Ban Nha, tiếng Pháp, tiếng Đức, tiếng Bồ Đào Nha, tiếng Ý, tiếng Nhật, tiếng Hàn, tiếng Trung, tiếng Hindi, tiếng Nga và tiếng Ả Rập.",
+      "pickerTitle": "Bộ chọn Ngôn ngữ trong Ứng dụng",
+      "pickerDesc": "Đã thêm bộ chọn ngôn ngữ trong mục Tùy chọn để áp dụng bản dịch ngay lập tức mà không cần khởi động lại ứng dụng.",
+      "osTitle": "Tích hợp cấp Hệ điều hành",
+      "osDesc": "Tích hợp ngôn ngữ nguyên bản cấp hệ điều hành trên Android 13+ và iOS để tự động đồng bộ hóa ngôn ngữ của ứng dụng."
+    },
+    "v1_0_6": {
+      "version": "v1.0.6",
+      "date": "Ngày 11 tháng 9, 2026",
+      "desc": "Bản vá nóng cho các bản cài đặt mới.",
+      "fixed": "Đã sửa",
+      "crashTitle": "Sửa Lỗi Sự cố Khởi động",
+      "crashDesc": "Đã sửa lỗi nghiêm trọng khiến ứng dụng bị sập trên màn hình trống ở các bản cài đặt mới do thiếu tệp cấu hình môi trường."
+    },
+    "v1_0_5": {
+      "version": "v1.0.5",
+      "date": "Ngày 11 tháng 9, 2026",
+      "desc": "Phát lại trong nền mượt mà trên macOS.",
+      "new": "Mới",
+      "fixed": "Đã sửa",
+      "appNapTitle": "Phát lại Không Gián đoạn trong Nền",
+      "appNapDesc": "Ngăn chặn tính năng App Nap của macOS tạm ngưng trình phát khi bị thu nhỏ, cho phép hàng đợi tiếp tục mà không bị gián đoạn."
+    },
+    "v1_0_4": {
+      "version": "v1.0.4",
+      "date": "Ngày 11 tháng 9, 2026",
+      "desc": "Phát hành tự động và ký mã.",
+      "new": "Mới",
+      "fixed": "Đã sửa",
+      "ciTitle": "Quy trình Phát hành Tự động",
+      "ciDesc": "Quy trình làm việc GitHub Actions để biên dịch nhất quán và ký mã macOS.",
+      "signedTitle": "Bản phát hành macOS đã Ký",
+      "signedDesc": "Bản phát hành macOS chính thức được ký và chứng thực hiện có sẵn trực tiếp trên trang web.",
+      "licenseTitle": "Giấy phép Mã nguồn mở",
+      "licenseDesc": "Đã thêm Giấy phép MIT vào kho lưu trữ.",
+      "submoduleFix": "Đã sửa đổi cấu hình thanh toán module phụ trong quy trình làm việc CI"
+    },
+    "v1_0_3": {
+      "version": "v1.0.3",
+      "date": "Ngày 10 tháng 9, 2026",
+      "desc": "Phát lại trong nền và độ ổn định.",
+      "new": "Mới",
+      "improved": "Đã cải thiện",
+      "fixed": "Đã sửa",
+      "hybridEngineTitle": "Công cụ Phát lại Lai",
+      "hybridEngineDesc": "Khả năng xử lý nền mạnh mẽ và phát lại màn hình khóa.",
+      "dedupTitle": "Khử Trùng lặp Lệnh",
+      "dedupDesc": "Đã thêm ID tạo để ngăn chặn các lệnh đa phương tiện bị chồng chéo và cũ thông qua WebView bridge.",
+      "queueAdvance": "Hàng đợi bài hát không tự động chuyển sang bản nhạc tiếp theo",
+      "resumeBug": "Bài hát đang bị tạm dừng lại bất ngờ tiếp tục phát khi chuyển từ tiền cảnh sang PiP hoặc chạy nền",
+      "precision": "Báo cáo độ chính xác đến từng mili giây về vị trí hiện tại của bài hát và thời lượng phát",
+      "linter": "Đã loại bỏ một số lỗi linter của IDE và dọn dẹp các tệp dư thừa"
+    },
+    "v1_0_2": {
+      "version": "v1.0.2",
+      "date": "Ngày 9 tháng 9, 2026",
+      "desc": "Tự động phát thông minh hơn, theo ngữ cảnh.",
+      "autoplayContextTitle": "Tự động Phát theo Ngữ cảnh",
+      "autoplayContextDesc": "Tự động phát hiện nay ưu tiên các bản nhạc của nghệ sĩ hiện tại trước khi thêm các nghệ sĩ liên quan vào hàng đợi.",
+      "tieredRecsTitle": "Công cụ Đề xuất Phân cấp",
+      "tieredRecsDesc": "Đề xuất hiện nghiêm ngặt sử dụng danh mục của nghệ sĩ mục tiêu thay vì tìm kiếm tương đối theo tên."
+    },
+    "v1_0_1": {
+      "version": "v1.0.1",
+      "date": "Ngày 9 tháng 9, 2026",
+      "desc": "Một trải nghiệm nghe tốt hơn.",
+      "new": "Mới",
+      "improved": "Đã cải thiện",
+      "fixed": "Đã sửa",
+      "autoplayTitle": "Tự động Phát",
+      "autoplayDesc": "Âm nhạc tiếp tục phát với các đề xuất dựa trên những gì bạn đang nghe.",
+      "discoverTitle": "Khám phá",
+      "discoverDesc": "Tìm kiếm âm nhạc dựa trên lịch sử nghe của bạn, nghệ sĩ và danh sách phát yêu thích.",
+      "tooltipsTitle": "Mẹo Công cụ Thanh tua Tương tác",
+      "tooltipsDesc": "Đã thêm các mẹo công cụ động theo sát con trỏ chuột khi bạn di chuột qua thanh tiến trình trình phát.",
+      "startup": "Khởi động nhanh hơn",
+      "recovery": "Khôi phục phát lại tốt hơn",
+      "macosMedia": "Đã cải thiện điều khiển đa phương tiện trên macOS",
+      "duplicateMedia": "Nhân bản điều khiển đa phương tiện trên macOS",
+      "stationHighlight": "Đánh dấu bản nhạc hiện tại của đài",
+      "seekbarPause": "Việc phát lại bị tạm dừng/dừng lại một cách bất ngờ khi kéo thanh tua",
+      "bottomBar": "Thanh trình phát phía dưới hiển thị hoàn toàn trong suốt và không thể đọc được trên macOS khi phát nhạc"
+    },
+    "v1_0_0": {
+      "version": "v1.0.0",
+      "date": "Tháng 9, 2026",
+      "desc": "Bản phát hành đầu tiên của PPPlayer.",
+      "spotify": "Siêu dữ liệu âm nhạc do Spotify cung cấp",
+      "youtube": "Phát âm thanh do YouTube cung cấp",
+      "playlists": "Danh sách phát, mục yêu thích và lịch sử nghe",
+      "platforms": "Hỗ trợ macOS, Windows và Linux"
+    }
+  },
+  "support": {
+    "title": "Hỗ trợ",
+    "subtitle": "Chúng tôi có thể giúp gì cho bạn?",
+    "contactTitle": "Liên hệ với Chúng tôi",
+    "contactDesc": "Đối với các thắc mắc chung, đối tác hoặc những câu hỏi không phù hợp cho GitHub, vui lòng liên hệ với chúng tôi tại contact@ppplayer.com.",
+    "githubTitle": "Cộng đồng & GitHub",
+    "githubDesc": "Khám phá mã nguồn, báo cáo lỗi, đề xuất tính năng hoặc đóng góp mã và bản dịch. Hãy cùng chúng tôi xây dựng trình phát đa phương tiện nguồn mở đỉnh cao.",
+    "githubBtn": "Xem trên GitHub"
+  },
+  "openSource": {
+    "badge": "Mã nguồn mở & miễn phí",
+    "title": "Bởi cộng đồng. Dành cho cộng đồng.",
+    "desc": "PPPlayer tự hào là mã nguồn mở. Hãy khám phá mã nguồn, báo cáo lỗi, đề xuất tính năng hoặc đóng góp đoạn mã của riêng bạn. Mỗi đóng góp đều làm cho trải nghiệm nghe trở nên tuyệt vời hơn cho tất cả mọi người.",
+    "source": "Xem mã nguồn trên GitHub",
+    "contribute": "Đóng góp",
+    "issues": "Báo cáo lỗi",
+    "license": "Giấy phép MIT"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Tin tức, cập nhật và câu chuyện từ đội ngũ PPPlayer.",
+    "readMore": "Đọc bài viết",
+    "minRead": "phút đọc",
+    "publishedOn": "Xuất bản vào",
+    "back": "← Quay lại Blog",
+    "noArticles": "Không tìm thấy bài viết nào cho ngôn ngữ này.",
+    "writtenBy": "Bởi",
+    "translationUnavailable": "Bài viết này không có sẵn bằng ngôn ngữ của bạn.",
+    "advertisements": "Quảng cáo",
+    "categories": {
+      "all": "Tất cả",
+      "discovery": "Khám phá",
+      "engineering": "Kỹ thuật",
+      "community": "Cộng đồng",
+      "guides": "Hướng dẫn",
+      "education": "Giáo dục",
+      "product": "Sản phẩm"
+    }
+  }
+}

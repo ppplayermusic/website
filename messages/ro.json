@@ -1,0 +1,592 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer | Player Media Gratuit și Open-Source",
+    "homeDesc": "Un player media gratuit, open-source. Fără cont. Fără abonament. Doar apasă play.",
+    "downloadTitle": "Descarcă PPPlayer Gratuit",
+    "downloadDesc": "Un player media gratuit, open-source. Fără cont. Fără abonament. Doar apasă play.",
+    "privacyTitle": "Politica de Confidențialitate",
+    "privacyDesc": "Politica de Confidențialitate pentru PPPlayer: aplicație media gratuită pentru macOS, Linux, Windows, iOS și Android.",
+    "termsTitle": "Termeni și Condiții",
+    "termsDesc": "Termeni și Condiții pentru PPPlayer: aplicație media gratuită pentru macOS, Linux, Windows, iOS și Android.",
+    "supportTitle": "Asistență - PPPlayer",
+    "supportDesc": "PPPlayer este un proiect independent, open-source. Pentru erori și idei de funcții, folosiți GitHub. Pentru alte întrebări, trimiteți un e-mail la contact@ppplayer.com.",
+    "blogTitle": "Blog | PPPlayer",
+    "blogDesc": "Noutăți, actualizări și povești de la echipa PPPlayer."
+  },
+  "nav": {
+    "features": "Funcționalități",
+    "download": "Descarcă Gratuit",
+    "support": "Asistență",
+    "contribute": "Contribuie",
+    "blog": "Blog"
+  },
+  "footer": {
+    "desc": "Un player media gratuit, open-source. Fără cont. Fără abonament. Doar ascultă.",
+    "product": "Produs",
+    "features": "Funcționalități",
+    "download": "Descarcă",
+    "platforms": "Platforme",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Social",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Legal",
+    "privacy": "Confidențialitate",
+    "terms": "Termeni",
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "Vezi codul sursă pe GitHub",
+    "contribute": "Contribuie",
+    "changelog": "Istoric modificări",
+    "linux": "Linux",
+    "blog": "Blog"
+  },
+  "cookie": {
+    "title": "Apreciem confidențialitatea ta",
+    "desc": "Folosim cookie-uri pentru a analiza traficul site-ului și a îmbunătăți experiența ta. Făcând clic pe \"Acceptă\", ești de acord cu utilizarea de către noi a cookie-urilor.",
+    "decline": "Refuză Tot",
+    "accept": "Acceptă Tot"
+  },
+  "hero": {
+    "title1": "Media.",
+    "title2": "Fără obstacole.",
+    "desc": "Un player media gratuit, open-source. Fără cont. Fără abonament. Doar apasă play.",
+    "getIos": "iOS (TestFlight)",
+    "getAndroid": "Descarcă pentru Android",
+    "getMac": "Descarcă pentru Mac",
+    "getWindows": "Descarcă pentru Windows",
+    "getLinux": "Linux (Experimental)",
+    "badge": "Gratuit & open source",
+    "source": "Vezi codul sursă pe GitHub"
+  },
+  "discover": {
+    "title": "Găsește<br></br>ceva<br></br>ce merită ascultat."
+  },
+  "artistRadio": {
+    "title": "Ascultare nesfârșită."
+  },
+  "goDeeper": {
+    "bgText": "URMĂREȘTE",
+    "title": "Urmărește muzica."
+  },
+  "pressPlay": {
+    "title": "Apoi, doar ascultă."
+  },
+  "featureGallery": {
+    "title": "Tot ce ai nevoie.",
+    "subtitle": "O experiență nativă minunată, creată pentru performanță.",
+    "searchTitle": "Găsește exact ce îți dorești.",
+    "searchDesc": "Caută la nivel global printre piese, artiști, albume și videoclipuri locale, instantaneu.",
+    "queueTitle": "Un playlist perfect ordonat.",
+    "queueDesc": "Gestionează ce rulează în continuare cu o coadă superbă, ușor de rearanjat.",
+    "favTitle": "Fișierele tale, regulile tale.",
+    "favDesc": "Construiește-ți biblioteca personală dintr-un singur clic. Întotdeauna la îndemână.",
+    "contextTitle": "Nativ din stadiul de design.",
+    "contextDesc": "Fă clic dreapta oriunde. Meniuri native frumoase, sensibile la context.",
+    "videoTitle": "Redare Video Locală.",
+    "videoDesc": "Redă fișiere video locale offline cu subtitrări, PiP și Încadrare/Umplere. Formatele acceptate variază în funcție de platformă.",
+    "streamsTitle": "Streaming de Rețea.",
+    "streamsDesc": "Aplicația redă liste de redare M3U/PLS și adrese URL compatibile. Pentru YouTube se utilizează un player integrat. Nu toate videoclipurile din surse terțe pot fi redate."
+  },
+  "noAccount": {
+    "title": "Fără cont.",
+    "subtitle": "Gratuit & open source"
+  },
+  "platforms": {
+    "title": "Muzica ta. Dispozitivele tale.",
+    "subtitle": "Nativ și deosebit pe macOS, Linux, Windows, Android și iOS."
+  },
+  "downloadCTA": {
+    "title": "Doar apasă play.",
+    "getIos": "Descarcă pentru iOS",
+    "getAndroid": "Descarcă pentru Android",
+    "getMac": "Descarcă pentru Mac",
+    "getWindows": "Descarcă pentru Windows",
+    "notAvailable": "Încă nu este disponibil. În prezent, doar versiunea pentru macOS poate fi descărcată.",
+    "notAvailableTitle": "În curând",
+    "okayBtn": "În regulă",
+    "getLinux": "Descarcă pentru Linux",
+    "modalTitle": "Descarcă pentru {platform}",
+    "modalDesc": "Alege cum dorești să instalezi PPPlayer pe dispozitivul tău {platform}.",
+    "primaryDownload": "Descarcă",
+    "directDownload": "Descărcare Directă",
+    "comingSoon": "În curând",
+    "cancel": "Anulează",
+    "downloadFor": "Descarcă pentru {platform}",
+    "os": "Sistem de Operare",
+    "arch": "Arhitectură",
+    "memory": "Memorie",
+    "internet": "Internet",
+    "reqStreaming": "Necesar pentru streaming",
+    "reqTitle": "Cerințe pentru {platform}",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina sau mai nou",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Recomandat)"
+      },
+      "windows": {
+        "os": "Windows 10 sau mai nou (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Recomandat)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 sau mai nou (Experimental)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Recomandat)"
+      },
+      "ios": {
+        "os": "iOS 13.0 sau mai nou",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Recomandat)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) sau mai nou",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Recomandat)"
+      }
+    }
+  },
+  "downloadPage": {
+    "badge": "PPPlayer 1.0 este acum disponibil",
+    "title": "Descarcă <gradient>PPPlayer</gradient>",
+    "subtitle": "Alege platforma ta. Începe să asculți în câteva secunde.",
+    "desc": "Nu este necesar un cont. Fără e-mail. Fără înregistrare. Doar ascultă.",
+    "windowsReqLabel": "Cerințe de sistem Windows:",
+    "windowsReqDesc": "Windows 10 sau o versiune ulterioară (64 de biți). ~Descărcare de 50 MB. Nu necesită Microsoft Store."
+  },
+  "faq": {
+    "badge": "Întrebări frecvente",
+    "title": "<gradient>Întrebări</gradient> comune",
+    "subtitle": "Tot ce trebuie să știi despre PPPlayer.",
+    "items": [
+      {
+        "q": "Este PPPlayer gratuit?",
+        "a": "Da. PPPlayer este 100% gratuit. Fără abonamente, fără achiziții în aplicație și fără costuri ascunse."
+      },
+      {
+        "q": "Trebuie să creez un cont?",
+        "a": "Nu. Nu aveți nevoie de o adresă de e-mail, de un cont sau de o autentificare de niciun fel. Doar descărcați, deschideți și începeți să ascultați."
+      },
+      {
+        "q": "Este PPPlayer disponibil pentru iPhone?",
+        "a": "PPPlayer pentru iOS este în curs de dezvoltare. Lucrăm activ la o lansare pe App Store."
+      },
+      {
+        "q": "Este PPPlayer disponibil pentru Android?",
+        "a": "PPPlayer pentru Android este în prezent în curs de dezvoltare. Lucrăm activ la o lansare pe Google Play Store."
+      },
+      {
+        "q": "Pot folosi PPPlayer pe Windows?",
+        "a": "Da. PPPlayer este disponibil pentru Windows 10 și versiunile ulterioare ca descărcare directă. Nu este necesar un magazin."
+      },
+      {
+        "q": "Ce caracteristici oferă PPPlayer?",
+        "a": "PPPlayer include biblioteci de muzică și videoclipuri locale, fluxuri de rețea, subtitrări, descoperire de artiști, artiști apropiați, radio cu artiști, playlisturi cu artiști, explorare pe genuri muzicale și un player impecabil pe tot ecranul. Este gratuit în întregime și nu este necesar niciun cont."
+      },
+      {
+        "q": "Cum descarc PPPlayer?",
+        "a": "Puteți descărca PPPlayer direct de pe site-ul nostru pentru macOS, Linux și Windows. Versiunile mobile vor apărea în curând."
+      },
+      {
+        "q": "Există o versiune premium?",
+        "a": "Nu. PPPlayer este complet gratuit. Tot ce vedeți este disponibil fără niciun cost, fără a fi nevoie de un cont."
+      },
+      {
+        "q": "Ce formate media sunt acceptate?",
+        "a": "PPPlayer acceptă aproape toate formatele audio și video, inclusiv MP3, FLAC, MP4, MKV și AVI. De asemenea, suportă fluxuri de rețea și playlisturi M3U/M3U8."
+      },
+      {
+        "q": "Există cerințe speciale de configurare pentru videoclipuri?",
+        "a": "În Windows, macOS, Android și iOS, PPPlayer funcționează din prima clipă. În Linux, poate fi necesară instalarea unor biblioteci media standard (cum ar fi libmpv), în funcție de distribuție."
+      }
+    ],
+    "openSourceQuestion": "Este PPPlayer open source?",
+    "openSourceAnswer": "Da. PPPlayer este 100% open-source sub licența MIT. Puteți utiliza, studia, modifica și partaja software-ul în mod liber. Consultați depozitul nostru GitHub pentru a vizualiza codul sursă sau pentru a vă implica."
+  },
+  "privacy": {
+    "title": "Politica de confidențialitate",
+    "lastUpdated": "Ultima actualizare: Aprilie 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Prezentare generală",
+        "p": "PPPlayer („noi”, „al nostru”, „aplicația”) se angajează să vă protejeze confidențialitatea. Această politică explică ce date colectăm, de ce și cum sunt utilizate atunci când utilizați PPPlayer pe macOS, Linux, Windows, iOS sau Android."
+      },
+      "s2": {
+        "title": "2. Nu este necesar un cont",
+        "p": "PPPlayer nu vă solicită să creați un cont. Nu colectăm numele dumneavoastră, adresa de e-mail sau orice informații de identificare personală pentru a utiliza aplicația."
+      },
+      "s3": {
+        "title": "3. Datele pe care le colectăm",
+        "p1": "Putem colecta următoarele date anonime, care nu pot fi identificate:",
+        "li1": "Rapoarte de blocare și jurnale de erori (pentru a îmbunătăți stabilitatea aplicației)",
+        "li2": "Analize anonime de utilizare (utilizarea funcțiilor, durata sesiunii)",
+        "li3": "Tipul de dispozitiv și versiunea sistemului de operare",
+        "p2": "Nu colectăm: nume, adrese de e-mail, informații de plată sau date precise privind locația."
+      },
+      "s4": {
+        "title": "4. Servicii terțe",
+        "p": "PPPlayer poate utiliza servicii terțe pentru metadate muzicale și analize. Aceste servicii au propriile politici de confidențialitate. Vă încurajăm să le revizuiți."
+      },
+      "s5": {
+        "title": "5. Păstrarea datelor",
+        "p": "Datele analitice anonime sunt păstrate timp de maximum 12 luni. Jurnalele de blocare sunt șterse după 90 de zile."
+      },
+      "s6": {
+        "title": "6. Drepturile dumneavoastră",
+        "p": "Deoarece nu colectăm date cu caracter personal, nu există informații personale pe care să le accesăm, exportăm sau ștergem. Dacă aveți întrebări, contactați-ne la adresa de mai jos."
+      },
+      "s7": {
+        "title": "7. Copii",
+        "p": "PPPlayer nu este destinat copiilor sub 13 ani. Nu colectăm cu bună știință date de la copii."
+      },
+      "s8": {
+        "title": "8. Modificări",
+        "p": "Este posibil să actualizăm periodic această politică. Vom menționa data ultimei actualizări în partea de sus a acestei pagini."
+      },
+      "s9": {
+        "title": "9. Contact",
+        "p": "Întrebări despre această politică? Contactați-ne la adresa "
+      }
+    },
+    "back": "← Înapoi la PPPlayer"
+  },
+  "terms": {
+    "title": "Termeni și condiții de utilizare",
+    "lastUpdated": "Ultima actualizare: 11 septembrie 2026",
+    "sections": {
+      "s1": {
+        "title": "1. Acceptarea Termenilor",
+        "p": "Prin descărcarea sau utilizarea PPPlayer, sunteți de acord cu prezenții Termeni și Condiții de utilizare. Dacă nu sunteți de acord, vă rugăm să nu utilizați aplicația."
+      },
+      "s2": {
+        "title": "2. Utilizarea aplicației",
+        "p": "PPPlayer este un software gratuit, cu sursă deschisă. Utilizarea, copierea, modificarea și distribuirea software-ului sunt reglementate de licența MIT din depozitul proiectului. Atunci când utilizați aplicația, sunteți de acord să nu:",
+        "li1": "Eliminați drepturile de autor sau avizele de permisiune cerute de licențele software aplicabile",
+        "li2": "Utilizați aplicația pentru a distribui malware sau conținut dăunător",
+        "li3": "Încălcați orice legi sau reglementări aplicabile în timpul utilizării aplicației"
+      },
+      "s3": {
+        "title": "3. Fără cont necesar",
+        "p": "PPPlayer nu necesită crearea unui cont. Puteți utiliza toate funcțiile imediat după descărcare."
+      },
+      "s4": {
+        "title": "4. Proprietate intelectuală",
+        "p": "Codul sursă al programului PPPlayer este disponibil sub licența MIT. Componentele terțe își păstrează propriile licențe. Muzica, materialele grafice și metadatele rămân supuse drepturilor și licențelor respective; licența programului nu oferă drepturi de a utiliza acest tip de conținut."
+      },
+      "s5": {
+        "title": "5. Declinarea garanțiilor",
+        "p": "PPPlayer este furnizat „ca atare”, fără nicio garanție, expresă sau implicită. Nu garantăm servicii neîntrerupte sau că aplicația nu va avea erori."
+      },
+      "s6": {
+        "title": "6. Limitarea răspunderii",
+        "p": "În măsura maximă permisă de lege, PPPlayer nu va fi răspunzător pentru niciun fel de daune indirecte, accidentale, speciale sau de consecință rezultate din utilizarea sau incapacitatea dumneavoastră de a utiliza aplicația."
+      },
+      "s7": {
+        "title": "7. Modificarea Termenilor",
+        "p": "Ne rezervăm dreptul de a actualiza acești termeni în orice moment. Utilizarea în continuare a aplicației după modificări constituie acceptarea noilor termeni."
+      },
+      "s8": {
+        "title": "8. Contact",
+        "p": "Întrebări legate de acești termeni? Contactați-ne la adresa "
+      }
+    },
+    "back": "← Înapoi la PPPlayer"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone și iPad",
+      "desc": "În curând pe TestFlight și App Store pentru iPhone și iPad.",
+      "badge": "TestFlight"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Disponibil pe Google Play pentru telefoanele și tabletele Android.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Descărcați pentru Windows 10 și versiunile mai noi din Microsoft Store.",
+      "badge": "Magazinul Microsoft"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "Descărcare directă pentru macOS. Compatibil cu Apple Silicon și procesoarele Intel.",
+      "badge": "Descărcare directă"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Descărcare directă experimentală pentru Linux. Accelerarea hardware poate varia.",
+      "badge": "Experimental"
+    }
+  },
+  "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "20 Septembrie 2026",
+      "desc": "O actualizare majoră care transformă PPPlayer într-un player media complet cu funcționalitate pentru redare video și streaming în rețea.",
+      "added": "Adăugat",
+      "changed": "Modificat",
+      "fixed": "Reparat",
+      "videoTitle": "Redare video locală",
+      "videoDesc": "Aplicația acceptă bibliotecă video locală completă și redare interactivă care include controale video și generarea automată a miniaturilor.",
+      "streamTitle": "Streaming de rețea",
+      "streamDesc": "Asistență nativă pentru fluxurile de rețea cu posibilitatea de analiză a listelor de redare M3U și de preluare directă a link-urilor URL.",
+      "subtitleTitle": "Subtitrări Avansate",
+      "subtitleDesc": "Capacități excelente de integrare a subtitrărilor ce permit personalizarea avansată, ajustarea setărilor de întârziere și interfața facilă pentru selectare.",
+      "speedTitle": "Redarea rapidă și automatizată",
+      "speedDesc": "S-au adăugat opțiuni flexibile pentru redarea rapidă și un buton comutator de pornire automată care este direct accesibil în meniul cu așteptări.",
+      "exportTitle": "Export media",
+      "exportDesc": "Exportați uniform și natural playlisturile și listele de așteptare de redare personalizate către un dispozitiv local.",
+      "languagesTitle": "Limbi și Genuri muzicale Noi",
+      "languagesDesc": "Am adăugat limbile oficiale Turcă și Guarani pentru o acoperire geografică sporită și capabilitatea de redare a stilurilor muzicale la nivel local.",
+      "stabilityTitle": "Îmbunătățirea Componentelor De Bază",
+      "stabilityDesc": "Au fost refăcute complet platformele arhitecturii nucleului motorului de redare pentru îmbunătățirea stabilității și pentru implementarea posibilității utilizării cu un timp-limită precis cu antete HTTP customizabile."
+    },
+    "title": "Jurnal de modificări",
+    "subtitle": "Ce este nou în PPPlayer.",
+    "v1_3_6": {
+      "version": "2.0.0",
+      "date": "17 septembrie 2026",
+      "desc": "Versiune oficială Android în Magazinul Google Play.",
+      "added": "Adăugat",
+      "androidTitle": "Lansare Android",
+      "androidDesc": "Lansare inițială de test pentru dispozitivele Android. Suportul pentru dispozitive mobile este în curs de dezvoltare activă."
+    },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "16 septembrie 2026",
+      "desc": "Îmbunătățiri ale ecranului bibliotecii și remedieri ale designului adaptiv.",
+      "added": "Adăugat",
+      "fixed": "Reparat",
+      "libraryTitle": "Actualizări ale ecranului Bibliotecă",
+      "libraryDesc": "S-au implementat îmbunătățiri la ecranul cu biblioteci muzicale și s-au remediat problemele la aspectul cardurilor media."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "15 septembrie 2026",
+      "desc": "Redare audio și video (Picture-in-Picture), pagini de întâmpinare autohtone și multe altele.",
+      "added": "Adăugat",
+      "fixed": "Reparat",
+      "pipTitle": "Modul redare imagine-în-imagine",
+      "pipDesc": "Posibilitate activare redare imagine-în-imagine (PiP) și sistem navigație receptivă.",
+      "splashTitle": "Pagini introductive locale și Icoane Adaptoare",
+      "splashDesc": "Adăugat icoane pe panouri de lansare sau de așteptare complet native și aplicații ușor modificate pentru Android, iOS și versiunile Web.",
+      "uiTitle": "Configurări Vizuale de Design",
+      "uiDesc": "Rectificare afișaj mini-player care asigură centrarea de bază și adecvată dinspre marginea superioară a dreptei paginii monitorului."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "14 septembrie 2026",
+      "desc": "Varianta cu compilare auto-automatizată a programelor și a fișierelor procedurale îmbunătățite.",
+      "added": "Adăugat",
+      "ciTitle": "Metodologii Operaționale Sistematizate",
+      "ciDesc": "Au apărut instrumente adăugate GitHub Actions concepute a aduce lansări automatizate pe cele mai importante structuri cross-platform."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "14 septembrie 2026",
+      "desc": "Sincronizare sisteme panouri multi-media integrate alături de trăsături esențiale interconectabile.",
+      "added": "Adăugat",
+      "syncTitle": "Sistem de Control Media Sincronizat",
+      "syncDesc": "Tehnologia MediaSyncService integrată facilitează armonizarea setului de redare și monitorizare în combinație cu controllere media, luând în considerare bara vizuală sub formă de ferestre miniaturizate (Windows thumbnail bar).",
+      "libraryTitle": "Opțiuni de Căutare Avansată",
+      "libraryDesc": "Adăugare module inteligente care filtrează, triază rapid, afișând doar detalii ce prezintă un real interes pentru utilizator (Căutare)."
+    },
+    "v1_3_1": {
+      "version": "1.3.1",
+      "date": "14 septembrie 2026",
+      "desc": "O localizare a traducerii proporțională și adecvată - rata de redare tradusă corect 100% și fixare anomalii vizuale element interfață web.",
+      "added": "Adăugat",
+      "fixed": "Reparat",
+      "syncTitle": "Paritatea Lingvistică Extinsă",
+      "syncDesc": "Set tradus integral (cu atenție și minuțios monitorizat constant pentru o fidelizare exactă a cuvintelor originare), prin stabilizare permanentă - 30 limbi actuale sincronizate.",
+      "uiTitle": "Remedieri elemente interfață (UI) și link-uri.",
+      "uiDesc": "Erorile de componente din Panoul Acasă/Aplicații sau Biblioteca Virtuală rectificate, corectat fiind aspectul URL-ului cu link extern conectiv la repozitorul (GitHub) din căsuța cu Despre (Informații)."
+    },
+    "v1_3_0": {
+      "version": "1.3.0",
+      "date": "13 septembrie 2026",
+      "desc": "Versiunea recentă facilitează un nivel superior al posibilității audiențelor globale să identifice și exploreze aplicația-platformă denumită generic PPPlayer.",
+      "added": "Adăugat",
+      "localizationTitle": "Limbaje lingvistice Opționale Suplimentare",
+      "localizationDesc": "Traduceri pentru Nigerian Pidgin, Filipineză, Letonă, Bengaleză, Croată, Malaieză, Persană și Estonă sunt prezente astăzi."
+    },
+    "back": "← Înapoi la PPPlayer",
+    "v1_2_0": {
+      "version": "v1.2.0",
+      "date": "12 septembrie 2026",
+      "desc": "Un orizont lărgit pentru interfețele care suportă caracteristici traduse și adoptare pentru celelalte limbi noi cu excepția setului original (de engleză) prin adăugarea completă de funcționalități ce integrează încă 10 limbi internaționale.",
+      "added": "Adăugat",
+      "fixed": "Reparat",
+      "lang10Title": "10 Limbi Noi Implementate",
+      "lang10Desc": "Încorporarea lingvistică include sprijin tehnic complet adaptabil - Indoneziană, Birmaneză, Poloneză, Daneză, Kazahă, Cehă, Maghiară, Georgiană, Suedeză și Uzbekă."
+    },
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "12 septembrie 2026",
+      "desc": "Au fost înregistrate optimizări pe interfața arăbească, cea de influență orientală asiată - versiunea limbii oficial-naționale și clasică - alături de corectare bug-uri dimensionale privind redimensionare fereastră pe MacOs.",
+      "added": "Adăugat",
+      "fixed": "Reparat",
+      "localizationTitle": "Aria lingvistică lărgită de acțiune și recunoaștere la nivel structural.",
+      "localizationDesc": "Cresc variante de dialog audio cu traducere automată și adaptare pentru module cuprinse din Arabă și Chineză (Simplificată și Tradițională).",
+      "layoutTitle": "Fix-ul structural al Panourilor din sistemul operare MacOs.",
+      "layoutDesc": "Afișajul care genera confuzie sau dezactivarea video a fost anihilat și nu vor mai ieși din conturul video de pe YouTube elementele ce influențează modificările fizice efectuate de pe programare a mărimilor ferestrelor."
+    },
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "12 septembrie 2026",
+      "desc": "Corectat eroarea afișării fișierelor de fundal audio media la momentul vizualizărilor pe play, respectiv s-a fixat opțiunea cursorului liniar din meniul Start pe sistem.",
+      "fixed": "Reparat",
+      "snapTitle": "Pornire Sistem Eroare Cursor (Secțiune Media Afișată)",
+      "snapDesc": "Setările sunt stabile după un scurt episod critic pe o scurtă repriză pe cursor. Mișcările cursorului din linia timpului după pornirea platformei aplicației - s-au anihilat reflexele automate, de respunere în funcțiune automată a comenzilor nedorite, de a fi la interval de secunda '0'.",
+      "durationTitle": "Câteva minute nedeterminate.",
+      "durationDesc": "Lansarea player-ului a eliminat din istoric eroarea cronometrării afișate la secțiunea temporizată (Timpul cu valori setate de durata piesei media/audio va fi perfect exact pe 0:00 - setată prin start - fără eroare afișaj cu lipsă semnal audio/video sau alte anomalii cronometrice pe repriză media)"
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "11 septembrie 2026",
+      "desc": "Componente noi implementate și localizare transcontinentală exhaustivă sub forma unui program de platformă dedicat.",
+      "new": "Nou",
+      "langTitle": "Cele 11 limbi universale",
+      "langDesc": "Susținere adaptată extinsă (în totalitate) pe variante limbă ca: Engleză, Franceză, Spaniolă, Germană, Portugheză, Italiană, Japoneză, Coreeană, Chineză, Hindi, Rusă, Arabă.",
+      "pickerTitle": "Un selectiv component inter-aplicativ lingvistic din meniul software",
+      "pickerDesc": "Acum, setul preferințelor încorporat în aplicație vine echipat un selectiv interactiv cu variante regionale și unelte-software utile. Transformă dinamic opțiunile traductibile de sistem fără necesitatea reîncărcării prelungite.",
+      "osTitle": "Structură sistem-logic-nativă operațională integrată la scară software OS.",
+      "osDesc": "Lansări operative integrate organic în medii native (ca interfețele iOS sau un set OS-13 Android) care contribuie masiv la adaptarea limbajului nativ pentru toate modulelor prin transfer, de program, operativ simultan, prin intermediul aceluiași limbaj prestabilit al platformelor software vizate."
+    },
+    "v1_0_6": {
+      "version": "v1_0_6",
+      "date": "11 septembrie 2026",
+      "desc": "Patch/Actualizare majoră pentru un fix permanent și curățat în urma instanțelor cu programe reinstalate proaspăt pe terminal.",
+      "fixed": "Reparat",
+      "crashTitle": "Reparație pană (Restartare forțată)",
+      "crashDesc": "A fost corectat scenariul crunt care declanșa închiderea panoului de fond al aplicației către un fundal vizual de blocaj complet gol sau invalid pe medii abia-instalate din cauza absenței complete sau dezmembrării fișierelor vitale a mediilor locale - fișier config setare mediu ambient."
+    },
+    "v1_0_5": {
+      "version": "v1_0_5",
+      "date": "11 septembrie 2026",
+      "desc": "Flux sonor muzical imperturbabil din fundal pe dispozitive macOS.",
+      "new": "Nou",
+      "fixed": "Reparat",
+      "appNapTitle": "Acompaniament auditiv cursiv fără goluri",
+      "appNapDesc": "Opțiunile mediului App Nap de sub egida platformelor macOS au fost stopate cu caracter interzis din procesele ofensive care perturbau un set-muzical-player pus în pauză atunci când platformele media sau vizual-video dispăreau prin simpla micșorare panou a ferestrei de vizualizare (Player window minimized) facilitând ascultarea continuă fără să afecteze o aglomerare a fișierelor."
+    },
+    "v1_0_4": {
+      "version": "v1_0_4",
+      "date": "11 septembrie 2026",
+      "desc": "O procedură avansată - sistem lansări de aplicație de nivel operațional cu module semnate și actualizate automatizate periodic.",
+      "new": "Nou",
+      "fixed": "Reparat",
+      "ciTitle": "Lansare/Conductă lansări programatic",
+      "ciDesc": "Configurarea panoului (Acțiunile din Git-Hub) de flux sistemic ce ajută să creăm panouri stabile pe mediul MacOS cu programul-modul pentru validare (Cod valid cu semnare).",
+      "signedTitle": "Seria Lansărilor pe panoul MacOS Semnate Oficial",
+      "signedDesc": "Aplicațiile/Seriile MacOS acreditate sau avizate ca securizate în urma eliberării setărilor oficial-operative și autentificate. Sunt oficiale ca o formă de promovare sigură dinspre sursa directă a portalurilor pe panoul siteului propriu-zis.",
+      "licenseTitle": "Norme cu caracter liber Open-Source/Condiții Open-Source",
+      "licenseDesc": "Includerea elementului ce adeverește sursa-liberă de acces - normele Licență-MIT (Conform regulilor setului) a fost amplasată cu precădere sub zona centrală (Panoul Depozitarului) al datelor.",
+      "submoduleFix": "Regim rearanjat sau rectificat de proceduri și operații funcționale vizavi de o configurație ce controlează modulul preluat pe module externe sau de set din fluxul-integrat pe funcția CI (Continuous Integration)"
+    },
+    "v1_0_3": {
+      "version": "v1_0_3",
+      "date": "10 septembrie 2026",
+      "desc": "Funcționalități redare fișiere audio ambientale și performanță ridicată.",
+      "new": "Nou",
+      "improved": "Îmbunătățit",
+      "fixed": "Reparat",
+      "hybridEngineTitle": "Platformă Modulator (Modulator Audio) Hibrid",
+      "hybridEngineDesc": "Procedură analitică avansată cu putere maximă pe panoul background în vederea unui rulaj de fundal fiabil al capacității sau abilităților cu fișiere media sau piese de rulaj din zona-fondului cu monitorul protejat/blocat de acțiuni externe. (Lock-screen)",
+      "dedupTitle": "Suprapunerile multiple (Duplicate de comenzi)",
+      "dedupDesc": "Secțiuni-cod care dețin parametri și ID unic sau caracteristici alocate pe generația în cauză sunt incorporate pentru un scop anume ce vizează evitarea unei interacțiuni vicioase și blocante din partea seturilor de acționări ale mediului ce ar rezulta printr-o stocare precară în zona punctului/conexiune-bridge sau pilonul (WebView).",
+      "queueAdvance": "Un pachet ce stagnează la redare pentru playlistul melodiei fără a parcurge o schimbare ritmică către setul melodiei imediat la trecerea intervalului.",
+      "resumeBug": "Segment pus forțat pe o poziție înghețată sau de repaus (Paused-track) care generează reacții vizuale spontane imprevizibile sau relansări sonore ce apar atunci când comutăm spre seturile ascunse de tip PiP din zona vizibilă către un cadru non-vizibil dintr-un format restrâns/fundal sau ascuns integral.",
+      "precision": "Afișaj tehnic/raportări matematice performante în timpi optimi-micșorați la nivel secundar - milisecunde de actualizare continuă raportate conform parametrilor poziției-currente a pistei (track-ului) care este rulat și, mai ales, corelat funcțional cu valoarea ce redă timpul estimat și de durată integral din funcția temporală a redării audio/video respective.",
+      "linter": "Am neutralizat multiple anomalii raportate ce afectau procesul IDE-ului interactiv (linter errros) din secțiunea cu codurile și, ca o curățare igienizantă periodic-sistematică am golit panoul-cadru al aplicațiilor dintr-o supraaglomerare creată de documentele arhivă redundante."
+    },
+    "v1_0_2": {
+      "version": "v1_0_2",
+      "date": "9 septembrie 2026",
+      "desc": "Ajustarea performantă pentru pornirile de media la comanda de tip autoplay a fișierului pe model interactiv (bazat sau structurat contextual).",
+      "autoplayContextTitle": "Senzorul și Sistemul Conștient pentru Redarea Muzicii Automate a Fluxurilor cu Informație.",
+      "autoplayContextDesc": "Reglajul setului pentru porniri ce determină acționări spontane muzicale ia în prealabil prioritare doar acele fragmente-cod (sau piste/piese de muzică vizibil selectată la artist curent - redând informația dorită sau țintită) cu efectiv dinainte ce ar propune/adăuga secțiuni pe fundal la acei cântăreți sub categorie (Asociați) direct în ramificația-coadă a redărilor audio-video sau în opțiunile de continuare/înșiruite aleatorii vizuale.",
+      "tieredRecsTitle": "Metodă Avansată a Sistemului (Un Engine cu Motor Integrat Pentru Sugestiile Inteligente ale Articolelor)",
+      "tieredRecsDesc": "Repertoriul sugestiilor bazat (Recs-Recomandări) care propune seturile media funcționează de la un moment fix-strict numai integrând un număr sau repertoriu concret stabilit în dosar sau librăria de titluri sau lucrări ale muzicienilor dintr-o nișă selectivă ca o sursă principală direcționată (Target) ca bază spre care e îndreptat direct acest tip de căutări ce utilizează sau vizează strictul necesar și exclude prin o serie logică predefinită modele ambigue vizuale/vagi ale parametrului cu datele-nume asociate incerte pe un mediu/nivel de bază sau funcțiile de la instrumente pe nume sau nume fuzzy-search/vagi/căutare oarbă."
+    },
+    "v1_0_1": {
+      "version": "v1_0_1",
+      "date": "9 septembrie 2026",
+      "desc": "Bucură-te de trăiri și momente perfect calibrate pe senzații muzicale incomparabil îmbunătățite la sesiunile lungi sau experiențele cu funcții noi auditive și vizuale.",
+      "new": "Nou",
+      "improved": "Îmbunătățit",
+      "fixed": "Reparat",
+      "autoplayTitle": "Modul inteligent pentru Acționările automate ale Redărilor muzicale (Autoplay)",
+      "autoplayDesc": "Ritmic sau fluid, ambientul audio parcurge pe flux propriu melodii care sunt în armonie perfectă cu gusturile (pe profil recomandare audio-media), generând sugestii inteligente pre-structurate cu suport adaptiv direct corespunzător la tiparul ascultătorului din acțiunea sesiunii vizate.",
+      "discoverTitle": "Zona cu noutăți, de unde explorezi opțiunile pe Discovery (Descoperă).",
+      "discoverDesc": "Descoperă noi variante acustice și propuneri muzicale personalizat modelate datorită integrării unui program de studiu și aliniere temporal-muzical din sesiunile memorate/înregistrate-istoricul vizitelor personale de ascultare - sau de set complet preferențial format/artist cu portofoliul setat cu o funcție favorită la nivel de secțiune pe playlist (sau repertoriu preferințe cu piese alese).",
+      "tooltipsTitle": "Notificări Informative Grafice pentru Butoanele Interacționare pe Afișajul Dinamic (Tip Căutare a barei Tooltip Dinamice sau Tooltips Seek-bar).",
+      "tooltipsDesc": "Introduse pentru a deservi acțiunea interacționării elemente cu suport afișaj vizual grafic dinamic/adaptiv ce vizează direcția acută prin urmare fluent-completă și constant perfect proporțională a indicatorului la cursorul tău hardware (Maus) la starea de așezare pe panoul cu banda derulantă temporală a player-ului sau ecran (bara de afișaj derulare curs).",
+      "startup": "Rețea structurată care acționează la prima execuție printr-o operație ultra-agilă (Viteze accelerată pornire).",
+      "recovery": "Recuperarea setului media (Restaurare din reluare playback).",
+      "macosMedia": "Componentă operare ce deservesc operațiile și instrumentar-ul controlor de nivel-avansat din macOS pe aria elementelor de gestionare Media.",
+      "duplicateMedia": "Eliminată anomalia afișajelor multiplicatoare care vizau un mediu de control Media de MacOS înregistrate și dublate structural-deficitar.",
+      "stationHighlight": "Marker distinct luminos pe setările curente cu referințe al pieselor-audio ce activează la interconectare pe mod panou cu Post-Radio Media Station active (Iluminare).",
+      "seekbarPause": "Rulare fragment audio (playback control), declinări la o închidere defectuoasă spontană-nedorită sau pauze în redare ce afectau funcția sau buton de trasare la acționare de reglare derularea interval timpi (Drag Seek-Bar) a sunetului cu o apariție deranjantă.",
+      "bottomBar": "Panou de la bază dintr-un fundal la baza vizuală aferent afișajelor inferioare player care afișează conținut cu seturi sau texte imposibil clar descifrate de un vizual complet ne-calibrat (total opacizate transparent) atunci cand procesele sonore (Pornire Muzică/Muzică Media rulată la execuția pieselor) la activări-redări curente pe macOS acționau pe platforme cu stări opace."
+    },
+    "v1_0_0": {
+      "version": "v1_0_0",
+      "date": "Septembrie 2026",
+      "desc": "Setul pionier cu caracter operațional și de primă fază al programării oficial-valabile pentru varianta de platformă (Prima Lansare a Proiectului - PPPlayer 1.0).",
+      "spotify": "Componentele sau detaliile descriptive care ghidează metadatele sau titlu piese cu suport și aport tehnic prin API conectat pe ramură sau furnizori (Sursa Muzicală) la platformă de brand de pe rețea dinspre Spotify API Integrat",
+      "youtube": "Rulaj sau rulare din funcția video cu conversie cu sunet și motorul din spatele acționării care utilizează puterea de transmisie platformă rețea la server al afișajului și prelucrare-funcții video de rețea sau canalizare via serviciul de suport vizual prin YouTube",
+      "playlists": "Liste de ascultări prestabilite (Liste Playlist-uri personale), repertorii/piesă salvate ca marcate favorite/opțiune favorit/Favorite Tracks și Jurnal istoric de sesiuni al asculătorului a activităților parcurse auditive sau istoric cronologie-audiție general",
+      "platforms": "O implementare de compatibilitate complet funcțională al softului/sistem sau variantelor funcționale (MacOS, Sisteme Windows OS alături de compatibilitatea Linux/Platformă de Operare Media)."
+    }
+  },
+  "support": {
+    "title": "Asistență",
+    "subtitle": "Cum te putem ajuta?",
+    "contactTitle": "Contactează-ne",
+    "contactDesc": "Pentru întrebări generale, parteneriate sau întrebări care nu sunt potrivite pentru GitHub, nu ezitați să ne contactați la contact@ppplayer.com.",
+    "githubTitle": "Comunitate și GitHub",
+    "githubDesc": "Explorați codul sursă, raportați o eroare, sugerați o caracteristică nouă sau contribuiți cu îmbunătățiri de cod și traduceri. Alăturați-vă echipei noastre în dezvoltarea playerului media suprem cu sursă deschisă.",
+    "githubBtn": "Vedeți pe GitHub"
+  },
+  "openSource": {
+    "badge": "Gratuit și open-source",
+    "title": "Creat de comunitate. Dedicat comunității.",
+    "desc": "Suntem mândri că PPPlayer este un proiect cu sursă deschisă. Analizați codul, semnalați posibilele nereguli, sugerați noi opțiuni sau contribuiți direct adăugând propriul cod. Cu fiecare contribuție adusă, ascultatul devine mai bun pentru noi toți.",
+    "source": "Vizualizați codul sursă pe GitHub",
+    "contribute": "Participați și Contribuiți",
+    "issues": "Raportați o Problemă",
+    "license": "Licență de tip MIT"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Știri, actualizări și povești de la echipa PPPlayer.",
+    "readMore": "Citiți articolul",
+    "minRead": "minute de lectură",
+    "publishedOn": "Publicat pe",
+    "back": "← Înapoi la Blog",
+    "noArticles": "Nu au fost găsite articole pentru această limbă.",
+    "writtenBy": "De către",
+    "translationUnavailable": "Acest articol nu este disponibil în limba dvs.",
+    "advertisements": "Reclame",
+    "categories": {
+      "all": "Toate",
+      "discovery": "Descoperire",
+      "engineering": "Tehnic",
+      "community": "Comunitate",
+      "guides": "Ghiduri",
+      "education": "Educație",
+      "product": "Produs"
+    }
+  }
+}

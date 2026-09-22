@@ -1,0 +1,592 @@
+{
+  "metadata": {
+    "homeTitle": "PPPlayer | Gratis & Open-Source Mediaspeler",
+    "homeDesc": "Een gratis, open-source mediaspeler. Geen account. Geen abonnement. Gewoon afspelen.",
+    "downloadTitle": "Download PPPlayer Gratis",
+    "downloadDesc": "Een gratis, open-source mediaspeler. Geen account. Geen abonnement. Gewoon afspelen.",
+    "privacyTitle": "Privacybeleid",
+    "privacyDesc": "Privacybeleid voor PPPlayer: gratis media-app voor macOS, Linux, Windows, iOS en Android.",
+    "termsTitle": "Servicevoorwaarden",
+    "termsDesc": "Servicevoorwaarden voor PPPlayer: gratis media-app voor macOS, Linux, Windows, iOS en Android.",
+    "supportTitle": "Ondersteuning - PPPlayer",
+    "supportDesc": "PPPlayer is een onafhankelijk, open-source project. Gebruik GitHub voor bugs en ideeën voor nieuwe functies. Voor andere vragen kun je mailen naar contact@ppplayer.com.",
+    "blogTitle": "Blog | PPPlayer",
+    "blogDesc": "Nieuws, updates en verhalen van het PPPlayer-team."
+  },
+  "nav": {
+    "features": "Functies",
+    "download": "Gratis Downloaden",
+    "support": "Ondersteuning",
+    "contribute": "Bijdragen",
+    "blog": "Blog"
+  },
+  "footer": {
+    "desc": "Een gratis, open-source mediaspeler. Geen account. Geen abonnement. Gewoon afspelen.",
+    "product": "Product",
+    "features": "Functies",
+    "download": "Downloaden",
+    "platforms": "Platformen",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "social": "Sociaal",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "github": "GitHub",
+    "legal": "Juridisch",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "copyright": "© {year} PPPlayer Music.",
+    "source": "Bekijk broncode op GitHub",
+    "contribute": "Bijdragen",
+    "changelog": "Changelog",
+    "linux": "Linux",
+    "blog": "Blog"
+  },
+  "cookie": {
+    "title": "Wij hechten waarde aan je privacy",
+    "desc": "Wij gebruiken cookies om het websiteverkeer te analyseren en je ervaring te verbeteren. Door op \"Accepteren\" te klikken, ga je akkoord met ons gebruik van cookies.",
+    "decline": "Alles Weigeren",
+    "accept": "Alles Accepteren"
+  },
+  "hero": {
+    "title1": "Media.",
+    "title2": "Zonder wrijving.",
+    "desc": "Een gratis, open-source mediaspeler. Geen account. Geen abonnement. Gewoon afspelen.",
+    "getIos": "iOS (TestFlight)",
+    "getAndroid": "Downloaden voor Android",
+    "getMac": "Downloaden voor Mac",
+    "getWindows": "Downloaden voor Windows",
+    "getLinux": "Linux (Experimenteel)",
+    "badge": "Gratis & open source",
+    "source": "Bekijk broncode op GitHub"
+  },
+  "discover": {
+    "title": "Vind<br></br>iets<br></br>om naar te luisteren."
+  },
+  "artistRadio": {
+    "title": "Eindeloos luisteren."
+  },
+  "goDeeper": {
+    "bgText": "VOLGEN",
+    "title": "Volg de muziek."
+  },
+  "pressPlay": {
+    "title": "Druk op play. Luister."
+  },
+  "featureGallery": {
+    "title": "Alles wat je nodig hebt.",
+    "subtitle": "Een prachtige, native ervaring gebouwd voor prestaties.",
+    "searchTitle": "Vind precies wat je zoekt.",
+    "searchDesc": "Zoek wereldwijd onmiddellijk in nummers, artiesten, albums en lokale video's.",
+    "queueTitle": "Perfect in de wachtrij.",
+    "queueDesc": "Beheer wat er hierna wordt afgespeeld met een prachtige wachtrij die je zelf kunt indelen.",
+    "favTitle": "Jouw media, jouw regels.",
+    "favDesc": "Bouw je persoonlijke bibliotheek met één klik. Altijd daar.",
+    "contextTitle": "Native van ontwerp.",
+    "contextDesc": "Klik overal met de rechtermuisknop. Prachtige, contextgevoelige native menu's.",
+    "videoTitle": "Lokaal Video Afspelen.",
+    "videoDesc": "Speel lokale videobestanden offline af met ondertitels, PiP en Passend/Vullen. Formaatondersteuning varieert per platform.",
+    "streamsTitle": "Netwerk Streaming.",
+    "streamsDesc": "Stream M3U/PLS-afspeellijsten en compatibele URL's. YouTube gebruikt een ingesloten speler. Niet alle video's van derden kunnen worden afgespeeld."
+  },
+  "noAccount": {
+    "title": "Geen account.",
+    "subtitle": "Gratis & open source"
+  },
+  "platforms": {
+    "title": "Jouw muziek. Jouw apparaten.",
+    "subtitle": "Prachtig native op macOS, Linux, Windows, Android en iOS."
+  },
+  "downloadCTA": {
+    "title": "Gewoon afspelen.",
+    "getIos": "Downloaden voor iOS",
+    "getAndroid": "Downloaden voor Android",
+    "getMac": "Downloaden voor Mac",
+    "getWindows": "Downloaden voor Windows",
+    "notAvailable": "Nog niet beschikbaar. Momenteel kan alleen de macOS-versie worden gedownload.",
+    "notAvailableTitle": "Binnenkort beschikbaar",
+    "okayBtn": "Oké",
+    "getLinux": "Downloaden voor Linux",
+    "modalTitle": "Downloaden voor {platform}",
+    "modalDesc": "Kies hoe je PPPlayer wilt installeren op je {platform}-apparaat.",
+    "primaryDownload": "Downloaden",
+    "directDownload": "Directe Download",
+    "comingSoon": "Binnenkort beschikbaar",
+    "cancel": "Annuleren",
+    "downloadFor": "Downloaden voor {platform}",
+    "os": "Besturingssysteem",
+    "arch": "Architectuur",
+    "memory": "Geheugen",
+    "internet": "Internet",
+    "reqStreaming": "Vereist voor streaming",
+    "reqTitle": "Vereisten voor {platform}",
+    "reqs": {
+      "macos": {
+        "os": "macOS 10.15 Catalina of nieuwer",
+        "arch": "Apple Silicon & Intel (Universal)",
+        "mem": "4 GB RAM (Aanbevolen)"
+      },
+      "windows": {
+        "os": "Windows 10 of nieuwer (64-bit)",
+        "arch": "x64",
+        "mem": "4 GB RAM (Aanbevolen)"
+      },
+      "linux": {
+        "os": "Ubuntu 20.04 of nieuwer (Experimenteel)",
+        "arch": "x86_64",
+        "mem": "4 GB RAM (Aanbevolen)"
+      },
+      "ios": {
+        "os": "iOS 13.0 of nieuwer",
+        "arch": "ARM64",
+        "mem": "2 GB RAM (Aanbevolen)"
+      },
+      "android": {
+        "os": "Android 7.0 (API 24) of nieuwer",
+        "arch": "ARM64 / ARM / x86_64",
+        "mem": "2 GB RAM (Aanbevolen)"
+      }
+    }
+  },
+  "downloadPage": {
+    "badge": "PPPlayer 1.0 is nu beschikbaar",
+    "title": "Download <gradient>PPPlayer</gradient>",
+    "subtitle": "Kies je platform. Begin met luisteren in enkele seconden.",
+    "desc": "Geen account vereist. Geen e-mail. Geen aanmelding. Gewoon afspelen.",
+    "windowsReqLabel": "Systeemvereisten voor Windows:",
+    "windowsReqDesc": "Windows 10 of nieuwer (64-bit). ~50 MB download. Geen Microsoft Store vereist."
+  },
+  "faq": {
+    "badge": "Veelgestelde vragen",
+    "title": "Veelgestelde <gradient>vragen</gradient>",
+    "subtitle": "Alles wat je moet weten over PPPlayer.",
+    "items": [
+      {
+        "q": "Is PPPlayer gratis?",
+        "a": "Ja. PPPlayer is 100% gratis. Geen abonnementen, geen in-app aankopen en geen verborgen kosten."
+      },
+      {
+        "q": "Moet ik een account aanmaken?",
+        "a": "Nee. Je hebt geen e-mailadres, account of login nodig. Gewoon downloaden, openen en beginnen met luisteren."
+      },
+      {
+        "q": "Is PPPlayer beschikbaar voor iPhone?",
+        "a": "PPPlayer voor iOS is momenteel in ontwikkeling. We werken actief aan een release in de App Store."
+      },
+      {
+        "q": "Is PPPlayer beschikbaar voor Android?",
+        "a": "PPPlayer voor Android is momenteel in ontwikkeling. We werken actief aan een release in de Google Play Store."
+      },
+      {
+        "q": "Kan ik PPPlayer op Windows gebruiken?",
+        "a": "Ja. PPPlayer is beschikbaar voor Windows 10 en nieuwer als directe download. Geen store vereist."
+      },
+      {
+        "q": "Welke functies biedt PPPlayer?",
+        "a": "PPPlayer bevat lokale muziek- en videobibliotheken, netwerkstreams, ondertitels, het ontdekken van artiesten, gerelateerde artiesten, artiestenradio, artiestenafspeellijsten, het verkennen van genres en een prachtige mediaspeler in volledig scherm. Het is allemaal gratis, en er is geen account vereist."
+      },
+      {
+        "q": "Hoe download ik PPPlayer?",
+        "a": "Je kunt PPPlayer direct downloaden vanaf onze website voor macOS, Linux en Windows. Mobiele versies komen binnenkort."
+      },
+      {
+        "q": "Is er een premium versie?",
+        "a": "Nee. PPPlayer is volledig gratis. Alles wat je ziet is kosteloos beschikbaar, zonder account."
+      },
+      {
+        "q": "Welke mediaformaten worden ondersteund?",
+        "a": "PPPlayer ondersteunt bijna alle audio- en videoformaten, waaronder MP3, FLAC, MP4, MKV en AVI. Het ondersteunt ook netwerkstreams en M3U/M3U8-afspeellijsten."
+      },
+      {
+        "q": "Zijn er speciale vereisten voor het instellen van video?",
+        "a": "Op Windows, macOS, Android en iOS werkt PPPlayer direct na installatie. Op Linux moet je mogelijk standaard mediabibliotheken (zoals libmpv) installeren, afhankelijk van je distributie."
+      }
+    ],
+    "openSourceQuestion": "Is PPPlayer open source?",
+    "openSourceAnswer": "Ja. PPPlayer is 100% open-source onder de MIT-licentie. Je kunt de software vrij gebruiken, bestuderen, aanpassen en delen. Bekijk onze GitHub-repository om de broncode te bekijken of om mee te helpen."
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "lastUpdated": "Laatst bijgewerkt: April 2025",
+    "sections": {
+      "s1": {
+        "title": "1. Overzicht",
+        "p": "PPPlayer (\"wij\", \"ons\", \"de app\") zet zich in om je privacy te beschermen. Dit beleid legt uit welke gegevens we verzamelen, waarom en hoe deze worden gebruikt wanneer je PPPlayer op macOS, Linux, Windows, iOS of Android gebruikt."
+      },
+      "s2": {
+        "title": "2. Geen Account Vereist",
+        "p": "PPPlayer vereist niet dat je een account aanmaakt. We verzamelen geen naam, e-mailadres of andere persoonlijk identificeerbare informatie om de app te gebruiken."
+      },
+      "s3": {
+        "title": "3. Gegevens die we verzamelen",
+        "p1": "We kunnen de volgende anonieme, niet-identificeerbare gegevens verzamelen:",
+        "li1": "Crashrapporten en foutenlogboeken (om de app-stabiliteit te verbeteren)",
+        "li2": "Anonieme gebruiksanalyses (gebruik van functies, sessieduur)",
+        "li3": "Apparaattype en versie van besturingssysteem",
+        "p2": "We verzamelen geen: namen, e-mails, betalingsgegevens of exacte locatiegegevens."
+      },
+      "s4": {
+        "title": "4. Diensten van Derden",
+        "p": "PPPlayer kan diensten van derden gebruiken voor muziekmetadata en analyses. Deze diensten hebben hun eigen privacybeleid. We raden je aan deze te bekijken."
+      },
+      "s5": {
+        "title": "5. Bewaren van Gegevens",
+        "p": "Anonieme analytische gegevens worden maximaal 12 maanden bewaard. Crashlogs worden na 90 dagen verwijderd."
+      },
+      "s6": {
+        "title": "6. Jouw Rechten",
+        "p": "Omdat we geen persoonlijke gegevens verzamelen, is er geen persoonlijke informatie om te openen, exporteren of verwijderen. Als je vragen hebt, neem dan contact met ons op via onderstaand adres."
+      },
+      "s7": {
+        "title": "7. Kinderen",
+        "p": "PPPlayer is niet gericht op kinderen jonger dan 13 jaar. We verzamelen niet bewust gegevens van kinderen."
+      },
+      "s8": {
+        "title": "8. Wijzigingen",
+        "p": "We kunnen dit beleid van tijd tot tijd bijwerken. We zullen de datum van de laatste update bovenaan deze pagina vermelden."
+      },
+      "s9": {
+        "title": "9. Contact",
+        "p": "Vragen over dit beleid? Neem contact met ons op via "
+      }
+    },
+    "back": "← Terug naar PPPlayer"
+  },
+  "terms": {
+    "title": "Servicevoorwaarden",
+    "lastUpdated": "Laatst bijgewerkt: 11 september 2026",
+    "sections": {
+      "s1": {
+        "title": "1. Acceptatie van Voorwaarden",
+        "p": "Door PPPlayer te downloaden of te gebruiken, ga je akkoord met deze Servicevoorwaarden. Als je niet akkoord gaat, gebruik de app dan niet."
+      },
+      "s2": {
+        "title": "2. Gebruik van de App",
+        "p": "PPPlayer is gratis, open-source software. Gebruik, kopiëren, wijziging en distributie van de software vallen onder de MIT-licentie in de projectrepository. Door de app te gebruiken, stem je ermee in om niet:",
+        "li1": "Auteursrecht- of toestemmingskennisgevingen te verwijderen die vereist zijn door de toepasselijke softwarelicenties",
+        "li2": "De app te gebruiken om malware of schadelijke inhoud te verspreiden",
+        "li3": "Enige toepasselijke wet- of regelgeving te schenden tijdens het gebruik van de app"
+      },
+      "s3": {
+        "title": "3. Geen Account Vereist",
+        "p": "PPPlayer vereist geen accountaanmaak. Je kunt direct na het downloaden alle functies gebruiken."
+      },
+      "s4": {
+        "title": "4. Intellectueel Eigendom",
+        "p": "De broncode van PPPlayer is beschikbaar onder de MIT-licentie. Afhankelijkheden van derden behouden hun eigen licenties. Muziek, artwork en metadata blijven onderworpen aan hun respectieve rechten en licenties; de softwarelicentie verleent geen rechten op die inhoud."
+      },
+      "s5": {
+        "title": "5. Afwijzing van Garanties",
+        "p": "PPPlayer wordt \"as is\" aangeboden zonder enige vorm van garantie, expliciet of impliciet. We garanderen geen ononderbroken service of dat de app vrij is van fouten."
+      },
+      "s6": {
+        "title": "6. Beperking van Aansprakelijkheid",
+        "p": "Voor zover maximaal is toegestaan door de wet, is PPPlayer niet aansprakelijk voor enige indirecte, incidentele, speciale of gevolgschade die voortvloeit uit jouw gebruik of onvermogen om de app te gebruiken."
+      },
+      "s7": {
+        "title": "7. Wijzigingen in de Voorwaarden",
+        "p": "We behouden ons het recht voor om deze voorwaarden op elk moment bij te werken. Voortgezet gebruik van de app na wijzigingen betekent acceptatie van de nieuwe voorwaarden."
+      },
+      "s8": {
+        "title": "8. Contact",
+        "p": "Vragen over deze voorwaarden? Bereik ons via "
+      }
+    },
+    "back": "← Terug naar PPPlayer"
+  },
+  "platformCards": {
+    "ios": {
+      "name": "iOS",
+      "label": "iPhone & iPad",
+      "desc": "Binnenkort beschikbaar in TestFlight en de App Store voor iPhone en iPad.",
+      "badge": "TestFlight"
+    },
+    "android": {
+      "name": "Android",
+      "label": "Android",
+      "desc": "Beschikbaar op Google Play voor Android-telefoons en tablets.",
+      "badge": "Google Play"
+    },
+    "windows": {
+      "name": "Windows",
+      "label": "Windows 10+",
+      "desc": "Download voor Windows 10 en nieuwer vanuit de Microsoft Store.",
+      "badge": "Microsoft Store"
+    },
+    "macos": {
+      "name": "macOS",
+      "label": "Mac",
+      "desc": "Directe download voor macOS. Ondersteuning voor Apple Silicon & Intel.",
+      "badge": "Directe Download"
+    },
+    "linux": {
+      "name": "Linux",
+      "label": "Linux",
+      "desc": "Experimentele directe download voor Linux. Hardwareversnelling kan variëren.",
+      "badge": "Experimenteel"
+    }
+  },
+  "changelog": {
+    "v2_0_0": {
+      "version": "2.0.0",
+      "date": "20 september 2026",
+      "desc": "Een enorme grote update die PPPlayer transformeert in een volledige mediaspeler met ondersteuning voor video en netwerkstreaming.",
+      "added": "Toegevoegd",
+      "changed": "Gewijzigd",
+      "fixed": "Opgelost",
+      "videoTitle": "Ondersteuning voor Lokale Video",
+      "videoDesc": "Ondersteuning voor complete lokale videobibliotheek en videoweergave, inclusief bedieningselementen en automatische generatie van thumbnails.",
+      "streamTitle": "Netwerk Streaming",
+      "streamDesc": "Native ondersteuning voor netwerkstreams met het inlezen van M3U-afspeellijsten en directe URL-resolutie.",
+      "subtitleTitle": "Geavanceerde Ondertitels",
+      "subtitleDesc": "Uitgebreide ondersteuning voor ondertiteling, inclusief aanpassingsmogelijkheden, het aanpassen van de vertraging en een intuïtieve interface voor selectie.",
+      "speedTitle": "Afspeelsnelheid & Autoplay",
+      "speedDesc": "Flexibele regelaars voor afspeelsnelheid toegevoegd en een eenvoudig toegankelijke autoplay-schakelaar direct in de wachtrijweergave.",
+      "exportTitle": "Media Exporteren",
+      "exportDesc": "Exporteer moeiteloos uw aangepaste afspeellijsten en afspeelwachtrijen naar uw lokale apparaat.",
+      "languagesTitle": "Nieuwe Talen & Genres",
+      "languagesDesc": "Officiële Turkse en Guarani lokalisaties toegevoegd, evenals ondersteuning voor het lokaal bladeren door genres.",
+      "stabilityTitle": "Vernieuwing in de Kern",
+      "stabilityDesc": "De architectuur van de kernafspeelengine is volledig herzien voor verbeterde stabiliteit, het ondersteunen van aangepaste HTTP-headers en een strikte afhandeling van timeouts."
+    },
+    "title": "Changelog",
+    "subtitle": "Wat is er nieuw in PPPlayer.",
+    "v1_3_6": {
+      "version": "2.0.0",
+      "date": "17 september 2026",
+      "desc": "Officiële Android release in de Google Play Store.",
+      "added": "Toegevoegd",
+      "androidTitle": "Android Release",
+      "androidDesc": "Initiële testrelease voor Android-apparaten. Ondersteuning voor mobiele apparaten is actief in ontwikkeling."
+    },
+    "v1_3_5": {
+      "version": "1.3.5",
+      "date": "16 september 2026",
+      "desc": "Verbeteringen in het bibliotheekscherm en responsieve aanpassingen.",
+      "added": "Toegevoegd",
+      "fixed": "Opgelost",
+      "libraryTitle": "Updates Bibliotheekscherm",
+      "libraryDesc": "Verbeteringen aan het bibliotheekscherm doorgevoerd en problemen met de responsiviteit van kaarten opgelost."
+    },
+    "v1_3_4": {
+      "version": "1.3.4",
+      "date": "15 september 2026",
+      "desc": "Picture-in-Picture-ondersteuning, native splashscreens en meer.",
+      "added": "Toegevoegd",
+      "fixed": "Opgelost",
+      "pipTitle": "Picture-in-Picture Afspelen",
+      "pipDesc": "Ondersteuning voor Picture-in-Picture (PiP) afspelen en responsieve navigatie toegevoegd.",
+      "splashTitle": "Native Splashscreens & Adaptieve Icoontjes",
+      "splashDesc": "Native splashscreens en adaptieve app-iconen toegevoegd voor Android, iOS en Web.",
+      "uiTitle": "UI Aanpassingen",
+      "uiDesc": "Plaatsing van mini-speler gecorrigeerd zodat deze goed aansluit bij de rechterrand van het scherm."
+    },
+    "v1_3_3": {
+      "version": "1.3.3",
+      "date": "14 september 2026",
+      "desc": "Geautomatiseerde builds en workflow verbeteringen.",
+      "added": "Toegevoegd",
+      "ciTitle": "Geautomatiseerde Workflows",
+      "ciDesc": "GitHub Actions workflows toegevoegd voor geautomatiseerde multi-platform builds."
+    },
+    "v1_3_2": {
+      "version": "1.3.2",
+      "date": "14 september 2026",
+      "desc": "Synchronisatie van systeemmediabediening en kernfuncties.",
+      "added": "Toegevoegd",
+      "syncTitle": "Synchronisatie van Systeem Media Controls",
+      "syncDesc": "MediaSyncService geïntroduceerd om de afspeelstatus te synchroniseren met systeemmediabediening, waaronder de Windows-taakbalk thumbnail toolbar.",
+      "libraryTitle": "Bibliotheek Filteren & Zoeken",
+      "libraryDesc": "Mogelijkheden toegevoegd voor filteren, sorteren en zoeken aan het bibliotheekscherm."
+    },
+    "v1_3_1": {
+      "version": "1.3.1",
+      "date": "14 september 2026",
+      "desc": "100% vertaalgelijkheid bereikt en UI bugs opgelost.",
+      "added": "Toegevoegd",
+      "fixed": "Opgelost",
+      "syncTitle": "Volledige Lokalisatie Gelijkheid",
+      "syncDesc": "Vertaalsleutels gesynchroniseerd en handmatig gecureerde vertalingen toegepast op alle 30 talen.",
+      "uiTitle": "Oplossingen in de UI en Links",
+      "uiDesc": "Const errors in widgets verholpen op het Startscherm en in de Bibliotheek, en links naar de GitHub repository gerepareerd in het Over-dialoogvenster."
+    },
+    "v1_3_0": {
+      "version": "1.3.0",
+      "date": "13 september 2026",
+      "desc": "Deze release brengt PPPlayer naar een nog groter wereldwijd publiek.",
+      "added": "Toegevoegd",
+      "localizationTitle": "Aanvullende Talen",
+      "localizationDesc": "Lokalisaties toegevoegd voor Nigeriaans Pidgin, Filipijns, Lets, Bengaals, Kroatisch, Maleis, Perzisch en Ests."
+    },
+    "back": "← Terug naar PPPlayer",
+    "v1_2_0": {
+      "version": "v1.2.0",
+      "date": "12 september 2026",
+      "desc": "Lokalisatie ondersteuning uitgebreid met 10 nieuwe talen.",
+      "added": "Toegevoegd",
+      "fixed": "Opgelost",
+      "lang10Title": "10 Nieuwe Talen",
+      "lang10Desc": "Volledige ondersteuning toegevoegd voor Indonesisch, Birmees, Pools, Deens, Kazachs, Tsjechisch, Hongaars, Georgisch, Zweeds en Oezbeeks."
+    },
+    "v1_1_2": {
+      "version": "v1.1.2",
+      "date": "12 september 2026",
+      "desc": "Arabische en Chinese lokalisaties toegevoegd en herschalingsbugs in macOS opgelost.",
+      "added": "Toegevoegd",
+      "fixed": "Opgelost",
+      "localizationTitle": "Uitbreiding Lokalisaties",
+      "localizationDesc": "Lokalisaties voor Arabisch en Chinees (Vereenvoudigd & Traditioneel) toegevoegd.",
+      "layoutTitle": "Fix in macOS Layout",
+      "layoutDesc": "Probleem opgelost in macOS waarbij de YouTube videospeler niet in het midden bleef bij het aanpassen van de grootte van het toepassingsvenster."
+    },
+    "v1_1_1": {
+      "version": "v1.1.1",
+      "date": "12 september 2026",
+      "desc": "Afspeelbugs opgelost en de zoekbalk verfijnd bij het starten van de app.",
+      "fixed": "Opgelost",
+      "snapTitle": "Bug in de Zoekbalk bij Opstarten",
+      "snapDesc": "Probleem verholpen waarbij de zoekbalk direct terugsprong naar het begin wanneer deze onmiddellijk na het starten van de app werd verschoven.",
+      "durationTitle": "Ontbrekende Afspeelduur",
+      "durationDesc": "De zoekbalk die een duur van 0:00 toonde bij de eerste lancering van de app, is hersteld."
+    },
+    "v1_1_0": {
+      "version": "v1.1.0",
+      "date": "11 september 2026",
+      "desc": "Uitgebreide internationalisering en lokalisatie over de hele app en website.",
+      "new": "Toegevoegd",
+      "langTitle": "11 Wereldwijde Talen",
+      "langDesc": "Volledige ondersteuning toegevoegd voor Spaans, Frans, Duits, Portugees, Italiaans, Japans, Koreaans, Chinees, Hindi, Russisch en Arabisch.",
+      "pickerTitle": "In-App Taalkiezer",
+      "pickerDesc": "Een taalkiezer binnen de app toegevoegd aan het Voorkeuren menu dat vertalingen direct toepast zonder de app te herstarten.",
+      "osTitle": "Integratie op OS-niveau",
+      "osDesc": "Integratie van moedertaal op OS-niveau op Android 13+ en iOS om de app-taal automatisch te synchroniseren."
+    },
+    "v1_0_6": {
+      "version": "v1_0_6",
+      "date": "11 september 2026",
+      "desc": "Hotfix voor schone installaties.",
+      "fixed": "Opgelost",
+      "crashTitle": "Oplossing voor Crash bij Opstarten",
+      "crashDesc": "Ernstige bug gerepareerd die ervoor zorgde dat de app crashte op een leeg scherm bij nieuwe installaties, vanwege het ontbreken van een configuratiebestand voor de omgeving."
+    },
+    "v1_0_5": {
+      "version": "v1_0_5",
+      "date": "11 september 2026",
+      "desc": "Naadloos afspelen in de achtergrond op macOS.",
+      "new": "Nieuw",
+      "fixed": "Opgelost",
+      "appNapTitle": "Onafgebroken Afspelen op Achtergrond",
+      "appNapDesc": "Voorkomen dat macOS App Nap de speler agressief opschortte wanneer geminimaliseerd, zodat de wachtrij ononderbroken door kan spelen."
+    },
+    "v1_0_4": {
+      "version": "v1_0_4",
+      "date": "11 september 2026",
+      "desc": "Geautomatiseerde releases en code signing.",
+      "new": "Nieuw",
+      "fixed": "Opgelost",
+      "ciTitle": "Geautomatiseerde Release Pipeline",
+      "ciDesc": "GitHub Actions-workflow voor consistente builds en macOS code-ondertekening.",
+      "signedTitle": "Ondertekende macOS Releases",
+      "signedDesc": "Officiële ondertekende en notarieel vastgelegde macOS releases zijn nu direct op de website beschikbaar.",
+      "licenseTitle": "Open Source Licentie",
+      "licenseDesc": "De MIT-licentie toegevoegd aan de broncode.",
+      "submoduleFix": "Submodule checkout configuratie in de CI-workflows is hersteld"
+    },
+    "v1_0_3": {
+      "version": "v1_0_3",
+      "date": "10 september 2026",
+      "desc": "Achtergrond afspelen en stabiliteit.",
+      "new": "Nieuw",
+      "improved": "Verbeterd",
+      "fixed": "Opgelost",
+      "hybridEngineTitle": "Hybride Afspeel Engine",
+      "hybridEngineDesc": "Krachtige verwerking op de achtergrond en mogelijkheden voor weergave op het vergrendelscherm.",
+      "dedupTitle": "Opheffen van Dubbele Opdrachten",
+      "dedupDesc": "Identificatie-ID's voor generaties toegevoegd om overlappende en verouderde mediaopdrachten via de WebView-bridge te voorkomen.",
+      "queueAdvance": "De nummers in de wachtrij gingen niet automatisch over naar het volgende nummer",
+      "resumeBug": "Gepauzeerd nummer werd onverwacht hervat bij het overschakelen van voorgrond naar PiP of de achtergrond",
+      "precision": "Nauwkeurige rapportage in milliseconden voor de huidige positie en speelduur van een nummer",
+      "linter": "Verschillende IDE linterfouten verwijderd en overtollige bestanden opgeruimd"
+    },
+    "v1_0_2": {
+      "version": "v1_0_2",
+      "date": "9 september 2026",
+      "desc": "Slimmere, contextgebaseerde autoplay.",
+      "autoplayContextTitle": "Context-gebaseerd Autoplay",
+      "autoplayContextDesc": "Autoplay geeft nu prioriteit aan nummers van de huidige artiest voordat gerelateerde artiesten aan de wachtrij worden toegevoegd.",
+      "tieredRecsTitle": "Gelaagde Aanbevelingsengine",
+      "tieredRecsDesc": "Aanbevelingen gebruiken nu strikt de catalogus van de gerichte artiest, in plaats van onnauwkeurige zoekopdrachten op naam te doen."
+    },
+    "v1_0_1": {
+      "version": "v1_0_1",
+      "date": "9 september 2026",
+      "desc": "Een betere luisterervaring.",
+      "new": "Nieuw",
+      "improved": "Verbeterd",
+      "fixed": "Opgelost",
+      "autoplayTitle": "Autoplay",
+      "autoplayDesc": "Muziek blijft doorspelen met suggesties op basis van wat je aan het beluisteren bent.",
+      "discoverTitle": "Ontdekken",
+      "discoverDesc": "Vind muziek op basis van je luistergeschiedenis, en je favoriete artiesten en afspeellijsten.",
+      "tooltipsTitle": "Interactieve Schuifbalk-Tooltips",
+      "tooltipsDesc": "Dynamische tooltips toegevoegd die de muis perfect volgen bij het zweven over de voortgangsbalk van de speler.",
+      "startup": "Sneller opstarten",
+      "recovery": "Beter herstel van het afspelen",
+      "macosMedia": "Mediabediening op macOS is geoptimaliseerd",
+      "duplicateMedia": "Dubbele mediabediening op macOS verholpen",
+      "stationHighlight": "Benadrukken van het actieve nummer voor zenders",
+      "seekbarPause": "Het onbedoeld pauzeren/stoppen van het afspelen bij het verschuiven van de afspeelbalk is verholpen",
+      "bottomBar": "De onderste bedieningsbalk werd tijdens het spelen van muziek op macOS volledig transparant en onleesbaar"
+    },
+    "v1_0_0": {
+      "version": "v1_0_0",
+      "date": "September 2026",
+      "desc": "De allereerste uitgave van PPPlayer.",
+      "spotify": "Muziek metadata aangedreven door Spotify",
+      "youtube": "Audio afspelen aangedreven door YouTube",
+      "playlists": "Afspeellijsten, favorieten en luistergeschiedenis",
+      "platforms": "Ondersteuning voor macOS, Windows en Linux"
+    }
+  },
+  "support": {
+    "title": "Ondersteuning",
+    "subtitle": "Hoe kunnen we je helpen?",
+    "contactTitle": "Neem Contact Op",
+    "contactDesc": "Voor algemene vragen, samenwerkingen of vragen die niet geschikt zijn voor GitHub, kun je contact met ons opnemen via contact@ppplayer.com.",
+    "githubTitle": "Community & GitHub",
+    "githubDesc": "Verken de code, meld een bug, stel een functie voor of draag code en vertalingen bij. Bouw met ons mee aan de ultieme open-source mediaspeler.",
+    "githubBtn": "Bekijk op GitHub"
+  },
+  "openSource": {
+    "badge": "Gratis & open source",
+    "title": "Door de community. Voor de community.",
+    "desc": "PPPlayer is trots open-source. Verken de codebase, meld problemen, stel functies voor of draag je eigen code bij. Elke bijdrage maakt de luisterervaring beter voor iedereen.",
+    "source": "Bekijk broncode op GitHub",
+    "contribute": "Bijdragen",
+    "issues": "Meld een bug",
+    "license": "MIT-licentie"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Nieuws, updates en verhalen van het PPPlayer-team.",
+    "readMore": "Lees artikel",
+    "minRead": "min lezen",
+    "publishedOn": "Gepubliceerd op",
+    "back": "← Terug naar Blog",
+    "noArticles": "Geen artikelen gevonden voor deze taal.",
+    "writtenBy": "Door",
+    "translationUnavailable": "Dit artikel is niet beschikbaar in jouw taal.",
+    "advertisements": "Advertenties",
+    "categories": {
+      "all": "Alles",
+      "discovery": "Ontdekking",
+      "engineering": "Techniek",
+      "community": "Community",
+      "guides": "Gidsen",
+      "education": "Onderwijs",
+      "product": "Product"
+    }
+  }
+}

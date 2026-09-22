@@ -37,7 +37,13 @@ const languages = [
   { code: 'ms', label: 'Bahasa Melayu', flag: 'my' },
   { code: 'fa', label: 'فارسی', flag: 'ir' },
   { code: 'et', label: 'Eesti', flag: 'ee' },
-  { code: 'gn', label: 'Avañe\'ẽ', flag: 'py' }
+  { code: 'gn', label: 'Avañe\'ẽ', flag: 'py' },
+  { code: 'vi', label: 'Tiếng Việt', flag: 'vn' },
+  { code: 'th', label: 'ไทย', flag: 'th' },
+  { code: 'ur', label: 'اردو', flag: 'pk' },
+  { code: 'uk', label: 'Українська', flag: 'ua' },
+  { code: 'nl', label: 'Nederlands', flag: 'nl' },
+  { code: 'ro', label: 'Română', flag: 'ro' }
 ];
 
 export function LanguageSelector() {
